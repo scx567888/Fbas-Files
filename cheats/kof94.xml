@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10882E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择不知火舞的胸部" default="0">
+        <option desc="关闭"/>
+        <option desc="总是跳">
+            <parameter cpu="0" address="0x10C6E2" value="0x00"/>
+        </option>
+        <option desc="从不跳">
+            <parameter cpu="0" address="0x10C6E2" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108221" value="0xCF"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽所有能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108221" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108219" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="得到最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108219" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1082F0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色卢卡尔 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108231" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108421" value="0xCF"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽所有能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108421" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108419" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="得到最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108419" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1084F0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色卢卡尔 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108431" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="Select Cartridge/NeoGeo Type" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E2" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用卢卡尔 PL1 (修正)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108231" value="0x08"/>
+            <parameter cpu="0" address="0x108171" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E2" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用卢卡尔 PL2 (修正)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108431" value="0x08"/>
+            <parameter cpu="0" address="0x108371" value="0x19"/>
+        </option>
+    </cheat>
+</shufflecheat>
