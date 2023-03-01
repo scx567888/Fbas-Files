@@ -22,90 +22,90 @@
             <parameter cpu="0" address="0x108313" value="0x60"/>
         </option>
     </cheat>
-	<cheat desc="选择游戏角色 (A) PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="疾风">
-			<parameter cpu="0" address="0x1088EC" value="0x00"/>
-		</option>
-		<option desc="鹰">
-			<parameter cpu="0" address="0x1088EC" value="0x01"/>
-		</option>
-		<option desc="牛头">
-			<parameter cpu="0" address="0x1088EC" value="0x02"/>
-		</option>
-		<option desc="马面">
-			<parameter cpu="0" address="0x1088EC" value="0x03"/>
-		</option>
-		<option desc="罗莎">
-			<parameter cpu="0" address="0x1088EC" value="0x04"/>
-		</option>
-		<option desc="金秀一">
-			<parameter cpu="0" address="0x1088EC" value="0x05"/>
-		</option>
-		<option desc="小丑">
-			<parameter cpu="0" address="0x1088EC" value="0x06"/>
-		</option>
-		<option desc="中白虎">
-			<parameter cpu="0" address="0x1088EC" value="0x07"/>
-		</option>
-		<option desc="高顿">
-			<parameter cpu="0" address="0x1088EC" value="0x08"/>
-		</option>
-		<option desc="狮子王">
-			<parameter cpu="0" address="0x1088EC" value="0x09"/>
-		</option>
-		<option desc="#真·狮子王#">
-			<parameter cpu="0" address="0x1088EC" value="0x0A"/>
-		</option>
-		<option desc="#中白虎 (候补)#">
-			<parameter cpu="0" address="0x1088EC" value="0x0B"/>
-		</option>
-		<option desc="#邪头#">
-			<parameter cpu="0" address="0x1088EC" value="0x0C"/>
-		</option>
-	</cheat>
-	<cheat desc="选择游戏角色 (B) PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="疾风">
-			<parameter cpu="0" address="0x1088EE" value="0x00"/>
-		</option>
-		<option desc="鹰">
-			<parameter cpu="0" address="0x1088EE" value="0x01"/>
-		</option>
-		<option desc="牛头">
-			<parameter cpu="0" address="0x1088EE" value="0x02"/>
-		</option>
-		<option desc="马面">
-			<parameter cpu="0" address="0x1088EE" value="0x03"/>
-		</option>
-		<option desc="罗莎">
-			<parameter cpu="0" address="0x1088EE" value="0x04"/>
-		</option>
-		<option desc="金秀一">
-			<parameter cpu="0" address="0x1088EE" value="0x05"/>
-		</option>
-		<option desc="小丑">
-			<parameter cpu="0" address="0x1088EE" value="0x06"/>
-		</option>
-		<option desc="中白虎">
-			<parameter cpu="0" address="0x1088EE" value="0x07"/>
-		</option>
-		<option desc="高顿">
-			<parameter cpu="0" address="0x1088EE" value="0x08"/>
-		</option>
-		<option desc="狮子王">
-			<parameter cpu="0" address="0x1088EE" value="0x09"/>
-		</option>
-		<option desc="#真·狮子王#">
-			<parameter cpu="0" address="0x1088EE" value="0x0A"/>
-		</option>
-		<option desc="#中白虎 (候补)#">
-			<parameter cpu="0" address="0x1088EE" value="0x0B"/>
-		</option>
-		<option desc="#邪头#">
-			<parameter cpu="0" address="0x1088EE" value="0x0C"/>
-		</option>
-	</cheat>
+    <cheat desc="选择游戏角色 (A) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="疾风">
+            <parameter cpu="0" address="0x1088EC" value="0x00"/>
+        </option>
+        <option desc="鹰">
+            <parameter cpu="0" address="0x1088EC" value="0x01"/>
+        </option>
+        <option desc="牛头">
+            <parameter cpu="0" address="0x1088EC" value="0x02"/>
+        </option>
+        <option desc="马面">
+            <parameter cpu="0" address="0x1088EC" value="0x03"/>
+        </option>
+        <option desc="罗莎">
+            <parameter cpu="0" address="0x1088EC" value="0x04"/>
+        </option>
+        <option desc="金秀一">
+            <parameter cpu="0" address="0x1088EC" value="0x05"/>
+        </option>
+        <option desc="小丑">
+            <parameter cpu="0" address="0x1088EC" value="0x06"/>
+        </option>
+        <option desc="中白虎">
+            <parameter cpu="0" address="0x1088EC" value="0x07"/>
+        </option>
+        <option desc="高顿">
+            <parameter cpu="0" address="0x1088EC" value="0x08"/>
+        </option>
+        <option desc="狮子王">
+            <parameter cpu="0" address="0x1088EC" value="0x09"/>
+        </option>
+        <option desc="#真·狮子王#">
+            <parameter cpu="0" address="0x1088EC" value="0x0A"/>
+        </option>
+        <option desc="#中白虎 (候补)#">
+            <parameter cpu="0" address="0x1088EC" value="0x0B"/>
+        </option>
+        <option desc="#邪头#">
+            <parameter cpu="0" address="0x1088EC" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 (B) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="疾风">
+            <parameter cpu="0" address="0x1088EE" value="0x00"/>
+        </option>
+        <option desc="鹰">
+            <parameter cpu="0" address="0x1088EE" value="0x01"/>
+        </option>
+        <option desc="牛头">
+            <parameter cpu="0" address="0x1088EE" value="0x02"/>
+        </option>
+        <option desc="马面">
+            <parameter cpu="0" address="0x1088EE" value="0x03"/>
+        </option>
+        <option desc="罗莎">
+            <parameter cpu="0" address="0x1088EE" value="0x04"/>
+        </option>
+        <option desc="金秀一">
+            <parameter cpu="0" address="0x1088EE" value="0x05"/>
+        </option>
+        <option desc="小丑">
+            <parameter cpu="0" address="0x1088EE" value="0x06"/>
+        </option>
+        <option desc="中白虎">
+            <parameter cpu="0" address="0x1088EE" value="0x07"/>
+        </option>
+        <option desc="高顿">
+            <parameter cpu="0" address="0x1088EE" value="0x08"/>
+        </option>
+        <option desc="狮子王">
+            <parameter cpu="0" address="0x1088EE" value="0x09"/>
+        </option>
+        <option desc="#真·狮子王#">
+            <parameter cpu="0" address="0x1088EE" value="0x0A"/>
+        </option>
+        <option desc="#中白虎 (候补)#">
+            <parameter cpu="0" address="0x1088EE" value="0x0B"/>
+        </option>
+        <option desc="#邪头#">
+            <parameter cpu="0" address="0x1088EE" value="0x0C"/>
+        </option>
+    </cheat>
     <cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
@@ -122,90 +122,90 @@
             <parameter cpu="0" address="0x108513" value="0x60"/>
         </option>
     </cheat>
-	<cheat desc="选择游戏角色 (A) PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="疾风">
-			<parameter cpu="0" address="0x1088ED" value="0x00"/>
-		</option>
-		<option desc="鹰">
-			<parameter cpu="0" address="0x1088ED" value="0x01"/>
-		</option>
-		<option desc="牛头">
-			<parameter cpu="0" address="0x1088ED" value="0x02"/>
-		</option>
-		<option desc="马面">
-			<parameter cpu="0" address="0x1088ED" value="0x03"/>
-		</option>
-		<option desc="罗莎">
-			<parameter cpu="0" address="0x1088ED" value="0x04"/>
-		</option>
-		<option desc="金秀一">
-			<parameter cpu="0" address="0x1088ED" value="0x05"/>
-		</option>
-		<option desc="小丑">
-			<parameter cpu="0" address="0x1088ED" value="0x06"/>
-		</option>
-		<option desc="中白虎">
-			<parameter cpu="0" address="0x1088ED" value="0x07"/>
-		</option>
-		<option desc="高顿">
-			<parameter cpu="0" address="0x1088ED" value="0x08"/>
-		</option>
-		<option desc="狮子王">
-			<parameter cpu="0" address="0x1088ED" value="0x09"/>
-		</option>
-		<option desc="#真·狮子王#">
-			<parameter cpu="0" address="0x1088ED" value="0x0A"/>
-		</option>
-		<option desc="#中白虎 (候补)#">
-			<parameter cpu="0" address="0x1088ED" value="0x0B"/>
-		</option>
-		<option desc="#邪头#">
-			<parameter cpu="0" address="0x1088ED" value="0x0C"/>
-		</option>
-	</cheat>
-	<cheat desc="选择游戏角色 (B) PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="疾风">
-			<parameter cpu="0" address="0x1088EF" value="0x00"/>
-		</option>
-		<option desc="鹰">
-			<parameter cpu="0" address="0x1088EF" value="0x01"/>
-		</option>
-		<option desc="牛头">
-			<parameter cpu="0" address="0x1088EF" value="0x02"/>
-		</option>
-		<option desc="马面">
-			<parameter cpu="0" address="0x1088EF" value="0x03"/>
-		</option>
-		<option desc="罗莎">
-			<parameter cpu="0" address="0x1088EF" value="0x04"/>
-		</option>
-		<option desc="金秀一">
-			<parameter cpu="0" address="0x1088EF" value="0x05"/>
-		</option>
-		<option desc="小丑">
-			<parameter cpu="0" address="0x1088EF" value="0x06"/>
-		</option>
-		<option desc="中白虎">
-			<parameter cpu="0" address="0x1088EF" value="0x07"/>
-		</option>
-		<option desc="高顿">
-			<parameter cpu="0" address="0x1088EF" value="0x08"/>
-		</option>
-		<option desc="狮子王">
-			<parameter cpu="0" address="0x1088EF" value="0x09"/>
-		</option>
-		<option desc="#真·狮子王#">
-			<parameter cpu="0" address="0x1088EF" value="0x0A"/>
-		</option>
-		<option desc="#中白虎 (候补)#">
-			<parameter cpu="0" address="0x1088EF" value="0x0B"/>
-		</option>
-		<option desc="#邪头#">
-			<parameter cpu="0" address="0x1088EF" value="0x0C"/>
-		</option>
-	</cheat>
+    <cheat desc="选择游戏角色 (A) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="疾风">
+            <parameter cpu="0" address="0x1088ED" value="0x00"/>
+        </option>
+        <option desc="鹰">
+            <parameter cpu="0" address="0x1088ED" value="0x01"/>
+        </option>
+        <option desc="牛头">
+            <parameter cpu="0" address="0x1088ED" value="0x02"/>
+        </option>
+        <option desc="马面">
+            <parameter cpu="0" address="0x1088ED" value="0x03"/>
+        </option>
+        <option desc="罗莎">
+            <parameter cpu="0" address="0x1088ED" value="0x04"/>
+        </option>
+        <option desc="金秀一">
+            <parameter cpu="0" address="0x1088ED" value="0x05"/>
+        </option>
+        <option desc="小丑">
+            <parameter cpu="0" address="0x1088ED" value="0x06"/>
+        </option>
+        <option desc="中白虎">
+            <parameter cpu="0" address="0x1088ED" value="0x07"/>
+        </option>
+        <option desc="高顿">
+            <parameter cpu="0" address="0x1088ED" value="0x08"/>
+        </option>
+        <option desc="狮子王">
+            <parameter cpu="0" address="0x1088ED" value="0x09"/>
+        </option>
+        <option desc="#真·狮子王#">
+            <parameter cpu="0" address="0x1088ED" value="0x0A"/>
+        </option>
+        <option desc="#中白虎 (候补)#">
+            <parameter cpu="0" address="0x1088ED" value="0x0B"/>
+        </option>
+        <option desc="#邪头#">
+            <parameter cpu="0" address="0x1088ED" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 (B) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="疾风">
+            <parameter cpu="0" address="0x1088EF" value="0x00"/>
+        </option>
+        <option desc="鹰">
+            <parameter cpu="0" address="0x1088EF" value="0x01"/>
+        </option>
+        <option desc="牛头">
+            <parameter cpu="0" address="0x1088EF" value="0x02"/>
+        </option>
+        <option desc="马面">
+            <parameter cpu="0" address="0x1088EF" value="0x03"/>
+        </option>
+        <option desc="罗莎">
+            <parameter cpu="0" address="0x1088EF" value="0x04"/>
+        </option>
+        <option desc="金秀一">
+            <parameter cpu="0" address="0x1088EF" value="0x05"/>
+        </option>
+        <option desc="小丑">
+            <parameter cpu="0" address="0x1088EF" value="0x06"/>
+        </option>
+        <option desc="中白虎">
+            <parameter cpu="0" address="0x1088EF" value="0x07"/>
+        </option>
+        <option desc="高顿">
+            <parameter cpu="0" address="0x1088EF" value="0x08"/>
+        </option>
+        <option desc="狮子王">
+            <parameter cpu="0" address="0x1088EF" value="0x09"/>
+        </option>
+        <option desc="#真·狮子王#">
+            <parameter cpu="0" address="0x1088EF" value="0x0A"/>
+        </option>
+        <option desc="#中白虎 (候补)#">
+            <parameter cpu="0" address="0x1088EF" value="0x0B"/>
+        </option>
+        <option desc="#邪头#">
+            <parameter cpu="0" address="0x1088EF" value="0x0C"/>
+        </option>
+    </cheat>
     <cheat desc=" "/>
     <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
         <option desc="关闭"/>

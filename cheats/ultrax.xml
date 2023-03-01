@@ -30,7 +30,7 @@
             <parameter cpu="0" address="0xE3E2" value="0x06"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无敌 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -91,7 +91,7 @@
             <parameter cpu="0" address="0xE2B4" value="0x06"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无敌 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -130,7 +130,7 @@
     </cheat>
     <cheat desc="选择火力等级 PL2" default="0">
         <option desc="关闭"/>
-       <option desc="1">
+        <option desc="1">
             <parameter cpu="0" address="0xE356" value="0x00"/>
         </option>
         <option desc="2">

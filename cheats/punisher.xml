@@ -84,7 +84,7 @@
             <parameter cpu="0" address="0x3BF27" value="0x0E"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="总是有M16 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -132,7 +132,7 @@
             <parameter cpu="0" address="0xFF8EF5" value="0xFF"/>
         </option>
     </cheat>
-<cheat desc="抓住敌方按 A 无限XXX PL1" default="0">
+    <cheat desc="抓住敌方按 A 无限XXX PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFF8F0A" value="0x03"/>
@@ -144,7 +144,7 @@
             <parameter cpu="0" address="0xFF8EC0" value="0xB4"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">

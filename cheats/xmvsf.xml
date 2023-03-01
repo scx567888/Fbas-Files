@@ -54,7 +54,7 @@
             <parameter cpu="0" address="0xFF5101" value="0x03"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限能量 (活动角色) PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 (活动角色) PL1">
@@ -218,126 +218,126 @@
             <parameter cpu="0" address="0xFF4003" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="选择角色（活跃角色） PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="狼人">
-			<parameter cpu="0" address="0xFF4053" value="0x00"/>
-		</option>
-		<option desc="西确斯">
-			<parameter cpu="0" address="0xFF4053" value="0x02"/>
-		</option>
-		<option desc="暴风女神">
-			<parameter cpu="0" address="0xFF4053" value="0x04"/>
-		</option>
-		<option desc="红">
-			<parameter cpu="0" address="0xFF4053" value="0x06"/>
-		</option>
-		<option desc="牌王">
-			<parameter cpu="0" address="0xFF4053" value="0x08"/>
-		</option>
-		<option desc="沙巴杜夫">
-			<parameter cpu="0" address="0xFF4053" value="0x0A"/>
-		</option>
-		<option desc="守狄龙">
-			<parameter cpu="0" address="0xFF4053" value="0x0C"/>
-		</option>
-		<option desc="磁力神">
-			<parameter cpu="0" address="0xFF4053" value="0x0E"/>
-		</option>
-		<option desc="#启示">
-			<parameter cpu="0" address="0xFF4053" value="0x10"/>
-		</option>
-		<option desc="隆">
-			<parameter cpu="0" address="0xFF4053" value="0x12"/>
-		</option>
-		<option desc="肯">
-			<parameter cpu="0" address="0xFF4053" value="0x14"/>
-		</option>
-		<option desc="春丽">
-			<parameter cpu="0" address="0xFF4053" value="0x16"/>
-		</option>
-		<option desc="达尔锡">
-			<parameter cpu="0" address="0xFF4053" value="0x18"/>
-		</option>
-		<option desc="桑基尔夫">
-			<parameter cpu="0" address="0xFF4053" value="0x1A"/>
-		</option>
-		<option desc="拜森">
-			<parameter cpu="0" address="0xFF4053" value="0x1C"/>
-		</option>
-		<option desc="#豪鬼">
-			<parameter cpu="0" address="0xFF4053" value="0x1E"/>
-		</option>
-		<option desc="纳什">
-			<parameter cpu="0" address="0xFF4053" value="0x20"/>
-		</option>
-		<option desc="嘉米">
-			<parameter cpu="0" address="0xFF4053" value="0x22"/>
-		</option>
-		<option desc="#旧版服装春丽">
-			<parameter cpu="0" address="0xFF4053" value="0x24"/>
-		</option>
-	</cheat>
-	<cheat desc="选择角色（不活动角色） PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="狼人">
-			<parameter cpu="0" address="0xFF4853" value="0x00"/>
-		</option>
-		<option desc="西确斯">
-			<parameter cpu="0" address="0xFF4853" value="0x02"/>
-		</option>
-		<option desc="暴风女神">
-			<parameter cpu="0" address="0xFF4853" value="0x04"/>
-		</option>
-		<option desc="红">
-			<parameter cpu="0" address="0xFF4853" value="0x06"/>
-		</option>
-		<option desc="牌王">
-			<parameter cpu="0" address="0xFF4853" value="0x08"/>
-		</option>
-		<option desc="沙巴杜夫">
-			<parameter cpu="0" address="0xFF4853" value="0x0A"/>
-		</option>
-		<option desc="守狄龙">
-			<parameter cpu="0" address="0xFF4853" value="0x0C"/>
-		</option>
-		<option desc="磁力神">
-			<parameter cpu="0" address="0xFF4853" value="0x0E"/>
-		</option>
-		<option desc="#启示">
-			<parameter cpu="0" address="0xFF4853" value="0x10"/>
-		</option>
-		<option desc="隆">
-			<parameter cpu="0" address="0xFF4853" value="0x12"/>
-		</option>
-		<option desc="肯">
-			<parameter cpu="0" address="0xFF4853" value="0x14"/>
-		</option>
-		<option desc="春丽">
-			<parameter cpu="0" address="0xFF4853" value="0x16"/>
-		</option>
-		<option desc="达尔锡">
-			<parameter cpu="0" address="0xFF4853" value="0x18"/>
-		</option>
-		<option desc="桑基尔夫">
-			<parameter cpu="0" address="0xFF4853" value="0x1A"/>
-		</option>
-		<option desc="拜森">
-			<parameter cpu="0" address="0xFF4853" value="0x1C"/>
-		</option>
-		<option desc="#豪鬼">
-			<parameter cpu="0" address="0xFF4853" value="0x1E"/>
-		</option>
-		<option desc="纳什">
-			<parameter cpu="0" address="0xFF4853" value="0x20"/>
-		</option>
-		<option desc="嘉米">
-			<parameter cpu="0" address="0xFF4853" value="0x22"/>
-		</option>
-		<option desc="#旧版服装春丽">
-			<parameter cpu="0" address="0xFF4853" value="0x24"/>
-		</option>
-	</cheat>
+    <cheat desc="选择角色（活跃角色） PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="狼人">
+            <parameter cpu="0" address="0xFF4053" value="0x00"/>
+        </option>
+        <option desc="西确斯">
+            <parameter cpu="0" address="0xFF4053" value="0x02"/>
+        </option>
+        <option desc="暴风女神">
+            <parameter cpu="0" address="0xFF4053" value="0x04"/>
+        </option>
+        <option desc="红">
+            <parameter cpu="0" address="0xFF4053" value="0x06"/>
+        </option>
+        <option desc="牌王">
+            <parameter cpu="0" address="0xFF4053" value="0x08"/>
+        </option>
+        <option desc="沙巴杜夫">
+            <parameter cpu="0" address="0xFF4053" value="0x0A"/>
+        </option>
+        <option desc="守狄龙">
+            <parameter cpu="0" address="0xFF4053" value="0x0C"/>
+        </option>
+        <option desc="磁力神">
+            <parameter cpu="0" address="0xFF4053" value="0x0E"/>
+        </option>
+        <option desc="#启示">
+            <parameter cpu="0" address="0xFF4053" value="0x10"/>
+        </option>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF4053" value="0x12"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF4053" value="0x14"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF4053" value="0x16"/>
+        </option>
+        <option desc="达尔锡">
+            <parameter cpu="0" address="0xFF4053" value="0x18"/>
+        </option>
+        <option desc="桑基尔夫">
+            <parameter cpu="0" address="0xFF4053" value="0x1A"/>
+        </option>
+        <option desc="拜森">
+            <parameter cpu="0" address="0xFF4053" value="0x1C"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF4053" value="0x1E"/>
+        </option>
+        <option desc="纳什">
+            <parameter cpu="0" address="0xFF4053" value="0x20"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF4053" value="0x22"/>
+        </option>
+        <option desc="#旧版服装春丽">
+            <parameter cpu="0" address="0xFF4053" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色（不活动角色） PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="狼人">
+            <parameter cpu="0" address="0xFF4853" value="0x00"/>
+        </option>
+        <option desc="西确斯">
+            <parameter cpu="0" address="0xFF4853" value="0x02"/>
+        </option>
+        <option desc="暴风女神">
+            <parameter cpu="0" address="0xFF4853" value="0x04"/>
+        </option>
+        <option desc="红">
+            <parameter cpu="0" address="0xFF4853" value="0x06"/>
+        </option>
+        <option desc="牌王">
+            <parameter cpu="0" address="0xFF4853" value="0x08"/>
+        </option>
+        <option desc="沙巴杜夫">
+            <parameter cpu="0" address="0xFF4853" value="0x0A"/>
+        </option>
+        <option desc="守狄龙">
+            <parameter cpu="0" address="0xFF4853" value="0x0C"/>
+        </option>
+        <option desc="磁力神">
+            <parameter cpu="0" address="0xFF4853" value="0x0E"/>
+        </option>
+        <option desc="#启示">
+            <parameter cpu="0" address="0xFF4853" value="0x10"/>
+        </option>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF4853" value="0x12"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF4853" value="0x14"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF4853" value="0x16"/>
+        </option>
+        <option desc="达尔锡">
+            <parameter cpu="0" address="0xFF4853" value="0x18"/>
+        </option>
+        <option desc="桑基尔夫">
+            <parameter cpu="0" address="0xFF4853" value="0x1A"/>
+        </option>
+        <option desc="拜森">
+            <parameter cpu="0" address="0xFF4853" value="0x1C"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF4853" value="0x1E"/>
+        </option>
+        <option desc="纳什">
+            <parameter cpu="0" address="0xFF4853" value="0x20"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF4853" value="0x22"/>
+        </option>
+        <option desc="#旧版服装春丽">
+            <parameter cpu="0" address="0xFF4853" value="0x24"/>
+        </option>
+    </cheat>
     <cheat desc="春丽 - 百裂脚强度 - 轻 PL1" default="0">
         <option desc="关闭"/>
         <option desc="春丽 - 百裂脚强度 - 轻 PL1">
@@ -433,7 +433,7 @@
             <parameter cpu="0" address="0xFF4343" value="0x1A"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限能量 (活动角色) PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 (活动角色) PL2">
@@ -583,126 +583,126 @@
             <parameter cpu="0" address="0xFF4403" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="选择角色（活跃角色） PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="狼人">
-			<parameter cpu="0" address="0xFF4453" value="0x00"/>
-		</option>
-		<option desc="西确斯">
-			<parameter cpu="0" address="0xFF4453" value="0x02"/>
-		</option>
-		<option desc="暴风女神">
-			<parameter cpu="0" address="0xFF4453" value="0x04"/>
-		</option>
-		<option desc="红">
-			<parameter cpu="0" address="0xFF4453" value="0x06"/>
-		</option>
-		<option desc="牌王">
-			<parameter cpu="0" address="0xFF4453" value="0x08"/>
-		</option>
-		<option desc="沙巴杜夫">
-			<parameter cpu="0" address="0xFF4453" value="0x0A"/>
-		</option>
-		<option desc="守狄龙">
-			<parameter cpu="0" address="0xFF4453" value="0x0C"/>
-		</option>
-		<option desc="磁力神">
-			<parameter cpu="0" address="0xFF4453" value="0x0E"/>
-		</option>
-		<option desc="#启示">
-			<parameter cpu="0" address="0xFF4453" value="0x10"/>
-		</option>
-		<option desc="隆">
-			<parameter cpu="0" address="0xFF4453" value="0x12"/>
-		</option>
-		<option desc="肯">
-			<parameter cpu="0" address="0xFF4453" value="0x14"/>
-		</option>
-		<option desc="春丽">
-			<parameter cpu="0" address="0xFF4453" value="0x16"/>
-		</option>
-		<option desc="达尔锡">
-			<parameter cpu="0" address="0xFF4453" value="0x18"/>
-		</option>
-		<option desc="桑基尔夫">
-			<parameter cpu="0" address="0xFF4453" value="0x1A"/>
-		</option>
-		<option desc="拜森">
-			<parameter cpu="0" address="0xFF4453" value="0x1C"/>
-		</option>
-		<option desc="#豪鬼">
-			<parameter cpu="0" address="0xFF4453" value="0x1E"/>
-		</option>
-		<option desc="纳什">
-			<parameter cpu="0" address="0xFF4453" value="0x20"/>
-		</option>
-		<option desc="嘉米">
-			<parameter cpu="0" address="0xFF4453" value="0x22"/>
-		</option>
-		<option desc="#旧版服装春丽">
-			<parameter cpu="0" address="0xFF4453" value="0x24"/>
-		</option>
-	</cheat>
-	<cheat desc="选择角色（不活动角色） PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="狼人">
-			<parameter cpu="0" address="0xFF4C53" value="0x00"/>
-		</option>
-		<option desc="西确斯">
-			<parameter cpu="0" address="0xFF4C53" value="0x02"/>
-		</option>
-		<option desc="暴风女神">
-			<parameter cpu="0" address="0xFF4C53" value="0x04"/>
-		</option>
-		<option desc="红">
-			<parameter cpu="0" address="0xFF4C53" value="0x06"/>
-		</option>
-		<option desc="牌王">
-			<parameter cpu="0" address="0xFF4C53" value="0x08"/>
-		</option>
-		<option desc="沙巴杜夫">
-			<parameter cpu="0" address="0xFF4C53" value="0x0A"/>
-		</option>
-		<option desc="守狄龙">
-			<parameter cpu="0" address="0xFF4C53" value="0x0C"/>
-		</option>
-		<option desc="磁力神">
-			<parameter cpu="0" address="0xFF4C53" value="0x0E"/>
-		</option>
-		<option desc="#启示">
-			<parameter cpu="0" address="0xFF4C53" value="0x10"/>
-		</option>
-		<option desc="隆">
-			<parameter cpu="0" address="0xFF4C53" value="0x12"/>
-		</option>
-		<option desc="肯">
-			<parameter cpu="0" address="0xFF4C53" value="0x14"/>
-		</option>
-		<option desc="春丽">
-			<parameter cpu="0" address="0xFF4C53" value="0x16"/>
-		</option>
-		<option desc="达尔锡">
-			<parameter cpu="0" address="0xFF4C53" value="0x18"/>
-		</option>
-		<option desc="桑基尔夫">
-			<parameter cpu="0" address="0xFF4C53" value="0x1A"/>
-		</option>
-		<option desc="拜森">
-			<parameter cpu="0" address="0xFF4C53" value="0x1C"/>
-		</option>
-		<option desc="#豪鬼">
-			<parameter cpu="0" address="0xFF4C53" value="0x1E"/>
-		</option>
-		<option desc="纳什">
-			<parameter cpu="0" address="0xFF4C53" value="0x20"/>
-		</option>
-		<option desc="嘉米">
-			<parameter cpu="0" address="0xFF4C53" value="0x22"/>
-		</option>
-		<option desc="#旧版服装春丽">
-			<parameter cpu="0" address="0xFF4C53" value="0x24"/>
-		</option>
-	</cheat>
+    <cheat desc="选择角色（活跃角色） PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="狼人">
+            <parameter cpu="0" address="0xFF4453" value="0x00"/>
+        </option>
+        <option desc="西确斯">
+            <parameter cpu="0" address="0xFF4453" value="0x02"/>
+        </option>
+        <option desc="暴风女神">
+            <parameter cpu="0" address="0xFF4453" value="0x04"/>
+        </option>
+        <option desc="红">
+            <parameter cpu="0" address="0xFF4453" value="0x06"/>
+        </option>
+        <option desc="牌王">
+            <parameter cpu="0" address="0xFF4453" value="0x08"/>
+        </option>
+        <option desc="沙巴杜夫">
+            <parameter cpu="0" address="0xFF4453" value="0x0A"/>
+        </option>
+        <option desc="守狄龙">
+            <parameter cpu="0" address="0xFF4453" value="0x0C"/>
+        </option>
+        <option desc="磁力神">
+            <parameter cpu="0" address="0xFF4453" value="0x0E"/>
+        </option>
+        <option desc="#启示">
+            <parameter cpu="0" address="0xFF4453" value="0x10"/>
+        </option>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF4453" value="0x12"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF4453" value="0x14"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF4453" value="0x16"/>
+        </option>
+        <option desc="达尔锡">
+            <parameter cpu="0" address="0xFF4453" value="0x18"/>
+        </option>
+        <option desc="桑基尔夫">
+            <parameter cpu="0" address="0xFF4453" value="0x1A"/>
+        </option>
+        <option desc="拜森">
+            <parameter cpu="0" address="0xFF4453" value="0x1C"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF4453" value="0x1E"/>
+        </option>
+        <option desc="纳什">
+            <parameter cpu="0" address="0xFF4453" value="0x20"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF4453" value="0x22"/>
+        </option>
+        <option desc="#旧版服装春丽">
+            <parameter cpu="0" address="0xFF4453" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色（不活动角色） PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="狼人">
+            <parameter cpu="0" address="0xFF4C53" value="0x00"/>
+        </option>
+        <option desc="西确斯">
+            <parameter cpu="0" address="0xFF4C53" value="0x02"/>
+        </option>
+        <option desc="暴风女神">
+            <parameter cpu="0" address="0xFF4C53" value="0x04"/>
+        </option>
+        <option desc="红">
+            <parameter cpu="0" address="0xFF4C53" value="0x06"/>
+        </option>
+        <option desc="牌王">
+            <parameter cpu="0" address="0xFF4C53" value="0x08"/>
+        </option>
+        <option desc="沙巴杜夫">
+            <parameter cpu="0" address="0xFF4C53" value="0x0A"/>
+        </option>
+        <option desc="守狄龙">
+            <parameter cpu="0" address="0xFF4C53" value="0x0C"/>
+        </option>
+        <option desc="磁力神">
+            <parameter cpu="0" address="0xFF4C53" value="0x0E"/>
+        </option>
+        <option desc="#启示">
+            <parameter cpu="0" address="0xFF4C53" value="0x10"/>
+        </option>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF4C53" value="0x12"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF4C53" value="0x14"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF4C53" value="0x16"/>
+        </option>
+        <option desc="达尔锡">
+            <parameter cpu="0" address="0xFF4C53" value="0x18"/>
+        </option>
+        <option desc="桑基尔夫">
+            <parameter cpu="0" address="0xFF4C53" value="0x1A"/>
+        </option>
+        <option desc="拜森">
+            <parameter cpu="0" address="0xFF4C53" value="0x1C"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF4C53" value="0x1E"/>
+        </option>
+        <option desc="纳什">
+            <parameter cpu="0" address="0xFF4C53" value="0x20"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF4C53" value="0x22"/>
+        </option>
+        <option desc="#旧版服装春丽">
+            <parameter cpu="0" address="0xFF4C53" value="0x24"/>
+        </option>
+    </cheat>
     <cheat desc="春丽 - 百裂脚强度 - 轻 PL2" default="0">
         <option desc="关闭"/>
         <option desc="春丽 - 百裂脚强度 - 轻 PL2">
@@ -798,7 +798,7 @@
             <parameter cpu="0" address="0xFF4743" value="0x1A"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="选择背景 - Apocalypse !" default="0">
         <option desc="关闭"/>
         <option desc="选择背景 - Apocalypse !">

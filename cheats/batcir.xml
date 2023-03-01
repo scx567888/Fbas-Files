@@ -87,7 +87,7 @@
             <parameter cpu="0" address="0xFF58C4" value="0x05"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -102,10 +102,10 @@
         </option>
     </cheat>
     <cheat desc="强力击打 PL1" default="0">
-	<option desc="关闭"/>
-	<option desc="开启">
-	    <parameter cpu="0" address="0xFF8311" value="0x0C"/>
-	</option>
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8311" value="0x0C"/>
+        </option>
     </cheat>
     <cheat desc="选择分数 PL1" default="0">
         <option desc="关闭"/>
@@ -274,7 +274,7 @@
             <parameter cpu="0" address="0xFF833E" value="0x05"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -289,10 +289,10 @@
         </option>
     </cheat>
     <cheat desc="强力击打 PL2" default="0">
-	<option desc="关闭"/>
-	<option desc="开启">
+        <option desc="关闭"/>
+        <option desc="开启">
             <parameter cpu="0" address="0xFF8451" value="0x0C"/>
-	</option>
+        </option>
     </cheat>
     <cheat desc="无敌 PL2" default="0">
         <option desc="关闭"/>
@@ -328,7 +328,7 @@
             <parameter cpu="0" address="0xFF847E" value="0x05"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -343,10 +343,10 @@
         </option>
     </cheat>
     <cheat desc="强力击打 PL3" default="0">
-	<option desc="关闭"/>
-	<option desc="开启">
+        <option desc="关闭"/>
+        <option desc="开启">
             <parameter cpu="0" address="0xFF8591" value="0x0C"/>
-	</option>
+        </option>
     </cheat>
     <cheat desc="无敌 PL3" default="0">
         <option desc="关闭"/>
@@ -382,7 +382,7 @@
             <parameter cpu="0" address="0xFF85BE" value="0x05"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -397,10 +397,10 @@
         </option>
     </cheat>
     <cheat desc="强力击打 PL4" default="0">
-	<option desc="关闭"/>
-	<option desc="开启">
+        <option desc="关闭"/>
+        <option desc="开启">
             <parameter cpu="0" address="0xFF86D1" value="0x0C"/>
-	</option>
+        </option>
     </cheat>
     <cheat desc="无敌 PL4" default="0">
         <option desc="关闭"/>

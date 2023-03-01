@@ -9,7 +9,7 @@
             <parameter cpu="0" address="0xFF4808" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -30,48 +30,48 @@
             <parameter cpu="0" address="0xFF4198" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="选择游戏角色 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="狼人">
-			<parameter cpu="0" address="0xFF4051" value="0x00"/>
-		</option>
-		<option desc="心剑忍者">
-			<parameter cpu="0" address="0xFF4051" value="0x02"/>
-		</option>
-		<option desc="巨人">
-			<parameter cpu="0" address="0xFF4051" value="0x04"/>
-		</option>
-		<option desc="西确斯">
-			<parameter cpu="0" address="0xFF4051" value="0x06"/>
-		</option>
-		<option desc="暴风女神">
-			<parameter cpu="0" address="0xFF4051" value="0x08"/>
-		</option>
-		<option desc="冰人">
-			<parameter cpu="0" address="0xFF4051" value="0x0A"/>
-		</option>
-		<option desc="斯皮罗尔">
-			<parameter cpu="0" address="0xFF4051" value="0x0C"/>
-		</option>
-		<option desc="银武士">
-			<parameter cpu="0" address="0xFF4051" value="0x0E"/>
-		</option>
-		<option desc="红色欧米加">
-			<parameter cpu="0" address="0xFF4051" value="0x10"/>
-		</option>
-		<option desc="机器人">
-			<parameter cpu="0" address="0xFF4051" value="0x12"/>
-		</option>
-		<option desc="#守狄龙">
-			<parameter cpu="0" address="0xFF4051" value="0x14"/>
-		</option>
-		<option desc="#磁力神">
-			<parameter cpu="0" address="0xFF4051" value="0x16"/>
-		</option>
-		<option desc="#豪鬼">
-			<parameter cpu="0" address="0xFF4051" value="0x18"/>
-		</option>
-	</cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="狼人">
+            <parameter cpu="0" address="0xFF4051" value="0x00"/>
+        </option>
+        <option desc="心剑忍者">
+            <parameter cpu="0" address="0xFF4051" value="0x02"/>
+        </option>
+        <option desc="巨人">
+            <parameter cpu="0" address="0xFF4051" value="0x04"/>
+        </option>
+        <option desc="西确斯">
+            <parameter cpu="0" address="0xFF4051" value="0x06"/>
+        </option>
+        <option desc="暴风女神">
+            <parameter cpu="0" address="0xFF4051" value="0x08"/>
+        </option>
+        <option desc="冰人">
+            <parameter cpu="0" address="0xFF4051" value="0x0A"/>
+        </option>
+        <option desc="斯皮罗尔">
+            <parameter cpu="0" address="0xFF4051" value="0x0C"/>
+        </option>
+        <option desc="银武士">
+            <parameter cpu="0" address="0xFF4051" value="0x0E"/>
+        </option>
+        <option desc="红色欧米加">
+            <parameter cpu="0" address="0xFF4051" value="0x10"/>
+        </option>
+        <option desc="机器人">
+            <parameter cpu="0" address="0xFF4051" value="0x12"/>
+        </option>
+        <option desc="#守狄龙">
+            <parameter cpu="0" address="0xFF4051" value="0x14"/>
+        </option>
+        <option desc="#磁力神">
+            <parameter cpu="0" address="0xFF4051" value="0x16"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF4051" value="0x18"/>
+        </option>
+    </cheat>
     <cheat desc="不会昏晕 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -248,7 +248,7 @@
             <parameter cpu="0" address="0xFF4301" value="0x01"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -269,49 +269,49 @@
             <parameter cpu="0" address="0xFF4598" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="选择游戏角色 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="狼人">
-			<parameter cpu="0" address="0xFF4451" value="0x00"/>
-		</option>
-		<option desc="心剑忍者">
-			<parameter cpu="0" address="0xFF4451" value="0x02"/>
-		</option>
-		<option desc="巨人">
-			<parameter cpu="0" address="0xFF4451" value="0x04"/>
-		</option>
-		<option desc="西确斯">
-			<parameter cpu="0" address="0xFF4451" value="0x06"/>
-		</option>
-		<option desc="暴风女神">
-			<parameter cpu="0" address="0xFF4451" value="0x08"/>
-		</option>
-		<option desc="冰人">
-			<parameter cpu="0" address="0xFF4451" value="0x0A"/>
-		</option>
-		<option desc="斯皮罗尔">
-			<parameter cpu="0" address="0xFF4451" value="0x0C"/>
-		</option>
-		<option desc="银武士">
-			<parameter cpu="0" address="0xFF4451" value="0x0E"/>
-		</option>
-		<option desc="红色欧米加">
-			<parameter cpu="0" address="0xFF4451" value="0x10"/>
-		</option>
-		<option desc="机器人">
-			<parameter cpu="0" address="0xFF4451" value="0x12"/>
-		</option>
-		<option desc="#守狄龙">
-			<parameter cpu="0" address="0xFF4451" value="0x14"/>
-		</option>
-		<option desc="#磁力神">
-			<parameter cpu="0" address="0xFF4451" value="0x16"/>
-		</option>
-		<option desc="#豪鬼">
-			<parameter cpu="0" address="0xFF4451" value="0x18"/>
-		</option>
-	</cheat>
-	<cheat desc=" "/>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="狼人">
+            <parameter cpu="0" address="0xFF4451" value="0x00"/>
+        </option>
+        <option desc="心剑忍者">
+            <parameter cpu="0" address="0xFF4451" value="0x02"/>
+        </option>
+        <option desc="巨人">
+            <parameter cpu="0" address="0xFF4451" value="0x04"/>
+        </option>
+        <option desc="西确斯">
+            <parameter cpu="0" address="0xFF4451" value="0x06"/>
+        </option>
+        <option desc="暴风女神">
+            <parameter cpu="0" address="0xFF4451" value="0x08"/>
+        </option>
+        <option desc="冰人">
+            <parameter cpu="0" address="0xFF4451" value="0x0A"/>
+        </option>
+        <option desc="斯皮罗尔">
+            <parameter cpu="0" address="0xFF4451" value="0x0C"/>
+        </option>
+        <option desc="银武士">
+            <parameter cpu="0" address="0xFF4451" value="0x0E"/>
+        </option>
+        <option desc="红色欧米加">
+            <parameter cpu="0" address="0xFF4451" value="0x10"/>
+        </option>
+        <option desc="机器人">
+            <parameter cpu="0" address="0xFF4451" value="0x12"/>
+        </option>
+        <option desc="#守狄龙">
+            <parameter cpu="0" address="0xFF4451" value="0x14"/>
+        </option>
+        <option desc="#磁力神">
+            <parameter cpu="0" address="0xFF4451" value="0x16"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF4451" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
     <cheat desc="地域 = 日本" default="0">
         <option desc="关闭"/>
         <option desc="地域 = 日本">

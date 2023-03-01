@@ -1,73 +1,80 @@
 ﻿<mamecheat version="1">
 
-  <cheat desc="P1 无限能量">
-    <script state="run">
-      <action>maincpu.pw@103072=1388</action>
-    </script>
-  </cheat>
+    <cheat desc="P1 无限能量">
+        <script state="run">
+            <action>maincpu.pw@103072=1388</action>
+        </script>
+    </cheat>
 
-  <cheat desc="P1 无限炸弹">
-    <script state="run">
-      <action>maincpu.pb@103074=63</action>
-    </script>
-  </cheat>
+    <cheat desc="P1 无限炸弹">
+        <script state="run">
+            <action>maincpu.pb@103074=63</action>
+        </script>
+    </cheat>
 
-  <cheat desc="P2 无限能量">
-    <script state="run">
-      <action>maincpu.pw@1030F2=1388</action>
-    </script>
-  </cheat>
+    <cheat desc="P2 无限能量">
+        <script state="run">
+            <action>maincpu.pw@1030F2=1388</action>
+        </script>
+    </cheat>
 
-  <cheat desc="P2 无限炸弹">
-    <script state="run">
-      <action>maincpu.pb@1030F4=63</action>
-    </script>
-  </cheat>
+    <cheat desc="P2 无限炸弹">
+        <script state="run">
+            <action>maincpu.pb@1030F4=63</action>
+        </script>
+    </cheat>
 
-  <cheat desc=" "/>
+    <cheat desc=" "/>
 
-  <cheat desc="选择街机/家用机模式"> <comment>Use in conjunction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset. The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.</comment>
-    <parameter>
-      <item value="0x80">街机 (MVS)</item>
-      <item value="0x00">家机 (NEOGEO)</item>
-    </parameter>
-    <script state="run">
-      <action>maincpu.pb@10FD82=param</action>
-    </script>
-  </cheat>
+    <cheat desc="选择街机/家用机模式">
+        <comment>Use in conjunction with the 'Skip RAM/ROM Checks' cheat for the best effect, then enable it and reset.
+            The Home (NEOGEO) setting may open up other aspects of the game or it may even make the game unplayable.
+        </comment>
+        <parameter>
+            <item value="0x80">街机 (MVS)</item>
+            <item value="0x00">家机 (NEOGEO)</item>
+        </parameter>
+        <script state="run">
+            <action>maincpu.pb@10FD82=param</action>
+        </script>
+    </cheat>
 
-  <cheat desc="跳过RAM/ROM检查"> <comment>在没有绿色屏幕上可以更快地启动,最好是使用前一起启用</comment>
-    <script state="on">
-      <action>temp0 =maincpu.rd@C1315C</action>
-      <action>temp1 =maincpu.rd@C1314E</action>
-      <action>temp2 =maincpu.rd@C131E8</action>
-      <action>temp3 =maincpu.rd@C13184</action>
-      <action>temp4 =maincpu.rd@C1212E</action>
-      <action>temp5 =maincpu.rd@C134FA</action>
-    </script>
-    <script state="run">
-      <action condition="(maincpu.rd@C1315C==51CFFFF2)">maincpu.rd@C1315C=6000EB08</action> <!-- Euro + Japan-S2 BIOSs -->
-      <action condition="(maincpu.rd@C1314E==51CFFFF2)">maincpu.rd@C1314E=6000EB16</action> <!-- Euro-S1 + Japan-S1 BIOSs -->
-      <action condition="(maincpu.rd@C131E8==51CFFFF2)">maincpu.rd@C131E8=6000EA52</action> <!-- US BIOS -->
-      <action condition="(maincpu.rd@C13184==51CFFFF2)">maincpu.rd@C13184=6000EAB6</action> <!-- US-E BIOS -->
-      <action condition="(maincpu.rd@C1212E==51CFFFF2)">maincpu.rd@C1212E=6000EB36</action> <!-- Asia BIOS -->
-      <action condition="(maincpu.rd@C134FA==51CFFFF2)">maincpu.rd@C134FA=6000E892</action> <!-- Japan BIOS -->
-    </script>
-    <script state="off">
-      <action>maincpu.rd@C1315C=temp0 </action>
-      <action>maincpu.rd@C1314E=temp1 </action>
-      <action>maincpu.rd@C131E8=temp2 </action>
-      <action>maincpu.rd@C13184=temp3 </action>
-      <action>maincpu.rd@C1212E=temp4 </action>
-      <action>maincpu.rd@C134FA=temp5 </action>
-    </script>
-  </cheat>
+    <cheat desc="跳过RAM/ROM检查">
+        <comment>在没有绿色屏幕上可以更快地启动,最好是使用前一起启用</comment>
+        <script state="on">
+            <action>temp0 =maincpu.rd@C1315C</action>
+            <action>temp1 =maincpu.rd@C1314E</action>
+            <action>temp2 =maincpu.rd@C131E8</action>
+            <action>temp3 =maincpu.rd@C13184</action>
+            <action>temp4 =maincpu.rd@C1212E</action>
+            <action>temp5 =maincpu.rd@C134FA</action>
+        </script>
+        <script state="run">
+            <action condition="(maincpu.rd@C1315C==51CFFFF2)">maincpu.rd@C1315C=6000EB08
+            </action> <!-- Euro + Japan-S2 BIOSs -->
+            <action condition="(maincpu.rd@C1314E==51CFFFF2)">maincpu.rd@C1314E=6000EB16
+            </action> <!-- Euro-S1 + Japan-S1 BIOSs -->
+            <action condition="(maincpu.rd@C131E8==51CFFFF2)">maincpu.rd@C131E8=6000EA52</action> <!-- US BIOS -->
+            <action condition="(maincpu.rd@C13184==51CFFFF2)">maincpu.rd@C13184=6000EAB6</action> <!-- US-E BIOS -->
+            <action condition="(maincpu.rd@C1212E==51CFFFF2)">maincpu.rd@C1212E=6000EB36</action> <!-- Asia BIOS -->
+            <action condition="(maincpu.rd@C134FA==51CFFFF2)">maincpu.rd@C134FA=6000E892</action> <!-- Japan BIOS -->
+        </script>
+        <script state="off">
+            <action>maincpu.rd@C1315C=temp0</action>
+            <action>maincpu.rd@C1314E=temp1</action>
+            <action>maincpu.rd@C131E8=temp2</action>
+            <action>maincpu.rd@C13184=temp3</action>
+            <action>maincpu.rd@C1212E=temp4</action>
+            <action>maincpu.rd@C134FA=temp5</action>
+        </script>
+    </cheat>
 
-  <cheat desc="无限投币"> <comment>Alternatively just set Free Play to ON in the Dip Switches menu</comment>
-    <script state="run">
-      <action>maincpu.rb@D00034=99</action>
-    </script>
-  </cheat>
+    <cheat desc="无限投币">
+        <comment>Alternatively just set Free Play to ON in the Dip Switches menu</comment>
+        <script state="run">
+            <action>maincpu.rb@D00034=99</action>
+        </script>
+    </cheat>
 
 </mamecheat>
-<!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->
+        <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->

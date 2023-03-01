@@ -1,135 +1,140 @@
 <mamecheat version="1">
 
-  <cheat desc="无限投币">
-    <script state="run">
-      <action>maincpu.pb@0044=63</action>
-    </script>
-  </cheat>
+    <cheat desc="无限投币">
+        <script state="run">
+            <action>maincpu.pb@0044=63</action>
+        </script>
+    </cheat>
 
-  <cheat desc="选择开始区域"> <comment>Set on player select screen</comment>
-    <parameter min="1" max="7" step="1"/>
-    <script state="change">
-      <action>maincpu.pb@02F5=(param)</action>
-    </script>
-  </cheat>
+    <cheat desc="选择开始区域">
+        <comment>Set on player select screen</comment>
+        <parameter min="1" max="7" step="1"/>
+        <script state="change">
+            <action>maincpu.pb@02F5=(param)</action>
+        </script>
+    </cheat>
 
-  <cheat desc="无限时间">
-    <script state="run">
-      <action>maincpu.pw@0303=1EF1</action>
-    </script>
-  </cheat>
+    <cheat desc="无限时间">
+        <script state="run">
+            <action>maincpu.pw@0303=1EF1</action>
+        </script>
+    </cheat>
 
-  <cheat desc=" "/>
+    <cheat desc=" "/>
 
-  <cheat desc="无限生命 PL1">
-    <script state="run">
-      <action>maincpu.pb@023F=0A</action>
-    </script>
-  </cheat>
+    <cheat desc="无限生命 PL1">
+        <script state="run">
+            <action>maincpu.pb@023F=0A</action>
+        </script>
+    </cheat>
 
-  <cheat desc="无限能量 PL1">
-    <script state="run">
-      <action>maincpu.pb@0231=04</action>
-    </script>
-  </cheat>
+    <cheat desc="无限能量 PL1">
+        <script state="run">
+            <action>maincpu.pb@0231=04</action>
+        </script>
+    </cheat>
 
-  <cheat desc="角色无敌 PL1"> <comment>Turn OFF at the end of the area</comment>
-    <script state="run">
-      <action>maincpu.pb@1923=02</action>
-    </script>
-  </cheat>
+    <cheat desc="角色无敌 PL1">
+        <comment>Turn OFF at the end of the area</comment>
+        <script state="run">
+            <action>maincpu.pb@1923=02</action>
+        </script>
+    </cheat>
 
-  <cheat desc="总是有最大硬币 PL1">
-    <script state="run">
-      <action>maincpu.pw@0235=03E7</action>
-    </script>
-  </cheat>
+    <cheat desc="总是有最大硬币 PL1">
+        <script state="run">
+            <action>maincpu.pw@0235=03E7</action>
+        </script>
+    </cheat>
 
-  <cheat desc="选择武器 PL1">
-    <parameter>
-      <item value="0x00">剑</item>
-      <item value="0x01">石斧</item>
-      <item value="0x02">铁锤</item>
-      <item value="0x03">箭</item>
-    </parameter>
-    <script state="run">
-      <action>maincpu.pb@0239=param</action>
-    </script>
-  </cheat>
+    <cheat desc="选择武器 PL1">
+        <parameter>
+            <item value="0x00">剑</item>
+            <item value="0x01">石斧</item>
+            <item value="0x02">铁锤</item>
+            <item value="0x03">箭</item>
+        </parameter>
+        <script state="run">
+            <action>maincpu.pb@0239=param</action>
+        </script>
+    </cheat>
 
-  <cheat desc="总是有火力升级 PL1">
-    <script state="run">
-      <action>maincpu.pb@023B=01</action>
-    </script>
-  </cheat>
+    <cheat desc="总是有火力升级 PL1">
+        <script state="run">
+            <action>maincpu.pb@023B=01</action>
+        </script>
+    </cheat>
 
-  <cheat desc="无限自动射击 PL1">
-    <script state="run">
-      <action>maincpu.pb@022F=58</action>
-    </script>
-  </cheat>
+    <cheat desc="无限自动射击 PL1">
+        <script state="run">
+            <action>maincpu.pb@022F=58</action>
+        </script>
+    </cheat>
 
-  <cheat desc="快速攻击 PL1"> <comment>Hold attack button</comment>
-    <script state="run">
-      <action>maincpu.pb@01ED=00|(maincpu.pb@01ED BAND ~08)</action>
-    </script>
-  </cheat>
+    <cheat desc="快速攻击 PL1">
+        <comment>Hold attack button</comment>
+        <script state="run">
+            <action>maincpu.pb@01ED=00|(maincpu.pb@01ED BAND ~08)</action>
+        </script>
+    </cheat>
 
-  <cheat desc=" "/>
+    <cheat desc=" "/>
 
-  <cheat desc="无限生命 PL2">
-    <script state="run">
-      <action>maincpu.pb@02BF=0A</action>
-    </script>
-  </cheat>
+    <cheat desc="无限生命 PL2">
+        <script state="run">
+            <action>maincpu.pb@02BF=0A</action>
+        </script>
+    </cheat>
 
-  <cheat desc="无限能量 PL2">
-    <script state="run">
-      <action>maincpu.pb@02B1=04</action>
-    </script>
-  </cheat>
+    <cheat desc="无限能量 PL2">
+        <script state="run">
+            <action>maincpu.pb@02B1=04</action>
+        </script>
+    </cheat>
 
-  <cheat desc="角色无敌 PL2"> <comment>Turn OFF at the end of the area</comment>
-    <script state="run">
-      <action>maincpu.pb@2043=02</action>
-    </script>
-  </cheat>
+    <cheat desc="角色无敌 PL2">
+        <comment>Turn OFF at the end of the area</comment>
+        <script state="run">
+            <action>maincpu.pb@2043=02</action>
+        </script>
+    </cheat>
 
-  <cheat desc="总是有最大硬币 PL2">
-    <script state="run">
-      <action>maincpu.pw@02B5=03E7</action>
-    </script>
-  </cheat>
+    <cheat desc="总是有最大硬币 PL2">
+        <script state="run">
+            <action>maincpu.pw@02B5=03E7</action>
+        </script>
+    </cheat>
 
-  <cheat desc="选择武器 PL2">
-    <parameter>
-      <item value="0x00">剑</item>
-      <item value="0x01">石斧</item>
-      <item value="0x02">铁锤</item>
-      <item value="0x03">箭</item>
-    </parameter>
-    <script state="run">
-      <action>maincpu.pb@02B9=param</action>
-    </script>
-  </cheat>
+    <cheat desc="选择武器 PL2">
+        <parameter>
+            <item value="0x00">剑</item>
+            <item value="0x01">石斧</item>
+            <item value="0x02">铁锤</item>
+            <item value="0x03">箭</item>
+        </parameter>
+        <script state="run">
+            <action>maincpu.pb@02B9=param</action>
+        </script>
+    </cheat>
 
-  <cheat desc="总是有火力升级 PL2">
-    <script state="run">
-      <action>maincpu.pb@02BB=01</action>
-    </script>
-  </cheat>
+    <cheat desc="总是有火力升级 PL2">
+        <script state="run">
+            <action>maincpu.pb@02BB=01</action>
+        </script>
+    </cheat>
 
-  <cheat desc="无限自动射击 PL2">
-    <script state="run">
-      <action>maincpu.pb@02AF=58</action>
-    </script>
-  </cheat>
+    <cheat desc="无限自动射击 PL2">
+        <script state="run">
+            <action>maincpu.pb@02AF=58</action>
+        </script>
+    </cheat>
 
-  <cheat desc="快速攻击 PL2"> <comment>Hold attack button</comment>
-    <script state="run">
-      <action>maincpu.pb@026D=00|(maincpu.pb@026D BAND ~08)</action>
-    </script>
-  </cheat>
+    <cheat desc="快速攻击 PL2">
+        <comment>Hold attack button</comment>
+        <script state="run">
+            <action>maincpu.pb@026D=00|(maincpu.pb@026D BAND ~08)</action>
+        </script>
+    </cheat>
 
 </mamecheat>
-<!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->
+        <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->

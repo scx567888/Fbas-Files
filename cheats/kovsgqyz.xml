@@ -77,18 +77,18 @@
             <parameter cpu="0" address="0x81AF51" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="道具使用无场景限制" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x80DCD8" value="0x01"/>
-		</option>
-	</cheat>
-	<cheat desc="吕布必定出现" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x81B349" value="0x05"/>
-		</option>
-	</cheat>
+    <cheat desc="道具使用无场景限制" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80DCD8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="吕布必定出现" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81B349" value="0x05"/>
+        </option>
+    </cheat>
     <cheat desc="力量加强模式" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -113,36 +113,36 @@
             <parameter cpu="0" address="0x812A6C" value="0xC8"/>
         </option>
     </cheat>
-	<cheat desc="游山玩水 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x8114CE" value="0x4D"/>
-		</option>
-	</cheat>
-	<cheat desc="游山玩水 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x81166A" value="0x4D"/>
-		</option>
-	</cheat>
-	<cheat desc="游山玩水 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x811806" value="0x4D"/>
-		</option>
-	</cheat>
-	<cheat desc="游山玩水 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x8119A2" value="0x4D"/>
-		</option>
-	</cheat>
-	<cheat desc="连击数总是40 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x811560" value="0x27"/>
-		</option>
-	</cheat>
+    <cheat desc="游山玩水 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8114CE" value="0x4D"/>
+        </option>
+    </cheat>
+    <cheat desc="游山玩水 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81166A" value="0x4D"/>
+        </option>
+    </cheat>
+    <cheat desc="游山玩水 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811806" value="0x4D"/>
+        </option>
+    </cheat>
+    <cheat desc="游山玩水 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8119A2" value="0x4D"/>
+        </option>
+    </cheat>
+    <cheat desc="连击数总是40 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811560" value="0x27"/>
+        </option>
+    </cheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -156,7 +156,7 @@
             <parameter cpu="0" address="0x81F569" value="0x09"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -223,7 +223,7 @@
             <parameter cpu="0" address="0x811A6C" value="0x09"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -282,7 +282,7 @@
             <parameter cpu="0" address="0x811D2E" value="0x09"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -341,7 +341,7 @@
             <parameter cpu="0" address="0x811FF0" value="0x09"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限生命 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -400,7 +400,7 @@
             <parameter cpu="0" address="0x8122B2" value="0x09"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="PL1 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -3008,7 +3008,7 @@
             <parameter cpu="0" address="0x812866" value="0x35"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="PL2 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -5640,7 +5640,7 @@
             <parameter cpu="0" address="0x8128FE" value="0x35"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="PL3 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -8292,7 +8292,7 @@
             <parameter cpu="0" address="0x812996" value="0x35"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="PL4 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">

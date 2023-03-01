@@ -30,7 +30,7 @@
             <parameter cpu="0" address="0xFFC213" value="0x03"/>
         </option>
     </cheat>
-     <cheat desc="选择当前速度 PL1" default="0">
+    <cheat desc="选择当前速度 PL1" default="0">
         <option desc="关闭"/>
         <option desc="0">
             <parameter cpu="0" address="0xFFC1FE" value="0x00"/>
@@ -69,7 +69,7 @@
             <parameter cpu="0" address="0xFFC1FB" value="0x0C"/>
         </option>
     </cheat>
-     <cheat desc="选择武器 PL1" default="0">
+    <cheat desc="选择武器 PL1" default="0">
         <option desc="关闭"/>
         <option desc="普通">
             <parameter cpu="0" address="0xFFC1FD" value="0x00"/>
@@ -87,7 +87,7 @@
             <parameter cpu="0" address="0xFFC1FD" value="0x10"/>
         </option>
     </cheat>
-   <cheat desc="无限生命 PL2" default="0">
+    <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFFC2B8" value="0x03"/>
@@ -111,7 +111,7 @@
             <parameter cpu="0" address="0xFFC2D3" value="0x03"/>
         </option>
     </cheat>
-     <cheat desc="选择当前速度 PL2" default="0">
+    <cheat desc="选择当前速度 PL2" default="0">
         <option desc="关闭"/>
         <option desc="0">
             <parameter cpu="0" address="0xFFC2BE" value="0x00"/>
@@ -150,7 +150,7 @@
             <parameter cpu="0" address="0xFFC2BB" value="0x0C"/>
         </option>
     </cheat>
-     <cheat desc="选择武器 PL2" default="0">
+    <cheat desc="选择武器 PL2" default="0">
         <option desc="关闭"/>
         <option desc="普通">
             <parameter cpu="0" address="0xFFC2BD" value="0x00"/>

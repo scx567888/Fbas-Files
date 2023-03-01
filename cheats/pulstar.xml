@@ -75,26 +75,26 @@
             <parameter cpu="0" address="0x1017E1" value="0xFF"/>
         </option>
     </cheat>
-	<cheat desc="[  以下功能在获得辅助装备后开启，否则辅助装备无法得到 ]"/>
-	<cheat desc="选择炸弹 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="跟踪导弹">
-			<parameter cpu="0" address="0x1017DF" value="0x00"/>
-			<parameter cpu="0" address="0x1017E1" value="0x40"/>
-		</option>
-		<option desc="前方导弹">
-			<parameter cpu="0" address="0x1017DF" value="0x01"/>
-			<parameter cpu="0" address="0x1017E1" value="0x40"/>
-		</option>
-		<option desc="下方炸弹">
-			<parameter cpu="0" address="0x1017DF" value="0x02"/>
-			<parameter cpu="0" address="0x1017E1" value="0x40"/>
-		</option>
-		<option desc="禁用">
-			<parameter cpu="0" address="0x1017DF" value="0x00"/>
-			<parameter cpu="0" address="0x1017E1" value="0x00"/>
-		</option>
-	</cheat>
+    <cheat desc="[  以下功能在获得辅助装备后开启，否则辅助装备无法得到 ]"/>
+    <cheat desc="选择炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="跟踪导弹">
+            <parameter cpu="0" address="0x1017DF" value="0x00"/>
+            <parameter cpu="0" address="0x1017E1" value="0x40"/>
+        </option>
+        <option desc="前方导弹">
+            <parameter cpu="0" address="0x1017DF" value="0x01"/>
+            <parameter cpu="0" address="0x1017E1" value="0x40"/>
+        </option>
+        <option desc="下方炸弹">
+            <parameter cpu="0" address="0x1017DF" value="0x02"/>
+            <parameter cpu="0" address="0x1017E1" value="0x40"/>
+        </option>
+        <option desc="禁用">
+            <parameter cpu="0" address="0x1017DF" value="0x00"/>
+            <parameter cpu="0" address="0x1017E1" value="0x00"/>
+        </option>
+    </cheat>
     <cheat desc="选择辅助装备火力 PL1" default="0">
         <option desc="关闭"/>
         <option desc="扩散火焰">
@@ -113,22 +113,22 @@
             <parameter cpu="0" address="0x1017E0" value="0x04"/>
         </option>
     </cheat>
-	<cheat desc="开启上面外挂武器" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x1017E1" value="0x02"/>
-		</option>
-		<option desc="禁用">
-			<parameter cpu="0" address="0x1017E1" value="0x00"/>
-		</option>
-	</cheat>
-	<cheat desc="开启下面外挂武器" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x1017E1" value="0x04"/>
-		</option>
-		<option desc="禁用">
-			<parameter cpu="0" address="0x1017E1" value="0x00"/>
-		</option>
-	</cheat>
+    <cheat desc="开启上面外挂武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017E1" value="0x02"/>
+        </option>
+        <option desc="禁用">
+            <parameter cpu="0" address="0x1017E1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开启下面外挂武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017E1" value="0x04"/>
+        </option>
+        <option desc="禁用">
+            <parameter cpu="0" address="0x1017E1" value="0x00"/>
+        </option>
+    </cheat>
 </shufflecheat>

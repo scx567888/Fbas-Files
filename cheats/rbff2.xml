@@ -12,76 +12,76 @@
             <parameter cpu="0" address="0x10E001" value="0x01"/>
         </option>
     </cheat>
-	<cheat desc="下一关与角色克劳撒战斗" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x107BB5" value="0x08"/>
-		</option>
-	</cheat>
-	<cheat desc="下一关与角色基斯战斗" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x107BB5" value="0x09"/>
-		</option>
-	</cheat>
-	<cheat desc="下一关与角色阿尔福瑞德战斗" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x107BB5" value="0x0A"/>
-		</option>
-	</cheat>
-	<cheat desc="下一关到最终关" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x107BB5" value="0x0B"/>
-		</option>
-	</cheat>
-	<cheat desc="选择背景" default="0">
-		<option desc="关闭"/>
-		<option desc="Tree [Mai, Sokaku, Andy]">
-			<parameter cpu="0" address="0x107BB1" value="0x01"/>
-		</option>
-		<option desc="Billboard (1 Line) [Cheng, Yamazaki]">
-			<parameter cpu="0" address="0x107BB1" value="0x02"/>
-		</option>
-		<option desc="Square [Kim, Tung]">
-			<parameter cpu="0" address="0x107BB1" value="0x03"/>
-		</option>
-		<option desc="基斯塔 [基斯, 比利]">
-			<parameter cpu="0" address="0x107BB1" value="0x04"/>
-		</option>
-		<option desc="Strolheim Castle [Krauser, Laurence]">
-			<parameter cpu="0" address="0x107BB1" value="0x05"/>
-		</option>
-		<option desc="Crosswalk [Duck, Mary]">
-			<parameter cpu="0" address="0x107BB1" value="0x06"/>
-		</option>
-		<option desc="Fighting Ring [Bob, Franco, Joe]">
-			<parameter cpu="0" address="0x107BB1" value="0x07"/>
-		</option>
-		<option desc="Jin Chamber [Chonshu, Chonrei]">
-			<parameter cpu="0" address="0x107BB1" value="0x08"/>
-		</option>
-		<option desc="Rest Stop [Terry, Rick, Alfred]">
-			<parameter cpu="0" address="0x107BB1" value="0x09"/>
-		</option>
-		<option desc="Street (1 Line) [Xiangfei, Hon-Fu]">
-			<parameter cpu="0" address="0x107BB1" value="0x0A"/>
-		</option>
-	</cheat>
-	<cheat desc="选择阶段变化" default="0">
-		<option desc="关闭"/>
-		<option desc="0">
-			<parameter cpu="0" address="0x107BB7" value="0x00"/>
-		</option>
-		<option desc="1">
-			<parameter cpu="0" address="0x107BB7" value="0x01"/>
-		</option>
-		<option desc="2">
-			<parameter cpu="0" address="0x107BB7" value="0x02"/>
-		</option>
-	</cheat>
-	<cheat desc=" "/>
+    <cheat desc="下一关与角色克劳撒战斗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关与角色基斯战斗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关与角色阿尔福瑞德战斗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关到最终关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="Tree [Mai, Sokaku, Andy]">
+            <parameter cpu="0" address="0x107BB1" value="0x01"/>
+        </option>
+        <option desc="Billboard (1 Line) [Cheng, Yamazaki]">
+            <parameter cpu="0" address="0x107BB1" value="0x02"/>
+        </option>
+        <option desc="Square [Kim, Tung]">
+            <parameter cpu="0" address="0x107BB1" value="0x03"/>
+        </option>
+        <option desc="基斯塔 [基斯, 比利]">
+            <parameter cpu="0" address="0x107BB1" value="0x04"/>
+        </option>
+        <option desc="Strolheim Castle [Krauser, Laurence]">
+            <parameter cpu="0" address="0x107BB1" value="0x05"/>
+        </option>
+        <option desc="Crosswalk [Duck, Mary]">
+            <parameter cpu="0" address="0x107BB1" value="0x06"/>
+        </option>
+        <option desc="Fighting Ring [Bob, Franco, Joe]">
+            <parameter cpu="0" address="0x107BB1" value="0x07"/>
+        </option>
+        <option desc="Jin Chamber [Chonshu, Chonrei]">
+            <parameter cpu="0" address="0x107BB1" value="0x08"/>
+        </option>
+        <option desc="Rest Stop [Terry, Rick, Alfred]">
+            <parameter cpu="0" address="0x107BB1" value="0x09"/>
+        </option>
+        <option desc="Street (1 Line) [Xiangfei, Hon-Fu]">
+            <parameter cpu="0" address="0x107BB1" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择阶段变化" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107BB7" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107BB7" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107BB7" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
     <cheat desc="无限血量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限血量 PL1">
@@ -106,78 +106,78 @@
             <parameter cpu="0" address="0x1004CD" value="0x5F"/>
         </option>
     </cheat>
-	<cheat desc="选择游戏角色 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="特瑞">
-			<parameter cpu="0" address="0x107BA5" value="0x01"/>
-		</option>
-		<option desc="安迪">
-			<parameter cpu="0" address="0x107BA5" value="0x02"/>
-		</option>
-		<option desc="东丈">
-			<parameter cpu="0" address="0x107BA5" value="0x03"/>
-		</option>
-		<option desc="不知火舞">
-			<parameter cpu="0" address="0x107BA5" value="0x04"/>
-		</option>
-		<option desc="基斯">
-			<parameter cpu="0" address="0x107BA5" value="0x05"/>
-		</option>
-		<option desc="望月双角">
-			<parameter cpu="0" address="0x107BA5" value="0x06"/>
-		</option>
-		<option desc="鲍伯">
-			<parameter cpu="0" address="0x107BA5" value="0x07"/>
-		</option>
-		<option desc="红虎">
-			<parameter cpu="0" address="0x107BA5" value="0x08"/>
-		</option>
-		<option desc="布鲁玛莉">
-			<parameter cpu="0" address="0x107BA5" value="0x09"/>
-		</option>
-		<option desc="佛朗哥·巴斯">
-			<parameter cpu="0" address="0x107BA5" value="0x0A"/>
-		</option>
-		<option desc="山崎龙二">
-			<parameter cpu="0" address="0x107BA5" value="0x0B"/>
-		</option>
-		<option desc="秦崇秀">
-			<parameter cpu="0" address="0x107BA5" value="0x0C"/>
-		</option>
-		<option desc="秦崇雷">
-			<parameter cpu="0" address="0x107BA5" value="0x0D"/>
-		</option>
-		<option desc="达克">
-			<parameter cpu="0" address="0x107BA5" value="0x0E"/>
-		</option>
-		<option desc="金甲唤">
-			<parameter cpu="0" address="0x107BA5" value="0x0F"/>
-		</option>
-		<option desc="比利">
-			<parameter cpu="0" address="0x107BA5" value="0x10"/>
-		</option>
-		<option desc="陈秦山">
-			<parameter cpu="0" address="0x107BA5" value="0x11"/>
-		</option>
-		<option desc="唐葫芦">
-			<parameter cpu="0" address="0x107BA5" value="0x12"/>
-		</option>
-		<option desc="劳伦斯">
-			<parameter cpu="0" address="0x107BA5" value="0x13"/>
-		</option>
-		<option desc="克劳撒">
-			<parameter cpu="0" address="0x107BA5" value="0x14"/>
-		</option>
-		<option desc="瑞克">
-			<parameter cpu="0" address="0x107BA5" value="0x15"/>
-		</option>
-		<option desc="李香绯">
-			<parameter cpu="0" address="0x107BA5" value="0x16"/>
-		</option>
-		<option desc="#阿尔福瑞德#">
-			<parameter cpu="0" address="0x107BA5" value="0x17"/>
-		</option>
-	</cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="特瑞">
+            <parameter cpu="0" address="0x107BA5" value="0x01"/>
+        </option>
+        <option desc="安迪">
+            <parameter cpu="0" address="0x107BA5" value="0x02"/>
+        </option>
+        <option desc="东丈">
+            <parameter cpu="0" address="0x107BA5" value="0x03"/>
+        </option>
+        <option desc="不知火舞">
+            <parameter cpu="0" address="0x107BA5" value="0x04"/>
+        </option>
+        <option desc="基斯">
+            <parameter cpu="0" address="0x107BA5" value="0x05"/>
+        </option>
+        <option desc="望月双角">
+            <parameter cpu="0" address="0x107BA5" value="0x06"/>
+        </option>
+        <option desc="鲍伯">
+            <parameter cpu="0" address="0x107BA5" value="0x07"/>
+        </option>
+        <option desc="红虎">
+            <parameter cpu="0" address="0x107BA5" value="0x08"/>
+        </option>
+        <option desc="布鲁玛莉">
+            <parameter cpu="0" address="0x107BA5" value="0x09"/>
+        </option>
+        <option desc="佛朗哥·巴斯">
+            <parameter cpu="0" address="0x107BA5" value="0x0A"/>
+        </option>
+        <option desc="山崎龙二">
+            <parameter cpu="0" address="0x107BA5" value="0x0B"/>
+        </option>
+        <option desc="秦崇秀">
+            <parameter cpu="0" address="0x107BA5" value="0x0C"/>
+        </option>
+        <option desc="秦崇雷">
+            <parameter cpu="0" address="0x107BA5" value="0x0D"/>
+        </option>
+        <option desc="达克">
+            <parameter cpu="0" address="0x107BA5" value="0x0E"/>
+        </option>
+        <option desc="金甲唤">
+            <parameter cpu="0" address="0x107BA5" value="0x0F"/>
+        </option>
+        <option desc="比利">
+            <parameter cpu="0" address="0x107BA5" value="0x10"/>
+        </option>
+        <option desc="陈秦山">
+            <parameter cpu="0" address="0x107BA5" value="0x11"/>
+        </option>
+        <option desc="唐葫芦">
+            <parameter cpu="0" address="0x107BA5" value="0x12"/>
+        </option>
+        <option desc="劳伦斯">
+            <parameter cpu="0" address="0x107BA5" value="0x13"/>
+        </option>
+        <option desc="克劳撒">
+            <parameter cpu="0" address="0x107BA5" value="0x14"/>
+        </option>
+        <option desc="瑞克">
+            <parameter cpu="0" address="0x107BA5" value="0x15"/>
+        </option>
+        <option desc="李香绯">
+            <parameter cpu="0" address="0x107BA5" value="0x16"/>
+        </option>
+        <option desc="#阿尔福瑞德#">
+            <parameter cpu="0" address="0x107BA5" value="0x17"/>
+        </option>
+    </cheat>
     <cheat desc="Alfred百分百乱入 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -186,7 +186,7 @@
             <parameter cpu="0" address="0x10A8E4" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限血量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限血量 PL2">
@@ -211,79 +211,79 @@
             <parameter cpu="0" address="0x1005CD" value="0x5F"/>
         </option>
     </cheat>
-	<cheat desc="选择游戏角色 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="特瑞">
-			<parameter cpu="0" address="0x107BA7" value="0x01"/>
-		</option>
-		<option desc="安迪">
-			<parameter cpu="0" address="0x107BA7" value="0x02"/>
-		</option>
-		<option desc="东丈">
-			<parameter cpu="0" address="0x107BA7" value="0x03"/>
-		</option>
-		<option desc="不知火舞">
-			<parameter cpu="0" address="0x107BA7" value="0x04"/>
-		</option>
-		<option desc="基斯">
-			<parameter cpu="0" address="0x107BA7" value="0x05"/>
-		</option>
-		<option desc="望月双角">
-			<parameter cpu="0" address="0x107BA7" value="0x06"/>
-		</option>
-		<option desc="鲍伯">
-			<parameter cpu="0" address="0x107BA7" value="0x07"/>
-		</option>
-		<option desc="红虎">
-			<parameter cpu="0" address="0x107BA7" value="0x08"/>
-		</option>
-		<option desc="布鲁玛莉">
-			<parameter cpu="0" address="0x107BA7" value="0x09"/>
-		</option>
-		<option desc="佛朗哥·巴斯">
-			<parameter cpu="0" address="0x107BA7" value="0x0A"/>
-		</option>
-		<option desc="山崎龙二">
-			<parameter cpu="0" address="0x107BA7" value="0x0B"/>
-		</option>
-		<option desc="秦崇秀">
-			<parameter cpu="0" address="0x107BA7" value="0x0C"/>
-		</option>
-		<option desc="秦崇雷">
-			<parameter cpu="0" address="0x107BA7" value="0x0D"/>
-		</option>
-		<option desc="达克">
-			<parameter cpu="0" address="0x107BA7" value="0x0E"/>
-		</option>
-		<option desc="金甲唤">
-			<parameter cpu="0" address="0x107BA7" value="0x0F"/>
-		</option>
-		<option desc="比利">
-			<parameter cpu="0" address="0x107BA7" value="0x10"/>
-		</option>
-		<option desc="陈秦山">
-			<parameter cpu="0" address="0x107BA7" value="0x11"/>
-		</option>
-		<option desc="唐葫芦">
-			<parameter cpu="0" address="0x107BA7" value="0x12"/>
-		</option>
-		<option desc="劳伦斯">
-			<parameter cpu="0" address="0x107BA7" value="0x13"/>
-		</option>
-		<option desc="克劳撒">
-			<parameter cpu="0" address="0x107BA7" value="0x14"/>
-		</option>
-		<option desc="瑞克">
-			<parameter cpu="0" address="0x107BA7" value="0x15"/>
-		</option>
-		<option desc="李香绯">
-			<parameter cpu="0" address="0x107BA7" value="0x16"/>
-		</option>
-		<option desc="#阿尔福瑞德#">
-			<parameter cpu="0" address="0x107BA7" value="0x17"/>
-		</option>
-	</cheat>
-	<cheat desc=" "/>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="特瑞">
+            <parameter cpu="0" address="0x107BA7" value="0x01"/>
+        </option>
+        <option desc="安迪">
+            <parameter cpu="0" address="0x107BA7" value="0x02"/>
+        </option>
+        <option desc="东丈">
+            <parameter cpu="0" address="0x107BA7" value="0x03"/>
+        </option>
+        <option desc="不知火舞">
+            <parameter cpu="0" address="0x107BA7" value="0x04"/>
+        </option>
+        <option desc="基斯">
+            <parameter cpu="0" address="0x107BA7" value="0x05"/>
+        </option>
+        <option desc="望月双角">
+            <parameter cpu="0" address="0x107BA7" value="0x06"/>
+        </option>
+        <option desc="鲍伯">
+            <parameter cpu="0" address="0x107BA7" value="0x07"/>
+        </option>
+        <option desc="红虎">
+            <parameter cpu="0" address="0x107BA7" value="0x08"/>
+        </option>
+        <option desc="布鲁玛莉">
+            <parameter cpu="0" address="0x107BA7" value="0x09"/>
+        </option>
+        <option desc="佛朗哥·巴斯">
+            <parameter cpu="0" address="0x107BA7" value="0x0A"/>
+        </option>
+        <option desc="山崎龙二">
+            <parameter cpu="0" address="0x107BA7" value="0x0B"/>
+        </option>
+        <option desc="秦崇秀">
+            <parameter cpu="0" address="0x107BA7" value="0x0C"/>
+        </option>
+        <option desc="秦崇雷">
+            <parameter cpu="0" address="0x107BA7" value="0x0D"/>
+        </option>
+        <option desc="达克">
+            <parameter cpu="0" address="0x107BA7" value="0x0E"/>
+        </option>
+        <option desc="金甲唤">
+            <parameter cpu="0" address="0x107BA7" value="0x0F"/>
+        </option>
+        <option desc="比利">
+            <parameter cpu="0" address="0x107BA7" value="0x10"/>
+        </option>
+        <option desc="陈秦山">
+            <parameter cpu="0" address="0x107BA7" value="0x11"/>
+        </option>
+        <option desc="唐葫芦">
+            <parameter cpu="0" address="0x107BA7" value="0x12"/>
+        </option>
+        <option desc="劳伦斯">
+            <parameter cpu="0" address="0x107BA7" value="0x13"/>
+        </option>
+        <option desc="克劳撒">
+            <parameter cpu="0" address="0x107BA7" value="0x14"/>
+        </option>
+        <option desc="瑞克">
+            <parameter cpu="0" address="0x107BA7" value="0x15"/>
+        </option>
+        <option desc="李香绯">
+            <parameter cpu="0" address="0x107BA7" value="0x16"/>
+        </option>
+        <option desc="#阿尔福瑞德#">
+            <parameter cpu="0" address="0x107BA7" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
     <cheat desc="选关 Variation" default="0">
         <option desc="关闭"/>
         <option desc="0">

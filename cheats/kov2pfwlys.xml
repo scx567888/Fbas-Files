@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-   <cheat desc="选关" default="0">
+    <cheat desc="选关" default="0">
         <option desc="关闭"/>
         <option desc="第一章 火烧博望">
             <parameter cpu="0" address="0x813AD1" value="0x01"/>
@@ -24,7 +24,7 @@
             <parameter cpu="0" address="0x813AD1" value="0x06"/>
         </option>
     </cheat>
-   <cheat desc="选小关场景" default="0">
+    <cheat desc="选小关场景" default="0">
         <option desc="关闭"/>
         <option desc="场景1">
             <parameter cpu="0" address="0x813AD1" value="0x01"/>
@@ -106,37 +106,37 @@
             <parameter cpu="2" address="0x4800706D" value="0xFF"/>
         </option>
     </cheat>
-	<cheat desc="[ 属性切换前需先使用一次无属性 ]"/>
-	<cheat desc="武器属性选择" default="0">
-		<option desc="关闭"/>
-		<option desc="无属性">
-			<parameter cpu="0" address="0x122A27" value="0x00"/>
-			<parameter cpu="0" address="0x122A73" value="0x00"/>
-			<parameter cpu="0" address="0x122977" value="0x00"/>
-			<parameter cpu="0" address="0x122ABD" value="0x00"/>
-			<parameter cpu="0" address="0x122B09" value="0x00"/>
-			<parameter cpu="0" address="0x122B79" value="0x00"/>
-		</option>
-		<option desc="冰">
-			<parameter cpu="0" address="0x122A27" value="0x71"/>
-		</option>
-		<option desc="火">
-			<parameter cpu="0" address="0x122A73" value="0x71"/>
-		</option>
-		<option desc="晕">
-			<parameter cpu="0" address="0x122977" value="0x71"/>
-		</option>
-		<option desc="电">
-			<parameter cpu="0" address="0x122ABD" value="0x71"/>
-		</option>
-		<option desc="毒">
-			<parameter cpu="0" address="0x122B09" value="0x71"/>
-		</option>
-		<option desc="爆">
-			<parameter cpu="0" address="0x122B79" value="0x71"/>
-		</option>
-	</cheat>
-	<cheat desc=" "/>
+    <cheat desc="[ 属性切换前需先使用一次无属性 ]"/>
+    <cheat desc="武器属性选择" default="0">
+        <option desc="关闭"/>
+        <option desc="无属性">
+            <parameter cpu="0" address="0x122A27" value="0x00"/>
+            <parameter cpu="0" address="0x122A73" value="0x00"/>
+            <parameter cpu="0" address="0x122977" value="0x00"/>
+            <parameter cpu="0" address="0x122ABD" value="0x00"/>
+            <parameter cpu="0" address="0x122B09" value="0x00"/>
+            <parameter cpu="0" address="0x122B79" value="0x00"/>
+        </option>
+        <option desc="冰">
+            <parameter cpu="0" address="0x122A27" value="0x71"/>
+        </option>
+        <option desc="火">
+            <parameter cpu="0" address="0x122A73" value="0x71"/>
+        </option>
+        <option desc="晕">
+            <parameter cpu="0" address="0x122977" value="0x71"/>
+        </option>
+        <option desc="电">
+            <parameter cpu="0" address="0x122ABD" value="0x71"/>
+        </option>
+        <option desc="毒">
+            <parameter cpu="0" address="0x122B09" value="0x71"/>
+        </option>
+        <option desc="爆">
+            <parameter cpu="0" address="0x122B79" value="0x71"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
     <cheat desc="游山玩水 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -2291,7 +2291,7 @@
             <parameter cpu="0" address="0x8114F1" value="0x7B"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="分数最大 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -4426,7 +4426,7 @@
             <parameter cpu="0" address="0x81161F" value="0x7B"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="分数最大 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -6561,7 +6561,7 @@
             <parameter cpu="0" address="0x81174d" value="0x7B"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="分数最大 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -8696,7 +8696,7 @@
             <parameter cpu="0" address="0x81187b" value="0x7B"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="修复天书及八阵图连放死机" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -8849,23 +8849,23 @@
             <parameter cpu="0" address="0xD0956F" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="敌兵立刻变宝物" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-	<parameter cpu="0" address="0xD07051" value="0x0b"/>
-	<parameter cpu="0" address="0xD07451" value="0x0b"/>
-	<parameter cpu="0" address="0xD07851" value="0x0b"/>
-	<parameter cpu="0" address="0xD07c51" value="0x0b"/>
-	<parameter cpu="0" address="0xD08051" value="0x0b"/>
-	<parameter cpu="0" address="0xD08451" value="0x0b"/>
-	<parameter cpu="0" address="0xD08851" value="0x0b"/>
-	<parameter cpu="0" address="0xD0706c" value="0x00"/>
-	<parameter cpu="0" address="0xD0746c" value="0x00"/>
-	<parameter cpu="0" address="0xD0786c" value="0x00"/>
-	<parameter cpu="0" address="0xD07c6c" value="0x00"/>
-	<parameter cpu="0" address="0xD0806c" value="0x00"/>
-	<parameter cpu="0" address="0xD0846c" value="0x00"/>
-	<parameter cpu="0" address="0xD0886c" value="0x00"/>
-		</option>
-	</cheat>
+    <cheat desc="敌兵立刻变宝物" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD07051" value="0x0b"/>
+            <parameter cpu="0" address="0xD07451" value="0x0b"/>
+            <parameter cpu="0" address="0xD07851" value="0x0b"/>
+            <parameter cpu="0" address="0xD07c51" value="0x0b"/>
+            <parameter cpu="0" address="0xD08051" value="0x0b"/>
+            <parameter cpu="0" address="0xD08451" value="0x0b"/>
+            <parameter cpu="0" address="0xD08851" value="0x0b"/>
+            <parameter cpu="0" address="0xD0706c" value="0x00"/>
+            <parameter cpu="0" address="0xD0746c" value="0x00"/>
+            <parameter cpu="0" address="0xD0786c" value="0x00"/>
+            <parameter cpu="0" address="0xD07c6c" value="0x00"/>
+            <parameter cpu="0" address="0xD0806c" value="0x00"/>
+            <parameter cpu="0" address="0xD0846c" value="0x00"/>
+            <parameter cpu="0" address="0xD0886c" value="0x00"/>
+        </option>
+    </cheat>
 </shufflecheat>

@@ -12,19 +12,19 @@
             <parameter cpu="0" address="0x101B79" value="0x03"/>
         </option>
     </cheat>
-	<cheat desc="快速攻击 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x1014B8" value="0x00"/>
-		</option>
-	</cheat>
-	<cheat desc="角色无敌 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x101B9D" value="0x02"/>
-			<parameter cpu="0" address="0x103805" value="0x01"/>
-		</option>
-	</cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1014B8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101B9D" value="0x02"/>
+            <parameter cpu="0" address="0x103805" value="0x01"/>
+        </option>
+    </cheat>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -37,19 +37,19 @@
             <parameter cpu="0" address="0x101B7B" value="0x03"/>
         </option>
     </cheat>
-	<cheat desc="快速攻击 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x1014BB" value="0x00"/>
-		</option>
-	</cheat>
-	<cheat desc="角色无敌 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x101B9F" value="0x02"/>
-			<parameter cpu="0" address="0x104405" value="0x01"/>
-		</option>
-	</cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1014BB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101B9F" value="0x02"/>
+            <parameter cpu="0" address="0x104405" value="0x01"/>
+        </option>
+    </cheat>
     <cheat desc="选择下一关" default="0">
         <option desc="关闭"/>
         <option desc="1">

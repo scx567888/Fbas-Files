@@ -82,7 +82,7 @@
             <parameter cpu="0" address="0x3F0743" value="0x02"/>
         </option>
     </cheat>
-     <cheat desc="选择武器 PL1" default="0">
+    <cheat desc="选择武器 PL1" default="0">
         <option desc="关闭"/>
         <option desc="直射">
             <parameter cpu="0" address="0x3F0741" value="0x00"/>
@@ -173,7 +173,7 @@
             <parameter cpu="0" address="0x3F07C3" value="0x02"/>
         </option>
     </cheat>
-     <cheat desc="选择武器 PL2" default="0">
+    <cheat desc="选择武器 PL2" default="0">
         <option desc="关闭"/>
         <option desc="直射">
             <parameter cpu="0" address="0x3F07C1" value="0x00"/>

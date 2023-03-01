@@ -19,10 +19,10 @@
             <parameter cpu="0" address="0x100067" value="0x00"/>
         </option>
     </cheat>
-  <cheat desc="总是最大力量 PL1" default="0">
+    <cheat desc="总是最大力量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0x100072" value="0xFF"/>  
+            <parameter cpu="0" address="0x100072" value="0xFF"/>
         </option>
     </cheat>
     <cheat desc="无限能量 PL2" default="0">
@@ -39,10 +39,10 @@
     <cheat desc="总是最大力量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0x100172" value="0xFF"/>  
+            <parameter cpu="0" address="0x100172" value="0xFF"/>
         </option>
     </cheat>
- <cheat desc="容易使出(←↙↓↘→)方向必杀技 PL1" default="0">
+    <cheat desc="容易使出(←↙↓↘→)方向必杀技 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x10CD07" value="0x02"/>

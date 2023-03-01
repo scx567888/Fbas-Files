@@ -196,8 +196,8 @@
             <parameter cpu="0" address="0xE00843" value="0xD6"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
- <cheat desc="无限生命 PL2" default="0">
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xE007C1" value="0x09"/>

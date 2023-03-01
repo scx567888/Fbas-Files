@@ -3,8 +3,8 @@
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
         <option desc="无限时间">
-            <parameter cpu="0" address="0x80B3C9" 
-value="0x63"/>  
+            <parameter cpu="0" address="0x80B3C9"
+                       value="0x63"/>
         </option>
         <option desc="过关!">
             <parameter cpu="0" address="0x80B3C9" value="0x00"/>

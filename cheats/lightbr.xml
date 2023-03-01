@@ -1,620 +1,620 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-        <cheat desc="无限投币" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x400207" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限时间" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x407F36" value="0x77"/>		
-		</option>
-	</cheat>
-	<cheat desc="总是一击杀BOSS" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x404B50" value="0x00"/>
-			<parameter cpu="0" address="0x4053D0" value="0x00"/>
-			<parameter cpu="0" address="0x405450" value="0x00"/>
-		</option>
-	</cheat>
-	<cheat desc=" "/>
-        <cheat desc="无敌 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C243" value="0x02"/>		
-		</option>
-	</cheat>
-        <cheat desc="分数最大 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C248" value="0x99"/>	
-			<parameter cpu="0" address="0x40C249" value="0x99"/>	
-			<parameter cpu="0" address="0x40C24A" value="0x99"/>	
-			<parameter cpu="0" address="0x40C24B" value="0x99"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限生命 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C244" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限能量 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x404FD0" value="0x14"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限特殊技 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C245" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="蓄力立即到极限 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C235" value="0xFF"/>		
-		</option>
-	</cheat>
-        <cheat desc="选择武器 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="雷剑 - 骑士">
-			<parameter cpu="0" address="0x40C253" value="0x40"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0B"/>		
-		</option>
-		<option desc="冰剑 - 骑士">
-			<parameter cpu="0" address="0x40C253" value="0x44"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0A"/>		
-		</option>
-		<option desc="火剑 - 骑士">
-			<parameter cpu="0" address="0x40C253" value="0x3C"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x08"/>		
-		</option>
-		<option desc="圣剑 - 骑士">
-			<parameter cpu="0" address="0x40C253" value="0x4C"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰剑 - 骑士">
-			<parameter cpu="0" address="0x40C253" value="0x48"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x09"/>		
-		</option>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x400207" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x407F36" value="0x77"/>
+        </option>
+    </cheat>
+    <cheat desc="总是一击杀BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x404B50" value="0x00"/>
+            <parameter cpu="0" address="0x4053D0" value="0x00"/>
+            <parameter cpu="0" address="0x405450" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C243" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="分数最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C248" value="0x99"/>
+            <parameter cpu="0" address="0x40C249" value="0x99"/>
+            <parameter cpu="0" address="0x40C24A" value="0x99"/>
+            <parameter cpu="0" address="0x40C24B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C244" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x404FD0" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C245" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄力立即到极限 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C235" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="雷剑 - 骑士">
+            <parameter cpu="0" address="0x40C253" value="0x40"/>
+            <parameter cpu="0" address="0x40C24C" value="0x48"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0B"/>
+        </option>
+        <option desc="冰剑 - 骑士">
+            <parameter cpu="0" address="0x40C253" value="0x44"/>
+            <parameter cpu="0" address="0x40C24C" value="0x40"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0A"/>
+        </option>
+        <option desc="火剑 - 骑士">
+            <parameter cpu="0" address="0x40C253" value="0x3C"/>
+            <parameter cpu="0" address="0x40C24C" value="0x41"/>
+            <parameter cpu="0" address="0x40C24D" value="0x08"/>
+        </option>
+        <option desc="圣剑 - 骑士">
+            <parameter cpu="0" address="0x40C253" value="0x4C"/>
+            <parameter cpu="0" address="0x40C24C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰剑 - 骑士">
+            <parameter cpu="0" address="0x40C253" value="0x48"/>
+            <parameter cpu="0" address="0x40C24C" value="0x49"/>
+            <parameter cpu="0" address="0x40C24D" value="0x09"/>
+        </option>
 
-		<option desc="雷爪 - 武士">
-			<parameter cpu="0" address="0x40C253" value="0x41"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0B"/>		
-		</option>
-		<option desc="冰爪 - 武士">
-			<parameter cpu="0" address="0x40C253" value="0x45"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0A"/>		
-		</option>
-		<option desc="火爪 - 武士">
-			<parameter cpu="0" address="0x40C253" value="0x3D"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x08"/>		
-		</option>
-		<option desc="圣爪 - 武士">
-			<parameter cpu="0" address="0x40C253" value="0x4D"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰爪 - 武士">
-			<parameter cpu="0" address="0x40C253" value="0x49"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x09"/>		
-		</option>
+        <option desc="雷爪 - 武士">
+            <parameter cpu="0" address="0x40C253" value="0x41"/>
+            <parameter cpu="0" address="0x40C24C" value="0x48"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0B"/>
+        </option>
+        <option desc="冰爪 - 武士">
+            <parameter cpu="0" address="0x40C253" value="0x45"/>
+            <parameter cpu="0" address="0x40C24C" value="0x40"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0A"/>
+        </option>
+        <option desc="火爪 - 武士">
+            <parameter cpu="0" address="0x40C253" value="0x3D"/>
+            <parameter cpu="0" address="0x40C24C" value="0x41"/>
+            <parameter cpu="0" address="0x40C24D" value="0x08"/>
+        </option>
+        <option desc="圣爪 - 武士">
+            <parameter cpu="0" address="0x40C253" value="0x4D"/>
+            <parameter cpu="0" address="0x40C24C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰爪 - 武士">
+            <parameter cpu="0" address="0x40C253" value="0x49"/>
+            <parameter cpu="0" address="0x40C24C" value="0x49"/>
+            <parameter cpu="0" address="0x40C24D" value="0x09"/>
+        </option>
 
-		<option desc="雷弓 - 弓手">
-			<parameter cpu="0" address="0x40C253" value="0x42"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0B"/>		
-		</option>
-		<option desc="冰弓 - 弓手">
-			<parameter cpu="0" address="0x40C253" value="0x46"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0A"/>		
-		</option>
-		<option desc="火弓 - 弓手">
-			<parameter cpu="0" address="0x40C253" value="0x3E"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x08"/>		
-		</option>
-		<option desc="圣弓 - 弓手">
-			<parameter cpu="0" address="0x40C253" value="0x4E"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰弓 - 弓手">
-			<parameter cpu="0" address="0x40C253" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x09"/>		
-		</option>
+        <option desc="雷弓 - 弓手">
+            <parameter cpu="0" address="0x40C253" value="0x42"/>
+            <parameter cpu="0" address="0x40C24C" value="0x48"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0B"/>
+        </option>
+        <option desc="冰弓 - 弓手">
+            <parameter cpu="0" address="0x40C253" value="0x46"/>
+            <parameter cpu="0" address="0x40C24C" value="0x40"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0A"/>
+        </option>
+        <option desc="火弓 - 弓手">
+            <parameter cpu="0" address="0x40C253" value="0x3E"/>
+            <parameter cpu="0" address="0x40C24C" value="0x41"/>
+            <parameter cpu="0" address="0x40C24D" value="0x08"/>
+        </option>
+        <option desc="圣弓 - 弓手">
+            <parameter cpu="0" address="0x40C253" value="0x4E"/>
+            <parameter cpu="0" address="0x40C24C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰弓 - 弓手">
+            <parameter cpu="0" address="0x40C253" value="0x4A"/>
+            <parameter cpu="0" address="0x40C24C" value="0x49"/>
+            <parameter cpu="0" address="0x40C24D" value="0x09"/>
+        </option>
 
-		<option desc="雷杖 - 法师">
-			<parameter cpu="0" address="0x40C253" value="0x43"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0B"/>		
-		</option>
-		<option desc="冰杖 - 法师">
-			<parameter cpu="0" address="0x40C253" value="0x47"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0A"/>		
-		</option>
-		<option desc="火杖 - 法师">
-			<parameter cpu="0" address="0x40C253" value="0x3F"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x08"/>		
-		</option>
-		<option desc="圣杖 - 法师">
-			<parameter cpu="0" address="0x40C253" value="0x4F"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰杖 - 法师">
-			<parameter cpu="0" address="0x40C253" value="0x4B"/>	
-			<parameter cpu="0" address="0x40C24C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C24D" value="0x09"/>		
-		</option>
-	</cheat>
-	<cheat desc=" "/>
-        <cheat desc="无敌 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C343" value="0x02"/>		
-		</option>
-	</cheat>
-        <cheat desc="分数最大 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C348" value="0x99"/>	
-			<parameter cpu="0" address="0x40C349" value="0x99"/>	
-			<parameter cpu="0" address="0x40C34A" value="0x99"/>	
-			<parameter cpu="0" address="0x40C34B" value="0x99"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限生命 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C344" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限能量 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x405050" value="0x14"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限特殊技 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C345" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="蓄力立即到极限 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C335" value="0xFF"/>		
-		</option>
-	</cheat>
-        <cheat desc="选择武器 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="雷剑 - 骑士">
-			<parameter cpu="0" address="0x40C353" value="0x40"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0B"/>		
-		</option>
-		<option desc="冰剑 - 骑士">
-			<parameter cpu="0" address="0x40C353" value="0x44"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0A"/>		
-		</option>
-		<option desc="火剑 - 骑士">
-			<parameter cpu="0" address="0x40C353" value="0x3C"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x08"/>		
-		</option>
-		<option desc="圣剑 - 骑士">
-			<parameter cpu="0" address="0x40C353" value="0x4C"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰剑 - 骑士">
-			<parameter cpu="0" address="0x40C353" value="0x48"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x09"/>		
-		</option>
+        <option desc="雷杖 - 法师">
+            <parameter cpu="0" address="0x40C253" value="0x43"/>
+            <parameter cpu="0" address="0x40C24C" value="0x48"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0B"/>
+        </option>
+        <option desc="冰杖 - 法师">
+            <parameter cpu="0" address="0x40C253" value="0x47"/>
+            <parameter cpu="0" address="0x40C24C" value="0x40"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0A"/>
+        </option>
+        <option desc="火杖 - 法师">
+            <parameter cpu="0" address="0x40C253" value="0x3F"/>
+            <parameter cpu="0" address="0x40C24C" value="0x41"/>
+            <parameter cpu="0" address="0x40C24D" value="0x08"/>
+        </option>
+        <option desc="圣杖 - 法师">
+            <parameter cpu="0" address="0x40C253" value="0x4F"/>
+            <parameter cpu="0" address="0x40C24C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C24D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰杖 - 法师">
+            <parameter cpu="0" address="0x40C253" value="0x4B"/>
+            <parameter cpu="0" address="0x40C24C" value="0x49"/>
+            <parameter cpu="0" address="0x40C24D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C343" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="分数最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C348" value="0x99"/>
+            <parameter cpu="0" address="0x40C349" value="0x99"/>
+            <parameter cpu="0" address="0x40C34A" value="0x99"/>
+            <parameter cpu="0" address="0x40C34B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C344" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x405050" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C345" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄力立即到极限 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C335" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="雷剑 - 骑士">
+            <parameter cpu="0" address="0x40C353" value="0x40"/>
+            <parameter cpu="0" address="0x40C34C" value="0x48"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0B"/>
+        </option>
+        <option desc="冰剑 - 骑士">
+            <parameter cpu="0" address="0x40C353" value="0x44"/>
+            <parameter cpu="0" address="0x40C34C" value="0x40"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0A"/>
+        </option>
+        <option desc="火剑 - 骑士">
+            <parameter cpu="0" address="0x40C353" value="0x3C"/>
+            <parameter cpu="0" address="0x40C34C" value="0x41"/>
+            <parameter cpu="0" address="0x40C34D" value="0x08"/>
+        </option>
+        <option desc="圣剑 - 骑士">
+            <parameter cpu="0" address="0x40C353" value="0x4C"/>
+            <parameter cpu="0" address="0x40C34C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰剑 - 骑士">
+            <parameter cpu="0" address="0x40C353" value="0x48"/>
+            <parameter cpu="0" address="0x40C34C" value="0x49"/>
+            <parameter cpu="0" address="0x40C34D" value="0x09"/>
+        </option>
 
-		<option desc="雷爪 - 武士">
-			<parameter cpu="0" address="0x40C353" value="0x41"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0B"/>		
-		</option>
-		<option desc="冰爪 - 武士">
-			<parameter cpu="0" address="0x40C353" value="0x45"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0A"/>		
-		</option>
-		<option desc="火爪 - 武士">
-			<parameter cpu="0" address="0x40C353" value="0x3D"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x08"/>		
-		</option>
-		<option desc="圣爪 - 武士">
-			<parameter cpu="0" address="0x40C353" value="0x4D"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰爪 - 武士">
-			<parameter cpu="0" address="0x40C353" value="0x49"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x09"/>		
-		</option>
+        <option desc="雷爪 - 武士">
+            <parameter cpu="0" address="0x40C353" value="0x41"/>
+            <parameter cpu="0" address="0x40C34C" value="0x48"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0B"/>
+        </option>
+        <option desc="冰爪 - 武士">
+            <parameter cpu="0" address="0x40C353" value="0x45"/>
+            <parameter cpu="0" address="0x40C34C" value="0x40"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0A"/>
+        </option>
+        <option desc="火爪 - 武士">
+            <parameter cpu="0" address="0x40C353" value="0x3D"/>
+            <parameter cpu="0" address="0x40C34C" value="0x41"/>
+            <parameter cpu="0" address="0x40C34D" value="0x08"/>
+        </option>
+        <option desc="圣爪 - 武士">
+            <parameter cpu="0" address="0x40C353" value="0x4D"/>
+            <parameter cpu="0" address="0x40C34C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰爪 - 武士">
+            <parameter cpu="0" address="0x40C353" value="0x49"/>
+            <parameter cpu="0" address="0x40C34C" value="0x49"/>
+            <parameter cpu="0" address="0x40C34D" value="0x09"/>
+        </option>
 
-		<option desc="雷弓 - 弓手">
-			<parameter cpu="0" address="0x40C353" value="0x42"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0B"/>		
-		</option>
-		<option desc="冰弓 - 弓手">
-			<parameter cpu="0" address="0x40C353" value="0x46"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0A"/>		
-		</option>
-		<option desc="火弓 - 弓手">
-			<parameter cpu="0" address="0x40C353" value="0x3E"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x08"/>		
-		</option>
-		<option desc="圣弓 - 弓手">
-			<parameter cpu="0" address="0x40C353" value="0x4E"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰弓 - 弓手">
-			<parameter cpu="0" address="0x40C353" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x09"/>		
-		</option>
+        <option desc="雷弓 - 弓手">
+            <parameter cpu="0" address="0x40C353" value="0x42"/>
+            <parameter cpu="0" address="0x40C34C" value="0x48"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0B"/>
+        </option>
+        <option desc="冰弓 - 弓手">
+            <parameter cpu="0" address="0x40C353" value="0x46"/>
+            <parameter cpu="0" address="0x40C34C" value="0x40"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0A"/>
+        </option>
+        <option desc="火弓 - 弓手">
+            <parameter cpu="0" address="0x40C353" value="0x3E"/>
+            <parameter cpu="0" address="0x40C34C" value="0x41"/>
+            <parameter cpu="0" address="0x40C34D" value="0x08"/>
+        </option>
+        <option desc="圣弓 - 弓手">
+            <parameter cpu="0" address="0x40C353" value="0x4E"/>
+            <parameter cpu="0" address="0x40C34C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰弓 - 弓手">
+            <parameter cpu="0" address="0x40C353" value="0x4A"/>
+            <parameter cpu="0" address="0x40C34C" value="0x49"/>
+            <parameter cpu="0" address="0x40C34D" value="0x09"/>
+        </option>
 
-		<option desc="雷杖 - 法师">
-			<parameter cpu="0" address="0x40C353" value="0x43"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0B"/>		
-		</option>
-		<option desc="冰杖 - 法师">
-			<parameter cpu="0" address="0x40C353" value="0x47"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0A"/>		
-		</option>
-		<option desc="火杖 - 法师">
-			<parameter cpu="0" address="0x40C353" value="0x3F"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x08"/>		
-		</option>
-		<option desc="圣杖 - 法师">
-			<parameter cpu="0" address="0x40C353" value="0x4F"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰杖 - 法师">
-			<parameter cpu="0" address="0x40C353" value="0x4B"/>	
-			<parameter cpu="0" address="0x40C34C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C34D" value="0x09"/>		
-		</option>
-	</cheat>
-	<cheat desc=" "/>
-        <cheat desc="无敌 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C443" value="0x02"/>		
-		</option>
-	</cheat>
-        <cheat desc="分数最大 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C448" value="0x99"/>	
-			<parameter cpu="0" address="0x40C449" value="0x99"/>	
-			<parameter cpu="0" address="0x40C44A" value="0x99"/>	
-			<parameter cpu="0" address="0x40C44B" value="0x99"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限生命 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C444" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限能量 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x4050D0" value="0x14"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限特殊技 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C445" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="蓄力立即到极限 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C435" value="0xFF"/>		
-		</option>
-	</cheat>
-        <cheat desc="选择武器 PL3" default="0">
-		<option desc="关闭"/>
-		<option desc="雷剑 - 骑士">
-			<parameter cpu="0" address="0x40C453" value="0x40"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0B"/>		
-		</option>
-		<option desc="冰剑 - 骑士">
-			<parameter cpu="0" address="0x40C453" value="0x44"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0A"/>		
-		</option>
-		<option desc="火剑 - 骑士">
-			<parameter cpu="0" address="0x40C453" value="0x3C"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x08"/>		
-		</option>
-		<option desc="圣剑 - 骑士">
-			<parameter cpu="0" address="0x40C453" value="0x4C"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰剑 - 骑士">
-			<parameter cpu="0" address="0x40C453" value="0x48"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x09"/>		
-		</option>
+        <option desc="雷杖 - 法师">
+            <parameter cpu="0" address="0x40C353" value="0x43"/>
+            <parameter cpu="0" address="0x40C34C" value="0x48"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0B"/>
+        </option>
+        <option desc="冰杖 - 法师">
+            <parameter cpu="0" address="0x40C353" value="0x47"/>
+            <parameter cpu="0" address="0x40C34C" value="0x40"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0A"/>
+        </option>
+        <option desc="火杖 - 法师">
+            <parameter cpu="0" address="0x40C353" value="0x3F"/>
+            <parameter cpu="0" address="0x40C34C" value="0x41"/>
+            <parameter cpu="0" address="0x40C34D" value="0x08"/>
+        </option>
+        <option desc="圣杖 - 法师">
+            <parameter cpu="0" address="0x40C353" value="0x4F"/>
+            <parameter cpu="0" address="0x40C34C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C34D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰杖 - 法师">
+            <parameter cpu="0" address="0x40C353" value="0x4B"/>
+            <parameter cpu="0" address="0x40C34C" value="0x49"/>
+            <parameter cpu="0" address="0x40C34D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C443" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="分数最大 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C448" value="0x99"/>
+            <parameter cpu="0" address="0x40C449" value="0x99"/>
+            <parameter cpu="0" address="0x40C44A" value="0x99"/>
+            <parameter cpu="0" address="0x40C44B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C444" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4050D0" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C445" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄力立即到极限 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C435" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="雷剑 - 骑士">
+            <parameter cpu="0" address="0x40C453" value="0x40"/>
+            <parameter cpu="0" address="0x40C44C" value="0x48"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0B"/>
+        </option>
+        <option desc="冰剑 - 骑士">
+            <parameter cpu="0" address="0x40C453" value="0x44"/>
+            <parameter cpu="0" address="0x40C44C" value="0x40"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0A"/>
+        </option>
+        <option desc="火剑 - 骑士">
+            <parameter cpu="0" address="0x40C453" value="0x3C"/>
+            <parameter cpu="0" address="0x40C44C" value="0x41"/>
+            <parameter cpu="0" address="0x40C44D" value="0x08"/>
+        </option>
+        <option desc="圣剑 - 骑士">
+            <parameter cpu="0" address="0x40C453" value="0x4C"/>
+            <parameter cpu="0" address="0x40C44C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰剑 - 骑士">
+            <parameter cpu="0" address="0x40C453" value="0x48"/>
+            <parameter cpu="0" address="0x40C44C" value="0x49"/>
+            <parameter cpu="0" address="0x40C44D" value="0x09"/>
+        </option>
 
-		<option desc="雷爪 - 武士">
-			<parameter cpu="0" address="0x40C453" value="0x41"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0B"/>		
-		</option>
-		<option desc="冰爪 - 武士">
-			<parameter cpu="0" address="0x40C453" value="0x45"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0A"/>		
-		</option>
-		<option desc="火爪 - 武士">
-			<parameter cpu="0" address="0x40C453" value="0x3D"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x08"/>		
-		</option>
-		<option desc="圣爪 - 武士">
-			<parameter cpu="0" address="0x40C453" value="0x4D"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰爪 - 武士">
-			<parameter cpu="0" address="0x40C453" value="0x49"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x09"/>		
-		</option>
+        <option desc="雷爪 - 武士">
+            <parameter cpu="0" address="0x40C453" value="0x41"/>
+            <parameter cpu="0" address="0x40C44C" value="0x48"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0B"/>
+        </option>
+        <option desc="冰爪 - 武士">
+            <parameter cpu="0" address="0x40C453" value="0x45"/>
+            <parameter cpu="0" address="0x40C44C" value="0x40"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0A"/>
+        </option>
+        <option desc="火爪 - 武士">
+            <parameter cpu="0" address="0x40C453" value="0x3D"/>
+            <parameter cpu="0" address="0x40C44C" value="0x41"/>
+            <parameter cpu="0" address="0x40C44D" value="0x08"/>
+        </option>
+        <option desc="圣爪 - 武士">
+            <parameter cpu="0" address="0x40C453" value="0x4D"/>
+            <parameter cpu="0" address="0x40C44C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰爪 - 武士">
+            <parameter cpu="0" address="0x40C453" value="0x49"/>
+            <parameter cpu="0" address="0x40C44C" value="0x49"/>
+            <parameter cpu="0" address="0x40C44D" value="0x09"/>
+        </option>
 
-		<option desc="雷弓 - 弓手">
-			<parameter cpu="0" address="0x40C453" value="0x42"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0B"/>		
-		</option>
-		<option desc="冰弓 - 弓手">
-			<parameter cpu="0" address="0x40C453" value="0x46"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0A"/>		
-		</option>
-		<option desc="火弓 - 弓手">
-			<parameter cpu="0" address="0x40C453" value="0x3E"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x08"/>		
-		</option>
-		<option desc="圣弓 - 弓手">
-			<parameter cpu="0" address="0x40C453" value="0x4E"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰弓 - 弓手">
-			<parameter cpu="0" address="0x40C453" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x09"/>		
-		</option>
+        <option desc="雷弓 - 弓手">
+            <parameter cpu="0" address="0x40C453" value="0x42"/>
+            <parameter cpu="0" address="0x40C44C" value="0x48"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0B"/>
+        </option>
+        <option desc="冰弓 - 弓手">
+            <parameter cpu="0" address="0x40C453" value="0x46"/>
+            <parameter cpu="0" address="0x40C44C" value="0x40"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0A"/>
+        </option>
+        <option desc="火弓 - 弓手">
+            <parameter cpu="0" address="0x40C453" value="0x3E"/>
+            <parameter cpu="0" address="0x40C44C" value="0x41"/>
+            <parameter cpu="0" address="0x40C44D" value="0x08"/>
+        </option>
+        <option desc="圣弓 - 弓手">
+            <parameter cpu="0" address="0x40C453" value="0x4E"/>
+            <parameter cpu="0" address="0x40C44C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰弓 - 弓手">
+            <parameter cpu="0" address="0x40C453" value="0x4A"/>
+            <parameter cpu="0" address="0x40C44C" value="0x49"/>
+            <parameter cpu="0" address="0x40C44D" value="0x09"/>
+        </option>
 
-		<option desc="雷杖 - 法师">
-			<parameter cpu="0" address="0x40C453" value="0x43"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0B"/>		
-		</option>
-		<option desc="冰杖 - 法师">
-			<parameter cpu="0" address="0x40C453" value="0x47"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0A"/>		
-		</option>
-		<option desc="火杖 - 法师">
-			<parameter cpu="0" address="0x40C453" value="0x3F"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x08"/>		
-		</option>
-		<option desc="圣杖 - 法师">
-			<parameter cpu="0" address="0x40C453" value="0x4F"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰杖 - 法师">
-			<parameter cpu="0" address="0x40C453" value="0x4B"/>	
-			<parameter cpu="0" address="0x40C44C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C44D" value="0x09"/>		
-		</option>
-	</cheat>
-	<cheat desc=" "/>
-        <cheat desc="无敌 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C543" value="0x02"/>		
-		</option>
-	</cheat>
-        <cheat desc="分数最大 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C548" value="0x99"/>	
-			<parameter cpu="0" address="0x40C549" value="0x99"/>	
-			<parameter cpu="0" address="0x40C54A" value="0x99"/>	
-			<parameter cpu="0" address="0x40C54B" value="0x99"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限生命 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C544" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限能量 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x405150" value="0x14"/>		
-		</option>
-	</cheat>
-        <cheat desc="无限特殊技 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C545" value="0x09"/>		
-		</option>
-	</cheat>
-        <cheat desc="蓄力立即到极限 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x40C535" value="0xFF"/>		
-		</option>
-	</cheat>
-        <cheat desc="选择武器 PL4" default="0">
-		<option desc="关闭"/>
-		<option desc="雷剑 - 骑士">
-			<parameter cpu="0" address="0x40C553" value="0x40"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0B"/>		
-		</option>
-		<option desc="冰剑 - 骑士">
-			<parameter cpu="0" address="0x40C553" value="0x44"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0A"/>		
-		</option>
-		<option desc="火剑 - 骑士">
-			<parameter cpu="0" address="0x40C553" value="0x3C"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x08"/>		
-		</option>
-		<option desc="圣剑 - 骑士">
-			<parameter cpu="0" address="0x40C553" value="0x4C"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰剑 - 骑士">
-			<parameter cpu="0" address="0x40C553" value="0x48"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x09"/>		
-		</option>
+        <option desc="雷杖 - 法师">
+            <parameter cpu="0" address="0x40C453" value="0x43"/>
+            <parameter cpu="0" address="0x40C44C" value="0x48"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0B"/>
+        </option>
+        <option desc="冰杖 - 法师">
+            <parameter cpu="0" address="0x40C453" value="0x47"/>
+            <parameter cpu="0" address="0x40C44C" value="0x40"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0A"/>
+        </option>
+        <option desc="火杖 - 法师">
+            <parameter cpu="0" address="0x40C453" value="0x3F"/>
+            <parameter cpu="0" address="0x40C44C" value="0x41"/>
+            <parameter cpu="0" address="0x40C44D" value="0x08"/>
+        </option>
+        <option desc="圣杖 - 法师">
+            <parameter cpu="0" address="0x40C453" value="0x4F"/>
+            <parameter cpu="0" address="0x40C44C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C44D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰杖 - 法师">
+            <parameter cpu="0" address="0x40C453" value="0x4B"/>
+            <parameter cpu="0" address="0x40C44C" value="0x49"/>
+            <parameter cpu="0" address="0x40C44D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C543" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="分数最大 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C548" value="0x99"/>
+            <parameter cpu="0" address="0x40C549" value="0x99"/>
+            <parameter cpu="0" address="0x40C54A" value="0x99"/>
+            <parameter cpu="0" address="0x40C54B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C544" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x405150" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C545" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄力立即到极限 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40C535" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="雷剑 - 骑士">
+            <parameter cpu="0" address="0x40C553" value="0x40"/>
+            <parameter cpu="0" address="0x40C54C" value="0x48"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0B"/>
+        </option>
+        <option desc="冰剑 - 骑士">
+            <parameter cpu="0" address="0x40C553" value="0x44"/>
+            <parameter cpu="0" address="0x40C54C" value="0x40"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0A"/>
+        </option>
+        <option desc="火剑 - 骑士">
+            <parameter cpu="0" address="0x40C553" value="0x3C"/>
+            <parameter cpu="0" address="0x40C54C" value="0x41"/>
+            <parameter cpu="0" address="0x40C54D" value="0x08"/>
+        </option>
+        <option desc="圣剑 - 骑士">
+            <parameter cpu="0" address="0x40C553" value="0x4C"/>
+            <parameter cpu="0" address="0x40C54C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰剑 - 骑士">
+            <parameter cpu="0" address="0x40C553" value="0x48"/>
+            <parameter cpu="0" address="0x40C54C" value="0x49"/>
+            <parameter cpu="0" address="0x40C54D" value="0x09"/>
+        </option>
 
-		<option desc="雷爪 - 武士">
-			<parameter cpu="0" address="0x40C553" value="0x41"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0B"/>		
-		</option>
-		<option desc="冰爪 - 武士">
-			<parameter cpu="0" address="0x40C553" value="0x45"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0A"/>		
-		</option>
-		<option desc="火爪 - 武士">
-			<parameter cpu="0" address="0x40C553" value="0x3D"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x08"/>		
-		</option>
-		<option desc="圣爪 - 武士">
-			<parameter cpu="0" address="0x40C553" value="0x4D"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰爪 - 武士">
-			<parameter cpu="0" address="0x40C553" value="0x49"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x09"/>		
-		</option>
+        <option desc="雷爪 - 武士">
+            <parameter cpu="0" address="0x40C553" value="0x41"/>
+            <parameter cpu="0" address="0x40C54C" value="0x48"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0B"/>
+        </option>
+        <option desc="冰爪 - 武士">
+            <parameter cpu="0" address="0x40C553" value="0x45"/>
+            <parameter cpu="0" address="0x40C54C" value="0x40"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0A"/>
+        </option>
+        <option desc="火爪 - 武士">
+            <parameter cpu="0" address="0x40C553" value="0x3D"/>
+            <parameter cpu="0" address="0x40C54C" value="0x41"/>
+            <parameter cpu="0" address="0x40C54D" value="0x08"/>
+        </option>
+        <option desc="圣爪 - 武士">
+            <parameter cpu="0" address="0x40C553" value="0x4D"/>
+            <parameter cpu="0" address="0x40C54C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰爪 - 武士">
+            <parameter cpu="0" address="0x40C553" value="0x49"/>
+            <parameter cpu="0" address="0x40C54C" value="0x49"/>
+            <parameter cpu="0" address="0x40C54D" value="0x09"/>
+        </option>
 
-		<option desc="雷弓 - 弓手">
-			<parameter cpu="0" address="0x40C553" value="0x42"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0B"/>		
-		</option>
-		<option desc="冰弓 - 弓手">
-			<parameter cpu="0" address="0x40C553" value="0x46"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0A"/>		
-		</option>
-		<option desc="火弓 - 弓手">
-			<parameter cpu="0" address="0x40C553" value="0x3E"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x08"/>		
-		</option>
-		<option desc="圣弓 - 弓手">
-			<parameter cpu="0" address="0x40C553" value="0x4E"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰弓 - 弓手">
-			<parameter cpu="0" address="0x40C553" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x09"/>		
-		</option>
+        <option desc="雷弓 - 弓手">
+            <parameter cpu="0" address="0x40C553" value="0x42"/>
+            <parameter cpu="0" address="0x40C54C" value="0x48"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0B"/>
+        </option>
+        <option desc="冰弓 - 弓手">
+            <parameter cpu="0" address="0x40C553" value="0x46"/>
+            <parameter cpu="0" address="0x40C54C" value="0x40"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0A"/>
+        </option>
+        <option desc="火弓 - 弓手">
+            <parameter cpu="0" address="0x40C553" value="0x3E"/>
+            <parameter cpu="0" address="0x40C54C" value="0x41"/>
+            <parameter cpu="0" address="0x40C54D" value="0x08"/>
+        </option>
+        <option desc="圣弓 - 弓手">
+            <parameter cpu="0" address="0x40C553" value="0x4E"/>
+            <parameter cpu="0" address="0x40C54C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰弓 - 弓手">
+            <parameter cpu="0" address="0x40C553" value="0x4A"/>
+            <parameter cpu="0" address="0x40C54C" value="0x49"/>
+            <parameter cpu="0" address="0x40C54D" value="0x09"/>
+        </option>
 
-		<option desc="雷杖 - 法师">
-			<parameter cpu="0" address="0x40C553" value="0x43"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x48"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0B"/>		
-		</option>
-		<option desc="冰杖 - 法师">
-			<parameter cpu="0" address="0x40C553" value="0x47"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x40"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0A"/>		
-		</option>
-		<option desc="火杖 - 法师">
-			<parameter cpu="0" address="0x40C553" value="0x3F"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x41"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x08"/>		
-		</option>
-		<option desc="圣杖 - 法师">
-			<parameter cpu="0" address="0x40C553" value="0x4F"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x4A"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x0C"/>		
-		</option>
-		<option desc="蓝焰杖 - 法师">
-			<parameter cpu="0" address="0x40C553" value="0x4B"/>	
-			<parameter cpu="0" address="0x40C54C" value="0x49"/>	
-			<parameter cpu="0" address="0x40C54D" value="0x09"/>		
-		</option>
-	</cheat>
-	<cheat desc=" "/>
-        <cheat desc="选择区域" default="0">
-		<option desc="关闭"/>
-		<option desc="日本">
-			<parameter cpu="0" address="0x0FFFFF" value="0x01"/>		
-		</option>
-		<option desc="美国">
-			<parameter cpu="0" address="0x0FFFFF" value="0x02"/>		
-		</option>
-		<option desc="世界">
-			<parameter cpu="0" address="0x0FFFFF" value="0x03"/>		
-		</option>
-	</cheat>
+        <option desc="雷杖 - 法师">
+            <parameter cpu="0" address="0x40C553" value="0x43"/>
+            <parameter cpu="0" address="0x40C54C" value="0x48"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0B"/>
+        </option>
+        <option desc="冰杖 - 法师">
+            <parameter cpu="0" address="0x40C553" value="0x47"/>
+            <parameter cpu="0" address="0x40C54C" value="0x40"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0A"/>
+        </option>
+        <option desc="火杖 - 法师">
+            <parameter cpu="0" address="0x40C553" value="0x3F"/>
+            <parameter cpu="0" address="0x40C54C" value="0x41"/>
+            <parameter cpu="0" address="0x40C54D" value="0x08"/>
+        </option>
+        <option desc="圣杖 - 法师">
+            <parameter cpu="0" address="0x40C553" value="0x4F"/>
+            <parameter cpu="0" address="0x40C54C" value="0x4A"/>
+            <parameter cpu="0" address="0x40C54D" value="0x0C"/>
+        </option>
+        <option desc="蓝焰杖 - 法师">
+            <parameter cpu="0" address="0x40C553" value="0x4B"/>
+            <parameter cpu="0" address="0x40C54C" value="0x49"/>
+            <parameter cpu="0" address="0x40C54D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0x0FFFFF" value="0x01"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0x0FFFFF" value="0x02"/>
+        </option>
+        <option desc="世界">
+            <parameter cpu="0" address="0x0FFFFF" value="0x03"/>
+        </option>
+    </cheat>
 </shufflecheat>

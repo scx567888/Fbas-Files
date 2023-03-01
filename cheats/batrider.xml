@@ -18,25 +18,25 @@
             <parameter cpu="0" address="0x20FD4D" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc="慢动作模式 (仅在游戏中使用)" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x20E69C" value="0xFF"/>
-		</option>
-	</cheat>
-	<cheat desc="调试模式 (只有游戏模式)" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x20FA22" value="0xFF"/>
-		</option>
-	</cheat>
-	<cheat desc="保持基础难度 [0101]" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x20F9CE" value="0x01"/>
-			<parameter cpu="0" address="0x20F9CF" value="0x01"/>
-		</option>
-	</cheat>
+    <cheat desc="慢动作模式 (仅在游戏中使用)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20E69C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="调试模式 (只有游戏模式)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20FA22" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="保持基础难度 [0101]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20F9CE" value="0x01"/>
+            <parameter cpu="0" address="0x20F9CF" value="0x01"/>
+        </option>
+    </cheat>
     <cheat desc="开启专业模式" default="0">
         <option desc="关闭"/>
         <option desc="开启专业模式">
@@ -55,7 +55,7 @@
             <parameter cpu="0" address="0x20F9D3" value="0xFF"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限炸弹 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -63,13 +63,13 @@
             <parameter cpu="0" address="0x204175" value="0x28"/>
         </option>
     </cheat>
-	<cheat desc="总是蓄力攻击 PL1" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x204062" value="0x01"/>
-			<parameter cpu="0" address="0x204170" value="0x02"/>
-		</option>
-	</cheat>
+    <cheat desc="总是蓄力攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x204062" value="0x01"/>
+            <parameter cpu="0" address="0x204170" value="0x02"/>
+        </option>
+    </cheat>
     <cheat desc="角色无敌 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -88,7 +88,7 @@
             <parameter cpu="0" address="0x204166" value="0x02"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无限炸弹 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -96,13 +96,13 @@
             <parameter cpu="0" address="0x2042E7" value="0x28"/>
         </option>
     </cheat>
-	<cheat desc="总是蓄力攻击 PL2" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x2041D4" value="0x01"/>
-			<parameter cpu="0" address="0x2042E2" value="0x02"/>
-		</option>
-	</cheat>
+    <cheat desc="总是蓄力攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041D4" value="0x01"/>
+            <parameter cpu="0" address="0x2042E2" value="0x02"/>
+        </option>
+    </cheat>
     <cheat desc="角色无敌 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">

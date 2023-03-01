@@ -1,272 +1,272 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-	<cheat desc="关卡选择" default="0">
-		<option desc="关闭"/>
-		<option desc="第一关 爪之章">
-			<parameter cpu="0" address="0x81CB0F" value="0x00"/>
-		</option>
-		<option desc="第二关 角之章">
-			<parameter cpu="0" address="0x81CB0F" value="0x01"/>
-		</option>
-		<option desc="第三关 目之章">
-			<parameter cpu="0" address="0x81CB0F" value="0x02"/>
-		</option>
-		<option desc="第四关 牙之章">
-			<parameter cpu="0" address="0x81CB0F" value="0x03"/>
-		</option>
-		<option desc="第五关 心之章">
-			<parameter cpu="0" address="0x81CB0F" value="0x04"/>
-		</option>
-		<option desc="第六关 魔之章">
-			<parameter cpu="0" address="0x81CB0F" value="0x05"/>
-		</option>
-	</cheat>
-	<cheat desc=" "/>
-	<cheat desc="无限生命数 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x81C90F" value="0x03"/>
-		</option>
-	</cheat>
-	<cheat desc="无敌时间 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="2" address="0x18012BC8" value="0xB4"/>
-		</option>
-	</cheat>
-	<cheat desc="无限弹药数 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="2" address="0x18012BDC" value="0xC8"/>
-			<parameter cpu="2" address="0x18012BDD" value="0x00"/>
-		</option>
-	</cheat>
-	<cheat desc="选择武器 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="手枪0">
-			<parameter cpu="2" address="0x18012BBC" value="0x00"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x00"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x08"/>
-		</option>
-		<option desc="手枪1">
-			<parameter cpu="2" address="0x18012BBC" value="0x00"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x01"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x08"/>
-		</option>
-		<option desc="手枪2">
-			<parameter cpu="2" address="0x18012BBC" value="0x00"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x02"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x08"/>
-		</option>
-		<option desc="手枪3">
-			<parameter cpu="2" address="0x18012BBC" value="0x00"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x03"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x08"/>
-		</option>
-		<option desc="机枪">
-			<parameter cpu="2" address="0x18012BBC" value="0x01"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x00"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x94"/>
-		</option>
-		<option desc="波动枪">
-			<parameter cpu="2" address="0x18012BBC" value="0x02"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x01"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x94"/>
-		</option>
-		<option desc="冰冻枪">
-			<parameter cpu="2" address="0x18012BBC" value="0x03"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x02"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x94"/>
-		</option>
-		<option desc="榴弹枪">
-			<parameter cpu="2" address="0x18012BBC" value="0x04"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x03"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x94"/>
-		</option>
-		<option desc="雷电枪">
-			<parameter cpu="2" address="0x18012BBC" value="0x05"/>
-			<parameter cpu="2" address="0x18012BBD" value="0x04"/>
-			<parameter cpu="2" address="0x18012BC0" value="0x94"/>
-		</option>
-	</cheat>
-	<cheat desc="宠物最大等级 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="9级">
-			<parameter cpu="2" address="0x18012BA4" value="0x00"/>
-			<parameter cpu="2" address="0x18012BA5" value="0x03"/>
-		</option>
-		<option desc="全满">
-			<parameter cpu="2" address="0x18012BA4" value="0x60"/>
-			<parameter cpu="2" address="0x18012BA5" value="0x03"/>
-		</option>
-	</cheat>
-	<cheat desc="枪枝最大等级 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="2" address="0x18012BA8" value="0x10"/>
-			<parameter cpu="2" address="0x18012BA9" value="0x02"/>
-		</option>
-	</cheat>
-	<cheat desc="人物选择 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="MAYA">
-			<parameter cpu="0" address="0x80FF32" value="0x01"/>
-			<parameter cpu="0" address="0x80FFF2" value="0x01"/>
-		</option>
-		<option desc="SARA">
-			<parameter cpu="0" address="0x80FF32" value="0x03"/>
-			<parameter cpu="0" address="0x80FFF2" value="0x03"/>
-		</option>
-		<option desc="JAKE">
-			<parameter cpu="0" address="0x80FF32" value="0x00"/>
-			<parameter cpu="0" address="0x80FFF2" value="0x00"/>
-		</option>
-		<option desc="DR.J">
-			<parameter cpu="0" address="0x80FF32" value="0x02"/>
-			<parameter cpu="0" address="0x80FFF2" value="0x02"/>
-		</option>
-	</cheat>
-	<cheat desc="宠物选择 1P" default="0">
-		<option desc="关闭"/>
-		<option desc="风系 - 飞力普 FILP">
-			<parameter cpu="0" address="0x80FF33" value="0x01"/>
-			<parameter cpu="0" address="0x80FFF4" value="0x01"/>
-		</option>
-		<option desc="冰系 - 邦妮 BUNNY">
-			<parameter cpu="0" address="0x80FF33" value="0x03"/>
-			<parameter cpu="0" address="0x80FFF4" value="0x03"/>
-		</option>
-		<option desc="火系 - 雷吉 RAGE">
-			<parameter cpu="0" address="0x80FF33" value="0x00"/>
-			<parameter cpu="0" address="0x80FFF4" value="0x00"/>
-		</option>
-		<option desc="雷系 - 奇普 CHIP">
-			<parameter cpu="0" address="0x80FF33" value="0x02"/>
-			<parameter cpu="0" address="0x80FFF4" value="0x02"/>
-		</option>
-	</cheat>
-	<cheat desc=" "/>
-	<cheat desc="无限生命数 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="0" address="0x81C97D" value="0x03"/>
-		</option>
-	</cheat>
-	<cheat desc="无敌时间 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="2" address="0x18012C48" value="0xB4"/>
-		</option>
-	</cheat>
-	<cheat desc="无限弹药数 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="2" address="0x18012C5C" value="0xC8"/>
-			<parameter cpu="2" address="0x18012C5D" value="0x00"/>
-		</option>
-	</cheat>
-	<cheat desc="选择武器 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="手枪0">
-			<parameter cpu="2" address="0x18012C3C" value="0x00"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x00"/>
-			<parameter cpu="2" address="0x18012C40" value="0x08"/>
-		</option>
-		<option desc="手枪1">
-			<parameter cpu="2" address="0x18012C3C" value="0x00"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x01"/>
-			<parameter cpu="2" address="0x18012C40" value="0x08"/>
-		</option>
-		<option desc="手枪2">
-			<parameter cpu="2" address="0x18012C3C" value="0x00"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x02"/>
-			<parameter cpu="2" address="0x18012C40" value="0x08"/>
-		</option>
-		<option desc="手枪3">
-			<parameter cpu="2" address="0x18012C3C" value="0x00"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x03"/>
-			<parameter cpu="2" address="0x18012C40" value="0x08"/>
-		</option>
-		<option desc="机枪">
-			<parameter cpu="2" address="0x18012C3C" value="0x01"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x00"/>
-			<parameter cpu="2" address="0x18012C40" value="0x94"/>
-		</option>
-		<option desc="波动枪">
-			<parameter cpu="2" address="0x18012C3C" value="0x02"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x01"/>
-			<parameter cpu="2" address="0x18012C40" value="0x94"/>
-		</option>
-		<option desc="冰冻枪">
-			<parameter cpu="2" address="0x18012C3C" value="0x03"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x02"/>
-			<parameter cpu="2" address="0x18012C40" value="0x94"/>
-		</option>
-		<option desc="榴弹枪">
-			<parameter cpu="2" address="0x18012C3C" value="0x04"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x03"/>
-			<parameter cpu="2" address="0x18012C40" value="0x94"/>
-		</option>
-		<option desc="雷电枪">
-			<parameter cpu="2" address="0x18012C3C" value="0x05"/>
-			<parameter cpu="2" address="0x18012C3D" value="0x04"/>
-			<parameter cpu="2" address="0x18012C40" value="0x94"/>
-		</option>
-	</cheat>
-	<cheat desc="宠物最大等级 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="9级">
-			<parameter cpu="2" address="0x18012C24" value="0x00"/>
-			<parameter cpu="2" address="0x18012C25" value="0x03"/>
-		</option>
-		<option desc="全满">
-			<parameter cpu="2" address="0x18012C24" value="0x60"/>
-			<parameter cpu="2" address="0x18012C25" value="0x03"/>
-		</option>
-	</cheat>
-	<cheat desc="枪枝最大等级 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="开启">
-			<parameter cpu="2" address="0x18012C28" value="0x10"/>
-			<parameter cpu="2" address="0x18012C29" value="0x02"/>
-		</option>
-	</cheat>
-	<cheat desc="人物选择 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="MAYA">
-			<parameter cpu="0" address="0x80FF52" value="0x01"/>
-			<parameter cpu="0" address="0x80FFFC" value="0x01"/>
-		</option>
-		<option desc="SARA">
-			<parameter cpu="0" address="0x80FF52" value="0x03"/>
-			<parameter cpu="0" address="0x80FFFC" value="0x03"/>
-		</option>
-		<option desc="JAKE">
-			<parameter cpu="0" address="0x80FF52" value="0x00"/>
-			<parameter cpu="0" address="0x80FFFC" value="0x00"/>
-		</option>
-		<option desc="DR.J">
-			<parameter cpu="0" address="0x80FF52" value="0x02"/>
-			<parameter cpu="0" address="0x80FFFC" value="0x02"/>
-		</option>
-	</cheat>
-	<cheat desc="宠物选择 2P" default="0">
-		<option desc="关闭"/>
-		<option desc="风系 - 飞力普 FILP">
-			<parameter cpu="0" address="0x80FF53" value="0x01"/>
-			<parameter cpu="0" address="0x80FFFE" value="0x01"/>
-		</option>
-		<option desc="冰系 - 邦妮 BUNNY">
-			<parameter cpu="0" address="0x80FF53" value="0x03"/>
-			<parameter cpu="0" address="0x80FFFE" value="0x03"/>
-		</option>
-		<option desc="火系 - 雷吉 RAGE">
-			<parameter cpu="0" address="0x80FF53" value="0x00"/>
-			<parameter cpu="0" address="0x80FFFE" value="0x00"/>
-		</option>
-		<option desc="雷系 - 奇普 CHIP">
-			<parameter cpu="0" address="0x80FF53" value="0x02"/>
-			<parameter cpu="0" address="0x80FFFE" value="0x02"/>
-		</option>
-	</cheat>
+    <cheat desc="关卡选择" default="0">
+        <option desc="关闭"/>
+        <option desc="第一关 爪之章">
+            <parameter cpu="0" address="0x81CB0F" value="0x00"/>
+        </option>
+        <option desc="第二关 角之章">
+            <parameter cpu="0" address="0x81CB0F" value="0x01"/>
+        </option>
+        <option desc="第三关 目之章">
+            <parameter cpu="0" address="0x81CB0F" value="0x02"/>
+        </option>
+        <option desc="第四关 牙之章">
+            <parameter cpu="0" address="0x81CB0F" value="0x03"/>
+        </option>
+        <option desc="第五关 心之章">
+            <parameter cpu="0" address="0x81CB0F" value="0x04"/>
+        </option>
+        <option desc="第六关 魔之章">
+            <parameter cpu="0" address="0x81CB0F" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命数 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C90F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌时间 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18012BC8" value="0xB4"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药数 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18012BDC" value="0xC8"/>
+            <parameter cpu="2" address="0x18012BDD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪0">
+            <parameter cpu="2" address="0x18012BBC" value="0x00"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x00"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x08"/>
+        </option>
+        <option desc="手枪1">
+            <parameter cpu="2" address="0x18012BBC" value="0x00"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x01"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x08"/>
+        </option>
+        <option desc="手枪2">
+            <parameter cpu="2" address="0x18012BBC" value="0x00"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x02"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x08"/>
+        </option>
+        <option desc="手枪3">
+            <parameter cpu="2" address="0x18012BBC" value="0x00"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x03"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x08"/>
+        </option>
+        <option desc="机枪">
+            <parameter cpu="2" address="0x18012BBC" value="0x01"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x00"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x94"/>
+        </option>
+        <option desc="波动枪">
+            <parameter cpu="2" address="0x18012BBC" value="0x02"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x01"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x94"/>
+        </option>
+        <option desc="冰冻枪">
+            <parameter cpu="2" address="0x18012BBC" value="0x03"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x02"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x94"/>
+        </option>
+        <option desc="榴弹枪">
+            <parameter cpu="2" address="0x18012BBC" value="0x04"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x03"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x94"/>
+        </option>
+        <option desc="雷电枪">
+            <parameter cpu="2" address="0x18012BBC" value="0x05"/>
+            <parameter cpu="2" address="0x18012BBD" value="0x04"/>
+            <parameter cpu="2" address="0x18012BC0" value="0x94"/>
+        </option>
+    </cheat>
+    <cheat desc="宠物最大等级 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="9级">
+            <parameter cpu="2" address="0x18012BA4" value="0x00"/>
+            <parameter cpu="2" address="0x18012BA5" value="0x03"/>
+        </option>
+        <option desc="全满">
+            <parameter cpu="2" address="0x18012BA4" value="0x60"/>
+            <parameter cpu="2" address="0x18012BA5" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="枪枝最大等级 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18012BA8" value="0x10"/>
+            <parameter cpu="2" address="0x18012BA9" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="人物选择 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="MAYA">
+            <parameter cpu="0" address="0x80FF32" value="0x01"/>
+            <parameter cpu="0" address="0x80FFF2" value="0x01"/>
+        </option>
+        <option desc="SARA">
+            <parameter cpu="0" address="0x80FF32" value="0x03"/>
+            <parameter cpu="0" address="0x80FFF2" value="0x03"/>
+        </option>
+        <option desc="JAKE">
+            <parameter cpu="0" address="0x80FF32" value="0x00"/>
+            <parameter cpu="0" address="0x80FFF2" value="0x00"/>
+        </option>
+        <option desc="DR.J">
+            <parameter cpu="0" address="0x80FF32" value="0x02"/>
+            <parameter cpu="0" address="0x80FFF2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="宠物选择 1P" default="0">
+        <option desc="关闭"/>
+        <option desc="风系 - 飞力普 FILP">
+            <parameter cpu="0" address="0x80FF33" value="0x01"/>
+            <parameter cpu="0" address="0x80FFF4" value="0x01"/>
+        </option>
+        <option desc="冰系 - 邦妮 BUNNY">
+            <parameter cpu="0" address="0x80FF33" value="0x03"/>
+            <parameter cpu="0" address="0x80FFF4" value="0x03"/>
+        </option>
+        <option desc="火系 - 雷吉 RAGE">
+            <parameter cpu="0" address="0x80FF33" value="0x00"/>
+            <parameter cpu="0" address="0x80FFF4" value="0x00"/>
+        </option>
+        <option desc="雷系 - 奇普 CHIP">
+            <parameter cpu="0" address="0x80FF33" value="0x02"/>
+            <parameter cpu="0" address="0x80FFF4" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命数 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C97D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌时间 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18012C48" value="0xB4"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药数 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18012C5C" value="0xC8"/>
+            <parameter cpu="2" address="0x18012C5D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪0">
+            <parameter cpu="2" address="0x18012C3C" value="0x00"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x00"/>
+            <parameter cpu="2" address="0x18012C40" value="0x08"/>
+        </option>
+        <option desc="手枪1">
+            <parameter cpu="2" address="0x18012C3C" value="0x00"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x01"/>
+            <parameter cpu="2" address="0x18012C40" value="0x08"/>
+        </option>
+        <option desc="手枪2">
+            <parameter cpu="2" address="0x18012C3C" value="0x00"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x02"/>
+            <parameter cpu="2" address="0x18012C40" value="0x08"/>
+        </option>
+        <option desc="手枪3">
+            <parameter cpu="2" address="0x18012C3C" value="0x00"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x03"/>
+            <parameter cpu="2" address="0x18012C40" value="0x08"/>
+        </option>
+        <option desc="机枪">
+            <parameter cpu="2" address="0x18012C3C" value="0x01"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x00"/>
+            <parameter cpu="2" address="0x18012C40" value="0x94"/>
+        </option>
+        <option desc="波动枪">
+            <parameter cpu="2" address="0x18012C3C" value="0x02"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x01"/>
+            <parameter cpu="2" address="0x18012C40" value="0x94"/>
+        </option>
+        <option desc="冰冻枪">
+            <parameter cpu="2" address="0x18012C3C" value="0x03"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x02"/>
+            <parameter cpu="2" address="0x18012C40" value="0x94"/>
+        </option>
+        <option desc="榴弹枪">
+            <parameter cpu="2" address="0x18012C3C" value="0x04"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x03"/>
+            <parameter cpu="2" address="0x18012C40" value="0x94"/>
+        </option>
+        <option desc="雷电枪">
+            <parameter cpu="2" address="0x18012C3C" value="0x05"/>
+            <parameter cpu="2" address="0x18012C3D" value="0x04"/>
+            <parameter cpu="2" address="0x18012C40" value="0x94"/>
+        </option>
+    </cheat>
+    <cheat desc="宠物最大等级 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="9级">
+            <parameter cpu="2" address="0x18012C24" value="0x00"/>
+            <parameter cpu="2" address="0x18012C25" value="0x03"/>
+        </option>
+        <option desc="全满">
+            <parameter cpu="2" address="0x18012C24" value="0x60"/>
+            <parameter cpu="2" address="0x18012C25" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="枪枝最大等级 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18012C28" value="0x10"/>
+            <parameter cpu="2" address="0x18012C29" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="人物选择 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="MAYA">
+            <parameter cpu="0" address="0x80FF52" value="0x01"/>
+            <parameter cpu="0" address="0x80FFFC" value="0x01"/>
+        </option>
+        <option desc="SARA">
+            <parameter cpu="0" address="0x80FF52" value="0x03"/>
+            <parameter cpu="0" address="0x80FFFC" value="0x03"/>
+        </option>
+        <option desc="JAKE">
+            <parameter cpu="0" address="0x80FF52" value="0x00"/>
+            <parameter cpu="0" address="0x80FFFC" value="0x00"/>
+        </option>
+        <option desc="DR.J">
+            <parameter cpu="0" address="0x80FF52" value="0x02"/>
+            <parameter cpu="0" address="0x80FFFC" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="宠物选择 2P" default="0">
+        <option desc="关闭"/>
+        <option desc="风系 - 飞力普 FILP">
+            <parameter cpu="0" address="0x80FF53" value="0x01"/>
+            <parameter cpu="0" address="0x80FFFE" value="0x01"/>
+        </option>
+        <option desc="冰系 - 邦妮 BUNNY">
+            <parameter cpu="0" address="0x80FF53" value="0x03"/>
+            <parameter cpu="0" address="0x80FFFE" value="0x03"/>
+        </option>
+        <option desc="火系 - 雷吉 RAGE">
+            <parameter cpu="0" address="0x80FF53" value="0x00"/>
+            <parameter cpu="0" address="0x80FFFE" value="0x00"/>
+        </option>
+        <option desc="雷系 - 奇普 CHIP">
+            <parameter cpu="0" address="0x80FF53" value="0x02"/>
+            <parameter cpu="0" address="0x80FFFE" value="0x02"/>
+        </option>
+    </cheat>
 </shufflecheat>

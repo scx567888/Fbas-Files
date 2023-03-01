@@ -18,7 +18,7 @@
             <parameter cpu="0" address="0x202993" value="0x01"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无敌(不完整) PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -38,14 +38,14 @@
             <parameter cpu="0" address="0x20D6D8" value="0x05"/>
         </option>
         <option desc="火兵器">
-           <parameter cpu="0" address="0x2029F0" value="0x02"/>
-           <parameter cpu="0" address="0x20D6D8" value="0x02"/>
-           <parameter cpu="0" address="0x20D6EB" value="0x40"/>
+            <parameter cpu="0" address="0x2029F0" value="0x02"/>
+            <parameter cpu="0" address="0x20D6D8" value="0x02"/>
+            <parameter cpu="0" address="0x20D6EB" value="0x40"/>
         </option>
         <option desc="雷兵器">
-           <parameter cpu="0" address="0x2029F0" value="0x04"/>
-           <parameter cpu="0" address="0x20D6D8" value="0x02"/>
-           <parameter cpu="0" address="0x20D6EB" value="0x80"/>
+            <parameter cpu="0" address="0x2029F0" value="0x04"/>
+            <parameter cpu="0" address="0x20D6D8" value="0x02"/>
+            <parameter cpu="0" address="0x20D6EB" value="0x80"/>
         </option>
     </cheat>
     <cheat desc="获得关卡奖励-生命上限提升 PL1" default="0">
@@ -120,7 +120,7 @@
             <parameter cpu="0" address="0x2029F9" value="0x63"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
+    <cheat desc=" "/>
     <cheat desc="无敌(不完整) PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -136,18 +136,18 @@
     <cheat desc="选择兵器 PL2" default="0">
         <option desc="关闭"/>
         <option desc="普通">
-           <parameter cpu="0" address="0x202A04" value="0x01"/>
-           <parameter cpu="0" address="0x20DC58" value="0x05"/>
+            <parameter cpu="0" address="0x202A04" value="0x01"/>
+            <parameter cpu="0" address="0x20DC58" value="0x05"/>
         </option>
         <option desc="火兵器">
-           <parameter cpu="0" address="0x202A04" value="0x02"/>
-           <parameter cpu="0" address="0x20DC58" value="0x02"/>
-           <parameter cpu="0" address="0x20DC6B" value="0x40"/>
+            <parameter cpu="0" address="0x202A04" value="0x02"/>
+            <parameter cpu="0" address="0x20DC58" value="0x02"/>
+            <parameter cpu="0" address="0x20DC6B" value="0x40"/>
         </option>
         <option desc="雷兵器">
-           <parameter cpu="0" address="0x202A04" value="0x04"/>
-           <parameter cpu="0" address="0x20DC58" value="0x02"/>
-           <parameter cpu="0" address="0x20DC6B" value="0x80"/>
+            <parameter cpu="0" address="0x202A04" value="0x04"/>
+            <parameter cpu="0" address="0x20DC58" value="0x02"/>
+            <parameter cpu="0" address="0x20DC6B" value="0x80"/>
         </option>
     </cheat>
     <cheat desc="获得关卡奖励-生命上限提升 PL2" default="0">

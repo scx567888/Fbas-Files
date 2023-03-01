@@ -18,8 +18,8 @@
             <parameter cpu="0" address="0xC3B4270" value="0x00"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
-   <cheat desc="无限生命 PL1" default="0">
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xC5C3703" value="0x07"/>
@@ -49,8 +49,8 @@
             <parameter cpu="0" address="0xC5C25A3" value="0x02"/>
         </option>
     </cheat>
-	<cheat desc=" "/>
-  <cheat desc="无限生命 PL2" default="0">
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xC5C3A0F" value="0x07"/>
