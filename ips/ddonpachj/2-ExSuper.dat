@@ -1,0 +1,61 @@
+﻿u26.bin	2-ExSuper-26	CRC(4F3A914A)
+u27.bin	2-ExSuper-27	CRC(2432FF9B)
+u51.bin 2-ExSuper-51	CRC(E7BA8CCE)
+u62.bin	2-ExSuper-62	CRC(292BFB6B)
+eeprom-ddonpach.bin	2-ExSuper-ee	CRC(315fb546)
+
+[en_US]
+Arrange Mode version 1.1
+
+Hacker: Trap15
+
+Description: 
+*GP Meter
+- GP meter extended to 144 frames
+- GP meter is the same length for 1st and 2nd loop
+- GP meter behaves the same in both loops
+- When GP meter is above 110, you gain Hits * 10 points per-frame
+- Death and bomb freeze GP meter and chain
+* Bombs
+- Always respawn with 4 bombs, and 6 bomb maximum
+- No bonus for maximum bombs
+* The 2 loops now behave almost exactly the same system-wise
+* Extends
+- Extends are every 10M points
+- 5 lives in stock maximum (display is actual lives now)
+* No more Shot and Laser type
+- Strong - advantages of Shot and Laser
+- Weak - disadvantages of Shot and Laser (for those who like a challenge)
+* C-Auto is now the default (if you delete your old eeprom, or hit defaults)
+* Player 2 disabled
+* Title screen changes
+* Music changes
+* Palette changes
+
+[zh_CN]
+整体调整版 1.1
+
+修改者: Trap15
+
+说明：
+*连击槽
+- 连击槽上限提升至144帧
+- 连击槽在一二周目中长度相同
+- 连击槽在一二周目中设定相同
+- 连击槽超过110时，得分为Hit数x10/帧
+- 死亡和放保险会暂停连击槽和连击数判定
+* 保险
+- 重生时自带4个保险；最多可存6个保险。
+- 保险满后再获得不再有分数奖励
+* 一二周目难度一致
+* 奖命
+- 每1000W分奖一命
+- 最多存5条命
+* 强化不再分别对应散射和激光
+- Strong - 散射和激光火力强
+- Weak   - 散射和激光火力弱
+* C键连射默认开启
+* 2P禁用
+* 标题字幕改动
+* 音乐改动
+* 调色板改动
