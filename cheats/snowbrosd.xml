@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100195" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000BB" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1018CA" value="0x00"/>
+            <parameter cpu="0" address="0x1018CB" value="0x01"/>
+            <parameter cpu="0" address="0x10190A" value="0x00"/>
+            <parameter cpu="0" address="0x10190B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一个关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 5">
+            <parameter cpu="0" address="0x101573" value="0x04"/>
+        </option>
+        <option desc="关卡 10">
+            <parameter cpu="0" address="0x101573" value="0x09"/>
+        </option>
+        <option desc="关卡 15">
+            <parameter cpu="0" address="0x101573" value="0x0D"/>
+        </option>
+        <option desc="关卡 20">
+            <parameter cpu="0" address="0x101573" value="0x12"/>
+        </option>
+        <option desc="关卡 25">
+            <parameter cpu="0" address="0x101573" value="0x17"/>
+        </option>
+        <option desc="关卡 30">
+            <parameter cpu="0" address="0x101573" value="0x1C"/>
+        </option>
+        <option desc="关卡 35">
+            <parameter cpu="0" address="0x101573" value="0x21"/>
+        </option>
+        <option desc="关卡 40">
+            <parameter cpu="0" address="0x101573" value="0x26"/>
+        </option>
+        <option desc="关卡 45">
+            <parameter cpu="0" address="0x101573" value="0x2B"/>
+        </option>
+        <option desc="关卡 50">
+            <parameter cpu="0" address="0x101573" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101591" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="得到无敌装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1015EB" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1015D7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有的能力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1015A8" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1015A7" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="得到无敌装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10162B" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101617" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有的能力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1015A9" value="0x70"/>
+        </option>
+    </cheat>
+</shufflecheat>

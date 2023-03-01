@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000A1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击打" default="0">
+        <option desc="关闭"/>
+        <option desc="无限击打">
+            <parameter cpu="0" address="0x10049E" value="0x00"/>
+        </option>
+        <option desc="立即设置击打为2!">
+            <parameter cpu="0" address="0x10049E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球" default="0">
+        <option desc="关闭"/>
+        <option desc="无限坏球">
+            <parameter cpu="0" address="0x10049F" value="0x00"/>
+        </option>
+        <option desc="立即设置坏球为3!">
+            <parameter cpu="0" address="0x10049F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限出局数" default="0">
+        <option desc="关闭"/>
+        <option desc="无限出局数">
+            <parameter cpu="0" address="0x1004A0" value="0x00"/>
+        </option>
+        <option desc="立即设置出局为2!">
+            <parameter cpu="0" address="0x1004A0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是 = 0 第一队" default="0">
+        <option desc="关闭"/>
+        <option desc="得分总是 = 0 第一队">
+            <parameter cpu="0" address="0x1004A6" value="0x00"/>
+            <parameter cpu="0" address="0x1004DA" value="0x00"/>
+        </option>
+        <option desc="得分总是 = 99 第一队">
+            <parameter cpu="0" address="0x1004A6" value="0x99"/>
+            <parameter cpu="0" address="0x1004DA" value="0x99"/>
+        </option>
+        <option desc="得分 = 50 ! 第一队">
+            <parameter cpu="0" address="0x1004A6" value="0x50"/>
+            <parameter cpu="0" address="0x1004DA" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是 = 0 第二队" default="0">
+        <option desc="关闭"/>
+        <option desc="得分总是 = 0 第二队">
+            <parameter cpu="0" address="0x1004A5" value="0x00"/>
+            <parameter cpu="0" address="0x1004DB" value="0x00"/>
+        </option>
+        <option desc="得分总是 = 99 第二队">
+            <parameter cpu="0" address="0x1004A5" value="0x99"/>
+            <parameter cpu="0" address="0x1004DB" value="0x99"/>
+        </option>
+        <option desc="得分 = 50 ! 第二队">
+            <parameter cpu="0" address="0x1004A5" value="0x50"/>
+            <parameter cpu="0" address="0x1004DB" value="0x50"/>
+        </option>
+    </cheat>
+</shufflecheat>

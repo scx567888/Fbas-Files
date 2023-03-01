@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10029E" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="有最大能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100277" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是额外速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002B8" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100336" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100350" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限训练时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100022" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="力量 - 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102998" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="力量 - 2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102AD6" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="力量 - 3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102C14" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="力量 - 4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D52" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="力量 - 5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E90" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="力量 - 6 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102FCE" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="力量 - 7 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10310C" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

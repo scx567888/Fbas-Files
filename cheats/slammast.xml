@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xFFA0C8" value="0x09"/>
+            <parameter cpu="0" address="0xFFA0C9" value="0x05"/>
+            <parameter cpu="0" address="0xFFA0CA" value="0x0A"/>
+        </option>
+        <option desc="完成这比赛 !">
+            <parameter cpu="0" address="0xFFA0C8" value="0x00"/>
+            <parameter cpu="0" address="0xFFA0C9" value="0x00"/>
+            <parameter cpu="0" address="0xFFA0CA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="倒计时为零" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA0A2" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9157" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF920E" value="0x04"/>
+            <parameter cpu="0" address="0xFF9211" value="0x04"/>
+            <parameter cpu="0" address="0xFF9212" value="0x01"/>
+            <parameter cpu="0" address="0xFF9215" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="拳击之王 - 没有头衔 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击之王 - 没有头衔 PL1">
+            <parameter cpu="0" address="0xFF9274" value="0x00"/>
+        </option>
+        <option desc="拳击之王 - 6个头衔 PL1">
+            <parameter cpu="0" address="0xFF9274" value="0x06"/>
+        </option>
+        <option desc="拳击之王 - 9个头衔 PL1">
+            <parameter cpu="0" address="0xFF9274" value="0x09"/>
+        </option>
+        <option desc="拳击之王 - 18个头衔 PL1">
+            <parameter cpu="0" address="0xFF9274" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Biff PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Biff PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Grater PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Gunloc PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Haggar PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Jumbo PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Oni PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Rasta PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Scorpion PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x09"/>
+        </option>
+        <option desc="角色选择 - Stingray PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Titan PL1">
+            <parameter cpu="0" address="0xFFA098" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9357" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF940E" value="0x04"/>
+            <parameter cpu="0" address="0xFF9411" value="0x04"/>
+            <parameter cpu="0" address="0xFF9412" value="0x01"/>
+            <parameter cpu="0" address="0xFF9415" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="拳击之王 - 没有头衔 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击之王 - 没有头衔 PL2">
+            <parameter cpu="0" address="0xFF9275" value="0x00"/>
+        </option>
+        <option desc="拳击之王 - 6个头衔 PL2">
+            <parameter cpu="0" address="0xFF9275" value="0x06"/>
+        </option>
+        <option desc="拳击之王 - 9个头衔 PL2">
+            <parameter cpu="0" address="0xFF9275" value="0x09"/>
+        </option>
+        <option desc="拳击之王 - 18个头衔 PL2">
+            <parameter cpu="0" address="0xFF9275" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Biff PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Biff PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Grater PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Gunloc PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Haggar PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Jumbo PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Oni PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Rasta PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Scorpion PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x09"/>
+        </option>
+        <option desc="角色选择 - Stingray PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Titan PL2">
+            <parameter cpu="0" address="0xFFA099" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9557" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF960E" value="0x04"/>
+            <parameter cpu="0" address="0xFF9611" value="0x04"/>
+            <parameter cpu="0" address="0xFF9612" value="0x01"/>
+            <parameter cpu="0" address="0xFF9615" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="拳击之王 - 没有头衔 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击之王 - 没有头衔 PL3">
+            <parameter cpu="0" address="0xFF9272" value="0x00"/>
+        </option>
+        <option desc="拳击之王 - 6个头衔 PL3">
+            <parameter cpu="0" address="0xFF9272" value="0x06"/>
+        </option>
+        <option desc="拳击之王 - 9个头衔 PL3">
+            <parameter cpu="0" address="0xFF9272" value="0x09"/>
+        </option>
+        <option desc="拳击之王 - 18个头衔 PL3">
+            <parameter cpu="0" address="0xFF9272" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Biff PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Biff PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Grater PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Gunloc PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Haggar PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Jumbo PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Oni PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Rasta PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Scorpion PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x09"/>
+        </option>
+        <option desc="角色选择 - Stingray PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Titan PL3">
+            <parameter cpu="0" address="0xFFA096" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9757" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF980E" value="0x04"/>
+            <parameter cpu="0" address="0xFF9811" value="0x04"/>
+            <parameter cpu="0" address="0xFF9812" value="0x01"/>
+            <parameter cpu="0" address="0xFF9815" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="拳击之王 - 没有头衔 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击之王 - 没有头衔 PL4">
+            <parameter cpu="0" address="0xFF9273" value="0x00"/>
+        </option>
+        <option desc="拳击之王 - 6个头衔 PL4">
+            <parameter cpu="0" address="0xFF9273" value="0x06"/>
+        </option>
+        <option desc="拳击之王 - 9个头衔 PL4">
+            <parameter cpu="0" address="0xFF9273" value="0x09"/>
+        </option>
+        <option desc="拳击之王 - 18个头衔 PL4">
+            <parameter cpu="0" address="0xFF9273" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Biff PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Biff PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Grater PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Gunloc PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Haggar PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Jumbo PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Oni PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Rasta PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Scorpion PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x09"/>
+        </option>
+        <option desc="角色选择 - Stingray PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Titan PL4">
+            <parameter cpu="0" address="0xFFA097" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFFA094" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFFA094" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFFA094" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFFA094" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFFA094" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFFA094" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFFA094" value="0x07"/>
+        </option>
+        <option desc="选关 - 场景 8">
+            <parameter cpu="0" address="0xFFA094" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 9" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9274" value="0x02"/>
+            <parameter cpu="0" address="0xFFA094" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="地域 - 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地域 - 日本">
+            <parameter cpu="0" address="0xFF9CE7" value="0x00"/>
+        </option>
+        <option desc="地域 - 美国">
+            <parameter cpu="0" address="0xFF9CE7" value="0x01"/>
+        </option>
+        <option desc="地域 - ETC">
+            <parameter cpu="0" address="0xFF9CE7" value="0x02"/>
+        </option>
+        <option desc="地域 - 亚洲">
+            <parameter cpu="0" address="0xFF9CE7" value="0x03"/>
+        </option>
+        <option desc="地域 - 西班牙">
+            <parameter cpu="0" address="0xFF9CE7" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

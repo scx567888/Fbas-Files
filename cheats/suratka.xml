@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x5964" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FBB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到普通武器 !" default="0">
+        <option desc="关闭"/>
+        <option desc="得到普通武器 !">
+            <parameter cpu="0" address="0x1FE5" value="0x00"/>
+        </option>
+        <option desc="得到加强武器 !">
+            <parameter cpu="0" address="0x1FE5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是没有炸弹残存" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1DA1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x5904" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

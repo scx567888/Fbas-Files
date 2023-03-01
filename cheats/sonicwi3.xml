@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E89B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E8BA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E8BF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力(更多角色使用) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="最大火力(更多角色使用) PL1">
+            <parameter cpu="0" address="0x10E8B0" value="0x03"/>
+        </option>
+        <option desc="最大火力(使用者有-Mao Mao,Chaika &amp; Pooshka)PL1">
+            <parameter cpu="0" address="0x10E8B0" value="0x02"/>
+        </option>
+        <option desc="最大火力(使用者有-Spanky, Kowful &amp; River) PL1">
+            <parameter cpu="0" address="0x10E8B0" value="0x04"/>
+        </option>
+        <option desc="最大火力(使用者有-Ellen &amp; Cindy) PL1">
+            <parameter cpu="0" address="0x10E8B0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E8F1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E910" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E915" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力(更多角色使用) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="最大火力(更多角色使用) PL2">
+            <parameter cpu="0" address="0x10E906" value="0x03"/>
+        </option>
+        <option desc="最大火力(使用者有-Mao Mao,Chaika &amp; Pooshka)PL2">
+            <parameter cpu="0" address="0x10E906" value="0x02"/>
+        </option>
+        <option desc="最大火力(使用者有-Spanky, Kowful &amp; River) PL2">
+            <parameter cpu="0" address="0x10E906" value="0x04"/>
+        </option>
+        <option desc="最大火力(使用者有-Ellen &amp; Cindy) PL2">
+            <parameter cpu="0" address="0x10E906" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人不射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10EA57" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="F4U CORSAIR / P61 BLACK WIDOW (最大)" default="0">
+        <option desc="关闭"/>
+        <option desc="F4U CORSAIR / P61 BLACK WIDOW (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x00"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x03"/>
+            <parameter cpu="0" address="0x10E906" value="0x03"/>
+        </option>
+        <option desc="P61 BLACK WIDOW / F4U CORSAIR (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x01"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x03"/>
+            <parameter cpu="0" address="0x10E906" value="0x03"/>
+        </option>
+        <option desc="Zerosen / Seiran (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x02"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x03"/>
+            <parameter cpu="0" address="0x10E906" value="0x02"/>
+        </option>
+        <option desc="Seiran / Zerosen (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x03"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x02"/>
+            <parameter cpu="0" address="0x10E906" value="0x03"/>
+        </option>
+        <option desc="IL2 STORMOVIK / POLIKARPOV I-16 (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x04"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x02"/>
+            <parameter cpu="0" address="0x10E906" value="0x04"/>
+        </option>
+        <option desc="POLIKARPOV I-16 / IL2 STORMOVIK (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x05"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x04"/>
+            <parameter cpu="0" address="0x10E906" value="0x02"/>
+        </option>
+        <option desc="DO335 PFEIL / JU-87 STUKA (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x06"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x03"/>
+            <parameter cpu="0" address="0x10E906" value="0x04"/>
+        </option>
+        <option desc="JU-87 STUKA / DO335 PFEIL (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x07"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x04"/>
+            <parameter cpu="0" address="0x10E906" value="0x03"/>
+        </option>
+        <option desc="WHIRLWIND / SWORDFISH (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x08"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x03"/>
+            <parameter cpu="0" address="0x10E906" value="0x01"/>
+        </option>
+        <option desc="SWORDFISH / WHIRLWIND (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x09"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x01"/>
+            <parameter cpu="0" address="0x10E906" value="0x03"/>
+        </option>
+        <option desc="Sekito / Diaprorn (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x0A"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x02"/>
+            <parameter cpu="0" address="0x10E906" value="0x07"/>
+        </option>
+        <option desc="Diaprorn / Sekito (最大)">
+            <parameter cpu="0" address="0x1003AB" value="0x0B"/>
+            <parameter cpu="0" address="0x10E8B0" value="0x07"/>
+            <parameter cpu="0" address="0x10E906" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="Sekito / Diaprorn" default="0">
+        <option desc="关闭"/>
+        <option desc="Sekito / Diaprorn">
+            <parameter cpu="0" address="0x1003AB" value="0x0A"/>
+        </option>
+        <option desc="Diaprorn / Sekito">
+            <parameter cpu="0" address="0x1003AB" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

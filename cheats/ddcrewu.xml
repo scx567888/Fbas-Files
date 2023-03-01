@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC000" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD088" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD089" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD09F" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD288" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD289" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD29F" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD488" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD489" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD49F" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励关时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限奖励关时间">
+            <parameter cpu="0" address="0xFFC12C" value="0x18"/>
+        </option>
+        <option desc="立即完成奖励关 !">
+            <parameter cpu="0" address="0xFFC12C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀敌人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD861" value="0x00"/>
+            <parameter cpu="0" address="0xFFD961" value="0x00"/>
+            <parameter cpu="0" address="0xFFDA61" value="0x00"/>
+            <parameter cpu="0" address="0xFFDB61" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开局在关卡 1" default="0">
+        <option desc="关闭"/>
+        <option desc="开局在关卡 1">
+            <parameter cpu="0" address="0xFFC161" value="0x00"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x00"/>
+        </option>
+        <option desc="开局在关卡 2">
+            <parameter cpu="0" address="0xFFC161" value="0x01"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x02"/>
+        </option>
+        <option desc="开局在奖励关 1 (有错误 !)">
+            <parameter cpu="0" address="0xFFC161" value="0x02"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x05"/>
+        </option>
+        <option desc="开局在关卡 3">
+            <parameter cpu="0" address="0xFFC161" value="0x03"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x07"/>
+        </option>
+        <option desc="开局在关卡 4 (有错误 !)">
+            <parameter cpu="0" address="0xFFC161" value="0x04"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x0B"/>
+        </option>
+        <option desc="开局在奖励关 2 (有错误 !)">
+            <parameter cpu="0" address="0xFFC161" value="0x05"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x12"/>
+        </option>
+        <option desc="开局在关卡 5">
+            <parameter cpu="0" address="0xFFC161" value="0x06"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x14"/>
+        </option>
+        <option desc="开局在关卡 6">
+            <parameter cpu="0" address="0xFFC161" value="0x07"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x17"/>
+        </option>
+        <option desc="开局在关卡 7">
+            <parameter cpu="0" address="0xFFC161" value="0x08"/>
+            <parameter cpu="0" address="0xFFC16F" value="0x19"/>
+        </option>
+    </cheat>
+</shufflecheat>

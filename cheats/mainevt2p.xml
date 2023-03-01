@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4125" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4135" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4017" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

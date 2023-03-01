@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x1042F3" value="0x99"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x1042F3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="快速计时 开启" default="0">
+        <option desc="关闭"/>
+        <option desc="快速计时 开启">
+            <parameter cpu="0" address="0x1042F5" value="0xFF"/>
+        </option>
+        <option desc="快速计时 关闭">
+            <parameter cpu="0" address="0x1042F5" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x1003B8" value="0x60"/>
+            <parameter cpu="0" address="0x1003B9" value="0x60"/>
+        </option>
+        <option desc="红血 PL1">
+            <parameter cpu="0" address="0x1003B8" value="0x20"/>
+            <parameter cpu="0" address="0x1003B9" value="0x20"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x1003B8" value="0x01"/>
+            <parameter cpu="0" address="0x1003B9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Terry Bogard PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Terry Bogard PL1">
+            <parameter cpu="0" address="0x100331" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Andy Bogard PL1">
+            <parameter cpu="0" address="0x100331" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Joe Higashi PL1">
+            <parameter cpu="0" address="0x100331" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Duck King PL1">
+            <parameter cpu="0" address="0x100331" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Richard Myer PL1">
+            <parameter cpu="0" address="0x100331" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Michael Max PL1">
+            <parameter cpu="0" address="0x100331" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Tung Fu Rue PL1">
+            <parameter cpu="0" address="0x100331" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Hwa Jai PL1">
+            <parameter cpu="0" address="0x100331" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Raiden PL1">
+            <parameter cpu="0" address="0x100331" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Billy Kane PL1">
+            <parameter cpu="0" address="0x100331" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Geese Howard PL1">
+            <parameter cpu="0" address="0x100331" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色''Reverse'' Myer PL1">
+            <parameter cpu="0" address="0x100331" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色''Beast'' Tung Fu Rue PL1">
+            <parameter cpu="0" address="0x100331" value="0x0D"/>
+        </option>
+        <option desc="使用游戏角色''Drunk'' Hwa Jai PL1">
+            <parameter cpu="0" address="0x100331" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x1004B8" value="0x60"/>
+            <parameter cpu="0" address="0x1004B9" value="0x60"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x1004B8" value="0x01"/>
+            <parameter cpu="0" address="0x1004B9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Terry Bogard PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Terry Bogard PL2">
+            <parameter cpu="0" address="0x100431" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Andy Bogard PL2">
+            <parameter cpu="0" address="0x100431" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Joe Higashi PL2">
+            <parameter cpu="0" address="0x100431" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Duck King PL2">
+            <parameter cpu="0" address="0x100431" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Richard Myer PL2">
+            <parameter cpu="0" address="0x100431" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Michael Max PL2">
+            <parameter cpu="0" address="0x100431" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Tung Fu Rue PL2">
+            <parameter cpu="0" address="0x100431" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Hwa Jai PL2">
+            <parameter cpu="0" address="0x100431" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Raiden PL2">
+            <parameter cpu="0" address="0x100431" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Billy Kane PL2">
+            <parameter cpu="0" address="0x100431" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Geese Howard PL2">
+            <parameter cpu="0" address="0x100431" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色''Reverse'' Myer PL2">
+            <parameter cpu="0" address="0x100431" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色''Beast'' Tung Fu Rue PL2">
+            <parameter cpu="0" address="0x100431" value="0x0D"/>
+        </option>
+        <option desc="使用游戏角色''Drunk'' Hwa Jai PL2">
+            <parameter cpu="0" address="0x100431" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 电脑">
+            <parameter cpu="0" address="0x1005B8" value="0x60"/>
+            <parameter cpu="0" address="0x1005B9" value="0x60"/>
+        </option>
+        <option desc="耗尽能量! 电脑">
+            <parameter cpu="0" address="0x1005B8" value="0x01"/>
+            <parameter cpu="0" address="0x1005B9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Terry Bogard 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Terry Bogard 电脑">
+            <parameter cpu="0" address="0x100531" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Andy Bogard 电脑">
+            <parameter cpu="0" address="0x100531" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Joe Higashi 电脑">
+            <parameter cpu="0" address="0x100531" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Duck King 电脑">
+            <parameter cpu="0" address="0x100531" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Richard Myer 电脑">
+            <parameter cpu="0" address="0x100531" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Michael Max 电脑">
+            <parameter cpu="0" address="0x100531" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Tung Fu Rue 电脑">
+            <parameter cpu="0" address="0x100531" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Hwa Jai 电脑">
+            <parameter cpu="0" address="0x100531" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Raiden 电脑">
+            <parameter cpu="0" address="0x100531" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Billy Kane 电脑">
+            <parameter cpu="0" address="0x100531" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Geese Howard 电脑">
+            <parameter cpu="0" address="0x100531" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色''Reverse'' Myer 电脑">
+            <parameter cpu="0" address="0x100531" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色''Beast'' Tung Fu Rue 电脑">
+            <parameter cpu="0" address="0x100531" value="0x0D"/>
+        </option>
+        <option desc="使用游戏角色''Drunk'' Hwa Jai 电脑">
+            <parameter cpu="0" address="0x100531" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

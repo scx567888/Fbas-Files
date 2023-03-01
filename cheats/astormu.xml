@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF200D" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF200E" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0061" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="额外武器没有延迟 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2031" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF208D" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF208E" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0461" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="额外武器没有延迟 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF20B1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF210D" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF210E" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0861" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="额外武器没有延迟 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2131" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

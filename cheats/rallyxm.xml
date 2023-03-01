@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x800F" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8010" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x824C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是3辆红车" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81B0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="没有红车每一关" default="0">
+        <option desc="关闭"/>
+        <option desc="没有红车每一关">
+            <parameter cpu="0" address="0x824E" value="0x00"/>
+        </option>
+        <option desc="每一关只有一辆红车">
+            <parameter cpu="0" address="0x824E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="没有落石" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8251" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="红车1 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8088" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="红车2 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80A8" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="红车3 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80C8" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="红车4 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80E8" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="红车5 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8108" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="红车6 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8128" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="红车7 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8148" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="红车8 不移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8168" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="汽车总是非常慢" default="0">
+        <option desc="关闭"/>
+        <option desc="汽车总是非常慢">
+            <parameter cpu="0" address="0x8027" value="0x20"/>
+            <parameter cpu="0" address="0x8028" value="0x00"/>
+        </option>
+        <option desc="汽车总是慢">
+            <parameter cpu="0" address="0x8027" value="0xC0"/>
+            <parameter cpu="0" address="0x8028" value="0x00"/>
+        </option>
+        <option desc="汽车总是正常速度">
+            <parameter cpu="0" address="0x8027" value="0x20"/>
+            <parameter cpu="0" address="0x8028" value="0x02"/>
+        </option>
+        <option desc="汽车总是非常快">
+            <parameter cpu="0" address="0x8027" value="0x20"/>
+            <parameter cpu="0" address="0x8028" value="0x05"/>
+        </option>
+        <option desc="汽车总是超级快">
+            <parameter cpu="0" address="0x8027" value="0x20"/>
+            <parameter cpu="0" address="0x8028" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE08B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE149" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有索连棍" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE08D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死BOSS !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE15C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="去到局数 3 在下一次" default="0">
+        <option desc="关闭"/>
+        <option desc="去到局数 3 在下一次">
+            <parameter cpu="0" address="0xE089" value="0x03"/>
+        </option>
+        <option desc="去到局数 4 在下一次">
+            <parameter cpu="0" address="0xE089" value="0x04"/>
+        </option>
+        <option desc="去到局数 5 在下一次">
+            <parameter cpu="0" address="0xE089" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

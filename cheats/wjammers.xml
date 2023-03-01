@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限设置时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限设置时间">
+            <parameter cpu="0" address="0x10008D" value="0x99"/>
+        </option>
+        <option desc="结束此局 !">
+            <parameter cpu="0" address="0x10008D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="PL1 设置局分 = 0" default="0">
+        <option desc="关闭"/>
+        <option desc="PL1 设置局分 = 0">
+            <parameter cpu="0" address="0x100872" value="0x00"/>
+        </option>
+        <option desc="PL1 设置局分 = 3">
+            <parameter cpu="0" address="0x100872" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="PL1 选择得分" default="0">
+        <option desc="关闭"/>
+        <option desc="PL1 设置得分 = 0">
+            <parameter cpu="0" address="0x100873" value="0x00"/>
+        </option>
+        <option desc="PL1 设置得分 = 12">
+            <parameter cpu="0" address="0x100873" value="0x12"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x100873" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x100873" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x100873" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x100873" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x100873" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x100873" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x100873" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x100873" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x100873" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x100873" value="0x10"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x100873" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="PL2 设置局分 = 0" default="0">
+        <option desc="关闭"/>
+        <option desc="PL2 设置局分 = 0">
+            <parameter cpu="0" address="0x1008F2" value="0x00"/>
+        </option>
+        <option desc="PL2 设置局分 = 3">
+            <parameter cpu="0" address="0x1008F2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="PL2 选择得分" default="0">
+        <option desc="关闭"/>
+        <option desc="PL2 设置得分 = 0">
+            <parameter cpu="0" address="0x1008F3" value="0x00"/>
+        </option>
+        <option desc="PL2 设置得分 = 12">
+            <parameter cpu="0" address="0x1008F3" value="0x12"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x1008F3" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1008F3" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1008F3" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x1008F3" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x1008F3" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x1008F3" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x1008F3" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x1008F3" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x1008F3" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x1008F3" value="0x10"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x1008F3" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="选择海滩" default="0">
+        <option desc="关闭"/>
+        <option desc="选择海滩">
+            <parameter cpu="0" address="0x100324" value="0x00"/>
+        </option>
+        <option desc="选择草地">
+            <parameter cpu="0" address="0x100324" value="0x01"/>
+        </option>
+        <option desc="选择室内场">
+            <parameter cpu="0" address="0x100324" value="0x02"/>
+        </option>
+        <option desc="选择大厦">
+            <parameter cpu="0" address="0x100324" value="0x03"/>
+        </option>
+        <option desc="选择网球场">
+            <parameter cpu="0" address="0x100324" value="0x04"/>
+        </option>
+        <option desc="选择露天大型运动场">
+            <parameter cpu="0" address="0x100324" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="电脑总是日本" default="0">
+        <option desc="关闭"/>
+        <option desc="电脑总是日本">
+            <parameter cpu="0" address="0x1004FC" value="0x10"/>
+            <parameter cpu="0" address="0x1004FE" value="0x00"/>
+        </option>
+        <option desc="电脑总是西班牙">
+            <parameter cpu="0" address="0x1004FC" value="0x10"/>
+            <parameter cpu="0" address="0x1004FE" value="0x01"/>
+        </option>
+        <option desc="电脑总是美国">
+            <parameter cpu="0" address="0x1004FC" value="0x10"/>
+            <parameter cpu="0" address="0x1004FE" value="0x02"/>
+        </option>
+        <option desc="电脑总是韩国">
+            <parameter cpu="0" address="0x1004FC" value="0x10"/>
+            <parameter cpu="0" address="0x1004FE" value="0x03"/>
+        </option>
+        <option desc="电脑总是意大利">
+            <parameter cpu="0" address="0x1004FC" value="0x10"/>
+            <parameter cpu="0" address="0x1004FE" value="0x04"/>
+        </option>
+        <option desc="电脑总是德国">
+            <parameter cpu="0" address="0x1004FC" value="0x10"/>
+            <parameter cpu="0" address="0x1004FE" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续玩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1062C6" value="0x00"/>
+            <parameter cpu="0" address="0x1062C7" value="0x00"/>
+            <parameter cpu="0" address="0x10FD89" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102242" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1">
+            <parameter cpu="0" address="0x100450" value="0x00"/>
+        </option>
+        <option desc="耗尽所有体力! PL1">
+            <parameter cpu="0" address="0x100450" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大超杀蓄力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大超杀蓄力 PL1">
+            <parameter cpu="0" address="0x100510" value="0x68"/>
+        </option>
+        <option desc="总是有最小超杀蓄力 PL1">
+            <parameter cpu="0" address="0x100510" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Billy! PL1">
+            <parameter cpu="0" address="0x100445" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Super Billy! PL1">
+            <parameter cpu="0" address="0x100445" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Jimmy! PL1">
+            <parameter cpu="0" address="0x100445" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Super Jimmy! PL1">
+            <parameter cpu="0" address="0x100445" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Marian! PL1">
+            <parameter cpu="0" address="0x100445" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Abobo! PL1">
+            <parameter cpu="0" address="0x100445" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Amon! PL1">
+            <parameter cpu="0" address="0x100445" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Eddie! PL1">
+            <parameter cpu="0" address="0x100445" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Rebecca! PL1">
+            <parameter cpu="0" address="0x100445" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Dulton! PL1">
+            <parameter cpu="0" address="0x100445" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Cheng-Fu! PL1">
+            <parameter cpu="0" address="0x100445" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Burnov! PL1">
+            <parameter cpu="0" address="0x100445" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Duke! PL1">
+            <parameter cpu="0" address="0x100445" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Shuko! PL1">
+            <parameter cpu="0" address="0x100445" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL2">
+            <parameter cpu="0" address="0x100550" value="0x00"/>
+        </option>
+        <option desc="耗尽所有体力! PL2">
+            <parameter cpu="0" address="0x100550" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大超杀蓄力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大超杀蓄力 PL2">
+            <parameter cpu="0" address="0x100610" value="0x68"/>
+        </option>
+        <option desc="总是有最小超杀蓄力 PL2">
+            <parameter cpu="0" address="0x100610" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Billy! PL2">
+            <parameter cpu="0" address="0x100545" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Super Billy! PL2">
+            <parameter cpu="0" address="0x100545" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Jimmy! PL2">
+            <parameter cpu="0" address="0x100545" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Super Jimmy! PL2">
+            <parameter cpu="0" address="0x100545" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Marian! PL2">
+            <parameter cpu="0" address="0x100545" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Abobo! PL2">
+            <parameter cpu="0" address="0x100545" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Amon! PL2">
+            <parameter cpu="0" address="0x100545" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Eddie! PL2">
+            <parameter cpu="0" address="0x100545" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Rebecca! PL2">
+            <parameter cpu="0" address="0x100545" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Dulton! PL2">
+            <parameter cpu="0" address="0x100545" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Cheng-Fu! PL2">
+            <parameter cpu="0" address="0x100545" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Burnov! PL2">
+            <parameter cpu="0" address="0x100545" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Duke! PL2">
+            <parameter cpu="0" address="0x100545" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Shuko! PL2">
+            <parameter cpu="0" address="0x100545" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色开启" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108E84" value="0x80"/>
+        </option>
+    </cheat>
+</shufflecheat>

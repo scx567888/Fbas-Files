@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x107490" value="0x99"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x107490" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E008" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x10048E" value="0x78"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x10048E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0x1004BE" value="0x80"/>
+        </option>
+        <option desc="耗尽所有力量! PL1">
+            <parameter cpu="0" address="0x1004BE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前关是最后一关(正常模式)" default="0">
+        <option desc="关闭"/>
+        <option desc="当前关是最后一关(正常模式)">
+            <parameter cpu="0" address="0x107439" value="0x08"/>
+        </option>
+        <option desc="当前关是最后一关(幸存者模式)">
+            <parameter cpu="0" address="0x107439" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="急驰的货船">
+            <parameter cpu="0" address="0x107435" value="0x00"/>
+        </option>
+        <option desc="居住的房屋old Line">
+            <parameter cpu="0" address="0x107435" value="0x01"/>
+        </option>
+        <option desc="东方娱乐场">
+            <parameter cpu="0" address="0x107435" value="0x02"/>
+        </option>
+        <option desc="集市">
+            <parameter cpu="0" address="0x107435" value="0x03"/>
+        </option>
+        <option desc="钟楼">
+            <parameter cpu="0" address="0x107435" value="0x04"/>
+        </option>
+        <option desc="溪流瀑布">
+            <parameter cpu="0" address="0x107435" value="0x05"/>
+        </option>
+        <option desc="幽灵潜艇">
+            <parameter cpu="0" address="0x107435" value="0x06"/>
+        </option>
+        <option desc="森林">
+            <parameter cpu="0" address="0x107435" value="0x07"/>
+        </option>
+        <option desc="纽约街区.">
+            <parameter cpu="0" address="0x107435" value="0x08"/>
+        </option>
+        <option desc="黑夜天桥底">
+            <parameter cpu="0" address="0x107435" value="0x09"/>
+        </option>
+        <option desc="竞技台">
+            <parameter cpu="0" address="0x107435" value="0x0A"/>
+        </option>
+        <option desc="起飞的直升机">
+            <parameter cpu="0" address="0x107435" value="0x0B"/>
+        </option>
+        <option desc="(地狱骷髅)">
+            <parameter cpu="0" address="0x107435" value="0x0C"/>
+        </option>
+        <option desc="(大厦)">
+            <parameter cpu="0" address="0x107435" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="泰瑞">
+            <parameter cpu="0" address="0x10742B" value="0x00"/>
+        </option>
+        <option desc="洛克">
+            <parameter cpu="0" address="0x10742B" value="0x01"/>
+        </option>
+        <option desc="金東法">
+            <parameter cpu="0" address="0x10742B" value="0x02"/>
+        </option>
+        <option desc="金杰法">
+            <parameter cpu="0" address="0x10742B" value="0x03"/>
+        </option>
+        <option desc="双葉">
+            <parameter cpu="0" address="0x10742B" value="0x04"/>
+        </option>
+        <option desc="牙刀">
+            <parameter cpu="0" address="0x10742B" value="0x05"/>
+        </option>
+        <option desc="珍妮">
+            <parameter cpu="0" address="0x10742B" value="0x06"/>
+        </option>
+        <option desc="布特">
+            <parameter cpu="0" address="0x10742B" value="0x07"/>
+        </option>
+        <option desc="北斗丸">
+            <parameter cpu="0" address="0x10742B" value="0x08"/>
+        </option>
+        <option desc="飞里曼">
+            <parameter cpu="0" address="0x10742B" value="0x09"/>
+        </option>
+        <option desc="鹫狮假面">
+            <parameter cpu="0" address="0x10742B" value="0x0A"/>
+        </option>
+        <option desc="卡文">
+            <parameter cpu="0" address="0x10742B" value="0x0B"/>
+        </option>
+        <option desc="葛兰特">
+            <parameter cpu="0" address="0x10742B" value="0x0C"/>
+        </option>
+        <option desc="凯因">
+            <parameter cpu="0" address="0x10742B" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x107432" value="0x00"/>
+        </option>
+        <option desc="B 颜色">
+            <parameter cpu="0" address="0x107432" value="0x01"/>
+        </option>
+        <option desc="C 颜色">
+            <parameter cpu="0" address="0x107432" value="0x02"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x107432" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择赢盘数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107474" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107474" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107474" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择TOP血槽的长度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="5块">
+            <parameter cpu="0" address="0x1074C2" value="0x00"/>
+        </option>
+        <option desc="3块">
+            <parameter cpu="0" address="0x1074C2" value="0x01"/>
+        </option>
+        <option desc="1块">
+            <parameter cpu="0" address="0x1074C2" value="0x02"/>
+        </option>
+        <option desc="最长">
+            <parameter cpu="0" address="0x1074C2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择TOP血槽靠左边的位置 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x1074C3" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x1074C3" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1074C3" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1074C3" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x1074C3" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x1074C3" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x1074C3" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x1074C3" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x1074C3" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x1074C3" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x1074C3" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x1074C3" value="0x0B"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x1074C3" value="0x0C"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x1074C3" value="0x0D"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x1074C3" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E009" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x10058E" value="0x78"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x10058E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0x1005BE" value="0x80"/>
+        </option>
+        <option desc="耗尽所有力量! PL2">
+            <parameter cpu="0" address="0x1005BE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="泰瑞">
+            <parameter cpu="0" address="0x10742D" value="0x00"/>
+        </option>
+        <option desc="洛克">
+            <parameter cpu="0" address="0x10742D" value="0x01"/>
+        </option>
+        <option desc="金東法">
+            <parameter cpu="0" address="0x10742D" value="0x02"/>
+        </option>
+        <option desc="金杰法">
+            <parameter cpu="0" address="0x10742D" value="0x03"/>
+        </option>
+        <option desc="双葉">
+            <parameter cpu="0" address="0x10742D" value="0x04"/>
+        </option>
+        <option desc="牙刀">
+            <parameter cpu="0" address="0x10742D" value="0x05"/>
+        </option>
+        <option desc="珍妮">
+            <parameter cpu="0" address="0x10742D" value="0x06"/>
+        </option>
+        <option desc="布特">
+            <parameter cpu="0" address="0x10742D" value="0x07"/>
+        </option>
+        <option desc="北斗丸">
+            <parameter cpu="0" address="0x10742D" value="0x08"/>
+        </option>
+        <option desc="飞里曼">
+            <parameter cpu="0" address="0x10742D" value="0x09"/>
+        </option>
+        <option desc="鹫狮假面">
+            <parameter cpu="0" address="0x10742D" value="0x0A"/>
+        </option>
+        <option desc="卡文">
+            <parameter cpu="0" address="0x10742D" value="0x0B"/>
+        </option>
+        <option desc="葛兰特">
+            <parameter cpu="0" address="0x10742D" value="0x0C"/>
+        </option>
+        <option desc="凯因">
+            <parameter cpu="0" address="0x10742D" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="A 颜色">
+            <parameter cpu="0" address="0x107433" value="0x00"/>
+        </option>
+        <option desc="B 颜色">
+            <parameter cpu="0" address="0x107433" value="0x01"/>
+        </option>
+        <option desc="C 颜色">
+            <parameter cpu="0" address="0x107433" value="0x02"/>
+        </option>
+        <option desc="D 颜色">
+            <parameter cpu="0" address="0x107433" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择赢盘数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107475" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107475" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107475" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择TOP血槽的长度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="5块">
+            <parameter cpu="0" address="0x1074C4" value="0x00"/>
+        </option>
+        <option desc="3块">
+            <parameter cpu="0" address="0x1074C4" value="0x01"/>
+        </option>
+        <option desc="1块">
+            <parameter cpu="0" address="0x1074C4" value="0x02"/>
+        </option>
+        <option desc="最长">
+            <parameter cpu="0" address="0x1074C4" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择TOP血槽靠左边的位置 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x1074C5" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x1074C5" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1074C5" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1074C5" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x1074C5" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x1074C5" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x1074C5" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x1074C5" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x1074C5" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x1074C5" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x1074C5" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x1074C5" value="0x0B"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x1074C5" value="0x0C"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x1074C5" value="0x0D"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x1074C5" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

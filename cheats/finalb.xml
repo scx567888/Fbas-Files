@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101089" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102699" value="0x01"/>
+            <parameter cpu="0" address="0x10269A" value="0x01"/>
+            <parameter cpu="0" address="0x10269B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x1020A6" value="0x0B"/>
+            <parameter cpu="0" address="0x1020A7" value="0xE0"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x1020A6" value="0x00"/>
+            <parameter cpu="0" address="0x1020A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击倒次数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1020AC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x1023A6" value="0x0B"/>
+            <parameter cpu="0" address="0x1023A7" value="0xE0"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x1023A6" value="0x00"/>
+            <parameter cpu="0" address="0x1023A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击倒次数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1023AC" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

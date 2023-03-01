@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="手动继续模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC00C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="手动继续模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC40C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是绿色形状的 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是绿色形状的 PL1">
+            <parameter cpu="0" address="0xFFE321" value="0x01"/>
+        </option>
+        <option desc="总是紫色形状的 PL1">
+            <parameter cpu="0" address="0xFFE321" value="0x02"/>
+        </option>
+        <option desc="总是黄色形状的 PL1">
+            <parameter cpu="0" address="0xFFE321" value="0x03"/>
+        </option>
+        <option desc="总是青色形状的 PL1">
+            <parameter cpu="0" address="0xFFE321" value="0x04"/>
+        </option>
+        <option desc="总是橙色形状的 PL1">
+            <parameter cpu="0" address="0xFFE321" value="0x05"/>
+        </option>
+        <option desc="总是蓝色形状的 PL1">
+            <parameter cpu="0" address="0xFFE321" value="0x06"/>
+        </option>
+        <option desc="总是红色形状的 PL1">
+            <parameter cpu="0" address="0xFFE321" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是绿色形状的 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是绿色形状的 PL2">
+            <parameter cpu="0" address="0xFFE3A1" value="0x01"/>
+        </option>
+        <option desc="总是紫色形状的 PL2">
+            <parameter cpu="0" address="0xFFE3A1" value="0x02"/>
+        </option>
+        <option desc="总是黄色形状的 PL2">
+            <parameter cpu="0" address="0xFFE3A1" value="0x03"/>
+        </option>
+        <option desc="总是青色形状的 PL2">
+            <parameter cpu="0" address="0xFFE3A1" value="0x04"/>
+        </option>
+        <option desc="总是橙色形状的 PL2">
+            <parameter cpu="0" address="0xFFE3A1" value="0x05"/>
+        </option>
+        <option desc="总是蓝色形状的 PL2">
+            <parameter cpu="0" address="0xFFE3A1" value="0x06"/>
+        </option>
+        <option desc="总是红色形状的 PL2">
+            <parameter cpu="0" address="0xFFE3A1" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

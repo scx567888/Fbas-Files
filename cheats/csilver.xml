@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x54" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3E" value="0xF0"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="闪烁关闭" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1107" value="0xED"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有钥匙" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有剑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC16" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加强剑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC15" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有鞋子" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC18" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速鞋" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC17" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有无敌药剂" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1A" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有钟" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1B" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是 魔法力量等级 1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是 魔法力量等级 1">
+            <parameter cpu="0" address="0xC54" value="0x01"/>
+        </option>
+        <option desc="总是 魔法力量等级 2">
+            <parameter cpu="0" address="0xC54" value="0x02"/>
+        </option>
+        <option desc="总是 魔法力量等级 3">
+            <parameter cpu="0" address="0xC54" value="0x03"/>
+        </option>
+        <option desc="总是 魔法力量等级 4">
+            <parameter cpu="0" address="0xC54" value="0x04"/>
+        </option>
+        <option desc="总是 魔法力量等级 5">
+            <parameter cpu="0" address="0xC54" value="0x05"/>
+        </option>
+        <option desc="总是 魔法力量等级 6">
+            <parameter cpu="0" address="0xC54" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="得到全部字母 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1F" value="0x01"/>
+            <parameter cpu="0" address="0xC20" value="0x3F"/>
+            <parameter cpu="0" address="0xC21" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0" value="0x99"/>
+            <parameter cpu="0" address="0x1" value="0x99"/>
+            <parameter cpu="0" address="0x2" value="0x99"/>
+        </option>
+    </cheat>
+</shufflecheat>

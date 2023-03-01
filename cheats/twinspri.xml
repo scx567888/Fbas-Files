@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C005" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C014" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C021" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C08A" value="0x30"/>
+            <parameter cpu="0" address="0x10C08B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到等级1攻击 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到等级1攻击 ! PL1">
+            <parameter cpu="0" address="0x10C088" value="0x10"/>
+        </option>
+        <option desc="得到等级2攻击 ! PL1">
+            <parameter cpu="0" address="0x10C088" value="0x20"/>
+        </option>
+        <option desc="得到BOSS攻击 ! PL1">
+            <parameter cpu="0" address="0x10C088" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Loadran ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Loadran ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x00"/>
+            <parameter cpu="0" address="0x10C007" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Macky &amp; Pentell ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x01"/>
+            <parameter cpu="0" address="0x10C007" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Arthur Schmidt ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x02"/>
+            <parameter cpu="0" address="0x10C007" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Yan Yanyung ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x03"/>
+            <parameter cpu="0" address="0x10C007" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Griffon ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x04"/>
+            <parameter cpu="0" address="0x10C007" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Really Till ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x05"/>
+            <parameter cpu="0" address="0x10C007" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Tinker &amp; Linker ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x06"/>
+            <parameter cpu="0" address="0x10C007" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Nanja Monja ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x07"/>
+            <parameter cpu="0" address="0x10C007" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Kim ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x08"/>
+            <parameter cpu="0" address="0x10C007" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Sprites ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x09"/>
+            <parameter cpu="0" address="0x10C007" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Dark Ran ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x0A"/>
+            <parameter cpu="0" address="0x10C007" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Mevious ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x0B"/>
+            <parameter cpu="0" address="0x10C007" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色 Memory ! PL1">
+            <parameter cpu="0" address="0x10A681" value="0x0C"/>
+            <parameter cpu="0" address="0x10C007" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D005" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D014" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D021" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D08A" value="0x30"/>
+            <parameter cpu="0" address="0x10D08B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到等级1攻击 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到等级1攻击 ! PL2">
+            <parameter cpu="0" address="0x10D088" value="0x10"/>
+        </option>
+        <option desc="得到等级2攻击 ! PL2">
+            <parameter cpu="0" address="0x10D088" value="0x20"/>
+        </option>
+        <option desc="得到BOSS攻击 ! PL2">
+            <parameter cpu="0" address="0x10D088" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Loadran ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Loadran ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x00"/>
+            <parameter cpu="0" address="0x10D007" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Macky &amp; Pentell ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x01"/>
+            <parameter cpu="0" address="0x10D007" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Arthur Schmidt ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x02"/>
+            <parameter cpu="0" address="0x10D007" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Yan Yanyung ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x03"/>
+            <parameter cpu="0" address="0x10D007" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Griffon ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x04"/>
+            <parameter cpu="0" address="0x10D007" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Really Till ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x05"/>
+            <parameter cpu="0" address="0x10D007" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Tinker &amp; Linker ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x06"/>
+            <parameter cpu="0" address="0x10D007" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Nanja Monja ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x07"/>
+            <parameter cpu="0" address="0x10D007" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Kim ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x08"/>
+            <parameter cpu="0" address="0x10D007" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Sprites ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x09"/>
+            <parameter cpu="0" address="0x10D007" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Dark Ran ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x0A"/>
+            <parameter cpu="0" address="0x10D007" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Mevious ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x0B"/>
+            <parameter cpu="0" address="0x10D007" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色 Memory ! PL2">
+            <parameter cpu="0" address="0x10A6C1" value="0x0C"/>
+            <parameter cpu="0" address="0x10D007" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

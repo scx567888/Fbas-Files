@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0521" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF072B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0729" value="0xE0"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xFF0005" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF0005" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF0005" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF0005" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF0005" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF0005" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF0005" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF0005" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFF0005" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xFF0005" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xFF0005" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="武器选择" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通弹">
+            <parameter cpu="0" address="0xFF0547" value="0x63"/>
+            <parameter cpu="0" address="0xFF0549" value="0x00"/>
+            <parameter cpu="0" address="0xFF054A" value="0x00"/>
+            <parameter cpu="0" address="0xFF054D" value="0x01"/>
+        </option>
+        <option desc="总是有双枪弹">
+            <parameter cpu="0" address="0xFF0547" value="0x63"/>
+            <parameter cpu="0" address="0xFF0549" value="0x01"/>
+            <parameter cpu="0" address="0xFF054A" value="0x00"/>
+            <parameter cpu="0" address="0xFF054D" value="0x01"/>
+        </option>
+        <option desc="总是有火弹">
+            <parameter cpu="0" address="0xFF0547" value="0x63"/>
+            <parameter cpu="0" address="0xFF0549" value="0x02"/>
+            <parameter cpu="0" address="0xFF054A" value="0x00"/>
+            <parameter cpu="0" address="0xFF054D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即取消武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0547" value="0x00"/>
+            <parameter cpu="0" address="0xFF054A" value="0xFF"/>
+            <parameter cpu="0" address="0xFF054D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5EFB" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

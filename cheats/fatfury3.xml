@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x105680" value="0x9A"/>
+        </option>
+        <option desc="过关!">
+            <parameter cpu="0" address="0x105680" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是容易使出超必杀技" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E001" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x100489" value="0x78"/>
+        </option>
+        <option desc="红血 PL1">
+            <parameter cpu="0" address="0x100489" value="0x18"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x100489" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Terry Bogard PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Terry Bogard PL1">
+            <parameter cpu="0" address="0x10561D" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Andy Bogard PL1">
+            <parameter cpu="0" address="0x10561D" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Joe Higashi PL1">
+            <parameter cpu="0" address="0x10561D" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Mai Shiranui PL1">
+            <parameter cpu="0" address="0x10561D" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Geese Howard PL1">
+            <parameter cpu="0" address="0x10561D" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Sokaku PL1">
+            <parameter cpu="0" address="0x10561D" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Bob Wilson PL1">
+            <parameter cpu="0" address="0x10561D" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Hon Fu PL1">
+            <parameter cpu="0" address="0x10561D" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Blue Mary PL1">
+            <parameter cpu="0" address="0x10561D" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Franco Bash PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Ryuji Yamazaki PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Jin Chonrei PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Jin Chonshu PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x100589" value="0x78"/>
+        </option>
+        <option desc="红血 PL2">
+            <parameter cpu="0" address="0x100589" value="0x18"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x100589" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Terry Bogard PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Terry Bogard PL2">
+            <parameter cpu="0" address="0x10561F" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Andy Bogard PL2">
+            <parameter cpu="0" address="0x10561F" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Joe Higashi PL2">
+            <parameter cpu="0" address="0x10561F" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Mai Shiranui PL2">
+            <parameter cpu="0" address="0x10561F" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Geese Howard PL2">
+            <parameter cpu="0" address="0x10561F" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Sokaku PL2">
+            <parameter cpu="0" address="0x10561F" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Bob Wilson PL2">
+            <parameter cpu="0" address="0x10561F" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Hon Fu PL2">
+            <parameter cpu="0" address="0x10561F" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Blue Mary PL2">
+            <parameter cpu="0" address="0x10561F" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Franco Bash PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Ryuji Yamazaki PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Jin Chonrei PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Jin Chonshu PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10046F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10056F" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

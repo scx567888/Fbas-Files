@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限金钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100956" value="0xFF"/>
+            <parameter cpu="0" address="0x100957" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是从3个答案里选择" default="0">
+        <option desc="关闭"/>
+        <option desc="总是从3个答案里选择">
+            <parameter cpu="0" address="0x100990" value="0x01"/>
+        </option>
+        <option desc="总是从2个答案里选择">
+            <parameter cpu="0" address="0x100990" value="0x02"/>
+        </option>
+        <option desc="总是从1个答案里选择">
+            <parameter cpu="0" address="0x100990" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="快速弹出问题表" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101A2B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="问题数 =  1" default="0">
+        <option desc="关闭"/>
+        <option desc="问题数 =  1">
+            <parameter cpu="0" address="0x10097B" value="0x01"/>
+        </option>
+        <option desc="问题数 =  3">
+            <parameter cpu="0" address="0x10097B" value="0x03"/>
+        </option>
+        <option desc="问题数 =  5">
+            <parameter cpu="0" address="0x10097B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="回答A总是正确" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100977" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="回答后结束问答 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10097B" value="0x01"/>
+            <parameter cpu="0" address="0x101AC6" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101AC4" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101FC4" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

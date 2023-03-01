@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限奖励时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD493" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD98B" value="0x31"/>
+            <parameter cpu="0" address="0xFFDA01" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDA77" value="0x0B"/>
+            <parameter cpu="0" address="0xFFDAED" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD435" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFFD471" value="0x1C"/>
+        </option>
+        <option desc="一击过关! PL1">
+            <parameter cpu="0" address="0xFFD471" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL1">
+            <parameter cpu="0" address="0xFFD75F" value="0x78"/>
+        </option>
+        <option desc="无敌 '关闭' PL1">
+            <parameter cpu="0" address="0xFFD75F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD437" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFFD475" value="0x1C"/>
+        </option>
+        <option desc="一击过关! PL2">
+            <parameter cpu="0" address="0xFFD475" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL2">
+            <parameter cpu="0" address="0xFFD86D" value="0x78"/>
+        </option>
+        <option desc="无敌 '关闭' PL2">
+            <parameter cpu="0" address="0xFFD86D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="挥拳力量最大模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1766" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

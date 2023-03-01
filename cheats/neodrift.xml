@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103334" value="0x17"/>
+            <parameter cpu="0" address="0x103335" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="停止总计时间 [练习关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103378" value="0x00"/>
+            <parameter cpu="0" address="0x103379" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="停止总计时间 [关卡1]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10339A" value="0x00"/>
+            <parameter cpu="0" address="0x10339B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="停止总计时间 [关卡2]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1033BC" value="0x00"/>
+            <parameter cpu="0" address="0x1033BD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="停止总计时间 [关卡3]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1033DE" value="0x00"/>
+            <parameter cpu="0" address="0x1033DF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="停止总计时间 [关卡4]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103400" value="0x00"/>
+            <parameter cpu="0" address="0x103401" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="停止总计时间 [关卡5]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103422" value="0x00"/>
+            <parameter cpu="0" address="0x103423" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="停止总计时间 [关卡6]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103444" value="0x00"/>
+            <parameter cpu="0" address="0x103445" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

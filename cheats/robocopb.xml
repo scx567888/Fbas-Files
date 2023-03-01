@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DC5" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8FB7" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间在奖励关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB4D1" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB242" value="0x79"/>
+            <parameter cpu="0" address="0xFFB243" value="0x79"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB248" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB249" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通枪" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通枪">
+            <parameter cpu="0" address="0xFFB247" value="0x00"/>
+        </option>
+        <option desc="总是有三向枪">
+            <parameter cpu="0" address="0xFFB247" value="0x01"/>
+        </option>
+        <option desc="总是有双激光">
+            <parameter cpu="0" address="0xFFB247" value="0x02"/>
+        </option>
+        <option desc="总是有巨炮">
+            <parameter cpu="0" address="0xFFB247" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="去到局数3 在第一局后" default="0">
+        <option desc="关闭"/>
+        <option desc="去到局数3 在第一局后">
+            <parameter cpu="0" address="0xFFB21D" value="0x01"/>
+        </option>
+        <option desc="去到局数4 在第一局后">
+            <parameter cpu="0" address="0xFFB21D" value="0x02"/>
+        </option>
+        <option desc="去到局数5 在第一局后">
+            <parameter cpu="0" address="0xFFB21D" value="0x03"/>
+        </option>
+        <option desc="去到局数6 在第一局后">
+            <parameter cpu="0" address="0xFFB21D" value="0x04"/>
+        </option>
+        <option desc="去到局数7 在第一局后">
+            <parameter cpu="0" address="0xFFB21D" value="0x05"/>
+        </option>
+        <option desc="去到局数8 在第一局后">
+            <parameter cpu="0" address="0xFFB21D" value="0x06"/>
+        </option>
+        <option desc="去到局数9 在第一局后">
+            <parameter cpu="0" address="0xFFB21D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB54F" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

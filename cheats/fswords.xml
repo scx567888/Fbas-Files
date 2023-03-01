@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x10849E" value="0x99"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x10849E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x108573" value="0x80"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x108573" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0x10857C" value="0x40"/>
+        </option>
+        <option desc="耗尽所有力量! PL1">
+            <parameter cpu="0" address="0x10857C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x108673" value="0x80"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x108673" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0x10867C" value="0x40"/>
+        </option>
+        <option desc="耗尽所有力量! PL2">
+            <parameter cpu="0" address="0x10867C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="Haohmaru">
+            <parameter cpu="0" address="0x109069" value="0x00"/>
+        </option>
+        <option desc="Nakoruru">
+            <parameter cpu="0" address="0x109069" value="0x01"/>
+        </option>
+        <option desc="Rimururu">
+            <parameter cpu="0" address="0x109069" value="0x02"/>
+        </option>
+        <option desc="Hanzo Hattori">
+            <parameter cpu="0" address="0x109069" value="0x03"/>
+        </option>
+        <option desc="Galford">
+            <parameter cpu="0" address="0x109069" value="0x04"/>
+        </option>
+        <option desc="Kyoshiro Senryou">
+            <parameter cpu="0" address="0x109069" value="0x05"/>
+        </option>
+        <option desc="Ukyo Tachibana">
+            <parameter cpu="0" address="0x109069" value="0x06"/>
+        </option>
+        <option desc="Genjuro Kibagami">
+            <parameter cpu="0" address="0x109069" value="0x07"/>
+        </option>
+        <option desc="Kubikiri Basara">
+            <parameter cpu="0" address="0x109069" value="0x08"/>
+        </option>
+        <option desc="Shizumaru Hisame">
+            <parameter cpu="0" address="0x109069" value="0x09"/>
+        </option>
+        <option desc="Gaira Kafuin">
+            <parameter cpu="0" address="0x109069" value="0x0A"/>
+        </option>
+        <option desc="Amakusa Shirou Tokisada">
+            <parameter cpu="0" address="0x109069" value="0x0B"/>
+        </option>
+        <option desc="Kuroko">
+            <parameter cpu="0" address="0x109069" value="0x0C"/>
+        </option>
+        <option desc="Zankuro Minazuki">
+            <parameter cpu="0" address="0x109069" value="0x0D"/>
+        </option>
+        <option desc="Zankuro Minazuki (Final Battle)">
+            <parameter cpu="0" address="0x109069" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

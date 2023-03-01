@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="等级不会增加" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101C5D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前左边总是清除 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前左边总是清除 PL1">
+            <parameter cpu="0" address="0x101D03" value="0x01"/>
+        </option>
+        <option desc="当前左边总是黄色 PL1">
+            <parameter cpu="0" address="0x101D03" value="0x02"/>
+        </option>
+        <option desc="当前左边总是紫色 PL1">
+            <parameter cpu="0" address="0x101D03" value="0x03"/>
+        </option>
+        <option desc="当前左边总是红色 PL1">
+            <parameter cpu="0" address="0x101D03" value="0x04"/>
+        </option>
+        <option desc="当前左边总是灰白色 PL1">
+            <parameter cpu="0" address="0x101D03" value="0x05"/>
+        </option>
+        <option desc="当前左边总是绿色 PL1">
+            <parameter cpu="0" address="0x101D03" value="0x06"/>
+        </option>
+        <option desc="当前左边总是蓝色 PL1">
+            <parameter cpu="0" address="0x101D03" value="0x07"/>
+        </option>
+        <option desc="当前左边是清除 ! PL1">
+            <parameter cpu="0" address="0x101D03" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前中间总是清除 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前中间总是清除 PL1">
+            <parameter cpu="0" address="0x101D23" value="0x01"/>
+        </option>
+        <option desc="当前中间总是黄色 PL1">
+            <parameter cpu="0" address="0x101D23" value="0x02"/>
+        </option>
+        <option desc="当前中间总是紫色 PL1">
+            <parameter cpu="0" address="0x101D23" value="0x03"/>
+        </option>
+        <option desc="当前中间总是红色 PL1">
+            <parameter cpu="0" address="0x101D23" value="0x04"/>
+        </option>
+        <option desc="当前中间总是灰白色 PL1">
+            <parameter cpu="0" address="0x101D23" value="0x05"/>
+        </option>
+        <option desc="当前中间总是绿色 PL1">
+            <parameter cpu="0" address="0x101D23" value="0x06"/>
+        </option>
+        <option desc="当前中间总是蓝色 PL1">
+            <parameter cpu="0" address="0x101D23" value="0x07"/>
+        </option>
+        <option desc="当前中间是清除 ! PL1">
+            <parameter cpu="0" address="0x101D23" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前右边总是清除 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前右边总是清除 PL1">
+            <parameter cpu="0" address="0x101D43" value="0x01"/>
+        </option>
+        <option desc="当前右边总是黄色 PL1">
+            <parameter cpu="0" address="0x101D43" value="0x02"/>
+        </option>
+        <option desc="当前右边总是紫色 PL1">
+            <parameter cpu="0" address="0x101D43" value="0x03"/>
+        </option>
+        <option desc="当前右边总是红色 PL1">
+            <parameter cpu="0" address="0x101D43" value="0x04"/>
+        </option>
+        <option desc="当前右边总是灰白色 PL1">
+            <parameter cpu="0" address="0x101D43" value="0x05"/>
+        </option>
+        <option desc="当前右边总是绿色 PL1">
+            <parameter cpu="0" address="0x101D43" value="0x06"/>
+        </option>
+        <option desc="当前右边总是蓝色 PL1">
+            <parameter cpu="0" address="0x101D43" value="0x07"/>
+        </option>
+        <option desc="当前右边是清除 ! PL1">
+            <parameter cpu="0" address="0x101D43" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下次左边总是清除 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下次左边总是清除 PL1">
+            <parameter cpu="0" address="0x101D63" value="0x01"/>
+        </option>
+        <option desc="下次左边总是黄色 PL1">
+            <parameter cpu="0" address="0x101D63" value="0x02"/>
+        </option>
+        <option desc="下次左边总是紫色 PL1">
+            <parameter cpu="0" address="0x101D63" value="0x03"/>
+        </option>
+        <option desc="下次左边总是红色 PL1">
+            <parameter cpu="0" address="0x101D63" value="0x04"/>
+        </option>
+        <option desc="下次左边总是灰白色 PL1">
+            <parameter cpu="0" address="0x101D63" value="0x05"/>
+        </option>
+        <option desc="下次左边总是绿色 PL1">
+            <parameter cpu="0" address="0x101D63" value="0x06"/>
+        </option>
+        <option desc="下次左边总是蓝色 PL1">
+            <parameter cpu="0" address="0x101D63" value="0x07"/>
+        </option>
+        <option desc="下次左边是清除 ! PL1">
+            <parameter cpu="0" address="0x101D63" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下次中间总是清除 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下次中间总是清除 PL1">
+            <parameter cpu="0" address="0x101D83" value="0x01"/>
+        </option>
+        <option desc="下次中间总是黄色 PL1">
+            <parameter cpu="0" address="0x101D83" value="0x02"/>
+        </option>
+        <option desc="下次中间总是紫色 PL1">
+            <parameter cpu="0" address="0x101D83" value="0x03"/>
+        </option>
+        <option desc="下次中间总是红色 PL1">
+            <parameter cpu="0" address="0x101D83" value="0x04"/>
+        </option>
+        <option desc="下次中间总是灰白色 PL1">
+            <parameter cpu="0" address="0x101D83" value="0x05"/>
+        </option>
+        <option desc="下次中间总是绿色 PL1">
+            <parameter cpu="0" address="0x101D83" value="0x06"/>
+        </option>
+        <option desc="下次中间总是蓝色 PL1">
+            <parameter cpu="0" address="0x101D83" value="0x07"/>
+        </option>
+        <option desc="下次中间是清除 ! PL1">
+            <parameter cpu="0" address="0x101D83" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下次右边总是清除 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下次右边总是清除 PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x01"/>
+        </option>
+        <option desc="下次右边总是黄色 PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x02"/>
+        </option>
+        <option desc="下次右边总是紫色 PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x03"/>
+        </option>
+        <option desc="下次右边总是红色 PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x04"/>
+        </option>
+        <option desc="下次右边总是灰白色 PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x05"/>
+        </option>
+        <option desc="下次右边总是绿色 PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x06"/>
+        </option>
+        <option desc="下次右边总是蓝色 PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x07"/>
+        </option>
+        <option desc="下次右边是清除 ! PL1">
+            <parameter cpu="0" address="0x101DA3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前左边总是清除 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前左边总是清除 PL2">
+            <parameter cpu="0" address="0x101F03" value="0x01"/>
+        </option>
+        <option desc="当前左边总是黄色 PL2">
+            <parameter cpu="0" address="0x101F03" value="0x02"/>
+        </option>
+        <option desc="当前左边总是紫色 PL2">
+            <parameter cpu="0" address="0x101F03" value="0x03"/>
+        </option>
+        <option desc="当前左边总是红色 PL2">
+            <parameter cpu="0" address="0x101F03" value="0x04"/>
+        </option>
+        <option desc="当前左边总是灰白色 PL2">
+            <parameter cpu="0" address="0x101F03" value="0x05"/>
+        </option>
+        <option desc="当前左边总是绿色 PL2">
+            <parameter cpu="0" address="0x101F03" value="0x06"/>
+        </option>
+        <option desc="当前左边总是蓝色 PL2">
+            <parameter cpu="0" address="0x101F03" value="0x07"/>
+        </option>
+        <option desc="当前左边是清除 ! PL2">
+            <parameter cpu="0" address="0x101F03" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前中间总是清除 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前中间总是清除 PL2">
+            <parameter cpu="0" address="0x101F23" value="0x01"/>
+        </option>
+        <option desc="当前中间总是黄色 PL2">
+            <parameter cpu="0" address="0x101F23" value="0x02"/>
+        </option>
+        <option desc="当前中间总是紫色 PL2">
+            <parameter cpu="0" address="0x101F23" value="0x03"/>
+        </option>
+        <option desc="当前中间总是红色 PL2">
+            <parameter cpu="0" address="0x101F23" value="0x04"/>
+        </option>
+        <option desc="当前中间总是灰白色 PL2">
+            <parameter cpu="0" address="0x101F23" value="0x05"/>
+        </option>
+        <option desc="当前中间总是绿色 PL2">
+            <parameter cpu="0" address="0x101F23" value="0x06"/>
+        </option>
+        <option desc="当前中间总是蓝色 PL2">
+            <parameter cpu="0" address="0x101F23" value="0x07"/>
+        </option>
+        <option desc="当前中间是清除 ! PL2">
+            <parameter cpu="0" address="0x101F23" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前右边总是清除 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前右边总是清除 PL2">
+            <parameter cpu="0" address="0x101F43" value="0x01"/>
+        </option>
+        <option desc="当前右边总是黄色 PL2">
+            <parameter cpu="0" address="0x101F43" value="0x02"/>
+        </option>
+        <option desc="当前右边总是紫色 PL2">
+            <parameter cpu="0" address="0x101F43" value="0x03"/>
+        </option>
+        <option desc="当前右边总是红色 PL2">
+            <parameter cpu="0" address="0x101F43" value="0x04"/>
+        </option>
+        <option desc="当前右边总是灰白色 PL2">
+            <parameter cpu="0" address="0x101F43" value="0x05"/>
+        </option>
+        <option desc="当前右边总是绿色 PL2">
+            <parameter cpu="0" address="0x101F43" value="0x06"/>
+        </option>
+        <option desc="当前右边总是蓝色 PL2">
+            <parameter cpu="0" address="0x101F43" value="0x07"/>
+        </option>
+        <option desc="当前右边是清除 ! PL2">
+            <parameter cpu="0" address="0x101F43" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下次左边总是清除 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下次左边总是清除 PL2">
+            <parameter cpu="0" address="0x101F63" value="0x01"/>
+        </option>
+        <option desc="下次左边总是黄色 PL2">
+            <parameter cpu="0" address="0x101F63" value="0x02"/>
+        </option>
+        <option desc="下次左边总是紫色 PL2">
+            <parameter cpu="0" address="0x101F63" value="0x03"/>
+        </option>
+        <option desc="下次左边总是红色 PL2">
+            <parameter cpu="0" address="0x101F63" value="0x04"/>
+        </option>
+        <option desc="下次左边总是灰白色 PL2">
+            <parameter cpu="0" address="0x101F63" value="0x05"/>
+        </option>
+        <option desc="下次左边总是绿色 PL2">
+            <parameter cpu="0" address="0x101F63" value="0x06"/>
+        </option>
+        <option desc="下次左边总是蓝色 PL2">
+            <parameter cpu="0" address="0x101F63" value="0x07"/>
+        </option>
+        <option desc="下次左边是清除 ! PL2">
+            <parameter cpu="0" address="0x101F63" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下次中间总是清除 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下次中间总是清除 PL2">
+            <parameter cpu="0" address="0x101F83" value="0x01"/>
+        </option>
+        <option desc="下次中间总是黄色 PL2">
+            <parameter cpu="0" address="0x101F83" value="0x02"/>
+        </option>
+        <option desc="下次中间总是紫色 PL2">
+            <parameter cpu="0" address="0x101F83" value="0x03"/>
+        </option>
+        <option desc="下次中间总是红色 PL2">
+            <parameter cpu="0" address="0x101F83" value="0x04"/>
+        </option>
+        <option desc="下次中间总是灰白色 PL2">
+            <parameter cpu="0" address="0x101F83" value="0x05"/>
+        </option>
+        <option desc="下次中间总是绿色 PL2">
+            <parameter cpu="0" address="0x101F83" value="0x06"/>
+        </option>
+        <option desc="下次中间总是蓝色 PL2">
+            <parameter cpu="0" address="0x101F83" value="0x07"/>
+        </option>
+        <option desc="下次中间是清除 ! PL2">
+            <parameter cpu="0" address="0x101F83" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下次右边总是清除 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下次右边总是清除 PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x01"/>
+        </option>
+        <option desc="下次右边总是黄色 PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x02"/>
+        </option>
+        <option desc="下次右边总是紫色 PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x03"/>
+        </option>
+        <option desc="下次右边总是红色 PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x04"/>
+        </option>
+        <option desc="下次右边总是灰白色 PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x05"/>
+        </option>
+        <option desc="下次右边总是绿色 PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x06"/>
+        </option>
+        <option desc="下次右边总是蓝色 PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x07"/>
+        </option>
+        <option desc="下次右边是清除 ! PL2">
+            <parameter cpu="0" address="0x101FA3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

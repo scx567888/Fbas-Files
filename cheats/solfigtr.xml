@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x102941" value="0x99"/>
+        </option>
+        <option desc="立即结束这一局!">
+            <parameter cpu="0" address="0x102941" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x10101D" value="0x95"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0x10101D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x10111D" value="0x95"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0x10111D" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7D3" value="0x46"/>
+        </option>
+    </cheat>
+    <cheat desc="不知火舞胸部总是弹动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7E0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x108239" value="0x66"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0x108239" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1082E3" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是耗尽力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E8" value="0x00"/>
+            <parameter cpu="0" address="0x1082E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1 (A)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A7E6" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A7E6" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A7E6" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A7E6" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A7E6" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A7E6" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A7E6" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A7E6" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A7E6" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A7E6" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A7E6" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A7E6" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A7E6" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A7E6" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A7E6" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A7E6" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A7E6" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A7E6" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A7E6" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A7E6" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A7E6" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A7E6" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A7E6" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A7E6" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A7E6" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A7E6" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A7E6" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A7E6" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A7E6" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A7E6" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A7E6" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A7E6" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A7E6" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A7E6" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A7E6" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A7E6" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A7E6" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A7E6" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A7E6" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A7E6" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A7E6" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A7E6" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1 (B)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A7E7" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A7E7" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A7E7" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A7E7" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A7E7" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A7E7" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A7E7" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A7E7" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A7E7" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A7E7" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A7E7" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A7E7" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A7E7" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A7E7" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A7E7" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A7E7" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A7E7" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A7E7" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A7E7" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A7E7" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A7E7" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A7E7" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A7E7" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A7E7" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A7E7" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A7E7" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A7E7" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A7E7" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A7E7" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A7E7" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A7E7" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A7E7" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A7E7" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A7E7" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A7E7" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A7E7" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A7E7" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A7E7" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A7E7" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A7E7" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A7E7" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A7E7" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1 (C)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A7E8" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A7E8" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A7E8" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A7E8" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A7E8" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A7E8" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A7E8" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A7E8" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A7E8" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A7E8" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A7E8" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A7E8" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A7E8" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A7E8" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A7E8" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A7E8" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A7E8" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A7E8" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A7E8" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A7E8" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A7E8" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A7E8" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A7E8" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A7E8" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A7E8" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A7E8" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A7E8" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A7E8" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A7E8" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A7E8" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A7E8" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A7E8" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A7E8" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A7E8" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A7E8" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A7E8" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A7E8" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A7E8" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A7E8" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A7E8" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A7E8" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A7E8" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1 (D)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A7E9" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A7E9" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A7E9" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A7E9" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A7E9" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A7E9" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A7E9" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A7E9" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A7E9" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A7E9" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A7E9" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A7E9" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A7E9" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A7E9" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A7E9" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A7E9" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A7E9" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A7E9" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A7E9" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A7E9" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A7E9" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A7E9" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A7E9" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A7E9" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A7E9" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A7E9" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A7E9" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A7E9" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A7E9" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A7E9" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A7E9" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A7E9" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A7E9" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A7E9" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A7E9" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A7E9" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A7E9" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A7E9" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A7E9" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A7E9" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A7E9" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A7E9" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Zero PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Zero PL1">
+            <parameter cpu="0" address="0x10A7E9" value="0x28"/>
+            <parameter cpu="0" address="0x10A7F8" value="0x28"/>
+            <parameter cpu="0" address="0x10A7F9" value="0x28"/>
+            <parameter cpu="0" address="0x10A7FA" value="0x28"/>
+            <parameter cpu="0" address="0x10A7FC" value="0x00"/>
+            <parameter cpu="0" address="0x10A7FD" value="0x00"/>
+            <parameter cpu="0" address="0x10A7FE" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Zero (东丈头像) PL1">
+            <parameter cpu="0" address="0x10A7E9" value="0x28"/>
+            <parameter cpu="0" address="0x10A7F8" value="0x28"/>
+            <parameter cpu="0" address="0x10A7F9" value="0x12"/>
+            <parameter cpu="0" address="0x10A7FA" value="0x28"/>
+            <parameter cpu="0" address="0x10A7FC" value="0x00"/>
+            <parameter cpu="0" address="0x10A7FD" value="0xB5"/>
+            <parameter cpu="0" address="0x10A7FE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Igniz PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7E9" value="0x29"/>
+            <parameter cpu="0" address="0x10A7F8" value="0x29"/>
+            <parameter cpu="0" address="0x10A7F9" value="0x29"/>
+            <parameter cpu="0" address="0x10A7FA" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x108439" value="0x66"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0x108439" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1084E3" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是耗尽力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E8" value="0x00"/>
+            <parameter cpu="0" address="0x1084E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2 (A)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A804" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A804" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A804" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A804" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A804" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A804" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A804" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A804" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A804" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A804" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A804" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A804" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A804" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A804" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A804" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A804" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A804" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A804" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A804" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A804" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A804" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A804" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A804" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A804" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A804" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A804" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A804" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A804" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A804" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A804" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A804" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A804" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A804" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A804" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A804" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A804" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A804" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A804" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A804" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A804" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A804" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A804" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2 (B)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A805" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A805" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A805" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A805" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A805" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A805" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A805" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A805" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A805" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A805" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A805" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A805" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A805" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A805" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A805" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A805" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A805" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A805" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A805" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A805" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A805" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A805" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A805" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A805" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A805" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A805" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A805" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A805" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A805" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A805" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A805" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A805" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A805" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A805" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A805" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A805" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A805" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A805" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A805" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A805" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A805" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A805" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2 (C)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A806" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A806" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A806" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A806" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A806" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A806" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A806" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A806" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A806" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A806" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A806" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A806" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A806" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A806" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A806" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A806" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A806" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A806" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A806" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A806" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A806" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A806" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A806" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A806" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A806" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A806" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A806" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A806" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A806" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A806" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A806" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A806" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A806" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A806" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A806" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A806" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A806" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A806" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A806" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A806" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A806" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A806" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2 (D)" default="0">
+        <option desc="关闭"/>
+        <option desc="K'">
+            <parameter cpu="0" address="0x10A807" value="0x00"/>
+        </option>
+        <option desc="马希玛">
+            <parameter cpu="0" address="0x10A807" value="0x01"/>
+        </option>
+        <option desc="鞭子">
+            <parameter cpu="0" address="0x10A807" value="0x02"/>
+        </option>
+        <option desc="麟">
+            <parameter cpu="0" address="0x10A807" value="0x03"/>
+        </option>
+        <option desc="Kyo">
+            <parameter cpu="0" address="0x10A807" value="0x04"/>
+        </option>
+        <option desc="Benimaru">
+            <parameter cpu="0" address="0x10A807" value="0x05"/>
+        </option>
+        <option desc="Daimon">
+            <parameter cpu="0" address="0x10A807" value="0x06"/>
+        </option>
+        <option desc="Shingo">
+            <parameter cpu="0" address="0x10A807" value="0x07"/>
+        </option>
+        <option desc="Iori">
+            <parameter cpu="0" address="0x10A807" value="0x08"/>
+        </option>
+        <option desc="温妮莎">
+            <parameter cpu="0" address="0x10A807" value="0x09"/>
+        </option>
+        <option desc="塞斯">
+            <parameter cpu="0" address="0x10A807" value="0x0A"/>
+        </option>
+        <option desc="拉蒙">
+            <parameter cpu="0" address="0x10A807" value="0x0B"/>
+        </option>
+        <option desc="莉安娜">
+            <parameter cpu="0" address="0x10A807" value="0x0C"/>
+        </option>
+        <option desc="Ralf">
+            <parameter cpu="0" address="0x10A807" value="0x0D"/>
+        </option>
+        <option desc="Clark">
+            <parameter cpu="0" address="0x10A807" value="0x0E"/>
+        </option>
+        <option desc="Heidern">
+            <parameter cpu="0" address="0x10A807" value="0x0F"/>
+        </option>
+        <option desc="Terry">
+            <parameter cpu="0" address="0x10A807" value="0x10"/>
+        </option>
+        <option desc="Andy">
+            <parameter cpu="0" address="0x10A807" value="0x11"/>
+        </option>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10A807" value="0x12"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0x10A807" value="0x13"/>
+        </option>
+        <option desc="Ryo">
+            <parameter cpu="0" address="0x10A807" value="0x14"/>
+        </option>
+        <option desc="Robert">
+            <parameter cpu="0" address="0x10A807" value="0x15"/>
+        </option>
+        <option desc="Yuri">
+            <parameter cpu="0" address="0x10A807" value="0x16"/>
+        </option>
+        <option desc="Takuma">
+            <parameter cpu="0" address="0x10A807" value="0x17"/>
+        </option>
+        <option desc="京">
+            <parameter cpu="0" address="0x10A807" value="0x18"/>
+        </option>
+        <option desc="Mai">
+            <parameter cpu="0" address="0x10A807" value="0x19"/>
+        </option>
+        <option desc="Hinako">
+            <parameter cpu="0" address="0x10A807" value="0x1A"/>
+        </option>
+        <option desc="Xiangfei">
+            <parameter cpu="0" address="0x10A807" value="0x1B"/>
+        </option>
+        <option desc="Kula">
+            <parameter cpu="0" address="0x10A807" value="0x1C"/>
+        </option>
+        <option desc="Foxy">
+            <parameter cpu="0" address="0x10A807" value="0x1D"/>
+        </option>
+        <option desc="K9999">
+            <parameter cpu="0" address="0x10A807" value="0x1E"/>
+        </option>
+        <option desc="Angel">
+            <parameter cpu="0" address="0x10A807" value="0x1F"/>
+        </option>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10A807" value="0x20"/>
+        </option>
+        <option desc="Kensou">
+            <parameter cpu="0" address="0x10A807" value="0x21"/>
+        </option>
+        <option desc="Chin">
+            <parameter cpu="0" address="0x10A807" value="0x22"/>
+        </option>
+        <option desc="包">
+            <parameter cpu="0" address="0x10A807" value="0x23"/>
+        </option>
+        <option desc="Kim">
+            <parameter cpu="0" address="0x10A807" value="0x24"/>
+        </option>
+        <option desc="Chang">
+            <parameter cpu="0" address="0x10A807" value="0x25"/>
+        </option>
+        <option desc="Choi">
+            <parameter cpu="0" address="0x10A807" value="0x26"/>
+        </option>
+        <option desc="May">
+            <parameter cpu="0" address="0x10A807" value="0x27"/>
+        </option>
+        <option desc="Zero">
+            <parameter cpu="0" address="0x10A807" value="0x28"/>
+        </option>
+        <option desc="Igniz">
+            <parameter cpu="0" address="0x10A807" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Zero PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Zero PL2">
+            <parameter cpu="0" address="0x10A80F" value="0x28"/>
+            <parameter cpu="0" address="0x10A81E" value="0x28"/>
+            <parameter cpu="0" address="0x10A81F" value="0x28"/>
+            <parameter cpu="0" address="0x10A820" value="0x28"/>
+            <parameter cpu="0" address="0x10A822" value="0x00"/>
+            <parameter cpu="0" address="0x10A823" value="0x00"/>
+            <parameter cpu="0" address="0x10A824" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Zero (东丈头像) PL2">
+            <parameter cpu="0" address="0x10A80F" value="0x28"/>
+            <parameter cpu="0" address="0x10A81E" value="0x28"/>
+            <parameter cpu="0" address="0x10A81F" value="0x12"/>
+            <parameter cpu="0" address="0x10A820" value="0x28"/>
+            <parameter cpu="0" address="0x10A822" value="0x00"/>
+            <parameter cpu="0" address="0x10A823" value="0xB5"/>
+            <parameter cpu="0" address="0x10A824" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Igniz PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A80F" value="0x29"/>
+            <parameter cpu="0" address="0x10A81E" value="0x29"/>
+            <parameter cpu="0" address="0x10A81F" value="0x29"/>
+            <parameter cpu="0" address="0x10A820" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前关数" default="0">
+        <option desc="关闭"/>
+        <option desc="游戏场景 1">
+            <parameter cpu="0" address="0x10A799" value="0x00"/>
+        </option>
+        <option desc="游戏场景 2">
+            <parameter cpu="0" address="0x10A799" value="0x01"/>
+        </option>
+        <option desc="游戏场景 3">
+            <parameter cpu="0" address="0x10A799" value="0x03"/>
+        </option>
+        <option desc="游戏场景 4">
+            <parameter cpu="0" address="0x10A799" value="0x07"/>
+        </option>
+        <option desc="游戏场景 5">
+            <parameter cpu="0" address="0x10A799" value="0x0F"/>
+        </option>
+        <option desc="游戏场景 6">
+            <parameter cpu="0" address="0x10A799" value="0x1F"/>
+        </option>
+        <option desc="与零对决场景">
+            <parameter cpu="0" address="0x10A799" value="0x3F"/>
+        </option>
+        <option desc="与邪骸食对决场景">
+            <parameter cpu="0" address="0x10A799" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="快速射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10817A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开始前可移动 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E2" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="May Lee总是英雄模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="May Lee总是英雄模式 PL1">
+            <parameter cpu="0" address="0x108182" value="0x04"/>
+            <parameter cpu="0" address="0x1081E7" value="0x05"/>
+        </option>
+        <option desc="May Lee总是正常模式 PL1">
+            <parameter cpu="0" address="0x108182" value="0x00"/>
+            <parameter cpu="0" address="0x1081E7" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="Chin不用饮酒可以超必杀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E7" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="快速射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10837A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开始前可移动 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E2" value="0x10"/>
+        </option>
+    </cheat>
+</shufflecheat>

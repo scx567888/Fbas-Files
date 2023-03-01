@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82A2" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83C6" value="0x99"/>
+            <parameter cpu="0" address="0xFF83C7" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8342" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8362" value="0x06"/>
+            <parameter cpu="0" address="0xFF8363" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8369" value="0x99"/>
+            <parameter cpu="0" address="0xFF836A" value="0x99"/>
+            <parameter cpu="0" address="0xFF836B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限指环" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF835A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限垂饰" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF835C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限手镯" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF835D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="不会受伤害的 - 开启 (伤害类型)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF987D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="不会受伤害的 - 开启 (系统类型)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9897" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="射击计数限度 - 连续无间隔开火" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF99D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="射击计数限度 - 连续无间隔开火 + 快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9892" value="0x00"/>
+            <parameter cpu="0" address="0xFFF99D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="自动火焰剑攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC786" value="0x01"/>
+            <parameter cpu="0" address="0xFFC787" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="能量槽等级 - 什么也没有" default="0">
+        <option desc="关闭"/>
+        <option desc="能量槽等级 - 什么也没有">
+            <parameter cpu="0" address="0xFF8376" value="0x00"/>
+            <parameter cpu="0" address="0xFF8377" value="0x00"/>
+        </option>
+        <option desc="能量槽等级 - 最终状态">
+            <parameter cpu="0" address="0xFF8376" value="0x8F"/>
+            <parameter cpu="0" address="0xFF8377" value="0x01"/>
+        </option>
+        <option desc="魔法类型 - 类型 1">
+            <parameter cpu="0" address="0xFF8376" value="0x29"/>
+            <parameter cpu="0" address="0xFF8377" value="0xE4"/>
+        </option>
+        <option desc="魔法类型 - 类型 2">
+            <parameter cpu="0" address="0xFF8376" value="0x5F"/>
+            <parameter cpu="0" address="0xFF8377" value="0xC0"/>
+        </option>
+        <option desc="魔法类型 - 类型 3">
+            <parameter cpu="0" address="0xFF8376" value="0x7A"/>
+            <parameter cpu="0" address="0xFF8377" value="0xAE"/>
+        </option>
+        <option desc="魔法类型 - 类型 4">
+            <parameter cpu="0" address="0xFF8376" value="0x9D"/>
+            <parameter cpu="0" address="0xFF8377" value="0x17"/>
+        </option>
+        <option desc="魔法类型 - 类型 5">
+            <parameter cpu="0" address="0xFF8376" value="0xAA"/>
+            <parameter cpu="0" address="0xFF8377" value="0x8E"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Willow !" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Willow !">
+            <parameter cpu="0" address="0xFF8386" value="0x00"/>
+            <parameter cpu="0" address="0xFF9866" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Madmartigan !">
+            <parameter cpu="0" address="0xFF8386" value="0x04"/>
+            <parameter cpu="0" address="0xFF9866" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Willow" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Willow">
+            <parameter cpu="0" address="0xFF9866" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Madmartigan">
+            <parameter cpu="0" address="0xFF9866" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="Willow的魔法 - 什么也没有" default="0">
+        <option desc="关闭"/>
+        <option desc="Willow的魔法 - 什么也没有">
+            <parameter cpu="0" address="0xFF8366" value="0x00"/>
+        </option>
+        <option desc="Willow的魔法 - 月牙射击">
+            <parameter cpu="0" address="0xFF8366" value="0x01"/>
+        </option>
+        <option desc="Willow的魔法 - 火旋风">
+            <parameter cpu="0" address="0xFF8366" value="0x02"/>
+        </option>
+        <option desc="Willow的魔法 - 双倍金钱">
+            <parameter cpu="0" address="0xFF8366" value="0x03"/>
+        </option>
+        <option desc="Willow的魔法 - 时间停止">
+            <parameter cpu="0" address="0xFF8366" value="0x04"/>
+        </option>
+        <option desc="Willow的魔法 - 爆炸">
+            <parameter cpu="0" address="0xFF8366" value="0x05"/>
+        </option>
+        <option desc="Willow的魔法 - 障碍物">
+            <parameter cpu="0" address="0xFF8366" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="Madmartigan的剑 - 等级 1" default="0">
+        <option desc="关闭"/>
+        <option desc="Madmartigan的剑 - 等级 1">
+            <parameter cpu="0" address="0xFF8367" value="0x00"/>
+        </option>
+        <option desc="Madmartigan的剑 - 等级 2">
+            <parameter cpu="0" address="0xFF8367" value="0x01"/>
+        </option>
+        <option desc="Madmartigan的剑 - 等级 3">
+            <parameter cpu="0" address="0xFF8367" value="0x02"/>
+        </option>
+        <option desc="Madmartigan的剑 - 等级 4">
+            <parameter cpu="0" address="0xFF8367" value="0x03"/>
+        </option>
+        <option desc="Madmartigan的剑 - 等级 5">
+            <parameter cpu="0" address="0xFF8367" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFF8345" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFF8345" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF8345" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF8345" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF8345" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF8345" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

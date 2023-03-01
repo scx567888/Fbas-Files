@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x101A52" value="0x01"/>
+            <parameter cpu="0" address="0x101A53" value="0x59"/>
+            <parameter cpu="0" address="0x101A54" value="0x09"/>
+        </option>
+        <option desc="立即结束半场!">
+            <parameter cpu="0" address="0x101A52" value="0x00"/>
+            <parameter cpu="0" address="0x101A53" value="0x00"/>
+            <parameter cpu="0" address="0x101A54" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有0点 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有0点 PL1">
+            <parameter cpu="0" address="0x101A0B" value="0x00"/>
+        </option>
+        <option desc="总是有99点 PL1">
+            <parameter cpu="0" address="0x101A0B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有0点 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有0点 PL2">
+            <parameter cpu="0" address="0x101A0F" value="0x00"/>
+        </option>
+        <option desc="总是有99点 PL2">
+            <parameter cpu="0" address="0x101A0F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="PL1 超级射击总是满的" default="0">
+        <option desc="关闭"/>
+        <option desc="PL1 超级射击总是满的">
+            <parameter cpu="0" address="0x101A5A" value="0xC0"/>
+        </option>
+        <option desc="PL1 超级射击总是空的">
+            <parameter cpu="0" address="0x101A5A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="PL2 超级射击总是满的" default="0">
+        <option desc="关闭"/>
+        <option desc="PL2 超级射击总是满的">
+            <parameter cpu="0" address="0x101A5C" value="0xC0"/>
+        </option>
+        <option desc="PL2 超级射击总是空的">
+            <parameter cpu="0" address="0x101A5C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="完成这比赛 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101A49" value="0x02"/>
+            <parameter cpu="0" address="0x101A52" value="0x00"/>
+            <parameter cpu="0" address="0x101A53" value="0x00"/>
+            <parameter cpu="0" address="0x101A54" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择队组时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E0C4" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

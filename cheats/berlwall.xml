@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200020" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202890" value="0x09"/>
+            <parameter cpu="0" address="0x202891" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20297E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202999" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="始终是普通武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="始终是普通武器 PL1">
+            <parameter cpu="0" address="0x202983" value="0x00"/>
+        </option>
+        <option desc="总是有火焰射击武器 PL1">
+            <parameter cpu="0" address="0x202983" value="0x01"/>
+        </option>
+        <option desc="总是有炸弹 PL1">
+            <parameter cpu="0" address="0x202983" value="0x02"/>
+        </option>
+        <option desc="总是有铁锤 PL1">
+            <parameter cpu="0" address="0x202983" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029C0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029DB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="始终是普通武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="始终是普通武器 PL2">
+            <parameter cpu="0" address="0x2029C5" value="0x00"/>
+        </option>
+        <option desc="总是有火焰射击武器 PL2">
+            <parameter cpu="0" address="0x2029C5" value="0x01"/>
+        </option>
+        <option desc="总是有炸弹 PL2">
+            <parameter cpu="0" address="0x2029C5" value="0x02"/>
+        </option>
+        <option desc="总是有铁锤 PL2">
+            <parameter cpu="0" address="0x2029C5" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

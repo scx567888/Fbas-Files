@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x40000A" value="0x99"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x40000A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限角色选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x400006" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x4034EB" value="0xEF"/>
+            <parameter cpu="0" address="0x4034ED" value="0xEF"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x4034EB" value="0x00"/>
+            <parameter cpu="0" address="0x4034ED" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="YASHAOU,SITTARA">
+            <parameter cpu="0" address="0x4034EF" value="0x60"/>
+        </option>
+        <option desc="GOAT,TAROS,ROSE MARY,CHEN-MAO">
+            <parameter cpu="0" address="0x4034EF" value="0x40"/>
+        </option>
+        <option desc="LEON,ALIGE,ROKUROUTA,ZINSUKE">
+            <parameter cpu="0" address="0x4034EF" value="0x50"/>
+        </option>
+        <option desc="ZAM-B,ALIGE!">
+            <parameter cpu="0" address="0x4034EF" value="0x30"/>
+        </option>
+        <option desc="总是有最小力量 PL1">
+            <parameter cpu="0" address="0x4034EF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色CURFUE PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x401027" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色(选人画面) PL1(地址一)" default="0">
+        <option desc="关闭"/>
+        <option desc="GOAT">
+            <parameter cpu="0" address="0x40323D" value="0x00"/>
+        </option>
+        <option desc="LEON">
+            <parameter cpu="0" address="0x40323D" value="0x01"/>
+        </option>
+        <option desc="YASHAOU">
+            <parameter cpu="0" address="0x40323D" value="0x02"/>
+        </option>
+        <option desc="ALIGE!">
+            <parameter cpu="0" address="0x40323D" value="0x03"/>
+        </option>
+        <option desc="SITTARA">
+            <parameter cpu="0" address="0x40323D" value="0x04"/>
+        </option>
+        <option desc="ROSE MARY">
+            <parameter cpu="0" address="0x40323D" value="0x05"/>
+        </option>
+        <option desc="ALIGE">
+            <parameter cpu="0" address="0x40323D" value="0x06"/>
+        </option>
+        <option desc="CHEN-MAO">
+            <parameter cpu="0" address="0x40323D" value="0x07"/>
+        </option>
+        <option desc="TAROS">
+            <parameter cpu="0" address="0x40323D" value="0x08"/>
+        </option>
+        <option desc="NANAMI(变换成对手)">
+            <parameter cpu="0" address="0x40323D" value="0x09"/>
+        </option>
+        <option desc="ZAM-B">
+            <parameter cpu="0" address="0x40323D" value="0x0A"/>
+        </option>
+        <option desc="ROKUROUTA">
+            <parameter cpu="0" address="0x40323D" value="0x0B"/>
+        </option>
+        <option desc="ZINSUKE">
+            <parameter cpu="0" address="0x40323D" value="0x0C"/>
+        </option>
+        <option desc="VEBEL(不可用)">
+            <parameter cpu="0" address="0x40323D" value="0x0D"/>
+        </option>
+        <option desc="DRAGON(不可用)">
+            <parameter cpu="0" address="0x40323D" value="0x0E"/>
+        </option>
+        <option desc="KING(不可用)">
+            <parameter cpu="0" address="0x40323D" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1 (地址二)" default="0">
+        <option desc="关闭"/>
+        <option desc="YASHAOU">
+            <parameter cpu="0" address="0x4039A7" value="0x00"/>
+        </option>
+        <option desc="GOAT">
+            <parameter cpu="0" address="0x4039A7" value="0x01"/>
+        </option>
+        <option desc="LEON">
+            <parameter cpu="0" address="0x4039A7" value="0x02"/>
+        </option>
+        <option desc="CHEN-MAO">
+            <parameter cpu="0" address="0x4039A7" value="0x03"/>
+        </option>
+        <option desc="ZAM-B">
+            <parameter cpu="0" address="0x4039A7" value="0x04"/>
+        </option>
+        <option desc="TAROS">
+            <parameter cpu="0" address="0x4039A7" value="0x05"/>
+        </option>
+        <option desc="ALIGE">
+            <parameter cpu="0" address="0x4039A7" value="0x06"/>
+        </option>
+        <option desc="ROSE MARV">
+            <parameter cpu="0" address="0x4039A7" value="0x07"/>
+        </option>
+        <option desc="SITTARA">
+            <parameter cpu="0" address="0x4039A7" value="0x08"/>
+        </option>
+        <option desc="ROKUROUTA">
+            <parameter cpu="0" address="0x4039A7" value="0x09"/>
+        </option>
+        <option desc="ZINSUKE">
+            <parameter cpu="0" address="0x4039A7" value="0x0A"/>
+        </option>
+        <option desc="ALIGE!">
+            <parameter cpu="0" address="0x4039A7" value="0x0B"/>
+        </option>
+        <option desc="NANAMI(变换成对手)">
+            <parameter cpu="0" address="0x4039A7" value="0x0C"/>
+        </option>
+        <option desc="VEBEL">
+            <parameter cpu="0" address="0x4039A7" value="0x0D"/>
+        </option>
+        <option desc="DRAGON(不可用)">
+            <parameter cpu="0" address="0x4039A7" value="0x0E"/>
+        </option>
+        <option desc="KING(不可用)">
+            <parameter cpu="0" address="0x4039A7" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x4041A5" value="0xEF"/>
+            <parameter cpu="0" address="0x4041A7" value="0xEF"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x4041A5" value="0x00"/>
+            <parameter cpu="0" address="0x4041A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="YASHAOU,SITTARA">
+            <parameter cpu="0" address="0x4041A9" value="0x60"/>
+        </option>
+        <option desc="GOAT,TAROS,ROSE MARY,CHEN-MAO">
+            <parameter cpu="0" address="0x4041A9" value="0x40"/>
+        </option>
+        <option desc="LEON,ALIGE,ROKUROUTA,ZINSUKE">
+            <parameter cpu="0" address="0x4041A9" value="0x50"/>
+        </option>
+        <option desc="ZAM-B,ALIGE!">
+            <parameter cpu="0" address="0x4041A9" value="0x30"/>
+        </option>
+        <option desc="总是有最小力量 PL2">
+            <parameter cpu="0" address="0x4041A9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2 (地址二)" default="0">
+        <option desc="关闭"/>
+        <option desc="YASHAOU">
+            <parameter cpu="0" address="0x404667" value="0x00"/>
+        </option>
+        <option desc="GOAT">
+            <parameter cpu="0" address="0x404667" value="0x01"/>
+        </option>
+        <option desc="LEON">
+            <parameter cpu="0" address="0x404667" value="0x02"/>
+        </option>
+        <option desc="CHEN-MAO">
+            <parameter cpu="0" address="0x404667" value="0x03"/>
+        </option>
+        <option desc="ZAM-B">
+            <parameter cpu="0" address="0x404667" value="0x04"/>
+        </option>
+        <option desc="TAROS">
+            <parameter cpu="0" address="0x404667" value="0x05"/>
+        </option>
+        <option desc="ALIGE">
+            <parameter cpu="0" address="0x404667" value="0x06"/>
+        </option>
+        <option desc="ROSE MARV">
+            <parameter cpu="0" address="0x404667" value="0x07"/>
+        </option>
+        <option desc="SITTARA">
+            <parameter cpu="0" address="0x404667" value="0x08"/>
+        </option>
+        <option desc="ROKUROUTA">
+            <parameter cpu="0" address="0x404667" value="0x09"/>
+        </option>
+        <option desc="ZINSUKE">
+            <parameter cpu="0" address="0x404667" value="0x0A"/>
+        </option>
+        <option desc="ALIGE!">
+            <parameter cpu="0" address="0x404667" value="0x0B"/>
+        </option>
+        <option desc="NANAMI(变换成对手)">
+            <parameter cpu="0" address="0x404667" value="0x0C"/>
+        </option>
+        <option desc="VEBEL">
+            <parameter cpu="0" address="0x404667" value="0x0D"/>
+        </option>
+        <option desc="DRAGON(不可用)">
+            <parameter cpu="0" address="0x404667" value="0x0E"/>
+        </option>
+        <option desc="KING(不可用)">
+            <parameter cpu="0" address="0x404667" value="0x0F"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201FF9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间 ''开启''">
+            <parameter cpu="0" address="0x200048" value="0xEA"/>
+            <parameter cpu="0" address="0x200049" value="0xFF"/>
+        </option>
+        <option desc="无限时间 ''关闭''">
+            <parameter cpu="0" address="0x200048" value="0x00"/>
+            <parameter cpu="0" address="0x200049" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限速度推进器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20297B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是驾驶在最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2027D2" value="0x01"/>
+            <parameter cpu="0" address="0x2027D3" value="0x2C"/>
+        </option>
+    </cheat>
+</shufflecheat>

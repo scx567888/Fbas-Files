@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="隐藏飞行器 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="隐藏飞行器 ''开启''">
+            <parameter cpu="0" address="0x10A6A7" value="0xFF"/>
+        </option>
+        <option desc="隐藏飞行器 ''关闭''">
+            <parameter cpu="0" address="0x10A6A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是10000分奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109CB8" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101686" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101682" value="0x04"/>
+            <parameter cpu="0" address="0x101684" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101688" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101680" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择副机攻击方式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="机翼侧固定聚集">
+            <parameter cpu="0" address="0x1015BB" value="0x00"/>
+        </option>
+        <option desc="尾部固定">
+            <parameter cpu="0" address="0x1015BB" value="0x02"/>
+        </option>
+        <option desc="前方固定">
+            <parameter cpu="0" address="0x1015BB" value="0x04"/>
+        </option>
+        <option desc="旋转多方向">
+            <parameter cpu="0" address="0x1015BB" value="0x06"/>
+        </option>
+        <option desc="随主机随意拖拉">
+            <parameter cpu="0" address="0x1015BB" value="0x08"/>
+        </option>
+        <option desc="机翼侧固定跟踪">
+            <parameter cpu="0" address="0x1015BB" value="0x0A"/>
+        </option>
+        <option desc="随主机十字拖拉">
+            <parameter cpu="0" address="0x1015BB" value="0x0C"/>
+        </option>
+        <option desc="脱离主机跟踪">
+            <parameter cpu="0" address="0x1015BB" value="0x0E"/>
+        </option>
+        <option desc="旋转直射">
+            <parameter cpu="0" address="0x1015BB" value="0x10"/>
+        </option>
+        <option desc="机翼侧固定分散">
+            <parameter cpu="0" address="0x1015BB" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10177E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10177A" value="0x04"/>
+            <parameter cpu="0" address="0x10177C" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101780" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101778" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择副机攻击方式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="机翼侧固定聚集">
+            <parameter cpu="0" address="0x1016B3" value="0x00"/>
+        </option>
+        <option desc="尾部固定">
+            <parameter cpu="0" address="0x1016B3" value="0x02"/>
+        </option>
+        <option desc="前方固定">
+            <parameter cpu="0" address="0x1016B3" value="0x04"/>
+        </option>
+        <option desc="旋转多方向">
+            <parameter cpu="0" address="0x1016B3" value="0x06"/>
+        </option>
+        <option desc="随主机随意拖拉">
+            <parameter cpu="0" address="0x1016B3" value="0x08"/>
+        </option>
+        <option desc="机翼侧固定跟踪">
+            <parameter cpu="0" address="0x1016B3" value="0x0A"/>
+        </option>
+        <option desc="随主机十字拖拉">
+            <parameter cpu="0" address="0x1016B3" value="0x0C"/>
+        </option>
+        <option desc="脱离主机跟踪">
+            <parameter cpu="0" address="0x1016B3" value="0x0E"/>
+        </option>
+        <option desc="旋转直射">
+            <parameter cpu="0" address="0x1016B3" value="0x10"/>
+        </option>
+        <option desc="机翼侧固定分散">
+            <parameter cpu="0" address="0x1016B3" value="0x12"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80AC19" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812BCE" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1">
+            <parameter cpu="0" address="0x81C67E" value="0x01"/>
+            <parameter cpu="0" address="0x81C67F" value="0xE0"/>
+        </option>
+        <option desc="耗尽所有体力 ! PL1">
+            <parameter cpu="0" address="0x81C67E" value="0x00"/>
+            <parameter cpu="0" address="0x81C67F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0x80DA99" value="0x09"/>
+            <parameter cpu="0" address="0x80DAA1" value="0x68"/>
+        </option>
+        <option desc="总是没有力量 PL1">
+            <parameter cpu="0" address="0x80DA99" value="0x00"/>
+            <parameter cpu="0" address="0x80DAA1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="黄飞鸿">
+            <parameter cpu="0" address="0x819554" value="0x00"/>
+        </option>
+        <option desc="醉不归">
+            <parameter cpu="0" address="0x819554" value="0x01"/>
+        </option>
+        <option desc="白少廷">
+            <parameter cpu="0" address="0x819554" value="0x02"/>
+        </option>
+        <option desc="虎克">
+            <parameter cpu="0" address="0x819554" value="0x03"/>
+        </option>
+        <option desc="释武真">
+            <parameter cpu="0" address="0x819554" value="0x04"/>
+        </option>
+        <option desc="灵儿">
+            <parameter cpu="0" address="0x819554" value="0x05"/>
+        </option>
+        <option desc="孙铁儿">
+            <parameter cpu="0" address="0x819554" value="0x06"/>
+        </option>
+        <option desc="鬼脚七">
+            <parameter cpu="0" address="0x819554" value="0x07"/>
+        </option>
+        <option desc="纪云袖">
+            <parameter cpu="0" address="0x819554" value="0x08"/>
+        </option>
+        <option desc="曲嫣红">
+            <parameter cpu="0" address="0x819554" value="0x09"/>
+        </option>
+        <option desc="十三姨">
+            <parameter cpu="0" address="0x819554" value="0x0A"/>
+        </option>
+        <option desc="白莲教主">
+            <parameter cpu="0" address="0x819554" value="0x0B"/>
+        </option>
+        <option desc="真白莲教主">
+            <parameter cpu="0" address="0x819554" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL2">
+            <parameter cpu="0" address="0x81C7BA" value="0x01"/>
+            <parameter cpu="0" address="0x81C7BB" value="0xE0"/>
+        </option>
+        <option desc="耗尽所有体力 ! PL2">
+            <parameter cpu="0" address="0x81C7BA" value="0x00"/>
+            <parameter cpu="0" address="0x81C7BB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0x80DC55" value="0x09"/>
+            <parameter cpu="0" address="0x80DC5D" value="0x68"/>
+        </option>
+        <option desc="总是没有力量 PL2">
+            <parameter cpu="0" address="0x80DC55" value="0x00"/>
+            <parameter cpu="0" address="0x80DC5D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="黄飞鸿">
+            <parameter cpu="0" address="0x81955C" value="0x00"/>
+        </option>
+        <option desc="醉不归">
+            <parameter cpu="0" address="0x81955C" value="0x01"/>
+        </option>
+        <option desc="白少廷">
+            <parameter cpu="0" address="0x81955C" value="0x02"/>
+        </option>
+        <option desc="虎克">
+            <parameter cpu="0" address="0x81955C" value="0x03"/>
+        </option>
+        <option desc="释武真">
+            <parameter cpu="0" address="0x81955C" value="0x04"/>
+        </option>
+        <option desc="灵儿">
+            <parameter cpu="0" address="0x81955C" value="0x05"/>
+        </option>
+        <option desc="孙铁儿">
+            <parameter cpu="0" address="0x81955C" value="0x06"/>
+        </option>
+        <option desc="鬼脚七">
+            <parameter cpu="0" address="0x81955C" value="0x07"/>
+        </option>
+        <option desc="纪云袖">
+            <parameter cpu="0" address="0x81955C" value="0x08"/>
+        </option>
+        <option desc="曲嫣红">
+            <parameter cpu="0" address="0x81955C" value="0x09"/>
+        </option>
+        <option desc="十三姨">
+            <parameter cpu="0" address="0x81955C" value="0x0A"/>
+        </option>
+        <option desc="白莲教主">
+            <parameter cpu="0" address="0x81955C" value="0x0B"/>
+        </option>
+        <option desc="真白莲教主">
+            <parameter cpu="0" address="0x81955C" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

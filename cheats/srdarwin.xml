@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10EB" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="立即一击杀BOSS!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x357" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10EE" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="得到飞行器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1015" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1087" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="升级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="变成蜘蛛 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="变成蜘蛛 PL1">
+            <parameter cpu="0" address="0x1014" value="0x05"/>
+        </option>
+        <option desc="变成龙 PL1">
+            <parameter cpu="0" address="0x1014" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10EF" value="0x9A"/>
+        </option>
+    </cheat>
+</shufflecheat>

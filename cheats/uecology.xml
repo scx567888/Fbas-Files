@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF02E8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF5F2" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大武器火力 PL1">
+            <parameter cpu="0" address="0xFF8952" value="0x05"/>
+        </option>
+        <option desc="武器等级-等级 1 PL1">
+            <parameter cpu="0" address="0xFF8952" value="0x01"/>
+        </option>
+        <option desc="武器等级-等级 2 PL1">
+            <parameter cpu="0" address="0xFF8952" value="0x02"/>
+        </option>
+        <option desc="武器等级-等级 3 PL1">
+            <parameter cpu="0" address="0xFF8952" value="0x03"/>
+        </option>
+        <option desc="武器等级-等级 4 PL1">
+            <parameter cpu="0" address="0xFF8952" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF3952" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="首要武器 - 正常武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="首要武器 - 正常武器 PL1">
+            <parameter cpu="0" address="0xFF876C" value="0x01"/>
+        </option>
+        <option desc="首要武器 - 黑球 PL1">
+            <parameter cpu="0" address="0xFF876C" value="0x02"/>
+        </option>
+        <option desc="首要武器 - 激光 PL1">
+            <parameter cpu="0" address="0xFF876C" value="0x03"/>
+        </option>
+        <option desc="首要武器 - 尖顶球 PL1">
+            <parameter cpu="0" address="0xFF876C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="次要武器 - 无 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="次要武器 - 无 PL1">
+            <parameter cpu="0" address="0xFF8769" value="0x00"/>
+        </option>
+        <option desc="次要武器 - 直射 PL1">
+            <parameter cpu="0" address="0xFF8769" value="0x01"/>
+        </option>
+        <option desc="次要武器 - 炸弹 PL1">
+            <parameter cpu="0" address="0xFF8769" value="0x02"/>
+        </option>
+        <option desc="次要武器 - 自引导 PL1">
+            <parameter cpu="0" address="0xFF8769" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有穿甲弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8922" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有穿甲球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF895A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有蓄力弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有蓄力弹 PL1">
+            <parameter cpu="0" address="0xFF8904" value="0x03"/>
+        </option>
+        <option desc="总是有黑球 PL1">
+            <parameter cpu="0" address="0xFF8904" value="0x04"/>
+        </option>
+        <option desc="总是有散弹 PL1">
+            <parameter cpu="0" address="0xFF8904" value="0x07"/>
+        </option>
+        <option desc="总是有激光剑 PL1">
+            <parameter cpu="0" address="0xFF8904" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF5F3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大武器火力 PL2">
+            <parameter cpu="0" address="0xFF8F22" value="0x05"/>
+        </option>
+        <option desc="武器等级-等级 1 PL2">
+            <parameter cpu="0" address="0xFF8F22" value="0x01"/>
+        </option>
+        <option desc="武器等级-等级 2 PL2">
+            <parameter cpu="0" address="0xFF8F22" value="0x02"/>
+        </option>
+        <option desc="武器等级-等级 3 PL2">
+            <parameter cpu="0" address="0xFF8F22" value="0x03"/>
+        </option>
+        <option desc="武器等级-等级 4 PL2">
+            <parameter cpu="0" address="0xFF8F22" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF3953" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="首要武器 - 正常武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="首要武器 - 正常武器 PL2">
+            <parameter cpu="0" address="0xFF8D3C" value="0x01"/>
+        </option>
+        <option desc="首要武器 - 黑球 PL2">
+            <parameter cpu="0" address="0xFF8D3C" value="0x02"/>
+        </option>
+        <option desc="首要武器 - 激光 PL2">
+            <parameter cpu="0" address="0xFF8D3C" value="0x03"/>
+        </option>
+        <option desc="首要武器 - 尖顶球 PL2">
+            <parameter cpu="0" address="0xFF8D3C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="次要武器 - 无 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="次要武器 - 无 PL2">
+            <parameter cpu="0" address="0xFF8D39" value="0x00"/>
+        </option>
+        <option desc="次要武器 - 直射 PL2">
+            <parameter cpu="0" address="0xFF8D39" value="0x01"/>
+        </option>
+        <option desc="次要武器 - 炸弹 PL2">
+            <parameter cpu="0" address="0xFF8D39" value="0x02"/>
+        </option>
+        <option desc="次要武器 - 自引导 PL2">
+            <parameter cpu="0" address="0xFF8D39" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有穿甲弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8EF2" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有穿甲球 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8F2A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有蓄力弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有蓄力弹 PL2">
+            <parameter cpu="0" address="0xFF8ED4" value="0x03"/>
+        </option>
+        <option desc="总是有黑球 PL2">
+            <parameter cpu="0" address="0xFF8ED4" value="0x04"/>
+        </option>
+        <option desc="总是有散弹 PL2">
+            <parameter cpu="0" address="0xFF8ED4" value="0x07"/>
+        </option>
+        <option desc="总是有激光剑 PL2">
+            <parameter cpu="0" address="0xFF8ED4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFF80A1" value="0x01"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFF80A1" value="0x02"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF80A1" value="0x03"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF80A1" value="0x04"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF80A1" value="0x05"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF80A1" value="0x06"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x06"/>
+        </option>
+        <option desc="选关 - 最终局">
+            <parameter cpu="0" address="0xFF80A1" value="0x07"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x07"/>
+        </option>
+        <option desc="选关 - 结局">
+            <parameter cpu="0" address="0xFF80A1" value="0x08"/>
+            <parameter cpu="0" address="0xFFF63D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF03E9" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF03E9" value="0x01"/>
+        </option>
+        <option desc="其他">
+            <parameter cpu="0" address="0xFF03E9" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF03E9" value="0x03"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF03E9" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

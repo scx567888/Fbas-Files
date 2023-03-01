@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000FD" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20294B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20299C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20A99C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203E2D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203E47" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择魔法" default="0">
+        <option desc="关闭"/>
+        <option desc="没有魔法">
+            <parameter cpu="0" address="0x203E4D" value="0x00"/>
+        </option>
+        <option desc="火">
+            <parameter cpu="0" address="0x203E4D" value="0x01"/>
+        </option>
+        <option desc="雷电">
+            <parameter cpu="0" address="0x203E4D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大经验值(最大火力)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203E40" value="0x01"/>
+            <parameter cpu="0" address="0x203E41" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大炸弹火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202C12" value="0x01"/>
+            <parameter cpu="0" address="0x202C61" value="0x01"/>
+            <parameter cpu="0" address="0x202C62" value="0x01"/>
+            <parameter cpu="0" address="0x202CB1" value="0x01"/>
+            <parameter cpu="0" address="0x202CB2" value="0x01"/>
+            <parameter cpu="0" address="0x203E45" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏奖励开启" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202CDD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 1">
+            <parameter cpu="0" address="0x203EC3" value="0x01"/>
+        </option>
+        <option desc="关卡 2">
+            <parameter cpu="0" address="0x203EC3" value="0x02"/>
+        </option>
+        <option desc="关卡 3">
+            <parameter cpu="0" address="0x203EC3" value="0x03"/>
+        </option>
+        <option desc="关卡 4">
+            <parameter cpu="0" address="0x203EC3" value="0x04"/>
+        </option>
+        <option desc="关卡 5">
+            <parameter cpu="0" address="0x203EC3" value="0x05"/>
+        </option>
+        <option desc="关卡 6">
+            <parameter cpu="0" address="0x203EC3" value="0x06"/>
+        </option>
+        <option desc="最终Boss (有错误)">
+            <parameter cpu="0" address="0x203EC3" value="0x07"/>
+        </option>
+        <option desc="结局">
+            <parameter cpu="0" address="0x203EC3" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择循环" default="0">
+        <option desc="关闭"/>
+        <option desc="第一循环">
+            <parameter cpu="0" address="0x203E9C" value="0x00"/>
+        </option>
+        <option desc="第二循环">
+            <parameter cpu="0" address="0x203E9C" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

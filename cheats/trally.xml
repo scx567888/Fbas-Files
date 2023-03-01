@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="总是正常速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B0C5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超级速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B0C4" value="0x03"/>
+            <parameter cpu="0" address="0x10B0C5" value="0xEA"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续玩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1030B2" value="0x00"/>
+            <parameter cpu="0" address="0x10FD89" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103611" value="0x99"/>
+            <parameter cpu="0" address="0x103613" value="0x3B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

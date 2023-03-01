@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限购物时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE1D2" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开始关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFFB2B2" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFFB2B2" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFFB2B2" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFFB2B2" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFFB2B2" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFFB2B2" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFFB2B2" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFFB2B2" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xFFB2B2" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9035" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限金钱 PL1">
+            <parameter cpu="0" address="0xFFE192" value="0x99"/>
+            <parameter cpu="0" address="0xFFE193" value="0x99"/>
+            <parameter cpu="0" address="0xFFE194" value="0x99"/>
+        </option>
+        <option desc="还原金钱 PL1">
+            <parameter cpu="0" address="0xFFE192" value="0x01"/>
+            <parameter cpu="0" address="0xFFE193" value="0x01"/>
+            <parameter cpu="0" address="0xFFE194" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x00"/>
+        </option>
+        <option desc="电波">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x02"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x04"/>
+        </option>
+        <option desc="双炮">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x06"/>
+        </option>
+        <option desc="汽油炸弹">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x08"/>
+        </option>
+        <option desc="V形炮">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x0A"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x0C"/>
+        </option>
+        <option desc="多向射击">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x0E"/>
+        </option>
+        <option desc="弹跳激光">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x10"/>
+        </option>
+        <option desc="加粗激光">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x12"/>
+        </option>
+        <option desc="跟踪激光">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9055" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限金钱 PL2">
+            <parameter cpu="0" address="0xFFE196" value="0x99"/>
+            <parameter cpu="0" address="0xFFE197" value="0x99"/>
+            <parameter cpu="0" address="0xFFE198" value="0x99"/>
+        </option>
+        <option desc="还原金钱 PL2">
+            <parameter cpu="0" address="0xFFE196" value="0x01"/>
+            <parameter cpu="0" address="0xFFE197" value="0x01"/>
+            <parameter cpu="0" address="0xFFE198" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x00"/>
+        </option>
+        <option desc="电波">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x02"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x04"/>
+        </option>
+        <option desc="双炮">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x06"/>
+        </option>
+        <option desc="汽油炸弹">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x08"/>
+        </option>
+        <option desc="V形炮">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x0A"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x0C"/>
+        </option>
+        <option desc="多向射击">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x0E"/>
+        </option>
+        <option desc="弹跳激光">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x10"/>
+        </option>
+        <option desc="加粗激光">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x12"/>
+        </option>
+        <option desc="跟踪激光">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x14"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF06D3" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启''">
+            <parameter cpu="0" address="0xFF0931" value="0xFF"/>
+        </option>
+        <option desc="无敌 ''关闭''">
+            <parameter cpu="0" address="0xFF0931" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有升级火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF095E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF07AD" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是裸体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是裸体 PL1">
+            <parameter cpu="0" address="0xFF07AA" value="0x00"/>
+            <parameter cpu="0" address="0xFF07AC" value="0x01"/>
+        </option>
+        <option desc="总是有金甲 PL1">
+            <parameter cpu="0" address="0xFF07AA" value="0x01"/>
+            <parameter cpu="0" address="0xFF07AC" value="0x03"/>
+        </option>
+        <option desc="总是银甲 PL1">
+            <parameter cpu="0" address="0xFF07AA" value="0x01"/>
+            <parameter cpu="0" address="0xFF07AC" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有武器=长矛 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有武器=长矛 PL1">
+            <parameter cpu="0" address="0xFF07C6" value="0x00"/>
+        </option>
+        <option desc="总是有武器=刀 PL1">
+            <parameter cpu="0" address="0xFF07C6" value="0x01"/>
+        </option>
+        <option desc="总是有武器=火把 PL1">
+            <parameter cpu="0" address="0xFF07C6" value="0x02"/>
+        </option>
+        <option desc="总是有武器=剑 PL1">
+            <parameter cpu="0" address="0xFF07C6" value="0x03"/>
+        </option>
+        <option desc="总是有武器=斧 PL1">
+            <parameter cpu="0" address="0xFF07C6" value="0x04"/>
+        </option>
+        <option desc="总是有武器=护盾 PL1">
+            <parameter cpu="0" address="0xFF07C6" value="0x05"/>
+        </option>
+        <option desc="总是有武器=火球 PL1">
+            <parameter cpu="0" address="0xFF07C6" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF080D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是裸体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是裸体 PL2">
+            <parameter cpu="0" address="0xFF080A" value="0x00"/>
+            <parameter cpu="0" address="0xFF080C" value="0x01"/>
+        </option>
+        <option desc="总是有金甲 PL2">
+            <parameter cpu="0" address="0xFF080A" value="0x01"/>
+            <parameter cpu="0" address="0xFF080C" value="0x03"/>
+        </option>
+        <option desc="总是银甲 PL2">
+            <parameter cpu="0" address="0xFF080A" value="0x01"/>
+            <parameter cpu="0" address="0xFF080C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有武器=长矛 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有武器=长矛 PL2">
+            <parameter cpu="0" address="0xFF0826" value="0x00"/>
+        </option>
+        <option desc="总是有武器=刀 PL2">
+            <parameter cpu="0" address="0xFF0826" value="0x01"/>
+        </option>
+        <option desc="总是有武器=火把 PL2">
+            <parameter cpu="0" address="0xFF0826" value="0x02"/>
+        </option>
+        <option desc="总是有武器=剑 PL2">
+            <parameter cpu="0" address="0xFF0826" value="0x03"/>
+        </option>
+        <option desc="总是有武器=斧 PL2">
+            <parameter cpu="0" address="0xFF0826" value="0x04"/>
+        </option>
+        <option desc="总是有武器=护盾 PL2">
+            <parameter cpu="0" address="0xFF0826" value="0x05"/>
+        </option>
+        <option desc="总是有武器=火球 PL2">
+            <parameter cpu="0" address="0xFF0826" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变鸭子 (有错误)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF07AC" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变老人 (有错误)" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变老人 (有错误)">
+            <parameter cpu="0" address="0xFF07C4" value="0x42"/>
+        </option>
+        <option desc="跳舞 (有错误)">
+            <parameter cpu="0" address="0xFF07C4" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="多形体 = 鸭子 (正常)?" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD0BB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关 !!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0955" value="0x16"/>
+        </option>
+    </cheat>
+    <cheat desc="去到局数 1" default="0">
+        <option desc="关闭"/>
+        <option desc="去到局数 1">
+            <parameter cpu="0" address="0xFF07C8" value="0x02"/>
+            <parameter cpu="0" address="0xFF0955" value="0x16"/>
+        </option>
+        <option desc="去到局数 2">
+            <parameter cpu="0" address="0xFF07C8" value="0x00"/>
+            <parameter cpu="0" address="0xFF0955" value="0x16"/>
+        </option>
+        <option desc="去到局数 3">
+            <parameter cpu="0" address="0xFF07C8" value="0x01"/>
+            <parameter cpu="0" address="0xFF0955" value="0x16"/>
+        </option>
+        <option desc="去到局数 4">
+            <parameter cpu="0" address="0xFF07C8" value="0x03"/>
+            <parameter cpu="0" address="0xFF0955" value="0x16"/>
+        </option>
+        <option desc="去到局数 5">
+            <parameter cpu="0" address="0xFF07C8" value="0x05"/>
+            <parameter cpu="0" address="0xFF0955" value="0x16"/>
+        </option>
+    </cheat>
+    <cheat desc="去到最终局" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF07C6" value="0x06"/>
+            <parameter cpu="0" address="0xFF07C8" value="0x07"/>
+            <parameter cpu="0" address="0xFF07D5" value="0x01"/>
+            <parameter cpu="0" address="0xFF0955" value="0x16"/>
+        </option>
+    </cheat>
+    <cheat desc="Inf Shadow Limit" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC174" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="射击无间隔(高密度射击)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0992" value="0x00"/>
+            <parameter cpu="0" address="0xFF0993" value="0x00"/>
+            <parameter cpu="0" address="0xFF0995" value="0x00"/>
+            <parameter cpu="0" address="0xFF0997" value="0x00"/>
+            <parameter cpu="0" address="0xFF0998" value="0x00"/>
+            <parameter cpu="0" address="0xFFD0DC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="珠宝箱 类型 - 只有武器" default="0">
+        <option desc="关闭"/>
+        <option desc="珠宝箱 类型 - 只有武器">
+            <parameter cpu="0" address="0xFFD6E7" value="0x02"/>
+        </option>
+        <option desc="珠宝箱 类型 - 只有盔甲">
+            <parameter cpu="0" address="0xFFD6E7" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

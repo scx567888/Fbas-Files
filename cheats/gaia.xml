@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105809" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0x105803" value="0x00"/>
+        </option>
+        <option desc="第2关">
+            <parameter cpu="0" address="0x105803" value="0x01"/>
+        </option>
+        <option desc="第3关">
+            <parameter cpu="0" address="0x105803" value="0x02"/>
+        </option>
+        <option desc="第4关">
+            <parameter cpu="0" address="0x105803" value="0x03"/>
+        </option>
+        <option desc="第5关">
+            <parameter cpu="0" address="0x105803" value="0x04"/>
+        </option>
+        <option desc="第6关">
+            <parameter cpu="0" address="0x105803" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1058C7" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1058C9" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1058D9" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择魔法类型 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限特殊技1 PL1">
+            <parameter cpu="0" address="0x1058DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1058DF" value="0x44"/>
+        </option>
+        <option desc="无限特殊技2 PL1">
+            <parameter cpu="0" address="0x1058DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1058DF" value="0x4C"/>
+        </option>
+        <option desc="无限火魔法 PL1">
+            <parameter cpu="0" address="0x1058DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1058DF" value="0x3C"/>
+        </option>
+        <option desc="无限风魔法 PL1">
+            <parameter cpu="0" address="0x1058DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1058DF" value="0x6C"/>
+        </option>
+        <option desc="无限水魔法 PL1">
+            <parameter cpu="0" address="0x1058DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1058DF" value="0xE4"/>
+        </option>
+    </cheat>
+    <cheat desc="无限剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10598D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C539" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限99连击数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1058D1" value="0x63"/>
+            <parameter cpu="0" address="0x1058D3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A8C3" value="0x07"/>
+            <parameter cpu="0" address="0x10A8E7" value="0xEC"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059C7" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059C9" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059D9" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择魔法类型 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限特殊技1 PL2">
+            <parameter cpu="0" address="0x1059DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1059DF" value="0x44"/>
+        </option>
+        <option desc="无限特殊技2 PL2">
+            <parameter cpu="0" address="0x1059DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1059DF" value="0x4C"/>
+        </option>
+        <option desc="无限火魔法 PL2">
+            <parameter cpu="0" address="0x1059DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1059DF" value="0x3C"/>
+        </option>
+        <option desc="无限风魔法 PL2">
+            <parameter cpu="0" address="0x1059DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1059DF" value="0x6C"/>
+        </option>
+        <option desc="无限水魔法 PL2">
+            <parameter cpu="0" address="0x1059DE" value="0xBD"/>
+            <parameter cpu="0" address="0x1059DF" value="0xE4"/>
+        </option>
+    </cheat>
+    <cheat desc="无限剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105A8D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C609" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限99连击数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059D1" value="0x63"/>
+            <parameter cpu="0" address="0x1059D3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7F3" value="0x07"/>
+            <parameter cpu="0" address="0x10A817" value="0xEC"/>
+        </option>
+    </cheat>
+
+</shufflecheat>

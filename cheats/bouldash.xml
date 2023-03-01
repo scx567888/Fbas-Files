@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306113" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306959" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限保留时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306E05" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306AF7" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="打开出口" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306991" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励关计时为0" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306959" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择世界关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡1">
+            <parameter cpu="0" address="0x306931" value="0x00"/>
+        </option>
+        <option desc="关卡2">
+            <parameter cpu="0" address="0x306931" value="0x01"/>
+        </option>
+        <option desc="关卡3">
+            <parameter cpu="0" address="0x306931" value="0x02"/>
+        </option>
+        <option desc="关卡4">
+            <parameter cpu="0" address="0x306931" value="0x03"/>
+        </option>
+        <option desc="关卡5">
+            <parameter cpu="0" address="0x306931" value="0x04"/>
+        </option>
+        <option desc="关卡6">
+            <parameter cpu="0" address="0x306931" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择小关" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡1">
+            <parameter cpu="0" address="0x306933" value="0x00"/>
+        </option>
+        <option desc="关卡2">
+            <parameter cpu="0" address="0x306933" value="0x01"/>
+        </option>
+        <option desc="关卡3">
+            <parameter cpu="0" address="0x306933" value="0x02"/>
+        </option>
+        <option desc="关卡4">
+            <parameter cpu="0" address="0x306933" value="0x03"/>
+        </option>
+        <option desc="关卡5">
+            <parameter cpu="0" address="0x306933" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择等级" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1(默认)">
+            <parameter cpu="0" address="0x306E1B" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0x306E1B" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

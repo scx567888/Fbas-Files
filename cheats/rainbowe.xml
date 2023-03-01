@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E1C3" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E1D3" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D206" value="0x01"/>
+            <parameter cpu="0" address="0x10D209" value="0xE3"/>
+        </option>
+    </cheat>
+    <cheat desc="总是X2 彩虹" default="0">
+        <option desc="关闭"/>
+        <option desc="总是X2 彩虹">
+            <parameter cpu="0" address="0x10D063" value="0x01"/>
+        </option>
+        <option desc="总是X3 彩虹">
+            <parameter cpu="0" address="0x10D063" value="0x02"/>
+        </option>
+        <option desc="总是X4 彩虹">
+            <parameter cpu="0" address="0x10D063" value="0x03"/>
+        </option>
+        <option desc="总是X5 彩虹">
+            <parameter cpu="0" address="0x10D063" value="0x04"/>
+        </option>
+        <option desc="总是X6 彩虹">
+            <parameter cpu="0" address="0x10D063" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是正常彩虹" default="0">
+        <option desc="关闭"/>
+        <option desc="总是正常彩虹">
+            <parameter cpu="0" address="0x10D064" value="0x00"/>
+        </option>
+        <option desc="总是快速彩虹">
+            <parameter cpu="0" address="0x10D064" value="0x01"/>
+        </option>
+        <option desc="总是超快速彩虹">
+            <parameter cpu="0" address="0x10D064" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有宝石 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E1D0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有宝石 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E1E0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是怪物+装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是怪物+装备 PL1">
+            <parameter cpu="0" address="0x10E1D1" value="0x00"/>
+        </option>
+        <option desc="无怪物+装备! PL1">
+            <parameter cpu="0" address="0x10E1D1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是怪物+装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是怪物+装备 PL2">
+            <parameter cpu="0" address="0x10E1E1" value="0x00"/>
+        </option>
+        <option desc="无怪物+装备! PL2">
+            <parameter cpu="0" address="0x10E1E1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有正常速度" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有正常速度">
+            <parameter cpu="0" address="0x10D065" value="0x00"/>
+        </option>
+        <option desc="总是有加速">
+            <parameter cpu="0" address="0x10D065" value="0x01"/>
+        </option>
+        <option desc="总是有最大速度">
+            <parameter cpu="0" address="0x10D065" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="得到7个大钻石" default="0">
+        <option desc="关闭"/>
+        <option desc="得到7个大钻石">
+            <parameter cpu="0" address="0x10D056" value="0x00"/>
+            <parameter cpu="0" address="0x10D057" value="0x7F"/>
+        </option>
+        <option desc="得到3面镜子">
+            <parameter cpu="0" address="0x10D056" value="0x03"/>
+            <parameter cpu="0" address="0x10D057" value="0x80"/>
+        </option>
+        <option desc="得到7颗钻石和3面镜子">
+            <parameter cpu="0" address="0x10D056" value="0x03"/>
+            <parameter cpu="0" address="0x10D057" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="所有能量装备" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D042" value="0x02"/>
+            <parameter cpu="0" address="0x10D043" value="0xC7"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有奖励门" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D058" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有翅膀力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D1C8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="去到局数 4/5 在下一次" default="0">
+        <option desc="关闭"/>
+        <option desc="去到局数 4/5 在下一次">
+            <parameter cpu="0" address="0x10D04B" value="0x03"/>
+        </option>
+        <option desc="去到局数 8/9 在下一次">
+            <parameter cpu="0" address="0x10D04B" value="0x07"/>
+        </option>
+        <option desc="去到局数 12/13 在下一次">
+            <parameter cpu="0" address="0x10D04B" value="0x0B"/>
+        </option>
+        <option desc="去到局数 16/17 在下一次">
+            <parameter cpu="0" address="0x10D04B" value="0x0F"/>
+        </option>
+        <option desc="去到局数 20/21 在下一次">
+            <parameter cpu="0" address="0x10D04B" value="0x13"/>
+        </option>
+        <option desc="去到局数 24/25 在下一次">
+            <parameter cpu="0" address="0x10D04B" value="0x17"/>
+        </option>
+        <option desc="去到28关">
+            <parameter cpu="0" address="0x10D04B" value="0x1B"/>
+        </option>
+        <option desc="去到局数 30 在下一次">
+            <parameter cpu="0" address="0x10D04B" value="0x1C"/>
+        </option>
+        <option desc="完成此局后去到最后一局">
+            <parameter cpu="0" address="0x10D04B" value="0x26"/>
+        </option>
+        <option desc="死后去到最后一局">
+            <parameter cpu="0" address="0x10D04B" value="0x27"/>
+        </option>
+    </cheat>
+</shufflecheat>

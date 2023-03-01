@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102475" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有指示线 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103613" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="顶部不会往下压 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102517" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="顶部不会往下压 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10259D" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="发球不计时 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102513" value="0xD8"/>
+        </option>
+    </cheat>
+    <cheat desc="发球不计时 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102599" value="0xD8"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个球改变为网球 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个球改变为网球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x01"/>
+        </option>
+        <option desc="下一个球改变为篮球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x02"/>
+        </option>
+        <option desc="下一个球改变为足球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x03"/>
+        </option>
+        <option desc="下一个球改变为棒球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x04"/>
+        </option>
+        <option desc="下一个球改变为保龄球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x05"/>
+        </option>
+        <option desc="下一个球改变为台球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x06"/>
+        </option>
+        <option desc="下一个球改变为排球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x07"/>
+        </option>
+        <option desc="下一个球改变为橄榄球 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x08"/>
+        </option>
+        <option desc="下一个球改变为泡泡 ! PL1">
+            <parameter cpu="0" address="0x102507" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个球改变为网球 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个球改变为网球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x01"/>
+        </option>
+        <option desc="下一个球改变为篮球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x02"/>
+        </option>
+        <option desc="下一个球改变为足球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x03"/>
+        </option>
+        <option desc="下一个球改变为棒球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x04"/>
+        </option>
+        <option desc="下一个球改变为保龄球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x05"/>
+        </option>
+        <option desc="下一个球改变为台球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x06"/>
+        </option>
+        <option desc="下一个球改变为排球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x07"/>
+        </option>
+        <option desc="下一个球改变为橄榄球 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x08"/>
+        </option>
+        <option desc="下一个球改变为泡泡 ! PL2">
+            <parameter cpu="0" address="0x10258D" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

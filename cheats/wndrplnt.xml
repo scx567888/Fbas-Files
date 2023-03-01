@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60042" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60204" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量">
+            <parameter cpu="0" address="0x60250" value="0x80"/>
+        </option>
+        <option desc="无限导弹">
+            <parameter cpu="0" address="0x60250" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6024E" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限护盾球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60252" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限护盾" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60254" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限后向火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60247" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限购物时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60286" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6020C" value="0x99"/>
+            <parameter cpu="0" address="0x6020D" value="0x99"/>
+            <parameter cpu="0" address="0x6020E" value="0x99"/>
+            <parameter cpu="0" address="0x6020F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通导弹" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通导弹">
+            <parameter cpu="0" address="0x60248" value="0x01"/>
+        </option>
+        <option desc="总是有圆刃波">
+            <parameter cpu="0" address="0x60248" value="0x03"/>
+        </option>
+        <option desc="总是有交叉火力">
+            <parameter cpu="0" address="0x60248" value="0x04"/>
+        </option>
+        <option desc="总是有左右圆刃波">
+            <parameter cpu="0" address="0x60248" value="0x05"/>
+        </option>
+        <option desc="总是有九向枪">
+            <parameter cpu="0" address="0x60248" value="0x06"/>
+        </option>
+        <option desc="总是有宽幅直射">
+            <parameter cpu="0" address="0x60248" value="0x07"/>
+        </option>
+        <option desc="总是有连发左轮手枪">
+            <parameter cpu="0" address="0x60248" value="0x08"/>
+        </option>
+        <option desc="总是有旋转火力">
+            <parameter cpu="0" address="0x60248" value="0x09"/>
+        </option>
+        <option desc="总是有自引导导弹">
+            <parameter cpu="0" address="0x60248" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有 普通炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有 普通炸弹">
+            <parameter cpu="0" address="0x6024A" value="0x0B"/>
+        </option>
+        <option desc="总是有三向炸弹">
+            <parameter cpu="0" address="0x6024A" value="0x0C"/>
+        </option>
+        <option desc="总是有速发炸弹">
+            <parameter cpu="0" address="0x6024A" value="0x0D"/>
+        </option>
+        <option desc="总是有穿透炸弹">
+            <parameter cpu="0" address="0x6024A" value="0x0E"/>
+        </option>
+        <option desc="总是有超炸弹">
+            <parameter cpu="0" address="0x6024A" value="0x0F"/>
+        </option>
+        <option desc="总是有地震炸弹">
+            <parameter cpu="0" address="0x6024A" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾球" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有护盾球">
+            <parameter cpu="0" address="0x6024B" value="0x11"/>
+        </option>
+        <option desc="总是有前护盾">
+            <parameter cpu="0" address="0x6024B" value="0x12"/>
+        </option>
+        <option desc="总是有后护盾">
+            <parameter cpu="0" address="0x6024B" value="0x13"/>
+        </option>
+        <option desc="总是有圆护盾">
+            <parameter cpu="0" address="0x6024B" value="0x14"/>
+        </option>
+        <option desc="总是有超圆盾">
+            <parameter cpu="0" address="0x6024B" value="0x15"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有喷气发动机" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有喷气发动机">
+            <parameter cpu="0" address="0x6024D" value="0x01"/>
+        </option>
+        <option desc="总是有超级发动机">
+            <parameter cpu="0" address="0x6024D" value="0x02"/>
+        </option>
+        <option desc="总是有火箭发动机">
+            <parameter cpu="0" address="0x6024D" value="0x03"/>
+        </option>
+        <option desc="总是有终级发动机">
+            <parameter cpu="0" address="0x6024D" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

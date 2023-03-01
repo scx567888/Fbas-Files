@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="总是驾驶在最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA321E" value="0x80"/>
+            <parameter cpu="0" address="0xA321F" value="0x7E"/>
+        </option>
+    </cheat>
+    <cheat desc="总是第一位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA3C0D" value="0x01"/>
+            <parameter cpu="0" address="0xA3C15" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA3E84" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

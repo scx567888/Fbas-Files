@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1207F9" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120891" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1208AF" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1208CD" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Strike Dolls)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120C89" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Hungry Kitty)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12266D" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Monster Madness)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x127977" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Wash Day)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x127917" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Untouchable bodyguard)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12283F" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (School daze)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1226B7" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Bumper cars)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120E0B" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Farm guard)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12797B" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (part time Job)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121FE1" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (Galactic invasion)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120EE5" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="时间停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120801" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120897" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1208B5" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1208D3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122667" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122669" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12266B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="怪物总是红色" default="0">
+        <option desc="关闭"/>
+        <option desc="怪物总是红色">
+            <parameter cpu="0" address="0x127963" value="0x00"/>
+        </option>
+        <option desc="怪物总是绿色">
+            <parameter cpu="0" address="0x127963" value="0x01"/>
+        </option>
+        <option desc="怪物总是蓝色">
+            <parameter cpu="0" address="0x127963" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1完成!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12172F" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2完成!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121741" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3完成!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121753" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限次数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120DE3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="只需完成一次正确操作即可过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1227FB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="只需完成一次正确操作即可过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1227FD" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="只需完成一次正确操作即可过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1227FF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122849" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12284B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12284D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122631" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122633" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122635" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122729" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12272B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12272D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1完成!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12105D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2完成!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121069" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3完成!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121075" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1完成!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121D52" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121E35" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121E3B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 得分 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121E41" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12269F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1226A1" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1226A3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121CDB" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121CEC" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121CFE" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL1 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122043" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL2 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122045" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="设置PL3 点数 = 99 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122047" value="0x63"/>
+        </option>
+    </cheat>
+</shufflecheat>

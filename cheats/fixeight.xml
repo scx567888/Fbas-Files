@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100677" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100671" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1026D9" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1006AB" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有急速炮 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10069F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有扩展炮 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10069F" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102691" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102691" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有特殊武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102691" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1026B4" value="0x0000"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100673" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102759" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1006AD" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有急速炮 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1006A1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有扩展炮 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1006A1" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102711" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102711" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有特殊武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102711" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102734" value="0x0000"/>
+        </option>
+    </cheat>
+</shufflecheat>

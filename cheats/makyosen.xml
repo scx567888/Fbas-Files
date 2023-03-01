@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14DB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14D7" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限首要武器弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14E2" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W1的弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14E4" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W2的弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14E6" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W3的弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14E8" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W4的弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14EA" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="首要武器总是单火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="首要武器总是单火力 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x00"/>
+        </option>
+        <option desc="首要武器总是三倍火力 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x01"/>
+        </option>
+        <option desc="首要武器总是六向火力 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x02"/>
+        </option>
+        <option desc="首要武器总是单导弹 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x03"/>
+        </option>
+        <option desc="首要武器总是三倍导弹 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x04"/>
+        </option>
+        <option desc="首要武器总是激光 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x05"/>
+        </option>
+        <option desc="首要武器总是五向声波弹 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x06"/>
+        </option>
+        <option desc="首要武器总是巨大声波弹 PL1">
+            <parameter cpu="0" address="0x14E1" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 1 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 1 ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x00"/>
+        </option>
+        <option desc="额外武器W1 = 大刀 ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x81"/>
+        </option>
+        <option desc="额外武器W1 = 小斧 ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x82"/>
+        </option>
+        <option desc="额外武器W1 = 大斧 ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x83"/>
+        </option>
+        <option desc="额外武器W1 = 三向镖 ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x84"/>
+        </option>
+        <option desc="额外武器W1 = 火球 ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x85"/>
+        </option>
+        <option desc="额外武器W1 =手雷 ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x86"/>
+        </option>
+        <option desc="额外武器W1 = 四向炸弹  ! PL1">
+            <parameter cpu="0" address="0x14E3" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 2 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 2 ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x00"/>
+        </option>
+        <option desc="额外武器W2 = 大刀 ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x81"/>
+        </option>
+        <option desc="额外武器W2 = 小斧 ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x82"/>
+        </option>
+        <option desc="额外武器W2 = 大斧 ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x83"/>
+        </option>
+        <option desc="额外武器W2 = 三向镖 ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x84"/>
+        </option>
+        <option desc="额外武器W2 = 火球 ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x85"/>
+        </option>
+        <option desc="额外武器W2 =手雷 ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x86"/>
+        </option>
+        <option desc="额外武器W2 = 四向炸弹  ! PL1">
+            <parameter cpu="0" address="0x14E5" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 3 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 3 ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x00"/>
+        </option>
+        <option desc="额外武器W3 = 大刀 ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x81"/>
+        </option>
+        <option desc="额外武器W3 = 小斧 ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x82"/>
+        </option>
+        <option desc="额外武器W3 = 大斧 ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x83"/>
+        </option>
+        <option desc="额外武器W3 = 三向镖 ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x84"/>
+        </option>
+        <option desc="额外武器W3 = 火球 ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x85"/>
+        </option>
+        <option desc="额外武器W3 =手雷 ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x86"/>
+        </option>
+        <option desc="额外武器W3 = 四向炸弹  ! PL1">
+            <parameter cpu="0" address="0x14E7" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 4 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 4 ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x00"/>
+        </option>
+        <option desc="额外武器W4 = 大刀 ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x81"/>
+        </option>
+        <option desc="额外武器W4 = 小斧 ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x82"/>
+        </option>
+        <option desc="额外武器W4 = 大斧 ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x83"/>
+        </option>
+        <option desc="额外武器W4 = 三向镖 ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x84"/>
+        </option>
+        <option desc="额外武器W4 = 火球 ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x85"/>
+        </option>
+        <option desc="额外武器W4 =手雷 ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x86"/>
+        </option>
+        <option desc="额外武器W4 = 四向炸弹  ! PL1">
+            <parameter cpu="0" address="0x14E9" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14E0" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14DC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限首要武器弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14EC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W1的弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14EE" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W2的弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14F0" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W3的弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14F2" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限额外武器W4的弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x14F4" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="首要武器总是单火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="首要武器总是单火力 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x00"/>
+        </option>
+        <option desc="首要武器总是三倍火力 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x01"/>
+        </option>
+        <option desc="首要武器总是六向火力 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x02"/>
+        </option>
+        <option desc="首要武器总是单导弹 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x03"/>
+        </option>
+        <option desc="首要武器总是三倍导弹 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x04"/>
+        </option>
+        <option desc="首要武器总是激光 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x05"/>
+        </option>
+        <option desc="首要武器总是五向声波弹 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x06"/>
+        </option>
+        <option desc="首要武器总是巨大声波弹 PL2">
+            <parameter cpu="0" address="0x14EB" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 1 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 1 ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x00"/>
+        </option>
+        <option desc="额外武器W1 = 大刀 ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x81"/>
+        </option>
+        <option desc="额外武器W1 = 小斧 ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x82"/>
+        </option>
+        <option desc="额外武器W1 = 大斧 ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x83"/>
+        </option>
+        <option desc="额外武器W1 = 三向镖 ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x84"/>
+        </option>
+        <option desc="额外武器W1 = 火球 ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x85"/>
+        </option>
+        <option desc="额外武器W1 =手雷 ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x86"/>
+        </option>
+        <option desc="额外武器W1 = 四向炸弹  ! PL2">
+            <parameter cpu="0" address="0x14ED" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 2 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 2 ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x00"/>
+        </option>
+        <option desc="额外武器W2 = 大刀 ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x81"/>
+        </option>
+        <option desc="额外武器W2 = 小斧 ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x82"/>
+        </option>
+        <option desc="额外武器W2 = 大斧 ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x83"/>
+        </option>
+        <option desc="额外武器W2 = 三向镖 ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x84"/>
+        </option>
+        <option desc="额外武器W2 = 火球 ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x85"/>
+        </option>
+        <option desc="额外武器W2 =手雷 ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x86"/>
+        </option>
+        <option desc="额外武器W2 = 四向炸弹  ! PL2">
+            <parameter cpu="0" address="0x14EF" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 3 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 3 ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x00"/>
+        </option>
+        <option desc="额外武器W3 = 大刀 ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x81"/>
+        </option>
+        <option desc="额外武器W3 = 小斧 ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x82"/>
+        </option>
+        <option desc="额外武器W3 = 大斧 ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x83"/>
+        </option>
+        <option desc="额外武器W3 = 三向镖 ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x84"/>
+        </option>
+        <option desc="额外武器W3 = 火球 ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x85"/>
+        </option>
+        <option desc="额外武器W3 =手雷 ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x86"/>
+        </option>
+        <option desc="额外武器W3 = 四向炸弹  ! PL2">
+            <parameter cpu="0" address="0x14F1" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="没有额外武器 4 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有额外武器 4 ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x00"/>
+        </option>
+        <option desc="额外武器W4 = 大刀 ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x81"/>
+        </option>
+        <option desc="额外武器W4 = 小斧 ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x82"/>
+        </option>
+        <option desc="额外武器W4 = 大斧 ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x83"/>
+        </option>
+        <option desc="额外武器W4 = 三向镖 ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x84"/>
+        </option>
+        <option desc="额外武器W4 = 火球 ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x85"/>
+        </option>
+        <option desc="额外武器W4 =手雷 ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x86"/>
+        </option>
+        <option desc="额外武器W4 = 四向炸弹  ! PL2">
+            <parameter cpu="0" address="0x14F3" value="0x87"/>
+        </option>
+    </cheat>
+</shufflecheat>

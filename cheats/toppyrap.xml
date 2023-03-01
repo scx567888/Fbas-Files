@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102475" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103799" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102561" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10256B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103722" value="0x3B"/>
+            <parameter cpu="0" address="0x103723" value="0x9A"/>
+            <parameter cpu="0" address="0x103724" value="0xC9"/>
+            <parameter cpu="0" address="0x103725" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10265D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102667" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103726" value="0x3B"/>
+            <parameter cpu="0" address="0x103727" value="0x9A"/>
+            <parameter cpu="0" address="0x103728" value="0xC9"/>
+            <parameter cpu="0" address="0x103729" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

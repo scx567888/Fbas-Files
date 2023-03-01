@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C0078" value="0x09"/>
+            <parameter cpu="0" address="0x1C0079" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C013C" value="0x09"/>
+            <parameter cpu="0" address="0x1C013D" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C01F0" value="0x09"/>
+            <parameter cpu="0" address="0x1C01F1" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C02A4" value="0x09"/>
+            <parameter cpu="0" address="0x1C02A5" value="0x99"/>
+        </option>
+    </cheat>
+</shufflecheat>

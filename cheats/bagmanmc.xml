@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6000" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6056" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x61E8" value="0x99"/>
+        </option>
+        <option desc="游戏结束!">
+            <parameter cpu="0" address="0x61E8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6025" value="0x00"/>
+            <parameter cpu="0" address="0x6029" value="0x01"/>
+            <parameter cpu="0" address="0x604E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是携带锄头" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x61CF" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

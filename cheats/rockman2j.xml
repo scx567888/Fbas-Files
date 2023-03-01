@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8119" value="0x45"/>
+            <parameter cpu="0" address="0xFF811D" value="0x45"/>
+        </option>
+    </cheat>
+    <cheat desc="无限最终BOSS时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA83A" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽所有敌人能量 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCD51" value="0x00"/>
+            <parameter cpu="0" address="0xFFCE51" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFEF22" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限援助时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8155" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="超级跳" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF815C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄气攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF815A" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄气射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF815B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="故事选择 - 搜索博士!" default="0">
+        <option desc="关闭"/>
+        <option desc="故事选择 - 搜索博士!">
+            <parameter cpu="0" address="0xFF8101" value="0x00"/>
+        </option>
+        <option desc="故事选择 - 援救!">
+            <parameter cpu="0" address="0xFF8101" value="0x02"/>
+        </option>
+        <option desc="故事选择 - 修理零件!">
+            <parameter cpu="0" address="0xFF8101" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8351" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8352" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8453" value="0x10"/>
+            <parameter cpu="0" address="0xFF8455" value="0x10"/>
+            <parameter cpu="0" address="0xFF8457" value="0x10"/>
+            <parameter cpu="0" address="0xFF8459" value="0x10"/>
+            <parameter cpu="0" address="0xFF845B" value="0x10"/>
+            <parameter cpu="0" address="0xFF845D" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 1 PL1">
+            <parameter cpu="0" address="0xFF8449" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 1 ! PL1">
+            <parameter cpu="0" address="0xFF8449" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 2 PL1">
+            <parameter cpu="0" address="0xFF844A" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 2 ! PL1">
+            <parameter cpu="0" address="0xFF844A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 3 PL1">
+            <parameter cpu="0" address="0xFF844B" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 3 ! PL1">
+            <parameter cpu="0" address="0xFF844B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 4 PL1">
+            <parameter cpu="0" address="0xFF844C" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 4 ! PL1">
+            <parameter cpu="0" address="0xFF844C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 5 PL1">
+            <parameter cpu="0" address="0xFF844D" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 5 ! PL1">
+            <parameter cpu="0" address="0xFF844D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 6 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 6 PL1">
+            <parameter cpu="0" address="0xFF844E" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 6 ! PL1">
+            <parameter cpu="0" address="0xFF844E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8300" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="连续射击无间隔 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8430" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄气射击 - 等级 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="蓄气射击 - 等级 1 PL1">
+            <parameter cpu="0" address="0xFF8435" value="0x00"/>
+        </option>
+        <option desc="蓄气射击 - 等级 2 PL1">
+            <parameter cpu="0" address="0xFF8435" value="0x02"/>
+        </option>
+        <option desc="蓄气射击 - 等级 3 PL1">
+            <parameter cpu="0" address="0xFF8435" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Megaman PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Megaman PL1">
+            <parameter cpu="0" address="0xFF8303" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Protoman PL1">
+            <parameter cpu="0" address="0xFF8303" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Bass PL1">
+            <parameter cpu="0" address="0xFF8303" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Duo PL1">
+            <parameter cpu="0" address="0xFF8303" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="胜利 - 2次胜利 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="胜利 - 2次胜利 PL1">
+            <parameter cpu="0" address="0xFF843B" value="0x02"/>
+        </option>
+        <option desc="胜利 - 5次胜利 PL1">
+            <parameter cpu="0" address="0xFF843B" value="0x05"/>
+        </option>
+        <option desc="胜利 - 8次胜利 PL1">
+            <parameter cpu="0" address="0xFF843B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8751" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8752" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8853" value="0x10"/>
+            <parameter cpu="0" address="0xFF8855" value="0x10"/>
+            <parameter cpu="0" address="0xFF8857" value="0x10"/>
+            <parameter cpu="0" address="0xFF8859" value="0x10"/>
+            <parameter cpu="0" address="0xFF885B" value="0x10"/>
+            <parameter cpu="0" address="0xFF885D" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 1 PL2">
+            <parameter cpu="0" address="0xFF8849" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 1 ! PL2">
+            <parameter cpu="0" address="0xFF8849" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 2 PL2">
+            <parameter cpu="0" address="0xFF884A" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 2 ! PL2">
+            <parameter cpu="0" address="0xFF884A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 3 PL2">
+            <parameter cpu="0" address="0xFF884B" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 3 ! PL2">
+            <parameter cpu="0" address="0xFF884B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 4 PL2">
+            <parameter cpu="0" address="0xFF884C" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 4 ! PL2">
+            <parameter cpu="0" address="0xFF884C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 5 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 5 PL2">
+            <parameter cpu="0" address="0xFF884D" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 5 ! PL2">
+            <parameter cpu="0" address="0xFF884D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外武器 6 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有额外武器 6 PL2">
+            <parameter cpu="0" address="0xFF884E" value="0x01"/>
+        </option>
+        <option desc="失去额外武器 6 ! PL2">
+            <parameter cpu="0" address="0xFF884E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8700" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="连续射击无间隔 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8830" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄气射击 - 等级 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="蓄气射击 - 等级 1 PL2">
+            <parameter cpu="0" address="0xFF8835" value="0x00"/>
+        </option>
+        <option desc="蓄气射击 - 等级 2 PL2">
+            <parameter cpu="0" address="0xFF8835" value="0x02"/>
+        </option>
+        <option desc="蓄气射击 - 等级 3 PL2">
+            <parameter cpu="0" address="0xFF8835" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Megaman PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Megaman PL2">
+            <parameter cpu="0" address="0xFF8703" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Protoman PL2">
+            <parameter cpu="0" address="0xFF8703" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Bass PL2">
+            <parameter cpu="0" address="0xFF8703" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Duo PL2">
+            <parameter cpu="0" address="0xFF8703" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="胜利 - 2次胜利 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="胜利 - 2次胜利 PL2">
+            <parameter cpu="0" address="0xFF883B" value="0x02"/>
+        </option>
+        <option desc="胜利 - 5次胜利 PL2">
+            <parameter cpu="0" address="0xFF883B" value="0x05"/>
+        </option>
+        <option desc="胜利 - 8次胜利 PL2">
+            <parameter cpu="0" address="0xFF883B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是蓄力射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8433" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是蓄力射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8833" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="地域 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地域 = 日本">
+            <parameter cpu="0" address="0xFF808D" value="0x00"/>
+        </option>
+        <option desc="地域 = 美国">
+            <parameter cpu="0" address="0xFF808D" value="0x02"/>
+        </option>
+        <option desc="地域 = 西班牙">
+            <parameter cpu="0" address="0xFF808D" value="0x04"/>
+        </option>
+        <option desc="地域 = 亚洲">
+            <parameter cpu="0" address="0xFF808D" value="0x06"/>
+        </option>
+        <option desc="地域 = 欧洲">
+            <parameter cpu="0" address="0xFF808D" value="0x08"/>
+        </option>
+        <option desc="地域 = 巴西">
+            <parameter cpu="0" address="0xFF808D" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="字幕转换 = Rock Man" default="0">
+        <option desc="关闭"/>
+        <option desc="字幕转换 = Rock Man">
+            <parameter cpu="0" address="0xFF80E0" value="0x00"/>
+        </option>
+        <option desc="字幕转换 = Mega Man">
+            <parameter cpu="0" address="0xFF80E0" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

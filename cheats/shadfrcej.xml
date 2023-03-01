@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F000D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F1AA2" value="0x18"/>
+            <parameter cpu="0" address="0x1F1AA3" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="变身角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="RAIZO(拿剑)">
+            <parameter cpu="0" address="0x1F2099" value="0x04"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x04"/>
+        </option>
+        <option desc="ONI">
+            <parameter cpu="0" address="0x1F2099" value="0x08"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x08"/>
+        </option>
+        <option desc="WIZARD">
+            <parameter cpu="0" address="0x1F2099" value="0x0F"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x0F"/>
+        </option>
+        <option desc="MARS">
+            <parameter cpu="0" address="0x1F2099" value="0x10"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x10"/>
+        </option>
+        <option desc="SPIDER">
+            <parameter cpu="0" address="0x1F2099" value="0x13"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x13"/>
+        </option>
+        <option desc="RAIZO(空手)">
+            <parameter cpu="0" address="0x1F2099" value="0x17"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x17"/>
+        </option>
+        <option desc="BIO MOTHER Z.">
+            <parameter cpu="0" address="0x1F2099" value="0x18"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x18"/>
+        </option>
+        <option desc="LUCIFER">
+            <parameter cpu="0" address="0x1F2099" value="0x19"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x19"/>
+        </option>
+        <option desc="F-SWORD">
+            <parameter cpu="0" address="0x1F2099" value="0x05"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x05"/>
+        </option>
+        <option desc="YAKSA">
+            <parameter cpu="0" address="0x1F2099" value="0x06"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x06"/>
+        </option>
+        <option desc="KATZE">
+            <parameter cpu="0" address="0x1F2099" value="0x07"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x07"/>
+        </option>
+        <option desc="RIFLE">
+            <parameter cpu="0" address="0x1F2099" value="0x09"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x09"/>
+        </option>
+        <option desc="SICKLE">
+            <parameter cpu="0" address="0x1F2099" value="0x0A"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x0A"/>
+        </option>
+        <option desc="NINJA">
+            <parameter cpu="0" address="0x1F2099" value="0x0B"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x0B"/>
+        </option>
+        <option desc="S-METAL">
+            <parameter cpu="0" address="0x1F2099" value="0x0C"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x0C"/>
+        </option>
+        <option desc="BIOMAN">
+            <parameter cpu="0" address="0x1F2099" value="0x0D"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x0D"/>
+        </option>
+        <option desc="TENAGA">
+            <parameter cpu="0" address="0x1F2099" value="0x0E"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x0E"/>
+        </option>
+        <option desc="CYBORG">
+            <parameter cpu="0" address="0x1F2099" value="0x11"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x11"/>
+        </option>
+        <option desc="BOMB MAN">
+            <parameter cpu="0" address="0x1F2099" value="0x12"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x12"/>
+        </option>
+        <option desc="BIO-WORM">
+            <parameter cpu="0" address="0x1F2099" value="0x14"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x14"/>
+        </option>
+        <option desc="SLIME">
+            <parameter cpu="0" address="0x1F2099" value="0x15"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x15"/>
+        </option>
+        <option desc="DR. WONG">
+            <parameter cpu="0" address="0x1F2099" value="0x16"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x16"/>
+        </option>
+        <option desc="BEAST">
+            <parameter cpu="0" address="0x1F2099" value="0x1A"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x1A"/>
+        </option>
+        <option desc="BULLDOG">
+            <parameter cpu="0" address="0x1F2099" value="0x1B"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x1B"/>
+        </option>
+        <option desc="KAI!">
+            <parameter cpu="0" address="0x1F2099" value="0x00"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x00"/>
+        </option>
+        <option desc="TENGU!">
+            <parameter cpu="0" address="0x1F2099" value="0x01"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x01"/>
+        </option>
+        <option desc="COYOTE!">
+            <parameter cpu="0" address="0x1F2099" value="0x02"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x02"/>
+        </option>
+        <option desc="BLUNET!">
+            <parameter cpu="0" address="0x1F2099" value="0x03"/>
+            <parameter cpu="0" address="0x1F20EB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F216F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F220E" value="0x80"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x1F220E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F215F" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F24F9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F2598" value="0x80"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x1F2598" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F24E9" value="0xC8"/>
+        </option>
+    </cheat>
+
+</shufflecheat>

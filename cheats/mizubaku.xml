@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109522" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有升级速度" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有升级速度">
+            <parameter cpu="0" address="0x109530" value="0x60"/>
+        </option>
+        <option desc="总是有最大升级速度">
+            <parameter cpu="0" address="0x109530" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="永不滑倒" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109BEC" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109D73" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有武器蓄气大" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有武器蓄气大">
+            <parameter cpu="0" address="0x109D79" value="0x14"/>
+        </option>
+        <option desc="总是有最大蓄气(有错误)">
+            <parameter cpu="0" address="0x109D79" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大武器加速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109D7C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有大型武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102A7F" value="0x14"/>
+        </option>
+    </cheat>
+</shufflecheat>

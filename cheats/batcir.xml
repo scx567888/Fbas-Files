@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5863" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5D57" value="0x5A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限购物时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5950" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF5934" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF5934" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF5934" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF5934" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF5934" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF5934" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF5934" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFF5934" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF58C4" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF58C4" value="0x01"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF58C4" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF58C4" value="0x03"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF58C4" value="0x04"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF58C4" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF830A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82B7" value="0x80"/>
+            <parameter cpu="0" address="0xFF82EB" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="强力击打 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8311" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF830C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8328" value="0x27"/>
+            <parameter cpu="0" address="0xFF8329" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF833E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF844A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83F7" value="0x80"/>
+            <parameter cpu="0" address="0xFF842B" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="强力击打 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8451" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF844C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8468" value="0x27"/>
+            <parameter cpu="0" address="0xFF8469" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF847E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF858A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8537" value="0x80"/>
+            <parameter cpu="0" address="0xFF856B" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF858C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85A8" value="0x27"/>
+            <parameter cpu="0" address="0xFF85A9" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85BE" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86CA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8677" value="0x80"/>
+            <parameter cpu="0" address="0xFF86AB" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86CC" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86E8" value="0x27"/>
+            <parameter cpu="0" address="0xFF86E9" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊技 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86FE" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

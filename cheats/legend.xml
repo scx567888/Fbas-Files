@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF001" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 (时间)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF10E" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0C6" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0E1" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="选择装备" default="0">
+        <option desc="关闭"/>
+        <option desc="金钱">
+            <parameter cpu="0" address="0xF0BA" value="0x01"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xF0BA" value="0x02"/>
+        </option>
+        <option desc="匕首 - 前">
+            <parameter cpu="0" address="0xF0BA" value="0x03"/>
+        </option>
+        <option desc="匕首 - 空">
+            <parameter cpu="0" address="0xF0BA" value="0x04"/>
+        </option>
+        <option desc="蜡烛">
+            <parameter cpu="0" address="0xF0BA" value="0x05"/>
+        </option>
+        <option desc="十字架">
+            <parameter cpu="0" address="0xF0BA" value="0x06"/>
+        </option>
+        <option desc="矛">
+            <parameter cpu="0" address="0xF0BA" value="0x07"/>
+        </option>
+        <option desc="牛奶">
+            <parameter cpu="0" address="0xF0BA" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

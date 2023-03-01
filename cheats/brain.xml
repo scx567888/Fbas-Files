@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC04E" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC04F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE94" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限气体能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xEEA6" value="0x37"/>
+        </option>
+    </cheat>
+    <cheat desc="总是单独/普通射击武器" default="0">
+        <option desc="关闭"/>
+        <option desc="总是单独/普通射击武器">
+            <parameter cpu="0" address="0xCE92" value="0x00"/>
+        </option>
+        <option desc="总是双倍/重型射击武器">
+            <parameter cpu="0" address="0xCE92" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

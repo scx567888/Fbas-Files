@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70A8C3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70172E" value="0x03"/>
+            <parameter cpu="0" address="0x70172F" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70074A" value="0x00"/>
+            <parameter cpu="0" address="0x702297" value="0xC7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7016A0" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限制射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7008FB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x700749" value="0x01"/>
+            <parameter cpu="0" address="0x7022A4" value="0x01"/>
+            <parameter cpu="0" address="0x7022A5" value="0x2A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70072C" value="0x00"/>
+            <parameter cpu="0" address="0x702299" value="0xC7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x701694" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限制射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7008FC" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x700748" value="0x01"/>
+            <parameter cpu="0" address="0x7022A6" value="0x01"/>
+            <parameter cpu="0" address="0x7022A7" value="0x2A"/>
+        </option>
+    </cheat>
+    <cheat desc="完成一项即可过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x700778" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即杀死BOSS!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7008C8" value="0x00"/>
+            <parameter cpu="0" address="0x7022B2" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC432" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED6F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED74" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="到最终关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED6B" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="球出界也不会死" default="0">
+        <option desc="关闭"/>
+        <option desc="球出界也不会死">
+            <parameter cpu="0" address="0xEF5B" value="0x00"/>
+        </option>
+        <option desc="自杀!">
+            <parameter cpu="0" address="0xEF5B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="空间门总是打开" default="0">
+        <option desc="关闭"/>
+        <option desc="空间门总是打开">
+            <parameter cpu="0" address="0xC4CE" value="0x01"/>
+        </option>
+        <option desc="空间门不会打开">
+            <parameter cpu="0" address="0xC4CE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED7C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会落下奖励药丸" default="0">
+        <option desc="关闭"/>
+        <option desc="不会落下奖励药丸">
+            <parameter cpu="0" address="0xC658" value="0x80"/>
+        </option>
+        <option desc="落下红色药丸!">
+            <parameter cpu="0" address="0xC658" value="0x01"/>
+        </option>
+        <option desc="落下蓝色药丸!">
+            <parameter cpu="0" address="0xC658" value="0x02"/>
+        </option>
+        <option desc="落下绿色药丸!">
+            <parameter cpu="0" address="0xC658" value="0x03"/>
+        </option>
+        <option desc="落下橙色药丸!">
+            <parameter cpu="0" address="0xC658" value="0x04"/>
+        </option>
+        <option desc="落下紫色药丸!">
+            <parameter cpu="0" address="0xC658" value="0x05"/>
+        </option>
+        <option desc="落下青色药丸!">
+            <parameter cpu="0" address="0xC658" value="0x06"/>
+        </option>
+        <option desc="落下黑色药丸!">
+            <parameter cpu="0" address="0xC658" value="0x07"/>
+        </option>
+        <option desc="药丸变红色!">
+            <parameter cpu="0" address="0xC658" value="0x81"/>
+        </option>
+        <option desc="药丸变蓝色!">
+            <parameter cpu="0" address="0xC658" value="0x82"/>
+        </option>
+        <option desc="药丸变绿色!">
+            <parameter cpu="0" address="0xC658" value="0x83"/>
+        </option>
+        <option desc="药丸变橙色!">
+            <parameter cpu="0" address="0xC658" value="0x84"/>
+        </option>
+        <option desc="药丸变紫色!">
+            <parameter cpu="0" address="0xC658" value="0x85"/>
+        </option>
+        <option desc="药丸变青色!">
+            <parameter cpu="0" address="0xC658" value="0x86"/>
+        </option>
+        <option desc="药丸变黑色!">
+            <parameter cpu="0" address="0xC658" value="0x87"/>
+        </option>
+    </cheat>
+</shufflecheat>

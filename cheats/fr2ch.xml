@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="自摸胡牌!" default="0">
+        <option desc="关闭"/>
+        <option desc="自摸胡牌!">
+            <parameter cpu="0" address="0x102121" value="0x29"/>
+            <parameter cpu="0" address="0x102123" value="0x29"/>
+            <parameter cpu="0" address="0x102125" value="0x29"/>
+            <parameter cpu="0" address="0x102127" value="0x2A"/>
+            <parameter cpu="0" address="0x102129" value="0x2A"/>
+            <parameter cpu="0" address="0x10212B" value="0x2A"/>
+            <parameter cpu="0" address="0x10212D" value="0x2B"/>
+            <parameter cpu="0" address="0x10212F" value="0x2B"/>
+            <parameter cpu="0" address="0x102131" value="0x2B"/>
+            <parameter cpu="0" address="0x102133" value="0x2D"/>
+            <parameter cpu="0" address="0x102135" value="0x2D"/>
+            <parameter cpu="0" address="0x102137" value="0x2D"/>
+            <parameter cpu="0" address="0x102139" value="0x2C"/>
+            <parameter cpu="0" address="0x10213B" value="0x2C"/>
+        </option>
+        <option desc="自摸胡牌!">
+            <parameter cpu="0" address="0x102121" value="0x00"/>
+            <parameter cpu="0" address="0x102123" value="0x00"/>
+            <parameter cpu="0" address="0x102125" value="0x00"/>
+            <parameter cpu="0" address="0x102127" value="0x01"/>
+            <parameter cpu="0" address="0x102129" value="0x02"/>
+            <parameter cpu="0" address="0x10212B" value="0x03"/>
+            <parameter cpu="0" address="0x10212D" value="0x04"/>
+            <parameter cpu="0" address="0x10212F" value="0x05"/>
+            <parameter cpu="0" address="0x102131" value="0x06"/>
+            <parameter cpu="0" address="0x102133" value="0x07"/>
+            <parameter cpu="0" address="0x102135" value="0x08"/>
+            <parameter cpu="0" address="0x102137" value="0x08"/>
+            <parameter cpu="0" address="0x102139" value="0x08"/>
+            <parameter cpu="0" address="0x10213B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100E6D" value="0xBD"/>
+        </option>
+    </cheat>
+    <cheat desc="直接看艳图" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101ED7" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

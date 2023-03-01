@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C59" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限子弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100B1F" value="0x22"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药库" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100B21" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限手雷" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100B23" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="关卡 6 - 选择援救的人质" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x100C9D" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x100C9D" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x100C9D" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x100C9D" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x100C9D" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x100C9D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关到特殊关卡1!" default="0">
+        <option desc="关闭"/>
+        <option desc="下一关到特殊关卡1!">
+            <parameter cpu="0" address="0x100D7E" value="0x07"/>
+        </option>
+        <option desc="下一关到特殊关卡2!">
+            <parameter cpu="0" address="0x100D7E" value="0x08"/>
+        </option>
+        <option desc="下一关到特殊关卡3!">
+            <parameter cpu="0" address="0x100D7E" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

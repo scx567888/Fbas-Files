@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8819" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8826" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限翻滚 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8978" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最大自引导导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8977" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="左外挂武器打开 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF993C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="右外挂武器打开 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF999C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到最大速度 - 汽车 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到最大速度 - 汽车 PL1">
+            <parameter cpu="0" address="0xFF8972" value="0x60"/>
+        </option>
+        <option desc="得到最大速度 - 飞行器 PL1">
+            <parameter cpu="0" address="0xFF8972" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8979" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 自引导导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF897A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 左外挂武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF996E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 右外挂武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF99CE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL1">
+            <parameter cpu="0" address="0xFF8976" value="0x00"/>
+        </option>
+        <option desc="总是有双倍火力 PL1">
+            <parameter cpu="0" address="0xFF8976" value="0x02"/>
+        </option>
+        <option desc="总是有三向武器 PL1">
+            <parameter cpu="0" address="0xFF8976" value="0x04"/>
+        </option>
+        <option desc="总是有散弹猎枪 PL1">
+            <parameter cpu="0" address="0xFF8976" value="0x06"/>
+        </option>
+        <option desc="总是有火焰 PL1">
+            <parameter cpu="0" address="0xFF8976" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是汽车体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8947" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8827" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限翻滚 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89F8" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最大自引导导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89F7" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="左外挂武器打开 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF99FC" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="右外挂武器打开 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9A5C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到最大速度 - 汽车 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到最大速度 - 汽车 PL2">
+            <parameter cpu="0" address="0xFF89F2" value="0x60"/>
+        </option>
+        <option desc="得到最大速度 - 飞行器 PL2">
+            <parameter cpu="0" address="0xFF89F2" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89F9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 自引导导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89FA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 左外挂武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9A2E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 右外挂武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9A8E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL2">
+            <parameter cpu="0" address="0xFF89F6" value="0x00"/>
+        </option>
+        <option desc="总是有双倍火力 PL2">
+            <parameter cpu="0" address="0xFF89F6" value="0x02"/>
+        </option>
+        <option desc="总是有三向武器 PL2">
+            <parameter cpu="0" address="0xFF89F6" value="0x04"/>
+        </option>
+        <option desc="总是有散弹猎枪 PL2">
+            <parameter cpu="0" address="0xFF89F6" value="0x06"/>
+        </option>
+        <option desc="总是有火焰 PL2">
+            <parameter cpu="0" address="0xFF89F6" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是汽车体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89C7" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

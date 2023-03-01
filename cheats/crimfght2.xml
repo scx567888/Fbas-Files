@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x527" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x52B" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x562" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x93C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有刀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有刀 PL1">
+            <parameter cpu="0" address="0x4E0" value="0x60"/>
+            <parameter cpu="0" address="0x4E1" value="0x84"/>
+            <parameter cpu="0" address="0x918" value="0x01"/>
+        </option>
+        <option desc="总是有铁管 PL1">
+            <parameter cpu="0" address="0x4E0" value="0x61"/>
+            <parameter cpu="0" address="0x4E1" value="0x02"/>
+            <parameter cpu="0" address="0x918" value="0x02"/>
+        </option>
+        <option desc="总是有枪 PL1">
+            <parameter cpu="0" address="0x4E0" value="0x61"/>
+            <parameter cpu="0" address="0x4E1" value="0x80"/>
+            <parameter cpu="0" address="0x918" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x52C" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x564" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x97C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有刀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有刀 PL2">
+            <parameter cpu="0" address="0x4E2" value="0x60"/>
+            <parameter cpu="0" address="0x4E3" value="0x84"/>
+            <parameter cpu="0" address="0x958" value="0x01"/>
+        </option>
+        <option desc="总是有铁管 PL2">
+            <parameter cpu="0" address="0x4E2" value="0x61"/>
+            <parameter cpu="0" address="0x4E3" value="0x02"/>
+            <parameter cpu="0" address="0x958" value="0x02"/>
+        </option>
+        <option desc="总是有枪 PL2">
+            <parameter cpu="0" address="0x4E2" value="0x61"/>
+            <parameter cpu="0" address="0x4E3" value="0x80"/>
+            <parameter cpu="0" address="0x958" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1645" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

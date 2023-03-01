@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA1B1" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEC554" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2975" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0xFEC57F" value="0x00"/>
+        </option>
+        <option desc="第2关">
+            <parameter cpu="0" address="0xFEC57F" value="0x04"/>
+        </option>
+        <option desc="第3关">
+            <parameter cpu="0" address="0xFEC57F" value="0x08"/>
+        </option>
+        <option desc="第4关">
+            <parameter cpu="0" address="0xFEC57F" value="0x0C"/>
+        </option>
+        <option desc="第5关">
+            <parameter cpu="0" address="0xFEC57F" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="选择轮盘号" default="0">
+        <option desc="关闭"/>
+        <option desc="00">
+            <parameter cpu="0" address="0xFEEF9E" value="0x00"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xFEEF9E" value="0x01"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xFEEF9E" value="0x02"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0xFEEF9E" value="0x03"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0xFEEF9E" value="0x04"/>
+        </option>
+        <option desc="50">
+            <parameter cpu="0" address="0xFEEF9E" value="0x05"/>
+        </option>
+        <option desc="60">
+            <parameter cpu="0" address="0xFEEF9E" value="0x06"/>
+        </option>
+        <option desc="70">
+            <parameter cpu="0" address="0xFEEF9E" value="0x07"/>
+        </option>
+        <option desc="80">
+            <parameter cpu="0" address="0xFEEF9E" value="0x08"/>
+        </option>
+        <option desc="90">
+            <parameter cpu="0" address="0xFEEF9E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2803" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限Z武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEC667" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEC66D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2825" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFEC665" value="0x02"/>
+        </option>
+        <option desc="散弹">
+            <parameter cpu="0" address="0xFEC665" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0xFEC665" value="0x04"/>
+        </option>
+        <option desc="电光弹">
+            <parameter cpu="0" address="0xFEC665" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2863" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限Z武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEC6C7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEC6CD" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2885" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFEC6C5" value="0x02"/>
+        </option>
+        <option desc="散弹">
+            <parameter cpu="0" address="0xFEC6C5" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0xFEC6C5" value="0x04"/>
+        </option>
+        <option desc="电光弹">
+            <parameter cpu="0" address="0xFEC6C5" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF28C3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限Z武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEC727" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEC72D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器时间 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF28E5" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFEC725" value="0x02"/>
+        </option>
+        <option desc="散弹">
+            <parameter cpu="0" address="0xFEC725" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0xFEC725" value="0x04"/>
+        </option>
+        <option desc="电光弹">
+            <parameter cpu="0" address="0xFEC725" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC061" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC062" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCF97" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

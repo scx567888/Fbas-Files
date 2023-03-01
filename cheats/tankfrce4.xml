@@ -1,0 +1,173 @@
+<mamecheat version="1">
+
+    <cheat desc="选择开始关卡">
+        <parameter min="1" max="36" step="1"/>
+        <script state="run">
+            <action condition="(maincpu.pb@027B==00)">maincpu.pb@027B=(param-1)</action>
+        </script>
+    </cheat>
+
+    <cheat desc="冻结所有敌人坦克">
+        <script state="run">
+            <action>maincpu.pb@02E2=01</action>
+            <action>maincpu.pb@02E4=01</action>
+        </script>
+    </cheat>
+
+    <cheat desc="无敌大本营">
+        <script state="run">
+            <action>maincpu.pb@02E7=65</action>
+            <action>maincpu.pb@7CD0=14</action>
+            <action>maincpu.pb@7CD4=14</action>
+            <action>maincpu.pb@7CD8=14</action>
+            <action>maincpu.pb@7CDC=14</action>
+            <action>maincpu.pb@7D60=14</action>
+            <action>maincpu.pb@7D6C=14</action>
+            <action>maincpu.pb@7DF0=14</action>
+            <action>maincpu.pb@7DFC=14</action>
+        </script>
+    </cheat>
+
+    <cheat desc="空袭从不发生">
+        <comment>The air strike kills you, so you don't want it.</comment>
+        <script state="run">
+            <action>maincpu.pw@027C=4500</action>
+        </script>
+    </cheat>
+
+    <cheat desc="立刻空袭">
+        <script state="on">
+            <action>maincpu.pw@027C=0000</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL1">
+        <script state="run">
+            <action>maincpu.pb@0297=87</action>
+        </script>
+    </cheat>
+
+    <cheat desc="角色无敌 PL1">
+        <script state="run">
+            <action>maincpu.pb@43A3=7B</action>
+            <action>maincpu.pb@43A6=7B</action>
+        </script>
+    </cheat>
+
+    <cheat desc="无限时间 PL1">
+        <script state="run">
+            <action>maincpu.pb@43B6=08</action>
+            <action>maincpu.pb@43B7=00</action>
+        </script>
+    </cheat>
+
+    <cheat desc="最大射击力量 PL1">
+        <script state="run">
+            <action>maincpu.pb@439A=0F</action>
+        </script>
+    </cheat>
+
+    <cheat desc="选择坦克速度 PL1">
+        <parameter>
+            <item value="0x01">正常</item>
+            <item value="0x02">快速</item>
+            <item value="0x03">高速</item>
+        </parameter>
+        <script state="run">
+            <action>maincpu.pb@438A=param</action>
+        </script>
+    </cheat>
+
+    <cheat desc="选择坦克类型 PL1">
+        <parameter>
+            <item value="0x00">正常</item>
+            <item value="0x01">正常坦克(较好弹药)</item>
+            <item value="0x02">4向射击</item>
+            <item value="0x03">重型</item>
+            <item value="0x04">双倍</item>
+            <item value="0x05">光波</item>
+            <item value="0x06">小</item>
+            <item value="0x07">小坦克(较好弹药)</item>
+        </parameter>
+        <script state="run">
+            <action>maincpu.pb@43B2=param</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL2">
+        <script state="run">
+            <action>maincpu.pb@0298=87</action>
+        </script>
+    </cheat>
+
+    <cheat desc="角色无敌 PL2">
+        <script state="run">
+            <action>maincpu.pb@4323=7B</action>
+            <action>maincpu.pb@4326=7B</action>
+        </script>
+    </cheat>
+
+    <cheat desc="无限时间 PL2">
+        <script state="run">
+            <action>maincpu.pb@4336=08</action>
+            <action>maincpu.pb@4337=00</action>
+        </script>
+    </cheat>
+
+    <cheat desc="最大射击力量 PL2">
+        <script state="run">
+            <action>maincpu.pb@431A=0F</action>
+        </script>
+    </cheat>
+
+    <cheat desc="选择坦克速度 PL2">
+        <parameter>
+            <item value="0x01">正常</item>
+            <item value="0x02">快速</item>
+            <item value="0x03">高速</item>
+        </parameter>
+        <script state="run">
+            <action>maincpu.pb@430A=param</action>
+        </script>
+    </cheat>
+
+    <cheat desc="选择坦克类型 PL2">
+        <parameter>
+            <item value="0x00">正常</item>
+            <item value="0x01">正常坦克(较好弹药)</item>
+            <item value="0x02">4向射击</item>
+            <item value="0x03">重型</item>
+            <item value="0x04">双倍</item>
+            <item value="0x05">光波</item>
+            <item value="0x06">小</item>
+            <item value="0x07">小坦克(较好弹药)</item>
+        </parameter>
+        <script state="run">
+            <action>maincpu.pb@4332=param</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL3">
+        <script state="run">
+            <action>maincpu.pb@0299=87</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL4">
+        <script state="run">
+            <action>maincpu.pb@029A=87</action>
+        </script>
+    </cheat>
+
+    <!--  Incomplete NOT WORKING -->
+
+</mamecheat>
+        <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->

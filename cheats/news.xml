@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限帮助" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE4AF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前顶部水滴总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="红色的">
+            <parameter cpu="0" address="0xE4A1" value="0x01"/>
+        </option>
+        <option desc="黄色的">
+            <parameter cpu="0" address="0xE4A1" value="0x02"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xE4A1" value="0x03"/>
+        </option>
+        <option desc="绿色的">
+            <parameter cpu="0" address="0xE4A1" value="0x04"/>
+        </option>
+        <option desc="浅蓝">
+            <parameter cpu="0" address="0xE4A1" value="0x05"/>
+        </option>
+        <option desc="深蓝">
+            <parameter cpu="0" address="0xE4A1" value="0x06"/>
+        </option>
+        <option desc="灰白色">
+            <parameter cpu="0" address="0xE4A1" value="0x07"/>
+        </option>
+        <option desc="黑色">
+            <parameter cpu="0" address="0xE4A1" value="0x08"/>
+        </option>
+        <option desc="无水滴">
+            <parameter cpu="0" address="0xE4A1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前底部水滴总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="红色的">
+            <parameter cpu="0" address="0xE4A0" value="0x01"/>
+        </option>
+        <option desc="黄色的">
+            <parameter cpu="0" address="0xE4A0" value="0x02"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xE4A0" value="0x03"/>
+        </option>
+        <option desc="绿色的">
+            <parameter cpu="0" address="0xE4A0" value="0x04"/>
+        </option>
+        <option desc="浅蓝">
+            <parameter cpu="0" address="0xE4A0" value="0x05"/>
+        </option>
+        <option desc="深蓝">
+            <parameter cpu="0" address="0xE4A0" value="0x06"/>
+        </option>
+        <option desc="灰白色">
+            <parameter cpu="0" address="0xE4A0" value="0x07"/>
+        </option>
+        <option desc="黑色">
+            <parameter cpu="0" address="0xE4A0" value="0x08"/>
+        </option>
+        <option desc="无水滴">
+            <parameter cpu="0" address="0xE4A0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下个顶部水滴总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="红色的">
+            <parameter cpu="0" address="0xE4A3" value="0x01"/>
+        </option>
+        <option desc="黄色的">
+            <parameter cpu="0" address="0xE4A3" value="0x02"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xE4A3" value="0x03"/>
+        </option>
+        <option desc="绿色的">
+            <parameter cpu="0" address="0xE4A3" value="0x04"/>
+        </option>
+        <option desc="浅蓝">
+            <parameter cpu="0" address="0xE4A3" value="0x05"/>
+        </option>
+        <option desc="深蓝">
+            <parameter cpu="0" address="0xE4A3" value="0x06"/>
+        </option>
+        <option desc="灰白色">
+            <parameter cpu="0" address="0xE4A3" value="0x07"/>
+        </option>
+        <option desc="黑色">
+            <parameter cpu="0" address="0xE4A3" value="0x08"/>
+        </option>
+        <option desc="无水滴">
+            <parameter cpu="0" address="0xE4A3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下个底部水滴总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="红色的">
+            <parameter cpu="0" address="0xE4A2" value="0x01"/>
+        </option>
+        <option desc="黄色的">
+            <parameter cpu="0" address="0xE4A2" value="0x02"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xE4A2" value="0x03"/>
+        </option>
+        <option desc="绿色的">
+            <parameter cpu="0" address="0xE4A2" value="0x04"/>
+        </option>
+        <option desc="浅蓝">
+            <parameter cpu="0" address="0xE4A2" value="0x05"/>
+        </option>
+        <option desc="深蓝">
+            <parameter cpu="0" address="0xE4A2" value="0x06"/>
+        </option>
+        <option desc="灰白色">
+            <parameter cpu="0" address="0xE4A2" value="0x07"/>
+        </option>
+        <option desc="黑色">
+            <parameter cpu="0" address="0xE4A2" value="0x08"/>
+        </option>
+        <option desc="无水滴">
+            <parameter cpu="0" address="0xE4A2" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

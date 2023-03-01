@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209B1F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是杀鹿数为16 P1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209B99" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="零失误 P1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209BA3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大重要部位击中数 P1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209B9F" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="最大非重要部位击中数 P1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209BA1" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限子弹 P1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209BAF" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="零失误(每场比赛) P1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209B7D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="零非重要部位击中(每场比赛) P1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209B7B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="重要部位击中 P1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209B79" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

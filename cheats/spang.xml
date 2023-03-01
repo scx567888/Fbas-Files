@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE1C1" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="下局到正常关的最后关" default="0">
+        <option desc="关闭"/>
+        <option desc="下局到正常关的最后关">
+            <parameter cpu="0" address="0xE0D3" value="0x62"/>
+        </option>
+        <option desc="死后到正常关的最后关">
+            <parameter cpu="0" address="0xE0D3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="下局到旅游关的最后关" default="0">
+        <option desc="关闭"/>
+        <option desc="下局到旅游关的最后关">
+            <parameter cpu="0" address="0xE099" value="0x26"/>
+        </option>
+        <option desc="死后到旅游关的最后关">
+            <parameter cpu="0" address="0xE099" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE260" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE254" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL1">
+            <parameter cpu="0" address="0xE257" value="0x00"/>
+        </option>
+        <option desc="总是有双倍武器 PL1">
+            <parameter cpu="0" address="0xE257" value="0x02"/>
+        </option>
+        <option desc="总是有吸铁武器 PL1">
+            <parameter cpu="0" address="0xE257" value="0x04"/>
+        </option>
+        <option desc="总是有步枪武器 PL1">
+            <parameter cpu="0" address="0xE257" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE2E0" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE2D4" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL2">
+            <parameter cpu="0" address="0xE2D7" value="0x00"/>
+        </option>
+        <option desc="总是有双倍武器 PL2">
+            <parameter cpu="0" address="0xE2D7" value="0x02"/>
+        </option>
+        <option desc="总是有吸铁武器 PL2">
+            <parameter cpu="0" address="0xE2D7" value="0x04"/>
+        </option>
+        <option desc="总是有步枪武器 PL2">
+            <parameter cpu="0" address="0xE2D7" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

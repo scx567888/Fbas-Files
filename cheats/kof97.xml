@@ -55,12 +55,9 @@
             <parameter cpu="0" address="0x108439" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="能量珠数量 PL1" default="0">
+    <cheat desc="无限能量珠 PL1 (ADVANCED模式)" default="0">
         <option desc="关闭"/>
-		<option desc="0">
-            <parameter cpu="0" address="0x1082E3" value="0x00"/>
-        </option>
-        <option desc="3">
+        <option desc="无限能量珠 PL1">
             <parameter cpu="0" address="0x1082E3" value="0x03"/>
         </option>
     </cheat>
@@ -82,12 +79,9 @@
             <parameter cpu="0" address="0x10824D" value="0x04"/>
         </option>
     </cheat>
-    <cheat desc="能量珠数量 PL2" default="0">
+    <cheat desc="无限能量珠 PL2 (ADVANCED模式)" default="0">
         <option desc="关闭"/>
-		<option desc="0">
-            <parameter cpu="0" address="0x1084E3" value="0x00"/>
-        </option>
-        <option desc="3">
+        <option desc="无限能量珠 PL1">
             <parameter cpu="0" address="0x1084E3" value="0x03"/>
         </option>
     </cheat>

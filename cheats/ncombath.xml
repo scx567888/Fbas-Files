@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101818" value="0x7F"/>
+            <parameter cpu="0" address="0x101819" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10261B" value="0x01"/>
+            <parameter cpu="0" address="0x10261E" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10063B" value="0x02"/>
+            <parameter cpu="0" address="0x1018C0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1018C1" value="0x02"/>
+            <parameter cpu="0" address="0x102635" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Joe">
+            <parameter cpu="0" address="0x10262E" value="0x00"/>
+        </option>
+        <option desc="Musashi">
+            <parameter cpu="0" address="0x10262E" value="0x01"/>
+        </option>
+        <option desc="Gembu">
+            <parameter cpu="0" address="0x10262E" value="0x02"/>
+        </option>
+        <option desc="Kagerow">
+            <parameter cpu="0" address="0x10262E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大得分 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101813" value="0x09"/>
+            <parameter cpu="0" address="0x101814" value="0x99"/>
+            <parameter cpu="0" address="0x101815" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101828" value="0x7F"/>
+            <parameter cpu="0" address="0x101829" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10266B" value="0x01"/>
+            <parameter cpu="0" address="0x10266E" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10068B" value="0x02"/>
+            <parameter cpu="0" address="0x1018E0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1018E1" value="0x02"/>
+            <parameter cpu="0" address="0x102685" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Hayabusa">
+            <parameter cpu="0" address="0x10267E" value="0x00"/>
+        </option>
+        <option desc="Musashi">
+            <parameter cpu="0" address="0x10267E" value="0x01"/>
+        </option>
+        <option desc="Gembu">
+            <parameter cpu="0" address="0x10267E" value="0x02"/>
+        </option>
+        <option desc="Kagerow">
+            <parameter cpu="0" address="0x10267E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大得分 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101823" value="0x09"/>
+            <parameter cpu="0" address="0x101824" value="0x99"/>
+            <parameter cpu="0" address="0x101825" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

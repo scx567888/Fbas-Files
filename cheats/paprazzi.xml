@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0ACF" value="0x09"/>
+            <parameter cpu="0" address="0xFF0CDD" value="0x09"/>
+            <parameter cpu="0" address="0xFF12A1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0019" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0013" value="0x01"/>
+            <parameter cpu="0" address="0xFF002D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0059" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0053" value="0x01"/>
+            <parameter cpu="0" address="0xFF006D" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

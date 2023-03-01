@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限移动时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF1554" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0145" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0147" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

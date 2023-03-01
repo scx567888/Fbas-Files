@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE92F0" value="0x3C"/>
+            <parameter cpu="0" address="0xE92F4" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限飞鹰催赶时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE9240" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE831E" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE8339" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE856D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="连续轻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="连续轻击 PL1">
+            <parameter cpu="0" address="0xE8559" value="0x00"/>
+        </option>
+        <option desc="使用特殊攻击 PL1">
+            <parameter cpu="0" address="0xE8559" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE839E" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE83B9" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE866D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="连续轻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="连续轻击 PL2">
+            <parameter cpu="0" address="0xE8659" value="0x00"/>
+        </option>
+        <option desc="使用特殊攻击 PL2">
+            <parameter cpu="0" address="0xE8659" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE841E" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE8439" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE876D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="连续轻击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="连续轻击 PL3">
+            <parameter cpu="0" address="0xE8759" value="0x00"/>
+        </option>
+        <option desc="使用特殊攻击 PL3">
+            <parameter cpu="0" address="0xE8759" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE849E" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE84B9" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE886D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="连续轻击 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="连续轻击 PL4">
+            <parameter cpu="0" address="0xE8859" value="0x00"/>
+        </option>
+        <option desc="使用特殊攻击 PL4">
+            <parameter cpu="0" address="0xE8859" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xE832E" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xE832E" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE832E" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE832E" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE832E" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xE83AE" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xE83AE" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE83AE" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE83AE" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE83AE" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xE842E" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xE842E" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE842E" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE842E" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE842E" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xE84AE" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xE84AE" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE84AE" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE84AE" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE84AE" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

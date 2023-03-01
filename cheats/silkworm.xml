@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD531" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD555" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD576" value="0x11"/>
+            <parameter cpu="0" address="0xD579" value="0x04"/>
+            <parameter cpu="0" address="0xD57C" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD5A6" value="0x11"/>
+            <parameter cpu="0" address="0xD5A9" value="0x0C"/>
+            <parameter cpu="0" address="0xD5AC" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 直升机/PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD578" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="绿色保护直升机" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD577" value="0xA9"/>
+        </option>
+    </cheat>
+    <cheat desc="直升机有自动+双倍射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD547" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 吉普车/PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD5A8" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="绿色保护吉普车" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD5A7" value="0xA9"/>
+        </option>
+    </cheat>
+    <cheat desc="吉普车有自动+双倍射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD56B" value="0x0F"/>
+        </option>
+    </cheat>
+</shufflecheat>

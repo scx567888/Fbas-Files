@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60101" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62008" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6202D" value="0xAA"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60109" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62058" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6207D" value="0xAA"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60111" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x620A8" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x620CD" value="0xAA"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60119" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x620F8" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6211D" value="0xAA"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x635F9" value="0x2C"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数1 只用一击" default="0">
+        <option desc="关闭"/>
+        <option desc="杀死Boss在局数1 只用一击">
+            <parameter cpu="0" address="0x623C8" value="0x00"/>
+            <parameter cpu="0" address="0x623C9" value="0x00"/>
+        </option>
+        <option desc="杀死Boss在局数5 只用一击 - Shredder 1">
+            <parameter cpu="0" address="0x623C8" value="0x00"/>
+            <parameter cpu="0" address="0x623C9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数2.1 只用一击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62508" value="0x00"/>
+            <parameter cpu="0" address="0x62509" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数2.2 只用一击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62418" value="0x00"/>
+            <parameter cpu="0" address="0x62698" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数2.3 只用一击 - Bebop (2/2)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x625F8" value="0x00"/>
+            <parameter cpu="0" address="0x62699" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数2.3 只用一击 - Rocksteady (2/2)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x623E4" value="0x01"/>
+            <parameter cpu="0" address="0x625F9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数5 只用一击 - Robot" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x624D4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数5 只用一击 - Krang" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62434" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss在局数5 只用一击 - Shredder 2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62468" value="0x00"/>
+            <parameter cpu="0" address="0x62469" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

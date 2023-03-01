@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20C7BD" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200F2F" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限练习时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200EE8" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200F2F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="P1无限必杀技" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201F65" value="0x00"/>
+            <parameter cpu="0" address="0x201F66" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200FC3" value="0x80"/>
+            <parameter cpu="0" address="0x20858E" value="0x00"/>
+            <parameter cpu="0" address="0x208591" value="0x31"/>
+            <parameter cpu="0" address="0x208592" value="0x82"/>
+            <parameter cpu="0" address="0x208593" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="血槽闪烁 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200FC3" value="0x25"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽所有生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200FC3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1 (选人画面开启)" default="0">
+        <option desc="关闭"/>
+        <option desc="黄飞鸿">
+            <parameter cpu="0" address="0x200F5E" value="0x00"/>
+        </option>
+        <option desc="神龙">
+            <parameter cpu="0" address="0x200F5E" value="0x01"/>
+        </option>
+        <option desc="千面人">
+            <parameter cpu="0" address="0x200F5E" value="0x02"/>
+        </option>
+        <option desc="黑杰克">
+            <parameter cpu="0" address="0x200F5E" value="0x03"/>
+        </option>
+        <option desc="霹雳豹">
+            <parameter cpu="0" address="0x200F5E" value="0x04"/>
+        </option>
+        <option desc="灰狼">
+            <parameter cpu="0" address="0x200F5E" value="0x05"/>
+        </option>
+        <option desc="火狐狸">
+            <parameter cpu="0" address="0x200F5E" value="0x06"/>
+        </option>
+        <option desc="花木兰">
+            <parameter cpu="0" address="0x200F5E" value="0x07"/>
+        </option>
+        <option desc="仙翁">
+            <parameter cpu="0" address="0x200F5E" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010A5" value="0x80"/>
+            <parameter cpu="0" address="0x2085C0" value="0x00"/>
+            <parameter cpu="0" address="0x2085C3" value="0x31"/>
+            <parameter cpu="0" address="0x2085C4" value="0x82"/>
+            <parameter cpu="0" address="0x2085C5" value="0xC4"/>
+        </option>
+    </cheat>
+    <cheat desc="血槽闪烁 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010A5" value="0x25"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽所有生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010A5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2 (选人画面开启)" default="0">
+        <option desc="关闭"/>
+        <option desc="黄飞鸿">
+            <parameter cpu="0" address="0x201040" value="0x00"/>
+        </option>
+        <option desc="神龙">
+            <parameter cpu="0" address="0x201040" value="0x01"/>
+        </option>
+        <option desc="千面人">
+            <parameter cpu="0" address="0x201040" value="0x02"/>
+        </option>
+        <option desc="黑杰克">
+            <parameter cpu="0" address="0x201040" value="0x03"/>
+        </option>
+        <option desc="霹雳豹">
+            <parameter cpu="0" address="0x201040" value="0x04"/>
+        </option>
+        <option desc="灰狼">
+            <parameter cpu="0" address="0x201040" value="0x05"/>
+        </option>
+        <option desc="火狐狸">
+            <parameter cpu="0" address="0x201040" value="0x06"/>
+        </option>
+        <option desc="花木兰">
+            <parameter cpu="0" address="0x201040" value="0x07"/>
+        </option>
+        <option desc="仙翁">
+            <parameter cpu="0" address="0x201040" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

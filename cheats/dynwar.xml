@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82E6" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8288" value="0x09"/>
+            <parameter cpu="0" address="0xFF8289" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="角色等级 8 (最大) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82EE" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="武器等级 8 (最大) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82E9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82E2" value="0x0B"/>
+            <parameter cpu="0" address="0xFF82EF" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82E1" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大经验值 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82EA" value="0x99"/>
+            <parameter cpu="0" address="0xFF82EB" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊武器 - 石头 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="特殊武器 - 石头 PL1">
+            <parameter cpu="0" address="0xFF81D5" value="0x00"/>
+        </option>
+        <option desc="特殊武器 - 保护者 PL1">
+            <parameter cpu="0" address="0xFF81D5" value="0x02"/>
+        </option>
+        <option desc="特殊武器 - 火焰弓 PL1">
+            <parameter cpu="0" address="0xFF81D5" value="0x04"/>
+        </option>
+        <option desc="特殊武器 - 爆炸 PL1">
+            <parameter cpu="0" address="0xFF81D5" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8386" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8328" value="0x09"/>
+            <parameter cpu="0" address="0xFF8329" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="角色等级 8 (最大) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF838E" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="武器等级 8 (最大) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8389" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8382" value="0x0B"/>
+            <parameter cpu="0" address="0xFF838F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色球 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8381" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大经验值 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF838A" value="0x99"/>
+            <parameter cpu="0" address="0xFF838B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊武器 - 石头 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="特殊武器 - 石头 PL2">
+            <parameter cpu="0" address="0xFF8275" value="0x00"/>
+        </option>
+        <option desc="特殊武器 - 保护者 PL2">
+            <parameter cpu="0" address="0xFF8275" value="0x02"/>
+        </option>
+        <option desc="特殊武器 - 火焰弓 PL2">
+            <parameter cpu="0" address="0xFF8275" value="0x04"/>
+        </option>
+        <option desc="特殊武器 - 爆炸 PL2">
+            <parameter cpu="0" address="0xFF8275" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

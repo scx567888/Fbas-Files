@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x1062E1" value="0x63"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x1062E1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x102D09" value="0x64"/>
+        </option>
+        <option desc="血槽闪烁(被攻击后生效) PL1">
+            <parameter cpu="0" address="0x102D09" value="0x23"/>
+        </option>
+        <option desc="耗尽所有能量  PL1">
+            <parameter cpu="0" address="0x102D09" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Gowcaizer PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Gowcaizer PL1">
+            <parameter cpu="0" address="0x10464D" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Captain PL1">
+            <parameter cpu="0" address="0x10464D" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Karin PL1">
+            <parameter cpu="0" address="0x10464D" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Fudomaru PL1">
+            <parameter cpu="0" address="0x10464D" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Marion PL1">
+            <parameter cpu="0" address="0x10464D" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Shaia PL1">
+            <parameter cpu="0" address="0x10464D" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Shenlong PL1">
+            <parameter cpu="0" address="0x10464D" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Kyosuke PL1">
+            <parameter cpu="0" address="0x10464D" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Stinger PL1">
+            <parameter cpu="0" address="0x10464D" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Brider PL1">
+            <parameter cpu="0" address="0x10464D" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Platonic Twins PL1">
+            <parameter cpu="0" address="0x10464D" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Ohga PL1">
+            <parameter cpu="0" address="0x10464D" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x1035BF" value="0x64"/>
+        </option>
+        <option desc="血槽闪烁(被攻击后起效) PL2">
+            <parameter cpu="0" address="0x1035BF" value="0x23"/>
+        </option>
+        <option desc="耗尽所有能量  PL2">
+            <parameter cpu="0" address="0x1035BF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Gowcaizer PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Gowcaizer PL2">
+            <parameter cpu="0" address="0x10467D" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Captain PL2">
+            <parameter cpu="0" address="0x10467D" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Karin PL2">
+            <parameter cpu="0" address="0x10467D" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Fudomaru PL2">
+            <parameter cpu="0" address="0x10467D" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Marion PL2">
+            <parameter cpu="0" address="0x10467D" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Shaia PL2">
+            <parameter cpu="0" address="0x10467D" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Shenlong PL2">
+            <parameter cpu="0" address="0x10467D" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Kyosuke PL2">
+            <parameter cpu="0" address="0x10467D" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Stinger PL2">
+            <parameter cpu="0" address="0x10467D" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Brider PL2">
+            <parameter cpu="0" address="0x10467D" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Platonic Twins PL2">
+            <parameter cpu="0" address="0x10467D" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Ohga PL2">
+            <parameter cpu="0" address="0x10467D" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

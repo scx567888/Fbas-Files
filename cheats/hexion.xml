@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA014" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前形状总是形状 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前形状总是形状 1 PL1">
+            <parameter cpu="0" address="0xA144" value="0x00"/>
+        </option>
+        <option desc="当前形状总是形状 2 PL1">
+            <parameter cpu="0" address="0xA144" value="0x01"/>
+        </option>
+        <option desc="当前形状总是形状 3 PL1">
+            <parameter cpu="0" address="0xA144" value="0x02"/>
+        </option>
+        <option desc="当前形状总是形状 4 PL1">
+            <parameter cpu="0" address="0xA144" value="0x03"/>
+        </option>
+        <option desc="当前形状总是形状 5 PL1">
+            <parameter cpu="0" address="0xA144" value="0x04"/>
+        </option>
+        <option desc="当前形状总是形状 6 PL1">
+            <parameter cpu="0" address="0xA144" value="0x05"/>
+        </option>
+        <option desc="当前形状总是形状 7 PL1">
+            <parameter cpu="0" address="0xA144" value="0x06"/>
+        </option>
+        <option desc="当前形状总是形状 8 PL1">
+            <parameter cpu="0" address="0xA144" value="0x07"/>
+        </option>
+        <option desc="当前形状总是形状 9 PL1">
+            <parameter cpu="0" address="0xA144" value="0x08"/>
+        </option>
+        <option desc="当前形状总是形状 10 PL1">
+            <parameter cpu="0" address="0xA144" value="0x09"/>
+        </option>
+        <option desc="当前形状总是形状 11 PL1">
+            <parameter cpu="0" address="0xA144" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="下一形状总是形状 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一形状总是形状 1 PL1">
+            <parameter cpu="0" address="0xA143" value="0x00"/>
+        </option>
+        <option desc="下一形状总是形状 2 PL1">
+            <parameter cpu="0" address="0xA143" value="0x01"/>
+        </option>
+        <option desc="下一形状总是形状 3 PL1">
+            <parameter cpu="0" address="0xA143" value="0x02"/>
+        </option>
+        <option desc="下一形状总是形状 4 PL1">
+            <parameter cpu="0" address="0xA143" value="0x03"/>
+        </option>
+        <option desc="下一形状总是形状 5 PL1">
+            <parameter cpu="0" address="0xA143" value="0x04"/>
+        </option>
+        <option desc="下一形状总是形状 6 PL1">
+            <parameter cpu="0" address="0xA143" value="0x05"/>
+        </option>
+        <option desc="下一形状总是形状 7 PL1">
+            <parameter cpu="0" address="0xA143" value="0x06"/>
+        </option>
+        <option desc="下一形状总是形状 8 PL1">
+            <parameter cpu="0" address="0xA143" value="0x07"/>
+        </option>
+        <option desc="下一形状总是形状 9 PL1">
+            <parameter cpu="0" address="0xA143" value="0x08"/>
+        </option>
+        <option desc="下一形状总是形状 10 PL1">
+            <parameter cpu="0" address="0xA143" value="0x09"/>
+        </option>
+        <option desc="下一形状总是形状 11 PL1">
+            <parameter cpu="0" address="0xA143" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="当前形状总是形状 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前形状总是形状 1 PL2">
+            <parameter cpu="0" address="0xA244" value="0x00"/>
+        </option>
+        <option desc="当前形状总是形状 2 PL2">
+            <parameter cpu="0" address="0xA244" value="0x01"/>
+        </option>
+        <option desc="当前形状总是形状 3 PL2">
+            <parameter cpu="0" address="0xA244" value="0x02"/>
+        </option>
+        <option desc="当前形状总是形状 4 PL2">
+            <parameter cpu="0" address="0xA244" value="0x03"/>
+        </option>
+        <option desc="当前形状总是形状 5 PL2">
+            <parameter cpu="0" address="0xA244" value="0x04"/>
+        </option>
+        <option desc="当前形状总是形状 6 PL2">
+            <parameter cpu="0" address="0xA244" value="0x05"/>
+        </option>
+        <option desc="当前形状总是形状 7 PL2">
+            <parameter cpu="0" address="0xA244" value="0x06"/>
+        </option>
+        <option desc="当前形状总是形状 8 PL2">
+            <parameter cpu="0" address="0xA244" value="0x07"/>
+        </option>
+        <option desc="当前形状总是形状 9 PL2">
+            <parameter cpu="0" address="0xA244" value="0x08"/>
+        </option>
+        <option desc="当前形状总是形状 10 PL2">
+            <parameter cpu="0" address="0xA244" value="0x09"/>
+        </option>
+        <option desc="当前形状总是形状 11 PL2">
+            <parameter cpu="0" address="0xA244" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="下一形状总是形状 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一形状总是形状 1 PL2">
+            <parameter cpu="0" address="0xA243" value="0x00"/>
+        </option>
+        <option desc="下一形状总是形状 2 PL2">
+            <parameter cpu="0" address="0xA243" value="0x01"/>
+        </option>
+        <option desc="下一形状总是形状 3 PL2">
+            <parameter cpu="0" address="0xA243" value="0x02"/>
+        </option>
+        <option desc="下一形状总是形状 4 PL2">
+            <parameter cpu="0" address="0xA243" value="0x03"/>
+        </option>
+        <option desc="下一形状总是形状 5 PL2">
+            <parameter cpu="0" address="0xA243" value="0x04"/>
+        </option>
+        <option desc="下一形状总是形状 6 PL2">
+            <parameter cpu="0" address="0xA243" value="0x05"/>
+        </option>
+        <option desc="下一形状总是形状 7 PL2">
+            <parameter cpu="0" address="0xA243" value="0x06"/>
+        </option>
+        <option desc="下一形状总是形状 8 PL2">
+            <parameter cpu="0" address="0xA243" value="0x07"/>
+        </option>
+        <option desc="下一形状总是形状 9 PL2">
+            <parameter cpu="0" address="0xA243" value="0x08"/>
+        </option>
+        <option desc="下一形状总是形状 10 PL2">
+            <parameter cpu="0" address="0xA243" value="0x09"/>
+        </option>
+        <option desc="下一形状总是形状 11 PL2">
+            <parameter cpu="0" address="0xA243" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择声音模式" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xAFD8" value="0x00"/>
+        </option>
+        <option desc="英语">
+            <parameter cpu="0" address="0xAFD8" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

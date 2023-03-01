@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC019" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F6" value="0x63"/>
+            <parameter cpu="0" address="0xC5F7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器" default="0">
+        <option desc="关闭"/>
+        <option desc="普通">
+            <parameter cpu="0" address="0xC5F9" value="0x00"/>
+        </option>
+        <option desc="3向武器">
+            <parameter cpu="0" address="0xC5F9" value="0x10"/>
+        </option>
+        <option desc="电波">
+            <parameter cpu="0" address="0xC5F9" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC673" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC674" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

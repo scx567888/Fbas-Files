@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x5010" value="0x5A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限移动时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x45FE" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x460E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="冻结妖怪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x44FD" value="0x02"/>
+            <parameter cpu="0" address="0x44FE" value="0x02"/>
+            <parameter cpu="0" address="0x44FF" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="冰冻炸弹/导弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x465D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="阻挡妖怪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4667" value="0x20"/>
+            <parameter cpu="0" address="0x4668" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限阻碍妖怪时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4664" value="0x20"/>
+            <parameter cpu="0" address="0x4665" value="0x20"/>
+            <parameter cpu="0" address="0x4666" value="0x20"/>
+        </option>
+    </cheat>
+</shufflecheat>

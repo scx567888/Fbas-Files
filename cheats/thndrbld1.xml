@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80F0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29C09B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="加速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29C119" value="0x0C"/>
+            <parameter cpu="0" address="0x29E120" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="最大击毁敌军装备数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29C0A8" value="0x09"/>
+            <parameter cpu="0" address="0x29C0A9" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 大炮" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x282161" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x29C081" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x29C081" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x29C081" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x29C081" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开局 (Only Display)" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x29C083" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x29C083" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x29C083" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

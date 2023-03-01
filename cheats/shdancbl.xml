@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC407" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC41F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有 普通枪" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有 普通枪">
+            <parameter cpu="0" address="0xFFC490" value="0x00"/>
+        </option>
+        <option desc="总是有火力升级武器">
+            <parameter cpu="0" address="0xFFC490" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFEB0A" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFEB8A" value="0x9A"/>
+        </option>
+    </cheat>
+</shufflecheat>

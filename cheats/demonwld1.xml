@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC002F9" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个'P' 总是 = 护盾 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC002E9" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="得到导弹! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到导弹! PL1">
+            <parameter cpu="0" address="0xC002ED" value="0x00"/>
+        </option>
+        <option desc="得到激光! PL1">
+            <parameter cpu="0" address="0xC002ED" value="0x01"/>
+        </option>
+        <option desc="得到自动武器! PL1">
+            <parameter cpu="0" address="0xC002ED" value="0x02"/>
+        </option>
+        <option desc="得到炸弹! PL1">
+            <parameter cpu="0" address="0xC002ED" value="0x03"/>
+        </option>
+        <option desc="得到三向武器! PL1">
+            <parameter cpu="0" address="0xC002ED" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC002FB" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个'P' 总是 = 护盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC002EB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有导弹 PL2">
+            <parameter cpu="0" address="0xC002EF" value="0x00"/>
+        </option>
+        <option desc="总是有激光 PL2">
+            <parameter cpu="0" address="0xC002EF" value="0x01"/>
+        </option>
+        <option desc="总是有自动武器 PL2">
+            <parameter cpu="0" address="0xC002EF" value="0x02"/>
+        </option>
+        <option desc="总是有炸弹 PL2">
+            <parameter cpu="0" address="0xC002EF" value="0x03"/>
+        </option>
+        <option desc="总是有三向武器 PL2">
+            <parameter cpu="0" address="0xC002EF" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

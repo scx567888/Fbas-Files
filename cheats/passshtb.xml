@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限得点" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE87E" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="去到最后的比赛 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE865" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是首次发球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE87B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是设置为赢取比赛" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE86F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="电脑总是设置为 0" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE871" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是赢到赛点" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE873" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是设置电脑得分为 0" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE875" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

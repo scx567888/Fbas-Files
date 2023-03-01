@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A5E5" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A5E7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是普通枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是普通枪 PL1">
+            <parameter cpu="0" address="0x10A5EF" value="0x00"/>
+        </option>
+        <option desc="总是快枪 PL1">
+            <parameter cpu="0" address="0x10A5EF" value="0x01"/>
+        </option>
+        <option desc="总是散弹枪 PL1">
+            <parameter cpu="0" address="0x10A5EF" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1&amp;PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109872" value="0xAC"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A623" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A625" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是普通枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是普通枪 PL2">
+            <parameter cpu="0" address="0x10A62D" value="0x00"/>
+        </option>
+        <option desc="总是快枪 PL2">
+            <parameter cpu="0" address="0x10A62D" value="0x01"/>
+        </option>
+        <option desc="总是散弹枪 PL2">
+            <parameter cpu="0" address="0x10A62D" value="0x02"/>
+        </option>
+        <option desc="无敌 PL2">
+            <parameter cpu="0" address="0x10A62D" value="0xAC"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 PL1 ''开启''">
+            <parameter cpu="0" address="0x10A5F0" value="0x01"/>
+            <parameter cpu="0" address="0x10A5F1" value="0x01"/>
+        </option>
+        <option desc="无敌 PL1 ''关闭''">
+            <parameter cpu="0" address="0x10A5F0" value="0x00"/>
+            <parameter cpu="0" address="0x10A5F1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 PL2 ''开启''">
+            <parameter cpu="0" address="0x10A62E" value="0x01"/>
+            <parameter cpu="0" address="0x10A62F" value="0x01"/>
+        </option>
+        <option desc="无敌 PL2 ''关闭''">
+            <parameter cpu="0" address="0x10A62E" value="0x00"/>
+            <parameter cpu="0" address="0x10A62F" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

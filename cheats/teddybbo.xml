@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC528" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间(寻宝)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC2F1" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC608" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大组合奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC60E" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="跳过IC检测" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xEFFE" value="0x4B"/>
+            <parameter cpu="0" address="0xEFFF" value="0x4F"/>
+        </option>
+    </cheat>
+</shufflecheat>

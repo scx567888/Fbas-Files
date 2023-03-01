@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12EA" value="0x96"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12F4" value="0xE8"/>
+            <parameter cpu="0" address="0x12F5" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0124" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12F8" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="持续使用爆弹(切勿滚屏太快)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2864" value="0x2D"/>
+        </option>
+    </cheat>
+    <cheat desc="全自动开火" default="0">
+        <option desc="关闭"/>
+        <option desc="取消">
+            <parameter cpu="0" address="0x12EF" value="0x00"/>
+            <parameter cpu="0" address="0x12EE" value="0x00"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12EF" value="0x02"/>
+            <parameter cpu="0" address="0x12EE" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x169D" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001A6" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1061CE" value="0x09"/>
+            <parameter cpu="0" address="0x1061CF" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105974" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105997" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105993" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10598B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加强火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10598A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大笑脸奖励 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105976" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是99钻石 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105975" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059C6" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059E9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059E5" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059DD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加强火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059DC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大笑脸奖励 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059C8" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是99钻石 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1059C7" value="0x99"/>
+        </option>
+    </cheat>
+</shufflecheat>

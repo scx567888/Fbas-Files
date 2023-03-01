@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x105382" value="0x63"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x105382" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="血无限 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105F6E" value="0x87"/>
+            <parameter cpu="0" address="0x105F6F" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="怒激力量无限 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10614A" value="0x87"/>
+            <parameter cpu="0" address="0x106152" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Arashi">
+            <parameter cpu="0" address="0x105F39" value="0x00"/>
+        </option>
+        <option desc="Ikkyo">
+            <parameter cpu="0" address="0x105F39" value="0x01"/>
+        </option>
+        <option desc="Kasumi">
+            <parameter cpu="0" address="0x105F39" value="0x02"/>
+        </option>
+        <option desc="Kinshiro">
+            <parameter cpu="0" address="0x105F39" value="0x03"/>
+        </option>
+        <option desc="Sanpei">
+            <parameter cpu="0" address="0x105F39" value="0x04"/>
+        </option>
+        <option desc="Syogethu">
+            <parameter cpu="0" address="0x105F39" value="0x05"/>
+        </option>
+        <option desc="Shishimaru">
+            <parameter cpu="0" address="0x105F39" value="0x06"/>
+        </option>
+        <option desc="Benkei">
+            <parameter cpu="0" address="0x105F39" value="0x07"/>
+        </option>
+        <option desc="Goemon">
+            <parameter cpu="0" address="0x105F39" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="血无限 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1063C0" value="0x87"/>
+            <parameter cpu="0" address="0x1063C1" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="怒激力量无限 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10659C" value="0x87"/>
+            <parameter cpu="0" address="0x1065A4" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Arashi">
+            <parameter cpu="0" address="0x10638B" value="0x00"/>
+        </option>
+        <option desc="Ikkyo">
+            <parameter cpu="0" address="0x10638B" value="0x01"/>
+        </option>
+        <option desc="Kasumi">
+            <parameter cpu="0" address="0x10638B" value="0x02"/>
+        </option>
+        <option desc="Kinshiro">
+            <parameter cpu="0" address="0x10638B" value="0x03"/>
+        </option>
+        <option desc="Sanpei">
+            <parameter cpu="0" address="0x10638B" value="0x04"/>
+        </option>
+        <option desc="Syogethu">
+            <parameter cpu="0" address="0x10638B" value="0x05"/>
+        </option>
+        <option desc="Shishimaru">
+            <parameter cpu="0" address="0x10638B" value="0x06"/>
+        </option>
+        <option desc="Benkei">
+            <parameter cpu="0" address="0x10638B" value="0x07"/>
+        </option>
+        <option desc="Goemon">
+            <parameter cpu="0" address="0x10638B" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

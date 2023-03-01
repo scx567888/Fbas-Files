@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BE6" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BFB" value="0x04"/>
+            <parameter cpu="0" address="0x107BFD" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107C07" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BE9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107C24" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107C39" value="0x04"/>
+            <parameter cpu="0" address="0x107C3B" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107C45" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107C27" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最终战役模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107C66" value="0xFF"/>
+            <parameter cpu="0" address="0x107C6F" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

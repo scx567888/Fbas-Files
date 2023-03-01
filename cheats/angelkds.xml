@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC301" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xC400" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xC400" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xC400" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xC400" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xC400" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xC400" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

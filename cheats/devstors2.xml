@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4103" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x410C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火箭 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x410E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰喷射器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x416B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限普通手雷 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x410D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限快射手雷 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x417C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限凝固汽油弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x417B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4480" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4116" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火箭 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4118" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰喷射器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x416C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限普通手雷 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4117" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限快射手雷  PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x417E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限凝固汽油弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x417D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x45C0" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4011" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="第1关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关BOSS一击杀">
+            <parameter cpu="0" address="0x495B" value="0x1F"/>
+        </option>
+        <option desc="第6关BOSS一击杀">
+            <parameter cpu="0" address="0x495B" value="0x2C"/>
+        </option>
+        <option desc="第8关BOSS一击杀">
+            <parameter cpu="0" address="0x495B" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="第2关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x49D3" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="第3关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4983" value="0x25"/>
+        </option>
+    </cheat>
+    <cheat desc="第4关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4A23" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4030" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x4030" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x4030" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x4030" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x4030" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x4030" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x4030" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x4030" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

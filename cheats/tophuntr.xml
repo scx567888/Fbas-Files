@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续玩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10008A" value="0x00"/>
+            <parameter cpu="0" address="0x10008B" value="0x00"/>
+            <parameter cpu="0" address="0x10FD89" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108CC2" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限生命 PL1">
+            <parameter cpu="0" address="0x108D1D" value="0x09"/>
+        </option>
+        <option desc="生命数为1 PL1">
+            <parameter cpu="0" address="0x108D1D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能力状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1颗能量珠">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x01"/>
+        </option>
+        <option desc="2颗能量珠">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x02"/>
+        </option>
+        <option desc="3颗能量珠">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x03"/>
+        </option>
+        <option desc="4颗能量珠">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x04"/>
+        </option>
+        <option desc="5颗能量珠">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x05"/>
+        </option>
+        <option desc="6颗能量珠">
+            <parameter cpu="0" address="0x108D0D" value="0x05"/>
+            <parameter cpu="0" address="0x10056B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限生命 PL2">
+            <parameter cpu="0" address="0x108D21" value="0x09"/>
+        </option>
+        <option desc="生命数为1 PL2">
+            <parameter cpu="0" address="0x108D21" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能力状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1颗能量珠">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x01"/>
+        </option>
+        <option desc="2颗能量珠">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x02"/>
+        </option>
+        <option desc="3颗能量珠">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x03"/>
+        </option>
+        <option desc="4颗能量珠">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x04"/>
+        </option>
+        <option desc="5颗能量珠">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x05"/>
+        </option>
+        <option desc="6颗能量珠">
+            <parameter cpu="0" address="0x108D11" value="0x05"/>
+            <parameter cpu="0" address="0x10116B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100507" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10054C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101107" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10114C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

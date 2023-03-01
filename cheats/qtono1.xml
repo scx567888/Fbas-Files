@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="回答1总是正确" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE7DA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="正确答案结束提问 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE652" value="0x01"/>
+            <parameter cpu="0" address="0xE7DB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE631" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE632" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

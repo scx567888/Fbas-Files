@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0ECD" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限健康状态(能量) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1175" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1190" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF117C" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="武器火力 - 等级 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="武器火力 - 等级 1 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x00"/>
+        </option>
+        <option desc="武器火力 - 等级 2 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x01"/>
+        </option>
+        <option desc="武器火力 - 等级 3 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x02"/>
+        </option>
+        <option desc="武器火力 - 等级 4 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x03"/>
+        </option>
+        <option desc="武器火力 - 等级 5 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x04"/>
+        </option>
+        <option desc="武器火力 - 等级 6 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x05"/>
+        </option>
+        <option desc="武器火力 - 等级 7 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x06"/>
+        </option>
+        <option desc="武器火力 - 等级 8 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x07"/>
+        </option>
+        <option desc="武器火力 - 等级 9 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x08"/>
+        </option>
+        <option desc="武器火力 - 等级 10 PL1">
+            <parameter cpu="0" address="0xFF1188" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="武器类型 - 机关枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="武器类型 - 机关枪 PL1">
+            <parameter cpu="0" address="0xFF1185" value="0x00"/>
+        </option>
+        <option desc="武器类型 - 火焰枪 PL1">
+            <parameter cpu="0" address="0xFF1185" value="0x01"/>
+        </option>
+        <option desc="武器类型 - 散弹猎枪 PL1">
+            <parameter cpu="0" address="0xFF1185" value="0x02"/>
+        </option>
+        <option desc="武器类型 - 榴弹枪 PL1">
+            <parameter cpu="0" address="0xFF1185" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限健康状态(能量) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1225" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1240" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF122C" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="武器火力 - 等级 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="武器火力 - 等级 1 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x00"/>
+        </option>
+        <option desc="武器火力 - 等级 2 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x01"/>
+        </option>
+        <option desc="武器火力 - 等级 3 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x02"/>
+        </option>
+        <option desc="武器火力 - 等级 4 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x03"/>
+        </option>
+        <option desc="武器火力 - 等级 5 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x04"/>
+        </option>
+        <option desc="武器火力 - 等级 6 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x05"/>
+        </option>
+        <option desc="武器火力 - 等级 7 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x06"/>
+        </option>
+        <option desc="武器火力 - 等级 8 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x07"/>
+        </option>
+        <option desc="武器火力 - 等级 9 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x08"/>
+        </option>
+        <option desc="武器火力 - 等级 10 PL2">
+            <parameter cpu="0" address="0xFF1238" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="武器类型 - 机关枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="武器类型 - 机关枪 PL2">
+            <parameter cpu="0" address="0xFF1235" value="0x00"/>
+        </option>
+        <option desc="武器类型 - 火焰枪 PL2">
+            <parameter cpu="0" address="0xFF1235" value="0x01"/>
+        </option>
+        <option desc="武器类型 - 散弹猎枪 PL2">
+            <parameter cpu="0" address="0xFF1235" value="0x02"/>
+        </option>
+        <option desc="武器类型 - 榴弹枪 PL2">
+            <parameter cpu="0" address="0xFF1235" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限健康状态(能量) PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF12D5" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF12F0" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF12DC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="武器火力 - 等级 1 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="武器火力 - 等级 1 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x00"/>
+        </option>
+        <option desc="武器火力 - 等级 2 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x01"/>
+        </option>
+        <option desc="武器火力 - 等级 3 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x02"/>
+        </option>
+        <option desc="武器火力 - 等级 4 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x03"/>
+        </option>
+        <option desc="武器火力 - 等级 5 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x04"/>
+        </option>
+        <option desc="武器火力 - 等级 6 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x05"/>
+        </option>
+        <option desc="武器火力 - 等级 7 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x06"/>
+        </option>
+        <option desc="武器火力 - 等级 8 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x07"/>
+        </option>
+        <option desc="武器火力 - 等级 9 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x08"/>
+        </option>
+        <option desc="武器火力 - 等级 10 PL3">
+            <parameter cpu="0" address="0xFF12E8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="武器类型 - 机关枪 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="武器类型 - 机关枪 PL3">
+            <parameter cpu="0" address="0xFF12E5" value="0x00"/>
+        </option>
+        <option desc="武器类型 - 火焰枪 PL3">
+            <parameter cpu="0" address="0xFF12E5" value="0x01"/>
+        </option>
+        <option desc="武器类型 - 散弹猎枪 PL3">
+            <parameter cpu="0" address="0xFF12E5" value="0x02"/>
+        </option>
+        <option desc="武器类型 - 榴弹枪 PL3">
+            <parameter cpu="0" address="0xFF12E5" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择任务 - 任务 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选择任务 - 任务 1">
+            <parameter cpu="0" address="0xFF0E8B" value="0x00"/>
+        </option>
+        <option desc="选择任务 - 任务 2">
+            <parameter cpu="0" address="0xFF0E8B" value="0x01"/>
+        </option>
+        <option desc="选择任务 - 任务 3">
+            <parameter cpu="0" address="0xFF0E8B" value="0x02"/>
+        </option>
+        <option desc="选择任务 - 任务 4">
+            <parameter cpu="0" address="0xFF0E8B" value="0x03"/>
+        </option>
+        <option desc="选择任务 - 任务 5">
+            <parameter cpu="0" address="0xFF0E8B" value="0x04"/>
+        </option>
+        <option desc="选择任务 - 任务 6">
+            <parameter cpu="0" address="0xFF0E8B" value="0x05"/>
+        </option>
+        <option desc="选择任务 - 最后任务">
+            <parameter cpu="0" address="0xFF0E8B" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

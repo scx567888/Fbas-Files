@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="角色选择 - 默认" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - 默认">
+            <parameter cpu="0" address="0x20F792" value="0x00"/>
+        </option>
+        <option desc="角色选择 - ''模式2''">
+            <parameter cpu="0" address="0x20F792" value="0x02"/>
+        </option>
+        <option desc="角色选择 - ''模式3''">
+            <parameter cpu="0" address="0x20F792" value="0x04"/>
+        </option>
+        <option desc="角色选择 + 队伍编辑">
+            <parameter cpu="0" address="0x20F792" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊模式 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="特殊模式 ''开启''">
+            <parameter cpu="0" address="0x20F760" value="0xFF"/>
+        </option>
+        <option desc="特殊模式 ''关闭''">
+            <parameter cpu="0" address="0x20F760" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041BD" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041BA" value="0x01"/>
+            <parameter cpu="0" address="0x2041BB" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="最大前射火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041B8" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大侧射火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041A2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大外挂武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041C0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择副机攻击方式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="机翼侧固定聚集">
+            <parameter cpu="0" address="0x2041A9" value="0x00"/>
+        </option>
+        <option desc="尾部固定">
+            <parameter cpu="0" address="0x2041A9" value="0x02"/>
+        </option>
+        <option desc="前方固定">
+            <parameter cpu="0" address="0x2041A9" value="0x04"/>
+        </option>
+        <option desc="旋转多方向">
+            <parameter cpu="0" address="0x2041A9" value="0x06"/>
+        </option>
+        <option desc="随主机随意拖拉">
+            <parameter cpu="0" address="0x2041A9" value="0x08"/>
+        </option>
+        <option desc="机翼侧固定跟踪">
+            <parameter cpu="0" address="0x2041A9" value="0x0A"/>
+        </option>
+        <option desc="随主机十字拖拉">
+            <parameter cpu="0" address="0x2041A9" value="0x0C"/>
+        </option>
+        <option desc="脱离主机跟踪">
+            <parameter cpu="0" address="0x2041A9" value="0x0E"/>
+        </option>
+        <option desc="机翼侧固定分散">
+            <parameter cpu="0" address="0x2041A9" value="0x10"/>
+        </option>
+        <option desc="旋转直射">
+            <parameter cpu="0" address="0x2041A9" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20439F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20439C" value="0x01"/>
+            <parameter cpu="0" address="0x20439D" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="最大前射火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20439A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大侧射火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x204384" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大外挂武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2043A2" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择副机攻击方式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="机翼侧固定聚集">
+            <parameter cpu="0" address="0x20438B" value="0x00"/>
+        </option>
+        <option desc="尾部固定">
+            <parameter cpu="0" address="0x20438B" value="0x02"/>
+        </option>
+        <option desc="前方固定">
+            <parameter cpu="0" address="0x20438B" value="0x04"/>
+        </option>
+        <option desc="旋转多方向">
+            <parameter cpu="0" address="0x20438B" value="0x06"/>
+        </option>
+        <option desc="随主机随意拖拉">
+            <parameter cpu="0" address="0x20438B" value="0x08"/>
+        </option>
+        <option desc="机翼侧固定跟踪">
+            <parameter cpu="0" address="0x20438B" value="0x0A"/>
+        </option>
+        <option desc="随主机十字拖拉">
+            <parameter cpu="0" address="0x20438B" value="0x0C"/>
+        </option>
+        <option desc="脱离主机跟踪">
+            <parameter cpu="0" address="0x20438B" value="0x0E"/>
+        </option>
+        <option desc="机翼侧固定分散">
+            <parameter cpu="0" address="0x20438B" value="0x10"/>
+        </option>
+        <option desc="旋转直射">
+            <parameter cpu="0" address="0x20438B" value="0x12"/>
+        </option>
+    </cheat>
+</shufflecheat>

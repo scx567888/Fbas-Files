@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x608CC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E1E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限多形体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E17" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60DD7" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E11" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="改变为龙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E0A" value="0x03"/>
+            <parameter cpu="0" address="0x60F3F" value="0x03"/>
+            <parameter cpu="0" address="0x60F81" value="0x06"/>
+            <parameter cpu="0" address="0x60F82" value="0x0D"/>
+            <parameter cpu="0" address="0x60F83" value="0xBE"/>
+        </option>
+    </cheat>
+    <cheat desc="变龙时间结束 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E0A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E9F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限多形体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E97" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E57" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E91" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="改变为龙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E8A" value="0x03"/>
+            <parameter cpu="0" address="0x6103F" value="0x03"/>
+            <parameter cpu="0" address="0x61081" value="0x06"/>
+            <parameter cpu="0" address="0x61082" value="0x0E"/>
+            <parameter cpu="0" address="0x61083" value="0x3E"/>
+        </option>
+    </cheat>
+    <cheat desc="变龙时间结束 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60E8A" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

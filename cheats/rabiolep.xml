@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC3D9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC3D8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC3C9" value="0xFF"/>
+            <parameter cpu="0" address="0xFC3CA" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC269" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="选择导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0xFC26F" value="0x00"/>
+            <parameter cpu="0" address="0xFC3DB" value="0x00"/>
+        </option>
+        <option desc="升级">
+            <parameter cpu="0" address="0xFC26F" value="0xFF"/>
+            <parameter cpu="0" address="0xFC3DB" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC3F9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC3F8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC3E9" value="0xFF"/>
+            <parameter cpu="0" address="0xFC3EA" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFC2A9" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="选择导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0xFC2AF" value="0x00"/>
+            <parameter cpu="0" address="0xFC3FB" value="0x00"/>
+        </option>
+        <option desc="升级">
+            <parameter cpu="0" address="0xFC2AF" value="0xFF"/>
+            <parameter cpu="0" address="0xFC3FB" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

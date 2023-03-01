@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限主要游戏时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10019D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限摸牌时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100227" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="立即自摸胡牌!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10158F" value="0x11"/>
+            <parameter cpu="0" address="0x101591" value="0x19"/>
+            <parameter cpu="0" address="0x101593" value="0x21"/>
+            <parameter cpu="0" address="0x101595" value="0x29"/>
+            <parameter cpu="0" address="0x101597" value="0x31"/>
+            <parameter cpu="0" address="0x101599" value="0x39"/>
+            <parameter cpu="0" address="0x10159B" value="0x41"/>
+            <parameter cpu="0" address="0x10159D" value="0x42"/>
+            <parameter cpu="0" address="0x10159F" value="0x43"/>
+            <parameter cpu="0" address="0x1015A1" value="0x44"/>
+            <parameter cpu="0" address="0x1015A3" value="0x45"/>
+            <parameter cpu="0" address="0x1015A5" value="0x46"/>
+            <parameter cpu="0" address="0x1015A7" value="0x47"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

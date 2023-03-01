@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x49A7" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="得到20,000分!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4989" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前局数(调十分位)" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x49A8" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x49A8" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x49A8" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x49A8" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x49A8" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x49A8" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x49A8" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x49A8" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x49A8" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x49A8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前局数(调个位数)" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x49A9" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x49A9" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x49A9" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x49A9" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x49A9" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x49A9" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x49A9" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x49A9" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x49A9" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x49A9" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

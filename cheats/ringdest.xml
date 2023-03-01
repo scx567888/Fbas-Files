@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF726E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xFF72CA" value="0x99"/>
+        </option>
+        <option desc="完成本次战斗!">
+            <parameter cpu="0" address="0xFF72CA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF802C" value="0x01"/>
+            <parameter cpu="0" address="0xFF802D" value="0x16"/>
+            <parameter cpu="0" address="0xFF802E" value="0x01"/>
+            <parameter cpu="0" address="0xFF802F" value="0x17"/>
+        </option>
+        <option desc="耗尽更多能量! PL1">
+            <parameter cpu="0" address="0xFF802C" value="0x00"/>
+            <parameter cpu="0" address="0xFF802D" value="0x00"/>
+            <parameter cpu="0" address="0xFF802E" value="0x00"/>
+            <parameter cpu="0" address="0xFF802F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8047" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80CF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80B1" value="0x01"/>
+            <parameter cpu="0" address="0xFF80B6" value="0x0F"/>
+            <parameter cpu="0" address="0xFF80B7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有超级能力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80E6" value="0x00"/>
+            <parameter cpu="0" address="0xFF8119" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Biff PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Biff PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Black.W PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x0B"/>
+        </option>
+        <option desc="角色选择 - Grater PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Gunloc PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Haggar PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Jumbo PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Oni PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Ortega PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x0D"/>
+        </option>
+        <option desc="角色选择 - Rasta PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Saber PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x0A"/>
+        </option>
+        <option desc="角色选择 - Scorpion PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x09"/>
+        </option>
+        <option desc="角色选择 - Stingray PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x04"/>
+        </option>
+        <option desc="角色选择 - Titan PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Wraith PL1">
+            <parameter cpu="0" address="0xFF7325" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF842C" value="0x01"/>
+            <parameter cpu="0" address="0xFF842D" value="0x16"/>
+            <parameter cpu="0" address="0xFF842E" value="0x01"/>
+            <parameter cpu="0" address="0xFF842F" value="0x17"/>
+        </option>
+        <option desc="耗尽更多能量! PL2">
+            <parameter cpu="0" address="0xFF842C" value="0x00"/>
+            <parameter cpu="0" address="0xFF842D" value="0x00"/>
+            <parameter cpu="0" address="0xFF842E" value="0x00"/>
+            <parameter cpu="0" address="0xFF842F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8447" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84CF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B1" value="0x01"/>
+            <parameter cpu="0" address="0xFF84B6" value="0x0F"/>
+            <parameter cpu="0" address="0xFF84B7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有超级能力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E6" value="0x00"/>
+            <parameter cpu="0" address="0xFF8519" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Biff PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Biff PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Black.W PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x0B"/>
+        </option>
+        <option desc="角色选择 - Grater PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Gunloc PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Haggar PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Jumbo PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Oni PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Ortega PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x0D"/>
+        </option>
+        <option desc="角色选择 - Rasta PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Saber PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x0A"/>
+        </option>
+        <option desc="角色选择 - Scorpion PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x09"/>
+        </option>
+        <option desc="角色选择 - Stingray PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x04"/>
+        </option>
+        <option desc="角色选择 - Titan PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Wraith PL2">
+            <parameter cpu="0" address="0xFF7327" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景 - 东京" default="0">
+        <option desc="关闭"/>
+        <option desc="选择背景 - 东京">
+            <parameter cpu="0" address="0xFF72CF" value="0x00"/>
+        </option>
+        <option desc="选择背景 - 莫斯科">
+            <parameter cpu="0" address="0xFF72CF" value="0x01"/>
+        </option>
+        <option desc="选择背景 - Hanover">
+            <parameter cpu="0" address="0xFF72CF" value="0x02"/>
+        </option>
+        <option desc="选择背景 - 伦敦">
+            <parameter cpu="0" address="0xFF72CF" value="0x03"/>
+        </option>
+        <option desc="选择背景 - 悉尼">
+            <parameter cpu="0" address="0xFF72CF" value="0x04"/>
+        </option>
+        <option desc="选择背景 - 墨西哥">
+            <parameter cpu="0" address="0xFF72CF" value="0x05"/>
+        </option>
+        <option desc="选择背景 - 纽约">
+            <parameter cpu="0" address="0xFF72CF" value="0x06"/>
+        </option>
+        <option desc="选择背景 - 洛杉矶">
+            <parameter cpu="0" address="0xFF72CF" value="0x07"/>
+        </option>
+        <option desc="选择背景 - 卡尔加里 加拿大">
+            <parameter cpu="0" address="0xFF72CF" value="0x08"/>
+        </option>
+        <option desc="选择背景 - 圣多明各">
+            <parameter cpu="0" address="0xFF72CF" value="0x09"/>
+        </option>
+        <option desc="选择背景 - 新德里">
+            <parameter cpu="0" address="0xFF72CF" value="0x0A"/>
+        </option>
+        <option desc="选择背景 - 拉斯韦加斯">
+            <parameter cpu="0" address="0xFF72CF" value="0x0B"/>
+        </option>
+        <option desc="选择背景 - BWA">
+            <parameter cpu="0" address="0xFF72CF" value="0x0C"/>
+        </option>
+        <option desc="选择背景 - CWA">
+            <parameter cpu="0" address="0xFF72CF" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="地区开关 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地区开关 = 日本">
+            <parameter cpu="0" address="0xFF7445" value="0x00"/>
+        </option>
+        <option desc="地区开关 = 美国">
+            <parameter cpu="0" address="0xFF7445" value="0x01"/>
+        </option>
+        <option desc="地区开关 = 欧洲">
+            <parameter cpu="0" address="0xFF7445" value="0x02"/>
+        </option>
+        <option desc="地区开关 = 亚洲 Sample">
+            <parameter cpu="0" address="0xFF7445" value="0x03"/>
+        </option>
+        <option desc="地区开关 = 亚洲 TW">
+            <parameter cpu="0" address="0xFF7445" value="0x04"/>
+        </option>
+        <option desc="地区开关 = 西班牙">
+            <parameter cpu="0" address="0xFF7445" value="0x05"/>
+        </option>
+        <option desc="地区开关 = 巴西">
+            <parameter cpu="0" address="0xFF7445" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

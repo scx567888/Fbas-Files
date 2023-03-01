@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201035" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18007C" value="0x09"/>
+            <parameter cpu="0" address="0x180080" value="0x0905"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x184F00" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x184F21" value="0x04"/>
+            <parameter cpu="0" address="0x20100B" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x184E18" value="0x02"/>
+            <parameter cpu="0" address="0x00B2C3" value="0xEA"/>
+        </option>
+    </cheat>
+    <cheat desc="无限保险" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x184F2C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x184F30" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="世界版">
+            <parameter cpu="0" address="0x20103C" value="0x00"/>
+        </option>
+        <option desc="日版">
+            <parameter cpu="0" address="0x20103C" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

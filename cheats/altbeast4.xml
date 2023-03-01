@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE018" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC04A" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC03F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无法升级力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无法升级力量 PL1">
+            <parameter cpu="0" address="0xFFC06A" value="0x00"/>
+            <parameter cpu="0" address="0xFFC06B" value="0x00"/>
+        </option>
+        <option desc="力量等级总是 2 PL1">
+            <parameter cpu="0" address="0xFFC06A" value="0x01"/>
+            <parameter cpu="0" address="0xFFC06B" value="0x01"/>
+        </option>
+        <option desc="力量等级总是 3 PL1">
+            <parameter cpu="0" address="0xFFC06A" value="0x02"/>
+            <parameter cpu="0" address="0xFFC06B" value="0x02"/>
+        </option>
+        <option desc="总是兽化 PL1">
+            <parameter cpu="0" address="0xFFC06A" value="0x03"/>
+            <parameter cpu="0" address="0xFFC06B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE098" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC44A" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC43F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无法升级力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无法升级力量 PL2">
+            <parameter cpu="0" address="0xFFC46A" value="0x00"/>
+            <parameter cpu="0" address="0xFFC46B" value="0x00"/>
+        </option>
+        <option desc="力量等级总是 2 PL2">
+            <parameter cpu="0" address="0xFFC46A" value="0x01"/>
+            <parameter cpu="0" address="0xFFC46B" value="0x01"/>
+        </option>
+        <option desc="力量等级总是 3 PL2">
+            <parameter cpu="0" address="0xFFC46A" value="0x02"/>
+            <parameter cpu="0" address="0xFFC46B" value="0x02"/>
+        </option>
+        <option desc="总是兽化 PL2">
+            <parameter cpu="0" address="0xFFC46A" value="0x03"/>
+            <parameter cpu="0" address="0xFFC46B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS! [关卡 1,2,4,5]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD44A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS! [关卡 3]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD5CA" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

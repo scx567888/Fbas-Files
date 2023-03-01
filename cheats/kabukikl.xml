@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x00B9F8" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择隐藏角色 PL1(按开始键前开启)" default="0">
+        <option desc="关闭"/>
+        <option desc="曼托">
+            <parameter cpu="0" address="0x102E17" value="0x08"/>
+        </option>
+        <option desc="机械兵">
+            <parameter cpu="0" address="0x102E17" value="0x09"/>
+        </option>
+        <option desc="邪神斋">
+            <parameter cpu="0" address="0x102E17" value="0x0A"/>
+        </option>
+        <option desc="魔龙">
+            <parameter cpu="0" address="0x102E17" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择隐藏角色 PL2(按开始键前开启)" default="0">
+        <option desc="关闭"/>
+        <option desc="曼托">
+            <parameter cpu="0" address="0x102E18" value="0x08"/>
+        </option>
+        <option desc="机械兵">
+            <parameter cpu="0" address="0x102E18" value="0x09"/>
+        </option>
+        <option desc="邪神斋">
+            <parameter cpu="0" address="0x102E18" value="0x0A"/>
+        </option>
+        <option desc="魔龙">
+            <parameter cpu="0" address="0x102E18" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

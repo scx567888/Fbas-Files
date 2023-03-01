@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200988" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="不会被攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不会被攻击 PL1">
+            <parameter cpu="0" address="0x202AC3" value="0x00"/>
+        </option>
+        <option desc="赢得比赛 ! PL2">
+            <parameter cpu="0" address="0x202AC3" value="0x4C"/>
+        </option>
+    </cheat>
+    <cheat desc="赢得比赛 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="赢得比赛 ! PL1">
+            <parameter cpu="0" address="0x202AC7" value="0x4C"/>
+        </option>
+        <option desc="不会被攻击 PL2">
+            <parameter cpu="0" address="0x202AC7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个底部方块总是红色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个底部方块总是红色 PL1">
+            <parameter cpu="0" address="0x202C40" value="0x01"/>
+        </option>
+        <option desc="下一个底部方块总是橙色 PL1">
+            <parameter cpu="0" address="0x202C40" value="0x02"/>
+        </option>
+        <option desc="下一个底部方块总是绿色 PL1">
+            <parameter cpu="0" address="0x202C40" value="0x03"/>
+        </option>
+        <option desc="下一个底部方块总是蓝色 PL1">
+            <parameter cpu="0" address="0x202C40" value="0x04"/>
+        </option>
+        <option desc="下一个底部方块总是紫色 PL1">
+            <parameter cpu="0" address="0x202C40" value="0x05"/>
+        </option>
+        <option desc="下一个底部方块总是泡泡 PL1">
+            <parameter cpu="0" address="0x202C40" value="0x06"/>
+        </option>
+        <option desc="下一个底部方块总是箱子 PL1">
+            <parameter cpu="0" address="0x202C40" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个顶部方块总是红色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个顶部方块总是红色 PL1">
+            <parameter cpu="0" address="0x202C41" value="0x01"/>
+        </option>
+        <option desc="下一个顶部方块总是橙色 PL1">
+            <parameter cpu="0" address="0x202C41" value="0x02"/>
+        </option>
+        <option desc="下一个顶部方块总是绿色 PL1">
+            <parameter cpu="0" address="0x202C41" value="0x03"/>
+        </option>
+        <option desc="下一个顶部方块总是蓝色 PL1">
+            <parameter cpu="0" address="0x202C41" value="0x04"/>
+        </option>
+        <option desc="下一个顶部方块总是紫色 PL1">
+            <parameter cpu="0" address="0x202C41" value="0x05"/>
+        </option>
+        <option desc="下一个顶部方块总是泡泡 PL1">
+            <parameter cpu="0" address="0x202C41" value="0x06"/>
+        </option>
+        <option desc="下一个顶部方块总是箱子 PL1">
+            <parameter cpu="0" address="0x202C41" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个底部方块总是红色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个底部方块总是红色 PL2">
+            <parameter cpu="0" address="0x202C42" value="0x01"/>
+        </option>
+        <option desc="下一个底部方块总是橙色 PL2">
+            <parameter cpu="0" address="0x202C42" value="0x02"/>
+        </option>
+        <option desc="下一个底部方块总是绿色 PL2">
+            <parameter cpu="0" address="0x202C42" value="0x03"/>
+        </option>
+        <option desc="下一个底部方块总是蓝色 PL2">
+            <parameter cpu="0" address="0x202C42" value="0x04"/>
+        </option>
+        <option desc="下一个底部方块总是紫色 PL2">
+            <parameter cpu="0" address="0x202C42" value="0x05"/>
+        </option>
+        <option desc="下一个底部方块总是泡泡 PL2">
+            <parameter cpu="0" address="0x202C42" value="0x06"/>
+        </option>
+        <option desc="下一个底部方块总是箱子 PL2">
+            <parameter cpu="0" address="0x202C42" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个顶部方块总是红色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个顶部方块总是红色 PL2">
+            <parameter cpu="0" address="0x202C43" value="0x01"/>
+        </option>
+        <option desc="下一个顶部方块总是橙色 PL2">
+            <parameter cpu="0" address="0x202C43" value="0x02"/>
+        </option>
+        <option desc="下一个顶部方块总是绿色 PL2">
+            <parameter cpu="0" address="0x202C43" value="0x03"/>
+        </option>
+        <option desc="下一个顶部方块总是蓝色 PL2">
+            <parameter cpu="0" address="0x202C43" value="0x04"/>
+        </option>
+        <option desc="下一个顶部方块总是紫色 PL2">
+            <parameter cpu="0" address="0x202C43" value="0x05"/>
+        </option>
+        <option desc="下一个顶部方块总是泡泡 PL2">
+            <parameter cpu="0" address="0x202C43" value="0x06"/>
+        </option>
+        <option desc="下一个顶部方块总是箱子 PL2">
+            <parameter cpu="0" address="0x202C43" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

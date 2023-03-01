@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF800" value="0x09"/>
+            <parameter cpu="0" address="0xFFF802" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限正常游戏时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC02A" value="0x00"/>
+            <parameter cpu="0" address="0xFFC02B" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励游戏时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF02E" value="0x00"/>
+            <parameter cpu="0" address="0xFFF02F" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC04C" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有食物 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC070" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC08C" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有食物 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC0B0" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8032" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="超级无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8033" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8052" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8034" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8043" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限多向射击武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8045" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰喷射器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8047" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限手雷 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF804D" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限烟雾炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF804F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投掷链条 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8051" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8711" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通手雷PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通手雷PL1">
+            <parameter cpu="0" address="0xFF8049" value="0x00"/>
+        </option>
+        <option desc="总是有红色手雷 PL1">
+            <parameter cpu="0" address="0xFF8049" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到基本武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到基本武器 PL1">
+            <parameter cpu="0" address="0xFF803C" value="0x00"/>
+        </option>
+        <option desc="得到激光武器 PL1">
+            <parameter cpu="0" address="0xFF803C" value="0x01"/>
+        </option>
+        <option desc="得到多向射击武器 PL1">
+            <parameter cpu="0" address="0xFF803C" value="0x02"/>
+        </option>
+        <option desc="得到火焰喷射器 PL1">
+            <parameter cpu="0" address="0xFF803C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="得到超级武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8710" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊武器弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA59F" value="0xD8"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8076" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="超级无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8077" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8096" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8078" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8087" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限多向射击武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8089" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰喷射器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF808B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限手雷 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8091" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限烟雾炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8093" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投掷链条 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8095" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8755" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通手雷PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通手雷PL2">
+            <parameter cpu="0" address="0xFF808D" value="0x00"/>
+        </option>
+        <option desc="总是有红色手雷 PL2">
+            <parameter cpu="0" address="0xFF808D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到基本武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到基本武器 PL2">
+            <parameter cpu="0" address="0xFF8080" value="0x00"/>
+        </option>
+        <option desc="得到激光武器 PL2">
+            <parameter cpu="0" address="0xFF8080" value="0x01"/>
+        </option>
+        <option desc="得到多向射击武器 PL2">
+            <parameter cpu="0" address="0xFF8080" value="0x02"/>
+        </option>
+        <option desc="得到火焰喷射器 PL2">
+            <parameter cpu="0" address="0xFF8080" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="得到超级武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8754" value="0x80"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101731" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择局数" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x1052D9" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1052D9" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1052D9" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x1052D9" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x1052D9" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏模式" default="0">
+        <option desc="关闭"/>
+        <option desc="普通模式">
+            <parameter cpu="0" address="0x105105" value="0x00"/>
+        </option>
+        <option desc="时间攻击模式">
+            <parameter cpu="0" address="0x105105" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104082" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1052C5" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105A3B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105A16" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="总是得到最大得分 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106C3C" value="0x27"/>
+            <parameter cpu="0" address="0x106C3D" value="0x0F"/>
+            <parameter cpu="0" address="0x106C3E" value="0x03"/>
+            <parameter cpu="0" address="0x106C3F" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105A35" value="0x06"/>
+            <parameter cpu="0" address="0x105A41" value="0x05"/>
+            <parameter cpu="0" address="0x105A45" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有战士类型 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有战士类型 1 PL1">
+            <parameter cpu="0" address="0x105A36" value="0x00"/>
+        </option>
+        <option desc="总是有战士类型 2 PL1">
+            <parameter cpu="0" address="0x105A36" value="0x08"/>
+        </option>
+        <option desc="总是有战士类型 3 PL1">
+            <parameter cpu="0" address="0x105A36" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有强力类型 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有强力类型 1 PL1">
+            <parameter cpu="0" address="0x105A34" value="0x00"/>
+        </option>
+        <option desc="总是有强力类型 2 PL1">
+            <parameter cpu="0" address="0x105A34" value="0x08"/>
+        </option>
+        <option desc="总是有强力类型 3 PL1">
+            <parameter cpu="0" address="0x105A34" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度类型 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有速度类型 1 PL1">
+            <parameter cpu="0" address="0x105A30" value="0x1A"/>
+        </option>
+        <option desc="总是有速度类型 2 PL1">
+            <parameter cpu="0" address="0x105A30" value="0x1E"/>
+        </option>
+        <option desc="总是有速度类型 3 PL1">
+            <parameter cpu="0" address="0x105A30" value="0x29"/>
+        </option>
+        <option desc="总是有速度类型 4 PL1">
+            <parameter cpu="0" address="0x105A30" value="0x2D"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1040B0" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1052C7" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105A7B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105A56" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="总是得到最大得分 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106C40" value="0x27"/>
+            <parameter cpu="0" address="0x106C41" value="0x0F"/>
+            <parameter cpu="0" address="0x106C42" value="0x03"/>
+            <parameter cpu="0" address="0x106C43" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105A75" value="0x06"/>
+            <parameter cpu="0" address="0x105A81" value="0x05"/>
+            <parameter cpu="0" address="0x105A85" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有战士类型 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有战士类型 1 PL2">
+            <parameter cpu="0" address="0x105A76" value="0x00"/>
+        </option>
+        <option desc="总是有战士类型 2 PL2">
+            <parameter cpu="0" address="0x105A76" value="0x08"/>
+        </option>
+        <option desc="总是有战士类型 3 PL2">
+            <parameter cpu="0" address="0x105A76" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有强力类型 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有强力类型 1 PL2">
+            <parameter cpu="0" address="0x105A74" value="0x00"/>
+        </option>
+        <option desc="总是有强力类型 2 PL2">
+            <parameter cpu="0" address="0x105A74" value="0x08"/>
+        </option>
+        <option desc="总是有强力类型 3 PL2">
+            <parameter cpu="0" address="0x105A74" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度类型 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有速度类型 1 PL2">
+            <parameter cpu="0" address="0x105A70" value="0x1A"/>
+        </option>
+        <option desc="总是有速度类型 2 PL2">
+            <parameter cpu="0" address="0x105A70" value="0x1E"/>
+        </option>
+        <option desc="总是有速度类型 3 PL2">
+            <parameter cpu="0" address="0x105A70" value="0x29"/>
+        </option>
+        <option desc="总是有速度类型 4 PL2">
+            <parameter cpu="0" address="0x105A70" value="0x2D"/>
+        </option>
+    </cheat>
+</shufflecheat>

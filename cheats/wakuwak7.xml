@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x100B02" value="0x9B"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x100B02" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10014A" value="0xFF"/>
+            <parameter cpu="0" address="0x10014B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100159" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Rai PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Rai PL1">
+            <parameter cpu="0" address="0x106997" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Arina PL1">
+            <parameter cpu="0" address="0x106997" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Slash PL1">
+            <parameter cpu="0" address="0x106997" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Dandy-J PL1">
+            <parameter cpu="0" address="0x106997" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Tess PL1">
+            <parameter cpu="0" address="0x106997" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Mauru PL1">
+            <parameter cpu="0" address="0x106997" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Politank-Z PL1">
+            <parameter cpu="0" address="0x106997" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Fernandez PL1">
+            <parameter cpu="0" address="0x106997" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Bonus Kun PL1">
+            <parameter cpu="0" address="0x106997" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10028A" value="0xFF"/>
+            <parameter cpu="0" address="0x10028B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100299" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Rai PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Rai PL2">
+            <parameter cpu="0" address="0x1069A1" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Arina PL2">
+            <parameter cpu="0" address="0x1069A1" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Slash PL2">
+            <parameter cpu="0" address="0x1069A1" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Dandy-J PL2">
+            <parameter cpu="0" address="0x1069A1" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Tess PL2">
+            <parameter cpu="0" address="0x1069A1" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Mauru PL2">
+            <parameter cpu="0" address="0x1069A1" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Politank-Z PL2">
+            <parameter cpu="0" address="0x1069A1" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Fernandez PL2 ">
+            <parameter cpu="0" address="0x1069A1" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Bonus Kun PL2 ">
+            <parameter cpu="0" address="0x1069A1" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="A颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="A颜色 PL1">
+            <parameter cpu="0" address="0x106999" value="0x00"/>
+        </option>
+        <option desc="B颜色 PL1">
+            <parameter cpu="0" address="0x106999" value="0x01"/>
+        </option>
+        <option desc="C颜色 PL1">
+            <parameter cpu="0" address="0x106999" value="0x02"/>
+        </option>
+        <option desc="D颜色 PL1">
+            <parameter cpu="0" address="0x106999" value="0x03"/>
+        </option>
+        <option desc="颜色 PL1">
+            <parameter cpu="0" address="0x106999" value="0x04"/>
+        </option>
+        <option desc="额外/阴影颜色 PL1">
+            <parameter cpu="0" address="0x106999" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="A颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="A颜色 PL2">
+            <parameter cpu="0" address="0x1069A3" value="0x00"/>
+        </option>
+        <option desc="B颜色 PL2">
+            <parameter cpu="0" address="0x1069A3" value="0x01"/>
+        </option>
+        <option desc="C颜色 PL2">
+            <parameter cpu="0" address="0x1069A3" value="0x02"/>
+        </option>
+        <option desc="D颜色 PL2">
+            <parameter cpu="0" address="0x1069A3" value="0x03"/>
+        </option>
+        <option desc="Evil颜色 PL2">
+            <parameter cpu="0" address="0x1069A3" value="0x04"/>
+        </option>
+        <option desc="额外/阴影颜色 PL2">
+            <parameter cpu="0" address="0x1069A3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择胜利图标" default="0">
+        <option desc="关闭"/>
+        <option desc="小丑">
+            <parameter cpu="0" address="0x106989" value="0x10"/>
+        </option>
+        <option desc="正常">
+            <parameter cpu="0" address="0x106989" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择屏幕模式" default="0">
+        <option desc="关闭"/>
+        <option desc="宽">
+            <parameter cpu="0" address="0x106C44" value="0x03"/>
+        </option>
+        <option desc="正常">
+            <parameter cpu="0" address="0x106C44" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

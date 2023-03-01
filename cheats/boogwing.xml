@@ -1,0 +1,116 @@
+<mamecheat version="1">
+
+    <cheat desc="无限投币">
+        <script state="run">
+            <action>maincpu.pb@208045=99</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL1">
+        <script state="run">
+            <action>maincpu.pb@2080C8=09</action>
+        </script>
+    </cheat>
+
+    <cheat desc="角色无敌 PL1">
+        <script state="run">
+            <action>maincpu.pb@208242=80|(maincpu.pb@208242 BAND ~80)</action>
+            <action>maincpu.pb@20823F=7E</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+    <cheat desc="在交通工具上设置射击火力为0"/>
+    <cheat desc="或者弃乘交通工具因为游戏会重起"/>
+    <cheat desc=" "/>
+
+    <cheat desc="选择射击火力 PL1">
+        <parameter min="0" max="15" step="1"/>
+        <script state="run">
+            <action>maincpu.pb@208247=(param)</action>
+        </script>
+    </cheat>
+
+    <cheat desc="选择速度 PL1">
+        <parameter min="0" max="5" step="1"/>
+        <script state="run">
+            <action>maincpu.pb@20823B=(param)</action>
+        </script>
+    </cheat>
+
+    <cheat desc="快速攻击 PL1">
+        <comment>Turn it OFF on name entry screen</comment>
+        <script state="run">
+            <action>maincpu.pb@208037=00|(maincpu.pb@208037 BAND ~10)</action>
+        </script>
+    </cheat>
+
+    <cheat desc="自动火力 - 正常 PL1">
+        <script state="run">
+            <action>maincpu.pb@208255=01</action>
+        </script>
+    </cheat>
+
+    <cheat desc="自动火力 - 特别 PL1">
+        <script state="run">
+            <action>maincpu.pd@208253=00000100|(maincpu.pd@208253 BAND ~FFFFFF00)</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL2">
+        <script state="run">
+            <action>maincpu.pb@2080E2=09</action>
+        </script>
+    </cheat>
+
+    <cheat desc="角色无敌 PL2">
+        <script state="run">
+            <action>maincpu.pb@208302=80|(maincpu.pb@208302 BAND ~80)</action>
+            <action>maincpu.pb@2082FF=7E</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+    <cheat desc="在交通工具上设置射击火力为0"/>
+    <cheat desc="或者弃乘交通工具因为游戏会重起"/>
+    <cheat desc=" "/>
+
+    <cheat desc="选择射击火力 PL2">
+        <parameter min="0" max="15" step="1"/>
+        <script state="run">
+            <action>maincpu.pb@208307=(param)</action>
+        </script>
+    </cheat>
+
+    <cheat desc="选择速度 PL2">
+        <parameter min="0" max="5" step="1"/>
+        <script state="run">
+            <action>maincpu.pb@2082FB=(param)</action>
+        </script>
+    </cheat>
+
+    <cheat desc="快速攻击 PL2">
+        <comment>Turn it OFF on name entry screen</comment>
+        <script state="run">
+            <action>maincpu.pb@208039=00|(maincpu.pb@208039 BAND ~10)</action>
+        </script>
+    </cheat>
+
+    <cheat desc="自动火力 - 正常 PL2">
+        <script state="run">
+            <action>maincpu.pb@208315=02</action>
+        </script>
+    </cheat>
+
+    <cheat desc="自动火力 - 特别 PL2">
+        <script state="run">
+            <action>maincpu.pd@208313=00000100|(maincpu.pd@208313 BAND ~FFFFFF00)</action>
+        </script>
+    </cheat>
+
+</mamecheat>
+        <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA2" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="下一次得分结束此关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4EFD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即死亡" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4D79" value="0xE6"/>
+        </option>
+    </cheat>
+</shufflecheat>

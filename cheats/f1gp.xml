@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限比赛时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA953" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限圈时" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9DCE" value="0x00"/>
+            <parameter cpu="0" address="0xFF9DCF" value="0x00"/>
+            <parameter cpu="0" address="0xFF9DD0" value="0x00"/>
+            <parameter cpu="0" address="0xFF9DD1" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

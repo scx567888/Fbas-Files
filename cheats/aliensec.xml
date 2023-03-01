@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD5" value="0x08"/>
+            <parameter cpu="0" address="0xD6" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大火力武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xDE" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大解救数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC9" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="立即完成当前关 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7E" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

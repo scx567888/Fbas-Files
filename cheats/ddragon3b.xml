@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C001E" value="0x09"/>
+            <parameter cpu="0" address="0x1C001F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限购物时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C0023" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C002F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C207B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C2014" value="0x03"/>
+            <parameter cpu="0" address="0x1C2015" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器 - 索连棍 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限武器 - 索连棍 PL1">
+            <parameter cpu="0" address="0x1C201A" value="0x40"/>
+        </option>
+        <option desc="无限武器 - 剑 PL1">
+            <parameter cpu="0" address="0x1C201A" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Roney PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Roney PL1">
+            <parameter cpu="0" address="0x1C200F" value="0x01"/>
+            <parameter cpu="0" address="0x1C207D" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Masao PL1">
+            <parameter cpu="0" address="0x1C200F" value="0x02"/>
+            <parameter cpu="0" address="0x1C207D" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Seime PL1">
+            <parameter cpu="0" address="0x1C200F" value="0x03"/>
+            <parameter cpu="0" address="0x1C207D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色“ninja”PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C200F" value="0x07"/>
+            <parameter cpu="0" address="0x1C207B" value="0x03"/>
+            <parameter cpu="0" address="0x1C207D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C217B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C2174" value="0x03"/>
+            <parameter cpu="0" address="0x1C2175" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器 - 索连棍 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限武器 - 索连棍 PL2">
+            <parameter cpu="0" address="0x1C211A" value="0x40"/>
+        </option>
+        <option desc="无限武器 - 剑 PL2">
+            <parameter cpu="0" address="0x1C211A" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Sunny PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Sunny PL2">
+            <parameter cpu="0" address="0x1C210F" value="0x01"/>
+            <parameter cpu="0" address="0x1C217D" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Kunio PL2">
+            <parameter cpu="0" address="0x1C210F" value="0x02"/>
+            <parameter cpu="0" address="0x1C217D" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Taime PL2">
+            <parameter cpu="0" address="0x1C210F" value="0x03"/>
+            <parameter cpu="0" address="0x1C217D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色“ninja”PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C210F" value="0x07"/>
+            <parameter cpu="0" address="0x1C217B" value="0x03"/>
+            <parameter cpu="0" address="0x1C217D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C227B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C2214" value="0x03"/>
+            <parameter cpu="0" address="0x1C2215" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器 - 索连棍 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限武器 - 索连棍 PL3">
+            <parameter cpu="0" address="0x1C221A" value="0x40"/>
+        </option>
+        <option desc="无限武器 - 剑 PL3">
+            <parameter cpu="0" address="0x1C221A" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Jonny PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Jonny PL3">
+            <parameter cpu="0" address="0x1C220F" value="0x01"/>
+            <parameter cpu="0" address="0x1C227D" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Akira PL3">
+            <parameter cpu="0" address="0x1C220F" value="0x02"/>
+            <parameter cpu="0" address="0x1C227D" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Sinme PL3">
+            <parameter cpu="0" address="0x1C220F" value="0x03"/>
+            <parameter cpu="0" address="0x1C227D" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

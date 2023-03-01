@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限游戏时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限游戏时间">
+            <parameter cpu="0" address="0x102B4B" value="0x3B"/>
+            <parameter cpu="0" address="0x102B4D" value="0x3B"/>
+        </option>
+        <option desc="完成游戏 !">
+            <parameter cpu="0" address="0x102B4B" value="0x00"/>
+            <parameter cpu="0" address="0x102B4D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是能量全满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是能量全满 PL1">
+            <parameter cpu="0" address="0x1018F9" value="0x60"/>
+            <parameter cpu="0" address="0x102CD5" value="0x60"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0x1018F9" value="0x00"/>
+            <parameter cpu="0" address="0x102CD5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大力量 PL1">
+            <parameter cpu="0" address="0x102CD9" value="0x30"/>
+        </option>
+        <option desc="总是有最小力量 PL1">
+            <parameter cpu="0" address="0x102CD9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是能量全满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是能量全满 PL2">
+            <parameter cpu="0" address="0x1018FB" value="0x60"/>
+            <parameter cpu="0" address="0x102CD7" value="0x60"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0x1018FB" value="0x00"/>
+            <parameter cpu="0" address="0x102CD7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大力量 PL2">
+            <parameter cpu="0" address="0x102CDB" value="0x30"/>
+        </option>
+        <option desc="总是有最小力量 PL2">
+            <parameter cpu="0" address="0x102CDB" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

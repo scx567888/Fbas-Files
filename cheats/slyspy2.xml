@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30601B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306AD2" value="0x49"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x306C98" value="0x14"/>
+            <parameter cpu="0" address="0x3050C0" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3050D1" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限正常弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x305368" value="0x09"/>
+            <parameter cpu="0" address="0x305369" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限机枪弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x305366" value="0x09"/>
+            <parameter cpu="0" address="0x305367" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="得到黄金枪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x305374" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限黄金枪时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x305376" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限黄金枪弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30536A" value="0x09"/>
+            <parameter cpu="0" address="0x30536B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="得到喷射引擎(仅限正常场景)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3050A3" value="0x10"/>
+        </option>
+        <option desc="强制取消">
+            <parameter cpu="0" address="0x3050A3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器(仅限正常场景)" default="0">
+        <option desc="关闭"/>
+        <option desc="正常枪">
+            <parameter cpu="0" address="0x3050A2" value="0x00"/>
+        </option>
+        <option desc="机枪">
+            <parameter cpu="0" address="0x3050A2" value="0x01"/>
+        </option>
+        <option desc="空手">
+            <parameter cpu="0" address="0x3050A2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器(仅限海洋场景)" default="0">
+        <option desc="关闭"/>
+        <option desc="鱼叉">
+            <parameter cpu="0" address="0x3050A2" value="0x03"/>
+        </option>
+        <option desc="枪">
+            <parameter cpu="0" address="0x3050A2" value="0x04"/>
+        </option>
+        <option desc="刀">
+            <parameter cpu="0" address="0x3050A2" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="得到水中喷气机(仅限海洋场景)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3050A3" value="0x03"/>
+        </option>
+        <option desc="强制取消">
+            <parameter cpu="0" address="0x3050A3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择场景 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1-1(天空)">
+            <parameter cpu="0" address="0x3053AC" value="0x00"/>
+        </option>
+        <option desc="1-2">
+            <parameter cpu="0" address="0x3053AC" value="0x01"/>
+        </option>
+        <option desc="2(摩托车)">
+            <parameter cpu="0" address="0x3053AC" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x3053AC" value="0x03"/>
+        </option>
+        <option desc="4(海洋)">
+            <parameter cpu="0" address="0x3053AC" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x3053AC" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x3053AC" value="0x06"/>
+        </option>
+        <option desc="7(海洋)">
+            <parameter cpu="0" address="0x3053AC" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x3053AC" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择场景 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1-1(天空)">
+            <parameter cpu="0" address="0x3053C4" value="0x00"/>
+        </option>
+        <option desc="1-2">
+            <parameter cpu="0" address="0x3053C4" value="0x01"/>
+        </option>
+        <option desc="2(摩托车)">
+            <parameter cpu="0" address="0x3053C4" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x3053C4" value="0x03"/>
+        </option>
+        <option desc="4(海洋)">
+            <parameter cpu="0" address="0x3053C4" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x3053C4" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x3053C4" value="0x06"/>
+        </option>
+        <option desc="7(海洋)">
+            <parameter cpu="0" address="0x3053C4" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x3053C4" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

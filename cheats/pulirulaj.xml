@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307F0B" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307F0F" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307F0D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307EDC" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307F95" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307F99" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307F97" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307F66" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303ED4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励关时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30CFF1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="第1关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关BOSS一击杀">
+            <parameter cpu="0" address="0x306D5D" value="0x00"/>
+        </option>
+        <option desc="最终BOSS一击杀">
+            <parameter cpu="0" address="0x306D5D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="第2关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="第2关BOSS一击杀">
+            <parameter cpu="0" address="0x3070F9" value="0x00"/>
+        </option>
+        <option desc="第4关BOSS一击杀">
+            <parameter cpu="0" address="0x3070F9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="第3关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30722D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="第5,6关BOSS一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x307495" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

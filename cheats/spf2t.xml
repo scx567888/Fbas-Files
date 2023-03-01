@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8076" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="发送20宝石给 PL2 !" default="0">
+        <option desc="关闭"/>
+        <option desc="发送20宝石给 PL2 !">
+            <parameter cpu="0" address="0xFF849E" value="0x14"/>
+        </option>
+        <option desc="发送40宝石给 PL2 !">
+            <parameter cpu="0" address="0xFF849E" value="0x28"/>
+        </option>
+        <option desc="发送60宝石给 PL2 !">
+            <parameter cpu="0" address="0xFF849E" value="0x3C"/>
+        </option>
+        <option desc="不会受到攻击 PL2">
+            <parameter cpu="0" address="0xFF849E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会受到攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不会受到攻击 PL1">
+            <parameter cpu="0" address="0xFF889E" value="0x00"/>
+        </option>
+        <option desc="发送20宝石给 PL1 !">
+            <parameter cpu="0" address="0xFF889E" value="0x14"/>
+        </option>
+        <option desc="发送40宝石给 PL1 !">
+            <parameter cpu="0" address="0xFF889E" value="0x28"/>
+        </option>
+        <option desc="发送60宝石给 PL1 !">
+            <parameter cpu="0" address="0xFF889E" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="得到钻石 1 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到钻石 1 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0x18"/>
+        </option>
+        <option desc="得到钻石 2 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0x31"/>
+        </option>
+        <option desc="得到钻石 3 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0x4A"/>
+        </option>
+        <option desc="得到钻石 4 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0x63"/>
+        </option>
+        <option desc="得到钻石 5 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0x7C"/>
+        </option>
+        <option desc="得到钻石 6 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0x95"/>
+        </option>
+        <option desc="得到钻石 7 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0xAE"/>
+        </option>
+        <option desc="得到钻石 8 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0xC7"/>
+        </option>
+        <option desc="得到钻石 9 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0xE0"/>
+        </option>
+        <option desc="得到钻石 10 ! PL1">
+            <parameter cpu="0" address="0xFF84F5" value="0xF9"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Morrigan ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Morrigan ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x00"/>
+            <parameter cpu="0" address="0xFF8382" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色春丽 ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x01"/>
+            <parameter cpu="0" address="0xFF8382" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Ryu ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x02"/>
+            <parameter cpu="0" address="0xFF8382" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Ken ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x03"/>
+            <parameter cpu="0" address="0xFF8382" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Lei-Lei ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x04"/>
+            <parameter cpu="0" address="0xFF8382" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Donovan ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x05"/>
+            <parameter cpu="0" address="0xFF8382" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Felicia ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x06"/>
+            <parameter cpu="0" address="0xFF8382" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Sakura ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x07"/>
+            <parameter cpu="0" address="0xFF8382" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Devilot ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x08"/>
+            <parameter cpu="0" address="0xFF8382" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Akuma (Gouki) ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x09"/>
+            <parameter cpu="0" address="0xFF8382" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Dan ! PL1">
+            <parameter cpu="0" address="0xFF0C82" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8382" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="得到钻石 1 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到钻石 1 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0x18"/>
+        </option>
+        <option desc="得到钻石 2 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0x31"/>
+        </option>
+        <option desc="得到钻石 3 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0x4A"/>
+        </option>
+        <option desc="得到钻石 4 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0x63"/>
+        </option>
+        <option desc="得到钻石 5 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0x7C"/>
+        </option>
+        <option desc="得到钻石 6 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0x95"/>
+        </option>
+        <option desc="得到钻石 7 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0xAE"/>
+        </option>
+        <option desc="得到钻石 8 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0xC7"/>
+        </option>
+        <option desc="得到钻石 9 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0xE0"/>
+        </option>
+        <option desc="得到钻石 10 ! PL2">
+            <parameter cpu="0" address="0xFF88F5" value="0xF9"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Morrigan ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Morrigan ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x00"/>
+            <parameter cpu="0" address="0xFF8782" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色春丽 ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x01"/>
+            <parameter cpu="0" address="0xFF8782" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Ryu ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x02"/>
+            <parameter cpu="0" address="0xFF8782" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Ken ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x03"/>
+            <parameter cpu="0" address="0xFF8782" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Lei-Lei ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x04"/>
+            <parameter cpu="0" address="0xFF8782" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Donovan ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x05"/>
+            <parameter cpu="0" address="0xFF8782" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Felicia ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x06"/>
+            <parameter cpu="0" address="0xFF8782" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Sakura ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x07"/>
+            <parameter cpu="0" address="0xFF8782" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Devilot ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x08"/>
+            <parameter cpu="0" address="0xFF8782" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Akuma (Gouki) ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x09"/>
+            <parameter cpu="0" address="0xFF8782" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Dan ! PL2">
+            <parameter cpu="0" address="0xFF0C86" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8782" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="地域 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地域 = 日本">
+            <parameter cpu="0" address="0xFF8091" value="0x00"/>
+        </option>
+        <option desc="地域 = 美国">
+            <parameter cpu="0" address="0xFF8091" value="0x02"/>
+        </option>
+        <option desc="地域 = 西班牙">
+            <parameter cpu="0" address="0xFF8091" value="0x04"/>
+        </option>
+        <option desc="地域转换 = 大洋洲">
+            <parameter cpu="0" address="0xFF8091" value="0x06"/>
+        </option>
+        <option desc="地域 = 亚洲">
+            <parameter cpu="0" address="0xFF8091" value="0x08"/>
+        </option>
+        <option desc="地域 = 欧洲">
+            <parameter cpu="0" address="0xFF8091" value="0x0A"/>
+        </option>
+        <option desc="地域 = 巴西">
+            <parameter cpu="0" address="0xFF8091" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C021" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="Boss代码" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C007" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="与首位Boss战斗 !" default="0">
+        <option desc="关闭"/>
+        <option desc="与首位Boss战斗 !">
+            <parameter cpu="0" address="0x10C017" value="0x0A"/>
+        </option>
+        <option desc="与最终Boss战斗 !">
+            <parameter cpu="0" address="0x10C017" value="0x0B"/>
+        </option>
+        <option desc="去到结尾 !">
+            <parameter cpu="0" address="0x10C017" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x100050" value="0xD0"/>
+        </option>
+        <option desc="红血闪烁 PL1">
+            <parameter cpu="0" address="0x100050" value="0x34"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0x100050" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0x1000AE" value="0x60"/>
+        </option>
+        <option desc="耗尽所有力量 ! PL1">
+            <parameter cpu="0" address="0x1000AE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超烈火模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启 PL1">
+            <parameter cpu="0" address="0x1000AE" value="0x60"/>
+            <parameter cpu="0" address="0x1000AC" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="兰丸">
+            <parameter cpu="0" address="0x10C044" value="0x0A"/>
+        </option>
+        <option desc="信长">
+            <parameter cpu="0" address="0x10C044" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x101050" value="0xD0"/>
+        </option>
+        <option desc="红血闪烁 PL2">
+            <parameter cpu="0" address="0x101050" value="0x34"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0x101050" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0x1010AE" value="0x60"/>
+        </option>
+        <option desc="耗尽所有力量 ! PL2">
+            <parameter cpu="0" address="0x1010AE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超烈火模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启 PL1">
+            <parameter cpu="0" address="0x1010AE" value="0x60"/>
+            <parameter cpu="0" address="0x1010AC" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="兰丸">
+            <parameter cpu="0" address="0x10C084" value="0x0A"/>
+        </option>
+        <option desc="信长">
+            <parameter cpu="0" address="0x10C084" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

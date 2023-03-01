@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000B3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100305" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10037F" value="0x52"/>
+        </option>
+    </cheat>
+    <cheat desc="允许转换 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100336" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍者时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100365" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成武士时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100367" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成狗时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100369" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="永久武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100380" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有武器 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x00"/>
+        </option>
+        <option desc="得到红色球 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x01"/>
+        </option>
+        <option desc="得到蓝色球 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x02"/>
+        </option>
+        <option desc="得到紫色球 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x03"/>
+        </option>
+        <option desc="得到黄色球 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x04"/>
+        </option>
+        <option desc="得到单手剑 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x05"/>
+        </option>
+        <option desc="得到双手剑 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x06"/>
+        </option>
+        <option desc="得到大剑 PL1">
+            <parameter cpu="0" address="0x1002F9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000B5" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100405" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10047F" value="0x52"/>
+        </option>
+    </cheat>
+    <cheat desc="允许转换 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100436" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍者时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100465" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成武士时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100467" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成狗时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100469" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="永久武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100480" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有武器 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x00"/>
+        </option>
+        <option desc="得到红色球 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x01"/>
+        </option>
+        <option desc="得到蓝色球 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x02"/>
+        </option>
+        <option desc="得到紫色球 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x03"/>
+        </option>
+        <option desc="得到黄色球 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x04"/>
+        </option>
+        <option desc="得到单手剑 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x05"/>
+        </option>
+        <option desc="得到双手剑 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x06"/>
+        </option>
+        <option desc="得到大剑 PL2">
+            <parameter cpu="0" address="0x1003F9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

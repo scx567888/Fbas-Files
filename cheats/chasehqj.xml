@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100200" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超高速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1003A3" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超级速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10041C" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="一击后完成追逐!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002AF" value="0x00"/>
+            <parameter cpu="0" address="0x1002D8" value="0x14"/>
+        </option>
+    </cheat>
+</shufflecheat>

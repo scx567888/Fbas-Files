@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10090C" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="最小接合速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100642" value="0x00"/>
+            <parameter cpu="0" address="0x100643" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大L球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100904" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="下一形状总是红色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一形状总是红色 PL1">
+            <parameter cpu="0" address="0x100673" value="0x00"/>
+        </option>
+        <option desc="下一形状总是紫色 PL1">
+            <parameter cpu="0" address="0x100673" value="0x01"/>
+        </option>
+        <option desc="下一形状总是橙色 PL1">
+            <parameter cpu="0" address="0x100673" value="0x02"/>
+        </option>
+        <option desc="下一形状总是蓝色 PL1">
+            <parameter cpu="0" address="0x100673" value="0x03"/>
+        </option>
+        <option desc="下一形状总是黄色 PL1">
+            <parameter cpu="0" address="0x100673" value="0x04"/>
+        </option>
+        <option desc="下一形状总是绿色  PL1">
+            <parameter cpu="0" address="0x100673" value="0x05"/>
+        </option>
+        <option desc="下一形状总是青色 PL1">
+            <parameter cpu="0" address="0x100673" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C1C" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="最小接合速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100952" value="0x00"/>
+            <parameter cpu="0" address="0x100953" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大L球 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C14" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="下一形状总是红色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一形状总是红色 PL2">
+            <parameter cpu="0" address="0x100983" value="0x00"/>
+        </option>
+        <option desc="下一形状总是紫色 PL2">
+            <parameter cpu="0" address="0x100983" value="0x01"/>
+        </option>
+        <option desc="下一形状总是橙色 PL2">
+            <parameter cpu="0" address="0x100983" value="0x02"/>
+        </option>
+        <option desc="下一形状总是蓝色 PL2">
+            <parameter cpu="0" address="0x100983" value="0x03"/>
+        </option>
+        <option desc="下一形状总是黄色 PL2">
+            <parameter cpu="0" address="0x100983" value="0x04"/>
+        </option>
+        <option desc="下一形状总是绿色  PL2">
+            <parameter cpu="0" address="0x100983" value="0x05"/>
+        </option>
+        <option desc="下一形状总是青色 PL2">
+            <parameter cpu="0" address="0x100983" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

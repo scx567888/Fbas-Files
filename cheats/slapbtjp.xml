@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC189" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有一颗星" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有一颗星">
+            <parameter cpu="0" address="0xC18F" value="0x01"/>
+        </option>
+        <option desc="可以使用第二武器项目">
+            <parameter cpu="0" address="0xC18F" value="0x02"/>
+        </option>
+        <option desc="可以使用第三武器项目">
+            <parameter cpu="0" address="0xC18F" value="0x03"/>
+        </option>
+        <option desc="可以使用第四武器项目">
+            <parameter cpu="0" address="0xC18F" value="0x04"/>
+        </option>
+        <option desc="可以使用第五武器项目">
+            <parameter cpu="0" address="0xC18F" value="0x05"/>
+        </option>
+        <option desc="可以使用第六武器项目">
+            <parameter cpu="0" address="0xC18F" value="0x06"/>
+        </option>
+        <option desc="可以使用第七武器项目">
+            <parameter cpu="0" address="0xC18F" value="0x07"/>
+        </option>
+        <option desc="可以使用第八武器项目">
+            <parameter cpu="0" address="0xC18F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有侧射武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1DE" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有全武器机翼" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1DC" value="0x03"/>
+            <parameter cpu="0" address="0xC209" value="0x82"/>
+            <parameter cpu="0" address="0xC219" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有爆弹" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有爆弹">
+            <parameter cpu="0" address="0xC1D7" value="0x01"/>
+            <parameter cpu="0" address="0xC1DD" value="0x05"/>
+        </option>
+        <option desc="总是有激光">
+            <parameter cpu="0" address="0xC1D7" value="0x02"/>
+            <parameter cpu="0" address="0xC1DD" value="0x03"/>
+        </option>
+        <option desc="总是有跟踪弹">
+            <parameter cpu="0" address="0xC1D7" value="0x03"/>
+            <parameter cpu="0" address="0xC1DD" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC190" value="0x82"/>
+            <parameter cpu="0" address="0xC1BF" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 主武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1D9" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 副武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1DA" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="高速跟踪导弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC22C" value="0xC1"/>
+            <parameter cpu="0" address="0xC23C" value="0xC1"/>
+            <parameter cpu="0" address="0xC24C" value="0xC1"/>
+            <parameter cpu="0" address="0xC25C" value="0xC1"/>
+            <parameter cpu="0" address="0xC26C" value="0xC1"/>
+            <parameter cpu="0" address="0xC27C" value="0xC1"/>
+            <parameter cpu="0" address="0xC28C" value="0xC1"/>
+            <parameter cpu="0" address="0xC29C" value="0xC1"/>
+            <parameter cpu="0" address="0xC2AC" value="0xC1"/>
+            <parameter cpu="0" address="0xC2BC" value="0xC1"/>
+            <parameter cpu="0" address="0xC2CC" value="0xC1"/>
+            <parameter cpu="0" address="0xC2DC" value="0xC1"/>
+            <parameter cpu="0" address="0xC2EC" value="0xC1"/>
+            <parameter cpu="0" address="0xC2FC" value="0xC1"/>
+            <parameter cpu="0" address="0xC30C" value="0xC1"/>
+            <parameter cpu="0" address="0xC31C" value="0xC1"/>
+        </option>
+    </cheat>
+</shufflecheat>

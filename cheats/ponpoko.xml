@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C64" value="0xA1"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C48" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C49" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大水果奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4CA4" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="1个水果即可完成" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C4D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即完成 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C4F" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

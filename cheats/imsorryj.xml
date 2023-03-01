@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC04E" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC04F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="没有敌人 ( 1/10)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC259" value="0x2F"/>
+            <parameter cpu="0" address="0xC279" value="0x2F"/>
+            <parameter cpu="0" address="0xC299" value="0x2F"/>
+            <parameter cpu="0" address="0xC2B9" value="0x2F"/>
+            <parameter cpu="0" address="0xC2D9" value="0x2F"/>
+            <parameter cpu="0" address="0xC2F9" value="0x2F"/>
+            <parameter cpu="0" address="0xC319" value="0x2F"/>
+            <parameter cpu="0" address="0xC339" value="0x2F"/>
+            <parameter cpu="0" address="0xC359" value="0x2F"/>
+            <parameter cpu="0" address="0xC379" value="0x2F"/>
+        </option>
+    </cheat>
+    <cheat desc="立即完成当前关卡 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xEF00" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF05E6" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="不会被攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不会被攻击 PL1">
+            <parameter cpu="0" address="0xFF903B" value="0x00"/>
+            <parameter cpu="0" address="0xFF9D8F" value="0x00"/>
+        </option>
+        <option desc="攻击对方用9块障碍 ! PL2">
+            <parameter cpu="0" address="0xFF903B" value="0x09"/>
+            <parameter cpu="0" address="0xFF9D8F" value="0x09"/>
+        </option>
+        <option desc="大量攻击对方 ! PL2">
+            <parameter cpu="0" address="0xFF903B" value="0x48"/>
+            <parameter cpu="0" address="0xFF9D8F" value="0x48"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击对方用9块障碍 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="攻击对方用9块障碍 ! PL1">
+            <parameter cpu="0" address="0xFF940D" value="0x09"/>
+            <parameter cpu="0" address="0xFF9D63" value="0x09"/>
+        </option>
+        <option desc="大量攻击对方 ! PL1">
+            <parameter cpu="0" address="0xFF940D" value="0x48"/>
+            <parameter cpu="0" address="0xFF9D63" value="0x48"/>
+        </option>
+        <option desc="不会被攻击 PL2">
+            <parameter cpu="0" address="0xFF940D" value="0x00"/>
+            <parameter cpu="0" address="0xFF9D63" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当前顶部方块总是红剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前顶部方块总是红剑 PL1">
+            <parameter cpu="0" address="0xFF9C65" value="0x00"/>
+        </option>
+        <option desc="当前顶部方块总是蓝色 环绕 PL1">
+            <parameter cpu="0" address="0xFF9C65" value="0x01"/>
+        </option>
+        <option desc="当前顶部方块总是绿色树叶 PL1">
+            <parameter cpu="0" address="0xFF9C65" value="0x02"/>
+        </option>
+        <option desc="当前顶部方块总是红色药丸PL1">
+            <parameter cpu="0" address="0xFF9C65" value="0x03"/>
+        </option>
+        <option desc="当前顶部方块总是蓝色药丸PL1">
+            <parameter cpu="0" address="0xFF9C65" value="0x04"/>
+        </option>
+        <option desc="当前顶部方块总是绿色药丸PL1">
+            <parameter cpu="0" address="0xFF9C65" value="0x05"/>
+        </option>
+        <option desc="当前顶部方块总是空的 PL1">
+            <parameter cpu="0" address="0xFF9C65" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="当前底部方块总是红剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前底部方块总是红剑 PL1">
+            <parameter cpu="0" address="0xFF9C69" value="0x00"/>
+        </option>
+        <option desc="当前底部方块总是蓝色 环绕 PL1">
+            <parameter cpu="0" address="0xFF9C69" value="0x01"/>
+        </option>
+        <option desc="当前底部方块总是绿色树叶 PL1">
+            <parameter cpu="0" address="0xFF9C69" value="0x02"/>
+        </option>
+        <option desc="当前底部方块总是红色药丸PL1">
+            <parameter cpu="0" address="0xFF9C69" value="0x03"/>
+        </option>
+        <option desc="当前底部方块总是蓝色药丸PL1">
+            <parameter cpu="0" address="0xFF9C69" value="0x04"/>
+        </option>
+        <option desc="当前底部方块总是绿色药丸PL1">
+            <parameter cpu="0" address="0xFF9C69" value="0x05"/>
+        </option>
+        <option desc="当前底部方块总是空的 PL1">
+            <parameter cpu="0" address="0xFF9C69" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Matin ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Matin ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Sara ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Warok ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Lora ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Dofe ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Leung ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Roke ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Elena ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Rancerot ! PL1">
+            <parameter cpu="0" address="0xFF0531" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前顶部方块总是红剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前顶部方块总是红剑 PL2">
+            <parameter cpu="0" address="0xFF9EFF" value="0x00"/>
+        </option>
+        <option desc="当前顶部方块总是蓝色 环绕 PL2">
+            <parameter cpu="0" address="0xFF9EFF" value="0x01"/>
+        </option>
+        <option desc="当前顶部方块总是绿色树叶 PL2">
+            <parameter cpu="0" address="0xFF9EFF" value="0x02"/>
+        </option>
+        <option desc="当前顶部方块总是红色药丸PL2">
+            <parameter cpu="0" address="0xFF9EFF" value="0x03"/>
+        </option>
+        <option desc="当前顶部方块总是蓝色药丸PL2">
+            <parameter cpu="0" address="0xFF9EFF" value="0x04"/>
+        </option>
+        <option desc="当前顶部方块总是绿色药丸PL2">
+            <parameter cpu="0" address="0xFF9EFF" value="0x05"/>
+        </option>
+        <option desc="当前顶部方块总是空的 PL2">
+            <parameter cpu="0" address="0xFF9EFF" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="当前底部方块总是红剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前底部方块总是红剑 PL2">
+            <parameter cpu="0" address="0xFF9E6B" value="0x00"/>
+        </option>
+        <option desc="当前底部方块总是蓝色 环绕 PL2">
+            <parameter cpu="0" address="0xFF9E6B" value="0x01"/>
+        </option>
+        <option desc="当前底部方块总是绿色树叶 PL2">
+            <parameter cpu="0" address="0xFF9E6B" value="0x02"/>
+        </option>
+        <option desc="当前底部方块总是红色药丸PL2">
+            <parameter cpu="0" address="0xFF9E6B" value="0x03"/>
+        </option>
+        <option desc="当前底部方块总是蓝色药丸PL2">
+            <parameter cpu="0" address="0xFF9E6B" value="0x04"/>
+        </option>
+        <option desc="当前底部方块总是绿色药丸PL2">
+            <parameter cpu="0" address="0xFF9E6B" value="0x05"/>
+        </option>
+        <option desc="当前底部方块总是空的 PL2">
+            <parameter cpu="0" address="0xFF9E6B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Matin ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Matin ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Sara ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Warok ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Lora ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Dofe ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Leung ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Roke ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Elena ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Rancerot ! PL2">
+            <parameter cpu="0" address="0xFF0549" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

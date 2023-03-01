@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100034" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000D5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励关1无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0101721" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励关2最大力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0101708" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡１">
+            <parameter cpu="0" address="0x100108" value="0x00"/>
+        </option>
+        <option desc="关卡２">
+            <parameter cpu="0" address="0x100108" value="0x01"/>
+        </option>
+        <option desc="关卡３">
+            <parameter cpu="0" address="0x100108" value="0x02"/>
+        </option>
+        <option desc="关卡４">
+            <parameter cpu="0" address="0x100108" value="0x03"/>
+        </option>
+        <option desc="关卡５">
+            <parameter cpu="0" address="0x100108" value="0x04"/>
+        </option>
+        <option desc="关卡６">
+            <parameter cpu="0" address="0x100108" value="0x05"/>
+        </option>
+        <option desc="关卡７">
+            <parameter cpu="0" address="0x100108" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="立即过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0100154" value="0xC1"/>
+        </option>
+    </cheat>
+    <cheat desc="不往前走时不连续出敌人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0100314" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="超级跑模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0100100" value="0x90"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x0100100" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="BOSS立即死亡" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0102C00" value="0xC1"/>
+            <parameter cpu="0" address="0x0102000" value="0xC1"/>
+            <parameter cpu="0" address="0x0102100" value="0xC1"/>
+            <parameter cpu="0" address="0x0102200" value="0xC1"/>
+            <parameter cpu="0" address="0x0102300" value="0xC1"/>
+            <parameter cpu="0" address="0x0102000" value="0xC1"/>
+            <parameter cpu="0" address="0x0102500" value="0xC1"/>
+            <parameter cpu="0" address="0x0102400" value="0xC1"/>
+            <parameter cpu="0" address="0x0102000" value="0xC1"/>
+            <parameter cpu="0" address="0x0102100" value="0xC1"/>
+            <parameter cpu="0" address="0x0102100" value="0xC1"/>
+            <parameter cpu="0" address="0x0102900" value="0xC1"/>
+            <parameter cpu="0" address="0x0102100" value="0xC1"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌(不能捡道具) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100468" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100405" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100404" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="总是暴击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01004A7" value="0x80"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x01004A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是蓄力攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x010045D" value="0x81"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x010045D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0100490" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌(不能捡道具) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100568" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100505" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100504" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="总是暴击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01005A7" value="0x80"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x01005A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是蓄力攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x010055D" value="0x81"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x010055D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0100590" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌(不能捡道具) PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100668" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100605" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100604" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="总是暴击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01006A7" value="0x80"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x01006A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是蓄力攻击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x010065D" value="0x81"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x010065D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会晕 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0100690" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4D15" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF4DD4" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF4DD4" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF4DD4" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF4DD4" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF4DD4" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF4DD4" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF4DD4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82EC" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8305" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8244" value="0x02"/>
+            <parameter cpu="0" address="0xFF82F2" value="0xFD"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有直射武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有直射武器 PL1">
+            <parameter cpu="0" address="0xFF82F1" value="0x04"/>
+        </option>
+        <option desc="总是有3向武器 PL1">
+            <parameter cpu="0" address="0xFF82F1" value="0x08"/>
+        </option>
+        <option desc="总是有激光 PL1">
+            <parameter cpu="0" address="0xFF82F1" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大炸弹火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF830F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="高杀伤力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8337" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="直接发射蓄力武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82E8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8338" value="0xFF"/>
+            <parameter cpu="0" address="0xFF833B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="灭敌后奖励 - 等级 5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="灭敌后奖励 - 等级 5 PL1">
+            <parameter cpu="0" address="0xFF8328" value="0x04"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 10 PL1">
+            <parameter cpu="0" address="0xFF8328" value="0x09"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 15 PL1">
+            <parameter cpu="0" address="0xFF8328" value="0x0E"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 20 PL1">
+            <parameter cpu="0" address="0xFF8328" value="0x13"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 25 PL1">
+            <parameter cpu="0" address="0xFF8328" value="0x18"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级最大 PL1">
+            <parameter cpu="0" address="0xFF8328" value="0x1D"/>
+        </option>
+        <option desc="灭敌后奖励 - 最大奖励 PL1">
+            <parameter cpu="0" address="0xFF8328" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83EC" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8405" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8344" value="0x02"/>
+            <parameter cpu="0" address="0xFF83F2" value="0xFD"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有直射武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有直射武器 PL2">
+            <parameter cpu="0" address="0xFF83F1" value="0x04"/>
+        </option>
+        <option desc="总是有3向武器 PL2">
+            <parameter cpu="0" address="0xFF83F1" value="0x08"/>
+        </option>
+        <option desc="总是有激光 PL2">
+            <parameter cpu="0" address="0xFF83F1" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大炸弹火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF840F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="高杀伤力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8437" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="直接发射蓄力武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83E8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8438" value="0xFF"/>
+            <parameter cpu="0" address="0xFF843B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="灭敌后奖励 - 等级 5 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="灭敌后奖励 - 等级 5 PL2">
+            <parameter cpu="0" address="0xFF8428" value="0x04"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 10 PL2">
+            <parameter cpu="0" address="0xFF8428" value="0x09"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 15 PL2">
+            <parameter cpu="0" address="0xFF8428" value="0x0E"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 20 PL2">
+            <parameter cpu="0" address="0xFF8428" value="0x13"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级 25 PL2">
+            <parameter cpu="0" address="0xFF8428" value="0x18"/>
+        </option>
+        <option desc="灭敌后奖励 - 等级最大 PL2">
+            <parameter cpu="0" address="0xFF8428" value="0x1D"/>
+        </option>
+        <option desc="灭敌后奖励 - 最大奖励 PL2">
+            <parameter cpu="0" address="0xFF8428" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="0'00'' 关卡清除时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4E55" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="飞机机型 = 闪电战机! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="飞机机型 = 闪电战机! PL1">
+            <parameter cpu="0" address="0xFF8247" value="0x00"/>
+        </option>
+        <option desc="飞机机型 = 紫电战机! PL1">
+            <parameter cpu="0" address="0xFF8247" value="0x01"/>
+        </option>
+        <option desc="飞机机型 = 蚊式战机! PL1">
+            <parameter cpu="0" address="0xFF8247" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="飞机机型 = 闪电战机! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="飞机机型 = 闪电战机! PL2">
+            <parameter cpu="0" address="0xFF8347" value="0x00"/>
+        </option>
+        <option desc="飞机机型 = 紫电战机! PL2">
+            <parameter cpu="0" address="0xFF8347" value="0x01"/>
+        </option>
+        <option desc="飞机机型 = 蚊式战机! PL2">
+            <parameter cpu="0" address="0xFF8347" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="地区开关 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地区开关 = 日本">
+            <parameter cpu="0" address="0xFF4D6E" value="0x00"/>
+        </option>
+        <option desc="地区开关 = 美国">
+            <parameter cpu="0" address="0xFF4D6E" value="0x01"/>
+        </option>
+        <option desc="地区开关 = 亚洲">
+            <parameter cpu="0" address="0xFF4D6E" value="0x02"/>
+        </option>
+        <option desc="地区开关 = 西班牙">
+            <parameter cpu="0" address="0xFF4D6E" value="0x03"/>
+        </option>
+        <option desc="地区开关 = 欧洲">
+            <parameter cpu="0" address="0xFF4D6E" value="0x04"/>
+        </option>
+        <option desc="地区开关 = 巴西">
+            <parameter cpu="0" address="0xFF4D6E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="音乐 - 19XX BGM" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0065" value="0x00"/>
+            <parameter cpu="0" address="0xFF0066" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="音乐 - 1942 BGM" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0065" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="音乐 - 1942 Arrange BGM" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0066" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

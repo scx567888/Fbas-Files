@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7012F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x700FC" value="0x02"/>
+            <parameter cpu="0" address="0x7012D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是最大速度 PL1">
+            <parameter cpu="0" address="0x70109" value="0x03"/>
+        </option>
+        <option desc="0">
+            <parameter cpu="0" address="0x70109" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x70109" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x70109" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="不会失去武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7063F" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="武器最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7011B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x706AF" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7067C" value="0x02"/>
+            <parameter cpu="0" address="0x706AD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是最大速度 PL2">
+            <parameter cpu="0" address="0x70689" value="0x03"/>
+        </option>
+        <option desc="0">
+            <parameter cpu="0" address="0x70689" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x70689" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x70689" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="不会失去武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70BBF" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="武器最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7069B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss 1.1只用一击!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x713BF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss 1.2只用一击!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x710FF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss 2只用一击!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70EBF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss 3.1只用一击!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70C3F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss 3.2只用一击!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70C7F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死Boss 4.1只用一击!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x70CBF" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

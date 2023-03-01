@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间 [普遍使用]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x205895" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 [迷宫关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x208E1F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 [气球关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20A2FF" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 [拔河关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x209CF9" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="快速完成此局 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2044E7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20585D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量 PL1 [岩石关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x208157" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20587F" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量 PL2 [岩石关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x208173" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="回答1总是正确 [问答关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x205943" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="第一角色总是正确 [拼写关]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x205991" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

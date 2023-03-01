@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8170" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAE09" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="所有角色选择" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF81CD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="合作模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84A2" value="0x00"/>
+            <parameter cpu="0" address="0xFF88A2" value="0x01"/>
+            <parameter cpu="0" address="0xFFAE49" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF8441" value="0x90"/>
+        </option>
+        <option desc="能量总是设置为0 PL1">
+            <parameter cpu="0" address="0xFF8441" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="结束此局赢得胜利 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="结束此局赢得胜利 PL1">
+            <parameter cpu="0" address="0xFF84C6" value="0x01"/>
+        </option>
+        <option desc="赢盘总是 = 0 PL1">
+            <parameter cpu="0" address="0xFF84C6" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="空中可出组合技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF842F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0xFF84BF" value="0x90"/>
+        </option>
+        <option desc="耗尽所有力量! PL1">
+            <parameter cpu="0" address="0xFF84BF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8537" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击即昏晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF853A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="与豪鬼对战" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAE48" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF844F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="连续击打数无限制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF844A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="No Alpha Combo Limit PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8502" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最终射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9041" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="控制器模式 - 使用者控制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="控制器模式 - 使用者控制 PL1">
+            <parameter cpu="0" address="0xFF84C5" value="0x00"/>
+        </option>
+        <option desc="控制器模式 - 电脑控制 PL1">
+            <parameter cpu="0" address="0xFF84C5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="控制器模式 - 高难度电脑游戏 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83D8" value="0x84"/>
+            <parameter cpu="0" address="0xFF84C5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF84A2" value="0x00"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF84A2" value="0x01"/>
+        </option>
+        <option desc="豪鬼">
+            <parameter cpu="0" address="0xFF84A2" value="0x02"/>
+        </option>
+        <option desc="纳什">
+            <parameter cpu="0" address="0xFF84A2" value="0x03"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF84A2" value="0x04"/>
+        </option>
+        <option desc="阿顿">
+            <parameter cpu="0" address="0xFF84A2" value="0x05"/>
+        </option>
+        <option desc="苏杜姆">
+            <parameter cpu="0" address="0xFF84A2" value="0x06"/>
+        </option>
+        <option desc="凯">
+            <parameter cpu="0" address="0xFF84A2" value="0x07"/>
+        </option>
+        <option desc="伯迪">
+            <parameter cpu="0" address="0xFF84A2" value="0x08"/>
+        </option>
+        <option desc="罗丝">
+            <parameter cpu="0" address="0xFF84A2" value="0x09"/>
+        </option>
+        <option desc="维加">
+            <parameter cpu="0" address="0xFF84A2" value="0x0A"/>
+        </option>
+        <option desc="萨卡特">
+            <parameter cpu="0" address="0xFF84A2" value="0x0B"/>
+        </option>
+        <option desc="火引弹">
+            <parameter cpu="0" address="0xFF84A2" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Ken或者Ryu PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85F2" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Chun Li PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85C1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Charlie PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85F0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Guy PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85C4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Birdie PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限挑衅使用者为Birdie PL1">
+            <parameter cpu="0" address="0xFF85F8" value="0x00"/>
+        </option>
+        <option desc="无限挑衅使用者为Adon PL1">
+            <parameter cpu="0" address="0xFF85F8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Sodom PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85FF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Rose PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85E8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Sagat PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85C0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Akuma PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85F1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Bison PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85FB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF8841" value="0x90"/>
+        </option>
+        <option desc="能量总是设置为0 PL2">
+            <parameter cpu="0" address="0xFF8841" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="结束此局赢得胜利 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="结束此局赢得胜利 PL2">
+            <parameter cpu="0" address="0xFF88C6" value="0x01"/>
+        </option>
+        <option desc="赢盘总是 = 0 PL2">
+            <parameter cpu="0" address="0xFF88C6" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="空中可出组合技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF882F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0xFF88BF" value="0x90"/>
+        </option>
+        <option desc="耗尽所有力量! PL2">
+            <parameter cpu="0" address="0xFF88BF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8937" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击即昏晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF893A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF884F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="连续击打数无限制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF884A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="No Alpha Combo Limit PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8902" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最终射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9441" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="控制器模式 - 使用者控制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="控制器模式 - 使用者控制 PL2">
+            <parameter cpu="0" address="0xFF88C5" value="0x00"/>
+        </option>
+        <option desc="控制器模式 - 电脑控制 PL2">
+            <parameter cpu="0" address="0xFF88C5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="控制器模式 - 高难度电脑游戏 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF87D8" value="0x84"/>
+            <parameter cpu="0" address="0xFF88C5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF88A2" value="0x00"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF88A2" value="0x01"/>
+        </option>
+        <option desc="豪鬼">
+            <parameter cpu="0" address="0xFF88A2" value="0x02"/>
+        </option>
+        <option desc="纳什">
+            <parameter cpu="0" address="0xFF88A2" value="0x03"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF88A2" value="0x04"/>
+        </option>
+        <option desc="阿顿">
+            <parameter cpu="0" address="0xFF88A2" value="0x05"/>
+        </option>
+        <option desc="苏杜姆">
+            <parameter cpu="0" address="0xFF88A2" value="0x06"/>
+        </option>
+        <option desc="凯">
+            <parameter cpu="0" address="0xFF88A2" value="0x07"/>
+        </option>
+        <option desc="伯迪">
+            <parameter cpu="0" address="0xFF88A2" value="0x08"/>
+        </option>
+        <option desc="罗丝">
+            <parameter cpu="0" address="0xFF88A2" value="0x09"/>
+        </option>
+        <option desc="维加">
+            <parameter cpu="0" address="0xFF88A2" value="0x0A"/>
+        </option>
+        <option desc="萨卡特">
+            <parameter cpu="0" address="0xFF88A2" value="0x0B"/>
+        </option>
+        <option desc="火引弹">
+            <parameter cpu="0" address="0xFF88A2" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Ken或者Ryu PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89F2" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Chun Li PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89C1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Charlie PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89F0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Guy PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89C4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Birdie PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限挑衅使用者为Birdie PL2">
+            <parameter cpu="0" address="0xFF89F8" value="0x00"/>
+        </option>
+        <option desc="无限挑衅使用者为Adon PL2">
+            <parameter cpu="0" address="0xFF89F8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Sodom PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89FF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Rose PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89E8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Sagat PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89C0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Akuma PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89F1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅使用者为Bison PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89FB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限健康状态(能量) PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8C41" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8CBF" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Adon PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限挑衅 - Adon PL3">
+            <parameter cpu="0" address="0xFF8DF8" value="0x01"/>
+        </option>
+        <option desc="无限挑衅 - Birdie PL3">
+            <parameter cpu="0" address="0xFF8DF8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Akuma PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DF1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Charlie PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DF0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - 春丽 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DC1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Guy PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DC4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Ken PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DF2" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - M.Bison PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DFB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Rose PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DE8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Sagat PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DC0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑衅 - Sodom PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DFF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="过关 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8CC6" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="空中可移动出招 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8C2F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8C4F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="连续击打数无限制 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8C4A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="No Alpha Combo Limit PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8D02" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最终射击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9841" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="昏晕 - 不会昏晕 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8D37" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="昏晕 -总是昏晕 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8D3A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="控制器模式 - 使用者控制 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="控制器模式 - 使用者控制 PL3">
+            <parameter cpu="0" address="0xFF8CC5" value="0x00"/>
+        </option>
+        <option desc="控制器模式 - 电脑控制 PL3">
+            <parameter cpu="0" address="0xFF8CC5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="控制器模式 - 高难度电脑游戏 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8BD8" value="0x84"/>
+            <parameter cpu="0" address="0xFF8CC5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Adon PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Adon PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Akuma PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Birdie PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Charlie PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x03"/>
+        </option>
+        <option desc="角色选择 - 春丽 PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x04"/>
+        </option>
+        <option desc="角色选择 - Dan PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x0C"/>
+        </option>
+        <option desc="角色选择 - Guy PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Ken PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x01"/>
+        </option>
+        <option desc="角色选择 - M.Bison PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x0A"/>
+        </option>
+        <option desc="角色选择 - Rose PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x09"/>
+        </option>
+        <option desc="角色选择 - Ryu PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Sagat PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x0B"/>
+        </option>
+        <option desc="角色选择 - Sodom PL3">
+            <parameter cpu="0" address="0xFF8CA2" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择背景 - Adon (泰国)" default="0">
+        <option desc="关闭"/>
+        <option desc="选择背景 - Adon (泰国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x0A"/>
+        </option>
+        <option desc="选择背景 - Birdie (意大利)">
+            <parameter cpu="0" address="0xFFAE01" value="0x10"/>
+        </option>
+        <option desc="选择背景 - Charlie (美国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x06"/>
+        </option>
+        <option desc="选择背景 - 春丽 (中国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x08"/>
+        </option>
+        <option desc="选择背景 - Dan (泰国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x18"/>
+        </option>
+        <option desc="选择背景 - Guy (日本)">
+            <parameter cpu="0" address="0xFFAE01" value="0x0E"/>
+        </option>
+        <option desc="选择背景 - Ken (美国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x02"/>
+        </option>
+        <option desc="选择背景 - M.Bison (中国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x04"/>
+        </option>
+        <option desc="选择背景 - M.Bison (美国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x14"/>
+        </option>
+        <option desc="选择背景 - Rose (意大利)">
+            <parameter cpu="0" address="0xFFAE01" value="0x12"/>
+        </option>
+        <option desc="选择背景 - Ryu (日本)">
+            <parameter cpu="0" address="0xFFAE01" value="0x00"/>
+        </option>
+        <option desc="选择背景 - Sagat (泰国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x16"/>
+        </option>
+        <option desc="选择背景 - Sodom (美国)">
+            <parameter cpu="0" address="0xFFAE01" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFFAE13" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFFAE13" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFFAE13" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFFAE13" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFFAE13" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFFAE13" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFFAE13" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 8">
+            <parameter cpu="0" address="0xFFAE13" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="Intrusion Gouki Flag PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E6" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是攻击取消 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8640" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="Intrusion Gouki Flag PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E6" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是攻击取消 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A40" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="地区开关 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地区开关 = 日本">
+            <parameter cpu="0" address="0xFF8191" value="0x00"/>
+        </option>
+        <option desc="地区开关 = 美国">
+            <parameter cpu="0" address="0xFF8191" value="0x02"/>
+        </option>
+        <option desc="地区开关 = 西班牙">
+            <parameter cpu="0" address="0xFF8191" value="0x04"/>
+        </option>
+        <option desc="地区开关 = 亚洲">
+            <parameter cpu="0" address="0xFF8191" value="0x06"/>
+        </option>
+        <option desc="地区开关 = 欧洲">
+            <parameter cpu="0" address="0xFF8191" value="0x08"/>
+        </option>
+        <option desc="地区开关 = 巴西">
+            <parameter cpu="0" address="0xFF8191" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

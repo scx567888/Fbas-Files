@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF000B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限移动时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF43B2" value="0x02"/>
+            <parameter cpu="0" address="0xFF43B3" value="0x58"/>
+        </option>
+    </cheat>
+    <cheat desc="当前泡泡总是红色" default="0">
+        <option desc="关闭"/>
+        <option desc="当前泡泡总是红色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x10"/>
+        </option>
+        <option desc="当前泡泡总是黄色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x11"/>
+        </option>
+        <option desc="当前泡泡总是蓝色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x12"/>
+        </option>
+        <option desc="当前泡泡总是绿色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x13"/>
+        </option>
+        <option desc="当前泡泡总是紫色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x14"/>
+        </option>
+        <option desc="当前泡泡总是紫罗兰色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x15"/>
+        </option>
+        <option desc="当前泡泡总是灰白色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x16"/>
+        </option>
+        <option desc="当前泡泡总是深灰色">
+            <parameter cpu="0" address="0xFF2CC5" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="下一泡泡总是红色" default="0">
+        <option desc="关闭"/>
+        <option desc="下一泡泡总是红色">
+            <parameter cpu="0" address="0xFF2B45" value="0x10"/>
+        </option>
+        <option desc="下一泡泡总是黄色">
+            <parameter cpu="0" address="0xFF2B45" value="0x11"/>
+        </option>
+        <option desc="下一泡泡总是蓝色">
+            <parameter cpu="0" address="0xFF2B45" value="0x12"/>
+        </option>
+        <option desc="下一泡泡总是绿色">
+            <parameter cpu="0" address="0xFF2B45" value="0x13"/>
+        </option>
+        <option desc="下一泡泡总是紫色">
+            <parameter cpu="0" address="0xFF2B45" value="0x14"/>
+        </option>
+        <option desc="下一泡泡总是紫罗兰色">
+            <parameter cpu="0" address="0xFF2B45" value="0x15"/>
+        </option>
+        <option desc="下一泡泡总是灰白色">
+            <parameter cpu="0" address="0xFF2B45" value="0x16"/>
+        </option>
+        <option desc="下一泡泡总是深灰色">
+            <parameter cpu="0" address="0xFF2B45" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="无限移动时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF35B8" value="0x02"/>
+            <parameter cpu="0" address="0xFF35B9" value="0x58"/>
+        </option>
+    </cheat>
+    <cheat desc="当前泡泡总是红色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前泡泡总是红色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x10"/>
+        </option>
+        <option desc="当前泡泡总是黄色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x11"/>
+        </option>
+        <option desc="当前泡泡总是蓝色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x12"/>
+        </option>
+        <option desc="当前泡泡总是绿色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x13"/>
+        </option>
+        <option desc="当前泡泡总是紫色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x14"/>
+        </option>
+        <option desc="当前泡泡总是紫罗兰色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x15"/>
+        </option>
+        <option desc="当前泡泡总是灰白色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x16"/>
+        </option>
+        <option desc="当前泡泡总是深灰色 PL1">
+            <parameter cpu="0" address="0xFF2AE5" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="下一泡泡总是红色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一泡泡总是红色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x10"/>
+        </option>
+        <option desc="下一泡泡总是黄色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x11"/>
+        </option>
+        <option desc="下一泡泡总是蓝色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x12"/>
+        </option>
+        <option desc="下一泡泡总是绿色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x13"/>
+        </option>
+        <option desc="下一泡泡总是紫色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x14"/>
+        </option>
+        <option desc="下一泡泡总是紫罗兰色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x15"/>
+        </option>
+        <option desc="下一泡泡总是灰白色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x16"/>
+        </option>
+        <option desc="下一泡泡总是深灰色 PL1">
+            <parameter cpu="0" address="0xFF2AC5" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="无限移动时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF3764" value="0x02"/>
+            <parameter cpu="0" address="0xFF3765" value="0x58"/>
+        </option>
+    </cheat>
+    <cheat desc="当前泡泡总是红色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前泡泡总是红色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x10"/>
+        </option>
+        <option desc="当前泡泡总是黄色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x11"/>
+        </option>
+        <option desc="当前泡泡总是蓝色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x12"/>
+        </option>
+        <option desc="当前泡泡总是绿色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x13"/>
+        </option>
+        <option desc="当前泡泡总是紫色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x14"/>
+        </option>
+        <option desc="当前泡泡总是紫罗兰色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x15"/>
+        </option>
+        <option desc="当前泡泡总是灰白色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x16"/>
+        </option>
+        <option desc="当前泡泡总是深灰色 PL2">
+            <parameter cpu="0" address="0xFF1CE5" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="下一泡泡总是红色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一泡泡总是红色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x10"/>
+        </option>
+        <option desc="下一泡泡总是黄色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x11"/>
+        </option>
+        <option desc="下一泡泡总是蓝色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x12"/>
+        </option>
+        <option desc="下一泡泡总是绿色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x13"/>
+        </option>
+        <option desc="下一泡泡总是紫色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x14"/>
+        </option>
+        <option desc="下一泡泡总是紫罗兰色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x15"/>
+        </option>
+        <option desc="下一泡泡总是灰白色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x16"/>
+        </option>
+        <option desc="下一泡泡总是深灰色 PL2">
+            <parameter cpu="0" address="0xFF1CC5" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="游戏开始选择路径为 A或者B (Def.)" default="0">
+        <option desc="关闭"/>
+        <option desc="游戏开始选择路径为 A或者B (Def.)">
+            <parameter cpu="0" address="0xFF3D27" value="0x00"/>
+        </option>
+        <option desc="游戏开始选择路径为 C或者D">
+            <parameter cpu="0" address="0xFF3D27" value="0x01"/>
+        </option>
+        <option desc="游戏开始选择路径为 D或者E">
+            <parameter cpu="0" address="0xFF3D27" value="0x02"/>
+        </option>
+        <option desc="游戏开始选择路径为 F或者G">
+            <parameter cpu="0" address="0xFF3D27" value="0x03"/>
+        </option>
+        <option desc="游戏开始选择路径为 G或者H">
+            <parameter cpu="0" address="0xFF3D27" value="0x04"/>
+        </option>
+        <option desc="游戏开始选择路径为 H或者I">
+            <parameter cpu="0" address="0xFF3D27" value="0x05"/>
+        </option>
+        <option desc="游戏开始选择路径为 J或者K">
+            <parameter cpu="0" address="0xFF3D27" value="0x06"/>
+        </option>
+        <option desc="游戏开始选择路径为 K或者L">
+            <parameter cpu="0" address="0xFF3D27" value="0x07"/>
+        </option>
+        <option desc="游戏开始选择路径为 L或者M">
+            <parameter cpu="0" address="0xFF3D27" value="0x08"/>
+        </option>
+        <option desc="游戏开始选择路径为 M或者N">
+            <parameter cpu="0" address="0xFF3D27" value="0x09"/>
+        </option>
+        <option desc="游戏开始选择路径为 O或者P">
+            <parameter cpu="0" address="0xFF3D27" value="0x0A"/>
+        </option>
+        <option desc="游戏开始选择路径为 P或者Q">
+            <parameter cpu="0" address="0xFF3D27" value="0x0B"/>
+        </option>
+        <option desc="游戏开始选择路径为 Q或者R">
+            <parameter cpu="0" address="0xFF3D27" value="0x0C"/>
+        </option>
+        <option desc="游戏开始选择路径为 R或者S">
+            <parameter cpu="0" address="0xFF3D27" value="0x0D"/>
+        </option>
+        <option desc="游戏开始选择路径为 S或者T">
+            <parameter cpu="0" address="0xFF3D27" value="0x0E"/>
+        </option>
+        <option desc="游戏开始选择路径为 U或者V">
+            <parameter cpu="0" address="0xFF3D27" value="0x0F"/>
+        </option>
+        <option desc="游戏开始选择路径为 V或者W">
+            <parameter cpu="0" address="0xFF3D27" value="0x10"/>
+        </option>
+        <option desc="游戏开始选择路径为 W或者X">
+            <parameter cpu="0" address="0xFF3D27" value="0x11"/>
+        </option>
+        <option desc="游戏开始选择路径为 X或者Y">
+            <parameter cpu="0" address="0xFF3D27" value="0x12"/>
+        </option>
+        <option desc="游戏开始选择路径为 Y或者Z">
+            <parameter cpu="0" address="0xFF3D27" value="0x13"/>
+        </option>
+        <option desc="游戏开始选择路径为 Y或者?">
+            <parameter cpu="0" address="0xFF3D27" value="0x14"/>
+        </option>
+    </cheat>
+</shufflecheat>

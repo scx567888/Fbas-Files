@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限红心 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD004" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="魔法槽满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD030" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD033" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD064" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限红心 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD084" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="魔法槽满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0B0" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0B3" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFDD0E4" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

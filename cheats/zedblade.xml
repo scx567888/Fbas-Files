@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109024" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x109021" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x109021" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x109021" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x109021" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x109021" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x109021" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x109021" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x109021" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10909E" value="0x65"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100229" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10022F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="闪电墙炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10021D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100261" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100265" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大机后射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100269" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10023E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到低速船体 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到低速船体 ! PL1">
+            <parameter cpu="0" address="0x100219" value="0x00"/>
+        </option>
+        <option desc="得到中速船体 ! PL1">
+            <parameter cpu="0" address="0x100219" value="0x01"/>
+        </option>
+        <option desc="得到最快快速船体 ! PL1">
+            <parameter cpu="0" address="0x100219" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有三向射击武器     PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有三向射击武器     PL1">
+            <parameter cpu="0" address="0x100263" value="0x00"/>
+        </option>
+        <option desc="总是有波浪射击      PL1">
+            <parameter cpu="0" address="0x100263" value="0x01"/>
+        </option>
+        <option desc="总是有垂直射击  PL1">
+            <parameter cpu="0" address="0x100263" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有自引导导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有自引导导弹 PL1">
+            <parameter cpu="0" address="0x100267" value="0x00"/>
+        </option>
+        <option desc="总是有空对空导弹  PL1">
+            <parameter cpu="0" address="0x100267" value="0x01"/>
+        </option>
+        <option desc="总是有空对地导弹  PL1">
+            <parameter cpu="0" address="0x100267" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有2向后射 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有2向后射 PL1">
+            <parameter cpu="0" address="0x10026B" value="0x00"/>
+        </option>
+        <option desc="总是有波动后射 PL1">
+            <parameter cpu="0" address="0x10026B" value="0x01"/>
+        </option>
+        <option desc="总是有双后射 PL1">
+            <parameter cpu="0" address="0x10026B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10909F" value="0x65"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100029" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10002F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="闪电墙炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10001D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100061" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100065" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大机后射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100069" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10003E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到低速船体 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到低速船体 ! PL2">
+            <parameter cpu="0" address="0x100019" value="0x00"/>
+        </option>
+        <option desc="得到中速船体 ! PL2">
+            <parameter cpu="0" address="0x100019" value="0x01"/>
+        </option>
+        <option desc="得到最快快速船体 ! PL2">
+            <parameter cpu="0" address="0x100019" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有三向射击武器     PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有三向射击武器     PL2">
+            <parameter cpu="0" address="0x100063" value="0x00"/>
+        </option>
+        <option desc="总是有波浪射击      PL2">
+            <parameter cpu="0" address="0x100063" value="0x01"/>
+        </option>
+        <option desc="总是有垂直射击  PL2">
+            <parameter cpu="0" address="0x100063" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有自引导导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有自引导导弹 PL2">
+            <parameter cpu="0" address="0x100067" value="0x00"/>
+        </option>
+        <option desc="总是有空对地导弹  PL2">
+            <parameter cpu="0" address="0x100067" value="0x01"/>
+        </option>
+        <option desc="总是有空对空导弹  PL2">
+            <parameter cpu="0" address="0x100067" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有2向后射 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有2向后射 PL2">
+            <parameter cpu="0" address="0x10006B" value="0x00"/>
+        </option>
+        <option desc="总是有波动后射 PL2">
+            <parameter cpu="0" address="0x10006B" value="0x01"/>
+        </option>
+        <option desc="总是有双后射 PL2">
+            <parameter cpu="0" address="0x10006B" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

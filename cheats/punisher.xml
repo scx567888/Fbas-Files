@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择结局" default="0">
+        <option desc="关闭"/>
+        <option desc="特殊结局">
+            <parameter cpu="0" address="0xFF5BF6" value="0x00"/>
+        </option>
+        <option desc="普通结局">
+            <parameter cpu="0" address="0xFF5BF6" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFF5BB9" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFF5BB9" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF5BB9" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF5BB9" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF5BB9" value="0x04"/>
+        </option>
+        <option desc="选关 - 最后场景">
+            <parameter cpu="0" address="0xFF5BB9" value="0x05"/>
+        </option>
+        <option desc="选关 - 奖励关">
+            <parameter cpu="0" address="0xFF5BB9" value="0x06"/>
+        </option>
+        <option desc="选关 - 奖励关 2">
+            <parameter cpu="0" address="0xFF5BB9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAD1F" value="0x00"/>
+            <parameter cpu="0" address="0xFFADDF" value="0x00"/>
+            <parameter cpu="0" address="0xFFAE9F" value="0x00"/>
+            <parameter cpu="0" address="0xFFAF5F" value="0x00"/>
+            <parameter cpu="0" address="0xFFB01F" value="0x00"/>
+            <parameter cpu="0" address="0xFFB0DF" value="0x00"/>
+            <parameter cpu="0" address="0xFFB19F" value="0x00"/>
+            <parameter cpu="0" address="0xFFB25F" value="0x00"/>
+            <parameter cpu="0" address="0xFFB31F" value="0x00"/>
+            <parameter cpu="0" address="0xFFB3DF" value="0x00"/>
+            <parameter cpu="0" address="0xFFF81F" value="0x00"/>
+            <parameter cpu="0" address="0xFFFBDF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF18AB" value="0xBF"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 原版第1关BOSS只能用总是有枪cheat击毙 ]"/>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5FA1" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有枪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5D96" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="武器不掉" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1ADEE" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="总是有M16 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8ECD" value="0x06"/>
+            <parameter cpu="0" address="0xFF8ECE" value="0xC9"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BA4" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8E9F" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BCA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8EB5" value="0xF1"/>
+        </option>
+    </cheat>
+    <cheat desc="总是下上绝招(无法吃东西) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8F12" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="跳起按↓Ａ即可打人 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8EF5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="抓住敌方按 A 无限XXX PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8F0A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="抓住敌方不掉落 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8EC0" value="0xB4"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8F9F" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BCB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BA5" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8FB5" value="0xF1"/>
+        </option>
+    </cheat>
+    <cheat desc="跳起按↓Ａ即可打人 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8FF5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="抓住敌方按 A 无限XXX PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF900A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="抓住敌方不掉落 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8FC0" value="0xB4"/>
+        </option>
+    </cheat>
+</shufflecheat>

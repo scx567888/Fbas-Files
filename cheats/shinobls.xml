@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限忍者魔法" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD778" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是忍者魔法类型 1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是忍者魔法类型 1">
+            <parameter cpu="0" address="0xFFD779" value="0x00"/>
+        </option>
+        <option desc="总是忍者魔法类型 2">
+            <parameter cpu="0" address="0xFFD779" value="0x01"/>
+        </option>
+        <option desc="总是忍者魔法类型 3">
+            <parameter cpu="0" address="0xFFD779" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大伤害力武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD79E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即一击杀BOSS!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC891" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD750" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD74F" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="不能射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD798" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择跳的高度" default="0">
+        <option desc="关闭"/>
+        <option desc="低">
+            <parameter cpu="0" address="0xC7001D" value="0xF0"/>
+        </option>
+        <option desc="正常">
+            <parameter cpu="0" address="0xC7001D" value="0x80"/>
+        </option>
+        <option desc="高">
+            <parameter cpu="0" address="0xC7001D" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="跳起时可以战斗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC7002C" value="0xFF"/>
+            <parameter cpu="0" address="0xC7002D" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

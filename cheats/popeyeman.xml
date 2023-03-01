@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4E6E" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4E14" value="0x05"/>
+            <parameter cpu="0" address="0x4E15" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4E0E" value="0xF4"/>
+        </option>
+    </cheat>
+    <cheat desc="选择幽灵被吃状态后恢复的速度" default="0">
+        <option desc="关闭"/>
+        <option desc="停留在被吃状态直到被吃为止">
+            <parameter cpu="0" address="0x4DBD" value="0x00"/>
+            <parameter cpu="0" address="0x4DBE" value="0x00"/>
+        </option>
+        <option desc="慢速">
+            <parameter cpu="0" address="0x4DBD" value="0x02"/>
+            <parameter cpu="0" address="0x4DBE" value="0x58"/>
+        </option>
+        <option desc="一般">
+            <parameter cpu="0" address="0x4DBD" value="0x01"/>
+            <parameter cpu="0" address="0x4DBE" value="0x68"/>
+        </option>
+        <option desc="快速">
+            <parameter cpu="0" address="0x4DBD" value="0x00"/>
+            <parameter cpu="0" address="0x4DBE" value="0xF0"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x4DBD" value="0x00"/>
+            <parameter cpu="0" address="0x4DBE" value="0x78"/>
+        </option>
+        <option desc="不会变蓝">
+            <parameter cpu="0" address="0x4DBD" value="0x00"/>
+            <parameter cpu="0" address="0x4DBE" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡（练习）" default="0">
+        <option desc="关闭"/>
+        <option desc="樱桃关">
+            <parameter cpu="0" address="0x4E13" value="0x00"/>
+        </option>
+        <option desc="草莓">
+            <parameter cpu="0" address="0x4E13" value="0x01"/>
+        </option>
+        <option desc="第一橙子关">
+            <parameter cpu="0" address="0x4E13" value="0x02"/>
+        </option>
+        <option desc="第二橙子关">
+            <parameter cpu="0" address="0x4E13" value="0x03"/>
+        </option>
+        <option desc="第一苹果关">
+            <parameter cpu="0" address="0x4E13" value="0x04"/>
+        </option>
+        <option desc="第二苹果关">
+            <parameter cpu="0" address="0x4E13" value="0x05"/>
+        </option>
+        <option desc="第一菠萝关">
+            <parameter cpu="0" address="0x4E13" value="0x06"/>
+        </option>
+        <option desc="第二菠萝关">
+            <parameter cpu="0" address="0x4E13" value="0x07"/>
+        </option>
+        <option desc="第一银河系关">
+            <parameter cpu="0" address="0x4E13" value="0x08"/>
+        </option>
+        <option desc="第二银河系关">
+            <parameter cpu="0" address="0x4E13" value="0x09"/>
+        </option>
+        <option desc="第一钟铃关">
+            <parameter cpu="0" address="0x4E13" value="0x0A"/>
+        </option>
+        <option desc="第二钟铃关">
+            <parameter cpu="0" address="0x4E13" value="0x0B"/>
+        </option>
+        <option desc="第一钥匙关">
+            <parameter cpu="0" address="0x4E13" value="0x0C"/>
+        </option>
+        <option desc="第二钥匙关">
+            <parameter cpu="0" address="0x4E13" value="0x0D"/>
+        </option>
+        <option desc="多画面 (无法游戏)">
+            <parameter cpu="0" address="0x4E13" value="0xFF"/>
+        </option>
+        <option desc="无迷宫或圆点(无法结束)">
+            <parameter cpu="0" address="0x4E13" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="红幽灵总是蓝色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="粉幽灵总是蓝色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="绿幽灵总是蓝色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="橘幽灵总是蓝色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DAA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="幽灵总是被吃状态 (不变色)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA5" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

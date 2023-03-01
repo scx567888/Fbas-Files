@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10BE68" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10019A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人不会对你开火!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017BF" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰炸弹射击时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100E41" value="0x26"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有1000000 奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103F8F" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101965" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102CB0" value="0x06"/>
+            <parameter cpu="0" address="0x102CB1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最大射击火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102CAD" value="0x04"/>
+            <parameter cpu="0" address="0x102CAF" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="最大联合体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017D1" value="0x37"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102CCA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有x99 最大奖励 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10192B" value="0x99"/>
+            <parameter cpu="0" address="0x10192D" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101967" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102CF0" value="0x06"/>
+            <parameter cpu="0" address="0x102CF1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最大射击火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102CED" value="0x04"/>
+            <parameter cpu="0" address="0x102CEF" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="最大联合体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017FB" value="0x37"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D0A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有x99 最大奖励 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101935" value="0x99"/>
+            <parameter cpu="0" address="0x101937" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择外挂武器类型 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="类型-A">
+            <parameter cpu="0" address="0x102D1D" value="0x00"/>
+        </option>
+        <option desc="类型-B">
+            <parameter cpu="0" address="0x102D1D" value="0x01"/>
+        </option>
+        <option desc="类型-C">
+            <parameter cpu="0" address="0x102D1D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择外挂武器类型 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="类型-A">
+            <parameter cpu="0" address="0x102D5D" value="0x00"/>
+        </option>
+        <option desc="类型-B">
+            <parameter cpu="0" address="0x102D5D" value="0x01"/>
+        </option>
+        <option desc="类型-C">
+            <parameter cpu="0" address="0x102D5D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="关卡 3（过关后在加分画面选择）" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 3（过关后在加分画面选择）">
+            <parameter cpu="0" address="0x101979" value="0x02"/>
+        </option>
+        <option desc="关卡 4">
+            <parameter cpu="0" address="0x101979" value="0x03"/>
+        </option>
+        <option desc="关卡 5">
+            <parameter cpu="0" address="0x101979" value="0x04"/>
+        </option>
+        <option desc="关卡 6">
+            <parameter cpu="0" address="0x101979" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

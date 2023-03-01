@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60052" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60861" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用增压涡轮" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2607B2" value="0x01"/>
+            <parameter cpu="0" address="0x2607B3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="增压涡轮不会过热" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2607B4" value="0x00"/>
+            <parameter cpu="0" address="0x2607B5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有更快速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x260783" value="0xFF"/>
+            <parameter cpu="0" address="0x608F1" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="设置当前决赛场景" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x260003" value="0x03"/>
+            <parameter cpu="0" address="0x608B3" value="0x03"/>
+            <parameter cpu="0" address="0x60D61" value="0x0F"/>
+        </option>
+    </cheat>
+</shufflecheat>

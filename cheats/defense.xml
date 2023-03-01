@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC60D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC60E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是升级火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC658" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有三倍火力范围" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC63E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFFC65B" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFFC65B" value="0x0A"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFFC65B" value="0x14"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFFC65B" value="0x1E"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFFC65B" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC70E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是升级火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC758" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有三倍火力范围" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC73E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFFC75B" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFFC75B" value="0x0A"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFFC75B" value="0x14"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFFC75B" value="0x1E"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFFC75B" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限伤害" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC63A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完美破坏敌人导弹装备" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC646" value="0x01"/>
+            <parameter cpu="0" address="0xFFC647" value="0x01"/>
+            <parameter cpu="0" address="0xFFC648" value="0x01"/>
+            <parameter cpu="0" address="0xFFC649" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完美破坏敌人人造卫星装备" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC64A" value="0x01"/>
+            <parameter cpu="0" address="0xFFC64B" value="0x01"/>
+            <parameter cpu="0" address="0xFFC64C" value="0x01"/>
+            <parameter cpu="0" address="0xFFC64D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完美破坏敌人装备" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC64E" value="0x01"/>
+            <parameter cpu="0" address="0xFFC64F" value="0x01"/>
+            <parameter cpu="0" address="0xFFC650" value="0x01"/>
+            <parameter cpu="0" address="0xFFC651" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完美破坏敌人基地装备" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC652" value="0x01"/>
+            <parameter cpu="0" address="0xFFC653" value="0x01"/>
+            <parameter cpu="0" address="0xFFC654" value="0x01"/>
+            <parameter cpu="0" address="0xFFC655" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 1">
+            <parameter cpu="0" address="0xFFC40B" value="0x00"/>
+        </option>
+        <option desc="关卡 2">
+            <parameter cpu="0" address="0xFFC40B" value="0x02"/>
+        </option>
+        <option desc="关卡 3">
+            <parameter cpu="0" address="0xFFC40B" value="0x04"/>
+        </option>
+        <option desc="关卡 4">
+            <parameter cpu="0" address="0xFFC40B" value="0x06"/>
+        </option>
+        <option desc="关卡 5">
+            <parameter cpu="0" address="0xFFC40B" value="0x08"/>
+        </option>
+        <option desc="关卡 6">
+            <parameter cpu="0" address="0xFFC40B" value="0x0A"/>
+        </option>
+        <option desc="关卡 7">
+            <parameter cpu="0" address="0xFFC40B" value="0x0C"/>
+        </option>
+        <option desc="关卡 8">
+            <parameter cpu="0" address="0xFFC40B" value="0x0E"/>
+        </option>
+        <option desc="关卡 9">
+            <parameter cpu="0" address="0xFFC40B" value="0x10"/>
+        </option>
+        <option desc="关卡 10">
+            <parameter cpu="0" address="0xFFC40B" value="0x12"/>
+        </option>
+        <option desc="关卡 11">
+            <parameter cpu="0" address="0xFFC40B" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="Flicky模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC83A" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

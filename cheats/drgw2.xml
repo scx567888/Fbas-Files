@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81407B" value="0x33"/>
+            <parameter cpu="0" address="0x814081" value="0xE9"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择关卡等级时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8060EB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限挑战关卡选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8082ED" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限悔步选择牌型时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8129F8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限游戏结束后续币时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x810CE2" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限悔步" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8129B0" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限自动消牌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8129B1" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8129B2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81387D" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8002D" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="消灭1个敌人完成这关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x85C21" value="0x01"/>
+            <parameter cpu="0" address="0x85C22" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开始关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 1-1">
+            <parameter cpu="0" address="0x85C24" value="0xFF"/>
+        </option>
+        <option desc="关卡 1-2">
+            <parameter cpu="0" address="0x85C24" value="0x00"/>
+        </option>
+        <option desc="关卡 1-3">
+            <parameter cpu="0" address="0x85C24" value="0x01"/>
+        </option>
+        <option desc="关卡 1-4">
+            <parameter cpu="0" address="0x85C24" value="0x02"/>
+        </option>
+        <option desc="关卡 2-1">
+            <parameter cpu="0" address="0x85C24" value="0x03"/>
+        </option>
+        <option desc="关卡 2-2">
+            <parameter cpu="0" address="0x85C24" value="0x04"/>
+        </option>
+        <option desc="关卡 2-3">
+            <parameter cpu="0" address="0x85C24" value="0x05"/>
+        </option>
+        <option desc="关卡 2-4">
+            <parameter cpu="0" address="0x85C24" value="0x06"/>
+        </option>
+        <option desc="关卡 3-1">
+            <parameter cpu="0" address="0x85C24" value="0x07"/>
+        </option>
+        <option desc="关卡 3-2">
+            <parameter cpu="0" address="0x85C24" value="0x08"/>
+        </option>
+        <option desc="关卡 3-3">
+            <parameter cpu="0" address="0x85C24" value="0x09"/>
+        </option>
+        <option desc="关卡 3-4">
+            <parameter cpu="0" address="0x85C24" value="0x0A"/>
+        </option>
+        <option desc="关卡 4-1">
+            <parameter cpu="0" address="0x85C24" value="0x0B"/>
+        </option>
+        <option desc="关卡 4-2">
+            <parameter cpu="0" address="0x85C24" value="0x0C"/>
+        </option>
+        <option desc="关卡 4-3">
+            <parameter cpu="0" address="0x85C24" value="0x0D"/>
+        </option>
+        <option desc="关卡 4-4">
+            <parameter cpu="0" address="0x85C24" value="0x0E"/>
+        </option>
+        <option desc="最终关">
+            <parameter cpu="0" address="0x85C24" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8086C" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8086D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪">
+            <parameter cpu="0" address="0x80874" value="0x00"/>
+        </option>
+        <option desc="半自动枪">
+            <parameter cpu="0" address="0x80874" value="0x01"/>
+        </option>
+        <option desc="全自动枪">
+            <parameter cpu="0" address="0x80874" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80F2C" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80F2D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪">
+            <parameter cpu="0" address="0x80F34" value="0x00"/>
+        </option>
+        <option desc="半自动枪">
+            <parameter cpu="0" address="0x80F34" value="0x01"/>
+        </option>
+        <option desc="全自动枪">
+            <parameter cpu="0" address="0x80F34" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

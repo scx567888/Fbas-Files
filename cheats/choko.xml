@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF809E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF63E9" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="无限计谋" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF63C5" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="运动速度缓慢" default="0">
+        <option desc="关闭"/>
+        <option desc="运动速度缓慢">
+            <parameter cpu="0" address="0xFF5198" value="0x26"/>
+        </option>
+        <option desc="运动速度快速">
+            <parameter cpu="0" address="0xFF5198" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="过关! " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5196" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择地区" default="0">
+        <option desc="关闭"/>
+        <option desc="Japan ">
+            <parameter cpu="0" address="0xFF80B5" value="0x00"/>
+        </option>
+        <option desc="USA ">
+            <parameter cpu="0" address="0xFF80B5" value="0x02"/>
+        </option>
+        <option desc="Hispanic ">
+            <parameter cpu="0" address="0xFF80B5" value="0x04"/>
+        </option>
+        <option desc="Oceania ">
+            <parameter cpu="0" address="0xFF80B5" value="0x06"/>
+        </option>
+        <option desc="Asia ">
+            <parameter cpu="0" address="0xFF80B5" value="0x08"/>
+        </option>
+        <option desc="Euro ">
+            <parameter cpu="0" address="0xFF80B5" value="0x0A"/>
+        </option>
+        <option desc="Brazil">
+            <parameter cpu="0" address="0xFF80B5" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100114" value="0xFF"/>
+            <parameter cpu="0" address="0x10FD89" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 - 世界大奖赛" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000F8" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 - 故事" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10011B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限保留时间 [故事模式]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000FC" value="0x08"/>
+            <parameter cpu="0" address="0x1000FD" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超高速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100F79" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="每一次都赢 (第一)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100F89" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是驾驶最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100F52" value="0x01"/>
+            <parameter cpu="0" address="0x100F53" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 [故事模式]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C1C" value="0x99"/>
+            <parameter cpu="0" address="0x100C1D" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

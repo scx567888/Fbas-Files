@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x300E5C" value="0x13"/>
+            <parameter cpu="0" address="0x300E5D" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="时间总和总是 0'00''00" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x300E36" value="0x00"/>
+            <parameter cpu="0" address="0x300E37" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="SS1 时间总是 0'00''00" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x300E54" value="0x00"/>
+            <parameter cpu="0" address="0x300E55" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="SS2 时间总是 0'00''00" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x300E56" value="0x00"/>
+            <parameter cpu="0" address="0x300E57" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="SS3 时间总是 0'00''00" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x300E58" value="0x00"/>
+            <parameter cpu="0" address="0x300E59" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="SS4 时间总是 0'00''00" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x300E5A" value="0x00"/>
+            <parameter cpu="0" address="0x300E5B" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

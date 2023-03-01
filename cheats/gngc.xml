@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xAA" value="0x02"/>
+            <parameter cpu="0" address="0xAB" value="0x58"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择盔甲" default="0">
+        <option desc="关闭"/>
+        <option desc="盔甲">
+            <parameter cpu="0" address="0xAC" value="0x00"/>
+        </option>
+        <option desc="没有盔甲">
+            <parameter cpu="0" address="0xAC" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器" default="0">
+        <option desc="关闭"/>
+        <option desc="火把">
+            <parameter cpu="0" address="0x73" value="0x00"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x73" value="0x01"/>
+        </option>
+        <option desc="石斧">
+            <parameter cpu="0" address="0x73" value="0x02"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x73" value="0x03"/>
+        </option>
+        <option desc="剑">
+            <parameter cpu="0" address="0x73" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="从屏幕顶部出现" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x50A" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="变成青蛙" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x503" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="不会变成青蛙" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x528" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开始关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x72" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x72" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x72" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x72" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x72" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x72" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x72" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

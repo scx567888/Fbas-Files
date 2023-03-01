@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8188" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF8193" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF8193" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF8193" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF8193" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF8193" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF8193" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF8193" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFF8193" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="每局宣布战斗前可自由移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF818E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="Capcom Cafe">
+            <parameter cpu="0" address="0xFF8181" value="0x00"/>
+        </option>
+        <option desc="购物中心">
+            <parameter cpu="0" address="0xFF8181" value="0x02"/>
+        </option>
+        <option desc="Slopes">
+            <parameter cpu="0" address="0xFF8181" value="0x04"/>
+        </option>
+        <option desc="Dock">
+            <parameter cpu="0" address="0xFF8181" value="0x06"/>
+        </option>
+        <option desc="中国城">
+            <parameter cpu="0" address="0xFF8181" value="0x08"/>
+        </option>
+        <option desc="壁炉">
+            <parameter cpu="0" address="0xFF8181" value="0x0A"/>
+        </option>
+        <option desc="Morrigan的城堡">
+            <parameter cpu="0" address="0xFF8181" value="0x0C"/>
+        </option>
+        <option desc="Demitri的城堡">
+            <parameter cpu="0" address="0xFF8181" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8441" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8595" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8594" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大红色宝石攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85A3" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大黄色宝石攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85A5" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色宝石攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85A7" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="空中可移动出招 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF844F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF844C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="连续射击无间隔 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8570" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="飞行道具击打无限制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9841" value="0x63"/>
+            <parameter cpu="0" address="0xFF9941" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8419" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大破坏防御 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8539" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="不能使用闪光连续技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF859A" value="0x01"/>
+            <parameter cpu="0" address="0xFF859B" value="0x00"/>
+            <parameter cpu="0" address="0xFF859D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="显示99击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8944" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间* PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF840E" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Akuma PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x00"/>
+            <parameter cpu="0" address="0xFF8781" value="0x0B"/>
+        </option>
+        <option desc="角色选择 - 春丽 PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x04"/>
+            <parameter cpu="0" address="0xFF8781" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Dan PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x03"/>
+            <parameter cpu="0" address="0xFF8781" value="0x0A"/>
+        </option>
+        <option desc="角色选择 - Felicia PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x08"/>
+            <parameter cpu="0" address="0xFF8781" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Hsien-Ko PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x07"/>
+            <parameter cpu="0" address="0xFF8781" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Ibuki PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8781" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Ken PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x02"/>
+            <parameter cpu="0" address="0xFF8781" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Morrigan PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x06"/>
+            <parameter cpu="0" address="0xFF8781" value="0x04"/>
+        </option>
+        <option desc="角色选择 - Ryu PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x01"/>
+            <parameter cpu="0" address="0xFF8781" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Sakura PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x05"/>
+            <parameter cpu="0" address="0xFF8781" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Tessa PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x09"/>
+            <parameter cpu="0" address="0xFF8781" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Zangief PL1">
+            <parameter cpu="0" address="0xFF8403" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8781" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择玩家颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="颜色选择 - 颜色 1 PL1">
+            <parameter cpu="0" address="0xFF879F" value="0x00"/>
+        </option>
+        <option desc="颜色选择 - 颜色 2 PL1">
+            <parameter cpu="0" address="0xFF879F" value="0x01"/>
+        </option>
+        <option desc="颜色选择 - 颜色3 PL1">
+            <parameter cpu="0" address="0xFF879F" value="0x02"/>
+        </option>
+        <option desc="颜色选择 - 颜色 4 PL1">
+            <parameter cpu="0" address="0xFF879F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石 (A) PL1总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF85F0" value="0xFF"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF85F0" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0xFF85F0" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0xFF85F0" value="0x02"/>
+        </option>
+        <option desc="头骨">
+            <parameter cpu="0" address="0xFF85F0" value="0x03"/>
+        </option>
+        <option desc="香蕉">
+            <parameter cpu="0" address="0xFF85F0" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF85F0" value="0x05"/>
+        </option>
+        <option desc="石化">
+            <parameter cpu="0" address="0xFF85F0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石 (B) PL1总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF85F1" value="0xFF"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF85F1" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0xFF85F1" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0xFF85F1" value="0x02"/>
+        </option>
+        <option desc="头骨">
+            <parameter cpu="0" address="0xFF85F1" value="0x03"/>
+        </option>
+        <option desc="香蕉">
+            <parameter cpu="0" address="0xFF85F1" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF85F1" value="0x05"/>
+        </option>
+        <option desc="石化">
+            <parameter cpu="0" address="0xFF85F1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石 (C) PL1总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF85F2" value="0xFF"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF85F2" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0xFF85F2" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0xFF85F2" value="0x02"/>
+        </option>
+        <option desc="头骨">
+            <parameter cpu="0" address="0xFF85F2" value="0x03"/>
+        </option>
+        <option desc="香蕉">
+            <parameter cpu="0" address="0xFF85F2" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF85F2" value="0x05"/>
+        </option>
+        <option desc="石化">
+            <parameter cpu="0" address="0xFF85F2" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8841" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8995" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8994" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大红色宝石攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89A3" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大黄色宝石攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89A5" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色宝石攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89A7" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="空中可移动出招 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF884F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF884C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="连续射击无间隔 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8970" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="飞行道具击打无限制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9441" value="0x63"/>
+            <parameter cpu="0" address="0xFF9541" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8819" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大破坏防御 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8939" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="不能使用闪光连续技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF899A" value="0x01"/>
+            <parameter cpu="0" address="0xFF899B" value="0x00"/>
+            <parameter cpu="0" address="0xFF899D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="显示99击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8544" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间* PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF880E" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Akuma PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x00"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x0B"/>
+        </option>
+        <option desc="角色选择 - 春丽 PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x04"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Dan PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x03"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x0A"/>
+        </option>
+        <option desc="角色选择 - Felicia PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x08"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x06"/>
+        </option>
+        <option desc="角色选择 - Hsien-Ko PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x07"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x05"/>
+        </option>
+        <option desc="角色选择 - Ibuki PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x08"/>
+        </option>
+        <option desc="角色选择 - Ken PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x02"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Morrigan PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x06"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x04"/>
+        </option>
+        <option desc="角色选择 - Ryu PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x01"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Sakura PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x05"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Tessa PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x09"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x07"/>
+        </option>
+        <option desc="角色选择 - Zangief PL2">
+            <parameter cpu="0" address="0xFF8803" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择玩家颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="颜色选择 - 颜色 1 PL2">
+            <parameter cpu="0" address="0xFF8B9F" value="0x00"/>
+        </option>
+        <option desc="颜色选择 - 颜色 2 PL2">
+            <parameter cpu="0" address="0xFF8B9F" value="0x01"/>
+        </option>
+        <option desc="颜色选择 - 颜色3 PL2">
+            <parameter cpu="0" address="0xFF8B9F" value="0x02"/>
+        </option>
+        <option desc="颜色选择 - 颜色 4 PL2">
+            <parameter cpu="0" address="0xFF8B9F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石 (A) PL2总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF89F0" value="0xFF"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF89F0" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0xFF89F0" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0xFF89F0" value="0x02"/>
+        </option>
+        <option desc="头骨">
+            <parameter cpu="0" address="0xFF89F0" value="0x03"/>
+        </option>
+        <option desc="香蕉">
+            <parameter cpu="0" address="0xFF89F0" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF89F0" value="0x05"/>
+        </option>
+        <option desc="石化">
+            <parameter cpu="0" address="0xFF89F0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石 (B) PL2总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF89F1" value="0xFF"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF89F1" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0xFF89F1" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0xFF89F1" value="0x02"/>
+        </option>
+        <option desc="头骨">
+            <parameter cpu="0" address="0xFF89F1" value="0x03"/>
+        </option>
+        <option desc="香蕉">
+            <parameter cpu="0" address="0xFF89F1" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF89F1" value="0x05"/>
+        </option>
+        <option desc="石化">
+            <parameter cpu="0" address="0xFF89F1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="宝石 (C) PL2总是=" default="0">
+        <option desc="关闭"/>
+        <option desc="无">
+            <parameter cpu="0" address="0xFF89F2" value="0xFF"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF89F2" value="0x00"/>
+        </option>
+        <option desc="水">
+            <parameter cpu="0" address="0xFF89F2" value="0x01"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0xFF89F2" value="0x02"/>
+        </option>
+        <option desc="头骨">
+            <parameter cpu="0" address="0xFF89F2" value="0x03"/>
+        </option>
+        <option desc="香蕉">
+            <parameter cpu="0" address="0xFF89F2" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF89F2" value="0x05"/>
+        </option>
+        <option desc="石化">
+            <parameter cpu="0" address="0xFF89F2" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="地域转换 =" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF8111" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF8111" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF8111" value="0x04"/>
+        </option>
+        <option desc="大洋洲">
+            <parameter cpu="0" address="0xFF8111" value="0x06"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF8111" value="0x08"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF8111" value="0x0A"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF8111" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

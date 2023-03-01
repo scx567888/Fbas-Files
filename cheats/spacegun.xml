@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x31733D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (过关时关闭)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3173A6" value="0x03"/>
+            <parameter cpu="0" address="0x3173A7" value="0xE8"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有援救了9位人质" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317BBF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3173B2" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有射击能量充满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3173BA" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D29" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D2B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限刀刃武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D2D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限冻结武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D2F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3173B6" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有射击能量充满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3173BC" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火焰武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D45" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D47" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限刀刃武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D49" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限冻结武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x317D4A" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

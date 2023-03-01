@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4865" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限小火球" default="0">
+        <option desc="关闭"/>
+        <option desc="无限小火球">
+            <parameter cpu="0" address="0x4C00" value="0x02"/>
+        </option>
+        <option desc="无限四向火球">
+            <parameter cpu="0" address="0x4C00" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4866" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有剑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4867" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有王冠" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4868" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有权杖" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4869" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即杀死龙!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4D61" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

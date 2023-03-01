@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x380064" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="开始在最终关(世界地图场景开启) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x380411" value="0x0C"/>
+            <parameter cpu="0" address="0x380413" value="0xFF"/>
+            <parameter cpu="0" address="0x380413" value="0x0B"/>
+            <parameter cpu="0" address="0x380415" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="纯BOSS模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x380415" value="0x09000600"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x382860" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x382814" value="0x0002"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38285A" value="0x01"/>
+            <parameter cpu="0" address="0x382814" value="0x0002"/>
+            <parameter cpu="0" address="0x382856" value="0x000F"/>
+            <parameter cpu="0" address="0x38287E" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38285A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有火力升级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38285A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38285A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="得到超级炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38285A" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38285A" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x382960" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x382914" value="0x0002"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38295A" value="0x01"/>
+            <parameter cpu="0" address="0x382914" value="0x0002"/>
+            <parameter cpu="0" address="0x382956" value="0x000F"/>
+            <parameter cpu="0" address="0x38297E" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38295A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有火力升级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38295A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38295A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="得到超级炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x38295A" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x380072" value="0x80"/>
+        </option>
+    </cheat>
+</shufflecheat>

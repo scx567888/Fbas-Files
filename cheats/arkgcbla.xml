@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC432" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="到最终关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED72" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="球出界也不会死" default="0">
+        <option desc="关闭"/>
+        <option desc="球出界也不会死">
+            <parameter cpu="0" address="0xEF62" value="0x00"/>
+        </option>
+        <option desc="自杀">
+            <parameter cpu="0" address="0xEF62" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="空间门总是打开" default="0">
+        <option desc="关闭"/>
+        <option desc="空间门总是打开">
+            <parameter cpu="0" address="0xC4CE" value="0x01"/>
+        </option>
+        <option desc="空间门从不打开">
+            <parameter cpu="0" address="0xC4CE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED83" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择改变/落下的药丸" default="0">
+        <option desc="关闭"/>
+        <option desc="L(红色) = 激光">
+            <parameter cpu="0" address="0xC658" value="0x01"/>
+        </option>
+        <option desc="E(蓝色) = 加长棒">
+            <parameter cpu="0" address="0xC658" value="0x02"/>
+        </option>
+        <option desc="C(绿色) = 磁性棒">
+            <parameter cpu="0" address="0xC658" value="0x03"/>
+        </option>
+        <option desc="S(橙色) = 减速球">
+            <parameter cpu="0" address="0xC658" value="0x04"/>
+        </option>
+        <option desc="B(粉色) = 空间门">
+            <parameter cpu="0" address="0xC658" value="0x05"/>
+        </option>
+        <option desc="D(青色) = 多球">
+            <parameter cpu="0" address="0xC658" value="0x06"/>
+        </option>
+        <option desc="P(灰色) = 加命">
+            <parameter cpu="0" address="0xC658" value="0x07"/>
+        </option>
+        <option desc="L(红色) = 激光">
+            <parameter cpu="0" address="0xC658" value="0x81"/>
+        </option>
+        <option desc="E(蓝色) = 加长棒">
+            <parameter cpu="0" address="0xC658" value="0x82"/>
+        </option>
+        <option desc="C(绿色) = 磁性棒">
+            <parameter cpu="0" address="0xC658" value="0x83"/>
+        </option>
+        <option desc="S(橙色) = 减速球">
+            <parameter cpu="0" address="0xC658" value="0x84"/>
+        </option>
+        <option desc="B(粉色) = 空间门">
+            <parameter cpu="0" address="0xC658" value="0x85"/>
+        </option>
+        <option desc="D(青色) = 多球">
+            <parameter cpu="0" address="0xC658" value="0x86"/>
+        </option>
+        <option desc="P(灰色) = 加命">
+            <parameter cpu="0" address="0xC658" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED76" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xED7B" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

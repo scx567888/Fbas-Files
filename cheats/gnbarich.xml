@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60668BA" value="0x8C"/>
+            <parameter cpu="0" address="0x60668BB" value="0x9F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070429" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070AF3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070491" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1-1">
+            <parameter cpu="0" address="0x6066B0A" value="0x00"/>
+        </option>
+        <option desc="1-2">
+            <parameter cpu="0" address="0x6066B0A" value="0x01"/>
+        </option>
+        <option desc="1-3">
+            <parameter cpu="0" address="0x6066B0A" value="0x02"/>
+        </option>
+        <option desc="2-1">
+            <parameter cpu="0" address="0x6066B0A" value="0x03"/>
+        </option>
+        <option desc="2-2">
+            <parameter cpu="0" address="0x6066B0A" value="0x04"/>
+        </option>
+        <option desc="2-3">
+            <parameter cpu="0" address="0x6066B0A" value="0x05"/>
+        </option>
+        <option desc="3-1">
+            <parameter cpu="0" address="0x6066B0A" value="0x06"/>
+        </option>
+        <option desc="3-2">
+            <parameter cpu="0" address="0x6066B0A" value="0x07"/>
+        </option>
+        <option desc="3-3">
+            <parameter cpu="0" address="0x6066B0A" value="0x08"/>
+        </option>
+        <option desc="4-1">
+            <parameter cpu="0" address="0x6066B0A" value="0x09"/>
+        </option>
+        <option desc="4-2">
+            <parameter cpu="0" address="0x6066B0A" value="0x0A"/>
+        </option>
+        <option desc="4-3">
+            <parameter cpu="0" address="0x6066B0A" value="0x0B"/>
+        </option>
+        <option desc="5-1">
+            <parameter cpu="0" address="0x6066B0A" value="0x0C"/>
+        </option>
+        <option desc="5-2">
+            <parameter cpu="0" address="0x6066B0A" value="0x0D"/>
+        </option>
+        <option desc="5-3">
+            <parameter cpu="0" address="0x6066B0A" value="0x0E"/>
+        </option>
+        <option desc="6-1">
+            <parameter cpu="0" address="0x6066B0A" value="0x0F"/>
+        </option>
+        <option desc="6-2">
+            <parameter cpu="0" address="0x6066B0A" value="0x10"/>
+        </option>
+        <option desc="6-3">
+            <parameter cpu="0" address="0x6066B0A" value="0x11"/>
+        </option>
+        <option desc="7-1">
+            <parameter cpu="0" address="0x6066B0A" value="0x12"/>
+        </option>
+        <option desc="7-2">
+            <parameter cpu="0" address="0x6066B0A" value="0x13"/>
+        </option>
+        <option desc="7-3">
+            <parameter cpu="0" address="0x6066B0A" value="0x14"/>
+        </option>
+        <option desc="7-4">
+            <parameter cpu="0" address="0x6066B0A" value="0x15"/>
+        </option>
+    </cheat>
+    <cheat desc="第一局 = 黑洞" default="0">
+        <option desc="关闭"/>
+        <option desc="第一局 = 黑洞">
+            <parameter cpu="0" address="0x6066AF4" value="0x00"/>
+            <parameter cpu="0" address="0x6066AF5" value="0x01"/>
+            <parameter cpu="0" address="0x6066AF6" value="0x02"/>
+        </option>
+        <option desc="第一局 = 雪">
+            <parameter cpu="0" address="0x6066AF4" value="0x03"/>
+            <parameter cpu="0" address="0x6066AF5" value="0x04"/>
+            <parameter cpu="0" address="0x6066AF6" value="0x05"/>
+        </option>
+        <option desc="第一局 = 南瓜">
+            <parameter cpu="0" address="0x6066AF4" value="0x06"/>
+            <parameter cpu="0" address="0x6066AF5" value="0x07"/>
+            <parameter cpu="0" address="0x6066AF6" value="0x08"/>
+        </option>
+        <option desc="第一局 = Cogs">
+            <parameter cpu="0" address="0x6066AF4" value="0x09"/>
+            <parameter cpu="0" address="0x6066AF5" value="0x0A"/>
+            <parameter cpu="0" address="0x6066AF6" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="第二局 = 黑洞" default="0">
+        <option desc="关闭"/>
+        <option desc="第二局 = 黑洞">
+            <parameter cpu="0" address="0x6066AF7" value="0x00"/>
+            <parameter cpu="0" address="0x6066AF8" value="0x01"/>
+            <parameter cpu="0" address="0x6066AF9" value="0x02"/>
+        </option>
+        <option desc="第二局 = 雪">
+            <parameter cpu="0" address="0x6066AF7" value="0x03"/>
+            <parameter cpu="0" address="0x6066AF8" value="0x04"/>
+            <parameter cpu="0" address="0x6066AF9" value="0x05"/>
+        </option>
+        <option desc="第二局 = 南瓜">
+            <parameter cpu="0" address="0x6066AF7" value="0x06"/>
+            <parameter cpu="0" address="0x6066AF8" value="0x07"/>
+            <parameter cpu="0" address="0x6066AF9" value="0x08"/>
+        </option>
+        <option desc="第二局 = Cogs">
+            <parameter cpu="0" address="0x6066AF7" value="0x09"/>
+            <parameter cpu="0" address="0x6066AF8" value="0x0A"/>
+            <parameter cpu="0" address="0x6066AF9" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="第三局 = 黑洞" default="0">
+        <option desc="关闭"/>
+        <option desc="第三局 = 黑洞">
+            <parameter cpu="0" address="0x6066AFA" value="0x00"/>
+            <parameter cpu="0" address="0x6066AFB" value="0x01"/>
+            <parameter cpu="0" address="0x6066AFC" value="0x02"/>
+        </option>
+        <option desc="第三局 = 雪">
+            <parameter cpu="0" address="0x6066AFA" value="0x03"/>
+            <parameter cpu="0" address="0x6066AFB" value="0x04"/>
+            <parameter cpu="0" address="0x6066AFC" value="0x05"/>
+        </option>
+        <option desc="第三局 = 南瓜">
+            <parameter cpu="0" address="0x6066AFA" value="0x06"/>
+            <parameter cpu="0" address="0x6066AFB" value="0x07"/>
+            <parameter cpu="0" address="0x6066AFC" value="0x08"/>
+        </option>
+        <option desc="第三局 = Cogs">
+            <parameter cpu="0" address="0x6066AFA" value="0x09"/>
+            <parameter cpu="0" address="0x6066AFB" value="0x0A"/>
+            <parameter cpu="0" address="0x6066AFC" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="第四局 = 黑洞" default="0">
+        <option desc="关闭"/>
+        <option desc="第四局 = 黑洞">
+            <parameter cpu="0" address="0x6066AFD" value="0x00"/>
+            <parameter cpu="0" address="0x6066AFE" value="0x01"/>
+            <parameter cpu="0" address="0x6066AFF" value="0x02"/>
+        </option>
+        <option desc="第四局 = 雪">
+            <parameter cpu="0" address="0x6066AFD" value="0x03"/>
+            <parameter cpu="0" address="0x6066AFE" value="0x04"/>
+            <parameter cpu="0" address="0x6066AFF" value="0x05"/>
+        </option>
+        <option desc="第四局 = 南瓜">
+            <parameter cpu="0" address="0x6066AFD" value="0x06"/>
+            <parameter cpu="0" address="0x6066AFE" value="0x07"/>
+            <parameter cpu="0" address="0x6066AFF" value="0x08"/>
+        </option>
+        <option desc="第四局 = Cogs">
+            <parameter cpu="0" address="0x6066AFD" value="0x09"/>
+            <parameter cpu="0" address="0x6066AFE" value="0x0A"/>
+            <parameter cpu="0" address="0x6066AFF" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="开启维护模式(F2进入后开启)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070B20" value="0x01"/>
+            <parameter cpu="0" address="0x60CFFA1" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

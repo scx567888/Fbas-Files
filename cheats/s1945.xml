@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE1155" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE1159" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE1183" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE115B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大导弹火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE1185" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="P38机体火力 PL1">
+            <parameter cpu="0" address="0xFE113E" value="0xD6"/>
+            <parameter cpu="0" address="0xFE113F" value="0xCC"/>
+        </option>
+        <option desc="P51机体火力 PL1">
+            <parameter cpu="0" address="0xFE113E" value="0xD8"/>
+            <parameter cpu="0" address="0xFE113F" value="0xDC"/>
+        </option>
+        <option desc="SPIT FIRE机体火力 PL1">
+            <parameter cpu="0" address="0xFE113E" value="0xDC"/>
+            <parameter cpu="0" address="0xFE113F" value="0x9C"/>
+        </option>
+        <option desc="BF109机体火力 PL1">
+            <parameter cpu="0" address="0xFE113E" value="0xE0"/>
+            <parameter cpu="0" address="0xFE113F" value="0x6C"/>
+        </option>
+        <option desc="ZERO机体火力 PL1">
+            <parameter cpu="0" address="0xFE113E" value="0xE2"/>
+            <parameter cpu="0" address="0xFE113F" value="0x7C"/>
+        </option>
+        <option desc="SHINDEN机体火力 PL1">
+            <parameter cpu="0" address="0xFE113E" value="0xE6"/>
+            <parameter cpu="0" address="0xFE113F" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE11E1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE11E5" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE120F" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE11E7" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大导弹火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE1211" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="P38机体火力 PL2">
+            <parameter cpu="0" address="0xFE11C2" value="0xD6"/>
+            <parameter cpu="0" address="0xFE11C3" value="0xCC"/>
+        </option>
+        <option desc="P51机体火力 PL2">
+            <parameter cpu="0" address="0xFE11C2" value="0xD8"/>
+            <parameter cpu="0" address="0xFE11C3" value="0xDC"/>
+        </option>
+        <option desc="SPIT FIRE机体火力 PL2">
+            <parameter cpu="0" address="0xFE11C2" value="0xDC"/>
+            <parameter cpu="0" address="0xFE11C3" value="0x9C"/>
+        </option>
+        <option desc="BF109机体火力 PL2">
+            <parameter cpu="0" address="0xFE11C2" value="0xE0"/>
+            <parameter cpu="0" address="0xFE11C3" value="0x6C"/>
+        </option>
+        <option desc="ZERO机体火力 PL2">
+            <parameter cpu="0" address="0xFE11C2" value="0xE2"/>
+            <parameter cpu="0" address="0xFE11C3" value="0x7C"/>
+        </option>
+        <option desc="SHINDEN机体火力 PL2">
+            <parameter cpu="0" address="0xFE11C2" value="0xE6"/>
+            <parameter cpu="0" address="0xFE11C3" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1-1">
+            <parameter cpu="0" address="0xFE2221" value="0x01"/>
+        </option>
+        <option desc="1-2">
+            <parameter cpu="0" address="0xFE2221" value="0x02"/>
+        </option>
+        <option desc="1-3">
+            <parameter cpu="0" address="0xFE2221" value="0x03"/>
+        </option>
+        <option desc="1-4">
+            <parameter cpu="0" address="0xFE2221" value="0x04"/>
+        </option>
+        <option desc="1-5">
+            <parameter cpu="0" address="0xFE2221" value="0x05"/>
+        </option>
+        <option desc="1-6">
+            <parameter cpu="0" address="0xFE2221" value="0x06"/>
+        </option>
+        <option desc="1-7">
+            <parameter cpu="0" address="0xFE2221" value="0x07"/>
+        </option>
+        <option desc="1-8">
+            <parameter cpu="0" address="0xFE2221" value="0x08"/>
+        </option>
+        <option desc="2-1">
+            <parameter cpu="0" address="0xFE2221" value="0x09"/>
+        </option>
+        <option desc="2-2">
+            <parameter cpu="0" address="0xFE2221" value="0x0A"/>
+        </option>
+        <option desc="2-3">
+            <parameter cpu="0" address="0xFE2221" value="0x0B"/>
+        </option>
+        <option desc="2-4">
+            <parameter cpu="0" address="0xFE2221" value="0x0C"/>
+        </option>
+        <option desc="2-5">
+            <parameter cpu="0" address="0xFE2221" value="0x0D"/>
+        </option>
+        <option desc="2-6">
+            <parameter cpu="0" address="0xFE2221" value="0x0E"/>
+        </option>
+        <option desc="2-7">
+            <parameter cpu="0" address="0xFE2221" value="0x0F"/>
+        </option>
+        <option desc="2-8">
+            <parameter cpu="0" address="0xFE2221" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第一局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFE223D" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFE223D" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFE223D" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFE223D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第二局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFE223F" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFE223F" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFE223F" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFE223F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第三局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFE2241" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFE2241" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFE2241" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFE2241" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第四局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFE2243" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFE2243" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFE2243" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFE2243" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

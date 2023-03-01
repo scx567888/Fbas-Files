@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10F7B7" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D5D5" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大开火速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CC35" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大弹跳力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CC37" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有蓝色泡" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CC3B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大红色泡泡尺寸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CC3F" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大绿色泡泡尺寸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CC41" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大紫色泡泡尺寸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CC3D" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

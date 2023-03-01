@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81CA" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="禁止鲨鱼出现" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8642" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="禁止妖怪追逐箱子" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x821D" value="0x00"/>
+            <parameter cpu="0" address="0x822C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82FA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8633" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限空气 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8691" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8647" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限空气 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8695" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

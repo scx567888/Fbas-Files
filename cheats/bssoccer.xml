@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200070" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x200E10" value="0x09"/>
+            <parameter cpu="0" address="0x200E11" value="0xFF"/>
+        </option>
+        <option desc="立即结束游戏!">
+            <parameter cpu="0" address="0x200E10" value="0x01"/>
+            <parameter cpu="0" address="0x200E11" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择得分 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得分总是 = 9 PL1">
+            <parameter cpu="0" address="0x200E14" value="0x09"/>
+        </option>
+        <option desc="得分总是 = 0 PL1">
+            <parameter cpu="0" address="0x200E14" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x200E14" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x200E14" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x200E14" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x200E14" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x200E14" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x200E14" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x200E14" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x200E14" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201605" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201785" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201905" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201A85" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是没有守门员 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201C05" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择得分 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得分总是 = 9 PL2">
+            <parameter cpu="0" address="0x200E15" value="0x09"/>
+        </option>
+        <option desc="得分总是 = 0 PL2">
+            <parameter cpu="0" address="0x200E15" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x200E15" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x200E15" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x200E15" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x200E15" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x200E15" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x200E15" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x200E15" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x200E15" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201D85" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201F05" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202085" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是在场外不参加比赛的是球员 4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202205" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是没有守门员 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202385" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

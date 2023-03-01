@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xEB8A0" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE0118" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL1">
+            <parameter cpu="0" address="0xE0A0A" value="0x01"/>
+        </option>
+        <option desc="无敌 '关闭' PL1">
+            <parameter cpu="0" address="0xE0A0A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择鱼雷 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通鱼雷 PL1">
+            <parameter cpu="0" address="0xE0110" value="0x00"/>
+            <parameter cpu="0" address="0xE0112" value="0x00"/>
+        </option>
+        <option desc="强力鱼雷 PL1">
+            <parameter cpu="0" address="0xE0110" value="0x02"/>
+            <parameter cpu="0" address="0xE0112" value="0x03"/>
+        </option>
+        <option desc="波动鱼雷 PL1">
+            <parameter cpu="0" address="0xE0110" value="0x04"/>
+            <parameter cpu="0" address="0xE0112" value="0x03"/>
+        </option>
+        <option desc="扩散鱼雷 PL1">
+            <parameter cpu="0" address="0xE0110" value="0x06"/>
+            <parameter cpu="0" address="0xE0112" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择浮游机雷 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通机雷 PL1">
+            <parameter cpu="0" address="0xE0114" value="0x00"/>
+            <parameter cpu="0" address="0xE0116" value="0x00"/>
+        </option>
+        <option desc="A机雷 PL1">
+            <parameter cpu="0" address="0xE0114" value="0x02"/>
+            <parameter cpu="0" address="0xE0116" value="0x05"/>
+        </option>
+        <option desc="M机雷 PL1">
+            <parameter cpu="0" address="0xE0114" value="0x04"/>
+            <parameter cpu="0" address="0xE0116" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE0158" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL2">
+            <parameter cpu="0" address="0xE098A" value="0x01"/>
+        </option>
+        <option desc="无敌 '关闭' PL2">
+            <parameter cpu="0" address="0xE098A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择鱼雷 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通鱼雷 PL2">
+            <parameter cpu="0" address="0xE0150" value="0x00"/>
+            <parameter cpu="0" address="0xE0152" value="0x00"/>
+        </option>
+        <option desc="强力鱼雷 PL2">
+            <parameter cpu="0" address="0xE0150" value="0x02"/>
+            <parameter cpu="0" address="0xE0152" value="0x03"/>
+        </option>
+        <option desc="波动鱼雷 PL2">
+            <parameter cpu="0" address="0xE0150" value="0x04"/>
+            <parameter cpu="0" address="0xE0152" value="0x03"/>
+        </option>
+        <option desc="扩散鱼雷 PL2">
+            <parameter cpu="0" address="0xE0150" value="0x06"/>
+            <parameter cpu="0" address="0xE0152" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择浮游机雷 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通机雷 PL2">
+            <parameter cpu="0" address="0xE0154" value="0x00"/>
+            <parameter cpu="0" address="0xE0156" value="0x00"/>
+        </option>
+        <option desc="A机雷 PL2">
+            <parameter cpu="0" address="0xE0154" value="0x02"/>
+            <parameter cpu="0" address="0xE0156" value="0x05"/>
+        </option>
+        <option desc="M机雷 PL2">
+            <parameter cpu="0" address="0xE0154" value="0x04"/>
+            <parameter cpu="0" address="0xE0156" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 1">
+            <parameter cpu="0" address="0xE0084" value="0x00"/>
+        </option>
+        <option desc="关卡 2">
+            <parameter cpu="0" address="0xE0084" value="0x01"/>
+        </option>
+        <option desc="关卡 3">
+            <parameter cpu="0" address="0xE0084" value="0x02"/>
+        </option>
+        <option desc="关卡 4">
+            <parameter cpu="0" address="0xE0084" value="0x03"/>
+        </option>
+        <option desc="关卡 5">
+            <parameter cpu="0" address="0xE0084" value="0x04"/>
+        </option>
+        <option desc="关卡 6">
+            <parameter cpu="0" address="0xE0084" value="0x05"/>
+        </option>
+        <option desc="关卡 7">
+            <parameter cpu="0" address="0xE0084" value="0x06"/>
+        </option>
+        <option desc="结束画面 (关卡 8)">
+            <parameter cpu="0" address="0xE0084" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

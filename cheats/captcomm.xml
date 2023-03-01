@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF879" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA7C" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9D1" value="0x48"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器/弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启拾获武器弹药">
+            <parameter cpu="0" address="0xFFAA41" value="0x02"/>
+        </option>
+        <option desc="无限武器">
+            <parameter cpu="0" address="0xFFAA41" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA69" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9C1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限轻击攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA3F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="武器选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪">
+            <parameter cpu="0" address="0xFFEE63" value="0x00"/>
+        </option>
+        <option desc="机关枪">
+            <parameter cpu="0" address="0xFFEE63" value="0x04"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFFEE63" value="0x08"/>
+        </option>
+        <option desc="光线枪">
+            <parameter cpu="0" address="0xFFEE63" value="0x0C"/>
+        </option>
+        <option desc="忍者镖">
+            <parameter cpu="0" address="0xFFEE63" value="0x0E"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFFEE63" value="0x10"/>
+        </option>
+        <option desc="锤">
+            <parameter cpu="0" address="0xFFEE63" value="0x12"/>
+        </option>
+        <option desc="特殊攻击">
+            <parameter cpu="0" address="0xFFEE63" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="机械小孩">
+            <parameter cpu="0" address="0xFFAA34" value="0x03"/>
+        </option>
+        <option desc="上尉">
+            <parameter cpu="0" address="0xFFAA34" value="0x01"/>
+        </option>
+        <option desc="木乃伊">
+            <parameter cpu="0" address="0xFFAA34" value="0x00"/>
+        </option>
+        <option desc="忍者">
+            <parameter cpu="0" address="0xFFAA34" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限制攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA04" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAB7C" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAAD1" value="0x48"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器/弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限拾获武器弹药">
+            <parameter cpu="0" address="0xFFAB41" value="0x02"/>
+        </option>
+        <option desc="无限武器">
+            <parameter cpu="0" address="0xFFAB41" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAB69" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAAC1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限轻击攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAB3F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="武器选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪">
+            <parameter cpu="0" address="0xFFEF63" value="0x00"/>
+        </option>
+        <option desc="机关枪">
+            <parameter cpu="0" address="0xFFEF63" value="0x04"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFFEF63" value="0x08"/>
+        </option>
+        <option desc="光线枪">
+            <parameter cpu="0" address="0xFFEF63" value="0x0C"/>
+        </option>
+        <option desc="忍者镖">
+            <parameter cpu="0" address="0xFFEF63" value="0x0E"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFFEF63" value="0x10"/>
+        </option>
+        <option desc="锤">
+            <parameter cpu="0" address="0xFFEF63" value="0x12"/>
+        </option>
+        <option desc="特殊攻击">
+            <parameter cpu="0" address="0xFFEF63" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="机械小孩">
+            <parameter cpu="0" address="0xFFAB34" value="0x03"/>
+        </option>
+        <option desc="上尉">
+            <parameter cpu="0" address="0xFFAB34" value="0x01"/>
+        </option>
+        <option desc="木乃伊">
+            <parameter cpu="0" address="0xFFAB34" value="0x00"/>
+        </option>
+        <option desc="忍者">
+            <parameter cpu="0" address="0xFFAB34" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限制攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAB04" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC7C" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFABD1" value="0x48"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器/弹药 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限拾获武器弹药">
+            <parameter cpu="0" address="0xFFAC41" value="0x02"/>
+        </option>
+        <option desc="无限武器">
+            <parameter cpu="0" address="0xFFAC41" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC69" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFABC1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限轻击攻击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC3F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="武器选择 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪">
+            <parameter cpu="0" address="0xFFF063" value="0x00"/>
+        </option>
+        <option desc="机关枪">
+            <parameter cpu="0" address="0xFFF063" value="0x04"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFFF063" value="0x08"/>
+        </option>
+        <option desc="光线枪">
+            <parameter cpu="0" address="0xFFF063" value="0x0C"/>
+        </option>
+        <option desc="忍者镖">
+            <parameter cpu="0" address="0xFFF063" value="0x0E"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFFF063" value="0x10"/>
+        </option>
+        <option desc="锤">
+            <parameter cpu="0" address="0xFFF063" value="0x12"/>
+        </option>
+        <option desc="特殊攻击">
+            <parameter cpu="0" address="0xFFF063" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="机械小孩">
+            <parameter cpu="0" address="0xFFAC34" value="0x03"/>
+        </option>
+        <option desc="上尉">
+            <parameter cpu="0" address="0xFFAC34" value="0x01"/>
+        </option>
+        <option desc="木乃伊">
+            <parameter cpu="0" address="0xFFAC34" value="0x00"/>
+        </option>
+        <option desc="忍者">
+            <parameter cpu="0" address="0xFFAC34" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限制攻击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC04" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAD7C" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFACD1" value="0x48"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器/弹药 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="无限拾获武器弹药">
+            <parameter cpu="0" address="0xFFAD41" value="0x02"/>
+        </option>
+        <option desc="无限武器">
+            <parameter cpu="0" address="0xFFAD41" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAD69" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFACC1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限轻击攻击 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAD3F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="武器选择 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="手枪">
+            <parameter cpu="0" address="0xFFF163" value="0x00"/>
+        </option>
+        <option desc="机关枪">
+            <parameter cpu="0" address="0xFFF163" value="0x04"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFFF163" value="0x08"/>
+        </option>
+        <option desc="光线枪">
+            <parameter cpu="0" address="0xFFF163" value="0x0C"/>
+        </option>
+        <option desc="忍者镖">
+            <parameter cpu="0" address="0xFFF163" value="0x0E"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFFF163" value="0x10"/>
+        </option>
+        <option desc="锤">
+            <parameter cpu="0" address="0xFFF163" value="0x12"/>
+        </option>
+        <option desc="特殊攻击">
+            <parameter cpu="0" address="0xFFF163" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="机械小孩">
+            <parameter cpu="0" address="0xFFAD34" value="0x03"/>
+        </option>
+        <option desc="上尉">
+            <parameter cpu="0" address="0xFFAD34" value="0x01"/>
+        </option>
+        <option desc="木乃伊">
+            <parameter cpu="0" address="0xFFAD34" value="0x00"/>
+        </option>
+        <option desc="忍者">
+            <parameter cpu="0" address="0xFFAD34" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限制攻击 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAD04" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFFA8CE" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFFA8CE" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFFA8CE" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFFA8CE" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFFA8CE" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFFA8CE" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFFA8CE" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 8">
+            <parameter cpu="0" address="0xFFA8CE" value="0x07"/>
+        </option>
+        <option desc="选关 - 场景 9">
+            <parameter cpu="0" address="0xFFA8CE" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="远距离攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA9BA" value="0x02"/>
+            <parameter cpu="0" address="0xFFA9BB" value="0x9C"/>
+        </option>
+    </cheat>
+    <cheat desc="打箱子物品不消失" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD430" value="0x02"/>
+            <parameter cpu="0" address="0xFFD4F0" value="0x02"/>
+            <parameter cpu="0" address="0xFFD5B0" value="0x02"/>
+            <parameter cpu="0" address="0xFFD670" value="0x02"/>
+            <parameter cpu="0" address="0xFFD730" value="0x02"/>
+            <parameter cpu="0" address="0xFFD7F0" value="0x02"/>
+            <parameter cpu="0" address="0xFFD8B0" value="0x02"/>
+            <parameter cpu="0" address="0xFFD970" value="0x02"/>
+            <parameter cpu="0" address="0xFFDA30" value="0x02"/>
+            <parameter cpu="0" address="0xFFDAF0" value="0x02"/>
+            <parameter cpu="0" address="0xFFDBB0" value="0x02"/>
+            <parameter cpu="0" address="0xFFDC70" value="0x02"/>
+            <parameter cpu="0" address="0xFFDD30" value="0x02"/>
+            <parameter cpu="0" address="0xFFDDF0" value="0x02"/>
+            <parameter cpu="0" address="0xFFDEB0" value="0x02"/>
+            <parameter cpu="0" address="0xFFDF70" value="0x02"/>
+            <parameter cpu="0" address="0xFFE030" value="0x02"/>
+            <parameter cpu="0" address="0xFFE0F0" value="0x02"/>
+            <parameter cpu="0" address="0xFFE1B0" value="0x02"/>
+            <parameter cpu="0" address="0xFFE270" value="0x02"/>
+            <parameter cpu="0" address="0xFFE330" value="0x02"/>
+            <parameter cpu="0" address="0xFFE3F0" value="0x02"/>
+            <parameter cpu="0" address="0xFFE4B0" value="0x02"/>
+            <parameter cpu="0" address="0xFFE570" value="0x02"/>
+            <parameter cpu="0" address="0xFFE630" value="0x02"/>
+            <parameter cpu="0" address="0xFFE6F0" value="0x02"/>
+            <parameter cpu="0" address="0xFFE7B0" value="0x02"/>
+            <parameter cpu="0" address="0xFFE870" value="0x02"/>
+            <parameter cpu="0" address="0xFFE930" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀敌boss" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCB11" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

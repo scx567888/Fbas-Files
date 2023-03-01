@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限移动时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20A0F8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大特殊力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20A0DC" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="当前球总是蓝色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前球总是蓝色 PL1">
+            <parameter cpu="0" address="0x20A0D6" value="0x00"/>
+        </option>
+        <option desc="当前球总是红色 PL1">
+            <parameter cpu="0" address="0x20A0D6" value="0x01"/>
+        </option>
+        <option desc="当前球总是浅褐色 PL1">
+            <parameter cpu="0" address="0x20A0D6" value="0x02"/>
+        </option>
+        <option desc="当前球总是紫色 PL1">
+            <parameter cpu="0" address="0x20A0D6" value="0x03"/>
+        </option>
+        <option desc="当前球总是绿色 PL1">
+            <parameter cpu="0" address="0x20A0D6" value="0x04"/>
+        </option>
+        <option desc="当前球总是橙色 PL1">
+            <parameter cpu="0" address="0x20A0D6" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="下一球总是蓝色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一球总是蓝色 PL1">
+            <parameter cpu="0" address="0x20A0D8" value="0x00"/>
+        </option>
+        <option desc="下一球总是红色 PL1">
+            <parameter cpu="0" address="0x20A0D8" value="0x01"/>
+        </option>
+        <option desc="下一球总是浅褐色 PL1">
+            <parameter cpu="0" address="0x20A0D8" value="0x02"/>
+        </option>
+        <option desc="下一球总是紫色 PL1">
+            <parameter cpu="0" address="0x20A0D8" value="0x03"/>
+        </option>
+        <option desc="下一球总是绿色 PL1">
+            <parameter cpu="0" address="0x20A0D8" value="0x04"/>
+        </option>
+        <option desc="下一球总是橙色 PL1">
+            <parameter cpu="0" address="0x20A0D8" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Leadia PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Leadia PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Erisia PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Karen PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Amless PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Umeda PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Syanon PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 MilissPL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Cowbell PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Synauther PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Dyena PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Millanda PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Aqua PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色 Sara PL1">
+            <parameter cpu="0" address="0x20A9AE" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大特殊力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20A240" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="当前球总是蓝色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前球总是蓝色 PL2">
+            <parameter cpu="0" address="0x20A23A" value="0x00"/>
+        </option>
+        <option desc="当前球总是红色 PL2">
+            <parameter cpu="0" address="0x20A23A" value="0x01"/>
+        </option>
+        <option desc="当前球总是浅褐色 PL2">
+            <parameter cpu="0" address="0x20A23A" value="0x02"/>
+        </option>
+        <option desc="当前球总是紫色 PL2">
+            <parameter cpu="0" address="0x20A23A" value="0x03"/>
+        </option>
+        <option desc="当前球总是绿色 PL2">
+            <parameter cpu="0" address="0x20A23A" value="0x04"/>
+        </option>
+        <option desc="当前球总是橙色 PL2">
+            <parameter cpu="0" address="0x20A23A" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="下一球总是蓝色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一球总是蓝色 PL2">
+            <parameter cpu="0" address="0x20A23C" value="0x00"/>
+        </option>
+        <option desc="下一球总是红色 PL2">
+            <parameter cpu="0" address="0x20A23C" value="0x01"/>
+        </option>
+        <option desc="下一球总是浅褐色 PL2">
+            <parameter cpu="0" address="0x20A23C" value="0x02"/>
+        </option>
+        <option desc="下一球总是紫色 PL2">
+            <parameter cpu="0" address="0x20A23C" value="0x03"/>
+        </option>
+        <option desc="下一球总是绿色 PL2">
+            <parameter cpu="0" address="0x20A23C" value="0x04"/>
+        </option>
+        <option desc="下一球总是橙色 PL2">
+            <parameter cpu="0" address="0x20A23C" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Leadia PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Leadia PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Erisia PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Karen PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Amless PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Umeda PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Syanon PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 MilissPL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Cowbell PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Synauther PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Dyena PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Millanda PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Aqua PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色 Sara PL2">
+            <parameter cpu="0" address="0x20A9AF" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9498" value="0x09"/>
+            <parameter cpu="0" address="0xFF9499" value="0x09"/>
+            <parameter cpu="0" address="0xFF949A" value="0x09"/>
+            <parameter cpu="0" address="0xFF949B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励关时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF94B0" value="0x09"/>
+            <parameter cpu="0" address="0xFF94B1" value="0x09"/>
+            <parameter cpu="0" address="0xFF94B2" value="0x09"/>
+            <parameter cpu="0" address="0xFF94B3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽所有能量 ! 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF870A" value="0x00"/>
+            <parameter cpu="0" address="0xFF870B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF86B6" value="0x04"/>
+            <parameter cpu="0" address="0xFF86B7" value="0x0B"/>
+        </option>
+        <option desc="耗尽所有能量 ! PL1">
+            <parameter cpu="0" address="0xFF86B6" value="0x00"/>
+            <parameter cpu="0" address="0xFF86B7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="赢1局即可结束比赛 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="赢1局即可结束比赛 PL1">
+            <parameter cpu="0" address="0xFF86B8" value="0x02"/>
+            <parameter cpu="0" address="0xFF86E2" value="0x00"/>
+            <parameter cpu="0" address="0xFF870C" value="0x00"/>
+        </option>
+        <option desc="赢1局即可结束比赛 PL2">
+            <parameter cpu="0" address="0xFF86B8" value="0x00"/>
+            <parameter cpu="0" address="0xFF86E2" value="0x02"/>
+            <parameter cpu="0" address="0xFF870C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出旋风脚 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86C6" value="0x03"/>
+            <parameter cpu="0" address="0xFF86C7" value="0x02"/>
+            <parameter cpu="0" address="0xFF86C8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出升龙拳 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86C9" value="0x03"/>
+            <parameter cpu="0" address="0xFF86CA" value="0x02"/>
+            <parameter cpu="0" address="0xFF86CB" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出波动拳 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86CC" value="0x03"/>
+            <parameter cpu="0" address="0xFF86CD" value="0x02"/>
+            <parameter cpu="0" address="0xFF86CE" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF86E0" value="0x04"/>
+            <parameter cpu="0" address="0xFF86E1" value="0x0B"/>
+        </option>
+        <option desc="耗尽所有能量 ! PL2">
+            <parameter cpu="0" address="0xFF86E0" value="0x00"/>
+            <parameter cpu="0" address="0xFF86E1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF96B0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF96DA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9704" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出旋风脚 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86F0" value="0x03"/>
+            <parameter cpu="0" address="0xFF86F1" value="0x02"/>
+            <parameter cpu="0" address="0xFF86F2" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出升龙拳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86F3" value="0x03"/>
+            <parameter cpu="0" address="0xFF86F4" value="0x02"/>
+            <parameter cpu="0" address="0xFF86F5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出波动拳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86F6" value="0x03"/>
+            <parameter cpu="0" address="0xFF86F7" value="0x02"/>
+            <parameter cpu="0" address="0xFF86F8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE433" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x819B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x824A" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="总是奖励增分 x 5" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81AC" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆气时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8036" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81A2" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完美排除炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81AB" value="0x23"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励''B''用于增分" default="0">
+        <option desc="关闭"/>
+        <option desc="奖励''B''用于增分">
+            <parameter cpu="0" address="0x890C" value="0x01"/>
+        </option>
+        <option desc="奖励''B''用于增加生命">
+            <parameter cpu="0" address="0x890C" value="0x02"/>
+        </option>
+        <option desc="奖励''B''用于过关">
+            <parameter cpu="0" address="0x890C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="P总是出现" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81A7" value="0x14"/>
+        </option>
+    </cheat>
+</shufflecheat>

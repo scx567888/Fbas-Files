@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203619" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x205293" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20361B" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2052E1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="长而持久的武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20553F" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="去到关卡 4" default="0">
+        <option desc="关闭"/>
+        <option desc="去到关卡 4">
+            <parameter cpu="0" address="0x2035D5" value="0x03"/>
+        </option>
+        <option desc="去到关卡 8">
+            <parameter cpu="0" address="0x2035D5" value="0x07"/>
+        </option>
+        <option desc="去到关卡 12">
+            <parameter cpu="0" address="0x2035D5" value="0x0B"/>
+        </option>
+        <option desc="去到关卡 16">
+            <parameter cpu="0" address="0x2035D5" value="0x0F"/>
+        </option>
+        <option desc="去到关卡 20">
+            <parameter cpu="0" address="0x2035D5" value="0x13"/>
+        </option>
+        <option desc="去到关卡 24">
+            <parameter cpu="0" address="0x2035D5" value="0x17"/>
+        </option>
+        <option desc="去到关卡 28">
+            <parameter cpu="0" address="0x2035D5" value="0x1B"/>
+        </option>
+        <option desc="去到关卡 32">
+            <parameter cpu="0" address="0x2035D5" value="0x1F"/>
+        </option>
+        <option desc="去到关卡 36">
+            <parameter cpu="0" address="0x2035D5" value="0x22"/>
+        </option>
+        <option desc="去到关卡 40">
+            <parameter cpu="0" address="0x2035D5" value="0x26"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有巨激光" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有巨激光">
+            <parameter cpu="0" address="0x205534" value="0x03"/>
+            <parameter cpu="0" address="0x205537" value="0x01"/>
+            <parameter cpu="0" address="0x20553F" value="0x30"/>
+        </option>
+        <option desc="总是有时间停止">
+            <parameter cpu="0" address="0x205534" value="0x03"/>
+            <parameter cpu="0" address="0x205537" value="0x07"/>
+            <parameter cpu="0" address="0x20553F" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有环激光" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有环激光">
+            <parameter cpu="0" address="0x205534" value="0x03"/>
+            <parameter cpu="0" address="0x205537" value="0x02"/>
+        </option>
+        <option desc="总是有火焰花">
+            <parameter cpu="0" address="0x205534" value="0x03"/>
+            <parameter cpu="0" address="0x205537" value="0x03"/>
+        </option>
+        <option desc="总是有毁灭光束">
+            <parameter cpu="0" address="0x205534" value="0x03"/>
+            <parameter cpu="0" address="0x205537" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

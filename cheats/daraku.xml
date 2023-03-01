@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="禁止日文字幕" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6000004" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6000570" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x602DF1B" value="0x61"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x602DF1B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限防卫 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x602DF24" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大力量 PL1">
+            <parameter cpu="0" address="0x602DF21" value="0x2C"/>
+            <parameter cpu="0" address="0x602DF22" value="0x01"/>
+            <parameter cpu="0" address="0x602DF23" value="0xB8"/>
+        </option>
+        <option desc="总是有最大力量 PL1">
+            <parameter cpu="0" address="0x602DF21" value="0x00"/>
+            <parameter cpu="0" address="0x602DF22" value="0x00"/>
+            <parameter cpu="0" address="0x602DF23" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Yuiren">
+            <parameter cpu="0" address="0x602E23D" value="0x00"/>
+        </option>
+        <option desc="Yuiran">
+            <parameter cpu="0" address="0x602E23D" value="0x01"/>
+        </option>
+        <option desc="Cool">
+            <parameter cpu="0" address="0x602E23D" value="0x02"/>
+        </option>
+        <option desc="Harry Ness">
+            <parameter cpu="0" address="0x602E23D" value="0x03"/>
+        </option>
+        <option desc="Taro">
+            <parameter cpu="0" address="0x602E23D" value="0x04"/>
+        </option>
+        <option desc="Roche">
+            <parameter cpu="0" address="0x602E23D" value="0x05"/>
+        </option>
+        <option desc="Torao Onigawara">
+            <parameter cpu="0" address="0x602E23D" value="0x06"/>
+        </option>
+        <option desc="Haiji Mibu">
+            <parameter cpu="0" address="0x602E23D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x602E11B" value="0x61"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x602E11B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限防卫 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x602E124" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大力量 PL2">
+            <parameter cpu="0" address="0x602E121" value="0x2C"/>
+            <parameter cpu="0" address="0x602E122" value="0x01"/>
+            <parameter cpu="0" address="0x602E123" value="0xB8"/>
+        </option>
+        <option desc="总是有最大力量 PL2">
+            <parameter cpu="0" address="0x602E121" value="0x00"/>
+            <parameter cpu="0" address="0x602E122" value="0x00"/>
+            <parameter cpu="0" address="0x602E123" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Yuiren">
+            <parameter cpu="0" address="0x602E241" value="0x00"/>
+        </option>
+        <option desc="Yuiran">
+            <parameter cpu="0" address="0x602E241" value="0x01"/>
+        </option>
+        <option desc="Cool">
+            <parameter cpu="0" address="0x602E241" value="0x02"/>
+        </option>
+        <option desc="Harry Ness">
+            <parameter cpu="0" address="0x602E241" value="0x03"/>
+        </option>
+        <option desc="Taro">
+            <parameter cpu="0" address="0x602E241" value="0x04"/>
+        </option>
+        <option desc="Roche">
+            <parameter cpu="0" address="0x602E241" value="0x05"/>
+        </option>
+        <option desc="Torao Onigawara">
+            <parameter cpu="0" address="0x602E241" value="0x06"/>
+        </option>
+        <option desc="Haiji Mibu">
+            <parameter cpu="0" address="0x602E241" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

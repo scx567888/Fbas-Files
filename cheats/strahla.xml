@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="0F0D8B = 03" default="0">
+        <option desc="关闭"/>
+        <option desc="0F0D8B = 03">
+            <parameter cpu="0" address="0xF0D8B" value="0x03"/>
+        </option>
+        <option desc="无限生命 PL1">
+            <parameter cpu="0" address="0xF0D8B" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0D2F" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0CA1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器限重 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0D9E" value="0x02"/>
+            <parameter cpu="0" address="0xF0D9F" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="武器总是力量全满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFA60F" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有双倍射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有双倍射击 PL1">
+            <parameter cpu="0" address="0xF0D27" value="0x00"/>
+        </option>
+        <option desc="总是有激光武器 PL1">
+            <parameter cpu="0" address="0xF0D27" value="0x01"/>
+        </option>
+        <option desc="总是有自引导激光射击武器 PL1">
+            <parameter cpu="0" address="0xF0D27" value="0x02"/>
+        </option>
+        <option desc="总是有蓄力射击 PL1">
+            <parameter cpu="0" address="0xF0D27" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有实弹副枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有实弹副枪 PL1">
+            <parameter cpu="0" address="0xF0D29" value="0x00"/>
+        </option>
+        <option desc="总是有自引导副枪 PL1">
+            <parameter cpu="0" address="0xF0D29" value="0x01"/>
+        </option>
+        <option desc="总是有护盾 PL1">
+            <parameter cpu="0" address="0xF0D29" value="0x02"/>
+        </option>
+        <option desc="总是有炸裂副枪 PL1">
+            <parameter cpu="0" address="0xF0D29" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有小炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有小炸弹 PL1">
+            <parameter cpu="0" address="0xF0D2D" value="0x00"/>
+        </option>
+        <option desc="总是有火箭炸弹 PL1">
+            <parameter cpu="0" address="0xF0D2D" value="0x01"/>
+        </option>
+        <option desc="总是有超大炸弹 PL1">
+            <parameter cpu="0" address="0xF0D2D" value="0x02"/>
+        </option>
+        <option desc="总是有凝固汽油弹炸弹 PL1">
+            <parameter cpu="0" address="0xF0D2D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0D8D" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0D39" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0CA3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器限重 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0DA0" value="0x02"/>
+            <parameter cpu="0" address="0xF0DA1" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="武器总是力量全满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFA70B" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有双倍射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有双倍射击 PL2">
+            <parameter cpu="0" address="0xF0D31" value="0x00"/>
+        </option>
+        <option desc="总是有激光武器 PL2">
+            <parameter cpu="0" address="0xF0D31" value="0x01"/>
+        </option>
+        <option desc="总是有自引导激光射击武器 PL2">
+            <parameter cpu="0" address="0xF0D31" value="0x02"/>
+        </option>
+        <option desc="总是有蓄力射击 PL2">
+            <parameter cpu="0" address="0xF0D31" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有实弹副枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有实弹副枪 PL2">
+            <parameter cpu="0" address="0xF0D35" value="0x00"/>
+        </option>
+        <option desc="总是有自引导副枪 PL2">
+            <parameter cpu="0" address="0xF0D35" value="0x01"/>
+        </option>
+        <option desc="总是有护盾 PL2">
+            <parameter cpu="0" address="0xF0D35" value="0x02"/>
+        </option>
+        <option desc="总是有炸裂副枪 PL2">
+            <parameter cpu="0" address="0xF0D35" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有小炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有小炸弹 PL2">
+            <parameter cpu="0" address="0xF0D37" value="0x00"/>
+        </option>
+        <option desc="总是有火箭炸弹 PL2">
+            <parameter cpu="0" address="0xF0D37" value="0x01"/>
+        </option>
+        <option desc="总是有超大炸弹 PL2">
+            <parameter cpu="0" address="0xF0D37" value="0x02"/>
+        </option>
+        <option desc="总是有凝固汽油弹炸弹 PL2">
+            <parameter cpu="0" address="0xF0D37" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

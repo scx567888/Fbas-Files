@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD340" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD406" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是得到ARABIAN字母奖励 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD426" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是得到一个宝物就完成此关 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD40E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD407" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是得到ARABIAN字母奖励 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD427" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是得到一个宝物就完成此关 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD40F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD300" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

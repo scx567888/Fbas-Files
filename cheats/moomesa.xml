@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x180945" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18131F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x181358" value="0xAF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击手套">
+            <parameter cpu="0" address="0x18135B" value="0x02"/>
+            <parameter cpu="0" address="0x181350" value="0x00"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x18135B" value="0x04"/>
+            <parameter cpu="0" address="0x181350" value="0x00"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x18135B" value="0x06"/>
+            <parameter cpu="0" address="0x181350" value="0x00"/>
+        </option>
+        <option desc="斧头">
+            <parameter cpu="0" address="0x18135B" value="0x08"/>
+            <parameter cpu="0" address="0x181350" value="0x00"/>
+        </option>
+        <option desc="马蹄铁">
+            <parameter cpu="0" address="0x18135B" value="0x0A"/>
+            <parameter cpu="0" address="0x181350" value="0x00"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x18135B" value="0x0C"/>
+            <parameter cpu="0" address="0x181350" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18135D" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="连发 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18135E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1809C5" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x181B1F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x181B58" value="0xAF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击手套">
+            <parameter cpu="0" address="0x181B5B" value="0x02"/>
+            <parameter cpu="0" address="0x181B50" value="0x00"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x181B5B" value="0x04"/>
+            <parameter cpu="0" address="0x181B50" value="0x00"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x181B5B" value="0x06"/>
+            <parameter cpu="0" address="0x181B50" value="0x00"/>
+        </option>
+        <option desc="斧头">
+            <parameter cpu="0" address="0x181B5B" value="0x08"/>
+            <parameter cpu="0" address="0x181B50" value="0x00"/>
+        </option>
+        <option desc="马蹄铁">
+            <parameter cpu="0" address="0x181B5B" value="0x0A"/>
+            <parameter cpu="0" address="0x181B50" value="0x00"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x181B5B" value="0x0C"/>
+            <parameter cpu="0" address="0x181B50" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x181B5D" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="连发 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x181B5E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x180A45" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18231F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x182358" value="0xAF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击手套">
+            <parameter cpu="0" address="0x18235B" value="0x02"/>
+            <parameter cpu="0" address="0x182350" value="0x00"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x18235B" value="0x04"/>
+            <parameter cpu="0" address="0x182350" value="0x00"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x18235B" value="0x06"/>
+            <parameter cpu="0" address="0x182350" value="0x00"/>
+        </option>
+        <option desc="斧头">
+            <parameter cpu="0" address="0x18235B" value="0x08"/>
+            <parameter cpu="0" address="0x182350" value="0x00"/>
+        </option>
+        <option desc="马蹄铁">
+            <parameter cpu="0" address="0x18235B" value="0x0A"/>
+            <parameter cpu="0" address="0x182350" value="0x00"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x18235B" value="0x0C"/>
+            <parameter cpu="0" address="0x182350" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18235D" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="连发 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18235E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x180AC5" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x182B1F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x182B58" value="0xAF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="拳击手套">
+            <parameter cpu="0" address="0x182B5B" value="0x02"/>
+            <parameter cpu="0" address="0x182B50" value="0x00"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x182B5B" value="0x04"/>
+            <parameter cpu="0" address="0x182B50" value="0x00"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x182B5B" value="0x06"/>
+            <parameter cpu="0" address="0x182B50" value="0x00"/>
+        </option>
+        <option desc="斧头">
+            <parameter cpu="0" address="0x182B5B" value="0x08"/>
+            <parameter cpu="0" address="0x182B50" value="0x00"/>
+        </option>
+        <option desc="马蹄铁">
+            <parameter cpu="0" address="0x182B5B" value="0x0A"/>
+            <parameter cpu="0" address="0x182B50" value="0x00"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x182B5B" value="0x0C"/>
+            <parameter cpu="0" address="0x182B50" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x182B5D" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="连发 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x182B5E" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

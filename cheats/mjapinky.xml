@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x72EE" value="0xA2"/>
+        </option>
+    </cheat>
+    <cheat desc="无限换牌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7A10" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="自摸胡牌 ( 大三元 )" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7001" value="0x35"/>
+            <parameter cpu="0" address="0x7002" value="0x35"/>
+            <parameter cpu="0" address="0x7003" value="0x35"/>
+            <parameter cpu="0" address="0x7004" value="0x36"/>
+            <parameter cpu="0" address="0x7005" value="0x36"/>
+            <parameter cpu="0" address="0x7006" value="0x36"/>
+            <parameter cpu="0" address="0x7007" value="0x37"/>
+            <parameter cpu="0" address="0x7008" value="0x37"/>
+            <parameter cpu="0" address="0x7009" value="0x37"/>
+            <parameter cpu="0" address="0x700A" value="0x31"/>
+            <parameter cpu="0" address="0x700B" value="0x31"/>
+            <parameter cpu="0" address="0x700C" value="0x31"/>
+            <parameter cpu="0" address="0x700D" value="0x32"/>
+            <parameter cpu="0" address="0x700E" value="0x32"/>
+            <parameter cpu="0" address="0x70E0" value="0x35"/>
+            <parameter cpu="0" address="0x70E1" value="0x35"/>
+            <parameter cpu="0" address="0x70E2" value="0x35"/>
+            <parameter cpu="0" address="0x70E3" value="0x36"/>
+            <parameter cpu="0" address="0x70E4" value="0x36"/>
+            <parameter cpu="0" address="0x70E5" value="0x36"/>
+            <parameter cpu="0" address="0x70E6" value="0x37"/>
+            <parameter cpu="0" address="0x70E7" value="0x37"/>
+            <parameter cpu="0" address="0x70E8" value="0x37"/>
+            <parameter cpu="0" address="0x70E9" value="0x31"/>
+            <parameter cpu="0" address="0x70EA" value="0x31"/>
+            <parameter cpu="0" address="0x70EB" value="0x31"/>
+            <parameter cpu="0" address="0x70EC" value="0x32"/>
+            <parameter cpu="0" address="0x70ED" value="0x32"/>
+            <parameter cpu="0" address="0x7104" value="0x35"/>
+            <parameter cpu="0" address="0x7105" value="0x35"/>
+            <parameter cpu="0" address="0x7106" value="0x35"/>
+            <parameter cpu="0" address="0x7107" value="0x36"/>
+            <parameter cpu="0" address="0x7108" value="0x36"/>
+            <parameter cpu="0" address="0x7109" value="0x36"/>
+            <parameter cpu="0" address="0x710A" value="0x37"/>
+            <parameter cpu="0" address="0x710B" value="0x37"/>
+            <parameter cpu="0" address="0x710C" value="0x37"/>
+            <parameter cpu="0" address="0x710D" value="0x31"/>
+            <parameter cpu="0" address="0x710E" value="0x31"/>
+            <parameter cpu="0" address="0x710F" value="0x31"/>
+            <parameter cpu="0" address="0x7110" value="0x32"/>
+            <parameter cpu="0" address="0x7111" value="0x32"/>
+        </option>
+    </cheat>
+</shufflecheat>

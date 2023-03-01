@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xFFA00C" value="0x09"/>
+            <parameter cpu="0" address="0xFFA00D" value="0x05"/>
+            <parameter cpu="0" address="0xFFA00E" value="0x0A"/>
+        </option>
+        <option desc="完成这比赛 !">
+            <parameter cpu="0" address="0xFFA00C" value="0x00"/>
+            <parameter cpu="0" address="0xFFA00D" value="0x00"/>
+            <parameter cpu="0" address="0xFFA00E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF907B" value="0xFF"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0xFF907B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9133" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF927B" value="0xFF"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0xFF927B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9333" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL3">
+            <parameter cpu="0" address="0xFF947B" value="0xFF"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL3">
+            <parameter cpu="0" address="0xFF947B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9533" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL4">
+            <parameter cpu="0" address="0xFF967B" value="0xFF"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL4">
+            <parameter cpu="0" address="0xFF967B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超能状态 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9733" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="地域 - 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地域 - 日本">
+            <parameter cpu="0" address="0xFF9C0B" value="0x00"/>
+        </option>
+        <option desc="地域 - 美国">
+            <parameter cpu="0" address="0xFF9C0B" value="0x01"/>
+        </option>
+        <option desc="地域 - ETC">
+            <parameter cpu="0" address="0xFF9C0B" value="0x02"/>
+        </option>
+        <option desc="地域 - 亚洲">
+            <parameter cpu="0" address="0xFF9C0B" value="0x03"/>
+        </option>
+        <option desc="地域 - 西班牙">
+            <parameter cpu="0" address="0xFF9C0B" value="0x04"/>
+        </option>
+        <option desc="地域 - 日本(E)">
+            <parameter cpu="0" address="0xFF9C0B" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

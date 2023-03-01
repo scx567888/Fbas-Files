@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="打开所有门!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x904B14" value="0x0A"/>
+            <parameter cpu="0" address="0x904B15" value="0x7B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 (战士)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048D4" value="0x27"/>
+            <parameter cpu="0" address="0x9048D7" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 (战士)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限钥匙 (战士)">
+            <parameter cpu="0" address="0x9048E8" value="0x06"/>
+        </option>
+        <option desc="不会得到钥匙 (战士)">
+            <parameter cpu="0" address="0x9048E8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限药剂 (战士)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048E4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 (女战士)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048D8" value="0x27"/>
+            <parameter cpu="0" address="0x9048DB" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 (女战士)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限钥匙 (女战士)">
+            <parameter cpu="0" address="0x9048E9" value="0x06"/>
+        </option>
+        <option desc="不会得到钥匙 (女战士)">
+            <parameter cpu="0" address="0x9048E9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限药剂 (女战士)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048E5" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 (术士)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048DC" value="0x27"/>
+            <parameter cpu="0" address="0x9048DF" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 (术士)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限钥匙 (术士)">
+            <parameter cpu="0" address="0x9048EA" value="0x06"/>
+        </option>
+        <option desc="不会得到钥匙 (术士)">
+            <parameter cpu="0" address="0x9048EA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限药剂 (术士)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048E6" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 (精灵)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048E0" value="0x27"/>
+            <parameter cpu="0" address="0x9048E3" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙 (精灵)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限钥匙 (精灵)">
+            <parameter cpu="0" address="0x9048EB" value="0x06"/>
+        </option>
+        <option desc="不会得到钥匙 (精灵)">
+            <parameter cpu="0" address="0x9048EB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限药剂 (精灵)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9048E7" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

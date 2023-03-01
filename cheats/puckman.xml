@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4E14" value="0x06"/>
+            <parameter cpu="0" address="0x4E15" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4E0E" value="0xF4"/>
+        </option>
+    </cheat>
+    <cheat desc="开始于草莓关" default="0">
+        <option desc="关闭"/>
+        <option desc="开始于草莓关">
+            <parameter cpu="0" address="0x4E0A" value="0x7E"/>
+            <parameter cpu="0" address="0x4E13" value="0x01"/>
+        </option>
+        <option desc="开始于第一橙子关">
+            <parameter cpu="0" address="0x4E0A" value="0x7F"/>
+            <parameter cpu="0" address="0x4E13" value="0x02"/>
+        </option>
+        <option desc="开始于第二橙子关">
+            <parameter cpu="0" address="0x4E0A" value="0x80"/>
+            <parameter cpu="0" address="0x4E13" value="0x03"/>
+        </option>
+        <option desc="开始于第一苹果关">
+            <parameter cpu="0" address="0x4E0A" value="0x81"/>
+            <parameter cpu="0" address="0x4E13" value="0x04"/>
+        </option>
+        <option desc="开始于第二苹果关">
+            <parameter cpu="0" address="0x4E0A" value="0x82"/>
+            <parameter cpu="0" address="0x4E13" value="0x05"/>
+        </option>
+        <option desc="开始于第一波萝关">
+            <parameter cpu="0" address="0x4E0A" value="0x83"/>
+            <parameter cpu="0" address="0x4E13" value="0x06"/>
+        </option>
+        <option desc="开始于第二波萝关">
+            <parameter cpu="0" address="0x4E0A" value="0x84"/>
+            <parameter cpu="0" address="0x4E13" value="0x07"/>
+        </option>
+        <option desc="开始于第一银河系关">
+            <parameter cpu="0" address="0x4E0A" value="0x85"/>
+            <parameter cpu="0" address="0x4E13" value="0x08"/>
+        </option>
+        <option desc="开始于第二银河系关">
+            <parameter cpu="0" address="0x4E0A" value="0x86"/>
+            <parameter cpu="0" address="0x4E13" value="0x09"/>
+        </option>
+        <option desc="开始于第一钟铃关">
+            <parameter cpu="0" address="0x4E0A" value="0x87"/>
+            <parameter cpu="0" address="0x4E13" value="0x0A"/>
+        </option>
+        <option desc="开始于第二钟铃关">
+            <parameter cpu="0" address="0x4E0A" value="0x88"/>
+            <parameter cpu="0" address="0x4E13" value="0x0B"/>
+        </option>
+        <option desc="开始于第一钥匙关">
+            <parameter cpu="0" address="0x4E0A" value="0x87"/>
+            <parameter cpu="0" address="0x4E13" value="0x0C"/>
+        </option>
+        <option desc="开始于第二钥匙关">
+            <parameter cpu="0" address="0x4E0A" value="0x88"/>
+            <parameter cpu="0" address="0x4E13" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="出现樱桃" default="0">
+        <option desc="关闭"/>
+        <option desc="出现樱桃">
+            <parameter cpu="0" address="0x4E13" value="0x00"/>
+        </option>
+        <option desc="出现草莓">
+            <parameter cpu="0" address="0x4E13" value="0x01"/>
+        </option>
+        <option desc="果实出现为第一橙子关">
+            <parameter cpu="0" address="0x4E13" value="0x02"/>
+        </option>
+        <option desc="果实出现为第二橙子关">
+            <parameter cpu="0" address="0x4E13" value="0x03"/>
+        </option>
+        <option desc="果实出现为第一苹果关">
+            <parameter cpu="0" address="0x4E13" value="0x04"/>
+        </option>
+        <option desc="果实出现为第二苹果关">
+            <parameter cpu="0" address="0x4E13" value="0x05"/>
+        </option>
+        <option desc="果实出现为第一波萝关">
+            <parameter cpu="0" address="0x4E13" value="0x06"/>
+        </option>
+        <option desc="果实出现为第二波萝关">
+            <parameter cpu="0" address="0x4E13" value="0x07"/>
+        </option>
+        <option desc="果实出现为第一银河系关">
+            <parameter cpu="0" address="0x4E13" value="0x08"/>
+        </option>
+        <option desc="果实出现为第二银河系关">
+            <parameter cpu="0" address="0x4E13" value="0x09"/>
+        </option>
+        <option desc="果实出现为第一钟铃关">
+            <parameter cpu="0" address="0x4E13" value="0x0A"/>
+        </option>
+        <option desc="果实出现为第二钟铃关">
+            <parameter cpu="0" address="0x4E13" value="0x0B"/>
+        </option>
+        <option desc="果实出现为第一钥匙关">
+            <parameter cpu="0" address="0x4E13" value="0x0C"/>
+        </option>
+        <option desc="果实出现为第二钥匙关">
+            <parameter cpu="0" address="0x4E13" value="0x0D"/>
+        </option>
+        <option desc="多画面 (无法游戏)">
+            <parameter cpu="0" address="0x4E13" value="0xFF"/>
+        </option>
+        <option desc="无迷宫或圆点(无法结束)">
+            <parameter cpu="0" address="0x4E13" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="停留在被吃状态直到被吃为止" default="0">
+        <option desc="关闭"/>
+        <option desc="停留在被吃状态直到被吃为止">
+            <parameter cpu="0" address="0x4DBD" value="0x00"/>
+            <parameter cpu="0" address="0x4DBE" value="0x00"/>
+        </option>
+        <option desc="幽灵变蓝后恢复缓慢">
+            <parameter cpu="0" address="0x4DBD" value="0x58"/>
+            <parameter cpu="0" address="0x4DBE" value="0x02"/>
+        </option>
+        <option desc="幽灵变蓝后恢复速度一般">
+            <parameter cpu="0" address="0x4DBD" value="0x68"/>
+            <parameter cpu="0" address="0x4DBE" value="0x01"/>
+        </option>
+        <option desc="幽灵变蓝后恢复速度快">
+            <parameter cpu="0" address="0x4DBD" value="0xF0"/>
+            <parameter cpu="0" address="0x4DBE" value="0x00"/>
+        </option>
+        <option desc="幽灵变蓝后恢复最快">
+            <parameter cpu="0" address="0x4DBD" value="0x78"/>
+            <parameter cpu="0" address="0x4DBE" value="0x00"/>
+        </option>
+        <option desc="不会变蓝(被吃状态)">
+            <parameter cpu="0" address="0x4DBD" value="0x01"/>
+            <parameter cpu="0" address="0x4DBE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="红幽灵总是蓝色(被吃状态)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="浅红幽灵总是蓝色(被吃状态)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="绿幽灵总是蓝色(被吃状态)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="橙幽灵总是蓝色(被吃状态)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DAA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="幽灵总是被吃 (不变色)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4DA5" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

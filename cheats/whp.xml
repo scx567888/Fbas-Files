@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x10C109" value="0x9A"/>
+        </option>
+        <option desc="立即结束这一局!">
+            <parameter cpu="0" address="0x10C109" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x10600C" value="0xC0"/>
+        </option>
+        <option desc="红血 PL1">
+            <parameter cpu="0" address="0x10600C" value="0x60"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0x10600C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大Hero槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106A17" value="0xDF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="宙斯">
+            <parameter cpu="0" address="0x10B070" value="0x11"/>
+        </option>
+        <option desc="迪奥">
+            <parameter cpu="0" address="0x10B070" value="0x12"/>
+        </option>
+        <option desc="孙悟空">
+            <parameter cpu="0" address="0x10B070" value="0x13"/>
+        </option>
+        <option desc="金龙">
+            <parameter cpu="0" address="0x106004" value="0x01"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x106004" value="0x02"/>
+        </option>
+        <option desc="肌肉威力">
+            <parameter cpu="0" address="0x106004" value="0x03"/>
+        </option>
+        <option desc="成吉思汗">
+            <parameter cpu="0" address="0x106004" value="0x04"/>
+        </option>
+        <option desc="珍妮">
+            <parameter cpu="0" address="0x106004" value="0x05"/>
+        </option>
+        <option desc="拉士普丁">
+            <parameter cpu="0" address="0x106004" value="0x06"/>
+        </option>
+        <option desc="风魔小太郎">
+            <parameter cpu="0" address="0x106004" value="0x07"/>
+        </option>
+        <option desc="布鲁肯">
+            <parameter cpu="0" address="0x106004" value="0x08"/>
+        </option>
+        <option desc="修罗 汤姆">
+            <parameter cpu="0" address="0x106004" value="0x09"/>
+        </option>
+        <option desc="出云良子">
+            <parameter cpu="0" address="0x106004" value="0x0A"/>
+        </option>
+        <option desc="吉德">
+            <parameter cpu="0" address="0x106004" value="0x0B"/>
+        </option>
+        <option desc="玛多曼">
+            <parameter cpu="0" address="0x106004" value="0x0C"/>
+        </option>
+        <option desc="艾力克">
+            <parameter cpu="0" address="0x106004" value="0x0D"/>
+        </option>
+        <option desc="马克西姆">
+            <parameter cpu="0" address="0x106004" value="0x0E"/>
+        </option>
+        <option desc="杰克">
+            <parameter cpu="0" address="0x106004" value="0x0F"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x106004" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x10610C" value="0xC0"/>
+        </option>
+        <option desc="红血 PL2">
+            <parameter cpu="0" address="0x10610C" value="0x60"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0x10610C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大Hero槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106B17" value="0xDF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="宙斯">
+            <parameter cpu="0" address="0x10B071" value="0x11"/>
+        </option>
+        <option desc="迪奥">
+            <parameter cpu="0" address="0x10B071" value="0x12"/>
+        </option>
+        <option desc="孙悟空">
+            <parameter cpu="0" address="0x10B071" value="0x13"/>
+        </option>
+        <option desc="金龙">
+            <parameter cpu="0" address="0x106104" value="0x01"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x106104" value="0x02"/>
+        </option>
+        <option desc="肌肉威力">
+            <parameter cpu="0" address="0x106104" value="0x03"/>
+        </option>
+        <option desc="成吉思汗">
+            <parameter cpu="0" address="0x106104" value="0x04"/>
+        </option>
+        <option desc="珍妮">
+            <parameter cpu="0" address="0x106104" value="0x05"/>
+        </option>
+        <option desc="拉士普丁">
+            <parameter cpu="0" address="0x106104" value="0x06"/>
+        </option>
+        <option desc="风魔小太郎">
+            <parameter cpu="0" address="0x106104" value="0x07"/>
+        </option>
+        <option desc="布鲁肯">
+            <parameter cpu="0" address="0x106104" value="0x08"/>
+        </option>
+        <option desc="修罗 汤姆">
+            <parameter cpu="0" address="0x106104" value="0x09"/>
+        </option>
+        <option desc="出云良子">
+            <parameter cpu="0" address="0x106104" value="0x0A"/>
+        </option>
+        <option desc="吉德">
+            <parameter cpu="0" address="0x106104" value="0x0B"/>
+        </option>
+        <option desc="玛多曼">
+            <parameter cpu="0" address="0x106104" value="0x0C"/>
+        </option>
+        <option desc="艾力克">
+            <parameter cpu="0" address="0x106104" value="0x0D"/>
+        </option>
+        <option desc="马克西姆">
+            <parameter cpu="0" address="0x106104" value="0x0E"/>
+        </option>
+        <option desc="杰克">
+            <parameter cpu="0" address="0x106104" value="0x0F"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x106104" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="超强状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10607D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="超强状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10617D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="Genesis">
+            <parameter cpu="0" address="0x10B005" value="0x00"/>
+        </option>
+        <option desc="Jurassic Period">
+            <parameter cpu="0" address="0x10B005" value="0x01"/>
+        </option>
+        <option desc="The Ice Ace">
+            <parameter cpu="0" address="0x10B005" value="0x02"/>
+        </option>
+        <option desc="The Stone Age">
+            <parameter cpu="0" address="0x10B005" value="0x03"/>
+        </option>
+        <option desc="The Megalithic Age">
+            <parameter cpu="0" address="0x10B005" value="0x04"/>
+        </option>
+        <option desc="The Dark Age">
+            <parameter cpu="0" address="0x10B005" value="0x05"/>
+        </option>
+        <option desc="Genroku Period">
+            <parameter cpu="0" address="0x10B005" value="0x06"/>
+        </option>
+        <option desc="The Industrial Revolution">
+            <parameter cpu="0" address="0x10B005" value="0x07"/>
+        </option>
+        <option desc="Great War Period">
+            <parameter cpu="0" address="0x10B005" value="0x08"/>
+        </option>
+        <option desc="The Period">
+            <parameter cpu="0" address="0x10B005" value="0x09"/>
+        </option>
+        <option desc="Blackness Castle">
+            <parameter cpu="0" address="0x10B005" value="0x0A"/>
+        </option>
+        <option desc="Final Stage">
+            <parameter cpu="0" address="0x10B005" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="总是第1局" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C121" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择局计数" default="0">
+        <option desc="关闭"/>
+        <option desc="第1局">
+            <parameter cpu="0" address="0x10B051" value="0x01"/>
+        </option>
+        <option desc="第2局">
+            <parameter cpu="0" address="0x10B051" value="0x03"/>
+        </option>
+        <option desc="第3局">
+            <parameter cpu="0" address="0x10B051" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

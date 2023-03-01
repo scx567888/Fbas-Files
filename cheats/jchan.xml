@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200AF8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200101" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200101" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限角色选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200004" value="0x0002"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色-八卦掌成龙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200015" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色-五行拳成龙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200015" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色-醉拳成龙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200015" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色-八卦掌成龙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200017" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色-五行拳成龙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200017" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色-醉拳成龙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200017" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

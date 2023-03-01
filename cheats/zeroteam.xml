@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x095B2" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间(奖励关关闭)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0926C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡1开始">
+            <parameter cpu="0" address="0x84FF3" value="0x00"/>
+        </option>
+        <option desc="关卡1结尾">
+            <parameter cpu="0" address="0x84FF3" value="0x02"/>
+        </option>
+        <option desc="关卡2开始">
+            <parameter cpu="0" address="0x84FF3" value="0x03"/>
+        </option>
+        <option desc="关卡2结尾">
+            <parameter cpu="0" address="0x84FF3" value="0x05"/>
+        </option>
+        <option desc="关卡3开始">
+            <parameter cpu="0" address="0x84FF3" value="0x06"/>
+        </option>
+        <option desc="关卡3结尾">
+            <parameter cpu="0" address="0x84FF3" value="0x08"/>
+        </option>
+        <option desc="第一奖励关">
+            <parameter cpu="0" address="0x84FF3" value="0x09"/>
+        </option>
+        <option desc="关卡4开始">
+            <parameter cpu="0" address="0x84FF3" value="0x0A"/>
+        </option>
+        <option desc="关卡4第二区域">
+            <parameter cpu="0" address="0x84FF3" value="0x0B"/>
+        </option>
+        <option desc="关卡4第三区域">
+            <parameter cpu="0" address="0x84FF3" value="0x0C"/>
+        </option>
+        <option desc="关卡4第四区域">
+            <parameter cpu="0" address="0x84FF3" value="0x0D"/>
+        </option>
+        <option desc="关卡4第五区域">
+            <parameter cpu="0" address="0x84FF3" value="0x0E"/>
+        </option>
+        <option desc="关卡4第六区域">
+            <parameter cpu="0" address="0x84FF3" value="0x0F"/>
+        </option>
+        <option desc="关卡5开始">
+            <parameter cpu="0" address="0x84FF3" value="0x10"/>
+        </option>
+        <option desc="关卡5坐船">
+            <parameter cpu="0" address="0x84FF3" value="0x12"/>
+        </option>
+        <option desc="关卡5门">
+            <parameter cpu="0" address="0x84FF3" value="0x13"/>
+        </option>
+        <option desc="关卡5场地">
+            <parameter cpu="0" address="0x84FF3" value="0x14"/>
+        </option>
+        <option desc="关卡5洞穴">
+            <parameter cpu="0" address="0x84FF3" value="0x15"/>
+        </option>
+        <option desc="第二奖励关">
+            <parameter cpu="0" address="0x84FF3" value="0x16"/>
+        </option>
+        <option desc="最终关">
+            <parameter cpu="0" address="0x84FF3" value="0x17"/>
+        </option>
+        <option desc="最终BOSS">
+            <parameter cpu="0" address="0x84FF3" value="0x18"/>
+        </option>
+        <option desc="结局画面1">
+            <parameter cpu="0" address="0x84FF3" value="0x19"/>
+        </option>
+        <option desc="结局画面2">
+            <parameter cpu="0" address="0x84FF3" value="0x1A"/>
+        </option>
+        <option desc="结局画面3">
+            <parameter cpu="0" address="0x84FF3" value="0x1B"/>
+        </option>
+    </cheat>
+    <cheat desc="玩家无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8DF69" value="0xEB"/>
+            <parameter cpu="0" address="0x8E389" value="0xEB"/>
+            <parameter cpu="0" address="0x8E62D" value="0xEB"/>
+            <parameter cpu="0" address="0xD536F" value="0xEB"/>
+            <parameter cpu="0" address="0x8EDED" value="0xEB"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x8DF69" value="0x00"/>
+            <parameter cpu="0" address="0x8E389" value="0x00"/>
+            <parameter cpu="0" address="0x8E62D" value="0x00"/>
+            <parameter cpu="0" address="0xD536F" value="0x00"/>
+            <parameter cpu="0" address="0x8EDED" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="宝物满天飞" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01D4C" value="0x12"/>
+            <parameter cpu="0" address="0x01E4C" value="0x12"/>
+            <parameter cpu="0" address="0x01F4C" value="0x12"/>
+            <parameter cpu="0" address="0x0204C" value="0x12"/>
+            <parameter cpu="0" address="0x0214C" value="0x12"/>
+            <parameter cpu="0" address="0x0224C" value="0x12"/>
+            <parameter cpu="0" address="0x0234C" value="0x12"/>
+            <parameter cpu="0" address="0x0244C" value="0x12"/>
+            <parameter cpu="0" address="0x01D4F" value="0x01"/>
+            <parameter cpu="0" address="0x01E4F" value="0x01"/>
+            <parameter cpu="0" address="0x01F4F" value="0x01"/>
+            <parameter cpu="0" address="0x0204F" value="0x01"/>
+            <parameter cpu="0" address="0x0214F" value="0x01"/>
+            <parameter cpu="0" address="0x0224F" value="0x01"/>
+            <parameter cpu="0" address="0x0234F" value="0x01"/>
+            <parameter cpu="0" address="0x0244F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人一击必杀+一击破坏所有物体" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x856FB" value="0x00"/>
+            <parameter cpu="0" address="0x8E256" value="0x00"/>
+            <parameter cpu="0" address="0x8E4F8" value="0x00"/>
+            <parameter cpu="0" address="0x8E76B" value="0x00"/>
+            <parameter cpu="0" address="0x8E898" value="0x00"/>
+            <parameter cpu="0" address="0x8E992" value="0x00"/>
+            <parameter cpu="0" address="0x8EA8D" value="0x00"/>
+            <parameter cpu="0" address="0x8EB8B" value="0x00"/>
+            <parameter cpu="0" address="0x8EC5E" value="0x00"/>
+            <parameter cpu="0" address="0x8ED56" value="0x00"/>
+            <parameter cpu="0" address="0x8EE3D" value="0x00"/>
+            <parameter cpu="0" address="0x9BF80" value="0x00"/>
+            <parameter cpu="0" address="0x9C0C8" value="0x00"/>
+            <parameter cpu="0" address="0xA0C5E" value="0x00"/>
+            <parameter cpu="0" address="0xA0DA6" value="0x00"/>
+            <parameter cpu="0" address="0xA4A5F" value="0x00"/>
+            <parameter cpu="0" address="0xA4BA7" value="0x00"/>
+            <parameter cpu="0" address="0xB2EE1" value="0x00"/>
+            <parameter cpu="0" address="0xB7378" value="0x00"/>
+            <parameter cpu="0" address="0xBA306" value="0x00"/>
+            <parameter cpu="0" address="0xBF4D1" value="0x00"/>
+            <parameter cpu="0" address="0xBF619" value="0x00"/>
+            <parameter cpu="0" address="0xC27B7" value="0x00"/>
+            <parameter cpu="0" address="0xC28FF" value="0x00"/>
+            <parameter cpu="0" address="0xC5424" value="0x00"/>
+            <parameter cpu="0" address="0xC556C" value="0x00"/>
+            <parameter cpu="0" address="0xC870C" value="0x00"/>
+            <parameter cpu="0" address="0xC8854" value="0x00"/>
+            <parameter cpu="0" address="0xCC570" value="0x00"/>
+            <parameter cpu="0" address="0xD32C7" value="0x00"/>
+            <parameter cpu="0" address="0xD6214" value="0x00"/>
+            <parameter cpu="0" address="0xD81BD" value="0x00"/>
+            <parameter cpu="0" address="0xD8310" value="0x00"/>
+            <parameter cpu="0" address="0xDBB06" value="0x00"/>
+            <parameter cpu="0" address="0xDBC4E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x092CE" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x008DC" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火箭筒 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x092D0" value="0x63"/>
+            <parameter cpu="0" address="0x092D2" value="0x01"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x092D0" value="0x00"/>
+            <parameter cpu="0" address="0x092D2" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09388" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x009DC" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火箭筒 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0938A" value="0x63"/>
+            <parameter cpu="0" address="0x0938C" value="0x01"/>
+        </option>
+        <option desc="取消">
+            <parameter cpu="0" address="0x0938A" value="0x00"/>
+            <parameter cpu="0" address="0x0938C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="区域选择" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFFFFB" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFFFFB" value="0x01"/>
+        </option>
+        <option desc="韩国">
+            <parameter cpu="0" address="0xFFFFB" value="0x02"/>
+        </option>
+        <option desc="台湾">
+            <parameter cpu="0" address="0xFFFFB" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,4353 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="[ 选择难度需在选择人物时开启，否则错误 ]"/>
+    <cheat desc="选择难度" default="0">
+        <option desc="关闭"/>
+        <option desc="易">
+            <parameter cpu="0" address="0x803b82" value="0x01"/>
+            <parameter cpu="0" address="0x803b83" value="0x01"/>
+        </option>
+        <option desc="普通">
+            <parameter cpu="0" address="0x803b82" value="0x02"/>
+            <parameter cpu="0" address="0x803b83" value="0x02"/>
+        </option>
+        <option desc="难">
+            <parameter cpu="0" address="0x803b82" value="0x03"/>
+            <parameter cpu="0" address="0x803b83" value="0x03"/>
+        </option>
+        <option desc="最难">
+            <parameter cpu="0" address="0x803b82" value="0x04"/>
+            <parameter cpu="0" address="0x803b83" value="0x04"/>
+        </option>
+        <option desc="非常难">
+            <parameter cpu="0" address="0x803b82" value="0x05"/>
+            <parameter cpu="0" address="0x803b83" value="0x05"/>
+        </option>
+        <option desc="超级难">
+            <parameter cpu="0" address="0x803b82" value="0x06"/>
+            <parameter cpu="0" address="0x803b83" value="0x06"/>
+        </option>
+        <option desc="专家">
+            <parameter cpu="0" address="0x803b82" value="0x07"/>
+            <parameter cpu="0" address="0x803b83" value="0x07"/>
+        </option>
+        <option desc="权威">
+            <parameter cpu="0" address="0x803b82" value="0x08"/>
+            <parameter cpu="0" address="0x803b83" value="0x08"/>
+        </option>
+        <option desc="天王">
+            <parameter cpu="0" address="0x803b82" value="0x09"/>
+            <parameter cpu="0" address="0x803b83" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人慢动作" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80dcf6" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限连" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80d0b9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="1兵掉物" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x80d09b" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x80d09b" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x80d09b" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x80d09b" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x80d09b" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x80d09b" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x80d09b" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x80d09b" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x80d09b" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x80d09b" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x80d09b" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x80d09b" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x80d09b" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x80d09b" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x80d09b" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x80d09b" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x80d09b" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x80d09b" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x80d09b" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x80d09b" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x80d09b" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x80d09b" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x80d09b" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x80d09b" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x80d09b" value="0x19"/>
+        </option>
+        <option desc="青钢剑-冰剑">
+            <parameter cpu="0" address="0x80d09b" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x80d09b" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x80d09b" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x80d09b" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x80d09b" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x80d09b" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x80d09b" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x80d09b" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x80d09b" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x80d09b" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x80d09b" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x80d09b" value="0x25"/>
+        </option>
+        <option desc="迷之书">
+            <parameter cpu="0" address="0x80d09b" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x80d09b" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x80d09b" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x80d09b" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x80d09b" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x80d09b" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x80d09b" value="0x2C"/>
+        </option>
+        <option desc="太平清领">
+            <parameter cpu="0" address="0x80d09b" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x80d09b" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x80d09b" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x80d09b" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x80d09b" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x80d09b" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x80d09b" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x80d09b" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x80d09b" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x80d09b" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x80d09b" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x80d09b" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x80d09b" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x80d09b" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x80d09b" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x80d09b" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x80d09b" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x80d09b" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x80d09b" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x80d09b" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x80d09b" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x80d09b" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x80d09b" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x80d09b" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x80d09b" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x80d09b" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x80d09b" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x80d09b" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x80d09b" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x80d09b" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x80d09b" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x80d09b" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x80d09b" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x80d09b" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x80d09b" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x80d09b" value="0x5F"/>
+        </option>
+        <option desc="2000钱">
+            <parameter cpu="0" address="0x80d09b" value="0x81"/>
+        </option>
+        <option desc="1000钱">
+            <parameter cpu="0" address="0x80d09b" value="0x82"/>
+        </option>
+        <option desc="5000钱">
+            <parameter cpu="0" address="0x80d09b" value="0x83"/>
+        </option>
+        <option desc="8000钱">
+            <parameter cpu="0" address="0x80d09b" value="0x84"/>
+        </option>
+        <option desc="20000钱">
+            <parameter cpu="0" address="0x80d09b" value="0x85"/>
+        </option>
+        <option desc="小个包子">
+            <parameter cpu="0" address="0x80d09b" value="0x86"/>
+        </option>
+        <option desc="三个包子">
+            <parameter cpu="0" address="0x80d09b" value="0x87"/>
+        </option>
+        <option desc="一个包子">
+            <parameter cpu="0" address="0x80d09b" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81B6A2" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="极限连招数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80d085" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="连打效应 PL1-2-3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81172D" value="0x02"/>
+            <parameter cpu="0" address="0x8118E7" value="0x02"/>
+            <parameter cpu="0" address="0x811aa1" value="0x02"/>
+            <parameter cpu="0" address="0x811C5B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81174B" value="0x04"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x81174B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811CA1" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="血量不减 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811612" value="0x70"/>
+            <parameter cpu="0" address="0x811ED7" value="0x4240"/>
+        </option>
+    </cheat>
+    <cheat desc="气值满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812E00" value="0x03"/>
+            <parameter cpu="0" address="0x8116EF" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="降将时间无限 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811752" value="0x280"/>
+            <parameter cpu="0" address="0x8133DA" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811905" value="0x04"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x811905" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="气值满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812E4C" value="0x03"/>
+            <parameter cpu="0" address="0x8118A9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811ABF" value="0x04"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x811ABF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="气值满 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812E98" value="0x03"/>
+            <parameter cpu="0" address="0x811A63" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811C79" value="0x04"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x811C79" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="气值满 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812EE4" value="0x03"/>
+            <parameter cpu="0" address="0x811C1D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="PL1 无限道具" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812AF3" value="0x09"/>
+            <parameter cpu="0" address="0x812AF5" value="0x09"/>
+            <parameter cpu="0" address="0x812AF7" value="0x09"/>
+            <parameter cpu="0" address="0x812AF9" value="0x09"/>
+            <parameter cpu="0" address="0x812AFB" value="0x09"/>
+            <parameter cpu="0" address="0x812AFD" value="0x09"/>
+            <parameter cpu="0" address="0x812AFF" value="0x09"/>
+            <parameter cpu="0" address="0x812B01" value="0x09"/>
+            <parameter cpu="0" address="0x812B05" value="0x09"/>
+            <parameter cpu="0" address="0x812B07" value="0x09"/>
+            <parameter cpu="0" address="0x812B09" value="0x09"/>
+            <parameter cpu="0" address="0x812B0B" value="0x09"/>
+            <parameter cpu="0" address="0x812B0D" value="0x09"/>
+            <parameter cpu="0" address="0x812B0F" value="0x09"/>
+            <parameter cpu="0" address="0x812B11" value="0x09"/>
+            <parameter cpu="0" address="0x812B13" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="A面道具有8个 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812B16" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="B面道具有8个 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812B17" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-1道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812AF2" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812AF2" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812AF2" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812AF2" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812AF2" value="0x05"/>
+        </option>
+        <option desc="绿色弹珠">
+            <parameter cpu="0" address="0x812AF2" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812AF2" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812AF2" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812AF2" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812AF2" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812AF2" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812AF2" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812AF2" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812AF2" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812AF2" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812AF2" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812AF2" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812AF2" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812AF2" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812AF2" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812AF2" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812AF2" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812AF2" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812AF2" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812AF2" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812AF2" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812AF2" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812AF2" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812AF2" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812AF2" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812AF2" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812AF2" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812AF2" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812AF2" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812AF2" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812AF2" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812AF2" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812AF2" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812AF2" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812AF2" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812AF2" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812AF2" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812AF2" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812AF2" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812AF2" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812AF2" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812AF2" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812AF2" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812AF2" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812AF2" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812AF2" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812AF2" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812AF2" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812AF2" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812AF2" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812AF2" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812AF2" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812AF2" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812AF2" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812AF2" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812AF2" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812AF2" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812AF2" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812AF2" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812AF2" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812AF2" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812AF2" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812AF2" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812AF2" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812AF2" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812AF2" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812AF2" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812AF2" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812AF2" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812AF2" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812AF2" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812AF2" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812AF2" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812AF2" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812AF2" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-2道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812AF4" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812AF4" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812AF4" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812AF4" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812AF4" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812AF4" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812AF4" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812AF4" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812AF4" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812AF4" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812AF4" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812AF4" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812AF4" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812AF4" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812AF4" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812AF4" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812AF4" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812AF4" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812AF4" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812AF4" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812AF4" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812AF4" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812AF4" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812AF4" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812AF4" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812AF4" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812AF4" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812AF4" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812AF4" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812AF4" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812AF4" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812AF4" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812AF4" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812AF4" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812AF4" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812AF4" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812AF4" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812AF4" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812AF4" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812AF4" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812AF4" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812AF4" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812AF4" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812AF4" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812AF4" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812AF4" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812AF4" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812AF4" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812AF4" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812AF4" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812AF4" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812AF4" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812AF4" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812AF4" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812AF4" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812AF4" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812AF4" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812AF4" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812AF4" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812AF4" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812AF4" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812AF4" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812AF4" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812AF4" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812AF4" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812AF4" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812AF4" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812AF4" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812AF4" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812AF4" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812AF4" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812AF4" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812AF4" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812AF4" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812AF4" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812AF4" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812AF4" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812AF4" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812AF4" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812AF4" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-3道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812AF6" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812AF6" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812AF6" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812AF6" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812AF6" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812AF6" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812AF6" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812AF6" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812AF6" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812AF6" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812AF6" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812AF6" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812AF6" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812AF6" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812AF6" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812AF6" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812AF6" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812AF6" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812AF6" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812AF6" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812AF6" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812AF6" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812AF6" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812AF6" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812AF6" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812AF6" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812AF6" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812AF6" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812AF6" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812AF6" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812AF6" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812AF6" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812AF6" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812AF6" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812AF6" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812AF6" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812AF6" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812AF6" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812AF6" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812AF6" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812AF6" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812AF6" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812AF6" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812AF6" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812AF6" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812AF6" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812AF6" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812AF6" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812AF6" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812AF6" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812AF6" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812AF6" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812AF6" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812AF6" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812AF6" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812AF6" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812AF6" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812AF6" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812AF6" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812AF6" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812AF6" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812AF6" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812AF6" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812AF6" value="0x40"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812AF6" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812AF6" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812AF6" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812AF6" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812AF6" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812AF6" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812AF6" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812AF6" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812AF6" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812AF6" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812AF6" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812AF6" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812AF6" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812AF6" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812AF6" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-4道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812AF8" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812AF8" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812AF8" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812AF8" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812AF8" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812AF8" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812AF8" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812AF8" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812AF8" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812AF8" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812AF8" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812AF8" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812AF8" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812AF8" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812AF8" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812AF8" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812AF8" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812AF8" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812AF8" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812AF8" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812AF8" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812AF8" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812AF8" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812AF8" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812AF8" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812AF8" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812AF8" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812AF8" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812AF8" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812AF8" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812AF8" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812AF8" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812AF8" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812AF8" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812AF8" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812AF8" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812AF8" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812AF8" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812AF8" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812AF8" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812AF8" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812AF8" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812AF8" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812AF8" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812AF8" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812AF8" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812AF8" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812AF8" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812AF8" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812AF8" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812AF8" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812AF8" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812AF8" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812AF8" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812AF8" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812AF8" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812AF8" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812AF8" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812AF8" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812AF8" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812AF8" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812AF8" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812AF8" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812AF8" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812AF8" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812AF8" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812AF8" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812AF8" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812AF8" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812AF8" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812AF8" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812AF8" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812AF8" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812AF8" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812AF8" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812AF8" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812AF8" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812AF8" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812AF8" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812AF8" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-5道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812AFA" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812AFA" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812AFA" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812AFA" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812AFA" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812AFA" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812AFA" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812AFA" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812AFA" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812AFA" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812AFA" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812AFA" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812AFA" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812AFA" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812AFA" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812AFA" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812AFA" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812AFA" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812AFA" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812AFA" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812AFA" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812AFA" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812AFA" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812AFA" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812AFA" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812AFA" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812AFA" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812AFA" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812AFA" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812AFA" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812AFA" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812AFA" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812AFA" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812AFA" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812AFA" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812AFA" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812AFA" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812AFA" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812AFA" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812AFA" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812AFA" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812AFA" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812AFA" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812AFA" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812AFA" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812AFA" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812AFA" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812AFA" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812AFA" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812AFA" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812AFA" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812AFA" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812AFA" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812AFA" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812AFA" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812AFA" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812AFA" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812AFA" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812AFA" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812AFA" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812AFA" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812AFA" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812AFA" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812AFA" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812AFA" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812AFA" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812AFA" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812AFA" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812AFA" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812AFA" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812AFA" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812AFA" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812AFA" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812AFA" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812AFA" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812AFA" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812AFA" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812AFA" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812AFA" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812AFA" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-6道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812AFC" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812AFC" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812AFC" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812AFC" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812AFC" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812AFC" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812AFC" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812AFC" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812AFC" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812AFC" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812AFC" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812AFC" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812AFC" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812AFC" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812AFC" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812AFC" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812AFC" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812AFC" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812AFC" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812AFC" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812AFC" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812AFC" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812AFC" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812AFC" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812AFC" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812AFC" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812AFC" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812AFC" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812AFC" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812AFC" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812AFC" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812AFC" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812AFC" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812AFC" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812AFC" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812AFC" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812AFC" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812AFC" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812AFC" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812AFC" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812AFC" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812AFC" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812AFC" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812AFC" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812AFC" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812AFC" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812AFC" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812AFC" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812AFC" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812AFC" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812AFC" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812AFC" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812AFC" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812AFC" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812AFC" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812AFC" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812AFC" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812AFC" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812AFC" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812AFC" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812AFC" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812AFC" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812AFC" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812AFC" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812AFC" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812AFC" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812AFC" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812AFC" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812AFC" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812AFC" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812AFC" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812AFC" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812AFC" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812AFC" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812AFC" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812AFC" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812AFC" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812AFC" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812AFC" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812AFC" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-7道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812AFE" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812AFE" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812AFE" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812AFE" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812AFE" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812AFE" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812AFE" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812AFE" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812AFE" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812AFE" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812AFE" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812AFE" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812AFE" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812AFE" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812AFE" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812AFE" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812AFE" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812AFE" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812AFE" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812AFE" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812AFE" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812AFE" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812AFE" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812AFE" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812AFE" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812AFE" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812AFE" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812AFE" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812AFE" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812AFE" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812AFE" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812AFE" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812AFE" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812AFE" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812AFE" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812AFE" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812AFE" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812AFE" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812AFE" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812AFE" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812AFE" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812AFE" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812AFE" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812AFE" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812AFE" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812AFE" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812AFE" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812AFE" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812AFE" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812AFE" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812AFE" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812AFE" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812AFE" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812AFE" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812AFE" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812AFE" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812AFE" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812AFE" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812AFE" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812AFE" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812AFE" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812AFE" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812AFE" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812AFE" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812AFE" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812AFE" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812AFE" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812AFE" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812AFE" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812AFE" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812AFE" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812AFE" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812AFE" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812AFE" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812AFE" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812AFE" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812AFE" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812AFE" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812AFE" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812AFE" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择A-8道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B00" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B00" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B00" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B00" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B00" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B00" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B00" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B00" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B00" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B00" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B00" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B00" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B00" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B00" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B00" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B00" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B00" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B00" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B00" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B00" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B00" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B00" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B00" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B00" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B00" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B00" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B00" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B00" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B00" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B00" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B00" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B00" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B00" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B00" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B00" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B00" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B00" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B00" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B00" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B00" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B00" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B00" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B00" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B00" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B00" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B00" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B00" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B00" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B00" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B00" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B00" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B00" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B00" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B00" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B00" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B00" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B00" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B00" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B00" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B00" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B00" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B00" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B00" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B00" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B00" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B00" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B00" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B00" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B00" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B00" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B00" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B00" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B00" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B00" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B00" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B00" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B00" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B00" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B00" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B00" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-1道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B04" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B04" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B04" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B04" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B04" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B04" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B04" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B04" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B04" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B04" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B04" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B04" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B04" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B04" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B04" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B04" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B04" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B04" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B04" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B04" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B04" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B04" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B04" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B04" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B04" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B04" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B04" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B04" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B04" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B04" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B04" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B04" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B04" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B04" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B04" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B04" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B04" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B04" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B04" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B04" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B04" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B04" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B04" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B04" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B04" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B04" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B04" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B04" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B04" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B04" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B04" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B04" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B04" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B04" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B04" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B04" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B04" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B04" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B04" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B04" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B04" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B04" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B04" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B04" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B04" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B04" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B04" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B04" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B04" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B04" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B04" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B04" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B04" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B04" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B04" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B04" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B04" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B04" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B04" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B04" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-2道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B06" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B06" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B06" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B06" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B06" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B06" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B06" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B06" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B06" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B06" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B06" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B06" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B06" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B06" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B06" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B06" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B06" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B06" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B06" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B06" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B06" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B06" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B06" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B06" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B06" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B06" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B06" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B06" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B06" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B06" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B06" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B06" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B06" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B06" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B06" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B06" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B06" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B06" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B06" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B06" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B06" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B06" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B06" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B06" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B06" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B06" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B06" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B06" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B06" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B06" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B06" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B06" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B06" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B06" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B06" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B06" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B06" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B06" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B06" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B06" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B06" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B06" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B06" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B06" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B06" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B06" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B06" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B06" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B06" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B06" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B06" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B06" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B06" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B06" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B06" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B06" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B06" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B06" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B06" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B06" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-3道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B08" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B08" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B08" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B08" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B08" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B08" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B08" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B08" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B08" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B08" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B08" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B08" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B08" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B08" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B08" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B08" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B08" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B08" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B08" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B08" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B08" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B08" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B08" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B08" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B08" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B08" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B08" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B08" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B08" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B08" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B08" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B08" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B08" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B08" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B08" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B08" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B08" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B08" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B08" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B08" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B08" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B08" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B08" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B08" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B08" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B08" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B08" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B08" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B08" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B08" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B08" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B08" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B08" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B08" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B08" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B08" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B08" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B08" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B08" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B08" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B08" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B08" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B08" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B08" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B08" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B08" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B08" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B08" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B08" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B08" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B08" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B08" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B08" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B08" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B06" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B08" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B08" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B08" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B08" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B08" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-4道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B0A" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B0A" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B0A" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B0A" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B0A" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B0A" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B0A" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B0A" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B0A" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B0A" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B0A" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B0A" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B0A" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B0A" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B0A" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B0A" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B0A" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B0A" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B0A" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B0A" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B0A" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B0A" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B0A" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B0A" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B0A" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B0A" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B0A" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B0A" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B0A" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B0A" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B0A" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B0A" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B0A" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B0A" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B0A" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B0A" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B0A" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B0A" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B0A" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B0A" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B0A" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B0A" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B0A" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B0A" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B0A" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B0A" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B0A" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B0A" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B0A" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B0A" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B0A" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B0A" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B0A" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B0A" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B0A" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B0A" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B0A" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B0A" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B0A" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B0A" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B0A" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B0A" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B0A" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B0A" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B0A" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B0A" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B0A" value="0x43"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B0A" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B0A" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B0A" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B0A" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B0A" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B0A" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B0A" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B0A" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B0A" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B0A" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B0A" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B0A" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B0A" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B0A" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-5道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B0C" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B0C" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B0C" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B0C" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B0C" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B0C" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B0C" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B0C" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B0C" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B0C" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B0C" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B0C" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B0C" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B0C" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B0C" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B0C" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B0C" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B0C" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B0C" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B0C" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B0C" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B0C" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B0C" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B0C" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B0C" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B0C" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B0C" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B0C" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B0C" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B0C" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B0C" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B0C" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B0C" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B0C" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B0C" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B0C" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B0C" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B0C" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B0C" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B0C" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B0C" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B0C" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B0C" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B0C" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B0C" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B0C" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B0C" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B0C" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B0C" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B0C" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B0C" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B0C" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B0C" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B0C" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B0C" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B0C" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B0C" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B0C" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B0C" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B0C" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B0C" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B0C" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B0C" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B0C" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B0C" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B0C" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B0C" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B0C" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B0C" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B0C" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B0C" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B0C" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B0C" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B0C" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B0C" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B0C" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B0C" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B0C" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B0C" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B0C" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-6道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B0E" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B0E" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B0E" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B0E" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B0E" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B0E" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B0E" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B0E" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B0E" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B0E" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B0E" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B0E" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B0E" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B0E" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B0E" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B0E" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B0E" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B0E" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B0E" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B0E" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B0E" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B0E" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B0E" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B0E" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B0E" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B0E" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B0E" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B0E" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B0E" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B0E" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B0E" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B0E" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B0E" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B0E" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B0E" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B0E" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B0E" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B0E" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B0E" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B0E" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B0E" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B0E" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B0E" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B0E" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B0E" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B0E" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B0E" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B0E" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B0E" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B0E" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B0E" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B0E" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B0E" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B0E" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B0E" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B0E" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B0E" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B0E" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B0E" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B0E" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B0E" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B0E" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B0E" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B0E" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B0E" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B0E" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B0E" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B0E" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B0E" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B0E" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B0E" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B0E" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B0E" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B0E" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B0E" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B0E" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B0E" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B0E" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B0E" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B0E" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-7道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B10" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B10" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B10" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B10" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B10" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B10" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B10" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B10" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B10" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B10" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B10" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B10" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B10" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B10" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B10" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B10" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B10" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B10" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B10" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B10" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B10" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B10" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B10" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B10" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B10" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B10" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B10" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B10" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B10" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B10" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B10" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B10" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B10" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B10" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B10" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B10" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B10" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B10" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B10" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B10" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B10" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B10" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B10" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B10" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B10" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B10" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B10" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B10" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B10" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B10" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B10" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B10" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B10" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B10" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B10" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B10" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B10" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B10" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B10" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B10" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B10" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B10" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B10" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B10" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B10" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B10" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B10" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B10" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B10" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B10" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B10" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B10" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B10" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B10" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B10" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B10" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B10" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B10" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B10" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B10" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择B-8道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="袖箭">
+            <parameter cpu="0" address="0x812B12" value="0x01"/>
+        </option>
+        <option desc="白色弹珠">
+            <parameter cpu="0" address="0x812B12" value="0x02"/>
+        </option>
+        <option desc="毒气筒">
+            <parameter cpu="0" address="0x812B12" value="0x03"/>
+        </option>
+        <option desc="血滴子">
+            <parameter cpu="0" address="0x812B12" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x812B12" value="0x05"/>
+        </option>
+        <option desc="弹珠">
+            <parameter cpu="0" address="0x812B12" value="0x06"/>
+        </option>
+        <option desc="金珠">
+            <parameter cpu="0" address="0x812B12" value="0x07"/>
+        </option>
+        <option desc="毒蝎">
+            <parameter cpu="0" address="0x812B12" value="0x08"/>
+        </option>
+        <option desc="毒标">
+            <parameter cpu="0" address="0x812B12" value="0x09"/>
+        </option>
+        <option desc="铁莲花">
+            <parameter cpu="0" address="0x812B12" value="0x0A"/>
+        </option>
+        <option desc="张陵剑">
+            <parameter cpu="0" address="0x812B12" value="0x0B"/>
+        </option>
+        <option desc="张角巾">
+            <parameter cpu="0" address="0x812B12" value="0x0C"/>
+        </option>
+        <option desc="太清丹经">
+            <parameter cpu="0" address="0x812B12" value="0x0D"/>
+        </option>
+        <option desc="黄石公">
+            <parameter cpu="0" address="0x812B12" value="0x0E"/>
+        </option>
+        <option desc="九节杖">
+            <parameter cpu="0" address="0x812B12" value="0x0F"/>
+        </option>
+        <option desc="鱼鬣衣">
+            <parameter cpu="0" address="0x812B12" value="0x10"/>
+        </option>
+        <option desc="神仙笔">
+            <parameter cpu="0" address="0x812B12" value="0x11"/>
+        </option>
+        <option desc="蜂巢">
+            <parameter cpu="0" address="0x812B12" value="0x12"/>
+        </option>
+        <option desc="天师符">
+            <parameter cpu="0" address="0x812B12" value="0x13"/>
+        </option>
+        <option desc="米田共">
+            <parameter cpu="0" address="0x812B12" value="0x14"/>
+        </option>
+        <option desc="沙漏">
+            <parameter cpu="0" address="0x812B12" value="0x15"/>
+        </option>
+        <option desc="援军令">
+            <parameter cpu="0" address="0x812B12" value="0x16"/>
+        </option>
+        <option desc="招安状">
+            <parameter cpu="0" address="0x812B12" value="0x17"/>
+        </option>
+        <option desc="太阿剑-爆剑">
+            <parameter cpu="0" address="0x812B12" value="0x18"/>
+        </option>
+        <option desc="倚天剑-火剑">
+            <parameter cpu="0" address="0x812B12" value="0x19"/>
+        </option>
+        <option desc="青釭剑-冰剑">
+            <parameter cpu="0" address="0x812B12" value="0x1A"/>
+        </option>
+        <option desc="干将剑-电剑">
+            <parameter cpu="0" address="0x812B12" value="0x1B"/>
+        </option>
+        <option desc="白干酒">
+            <parameter cpu="0" address="0x812B12" value="0x1C"/>
+        </option>
+        <option desc="杜康酒">
+            <parameter cpu="0" address="0x812B12" value="0x1D"/>
+        </option>
+        <option desc="金蝎王">
+            <parameter cpu="0" address="0x812B12" value="0x1E"/>
+        </option>
+        <option desc="傀儡娃娃">
+            <parameter cpu="0" address="0x812B12" value="0x1F"/>
+        </option>
+        <option desc="祝融令">
+            <parameter cpu="0" address="0x812B12" value="0x20"/>
+        </option>
+        <option desc="雷神锤">
+            <parameter cpu="0" address="0x812B12" value="0x21"/>
+        </option>
+        <option desc="史记残页">
+            <parameter cpu="0" address="0x812B12" value="0x22"/>
+        </option>
+        <option desc="免死金牌">
+            <parameter cpu="0" address="0x812B12" value="0x23"/>
+        </option>
+        <option desc="将军印">
+            <parameter cpu="0" address="0x812B12" value="0x24"/>
+        </option>
+        <option desc="七星灯">
+            <parameter cpu="0" address="0x812B12" value="0x25"/>
+        </option>
+        <option desc="青囊书">
+            <parameter cpu="0" address="0x812B12" value="0x26"/>
+        </option>
+        <option desc="金匮要略">
+            <parameter cpu="0" address="0x812B12" value="0x27"/>
+        </option>
+        <option desc="和氏璧">
+            <parameter cpu="0" address="0x812B12" value="0x28"/>
+        </option>
+        <option desc="无名火">
+            <parameter cpu="0" address="0x812B12" value="0x29"/>
+        </option>
+        <option desc="方天画戟">
+            <parameter cpu="0" address="0x812B12" value="0x2A"/>
+        </option>
+        <option desc="火箭">
+            <parameter cpu="0" address="0x812B12" value="0x2B"/>
+        </option>
+        <option desc="太平要术（风书）">
+            <parameter cpu="0" address="0x812B12" value="0x2C"/>
+        </option>
+        <option desc="太平青领">
+            <parameter cpu="0" address="0x812B12" value="0x2D"/>
+        </option>
+        <option desc="天遁书（电书）">
+            <parameter cpu="0" address="0x812B12" value="0x2E"/>
+        </option>
+        <option desc="地遁书（落石书）">
+            <parameter cpu="0" address="0x812B12" value="0x2F"/>
+        </option>
+        <option desc="人遁书（火书）">
+            <parameter cpu="0" address="0x812B12" value="0x30"/>
+        </option>
+        <option desc="花1">
+            <parameter cpu="0" address="0x812B12" value="0x31"/>
+        </option>
+        <option desc="花2">
+            <parameter cpu="0" address="0x812B12" value="0x32"/>
+        </option>
+        <option desc="花3">
+            <parameter cpu="0" address="0x812B12" value="0x33"/>
+        </option>
+        <option desc="马超之剑">
+            <parameter cpu="0" address="0x812B12" value="0x34"/>
+        </option>
+        <option desc="孔明之剑">
+            <parameter cpu="0" address="0x812B12" value="0x35"/>
+        </option>
+        <option desc="吕蒙">
+            <parameter cpu="0" address="0x812B12" value="0x36"/>
+        </option>
+        <option desc="曹丕">
+            <parameter cpu="0" address="0x812B12" value="0x37"/>
+        </option>
+        <option desc="曹彰">
+            <parameter cpu="0" address="0x812B12" value="0x38"/>
+        </option>
+        <option desc="魏延">
+            <parameter cpu="0" address="0x812B12" value="0x39"/>
+        </option>
+        <option desc="司马懿">
+            <parameter cpu="0" address="0x812B12" value="0x3A"/>
+        </option>
+        <option desc="夏侯惇">
+            <parameter cpu="0" address="0x812B12" value="0x3B"/>
+        </option>
+        <option desc="左慈">
+            <parameter cpu="0" address="0x812B12" value="0x3C"/>
+        </option>
+        <option desc="黄盖">
+            <parameter cpu="0" address="0x812B12" value="0x3D"/>
+        </option>
+        <option desc="吕布">
+            <parameter cpu="0" address="0x812B12" value="0x3E"/>
+        </option>
+        <option desc="夏侯渊">
+            <parameter cpu="0" address="0x812B12" value="0x3F"/>
+        </option>
+        <option desc="孟获">
+            <parameter cpu="0" address="0x812B12" value="0x40"/>
+        </option>
+        <option desc="孟优">
+            <parameter cpu="0" address="0x812B12" value="0x41"/>
+        </option>
+        <option desc="沙摩柯">
+            <parameter cpu="0" address="0x812B12" value="0x42"/>
+        </option>
+        <option desc="阿斗">
+            <parameter cpu="0" address="0x812B12" value="0x43"/>
+        </option>
+        <option desc="孙尚香">
+            <parameter cpu="0" address="0x812B12" value="0x44"/>
+        </option>
+        <option desc="曹操">
+            <parameter cpu="0" address="0x812B12" value="0x45"/>
+        </option>
+        <option desc="彻里吉">
+            <parameter cpu="0" address="0x812B12" value="0x46"/>
+        </option>
+        <option desc="越吉">
+            <parameter cpu="0" address="0x812B12" value="0x47"/>
+        </option>
+        <option desc="铁甲兵">
+            <parameter cpu="0" address="0x812B12" value="0x51"/>
+        </option>
+        <option desc="驯兽师">
+            <parameter cpu="0" address="0x812B12" value="0x53"/>
+        </option>
+        <option desc="枪兵">
+            <parameter cpu="0" address="0x812B12" value="0x57"/>
+        </option>
+        <option desc="刀兵">
+            <parameter cpu="0" address="0x812B12" value="0x58"/>
+        </option>
+        <option desc="弓箭手">
+            <parameter cpu="0" address="0x812B12" value="0x59"/>
+        </option>
+        <option desc="火牛">
+            <parameter cpu="0" address="0x812B12" value="0x5C"/>
+        </option>
+        <option desc="爆熊">
+            <parameter cpu="0" address="0x812B12" value="0x5D"/>
+        </option>
+        <option desc="电虎">
+            <parameter cpu="0" address="0x812B12" value="0x5E"/>
+        </option>
+        <option desc="冰豹">
+            <parameter cpu="0" address="0x812B12" value="0x5F"/>
+        </option>
+    </cheat>
+</shufflecheat>

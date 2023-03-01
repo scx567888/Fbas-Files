@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="回合时间 (故事模式)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x180000B0" value="0x64"/>
+        </option>
+        <option desc="立即耗尽">
+            <parameter cpu="2" address="0x180000B0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (训练模式)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x180000B6" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择人物 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="OROCHIMARU / 大蛇丸">
+            <parameter cpu="2" address="0x18008168" value="0x00"/>
+            <parameter cpu="2" address="0x1800816B" value="0x00"/>
+        </option>
+        <option desc="ROZE / 萝洁">
+            <parameter cpu="2" address="0x18008168" value="0x01"/>
+            <parameter cpu="2" address="0x1800816B" value="0x01"/>
+        </option>
+        <option desc="WELLS / 威雷斯">
+            <parameter cpu="2" address="0x18008168" value="0x02"/>
+            <parameter cpu="2" address="0x1800816B" value="0x02"/>
+        </option>
+        <option desc="KRAYCE / 克莱斯">
+            <parameter cpu="2" address="0x18008168" value="0x03"/>
+            <parameter cpu="2" address="0x1800816B" value="0x03"/>
+        </option>
+        <option desc="MAYURA / 玛尤拉">
+            <parameter cpu="2" address="0x18008168" value="0x04"/>
+            <parameter cpu="2" address="0x1800816B" value="0x04"/>
+        </option>
+        <option desc="RYUKEN / 龙健">
+            <parameter cpu="2" address="0x18008168" value="0x05"/>
+            <parameter cpu="2" address="0x1800816B" value="0x05"/>
+        </option>
+        <option desc="HIRO / 希萝">
+            <parameter cpu="2" address="0x18008168" value="0x06"/>
+            <parameter cpu="2" address="0x1800816B" value="0x06"/>
+        </option>
+        <option desc="JADOU / 贾杜">
+            <parameter cpu="2" address="0x18008168" value="0x07"/>
+            <parameter cpu="2" address="0x1800816B" value="0x07"/>
+        </option>
+        <option desc="ERILE / 艾利尔">
+            <parameter cpu="2" address="0x18008168" value="0x08"/>
+            <parameter cpu="2" address="0x1800816B" value="0x08"/>
+        </option>
+        <option desc="EARTH / 亚斯">
+            <parameter cpu="2" address="0x18008168" value="0x09"/>
+            <parameter cpu="2" address="0x1800816B" value="0x09"/>
+        </option>
+        <option desc="HIRO 2 / 魔妆觉醒希萝">
+            <parameter cpu="2" address="0x18008168" value="0x0A"/>
+            <parameter cpu="2" address="0x1800816B" value="0x0A"/>
+        </option>
+        <option desc="JADOU 2 / 魔界兽贾杜">
+            <parameter cpu="2" address="0x18008168" value="0x0B"/>
+            <parameter cpu="2" address="0x1800816B" value="0x0B"/>
+        </option>
+        <option desc="HOLY GOD EARTH / 圣神亚斯">
+            <parameter cpu="2" address="0x18008168" value="0x0C"/>
+            <parameter cpu="2" address="0x1800816B" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1801035C" value="0xF4"/>
+            <parameter cpu="2" address="0x1801035D" value="0x01"/>
+            <parameter cpu="2" address="0x1801035E" value="0xF4"/>
+            <parameter cpu="2" address="0x1801035F" value="0x01"/>
+            <parameter cpu="2" address="0x18019AB0" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量值 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x18019851" value="0x03"/>
+        </option>
+        <option desc="没有">
+            <parameter cpu="2" address="0x18019851" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="萝洁无限魔法剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18019388" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 时之封印发动后才能开启，否则无法发动封印 ]"/>
+    <cheat desc="无限时之封印时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18000265" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆炎觉醒时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1801978C" value="0x85"/>
+        </option>
+    </cheat>
+    <cheat desc="爆炎觉醒状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1800027A" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="2" address="0x1800027A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择人物 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="OROCHIMARU / 大蛇丸">
+            <parameter cpu="2" address="0x180081E8" value="0x00"/>
+            <parameter cpu="2" address="0x180081EB" value="0x00"/>
+        </option>
+        <option desc="ROZE / 萝洁">
+            <parameter cpu="2" address="0x180081E8" value="0x01"/>
+            <parameter cpu="2" address="0x180081EB" value="0x01"/>
+        </option>
+        <option desc="WELLS / 威雷斯">
+            <parameter cpu="2" address="0x180081E8" value="0x02"/>
+            <parameter cpu="2" address="0x180081EB" value="0x02"/>
+        </option>
+        <option desc="KRAYCE / 克莱斯">
+            <parameter cpu="2" address="0x180081E8" value="0x03"/>
+            <parameter cpu="2" address="0x180081EB" value="0x03"/>
+        </option>
+        <option desc="MAYURA / 玛尤拉">
+            <parameter cpu="2" address="0x180081E8" value="0x04"/>
+            <parameter cpu="2" address="0x180081EB" value="0x04"/>
+        </option>
+        <option desc="RYUKEN / 龙健">
+            <parameter cpu="2" address="0x180081E8" value="0x05"/>
+            <parameter cpu="2" address="0x180081EB" value="0x05"/>
+        </option>
+        <option desc="HIRO / 希萝">
+            <parameter cpu="2" address="0x180081E8" value="0x06"/>
+            <parameter cpu="2" address="0x180081EB" value="0x06"/>
+        </option>
+        <option desc="JADOU / 贾杜">
+            <parameter cpu="2" address="0x180081E8" value="0x07"/>
+            <parameter cpu="2" address="0x180081EB" value="0x07"/>
+        </option>
+        <option desc="ERILE / 艾利尔">
+            <parameter cpu="2" address="0x180081E8" value="0x08"/>
+            <parameter cpu="2" address="0x180081EB" value="0x08"/>
+        </option>
+        <option desc="EARTH / 亚斯">
+            <parameter cpu="2" address="0x180081E8" value="0x09"/>
+            <parameter cpu="2" address="0x180081EB" value="0x09"/>
+        </option>
+        <option desc="HIRO 2 / 魔妆觉醒希萝">
+            <parameter cpu="2" address="0x180081E8" value="0x0A"/>
+            <parameter cpu="2" address="0x180081EB" value="0x0A"/>
+        </option>
+        <option desc="JADOU 2 / 魔界兽贾杜">
+            <parameter cpu="2" address="0x180081E8" value="0x0B"/>
+            <parameter cpu="2" address="0x180081EB" value="0x0B"/>
+        </option>
+        <option desc="HOLY GOD EARTH / 圣神亚斯">
+            <parameter cpu="2" address="0x180081E8" value="0x0C"/>
+            <parameter cpu="2" address="0x180081EB" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1801049C" value="0xF4"/>
+            <parameter cpu="2" address="0x1801049D" value="0x01"/>
+            <parameter cpu="2" address="0x1801049E" value="0xF4"/>
+            <parameter cpu="2" address="0x1801049F" value="0x01"/>
+            <parameter cpu="2" address="0x18019B14" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量值 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="2" address="0x180198B5" value="0x03"/>
+        </option>
+        <option desc="没有">
+            <parameter cpu="2" address="0x180198B5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="萝洁无限魔法剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18019428" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 时之封印发动后才能开启，否则无法发动封印 ]"/>
+    <cheat desc="无限时之封印时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x18000264" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆炎觉醒时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x180197F0" value="0x85"/>
+        </option>
+    </cheat>
+    <cheat desc="爆炎觉醒状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="2" address="0x1800027B" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="2" address="0x1800027B" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

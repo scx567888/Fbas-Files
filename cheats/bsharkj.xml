@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10793F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无伤害 (档风玻璃仍会破裂)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10DD8B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限爆破筒" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10DE34" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊雷" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10DE45" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择火力" default="0">
+        <option desc="关闭"/>
+        <option desc="只有鱼雷">
+            <parameter cpu="0" address="0x10DE35" value="0x01"/>
+        </option>
+        <option desc="双雷">
+            <parameter cpu="0" address="0x10DE35" value="0x02"/>
+        </option>
+        <option desc="三雷">
+            <parameter cpu="0" address="0x10DE35" value="0x03"/>
+        </option>
+        <option desc="四方雷">
+            <parameter cpu="0" address="0x10DE35" value="0x04"/>
+        </option>
+        <option desc="特殊雷">
+            <parameter cpu="0" address="0x10DE35" value="0x05"/>
+        </option>
+        <option desc="双导弹">
+            <parameter cpu="0" address="0x10DE35" value="0x06"/>
+        </option>
+        <option desc="三导弹">
+            <parameter cpu="0" address="0x10DE35" value="0x07"/>
+        </option>
+        <option desc="四导弹">
+            <parameter cpu="0" address="0x10DE35" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

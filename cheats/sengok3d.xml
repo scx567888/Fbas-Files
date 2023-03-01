@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108457" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083C6" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="一击消灭所有敌人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105904" value="0x00"/>
+            <parameter cpu="0" address="0x105905" value="0x00"/>
+            <parameter cpu="0" address="0x1059FE" value="0x00"/>
+            <parameter cpu="0" address="0x1059FF" value="0x00"/>
+            <parameter cpu="0" address="0x105AF9" value="0x00"/>
+            <parameter cpu="0" address="0x105BF3" value="0x00"/>
+            <parameter cpu="0" address="0x105CEC" value="0x00"/>
+            <parameter cpu="0" address="0x105CED" value="0x00"/>
+            <parameter cpu="0" address="0x105DE7" value="0x00"/>
+            <parameter cpu="0" address="0x105EE1" value="0x00"/>
+            <parameter cpu="0" address="0x105FDB" value="0x00"/>
+            <parameter cpu="0" address="0x1060D5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击打碎所有物品" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103DAD" value="0x00"/>
+            <parameter cpu="0" address="0x103EA7" value="0x00"/>
+            <parameter cpu="0" address="0x103FA1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102C19" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投掷镖 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083EB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E3" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102C5D" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无限组合时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083DB" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="选择投掷武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是忍者镖 PL1">
+            <parameter cpu="0" address="0x1083EA" value="0x00"/>
+        </option>
+        <option desc="总是飞刀 PL1">
+            <parameter cpu="0" address="0x1083EA" value="0x01"/>
+        </option>
+        <option desc="总是炸弹 PL1">
+            <parameter cpu="0" address="0x1083EA" value="0x02"/>
+        </option>
+        <option desc="总是碟子 PL1">
+            <parameter cpu="0" address="0x1083EA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Okuni PL1">
+            <parameter cpu="0" address="0x1083CA" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Byacci PL1">
+            <parameter cpu="0" address="0x1083CA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D13" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投掷镖 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108409" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108401" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D57" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无限组合时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083F9" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="选择投掷武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是忍者镖 PL2">
+            <parameter cpu="0" address="0x108408" value="0x00"/>
+        </option>
+        <option desc="总是飞刀 PL2">
+            <parameter cpu="0" address="0x108408" value="0x01"/>
+        </option>
+        <option desc="总是炸弹 PL2">
+            <parameter cpu="0" address="0x108408" value="0x02"/>
+        </option>
+        <option desc="总是碟子 PL2">
+            <parameter cpu="0" address="0x108408" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Okuni PL2">
+            <parameter cpu="0" address="0x1083CC" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Byacci PL2">
+            <parameter cpu="0" address="0x1083CC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第一关">
+            <parameter cpu="0" address="0x108410" value="0x00"/>
+        </option>
+        <option desc="第二关">
+            <parameter cpu="0" address="0x108410" value="0x01"/>
+        </option>
+        <option desc="第三关">
+            <parameter cpu="0" address="0x108410" value="0x02"/>
+        </option>
+        <option desc="第四关">
+            <parameter cpu="0" address="0x108410" value="0x03"/>
+        </option>
+        <option desc="第五关">
+            <parameter cpu="0" address="0x108410" value="0x04"/>
+        </option>
+        <option desc="第六关">
+            <parameter cpu="0" address="0x108410" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="关层选战BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="关层选战1BOSS">
+            <parameter cpu="0" address="0x108414" value="0x03"/>
+        </option>
+        <option desc="关层选战2阿国">
+            <parameter cpu="0" address="0x108414" value="0x07"/>
+        </option>
+        <option desc="关层选战3白鬼">
+            <parameter cpu="0" address="0x108414" value="0x0C"/>
+        </option>
+        <option desc="关层选战4BOSS1火鸟">
+            <parameter cpu="0" address="0x108414" value="0x0F"/>
+        </option>
+        <option desc="关层选战4BOSS2持炮人">
+            <parameter cpu="0" address="0x108414" value="0x10"/>
+        </option>
+        <option desc="关层选战5BOSS">
+            <parameter cpu="0" address="0x108414" value="0x15"/>
+        </option>
+        <option desc="决战最终BOSS邪神">
+            <parameter cpu="0" address="0x108414" value="0x1B"/>
+        </option>
+    </cheat>
+    <cheat desc="隐藏角色开启" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108417" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x301225" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C72" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C73" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30002D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C6F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器（游戏中选择死后才会生效） PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀">
+            <parameter cpu="0" address="0x303C6E" value="0x04"/>
+        </option>
+        <option desc="手枪">
+            <parameter cpu="0" address="0x303C6E" value="0x06"/>
+        </option>
+        <option desc="机枪">
+            <parameter cpu="0" address="0x303C6E" value="0x05"/>
+        </option>
+        <option desc="喷火枪">
+            <parameter cpu="0" address="0x303C6E" value="0x02"/>
+        </option>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x303C6E" value="0x03"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x303C6E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择交通工具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无交通工具">
+            <parameter cpu="0" address="0x300037" value="0x00"/>
+        </option>
+        <option desc="直升机">
+            <parameter cpu="0" address="0x300037" value="0x0D"/>
+        </option>
+        <option desc="喷气雪橇">
+            <parameter cpu="0" address="0x300037" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C84" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C85" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x30006D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x303C81" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器（游戏中选择死后才会生效） PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀">
+            <parameter cpu="0" address="0x303C80" value="0x04"/>
+        </option>
+        <option desc="手枪">
+            <parameter cpu="0" address="0x303C80" value="0x06"/>
+        </option>
+        <option desc="机枪">
+            <parameter cpu="0" address="0x303C80" value="0x05"/>
+        </option>
+        <option desc="喷火枪">
+            <parameter cpu="0" address="0x303C80" value="0x02"/>
+        </option>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x303C80" value="0x03"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x303C80" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择交通工具 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无交通工具">
+            <parameter cpu="0" address="0x300077" value="0x00"/>
+        </option>
+        <option desc="直升机">
+            <parameter cpu="0" address="0x300077" value="0x0D"/>
+        </option>
+        <option desc="喷气雪橇">
+            <parameter cpu="0" address="0x300077" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

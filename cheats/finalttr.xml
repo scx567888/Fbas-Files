@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100015" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x101951" value="0x63"/>
+        </option>
+        <option desc="时间为0">
+            <parameter cpu="0" address="0x101951" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x1014F9" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1014F9" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1014F9" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x1014F9" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x1014F9" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x1014F9" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x1014F9" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x1014F9" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x1014F9" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x1014F9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="赢盘总是= 0 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1014FB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="Infinite Energy PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="Infinite Energy PL1 ">
+            <parameter cpu="0" address="0x101510" value="0x39"/>
+        </option>
+        <option desc="Set Energy = 0 now! PL1 ">
+            <parameter cpu="0" address="0x101510" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="Finish this level now! PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1014FB" value="0x01"/>
+            <parameter cpu="0" address="0x101734" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="赢盘总是= 0 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10171F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="Infinite Energy PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="Infinite Energy PL2 ">
+            <parameter cpu="0" address="0x101734" value="0x39"/>
+        </option>
+        <option desc="Set Energy = 0 now! PL2 ">
+            <parameter cpu="0" address="0x101734" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="Finish this level now! PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101510" value="0x00"/>
+            <parameter cpu="0" address="0x10171F" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

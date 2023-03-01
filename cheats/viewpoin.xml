@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108D99" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限血浆炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血浆炸弹 PL1">
+            <parameter cpu="0" address="0x108D8F" value="0x01"/>
+        </option>
+        <option desc="无限火焰炸弹 PL1">
+            <parameter cpu="0" address="0x108D8F" value="0x02"/>
+        </option>
+        <option desc="无限自引导炸弹 PL1">
+            <parameter cpu="0" address="0x108D8F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108D3C" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1090ED" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限血浆炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血浆炸弹 PL2">
+            <parameter cpu="0" address="0x1090E3" value="0x01"/>
+        </option>
+        <option desc="无限火焰炸弹 PL2">
+            <parameter cpu="0" address="0x1090E3" value="0x02"/>
+        </option>
+        <option desc="无限自引导炸弹 PL2">
+            <parameter cpu="0" address="0x1090E3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109090" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

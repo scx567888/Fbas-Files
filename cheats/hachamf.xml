@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFEF01" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF531D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF531B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF5329" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF532F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF532B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有外挂 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF531F" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF671D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF671B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF6729" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF672F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF672B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有外挂 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF671F" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前循环" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xF902F" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xF902F" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xF902F" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xF902F" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xF902F" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xF902F" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xF902F" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xF902F" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xF902F" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xF902F" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xF902F" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xF902F" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xF902F" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xF902F" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xF902F" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xF902F" value="0x0F"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0xF902F" value="0x10"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0xF902F" value="0x11"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0xF902F" value="0x12"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xF902F" value="0x13"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0xF902F" value="0x14"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0xF902F" value="0x15"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0xF902F" value="0x16"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0xF902F" value="0x17"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0xF902F" value="0x18"/>
+        </option>
+        <option desc="26">
+            <parameter cpu="0" address="0xF902F" value="0x19"/>
+        </option>
+        <option desc="27">
+            <parameter cpu="0" address="0xF902F" value="0x1A"/>
+        </option>
+        <option desc="28">
+            <parameter cpu="0" address="0xF902F" value="0x1B"/>
+        </option>
+        <option desc="29">
+            <parameter cpu="0" address="0xF902F" value="0x1C"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0xF902F" value="0x1D"/>
+        </option>
+        <option desc="31">
+            <parameter cpu="0" address="0xF902F" value="0x1E"/>
+        </option>
+        <option desc="32">
+            <parameter cpu="0" address="0xF902F" value="0x1F"/>
+        </option>
+        <option desc="33">
+            <parameter cpu="0" address="0xF902F" value="0x20"/>
+        </option>
+        <option desc="34">
+            <parameter cpu="0" address="0xF902F" value="0x21"/>
+        </option>
+        <option desc="35">
+            <parameter cpu="0" address="0xF902F" value="0x22"/>
+        </option>
+        <option desc="36">
+            <parameter cpu="0" address="0xF902F" value="0x23"/>
+        </option>
+        <option desc="37">
+            <parameter cpu="0" address="0xF902F" value="0x24"/>
+        </option>
+        <option desc="38">
+            <parameter cpu="0" address="0xF902F" value="0x25"/>
+        </option>
+        <option desc="39">
+            <parameter cpu="0" address="0xF902F" value="0x26"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0xF902F" value="0x27"/>
+        </option>
+        <option desc="41">
+            <parameter cpu="0" address="0xF902F" value="0x28"/>
+        </option>
+        <option desc="42">
+            <parameter cpu="0" address="0xF902F" value="0x29"/>
+        </option>
+        <option desc="43">
+            <parameter cpu="0" address="0xF902F" value="0x2A"/>
+        </option>
+        <option desc="44">
+            <parameter cpu="0" address="0xF902F" value="0x2B"/>
+        </option>
+        <option desc="45">
+            <parameter cpu="0" address="0xF902F" value="0x2C"/>
+        </option>
+        <option desc="46">
+            <parameter cpu="0" address="0xF902F" value="0x2D"/>
+        </option>
+        <option desc="47">
+            <parameter cpu="0" address="0xF902F" value="0x2E"/>
+        </option>
+        <option desc="48">
+            <parameter cpu="0" address="0xF902F" value="0x2F"/>
+        </option>
+        <option desc="49">
+            <parameter cpu="0" address="0xF902F" value="0x30"/>
+        </option>
+        <option desc="50">
+            <parameter cpu="0" address="0xF902F" value="0x31"/>
+        </option>
+        <option desc="51">
+            <parameter cpu="0" address="0xF902F" value="0x32"/>
+        </option>
+        <option desc="52">
+            <parameter cpu="0" address="0xF902F" value="0x33"/>
+        </option>
+        <option desc="53">
+            <parameter cpu="0" address="0xF902F" value="0x34"/>
+        </option>
+        <option desc="54">
+            <parameter cpu="0" address="0xF902F" value="0x35"/>
+        </option>
+        <option desc="55">
+            <parameter cpu="0" address="0xF902F" value="0x36"/>
+        </option>
+        <option desc="56">
+            <parameter cpu="0" address="0xF902F" value="0x37"/>
+        </option>
+        <option desc="57">
+            <parameter cpu="0" address="0xF902F" value="0x38"/>
+        </option>
+        <option desc="58">
+            <parameter cpu="0" address="0xF902F" value="0x39"/>
+        </option>
+        <option desc="59">
+            <parameter cpu="0" address="0xF902F" value="0x3A"/>
+        </option>
+        <option desc="60">
+            <parameter cpu="0" address="0xF902F" value="0x3B"/>
+        </option>
+        <option desc="61">
+            <parameter cpu="0" address="0xF902F" value="0x3C"/>
+        </option>
+        <option desc="62">
+            <parameter cpu="0" address="0xF902F" value="0x3D"/>
+        </option>
+        <option desc="63">
+            <parameter cpu="0" address="0xF902F" value="0x3E"/>
+        </option>
+        <option desc="64">
+            <parameter cpu="0" address="0xF902F" value="0x3F"/>
+        </option>
+        <option desc="65">
+            <parameter cpu="0" address="0xF902F" value="0x40"/>
+        </option>
+        <option desc="66">
+            <parameter cpu="0" address="0xF902F" value="0x41"/>
+        </option>
+        <option desc="67">
+            <parameter cpu="0" address="0xF902F" value="0x42"/>
+        </option>
+        <option desc="68">
+            <parameter cpu="0" address="0xF902F" value="0x43"/>
+        </option>
+        <option desc="69">
+            <parameter cpu="0" address="0xF902F" value="0x44"/>
+        </option>
+        <option desc="70">
+            <parameter cpu="0" address="0xF902F" value="0x45"/>
+        </option>
+        <option desc="71">
+            <parameter cpu="0" address="0xF902F" value="0x46"/>
+        </option>
+        <option desc="72">
+            <parameter cpu="0" address="0xF902F" value="0x47"/>
+        </option>
+        <option desc="73">
+            <parameter cpu="0" address="0xF902F" value="0x48"/>
+        </option>
+        <option desc="74">
+            <parameter cpu="0" address="0xF902F" value="0x49"/>
+        </option>
+        <option desc="75">
+            <parameter cpu="0" address="0xF902F" value="0x4A"/>
+        </option>
+        <option desc="76">
+            <parameter cpu="0" address="0xF902F" value="0x4B"/>
+        </option>
+        <option desc="77">
+            <parameter cpu="0" address="0xF902F" value="0x4C"/>
+        </option>
+        <option desc="78">
+            <parameter cpu="0" address="0xF902F" value="0x4D"/>
+        </option>
+        <option desc="79">
+            <parameter cpu="0" address="0xF902F" value="0x4E"/>
+        </option>
+        <option desc="80">
+            <parameter cpu="0" address="0xF902F" value="0x4F"/>
+        </option>
+        <option desc="81">
+            <parameter cpu="0" address="0xF902F" value="0x50"/>
+        </option>
+        <option desc="82">
+            <parameter cpu="0" address="0xF902F" value="0x51"/>
+        </option>
+        <option desc="83">
+            <parameter cpu="0" address="0xF902F" value="0x52"/>
+        </option>
+        <option desc="84">
+            <parameter cpu="0" address="0xF902F" value="0x53"/>
+        </option>
+        <option desc="85">
+            <parameter cpu="0" address="0xF902F" value="0x54"/>
+        </option>
+        <option desc="86">
+            <parameter cpu="0" address="0xF902F" value="0x55"/>
+        </option>
+        <option desc="87">
+            <parameter cpu="0" address="0xF902F" value="0x56"/>
+        </option>
+        <option desc="88">
+            <parameter cpu="0" address="0xF902F" value="0x57"/>
+        </option>
+        <option desc="89">
+            <parameter cpu="0" address="0xF902F" value="0x58"/>
+        </option>
+        <option desc="90">
+            <parameter cpu="0" address="0xF902F" value="0x59"/>
+        </option>
+        <option desc="91">
+            <parameter cpu="0" address="0xF902F" value="0x5A"/>
+        </option>
+        <option desc="92">
+            <parameter cpu="0" address="0xF902F" value="0x5B"/>
+        </option>
+        <option desc="93">
+            <parameter cpu="0" address="0xF902F" value="0x5C"/>
+        </option>
+        <option desc="94">
+            <parameter cpu="0" address="0xF902F" value="0x5D"/>
+        </option>
+        <option desc="95">
+            <parameter cpu="0" address="0xF902F" value="0x5E"/>
+        </option>
+        <option desc="96">
+            <parameter cpu="0" address="0xF902F" value="0x5F"/>
+        </option>
+        <option desc="97">
+            <parameter cpu="0" address="0xF902F" value="0x60"/>
+        </option>
+        <option desc="98">
+            <parameter cpu="0" address="0xF902F" value="0x61"/>
+        </option>
+        <option desc="99">
+            <parameter cpu="0" address="0xF902F" value="0x62"/>
+        </option>
+        <option desc="100">
+            <parameter cpu="0" address="0xF902F" value="0x63"/>
+        </option>
+        <option desc="101">
+            <parameter cpu="0" address="0xF902F" value="0x64"/>
+        </option>
+        <option desc="102">
+            <parameter cpu="0" address="0xF902F" value="0x65"/>
+        </option>
+        <option desc="103">
+            <parameter cpu="0" address="0xF902F" value="0x66"/>
+        </option>
+        <option desc="104">
+            <parameter cpu="0" address="0xF902F" value="0x67"/>
+        </option>
+        <option desc="105">
+            <parameter cpu="0" address="0xF902F" value="0x68"/>
+        </option>
+        <option desc="106">
+            <parameter cpu="0" address="0xF902F" value="0x69"/>
+        </option>
+        <option desc="107">
+            <parameter cpu="0" address="0xF902F" value="0x6A"/>
+        </option>
+        <option desc="108">
+            <parameter cpu="0" address="0xF902F" value="0x6B"/>
+        </option>
+        <option desc="109">
+            <parameter cpu="0" address="0xF902F" value="0x6C"/>
+        </option>
+        <option desc="110">
+            <parameter cpu="0" address="0xF902F" value="0x6D"/>
+        </option>
+        <option desc="111">
+            <parameter cpu="0" address="0xF902F" value="0x6E"/>
+        </option>
+        <option desc="112">
+            <parameter cpu="0" address="0xF902F" value="0x6F"/>
+        </option>
+        <option desc="113">
+            <parameter cpu="0" address="0xF902F" value="0x70"/>
+        </option>
+        <option desc="114">
+            <parameter cpu="0" address="0xF902F" value="0x71"/>
+        </option>
+        <option desc="115">
+            <parameter cpu="0" address="0xF902F" value="0x72"/>
+        </option>
+        <option desc="116">
+            <parameter cpu="0" address="0xF902F" value="0x73"/>
+        </option>
+        <option desc="117">
+            <parameter cpu="0" address="0xF902F" value="0x74"/>
+        </option>
+        <option desc="118">
+            <parameter cpu="0" address="0xF902F" value="0x75"/>
+        </option>
+        <option desc="119">
+            <parameter cpu="0" address="0xF902F" value="0x76"/>
+        </option>
+        <option desc="120">
+            <parameter cpu="0" address="0xF902F" value="0x77"/>
+        </option>
+        <option desc="121">
+            <parameter cpu="0" address="0xF902F" value="0x78"/>
+        </option>
+        <option desc="122">
+            <parameter cpu="0" address="0xF902F" value="0x79"/>
+        </option>
+        <option desc="123">
+            <parameter cpu="0" address="0xF902F" value="0x7A"/>
+        </option>
+        <option desc="124">
+            <parameter cpu="0" address="0xF902F" value="0x7B"/>
+        </option>
+        <option desc="125">
+            <parameter cpu="0" address="0xF902F" value="0x7C"/>
+        </option>
+        <option desc="126">
+            <parameter cpu="0" address="0xF902F" value="0x7D"/>
+        </option>
+        <option desc="127">
+            <parameter cpu="0" address="0xF902F" value="0x7E"/>
+        </option>
+        <option desc="128">
+            <parameter cpu="0" address="0xF902F" value="0x7F"/>
+        </option>
+        <option desc="129">
+            <parameter cpu="0" address="0xF902F" value="0x80"/>
+        </option>
+        <option desc="130">
+            <parameter cpu="0" address="0xF902F" value="0x81"/>
+        </option>
+        <option desc="131">
+            <parameter cpu="0" address="0xF902F" value="0x82"/>
+        </option>
+        <option desc="132">
+            <parameter cpu="0" address="0xF902F" value="0x83"/>
+        </option>
+        <option desc="133">
+            <parameter cpu="0" address="0xF902F" value="0x84"/>
+        </option>
+        <option desc="134">
+            <parameter cpu="0" address="0xF902F" value="0x85"/>
+        </option>
+        <option desc="135">
+            <parameter cpu="0" address="0xF902F" value="0x86"/>
+        </option>
+        <option desc="136">
+            <parameter cpu="0" address="0xF902F" value="0x87"/>
+        </option>
+        <option desc="137">
+            <parameter cpu="0" address="0xF902F" value="0x88"/>
+        </option>
+        <option desc="138">
+            <parameter cpu="0" address="0xF902F" value="0x89"/>
+        </option>
+        <option desc="139">
+            <parameter cpu="0" address="0xF902F" value="0x8A"/>
+        </option>
+        <option desc="140">
+            <parameter cpu="0" address="0xF902F" value="0x8B"/>
+        </option>
+        <option desc="141">
+            <parameter cpu="0" address="0xF902F" value="0x8C"/>
+        </option>
+        <option desc="142">
+            <parameter cpu="0" address="0xF902F" value="0x8D"/>
+        </option>
+        <option desc="143">
+            <parameter cpu="0" address="0xF902F" value="0x8E"/>
+        </option>
+        <option desc="144">
+            <parameter cpu="0" address="0xF902F" value="0x8F"/>
+        </option>
+        <option desc="145">
+            <parameter cpu="0" address="0xF902F" value="0x90"/>
+        </option>
+        <option desc="146">
+            <parameter cpu="0" address="0xF902F" value="0x91"/>
+        </option>
+        <option desc="147">
+            <parameter cpu="0" address="0xF902F" value="0x92"/>
+        </option>
+        <option desc="148">
+            <parameter cpu="0" address="0xF902F" value="0x93"/>
+        </option>
+        <option desc="149">
+            <parameter cpu="0" address="0xF902F" value="0x94"/>
+        </option>
+        <option desc="150">
+            <parameter cpu="0" address="0xF902F" value="0x95"/>
+        </option>
+        <option desc="151">
+            <parameter cpu="0" address="0xF902F" value="0x96"/>
+        </option>
+        <option desc="152">
+            <parameter cpu="0" address="0xF902F" value="0x97"/>
+        </option>
+        <option desc="153">
+            <parameter cpu="0" address="0xF902F" value="0x98"/>
+        </option>
+        <option desc="154">
+            <parameter cpu="0" address="0xF902F" value="0x99"/>
+        </option>
+        <option desc="155">
+            <parameter cpu="0" address="0xF902F" value="0x9A"/>
+        </option>
+        <option desc="156">
+            <parameter cpu="0" address="0xF902F" value="0x9B"/>
+        </option>
+        <option desc="157">
+            <parameter cpu="0" address="0xF902F" value="0x9C"/>
+        </option>
+        <option desc="158">
+            <parameter cpu="0" address="0xF902F" value="0x9D"/>
+        </option>
+        <option desc="159">
+            <parameter cpu="0" address="0xF902F" value="0x9E"/>
+        </option>
+        <option desc="160">
+            <parameter cpu="0" address="0xF902F" value="0x9F"/>
+        </option>
+        <option desc="161">
+            <parameter cpu="0" address="0xF902F" value="0xA0"/>
+        </option>
+        <option desc="162">
+            <parameter cpu="0" address="0xF902F" value="0xA1"/>
+        </option>
+        <option desc="163">
+            <parameter cpu="0" address="0xF902F" value="0xA2"/>
+        </option>
+        <option desc="164">
+            <parameter cpu="0" address="0xF902F" value="0xA3"/>
+        </option>
+        <option desc="165">
+            <parameter cpu="0" address="0xF902F" value="0xA4"/>
+        </option>
+        <option desc="166">
+            <parameter cpu="0" address="0xF902F" value="0xA5"/>
+        </option>
+        <option desc="167">
+            <parameter cpu="0" address="0xF902F" value="0xA6"/>
+        </option>
+        <option desc="168">
+            <parameter cpu="0" address="0xF902F" value="0xA7"/>
+        </option>
+        <option desc="169">
+            <parameter cpu="0" address="0xF902F" value="0xA8"/>
+        </option>
+        <option desc="170">
+            <parameter cpu="0" address="0xF902F" value="0xA9"/>
+        </option>
+        <option desc="171">
+            <parameter cpu="0" address="0xF902F" value="0xAA"/>
+        </option>
+        <option desc="172">
+            <parameter cpu="0" address="0xF902F" value="0xAB"/>
+        </option>
+        <option desc="173">
+            <parameter cpu="0" address="0xF902F" value="0xAC"/>
+        </option>
+        <option desc="174">
+            <parameter cpu="0" address="0xF902F" value="0xAD"/>
+        </option>
+        <option desc="175">
+            <parameter cpu="0" address="0xF902F" value="0xAE"/>
+        </option>
+        <option desc="176">
+            <parameter cpu="0" address="0xF902F" value="0xAF"/>
+        </option>
+        <option desc="177">
+            <parameter cpu="0" address="0xF902F" value="0xB0"/>
+        </option>
+        <option desc="178">
+            <parameter cpu="0" address="0xF902F" value="0xB1"/>
+        </option>
+        <option desc="179">
+            <parameter cpu="0" address="0xF902F" value="0xB2"/>
+        </option>
+        <option desc="180">
+            <parameter cpu="0" address="0xF902F" value="0xB3"/>
+        </option>
+        <option desc="181">
+            <parameter cpu="0" address="0xF902F" value="0xB4"/>
+        </option>
+        <option desc="182">
+            <parameter cpu="0" address="0xF902F" value="0xB5"/>
+        </option>
+        <option desc="183">
+            <parameter cpu="0" address="0xF902F" value="0xB6"/>
+        </option>
+        <option desc="184">
+            <parameter cpu="0" address="0xF902F" value="0xB7"/>
+        </option>
+        <option desc="185">
+            <parameter cpu="0" address="0xF902F" value="0xB8"/>
+        </option>
+        <option desc="186">
+            <parameter cpu="0" address="0xF902F" value="0xB9"/>
+        </option>
+        <option desc="187">
+            <parameter cpu="0" address="0xF902F" value="0xBA"/>
+        </option>
+        <option desc="188">
+            <parameter cpu="0" address="0xF902F" value="0xBB"/>
+        </option>
+        <option desc="189">
+            <parameter cpu="0" address="0xF902F" value="0xBC"/>
+        </option>
+        <option desc="190">
+            <parameter cpu="0" address="0xF902F" value="0xBD"/>
+        </option>
+        <option desc="191">
+            <parameter cpu="0" address="0xF902F" value="0xBE"/>
+        </option>
+        <option desc="192">
+            <parameter cpu="0" address="0xF902F" value="0xBF"/>
+        </option>
+        <option desc="193">
+            <parameter cpu="0" address="0xF902F" value="0xC0"/>
+        </option>
+        <option desc="194">
+            <parameter cpu="0" address="0xF902F" value="0xC1"/>
+        </option>
+        <option desc="195">
+            <parameter cpu="0" address="0xF902F" value="0xC2"/>
+        </option>
+        <option desc="196">
+            <parameter cpu="0" address="0xF902F" value="0xC3"/>
+        </option>
+        <option desc="197">
+            <parameter cpu="0" address="0xF902F" value="0xC4"/>
+        </option>
+        <option desc="198">
+            <parameter cpu="0" address="0xF902F" value="0xC5"/>
+        </option>
+        <option desc="199">
+            <parameter cpu="0" address="0xF902F" value="0xC6"/>
+        </option>
+        <option desc="200">
+            <parameter cpu="0" address="0xF902F" value="0xC7"/>
+        </option>
+        <option desc="201">
+            <parameter cpu="0" address="0xF902F" value="0xC8"/>
+        </option>
+        <option desc="202">
+            <parameter cpu="0" address="0xF902F" value="0xC9"/>
+        </option>
+        <option desc="203">
+            <parameter cpu="0" address="0xF902F" value="0xCA"/>
+        </option>
+        <option desc="204">
+            <parameter cpu="0" address="0xF902F" value="0xCB"/>
+        </option>
+        <option desc="205">
+            <parameter cpu="0" address="0xF902F" value="0xCC"/>
+        </option>
+        <option desc="206">
+            <parameter cpu="0" address="0xF902F" value="0xCD"/>
+        </option>
+        <option desc="207">
+            <parameter cpu="0" address="0xF902F" value="0xCE"/>
+        </option>
+        <option desc="208">
+            <parameter cpu="0" address="0xF902F" value="0xCF"/>
+        </option>
+        <option desc="209">
+            <parameter cpu="0" address="0xF902F" value="0xD0"/>
+        </option>
+        <option desc="210">
+            <parameter cpu="0" address="0xF902F" value="0xD1"/>
+        </option>
+        <option desc="211">
+            <parameter cpu="0" address="0xF902F" value="0xD2"/>
+        </option>
+        <option desc="212">
+            <parameter cpu="0" address="0xF902F" value="0xD3"/>
+        </option>
+        <option desc="213">
+            <parameter cpu="0" address="0xF902F" value="0xD4"/>
+        </option>
+        <option desc="214">
+            <parameter cpu="0" address="0xF902F" value="0xD5"/>
+        </option>
+        <option desc="215">
+            <parameter cpu="0" address="0xF902F" value="0xD6"/>
+        </option>
+        <option desc="216">
+            <parameter cpu="0" address="0xF902F" value="0xD7"/>
+        </option>
+        <option desc="217">
+            <parameter cpu="0" address="0xF902F" value="0xD8"/>
+        </option>
+        <option desc="218">
+            <parameter cpu="0" address="0xF902F" value="0xD9"/>
+        </option>
+        <option desc="219">
+            <parameter cpu="0" address="0xF902F" value="0xDA"/>
+        </option>
+        <option desc="220">
+            <parameter cpu="0" address="0xF902F" value="0xDB"/>
+        </option>
+        <option desc="221">
+            <parameter cpu="0" address="0xF902F" value="0xDC"/>
+        </option>
+        <option desc="222">
+            <parameter cpu="0" address="0xF902F" value="0xDD"/>
+        </option>
+        <option desc="223">
+            <parameter cpu="0" address="0xF902F" value="0xDE"/>
+        </option>
+        <option desc="224">
+            <parameter cpu="0" address="0xF902F" value="0xDF"/>
+        </option>
+        <option desc="225">
+            <parameter cpu="0" address="0xF902F" value="0xE0"/>
+        </option>
+        <option desc="226">
+            <parameter cpu="0" address="0xF902F" value="0xE1"/>
+        </option>
+        <option desc="227">
+            <parameter cpu="0" address="0xF902F" value="0xE2"/>
+        </option>
+        <option desc="228">
+            <parameter cpu="0" address="0xF902F" value="0xE3"/>
+        </option>
+        <option desc="229">
+            <parameter cpu="0" address="0xF902F" value="0xE4"/>
+        </option>
+        <option desc="230">
+            <parameter cpu="0" address="0xF902F" value="0xE5"/>
+        </option>
+        <option desc="231">
+            <parameter cpu="0" address="0xF902F" value="0xE6"/>
+        </option>
+        <option desc="232">
+            <parameter cpu="0" address="0xF902F" value="0xE7"/>
+        </option>
+        <option desc="233">
+            <parameter cpu="0" address="0xF902F" value="0xE8"/>
+        </option>
+        <option desc="234">
+            <parameter cpu="0" address="0xF902F" value="0xE9"/>
+        </option>
+        <option desc="235">
+            <parameter cpu="0" address="0xF902F" value="0xEA"/>
+        </option>
+        <option desc="236">
+            <parameter cpu="0" address="0xF902F" value="0xEB"/>
+        </option>
+        <option desc="237">
+            <parameter cpu="0" address="0xF902F" value="0xEC"/>
+        </option>
+        <option desc="238">
+            <parameter cpu="0" address="0xF902F" value="0xED"/>
+        </option>
+        <option desc="239">
+            <parameter cpu="0" address="0xF902F" value="0xEE"/>
+        </option>
+        <option desc="240">
+            <parameter cpu="0" address="0xF902F" value="0xEF"/>
+        </option>
+        <option desc="241">
+            <parameter cpu="0" address="0xF902F" value="0xF0"/>
+        </option>
+        <option desc="242">
+            <parameter cpu="0" address="0xF902F" value="0xF1"/>
+        </option>
+        <option desc="243">
+            <parameter cpu="0" address="0xF902F" value="0xF2"/>
+        </option>
+        <option desc="244">
+            <parameter cpu="0" address="0xF902F" value="0xF3"/>
+        </option>
+        <option desc="245">
+            <parameter cpu="0" address="0xF902F" value="0xF4"/>
+        </option>
+        <option desc="246">
+            <parameter cpu="0" address="0xF902F" value="0xF5"/>
+        </option>
+        <option desc="247">
+            <parameter cpu="0" address="0xF902F" value="0xF6"/>
+        </option>
+        <option desc="248">
+            <parameter cpu="0" address="0xF902F" value="0xF7"/>
+        </option>
+        <option desc="249">
+            <parameter cpu="0" address="0xF902F" value="0xF8"/>
+        </option>
+        <option desc="250">
+            <parameter cpu="0" address="0xF902F" value="0xF9"/>
+        </option>
+        <option desc="251">
+            <parameter cpu="0" address="0xF902F" value="0xFA"/>
+        </option>
+        <option desc="252">
+            <parameter cpu="0" address="0xF902F" value="0xFB"/>
+        </option>
+        <option desc="253">
+            <parameter cpu="0" address="0xF902F" value="0xFC"/>
+        </option>
+        <option desc="254">
+            <parameter cpu="0" address="0xF902F" value="0xFD"/>
+        </option>
+        <option desc="255">
+            <parameter cpu="0" address="0xF902F" value="0xFE"/>
+        </option>
+    </cheat>
+</shufflecheat>
