@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
     <cheat desc="无限投币数" default="0">
         <option desc="关闭"/>
@@ -13,6 +13,7 @@
             <parameter cpu="0" address="0xC0EB" value="0x9A"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -37,6 +38,7 @@
             <parameter cpu="0" address="0xC0C1" value="0x03"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">

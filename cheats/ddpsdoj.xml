@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1E112F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="当前关卡蜜蜂全取得" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9CF7" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="所有关卡蜜蜂全取得" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9D23" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="不被击中 (进游戏前开启、不影响阴阳蜂)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1E9342" value="0xA0"/>
+            <parameter cpu="0" address="0xC1E9ACF" value="0xFF"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0xC1E9342" value="0x8F"/>
+            <parameter cpu="0" address="0xC1E9ACF" value="0x8B"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL1 (阴蜂阳蜂也无敌)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9B33" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9973" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9976" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="使用HYPER时秒杀敌人 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9C57" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限HYPER PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9C5A" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="等级50 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9C63" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="连击槽不减 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9B77" value="0x50"/>
+            <parameter cpu="0" address="0xC5F9B7B" value="0x50"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL2 (阴蜂阳蜂也无敌)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9EFB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9D3B" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9D3E" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="使用HYPER时秒杀敌人 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5FA01F" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限HYPER PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5FA022" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="等级50 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5FA02B" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="连击槽不减 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC5F9F3F" value="0x50"/>
+            <parameter cpu="0" address="0xC5F9F43" value="0x50"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,70 +1,70 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<shufflecheat>
-    <cheat desc="选关" default="0">
-        <option desc="关闭"/>
-        <option desc="关卡1">
-            <parameter cpu="0" address="0x402823" value="0x00"/>
-            <parameter cpu="0" address="0x402ACB" value="0x00"/>
-        </option>
-        <option desc="关卡2">
-            <parameter cpu="0" address="0x402823" value="0x01"/>
-            <parameter cpu="0" address="0x402ACB" value="0x01"/>
-        </option>
-        <option desc="关卡3">
-            <parameter cpu="0" address="0x402823" value="0x03"/>
-            <parameter cpu="0" address="0x402ACB" value="0x02"/>
-        </option>
-        <option desc="关卡4">
-            <parameter cpu="0" address="0x402823" value="0x02"/>
-            <parameter cpu="0" address="0x402ACB" value="0x03"/>
-        </option>
-        <option desc="关卡5">
-            <parameter cpu="0" address="0x402823" value="0x04"/>
-            <parameter cpu="0" address="0x402ACB" value="0x04"/>
-        </option>
-        <option desc="关卡6">
-            <parameter cpu="0" address="0x402823" value="0x05"/>
-            <parameter cpu="0" address="0x402ACB" value="0x05"/>
-        </option>
-        <option desc="关卡7">
-            <parameter cpu="0" address="0x402823" value="0x06"/>
-            <parameter cpu="0" address="0x402ACB" value="0x06"/>
-        </option>
-        <option desc="关卡8">
-            <parameter cpu="0" address="0x402823" value="0x07"/>
-            <parameter cpu="0" address="0x402ACB" value="0x07"/>
-        </option>
-    </cheat>
-    <cheat desc="选小关场景" default="0">
-        <option desc="关闭"/>
-        <option desc="场景1">
-            <parameter cpu="0" address="0x80CE20" value="0x00"/>
-        </option>
-        <option desc="场景2">
-            <parameter cpu="0" address="0x80CE20" value="0x01"/>
-        </option>
-        <option desc="场景3">
-            <parameter cpu="0" address="0x80CE20" value="0x02"/>
-        </option>
-        <option desc="场景4">
-            <parameter cpu="0" address="0x80CE20" value="0x03"/>
-        </option>
-        <option desc="场景5">
-            <parameter cpu="0" address="0x80CE20" value="0x04"/>
-        </option>
-        <option desc="场景6">
-            <parameter cpu="0" address="0x80CE20" value="0x05"/>
-        </option>
-        <option desc="场景7">
-            <parameter cpu="0" address="0x80CE20" value="0x06"/>
-        </option>
-        <option desc="场景8">
-            <parameter cpu="0" address="0x80CE20" value="0x07"/>
-        </option>
-        <option desc="场景9">
-            <parameter cpu="0" address="0x80CE20" value="0x08"/>
-        </option>
-    </cheat>
+<shufflecheat>	
+	<cheat desc="选关" default="0">
+		<option desc="关闭"/>
+		<option desc="关卡1">
+                        <parameter cpu="0" address="0x402823" value="0x00"/>
+			<parameter cpu="0" address="0x402ACB" value="0x00"/>
+		</option>
+		<option desc="关卡2">
+                        <parameter cpu="0" address="0x402823" value="0x01"/>
+			<parameter cpu="0" address="0x402ACB" value="0x01"/>
+		</option>
+		<option desc="关卡3">
+                        <parameter cpu="0" address="0x402823" value="0x03"/>
+			<parameter cpu="0" address="0x402ACB" value="0x02"/>
+		</option>
+                <option desc="关卡4">
+                        <parameter cpu="0" address="0x402823" value="0x02"/>
+			<parameter cpu="0" address="0x402ACB" value="0x03"/>
+		</option>
+		<option desc="关卡5">
+                        <parameter cpu="0" address="0x402823" value="0x04"/>
+			<parameter cpu="0" address="0x402ACB" value="0x04"/>
+		</option>
+		<option desc="关卡6">
+                        <parameter cpu="0" address="0x402823" value="0x05"/>
+			<parameter cpu="0" address="0x402ACB" value="0x05"/>
+		</option>
+		<option desc="关卡7">
+                        <parameter cpu="0" address="0x402823" value="0x06"/>
+			<parameter cpu="0" address="0x402ACB" value="0x06"/>
+		</option>
+		<option desc="关卡8">  
+                        <parameter cpu="0" address="0x402823" value="0x07"/>
+			<parameter cpu="0" address="0x402ACB" value="0x07"/>
+		</option>
+	</cheat>
+	<cheat desc="选小关场景" default="0">
+		<option desc="关闭"/>		
+		<option desc="场景1">
+			<parameter cpu="0" address="0x80CE20" value="0x00"/>
+		</option>
+		<option desc="场景2">
+			<parameter cpu="0" address="0x80CE20" value="0x01"/>
+		</option>
+		<option desc="场景3">
+			<parameter cpu="0" address="0x80CE20" value="0x02"/>
+		</option>
+		<option desc="场景4">
+			<parameter cpu="0" address="0x80CE20" value="0x03"/>
+		</option>
+		<option desc="场景5">
+			<parameter cpu="0" address="0x80CE20" value="0x04"/>
+		</option>
+		<option desc="场景6">
+			<parameter cpu="0" address="0x80CE20" value="0x05"/>
+		</option>
+		<option desc="场景7">
+			<parameter cpu="0" address="0x80CE20" value="0x06"/>
+		</option>
+		<option desc="场景8">
+			<parameter cpu="0" address="0x80CE20" value="0x07"/>
+		</option>
+		<option desc="场景9">
+			<parameter cpu="0" address="0x80CE20" value="0x08"/>
+		</option>
+	</cheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -78,7 +78,16 @@
             <parameter cpu="0" address="0x8178C5" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+    <cheat desc="秒蓄气及气不减" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x11FBFA" value="0x00"/>
+            <parameter cpu="0" address="0x125761" value="0x60"/>
+            <parameter cpu="0" address="0x129FA4" value="0x60"/>
+            <parameter cpu="0" address="0x12565C" value="0x60"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限血量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -87,10 +96,10 @@
         </option>
     </cheat>
     <cheat desc="能量满级 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x816AB4" value="0x03"/>
-        </option>
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x816AB4" value="0x03"/>
+                </option>
     </cheat>
     <cheat desc="拥有8种道具 PL1" default="0">
         <option desc="关闭"/>
@@ -98,19 +107,19 @@
             <parameter cpu="0" address="0x81219A" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x812189" value="0x05"/>
-            <parameter cpu="0" address="0x81218B" value="0x03"/>
-            <parameter cpu="0" address="0x81218D" value="0x03"/>
-            <parameter cpu="0" address="0x81218F" value="0x03"/>
-            <parameter cpu="0" address="0x812191" value="0x03"/>
-            <parameter cpu="0" address="0x812193" value="0x03"/>
-            <parameter cpu="0" address="0x812195" value="0x03"/>
-            <parameter cpu="0" address="0x812197" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x812189" value="0x05"/>
+			<parameter cpu="0" address="0x81218B" value="0x03"/>
+			<parameter cpu="0" address="0x81218D" value="0x03"/>
+			<parameter cpu="0" address="0x81218F" value="0x03"/>
+			<parameter cpu="0" address="0x812191" value="0x03"/>
+			<parameter cpu="0" address="0x812193" value="0x03"/>
+			<parameter cpu="0" address="0x812195" value="0x03"/>
+			<parameter cpu="0" address="0x812197" value="0x03"/>
+		</option>
+	</cheat>
     <cheat desc="选择第1个道具 PL1" default="0">
         <option desc="关闭"/>
         <option desc="刀(金)">
@@ -855,7 +864,7 @@
             <parameter cpu="0" address="0x812196" value="0x1F"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限血量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -864,10 +873,10 @@
         </option>
     </cheat>
     <cheat desc="能量满级 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x816AB5" value="0x03"/>
-        </option>
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x816AB5" value="0x03"/>
+                </option>
     </cheat>
     <cheat desc="拥有8种道具 PL2" default="0">
         <option desc="关闭"/>
@@ -875,19 +884,19 @@
             <parameter cpu="0" address="0x812218" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x812207" value="0x05"/>
-            <parameter cpu="0" address="0x812209" value="0x03"/>
-            <parameter cpu="0" address="0x81220B" value="0x03"/>
-            <parameter cpu="0" address="0x81220D" value="0x03"/>
-            <parameter cpu="0" address="0x81220F" value="0x03"/>
-            <parameter cpu="0" address="0x812301" value="0x03"/>
-            <parameter cpu="0" address="0x812303" value="0x03"/>
-            <parameter cpu="0" address="0x812305" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x812207" value="0x05"/>
+			<parameter cpu="0" address="0x812209" value="0x03"/>
+			<parameter cpu="0" address="0x81220B" value="0x03"/>
+			<parameter cpu="0" address="0x81220D" value="0x03"/>
+			<parameter cpu="0" address="0x81220F" value="0x03"/>
+			<parameter cpu="0" address="0x812301" value="0x03"/>
+			<parameter cpu="0" address="0x812303" value="0x03"/>
+			<parameter cpu="0" address="0x812305" value="0x03"/>
+		</option>
+	</cheat>
     <cheat desc="选择第1个道具 PL2" default="0">
         <option desc="关闭"/>
         <option desc="刀(金)">
@@ -981,7 +990,7 @@
             <parameter cpu="0" address="0x812206" value="0x1F"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限血量 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -990,10 +999,10 @@
         </option>
     </cheat>
     <cheat desc="能量满级 PL3" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x816AB6" value="0x03"/>
-        </option>
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x816AB6" value="0x03"/>
+                </option>
     </cheat>
     <cheat desc="拥有8种道具 PL3" default="0">
         <option desc="关闭"/>
@@ -1001,19 +1010,19 @@
             <parameter cpu="0" address="0x812296" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL3" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x812285" value="0x05"/>
-            <parameter cpu="0" address="0x812287" value="0x03"/>
-            <parameter cpu="0" address="0x812289" value="0x03"/>
-            <parameter cpu="0" address="0x81228B" value="0x03"/>
-            <parameter cpu="0" address="0x81228D" value="0x03"/>
-            <parameter cpu="0" address="0x81228F" value="0x03"/>
-            <parameter cpu="0" address="0x812291" value="0x03"/>
-            <parameter cpu="0" address="0x812293" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x812285" value="0x05"/>
+			<parameter cpu="0" address="0x812287" value="0x03"/>
+			<parameter cpu="0" address="0x812289" value="0x03"/>
+			<parameter cpu="0" address="0x81228B" value="0x03"/>
+			<parameter cpu="0" address="0x81228D" value="0x03"/>
+			<parameter cpu="0" address="0x81228F" value="0x03"/>
+			<parameter cpu="0" address="0x812291" value="0x03"/>
+			<parameter cpu="0" address="0x812293" value="0x03"/>
+		</option>
+	</cheat>
 
     <cheat desc="选择第1个道具 PL3" default="0">
         <option desc="关闭"/>
@@ -1108,7 +1117,7 @@
             <parameter cpu="0" address="0x812284" value="0x1F"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限血量 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -1117,10 +1126,10 @@
         </option>
     </cheat>
     <cheat desc="能量满级 PL4" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x816AB7" value="0x03"/>
-        </option>
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x816AB7" value="0x03"/>
+                </option>
     </cheat>
     <cheat desc="拥有8种道具 PL4" default="0">
         <option desc="关闭"/>
@@ -1128,19 +1137,19 @@
             <parameter cpu="0" address="0x812314" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL4" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x812303" value="0x05"/>
-            <parameter cpu="0" address="0x812305" value="0x03"/>
-            <parameter cpu="0" address="0x812307" value="0x03"/>
-            <parameter cpu="0" address="0x812309" value="0x03"/>
-            <parameter cpu="0" address="0x81230B" value="0x03"/>
-            <parameter cpu="0" address="0x81230D" value="0x03"/>
-            <parameter cpu="0" address="0x81230F" value="0x03"/>
-            <parameter cpu="0" address="0x812311" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x812303" value="0x05"/>
+			<parameter cpu="0" address="0x812305" value="0x03"/>
+			<parameter cpu="0" address="0x812307" value="0x03"/>
+			<parameter cpu="0" address="0x812309" value="0x03"/>
+			<parameter cpu="0" address="0x81230B" value="0x03"/>
+			<parameter cpu="0" address="0x81230D" value="0x03"/>
+			<parameter cpu="0" address="0x81230F" value="0x03"/>
+			<parameter cpu="0" address="0x812311" value="0x03"/>
+		</option>
+	</cheat>
     <cheat desc="选择第1个道具 PL4" default="0">
         <option desc="关闭"/>
         <option desc="刀(金)">

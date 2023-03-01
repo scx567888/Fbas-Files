@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
@@ -13,6 +13,7 @@
             <parameter cpu="0" address="0xFFA00E" value="0x00"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -28,6 +29,7 @@
             <parameter cpu="0" address="0xFF9133" value="0x04"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -43,6 +45,7 @@
             <parameter cpu="0" address="0xFF9333" value="0x04"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL3" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL3">
@@ -58,6 +61,7 @@
             <parameter cpu="0" address="0xFF9533" value="0x04"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL4" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL4">
@@ -73,6 +77,7 @@
             <parameter cpu="0" address="0xFF9733" value="0x04"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="地域 - 日本" default="0">
         <option desc="关闭"/>
         <option desc="地域 - 日本">

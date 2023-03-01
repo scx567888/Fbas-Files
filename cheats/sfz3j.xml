@@ -10,96 +10,96 @@
         </option>
     </cheat>
     <cheat desc=" "/>
-    <cheat desc="选择游戏角色 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="隆">
-            <parameter cpu="0" address="0xFF8502" value="0x00"/>
-        </option>
-        <option desc="肯">
-            <parameter cpu="0" address="0xFF8502" value="0x01"/>
-        </option>
-        <option desc="豪鬼">
-            <parameter cpu="0" address="0xFF8502" value="0x02"/>
-        </option>
-        <option desc="纳什">
-            <parameter cpu="0" address="0xFF8502" value="0x03"/>
-        </option>
-        <option desc="春丽">
-            <parameter cpu="0" address="0xFF8502" value="0x04"/>
-        </option>
-        <option desc="阿顿">
-            <parameter cpu="0" address="0xFF8502" value="0x05"/>
-        </option>
-        <option desc="苏杜姆">
-            <parameter cpu="0" address="0xFF8502" value="0x06"/>
-        </option>
-        <option desc="凯">
-            <parameter cpu="0" address="0xFF8502" value="0x07"/>
-        </option>
-        <option desc="伯迪">
-            <parameter cpu="0" address="0xFF8502" value="0x08"/>
-        </option>
-        <option desc="罗丝">
-            <parameter cpu="0" address="0xFF8502" value="0x09"/>
-        </option>
-        <option desc="维加">
-            <parameter cpu="0" address="0xFF8502" value="0x0A"/>
-        </option>
-        <option desc="萨卡特">
-            <parameter cpu="0" address="0xFF8502" value="0x0B"/>
-        </option>
-        <option desc="火引弹">
-            <parameter cpu="0" address="0xFF8502" value="0x0C"/>
-        </option>
-        <option desc="春日野樱">
-            <parameter cpu="0" address="0xFF8502" value="0x0D"/>
-        </option>
-        <option desc="罗兰多">
-            <parameter cpu="0" address="0xFF8502" value="0x0E"/>
-        </option>
-        <option desc="达尔锡">
-            <parameter cpu="0" address="0xFF8502" value="0x0F"/>
-        </option>
-        <option desc="桑基尔夫">
-            <parameter cpu="0" address="0xFF8502" value="0x10"/>
-        </option>
-        <option desc="元 (丧流姿态)">
-            <parameter cpu="0" address="0xFF8502" value="0x11"/>
-        </option>
-        <option desc="#元 (忌流姿态)">
-            <parameter cpu="0" address="0xFF8502" value="0x13"/>
-        </option>
-        <option desc="#拜森">
-            <parameter cpu="0" address="0xFF8502" value="0x15"/>
-        </option>
-        <option desc="嘉米">
-            <parameter cpu="0" address="0xFF8502" value="0x16"/>
-        </option>
-        <option desc="本田">
-            <parameter cpu="0" address="0xFF8502" value="0x18"/>
-        </option>
-        <option desc="布兰卡">
-            <parameter cpu="0" address="0xFF8502" value="0x19"/>
-        </option>
-        <option desc="美华">
-            <parameter cpu="0" address="0xFF8502" value="0x1A"/>
-        </option>
-        <option desc="科迪">
-            <parameter cpu="0" address="0xFF8502" value="0x1B"/>
-        </option>
-        <option desc="巴洛克">
-            <parameter cpu="0" address="0xFF8502" value="0x1C"/>
-        </option>
-        <option desc="神月">
-            <parameter cpu="0" address="0xFF8502" value="0x1D"/>
-        </option>
-        <option desc="#尤丽">
-            <parameter cpu="0" address="0xFF8502" value="0x1E"/>
-        </option>
-        <option desc="#尤妮">
-            <parameter cpu="0" address="0xFF8502" value="0x1F"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF8502" value="0x00"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF8502" value="0x01"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF8502" value="0x02"/>
+		</option>
+		<option desc="纳什">
+			<parameter cpu="0" address="0xFF8502" value="0x03"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF8502" value="0x04"/>
+		</option>
+		<option desc="阿顿">
+			<parameter cpu="0" address="0xFF8502" value="0x05"/>
+		</option>
+		<option desc="苏杜姆">
+			<parameter cpu="0" address="0xFF8502" value="0x06"/>
+		</option>
+		<option desc="凯">
+			<parameter cpu="0" address="0xFF8502" value="0x07"/>
+		</option>
+		<option desc="伯迪">
+			<parameter cpu="0" address="0xFF8502" value="0x08"/>
+		</option>
+		<option desc="罗丝">
+			<parameter cpu="0" address="0xFF8502" value="0x09"/>
+		</option>
+		<option desc="维加">
+			<parameter cpu="0" address="0xFF8502" value="0x0A"/>
+		</option>
+		<option desc="萨卡特">
+			<parameter cpu="0" address="0xFF8502" value="0x0B"/>
+		</option>
+		<option desc="火引弹">
+			<parameter cpu="0" address="0xFF8502" value="0x0C"/>
+		</option>
+		<option desc="春日野樱">
+			<parameter cpu="0" address="0xFF8502" value="0x0D"/>
+		</option>
+		<option desc="罗兰多">
+			<parameter cpu="0" address="0xFF8502" value="0x0E"/>
+		</option>
+		<option desc="达尔锡">
+			<parameter cpu="0" address="0xFF8502" value="0x0F"/>
+		</option>
+		<option desc="桑基尔夫">
+			<parameter cpu="0" address="0xFF8502" value="0x10"/>
+		</option>
+		<option desc="元 (丧流姿态)">
+			<parameter cpu="0" address="0xFF8502" value="0x11"/>
+		</option>
+		<option desc="#元 (忌流姿态)">
+			<parameter cpu="0" address="0xFF8502" value="0x13"/>
+		</option>
+		<option desc="#拜森">
+			<parameter cpu="0" address="0xFF8502" value="0x15"/>
+		</option>
+		<option desc="嘉米">
+			<parameter cpu="0" address="0xFF8502" value="0x16"/>
+		</option>
+		<option desc="本田">
+			<parameter cpu="0" address="0xFF8502" value="0x18"/>
+		</option>
+		<option desc="布兰卡">
+			<parameter cpu="0" address="0xFF8502" value="0x19"/>
+		</option>
+		<option desc="美华">
+			<parameter cpu="0" address="0xFF8502" value="0x1A"/>
+		</option>
+		<option desc="科迪">
+			<parameter cpu="0" address="0xFF8502" value="0x1B"/>
+		</option>
+		<option desc="巴洛克">
+			<parameter cpu="0" address="0xFF8502" value="0x1C"/>
+		</option>
+		<option desc="神月">
+			<parameter cpu="0" address="0xFF8502" value="0x1D"/>
+		</option>
+		<option desc="#尤丽">
+			<parameter cpu="0" address="0xFF8502" value="0x1E"/>
+		</option>
+		<option desc="#尤妮">
+			<parameter cpu="0" address="0xFF8502" value="0x1F"/>
+		</option>
+	</cheat>
     <cheat desc="角色选择 - 真维加 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -139,96 +139,96 @@
         </option>
     </cheat>
     <cheat desc=" "/>
-    <cheat desc="选择游戏角色 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="隆">
-            <parameter cpu="0" address="0xFF8902" value="0x00"/>
-        </option>
-        <option desc="肯">
-            <parameter cpu="0" address="0xFF8902" value="0x01"/>
-        </option>
-        <option desc="豪鬼">
-            <parameter cpu="0" address="0xFF8902" value="0x02"/>
-        </option>
-        <option desc="纳什">
-            <parameter cpu="0" address="0xFF8902" value="0x03"/>
-        </option>
-        <option desc="春丽">
-            <parameter cpu="0" address="0xFF8902" value="0x04"/>
-        </option>
-        <option desc="阿顿">
-            <parameter cpu="0" address="0xFF8902" value="0x05"/>
-        </option>
-        <option desc="苏杜姆">
-            <parameter cpu="0" address="0xFF8902" value="0x06"/>
-        </option>
-        <option desc="凯">
-            <parameter cpu="0" address="0xFF8902" value="0x07"/>
-        </option>
-        <option desc="伯迪">
-            <parameter cpu="0" address="0xFF8902" value="0x08"/>
-        </option>
-        <option desc="罗丝">
-            <parameter cpu="0" address="0xFF8902" value="0x09"/>
-        </option>
-        <option desc="维加">
-            <parameter cpu="0" address="0xFF8902" value="0x0A"/>
-        </option>
-        <option desc="萨卡特">
-            <parameter cpu="0" address="0xFF8902" value="0x0B"/>
-        </option>
-        <option desc="火引弹">
-            <parameter cpu="0" address="0xFF8902" value="0x0C"/>
-        </option>
-        <option desc="春日野樱">
-            <parameter cpu="0" address="0xFF8902" value="0x0D"/>
-        </option>
-        <option desc="罗兰多">
-            <parameter cpu="0" address="0xFF8902" value="0x0E"/>
-        </option>
-        <option desc="达尔锡">
-            <parameter cpu="0" address="0xFF8902" value="0x0F"/>
-        </option>
-        <option desc="桑基尔夫">
-            <parameter cpu="0" address="0xFF8902" value="0x10"/>
-        </option>
-        <option desc="元 (丧流姿态)">
-            <parameter cpu="0" address="0xFF8902" value="0x11"/>
-        </option>
-        <option desc="#元 (忌流姿态)">
-            <parameter cpu="0" address="0xFF8902" value="0x13"/>
-        </option>
-        <option desc="#拜森">
-            <parameter cpu="0" address="0xFF8902" value="0x15"/>
-        </option>
-        <option desc="嘉米">
-            <parameter cpu="0" address="0xFF8902" value="0x16"/>
-        </option>
-        <option desc="本田">
-            <parameter cpu="0" address="0xFF8902" value="0x18"/>
-        </option>
-        <option desc="布兰卡">
-            <parameter cpu="0" address="0xFF8902" value="0x19"/>
-        </option>
-        <option desc="美华">
-            <parameter cpu="0" address="0xFF8902" value="0x1A"/>
-        </option>
-        <option desc="科迪">
-            <parameter cpu="0" address="0xFF8902" value="0x1B"/>
-        </option>
-        <option desc="巴洛克">
-            <parameter cpu="0" address="0xFF8902" value="0x1C"/>
-        </option>
-        <option desc="神月">
-            <parameter cpu="0" address="0xFF8902" value="0x1D"/>
-        </option>
-        <option desc="#尤丽">
-            <parameter cpu="0" address="0xFF8902" value="0x1E"/>
-        </option>
-        <option desc="#尤妮">
-            <parameter cpu="0" address="0xFF8902" value="0x1F"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="隆">
+			<parameter cpu="0" address="0xFF8902" value="0x00"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0xFF8902" value="0x01"/>
+		</option>
+		<option desc="豪鬼">
+			<parameter cpu="0" address="0xFF8902" value="0x02"/>
+		</option>
+		<option desc="纳什">
+			<parameter cpu="0" address="0xFF8902" value="0x03"/>
+		</option>
+		<option desc="春丽">
+			<parameter cpu="0" address="0xFF8902" value="0x04"/>
+		</option>
+		<option desc="阿顿">
+			<parameter cpu="0" address="0xFF8902" value="0x05"/>
+		</option>
+		<option desc="苏杜姆">
+			<parameter cpu="0" address="0xFF8902" value="0x06"/>
+		</option>
+		<option desc="凯">
+			<parameter cpu="0" address="0xFF8902" value="0x07"/>
+		</option>
+		<option desc="伯迪">
+			<parameter cpu="0" address="0xFF8902" value="0x08"/>
+		</option>
+		<option desc="罗丝">
+			<parameter cpu="0" address="0xFF8902" value="0x09"/>
+		</option>
+		<option desc="维加">
+			<parameter cpu="0" address="0xFF8902" value="0x0A"/>
+		</option>
+		<option desc="萨卡特">
+			<parameter cpu="0" address="0xFF8902" value="0x0B"/>
+		</option>
+		<option desc="火引弹">
+			<parameter cpu="0" address="0xFF8902" value="0x0C"/>
+		</option>
+		<option desc="春日野樱">
+			<parameter cpu="0" address="0xFF8902" value="0x0D"/>
+		</option>
+		<option desc="罗兰多">
+			<parameter cpu="0" address="0xFF8902" value="0x0E"/>
+		</option>
+		<option desc="达尔锡">
+			<parameter cpu="0" address="0xFF8902" value="0x0F"/>
+		</option>
+		<option desc="桑基尔夫">
+			<parameter cpu="0" address="0xFF8902" value="0x10"/>
+		</option>
+		<option desc="元 (丧流姿态)">
+			<parameter cpu="0" address="0xFF8902" value="0x11"/>
+		</option>
+		<option desc="#元 (忌流姿态)">
+			<parameter cpu="0" address="0xFF8902" value="0x13"/>
+		</option>
+		<option desc="#拜森">
+			<parameter cpu="0" address="0xFF8902" value="0x15"/>
+		</option>
+		<option desc="嘉米">
+			<parameter cpu="0" address="0xFF8902" value="0x16"/>
+		</option>
+		<option desc="本田">
+			<parameter cpu="0" address="0xFF8902" value="0x18"/>
+		</option>
+		<option desc="布兰卡">
+			<parameter cpu="0" address="0xFF8902" value="0x19"/>
+		</option>
+		<option desc="美华">
+			<parameter cpu="0" address="0xFF8902" value="0x1A"/>
+		</option>
+		<option desc="科迪">
+			<parameter cpu="0" address="0xFF8902" value="0x1B"/>
+		</option>
+		<option desc="巴洛克">
+			<parameter cpu="0" address="0xFF8902" value="0x1C"/>
+		</option>
+		<option desc="神月">
+			<parameter cpu="0" address="0xFF8902" value="0x1D"/>
+		</option>
+		<option desc="#尤丽">
+			<parameter cpu="0" address="0xFF8902" value="0x1E"/>
+		</option>
+		<option desc="#尤妮">
+			<parameter cpu="0" address="0xFF8902" value="0x1F"/>
+		</option>
+	</cheat>
     <cheat desc="角色选择 - 真维加 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">

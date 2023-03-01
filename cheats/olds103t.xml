@@ -1,56 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-    <cheat desc="无限时间" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80C498" value="0x64"/>
-        </option>
-    </cheat>
-    <cheat desc="[ 白象王洞中、钱鼠王洞中慎用 ]"/>
-    <cheat desc="BOSS一击必杀" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x8132AA" value="0x00"/>
-            <parameter cpu="0" address="0x81341A" value="0x00"/>
-            <parameter cpu="0" address="0x81358A" value="0x00"/>
-            <parameter cpu="0" address="0x8136FA" value="0x00"/>
-            <parameter cpu="0" address="0x81386A" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="杂兵一击必杀" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x8132AA" value="0x00"/>
-            <parameter cpu="0" address="0x81341A" value="0x00"/>
-            <parameter cpu="0" address="0x8136FA" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="无限生命数 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80CE98" value="0x0A"/>
-        </option>
-    </cheat>
-    <cheat desc="无限生命值 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80C7BD" value="0x48"/>
-            <parameter cpu="0" address="0x80D096" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="无敌时间 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80C80B" value="0xD8"/>
-        </option>
-    </cheat>
-    <cheat desc="能量满级 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x81C336" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="无限时间" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80C498" value="0x64"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 白象王洞中、钱鼠王洞中慎用 ]"/>
+	<cheat desc="BOSS一击必杀" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x8132AA" value="0x00"/>
+			<parameter cpu="0" address="0x81341A" value="0x00"/>
+			<parameter cpu="0" address="0x81358A" value="0x00"/>
+			<parameter cpu="0" address="0x8136FA" value="0x00"/>
+			<parameter cpu="0" address="0x81386A" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="杂兵一击必杀" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x8132AA" value="0x00"/>
+			<parameter cpu="0" address="0x81341A" value="0x00"/>
+			<parameter cpu="0" address="0x8136FA" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="无限生命数 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80CE98" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="无限生命值 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80C7BD" value="0x48"/>
+			<parameter cpu="0" address="0x80D096" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="无敌时间 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80C80B" value="0xD8"/>
+		</option>
+	</cheat>
+        <cheat desc="能量满级 PL1" default="0">
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x81C336" value="0x03"/>
+                </option>
+        </cheat>
     <cheat desc="持有武器 PL1" default="0">
         <option desc="关闭"/>
         <option desc="默认武器">
@@ -72,19 +72,19 @@
             <parameter cpu="0" address="0x81292C" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x81291B" value="0x05"/>
-            <parameter cpu="0" address="0x81291D" value="0x03"/>
-            <parameter cpu="0" address="0x81291F" value="0x03"/>
-            <parameter cpu="0" address="0x812921" value="0x03"/>
-            <parameter cpu="0" address="0x812923" value="0x03"/>
-            <parameter cpu="0" address="0x812925" value="0x03"/>
-            <parameter cpu="0" address="0x812927" value="0x03"/>
-            <parameter cpu="0" address="0x812929" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x81291B" value="0x05"/>
+			<parameter cpu="0" address="0x81291D" value="0x03"/>
+			<parameter cpu="0" address="0x81291F" value="0x03"/>
+			<parameter cpu="0" address="0x812921" value="0x03"/>
+			<parameter cpu="0" address="0x812923" value="0x03"/>
+			<parameter cpu="0" address="0x812925" value="0x03"/>
+			<parameter cpu="0" address="0x812927" value="0x03"/>
+			<parameter cpu="0" address="0x812929" value="0x03"/>
+		</option>
+	</cheat>
     <cheat desc="选择第1个道具 PL1" default="0">
         <option desc="关闭"/>
         <option desc="刀(金)">
@@ -829,31 +829,31 @@
             <parameter cpu="0" address="0x812928" value="0x1F"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
-    <cheat desc="无限生命数 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80D11E" value="0x0A"/>
-        </option>
-    </cheat>
-    <cheat desc="无限生命值 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80CA43" value="0x48"/>
-        </option>
-    </cheat>
-    <cheat desc="无敌时间 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80C97B" value="0xD8"/>
-        </option>
-    </cheat>
-    <cheat desc="能量满级 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x81C337" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="无限生命数 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80D11E" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="无限生命值 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80CA43" value="0x48"/>
+		</option>
+	</cheat>
+	<cheat desc="无敌时间 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80C97B" value="0xD8"/>
+		</option>
+	</cheat>
+        <cheat desc="能量满级 PL2" default="0">
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x81C337" value="0x03"/>
+                </option>
+        </cheat>
     <cheat desc="持有武器 PL2" default="0">
         <option desc="关闭"/>
         <option desc="默认武器">
@@ -875,19 +875,19 @@
             <parameter cpu="0" address="0x8129AA" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x812999" value="0x05"/>
-            <parameter cpu="0" address="0x81299B" value="0x03"/>
-            <parameter cpu="0" address="0x81299D" value="0x03"/>
-            <parameter cpu="0" address="0x81299F" value="0x03"/>
-            <parameter cpu="0" address="0x8129A1" value="0x03"/>
-            <parameter cpu="0" address="0x8129A3" value="0x03"/>
-            <parameter cpu="0" address="0x8129A5" value="0x03"/>
-            <parameter cpu="0" address="0x8129A7" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x812999" value="0x05"/>
+			<parameter cpu="0" address="0x81299B" value="0x03"/>
+			<parameter cpu="0" address="0x81299D" value="0x03"/>
+			<parameter cpu="0" address="0x81299F" value="0x03"/>
+			<parameter cpu="0" address="0x8129A1" value="0x03"/>
+			<parameter cpu="0" address="0x8129A3" value="0x03"/>
+			<parameter cpu="0" address="0x8129A5" value="0x03"/>
+			<parameter cpu="0" address="0x8129A7" value="0x03"/>
+		</option>
+	</cheat>
     <cheat desc="选择第1个道具 PL2" default="0">
         <option desc="关闭"/>
         <option desc="刀(金)">
@@ -1632,51 +1632,51 @@
             <parameter cpu="0" address="0x8129A6" value="0x1F"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
-    <cheat desc="无限生命数 PL3" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80D3A4" value="0x0A"/>
-        </option>
-    </cheat>
-    <cheat desc="无限生命值 PL3" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80CCC9" value="0x48"/>
-            <parameter cpu="0" address="0x80D5A2" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="无敌时间 PL3" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80CAEB" value="0xD8"/>
-        </option>
-    </cheat>
-    <cheat desc="能量满级 PL3" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x81C338" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="无限生命数 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80D3A4" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="无限生命值 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80CCC9" value="0x48"/>
+			<parameter cpu="0" address="0x80D5A2" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="无敌时间 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80CAEB" value="0xD8"/>
+		</option>
+	</cheat>
+        <cheat desc="能量满级 PL3" default="0">
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x81C338" value="0x03"/>
+                </option>
+        </cheat>
     <cheat desc="拥有8种道具 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x812A28" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL3" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x812A17" value="0x05"/>
-            <parameter cpu="0" address="0x812A19" value="0x03"/>
-            <parameter cpu="0" address="0x812A1B" value="0x03"/>
-            <parameter cpu="0" address="0x812A1D" value="0x03"/>
-            <parameter cpu="0" address="0x812A1F" value="0x03"/>
-            <parameter cpu="0" address="0x812A21" value="0x03"/>
-            <parameter cpu="0" address="0x812A23" value="0x03"/>
-            <parameter cpu="0" address="0x812A25" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL3" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x812A17" value="0x05"/>
+			<parameter cpu="0" address="0x812A19" value="0x03"/>
+			<parameter cpu="0" address="0x812A1B" value="0x03"/>
+			<parameter cpu="0" address="0x812A1D" value="0x03"/>
+			<parameter cpu="0" address="0x812A1F" value="0x03"/>
+			<parameter cpu="0" address="0x812A21" value="0x03"/>
+			<parameter cpu="0" address="0x812A23" value="0x03"/>
+			<parameter cpu="0" address="0x812A25" value="0x03"/>
+		</option>
+	</cheat>
     <cheat desc="持有武器 PL3" default="0">
         <option desc="关闭"/>
         <option desc="默认武器">
@@ -2436,32 +2436,32 @@
             <parameter cpu="0" address="0x812A24" value="0x1F"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
-    <cheat desc="无限生命数 PL4" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80D62A" value="0x0A"/>
-        </option>
-    </cheat>
-    <cheat desc="无限生命值 PL4" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80CF4F" value="0x48"/>
-            <parameter cpu="0" address="0x80D828" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="无敌时间 PL4" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x80CC5B" value="0xD8"/>
-        </option>
-    </cheat>
-    <cheat desc="能量满级 PL4" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x81C336" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc=" "/>
+	<cheat desc="无限生命数 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80D62A" value="0x0A"/>
+		</option>
+	</cheat>
+	<cheat desc="无限生命值 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80CF4F" value="0x48"/>
+			<parameter cpu="0" address="0x80D828" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="无敌时间 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x80CC5B" value="0xD8"/>
+		</option>
+	</cheat>
+        <cheat desc="能量满级 PL4" default="0">
+                <option desc="关闭"/>
+                <option desc="开启">
+                        <parameter cpu="0" address="0x81C336" value="0x03"/>
+                </option>
+        </cheat>
     <cheat desc="持有武器 PL4" default="0">
         <option desc="关闭"/>
         <option desc="默认武器">
@@ -2483,19 +2483,19 @@
             <parameter cpu="0" address="0x812AA6" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="道具无限 PL4" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x812A95" value="0x05"/>
-            <parameter cpu="0" address="0x812A97" value="0x03"/>
-            <parameter cpu="0" address="0x812A99" value="0x03"/>
-            <parameter cpu="0" address="0x812A9B" value="0x03"/>
-            <parameter cpu="0" address="0x812A9D" value="0x03"/>
-            <parameter cpu="0" address="0x812A9F" value="0x03"/>
-            <parameter cpu="0" address="0x812AA1" value="0x03"/>
-            <parameter cpu="0" address="0x812AA3" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="道具无限 PL4" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x812A95" value="0x05"/>
+			<parameter cpu="0" address="0x812A97" value="0x03"/>
+			<parameter cpu="0" address="0x812A99" value="0x03"/>
+			<parameter cpu="0" address="0x812A9B" value="0x03"/>
+			<parameter cpu="0" address="0x812A9D" value="0x03"/>
+			<parameter cpu="0" address="0x812A9F" value="0x03"/>
+			<parameter cpu="0" address="0x812AA1" value="0x03"/>
+			<parameter cpu="0" address="0x812AA3" value="0x03"/>
+		</option>
+	</cheat>
     <cheat desc="选择第1个道具 PL4" default="0">
         <option desc="关闭"/>
         <option desc="刀(金)">

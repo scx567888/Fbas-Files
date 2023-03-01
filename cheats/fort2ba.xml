@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2581F" value="0x63"/>
+            <parameter cpu="0" address="0x2582B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="开启选择机体时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2CA73" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择装备时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x28373" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限准备攻击时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2C1CB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限总时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2C1CF" value="0x09"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2839D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限行动力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41217" value="0xB0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41222" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击力最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41253" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="使用隐藏机体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2C883" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第1装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x41297" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x41297" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x41297" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x41297" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x41297" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x41297" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x41297" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x41297" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x41297" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x41297" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x41297" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第2装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x4129B" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x4129B" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x4129B" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x4129B" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x4129B" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x4129B" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x4129B" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x4129B" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x4129B" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x4129B" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x4129B" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第3装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x4129F" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x4129F" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x4129F" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x4129F" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x4129F" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x4129F" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x4129F" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x4129F" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x4129F" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x4129F" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x4129F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第4装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x412A3" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x412A3" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x412A3" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x412A3" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x412A3" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x412A3" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x412A3" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x412A3" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x412A3" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x412A3" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x412A3" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 得到四项装备须在开启选择装备后开启，否则死机 ]"/>
+    <cheat desc="得到四项装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41294" value="0x00"/>
+            <parameter cpu="0" address="0x41295" value="0x00"/>
+            <parameter cpu="0" address="0x41296" value="0x00"/>
+            <parameter cpu="0" address="0x41298" value="0x00"/>
+            <parameter cpu="0" address="0x41299" value="0x00"/>
+            <parameter cpu="0" address="0x4129A" value="0x00"/>
+            <parameter cpu="0" address="0x4129C" value="0x00"/>
+            <parameter cpu="0" address="0x4129D" value="0x00"/>
+            <parameter cpu="0" address="0x4129E" value="0x00"/>
+            <parameter cpu="0" address="0x412A0" value="0x0"/>
+            <parameter cpu="0" address="0x412A1" value="0x00"/>
+            <parameter cpu="0" address="0x412A2" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x283E5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限行动力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4144B" value="0xB0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41456" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击力最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41487" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="使用隐藏机体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2C97F" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第1装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x414CB" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x414CB" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x414CB" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x414CB" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x414CB" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x414CB" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x414CB" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x414CB" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x414CB" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x414CB" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x414CB" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第2装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x414CF" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x414CF" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x414CF" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x414CF" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x414CF" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x414CF" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x414CF" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x414CF" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x414CF" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x414CF" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x414CF" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第3装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x414D3" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x414D3" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x414D3" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x414D3" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x414D3" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x414D3" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x414D3" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x414D3" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x414D3" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x414D3" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x414D3" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第4装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="加速">
+            <parameter cpu="0" address="0x414D7" value="0x00"/>
+        </option>
+        <option desc="双倍火力">
+            <parameter cpu="0" address="0x414D7" value="0x01"/>
+        </option>
+        <option desc="力量升级">
+            <parameter cpu="0" address="0x414D7" value="0x02"/>
+        </option>
+        <option desc="额外能量">
+            <parameter cpu="0" address="0x414D7" value="0x03"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x414D7" value="0x04"/>
+        </option>
+        <option desc="传输子弹">
+            <parameter cpu="0" address="0x414D7" value="0x05"/>
+        </option>
+        <option desc="瞄准定位">
+            <parameter cpu="0" address="0x414D7" value="0x06"/>
+        </option>
+        <option desc="移动定位">
+            <parameter cpu="0" address="0x414D7" value="0x07"/>
+        </option>
+        <option desc="火力定位">
+            <parameter cpu="0" address="0x414D7" value="0x08"/>
+        </option>
+        <option desc="解毒">
+            <parameter cpu="0" address="0x414D7" value="0x09"/>
+        </option>
+        <option desc="抗毒">
+            <parameter cpu="0" address="0x414D7" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 得到四项装备须在开启选择装备后开启，否则死机 ]"/>
+    <cheat desc="得到四项装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x414C8" value="0x00"/>
+            <parameter cpu="0" address="0x414C9" value="0x00"/>
+            <parameter cpu="0" address="0x414CA" value="0x00"/>
+            <parameter cpu="0" address="0x414CC value="0x00"/>
+            <parameter cpu="0" address="0x414CD value="0x00"/>
+            <parameter cpu="0" address="0x414CE value="0x00"/>
+            <parameter cpu="0" address="0x414D0" value="0x00"/>
+            <parameter cpu="0" address="0x414D1" value="0x00"/>
+            <parameter cpu="0" address="0x414D2" value="0x00"/>
+            <parameter cpu="0" address="0x414D4" value="0x00"/>
+            <parameter cpu="0" address="0x414D5 value="0x00"/>
+            <parameter cpu="0" address="0x414D6" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择电脑能量" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4168A" value="0x00"/>
+        </option>
+        <option desc="无限">
+            <parameter cpu="0" address="0x4168A" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择电脑行动力" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4167F" value="0x00"/>
+        </option>
+        <option desc="无限">
+            <parameter cpu="0" address="0x4167F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择电脑攻击力" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x416BB" value="0x00"/>
+        </option>
+        <option desc="最大">
+            <parameter cpu="0" address="0x416BB" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

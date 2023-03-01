@@ -21,49 +21,49 @@
             <parameter cpu="0" address="0x200EB33" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="选择固定背景" default="0">
-        <option desc="关闭"/>
-        <option desc="亚历克斯">
-            <parameter cpu="0" address="0x2012CA3" value="0x01"/>
-        </option>
-        <option desc="隆">
-            <parameter cpu="0" address="0x2012CA3" value="0x02"/>
-        </option>
-        <option desc="阴">
-            <parameter cpu="0" address="0x2012CA3" value="0x03"/>
-        </option>
-        <option desc="达德利">
-            <parameter cpu="0" address="0x2012CA3" value="0x04"/>
-        </option>
-        <option desc="内克罗">
-            <parameter cpu="0" address="0x2012CA3" value="0x05"/>
-        </option>
-        <option desc="雨果">
-            <parameter cpu="0" address="0x2012CA3" value="0x06"/>
-        </option>
-        <option desc="息吹">
-            <parameter cpu="0" address="0x2012CA3" value="0x07"/>
-        </option>
-        <option desc="艾莉娜">
-            <parameter cpu="0" address="0x2012CA3" value="0x08"/>
-        </option>
-        <option desc="欧罗">
-            <parameter cpu="0" address="0x2012CA3" value="0x09"/>
-        </option>
-        <option desc="阳">
-            <parameter cpu="0" address="0x2012CA3" value="0x0A"/>
-        </option>
-        <option desc="肯">
-            <parameter cpu="0" address="0x2012CA3" value="0x0B"/>
-        </option>
-        <option desc="肖恩">
-            <parameter cpu="0" address="0x2012CA3" value="0x0C"/>
-        </option>
-        <option desc="基尔">
-            <parameter cpu="0" address="0x2012CA3" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
+	<cheat desc="选择固定背景" default="0">
+		<option desc="关闭"/>
+		<option desc="亚历克斯">
+			<parameter cpu="0" address="0x2012CA3" value="0x01"/>
+		</option>
+		<option desc="隆">
+			<parameter cpu="0" address="0x2012CA3" value="0x02"/>
+		</option>
+		<option desc="阴">
+			<parameter cpu="0" address="0x2012CA3" value="0x03"/>
+		</option>
+		<option desc="达德利">
+			<parameter cpu="0" address="0x2012CA3" value="0x04"/>
+		</option>
+		<option desc="内克罗">
+			<parameter cpu="0" address="0x2012CA3" value="0x05"/>
+		</option>
+		<option desc="雨果">
+			<parameter cpu="0" address="0x2012CA3" value="0x06"/>
+		</option>
+		<option desc="息吹">
+			<parameter cpu="0" address="0x2012CA3" value="0x07"/>
+		</option>
+		<option desc="艾莉娜">
+			<parameter cpu="0" address="0x2012CA3" value="0x08"/>
+		</option>
+		<option desc="欧罗">
+			<parameter cpu="0" address="0x2012CA3" value="0x09"/>
+		</option>
+		<option desc="阳">
+			<parameter cpu="0" address="0x2012CA3" value="0x0A"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0x2012CA3" value="0x0B"/>
+		</option>
+		<option desc="肖恩">
+			<parameter cpu="0" address="0x2012CA3" value="0x0C"/>
+		</option>
+		<option desc="基尔">
+			<parameter cpu="0" address="0x2012CA3" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
     <cheat desc="无限体力 PL1 " default="0">
         <option desc="关闭"/>
         <option desc="无限体力 PL1 ">
@@ -88,53 +88,53 @@
             <parameter cpu="0" address="0x200D953" value="0x09"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="隆">
-            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x00"/>
-        </option>
-        <option desc="达德利">
-            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x01"/>
-        </option>
-        <option desc="亚历克斯">
-            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x02"/>
-        </option>
-        <option desc="阴">
-            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x03"/>
-        </option>
-        <option desc="肯">
-            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x04"/>
-        </option>
-        <option desc="息吹">
-            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x00"/>
-        </option>
-        <option desc="内克罗">
-            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x01"/>
-        </option>
-        <option desc="肖恩">
-            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x02"/>
-        </option>
-        <option desc="欧罗">
-            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x03"/>
-        </option>
-        <option desc="艾莉娜">
-            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x04"/>
-        </option>
-        <option desc="#基尔#">
-            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7D" value="0x14"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="隆">
+			<parameter cpu="0" address="0x2012E2F" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x00"/>
+		</option>
+		<option desc="达德利">
+			<parameter cpu="0" address="0x2012E2F" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x01"/>
+		</option>
+		<option desc="亚历克斯">
+			<parameter cpu="0" address="0x2012E2F" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x02"/>
+		</option>
+		<option desc="阴">
+			<parameter cpu="0" address="0x2012E2F" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x03"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0x2012E2F" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x04"/>
+		</option>
+		<option desc="息吹">
+			<parameter cpu="0" address="0x2012E2F" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x00"/>
+		</option>
+		<option desc="内克罗">
+			<parameter cpu="0" address="0x2012E2F" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x01"/>
+		</option>
+		<option desc="肖恩">
+			<parameter cpu="0" address="0x2012E2F" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x02"/>
+		</option>
+		<option desc="欧罗">
+			<parameter cpu="0" address="0x2012E2F" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x03"/>
+		</option>
+		<option desc="艾莉娜">
+			<parameter cpu="0" address="0x2012E2F" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x04"/>
+		</option>
+		<option desc="#基尔#">
+			<parameter cpu="0" address="0x2012E2F" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7D" value="0x14"/>
+		</option>
+	</cheat>
     <cheat desc="开启角色基尔 PL1 " default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -168,7 +168,7 @@
             <parameter cpu="0" address="0x200D93F" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限体力 PL2 " default="0">
         <option desc="关闭"/>
         <option desc="无限体力 PL2 ">
@@ -193,53 +193,53 @@
             <parameter cpu="0" address="0x200D973" value="0x09"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="隆">
-            <parameter cpu="0" address="0x2012E31" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x00"/>
-        </option>
-        <option desc="达德利">
-            <parameter cpu="0" address="0x2012E31" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x01"/>
-        </option>
-        <option desc="亚历克斯">
-            <parameter cpu="0" address="0x2012E31" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x02"/>
-        </option>
-        <option desc="阴">
-            <parameter cpu="0" address="0x2012E31" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x03"/>
-        </option>
-        <option desc="肯">
-            <parameter cpu="0" address="0x2012E31" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x04"/>
-        </option>
-        <option desc="息吹">
-            <parameter cpu="0" address="0x2012E31" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x00"/>
-        </option>
-        <option desc="内克罗">
-            <parameter cpu="0" address="0x2012E31" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x01"/>
-        </option>
-        <option desc="肖恩">
-            <parameter cpu="0" address="0x2012E31" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x02"/>
-        </option>
-        <option desc="欧罗">
-            <parameter cpu="0" address="0x2012E31" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x03"/>
-        </option>
-        <option desc="艾莉娜">
-            <parameter cpu="0" address="0x2012E31" value="0x01"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x04"/>
-        </option>
-        <option desc="#基尔#">
-            <parameter cpu="0" address="0x2012E31" value="0x00"/>
-            <parameter cpu="0" address="0x2012C7F" value="0x14"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="隆">
+			<parameter cpu="0" address="0x2012E31" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x00"/>
+		</option>
+		<option desc="达德利">
+			<parameter cpu="0" address="0x2012E31" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x01"/>
+		</option>
+		<option desc="亚历克斯">
+			<parameter cpu="0" address="0x2012E31" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x02"/>
+		</option>
+		<option desc="阴">
+			<parameter cpu="0" address="0x2012E31" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x03"/>
+		</option>
+		<option desc="肯">
+			<parameter cpu="0" address="0x2012E31" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x04"/>
+		</option>
+		<option desc="息吹">
+			<parameter cpu="0" address="0x2012E31" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x00"/>
+		</option>
+		<option desc="内克罗">
+			<parameter cpu="0" address="0x2012E31" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x01"/>
+		</option>
+		<option desc="肖恩">
+			<parameter cpu="0" address="0x2012E31" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x02"/>
+		</option>
+		<option desc="欧罗">
+			<parameter cpu="0" address="0x2012E31" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x03"/>
+		</option>
+		<option desc="艾莉娜">
+			<parameter cpu="0" address="0x2012E31" value="0x01"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x04"/>
+		</option>
+		<option desc="#基尔#">
+			<parameter cpu="0" address="0x2012E31" value="0x00"/>
+			<parameter cpu="0" address="0x2012C7F" value="0x14"/>
+		</option>
+	</cheat>
     <cheat desc="开启角色基尔 PL2 " default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -273,7 +273,7 @@
             <parameter cpu="0" address="0x200D95F" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="空压膝碎" default="0">
         <option desc="关闭"/>
         <option desc="开启">

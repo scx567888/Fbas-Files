@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x410159" value="0x5A"/>
+            <parameter cpu="0" address="0x410155" value="0x00"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0x410159" value="0x00"/>
+            <parameter cpu="0" address="0x410155" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择加时" default="0">
+        <option desc="关闭"/>
+        <option desc="无加时赛">
+            <parameter cpu="0" address="0x41015B" value="0x00"/>
+        </option>
+        <option desc="无限加时赛">
+            <parameter cpu="0" address="0x41015B" value="0x0A"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="总是赢得点球 左队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x413A29" value="0x01"/>
+            <parameter cpu="0" address="0x413AA9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是0 左队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4139CB" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="总是赢得点球 右队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x413A29" value="0x00"/>
+            <parameter cpu="0" address="0x413AA9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是0 右队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x413A4B" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x411FFE" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40E77F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限货币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x411FEF" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊指令 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x411FF7" value="0x00"/>
+        </option>
+        <option desc="SUPER SHOOT">
+            <parameter cpu="0" address="0x411FF7" value="0x01"/>
+        </option>
+        <option desc="HYPER SHOOT">
+            <parameter cpu="0" address="0x411FF7" value="0x02"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x412000" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40E781" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限货币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x411FF1" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊指令 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x411FF9" value="0x00"/>
+        </option>
+        <option desc="SUPER SHOOT">
+            <parameter cpu="0" address="0x411FF9" value="0x01"/>
+        </option>
+        <option desc="HYPER SHOOT">
+            <parameter cpu="0" address="0x411FF9" value="0x02"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限时间 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x412002" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40E783" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限货币 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x411FF3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊指令 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x411FFA" value="0x00"/>
+        </option>
+        <option desc="SUPER SHOOT">
+            <parameter cpu="0" address="0x411FFA" value="0x01"/>
+        </option>
+        <option desc="HYPER SHOOT">
+            <parameter cpu="0" address="0x411FFA" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

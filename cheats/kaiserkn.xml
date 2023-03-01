@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x409733" value="0x09"/>
+            <parameter cpu="0" address="0x409737" value="0x09"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x409733" value="0x00"/>
+            <parameter cpu="0" address="0x409737" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x41322D" value="0x63"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x41322D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择BOSS角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="风萨雷斯">
+            <parameter cpu="0" address="0x40B321" value="0x09"/>
+            <parameter cpu="0" address="0x41454D" value="0x09"/>
+        </option>
+        <option desc="阿兹塔卡">
+            <parameter cpu="0" address="0x40B321" value="0x0A"/>
+            <parameter cpu="0" address="0x41454D" value="0x0A"/>
+        </option>
+        <option desc="乔奈尔">
+            <parameter cpu="0" address="0x40B321" value="0x0B"/>
+            <parameter cpu="0" address="0x41454D" value="0x0B"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x41342D" value="0x63"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x41342D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择BOSS角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="风萨雷斯">
+            <parameter cpu="0" address="0x40B521" value="0x09"/>
+            <parameter cpu="0" address="0x41454F" value="0x09"/>
+        </option>
+        <option desc="阿兹塔卡">
+            <parameter cpu="0" address="0x40B521" value="0x0A"/>
+            <parameter cpu="0" address="0x41454F" value="0x0A"/>
+        </option>
+        <option desc="乔奈尔">
+            <parameter cpu="0" address="0x40B521" value="0x0B"/>
+            <parameter cpu="0" address="0x41454F" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

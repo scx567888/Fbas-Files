@@ -36,6 +36,7 @@
             <parameter cpu="0" address="0x6055075" value="0xAE"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -72,6 +73,7 @@
             <parameter cpu="0" address="0x6055125" value="0xAE"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="语言 = 英国" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -140,49 +142,49 @@
             <parameter cpu="0" address="0x604C8C0" value="0x0F"/>
         </option>
     </cheat>
-    <cheat desc="第一关总是 =" default="0">
-        <option desc="关闭"/>
-        <option desc="沙漠">
-            <parameter cpu="0" address="0x604C8B2" value="0x00"/>
-        </option>
-        <option desc="水">
-            <parameter cpu="0" address="0x604C8B2" value="0x01"/>
-        </option>
-        <option desc="树林">
-            <parameter cpu="0" address="0x604C8B2" value="0x02"/>
-        </option>
-        <option desc="游戏Snow修改项">
-            <parameter cpu="0" address="0x604C8B2" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="第二关总是 =" default="0">
-        <option desc="关闭"/>
-        <option desc="沙漠">
-            <parameter cpu="0" address="0x604C8B3" value="0x00"/>
-        </option>
-        <option desc="水">
-            <parameter cpu="0" address="0x604C8B3" value="0x01"/>
-        </option>
-        <option desc="树林">
-            <parameter cpu="0" address="0x604C8B3" value="0x02"/>
-        </option>
-        <option desc="游戏Snow修改项">
-            <parameter cpu="0" address="0x604C8B3" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="第三关总是 =" default="0">
-        <option desc="关闭"/>
-        <option desc="沙漠">
-            <parameter cpu="0" address="0x604C8B4" value="0x00"/>
-        </option>
-        <option desc="水">
-            <parameter cpu="0" address="0x604C8B4" value="0x01"/>
-        </option>
-        <option desc="树林">
-            <parameter cpu="0" address="0x604C8B4" value="0x02"/>
-        </option>
-        <option desc="游戏Snow修改项">
-            <parameter cpu="0" address="0x604C8B4" value="0x03"/>
-        </option>
-    </cheat>
+	<cheat desc="第一关总是 =" default="0">
+		<option desc="关闭"/>
+		<option desc="沙漠">
+			<parameter cpu="0" address="0x604C8B2" value="0x00"/>
+		</option>
+		<option desc="水">
+			<parameter cpu="0" address="0x604C8B2" value="0x01"/>
+		</option>
+		<option desc="树林">
+			<parameter cpu="0" address="0x604C8B2" value="0x02"/>
+		</option>
+		<option desc="游戏Snow修改项">
+			<parameter cpu="0" address="0x604C8B2" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="第二关总是 =" default="0">
+		<option desc="关闭"/>
+		<option desc="沙漠">
+			<parameter cpu="0" address="0x604C8B3" value="0x00"/>
+		</option>
+		<option desc="水">
+			<parameter cpu="0" address="0x604C8B3" value="0x01"/>
+		</option>
+		<option desc="树林">
+			<parameter cpu="0" address="0x604C8B3" value="0x02"/>
+		</option>
+		<option desc="游戏Snow修改项">
+			<parameter cpu="0" address="0x604C8B3" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="第三关总是 =" default="0">
+		<option desc="关闭"/>
+		<option desc="沙漠">
+			<parameter cpu="0" address="0x604C8B4" value="0x00"/>
+		</option>
+		<option desc="水">
+			<parameter cpu="0" address="0x604C8B4" value="0x01"/>
+		</option>
+		<option desc="树林">
+			<parameter cpu="0" address="0x604C8B4" value="0x02"/>
+		</option>
+		<option desc="游戏Snow修改项">
+			<parameter cpu="0" address="0x604C8B4" value="0x03"/>
+		</option>
+	</cheat>
 </shufflecheat>

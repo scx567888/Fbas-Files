@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
+    <cheat desc="无限投币" default="0">
+	<option desc="关闭"/>
+	<option desc="开启">
+		<parameter cpu="0" address="0x10FE00" value="0x09"/>
+		<parameter cpu="0" address="0x10E008" value="0x09"/>
+		<parameter cpu="0" address="0x10E009" value="0x09"/>
+	</option>
+    </cheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
         <option desc="无限时间">
@@ -9,12 +17,7 @@
             <parameter cpu="0" address="0x107490" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc="无限投币数 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x10E008" value="0x09"/>
-        </option>
-    </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -222,12 +225,7 @@
             <parameter cpu="0" address="0x1074C3" value="0x0E"/>
         </option>
     </cheat>
-    <cheat desc="无限投币数 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x10E009" value="0x09"/>
-        </option>
-    </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">

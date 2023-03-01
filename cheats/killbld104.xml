@@ -3,22 +3,14 @@
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
         <option desc="无限时间">
-            <parameter cpu="0" address="0x80B3C9" value="0x63"/>
+            <parameter cpu="0" address="0x80B3C9" 
+value="0x63"/>  
         </option>
         <option desc="过关!">
             <parameter cpu="0" address="0x80B3C9" value="0x00"/>
         </option>
     </cheat>
     <cheat desc=" "/>
-    <cheat desc="选择隐藏角色 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="刀客">
-            <parameter cpu="0" address="0x80B096" value="0x0D"/>
-        </option>
-        <option desc="血魔">
-            <parameter cpu="0" address="0x80BFBC" value="0x0E"/>
-        </option>
-    </cheat>
     <cheat desc="血量选择 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限血量">

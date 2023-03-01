@@ -9,6 +9,7 @@
             <parameter cpu="0" address="0x10092A" value="0x00"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -21,21 +22,22 @@
             <parameter cpu="0" address="0x1003CB" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc="使用游戏角色Billy Kane PL1" default="0">
+    <cheat desc="选择BOSS角色 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="使用游戏角色Billy Kane PL1">
+        <option desc="比利 PL1">
             <parameter cpu="0" address="0x102693" value="0x09"/>
         </option>
-        <option desc="使用游戏角色Axel Hawk PL1">
+        <option desc="霍克 PL1">
             <parameter cpu="0" address="0x102693" value="0x0A"/>
         </option>
-        <option desc="使用游戏角色Laurence Blood PL1">
+        <option desc="劳伦斯 PL1">
             <parameter cpu="0" address="0x102693" value="0x0B"/>
         </option>
-        <option desc="使用游戏角色Wolfgang Krauser PL1">
+        <option desc="克劳撒 PL1">
             <parameter cpu="0" address="0x102693" value="0x0C"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -48,21 +50,22 @@
             <parameter cpu="0" address="0x1004CB" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc="使用游戏角色Billy Kane PL2" default="0">
+    <cheat desc="选择BOSS角色 PL2" default="0">
         <option desc="关闭"/>
-        <option desc="使用游戏角色Billy Kane PL2">
+        <option desc="比利 PL2">
             <parameter cpu="0" address="0x102793" value="0x09"/>
         </option>
-        <option desc="使用游戏角色Axel Hawk PL2">
+        <option desc="霍克 PL2">
             <parameter cpu="0" address="0x102793" value="0x0A"/>
         </option>
-        <option desc="使用游戏角色Laurence Blood PL2">
+        <option desc="劳伦斯 PL2">
             <parameter cpu="0" address="0x102793" value="0x0B"/>
         </option>
-        <option desc="使用游戏角色Wolfgang Krauser PL2">
+        <option desc="克劳撒 PL2">
             <parameter cpu="0" address="0x102793" value="0x0C"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
         <option desc="关闭"/>
         <option desc="街机 (MVS)">
@@ -117,7 +120,7 @@
             <parameter cpu="0" address="0x10AAD5" value="0x0C"/>
         </option>
     </cheat>
-
+	<cheat desc=" "/>
     <cheat desc="快速动作 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -300,6 +303,7 @@
             <parameter cpu="0" address="0x10AB29" value="0x08"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="容易使出Power Geyser PL2" default="0">
         <option desc="关闭"/>
         <option desc="容易使出Power Geyser PL2">

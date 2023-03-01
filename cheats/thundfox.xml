@@ -31,7 +31,7 @@
             <parameter cpu="0" address="0x303C6F" value="0x63"/>
         </option>
     </cheat>
-    <cheat desc="选择武器（游戏中选择死后才会生效） PL1" default="0">
+    <cheat desc="选择武器（游戏中选择死后才会生效） PL1" default="0"> 
         <option desc="关闭"/>
         <option desc="刀">
             <parameter cpu="0" address="0x303C6E" value="0x04"/>
@@ -52,7 +52,7 @@
             <parameter cpu="0" address="0x303C6E" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="选择交通工具 PL1" default="0">
+    <cheat desc="选择交通工具 PL1" default="0"> 
         <option desc="关闭"/>
         <option desc="无交通工具">
             <parameter cpu="0" address="0x300037" value="0x00"/>
@@ -89,7 +89,7 @@
             <parameter cpu="0" address="0x303C81" value="0x63"/>
         </option>
     </cheat>
-    <cheat desc="选择武器（游戏中选择死后才会生效） PL2" default="0">
+    <cheat desc="选择武器（游戏中选择死后才会生效） PL2" default="0"> 
         <option desc="关闭"/>
         <option desc="刀">
             <parameter cpu="0" address="0x303C80" value="0x04"/>
@@ -110,7 +110,7 @@
             <parameter cpu="0" address="0x303C80" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="选择交通工具 PL2" default="0">
+    <cheat desc="选择交通工具 PL2" default="0"> 
         <option desc="关闭"/>
         <option desc="无交通工具">
             <parameter cpu="0" address="0x300077" value="0x00"/>

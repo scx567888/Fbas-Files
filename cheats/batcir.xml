@@ -6,6 +6,27 @@
             <parameter cpu="0" address="0xFF5863" value="0x09"/>
         </option>
     </cheat>
+    <cheat desc="对一些敌人一击必杀" default="0">
+        <option desc="关闭"/>
+        <option desc="一击必杀">
+            <parameter cpu="0" address="0xFF07EA" value="0x00"/>
+            <parameter cpu="0" address="0xFF07EF" value="0x00"/>
+            <parameter cpu="0" address="0xFFAD6B" value="0x00"/>
+            <parameter cpu="0" address="0xFFAD6D" value="0x00"/>
+            <parameter cpu="0" address="0xFFAE2B" value="0x00"/>
+            <parameter cpu="0" address="0xFFAE2D" value="0x00"/>
+            <parameter cpu="0" address="0xFFCD3F" value="0x00"/>
+        </option>
+        <option desc="打不死">
+            <parameter cpu="0" address="0xFF07EA" value="0x99"/>
+            <parameter cpu="0" address="0xFF07EF" value="0x99"/>
+            <parameter cpu="0" address="0xFFAD6B" value="0x99"/>
+            <parameter cpu="0" address="0xFFAD6D" value="0x99"/>
+            <parameter cpu="0" address="0xFFAE2B" value="0x99"/>
+            <parameter cpu="0" address="0xFFAE2D" value="0x99"/>
+            <parameter cpu="0" address="0xFFCD3F" value="0x99"/>
+        </option>
+    </cheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -66,7 +87,7 @@
             <parameter cpu="0" address="0xFF58C4" value="0x05"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -81,9 +102,138 @@
         </option>
     </cheat>
     <cheat desc="强力击打 PL1" default="0">
+	<option desc="关闭"/>
+	<option desc="开启">
+	    <parameter cpu="0" address="0xFF8311" value="0x0C"/>
+	</option>
+    </cheat>
+    <cheat desc="选择分数 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8311" value="0x0C"/>
+        <option desc="25万">
+            <parameter cpu="0" address="0xFF832A" value="0x00"/>
+            <parameter cpu="0" address="0xFF832B" value="0x25"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="56万">
+            <parameter cpu="0" address="0xFF832A" value="0x00"/>
+            <parameter cpu="0" address="0xFF832B" value="0x56"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="60万">
+            <parameter cpu="0" address="0xFF832A" value="0x00"/>
+            <parameter cpu="0" address="0xFF832B" value="0x60"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="57万">
+            <parameter cpu="0" address="0xFF832A" value="0x00"/>
+            <parameter cpu="0" address="0xFF832B" value="0x57"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="83万">
+            <parameter cpu="0" address="0xFF832A" value="0x00"/>
+            <parameter cpu="0" address="0xFF832B" value="0x83"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="100万">
+            <parameter cpu="0" address="0xFF832A" value="0x01"/>
+            <parameter cpu="0" address="0xFF832B" value="0x00"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="152万">
+            <parameter cpu="0" address="0xFF832A" value="0x01"/>
+            <parameter cpu="0" address="0xFF832B" value="0x52"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="195万">
+            <parameter cpu="0" address="0xFF832A" value="0x01"/>
+            <parameter cpu="0" address="0xFF832B" value="0x95"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="210万">
+            <parameter cpu="0" address="0xFF832A" value="0x02"/>
+            <parameter cpu="0" address="0xFF832B" value="0x10"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="260万">
+            <parameter cpu="0" address="0xFF832A" value="0x02"/>
+            <parameter cpu="0" address="0xFF832B" value="0x60"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="310万">
+            <parameter cpu="0" address="0xFF832A" value="0x03"/>
+            <parameter cpu="0" address="0xFF832B" value="0x10"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+
+        <option desc="380万">
+            <parameter cpu="0" address="0xFF832A" value="0x08"/>
+            <parameter cpu="0" address="0xFF832B" value="0x80"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="470万">
+            <parameter cpu="0" address="0xFF832A" value="0x04"/>
+            <parameter cpu="0" address="0xFF832B" value="0x70"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="570万">
+            <parameter cpu="0" address="0xFF832A" value="0x05"/>
+            <parameter cpu="0" address="0xFF832B" value="0x70"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="680万">
+            <parameter cpu="0" address="0xFF832A" value="0x06"/>
+            <parameter cpu="0" address="0xFF832B" value="0x80"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="800万">
+            <parameter cpu="0" address="0xFF832A" value="0x08"/>
+            <parameter cpu="0" address="0xFF832B" value="0x00"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="930万">
+            <parameter cpu="0" address="0xFF832A" value="0x09"/>
+            <parameter cpu="0" address="0xFF832B" value="0x30"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1070万">
+            <parameter cpu="0" address="0xFF832A" value="0x10"/>
+            <parameter cpu="0" address="0xFF832B" value="0x70"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1220万">
+            <parameter cpu="0" address="0xFF832A" value="0x12"/>
+            <parameter cpu="0" address="0xFF832B" value="0x20"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1380万">
+            <parameter cpu="0" address="0xFF832A" value="0x13"/>
+            <parameter cpu="0" address="0xFF832B" value="0x80"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1550万">
+            <parameter cpu="0" address="0xFF832A" value="0x15"/>
+            <parameter cpu="0" address="0xFF832B" value="0x50"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1720万">
+            <parameter cpu="0" address="0xFF832A" value="0x17"/>
+            <parameter cpu="0" address="0xFF832B" value="0x20"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1730万">
+            <parameter cpu="0" address="0xFF832A" value="0x17"/>
+            <parameter cpu="0" address="0xFF832B" value="0x30"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1740万">
+            <parameter cpu="0" address="0xFF832A" value="0x17"/>
+            <parameter cpu="0" address="0xFF832B" value="0x40"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
+        </option>
+        <option desc="1750万">
+            <parameter cpu="0" address="0xFF832A" value="0x17"/>
+            <parameter cpu="0" address="0xFF832B" value="0x50"/>
+            <parameter cpu="0" address="0xFF832C" value="0x00"/>
         </option>
     </cheat>
     <cheat desc="无敌 PL1" default="0">
@@ -92,11 +242,30 @@
             <parameter cpu="0" address="0xFF830C" value="0x03"/>
         </option>
     </cheat>
+    <cheat desc="所有特技升级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF833C" value="0xBF"/>
+        </option>
+    </cheat>
+    <cheat desc="每次攻击伤害最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF831A" value="0x01"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0xFF831A" value="0x00"/>
+        </option>
+    </cheat>
     <cheat desc="无限金钱 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFF8328" value="0x27"/>
             <parameter cpu="0" address="0xFF8329" value="0x0F"/>
+        </option>
+        <option desc="100">
+            <parameter cpu="0" address="0xFF8328" value="0x27"/>
+            <parameter cpu="0" address="0xFF8329" value="0x00"/>
         </option>
     </cheat>
     <cheat desc="无限特殊技 PL1" default="0">
@@ -105,7 +274,7 @@
             <parameter cpu="0" address="0xFF833E" value="0x05"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -120,15 +289,30 @@
         </option>
     </cheat>
     <cheat desc="强力击打 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
+	<option desc="关闭"/>
+	<option desc="开启">
             <parameter cpu="0" address="0xFF8451" value="0x0C"/>
-        </option>
+	</option>
     </cheat>
     <cheat desc="无敌 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFF844C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="所有特技升级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF847C" value="0xBF"/>
+        </option>
+    </cheat>
+    <cheat desc="每次攻击伤害最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF845A" value="0x01"/>
+        </option>
+        <option desc="强制取消">
+            <parameter cpu="0" address="0xFF845A" value="0x00"/>
         </option>
     </cheat>
     <cheat desc="无限金钱 PL2" default="0">
@@ -144,7 +328,7 @@
             <parameter cpu="0" address="0xFF847E" value="0x05"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -158,10 +342,31 @@
             <parameter cpu="0" address="0xFF856B" value="0x80"/>
         </option>
     </cheat>
+    <cheat desc="强力击打 PL3" default="0">
+	<option desc="关闭"/>
+	<option desc="开启">
+            <parameter cpu="0" address="0xFF8591" value="0x0C"/>
+	</option>
+    </cheat>
     <cheat desc="无敌 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFF858C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="所有特技升级 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85BC" value="0xBF"/>
+        </option>
+    </cheat>
+    <cheat desc="每次攻击伤害最大 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF859A" value="0x01"/>
+        </option>
+        <option desc="强制取消">
+            <parameter cpu="0" address="0xFF859A" value="0x00"/>
         </option>
     </cheat>
     <cheat desc="无限金钱 PL3" default="0">
@@ -177,7 +382,7 @@
             <parameter cpu="0" address="0xFF85BE" value="0x05"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -191,10 +396,31 @@
             <parameter cpu="0" address="0xFF86AB" value="0x80"/>
         </option>
     </cheat>
+    <cheat desc="强力击打 PL4" default="0">
+	<option desc="关闭"/>
+	<option desc="开启">
+            <parameter cpu="0" address="0xFF86D1" value="0x0C"/>
+	</option>
+    </cheat>
     <cheat desc="无敌 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFF86CC" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="所有特技升级 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86FC" value="0xBF"/>
+        </option>
+    </cheat>
+    <cheat desc="每次攻击伤害最大 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86DA" value="0x01"/>
+        </option>
+        <option desc="强制取消">
+            <parameter cpu="0" address="0xFF86DA" value="0x00"/>
         </option>
     </cheat>
     <cheat desc="无限金钱 PL4" default="0">

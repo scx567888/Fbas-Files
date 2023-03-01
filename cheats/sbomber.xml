@@ -28,6 +28,7 @@
             <parameter cpu="0" address="0x601981D" value="0x06"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -56,6 +57,7 @@
             <parameter cpu="0" address="0x601981F" value="0x06"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="选择大关" default="0">
         <option desc="关闭"/>
         <option desc="1=-1">
@@ -78,7 +80,7 @@
         </option>
         <option desc="结局动画">
             <parameter cpu="0" address="0x600E89E" value="0x06"/>
-        </option>
+        </option>    
     </cheat>
     <cheat desc="选择小关" default="0">
         <option desc="关闭"/>
@@ -94,5 +96,5 @@
         <option desc="4">
             <parameter cpu="0" address="0x600E89F" value="0x03"/>
         </option>
-    </cheat>
+     </cheat>
 </shufflecheat>

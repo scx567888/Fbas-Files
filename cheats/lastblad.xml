@@ -1,163 +1,171 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-    <cheat desc="无限时间" default="0">
+    <cheat desc="无限投币" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0x10E32B" value="0x61"/>
+            <parameter cpu="0" address="0x10FE00" value="0x09"/>
+            <parameter cpu="0" address="0x109D92" value="0x09"/>
+            <parameter cpu="0" address="0x109D93" value="0x09"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
-    <cheat desc="下列两个故事都可以使用角色枫,雪和御名方守矢"/>
-    <cheat desc="故事2 (关卡8)可以使用下列角色,"/>
-    <cheat desc="神崎十三,一条明,鹫冢庆一郎,紫镜,玄武之翁,直卫示源"/>
-    <cheat desc="这些修改都必须在角色选择画面激活"/>
-    <cheat desc=" "/>
-    <cheat desc="故事1 (关卡7)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x10AC43" value="0x06"/>
-        </option>
-    </cheat>
-    <cheat desc="故事2 (关卡8)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x10AC43" value="0x07"/>
-        </option>
-    </cheat>
-    <cheat desc="这些boss作弊码必须在角色选择画面激活"/>
-    <cheat desc="首位BOSS" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x10AC43" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="最后一个BOSS" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x10AC43" value="0x09"/>
-        </option>
-    </cheat>
-    <cheat desc="选择下一个电影" default="0">
-        <option desc="关闭"/>
-        <option desc="中间电影">
-            <parameter cpu="0" address="0x10AC43" value="0x03"/>
-        </option>
-        <option desc="首位BOSS电影">
-            <parameter cpu="0" address="0x10AC43" value="0x07"/>
-        </option>
-        <option desc="中间BOSS电影">
-            <parameter cpu="0" address="0x10AC43" value="0x08"/>
-        </option>
-        <option desc="结局电影">
-            <parameter cpu="0" address="0x10AC43" value="0x09"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="选择游戏角色 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="枫">
-            <parameter cpu="0" address="0x10EAAD" value="0x00"/>
-        </option>
-        <option desc="御名方守矢">
-            <parameter cpu="0" address="0x10EAAD" value="0x01"/>
-        </option>
-        <option desc="雪">
-            <parameter cpu="0" address="0x10EAAD" value="0x02"/>
-        </option>
-        <option desc="玄武之翁">
-            <parameter cpu="0" address="0x10EAAD" value="0x03"/>
-        </option>
-        <option desc="一条明">
-            <parameter cpu="0" address="0x10EAAD" value="0x04"/>
-        </option>
-        <option desc="神崎十三">
-            <parameter cpu="0" address="0x10EAAD" value="0x05"/>
-        </option>
-        <option desc="鹫冢庆一郎">
-            <parameter cpu="0" address="0x10EAAD" value="0x06"/>
-        </option>
-        <option desc="紫镜">
-            <parameter cpu="0" address="0x10EAAD" value="0x07"/>
-        </option>
-        <option desc="天野漂">
-            <parameter cpu="0" address="0x10EAAD" value="0x08"/>
-        </option>
-        <option desc="李典德">
-            <parameter cpu="0" address="0x10EAAD" value="0x09"/>
-        </option>
-        <option desc="斩铁">
-            <parameter cpu="0" address="0x10EAAD" value="0x0A"/>
-        </option>
-        <option desc="直卫示源">
-            <parameter cpu="0" address="0x10EAAD" value="0x0B"/>
-        </option>
-        <option desc="晓武藏">
-            <parameter cpu="0" address="0x10EAAD" value="0x0C"/>
-        </option>
-        <option desc="嘉神慎之介">
-            <parameter cpu="0" address="0x10EAAD" value="0x0D"/>
-        </option>
-        <option desc="觉醒后的枫">
-            <parameter cpu="0" address="0x10EAAD" value="0x0E"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="选择游戏角色 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="枫">
-            <parameter cpu="0" address="0x10EAAF" value="0x00"/>
-        </option>
-        <option desc="御名方守矢">
-            <parameter cpu="0" address="0x10EAAF" value="0x01"/>
-        </option>
-        <option desc="雪">
-            <parameter cpu="0" address="0x10EAAF" value="0x02"/>
-        </option>
-        <option desc="玄武之翁">
-            <parameter cpu="0" address="0x10EAAF" value="0x03"/>
-        </option>
-        <option desc="一条明">
-            <parameter cpu="0" address="0x10EAAF" value="0x04"/>
-        </option>
-        <option desc="神崎十三">
-            <parameter cpu="0" address="0x10EAAF" value="0x05"/>
-        </option>
-        <option desc="鹫冢庆一郎">
-            <parameter cpu="0" address="0x10EAAF" value="0x06"/>
-        </option>
-        <option desc="紫镜">
-            <parameter cpu="0" address="0x10EAAF" value="0x07"/>
-        </option>
-        <option desc="天野漂">
-            <parameter cpu="0" address="0x10EAAF" value="0x08"/>
-        </option>
-        <option desc="李典德">
-            <parameter cpu="0" address="0x10EAAF" value="0x09"/>
-        </option>
-        <option desc="斩铁">
-            <parameter cpu="0" address="0x10EAAF" value="0x0A"/>
-        </option>
-        <option desc="直卫示源">
-            <parameter cpu="0" address="0x10EAAF" value="0x0B"/>
-        </option>
-        <option desc="晓武藏">
-            <parameter cpu="0" address="0x10EAAF" value="0x0C"/>
-        </option>
-        <option desc="嘉神慎之介">
-            <parameter cpu="0" address="0x10EAAF" value="0x0D"/>
-        </option>
-        <option desc="觉醒后的枫">
-            <parameter cpu="0" address="0x10EAAF" value="0x0E"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="Select Cartridge/NeoGeo Type" default="0">
-        <option desc="关闭"/>
-        <option desc="街机 (MVS)">
-            <parameter cpu="0" address="0x10FD82" value="0x80"/>
-        </option>
-        <option desc="家机 (NEOGEO)">
-            <parameter cpu="0" address="0x10FD82" value="0x00"/>
-        </option>
-    </cheat>
+	<cheat desc="无限时间" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E32B" value="0x61"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="下列两个故事都可以使用角色枫,雪和御名方守矢"/>
+	<cheat desc="故事2 (关卡8)可以使用下列角色,"/>
+	<cheat desc="神崎十三,一条明,鹫冢庆一郎,紫镜,玄武之翁,直卫示源"/>
+	<cheat desc="这些修改都必须在角色选择画面激活"/>
+	<cheat desc=" "/>
+	<cheat desc="故事1 (关卡7)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10AC43" value="0x06"/>
+		</option>
+	</cheat>
+	<cheat desc="故事2 (关卡8)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10AC43" value="0x07"/>
+		</option>
+	</cheat>
+	<cheat desc="这些boss作弊码必须在角色选择画面激活"/>
+	<cheat desc="首位BOSS" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10AC43" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="最后一个BOSS" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10AC43" value="0x09"/>
+		</option>
+	</cheat>
+	<cheat desc="选择下一个电影" default="0">
+		<option desc="关闭"/>
+		<option desc="中间电影">
+			<parameter cpu="0" address="0x10AC43" value="0x03"/>
+		</option>
+		<option desc="首位BOSS电影">
+			<parameter cpu="0" address="0x10AC43" value="0x07"/>
+		</option>
+		<option desc="中间BOSS电影">
+			<parameter cpu="0" address="0x10AC43" value="0x08"/>
+		</option>
+		<option desc="结局电影">
+			<parameter cpu="0" address="0x10AC43" value="0x09"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="枫">
+			<parameter cpu="0" address="0x10EAAD" value="0x00"/>
+		</option>
+		<option desc="御名方守矢">
+			<parameter cpu="0" address="0x10EAAD" value="0x01"/>
+		</option>
+		<option desc="雪">
+			<parameter cpu="0" address="0x10EAAD" value="0x02"/>
+		</option>
+		<option desc="玄武之翁">
+			<parameter cpu="0" address="0x10EAAD" value="0x03"/>
+		</option>
+		<option desc="一条明">
+			<parameter cpu="0" address="0x10EAAD" value="0x04"/>
+		</option>
+		<option desc="神崎十三">
+			<parameter cpu="0" address="0x10EAAD" value="0x05"/>
+		</option>
+		<option desc="鹫冢庆一郎">
+			<parameter cpu="0" address="0x10EAAD" value="0x06"/>
+		</option>
+		<option desc="紫镜">
+			<parameter cpu="0" address="0x10EAAD" value="0x07"/>
+		</option>
+		<option desc="天野漂">
+			<parameter cpu="0" address="0x10EAAD" value="0x08"/>
+		</option>
+		<option desc="李典德">
+			<parameter cpu="0" address="0x10EAAD" value="0x09"/>
+		</option>
+		<option desc="斩铁">
+			<parameter cpu="0" address="0x10EAAD" value="0x0A"/>
+		</option>
+		<option desc="直卫示源">
+			<parameter cpu="0" address="0x10EAAD" value="0x0B"/>
+		</option>
+		<option desc="晓武藏">
+			<parameter cpu="0" address="0x10EAAD" value="0x0C"/>
+		</option>
+		<option desc="嘉神慎之介">
+			<parameter cpu="0" address="0x10EAAD" value="0x0D"/>
+		</option>
+		<option desc="觉醒后的枫">
+			<parameter cpu="0" address="0x10EAAD" value="0x0E"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="枫">
+			<parameter cpu="0" address="0x10EAAF" value="0x00"/>
+		</option>
+		<option desc="御名方守矢">
+			<parameter cpu="0" address="0x10EAAF" value="0x01"/>
+		</option>
+		<option desc="雪">
+			<parameter cpu="0" address="0x10EAAF" value="0x02"/>
+		</option>
+		<option desc="玄武之翁">
+			<parameter cpu="0" address="0x10EAAF" value="0x03"/>
+		</option>
+		<option desc="一条明">
+			<parameter cpu="0" address="0x10EAAF" value="0x04"/>
+		</option>
+		<option desc="神崎十三">
+			<parameter cpu="0" address="0x10EAAF" value="0x05"/>
+		</option>
+		<option desc="鹫冢庆一郎">
+			<parameter cpu="0" address="0x10EAAF" value="0x06"/>
+		</option>
+		<option desc="紫镜">
+			<parameter cpu="0" address="0x10EAAF" value="0x07"/>
+		</option>
+		<option desc="天野漂">
+			<parameter cpu="0" address="0x10EAAF" value="0x08"/>
+		</option>
+		<option desc="李典德">
+			<parameter cpu="0" address="0x10EAAF" value="0x09"/>
+		</option>
+		<option desc="斩铁">
+			<parameter cpu="0" address="0x10EAAF" value="0x0A"/>
+		</option>
+		<option desc="直卫示源">
+			<parameter cpu="0" address="0x10EAAF" value="0x0B"/>
+		</option>
+		<option desc="晓武藏">
+			<parameter cpu="0" address="0x10EAAF" value="0x0C"/>
+		</option>
+		<option desc="嘉神慎之介">
+			<parameter cpu="0" address="0x10EAAF" value="0x0D"/>
+		</option>
+		<option desc="觉醒后的枫">
+			<parameter cpu="0" address="0x10EAAF" value="0x0E"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="Select Cartridge/NeoGeo Type" default="0">
+		<option desc="关闭"/>
+		<option desc="街机 (MVS)">
+			<parameter cpu="0" address="0x10FD82" value="0x80"/>
+		</option>
+		<option desc="家机 (NEOGEO)">
+			<parameter cpu="0" address="0x10FD82" value="0x00"/>
+		</option>
+	</cheat>
 </shufflecheat>

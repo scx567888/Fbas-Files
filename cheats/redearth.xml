@@ -27,7 +27,7 @@
             <parameter cpu="0" address="0x2060701" value="0x9A"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="选择无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="1人游戏时">
@@ -264,7 +264,7 @@
             <parameter cpu="0" address="0x206A98F" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无敌 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -501,7 +501,7 @@
             <parameter cpu="0" address="0x206AC0F" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="选择背景" default="0">
         <option desc="关闭"/>
         <option desc="Hauzer ">
@@ -550,518 +550,518 @@
             <parameter cpu="0" address="0x2060717" value="0x04"/>
         </option>
     </cheat>
-    <cheat desc="[          容易出招 PL1          ]"/>
-    <cheat desc="[ 利奥 ]"/>
-    <cheat desc="容易出阿喀琉斯斩 (究极防御技成功后) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A920" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出阿喀琉斯下斩 (究极防御技成功后) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A91E" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出冲刺斩 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A904" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出马祖斩 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90A" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出阿基里斯冲斩 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A906" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出更换武器 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A908" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出盖亚打桩 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90C" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出武仙座冲刺 PL1 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A918" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出终极盖亚打桩 PL1 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A91A" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="[ 骸 ]"/>
-    <cheat desc="容易出肝破 (究极防御技成功后) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A920" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出小袖返 (究极防御技成功后) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A91E" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出一文字 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A904" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出螺旋脚 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A906" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出旋风 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A908" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出爆龙升 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90A" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出阎魔突 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90C" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出蜻蛉 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A912" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空蝉 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90E" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出罗刹刃 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A910" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出十文字 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A918" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出焰旋风 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A91A" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="[ 塔巴莎 ]"/>
-    <cheat desc="容易出天使之锤 (究极防御技成功后) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A920" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出查卡拉波 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A904" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出幻想之刃 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A906" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空中查卡拉波 PL1 (只能在空中)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A908" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出冰冻大炮 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90A" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出火焰大炮 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90C" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出雷电大炮 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90E" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出幽灵干扰 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A910" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出死亡镰刀 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A912" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出三角刀刃 PL1 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A918" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出超级大炮 PL1 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A91A" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="[ 桃 ]"/>
-    <cheat desc="容易出鹰空破 (究极防御技成功后) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A920" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出虎空破 (究极防御技成功后) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A91E" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空刃拳 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A904" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出炎龙脚 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A906" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出红鹤蹴 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90E" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出弧炎 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A908" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空击掌 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A910" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出天坠牙 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A90A" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出超空刃拳 PL1 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A918" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出超炎龙脚 PL1 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206A91A" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="[          容易出招 PL2          ]"/>
-    <cheat desc="[ 利奥 ]"/>
-    <cheat desc="容易出阿喀琉斯斩 (究极防御技成功后) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206ABA0" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出阿喀琉斯下斩 (究极防御技成功后) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB9E" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出冲刺斩 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB84" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出马祖斩 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8A" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出阿基里斯冲斩 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB86" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出更换武器 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB88" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出盖亚打桩 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8C" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出武仙座冲刺 PL2 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB98" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出终极盖亚打桩 PL2 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB9A" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="[ 骸 ]"/>
-    <cheat desc="容易出肝破 (究极防御技成功后) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206ABA0" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出小袖返 (究极防御技成功后) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB9E" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出一文字 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB84" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出螺旋脚 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB86" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出旋风 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB88" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出爆龙升 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8A" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出阎魔突 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8C" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出蜻蛉 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB92" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空蝉 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8E" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出罗刹刃 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB90" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出十文字 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB98" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出焰旋风 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB9A" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="[ 塔巴莎 ]"/>
-    <cheat desc="容易出天使之锤 (究极防御技成功后) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206ABA0" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出查卡拉波 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB84" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出幻想之刃 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB86" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空中查卡拉波 PL2 (只能在空中)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB88" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出冰冻大炮 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8A" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出火焰大炮 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8C" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出雷电大炮 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8E" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出幽灵干扰 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB90" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出死亡镰刀 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB92" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出三角刀刃 PL2 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB98" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出超级大炮 PL2 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB9A" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="[ 桃 ]"/>
-    <cheat desc="容易出鹰空破 (究极防御技成功后) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206ABA0" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出虎空破 (究极防御技成功后) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB9E" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空刃拳 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB84" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出炎龙脚 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB86" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出红鹤蹴 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8E" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出弧炎 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB88" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出空击掌 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB90" value="0x04"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出天坠牙 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB8A" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出超空刃拳 PL2 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB98" value="0x05"/>
-        </option>
-    </cheat>
-    <cheat desc="容易出超炎龙脚 PL2 (必须有一颗宝珠)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x206AB9A" value="0x05"/>
-        </option>
-    </cheat>
+	<cheat desc="[          容易出招 PL1          ]"/>
+	<cheat desc="[ 利奥 ]"/>
+	<cheat desc="容易出阿喀琉斯斩 (究极防御技成功后) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A920" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出阿喀琉斯下斩 (究极防御技成功后) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A91E" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出冲刺斩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A904" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出马祖斩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90A" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出阿基里斯冲斩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A906" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出更换武器 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A908" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出盖亚打桩 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90C" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出武仙座冲刺 PL1 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A918" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出终极盖亚打桩 PL1 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A91A" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 骸 ]"/>
+	<cheat desc="容易出肝破 (究极防御技成功后) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A920" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出小袖返 (究极防御技成功后) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A91E" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出一文字 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A904" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出螺旋脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A906" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出旋风 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A908" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出爆龙升 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90A" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出阎魔突 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90C" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出蜻蛉 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A912" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空蝉 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90E" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出罗刹刃 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A910" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出十文字 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A918" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出焰旋风 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A91A" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 塔巴莎 ]"/>
+	<cheat desc="容易出天使之锤 (究极防御技成功后) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A920" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出查卡拉波 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A904" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出幻想之刃 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A906" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空中查卡拉波 PL1 (只能在空中)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A908" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出冰冻大炮 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90A" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出火焰大炮 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90C" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出雷电大炮 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90E" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出幽灵干扰 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A910" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出死亡镰刀 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A912" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出三角刀刃 PL1 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A918" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出超级大炮 PL1 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A91A" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 桃 ]"/>
+	<cheat desc="容易出鹰空破 (究极防御技成功后) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A920" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出虎空破 (究极防御技成功后) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A91E" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空刃拳 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A904" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出炎龙脚 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A906" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出红鹤蹴 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90E" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出弧炎 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A908" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空击掌 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A910" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出天坠牙 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A90A" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出超空刃拳 PL1 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A918" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出超炎龙脚 PL1 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206A91A" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="[          容易出招 PL2          ]"/>
+	<cheat desc="[ 利奥 ]"/>
+	<cheat desc="容易出阿喀琉斯斩 (究极防御技成功后) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206ABA0" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出阿喀琉斯下斩 (究极防御技成功后) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB9E" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出冲刺斩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB84" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出马祖斩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8A" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出阿基里斯冲斩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB86" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出更换武器 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB88" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出盖亚打桩 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8C" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出武仙座冲刺 PL2 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB98" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出终极盖亚打桩 PL2 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB9A" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 骸 ]"/>
+	<cheat desc="容易出肝破 (究极防御技成功后) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206ABA0" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出小袖返 (究极防御技成功后) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB9E" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出一文字 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB84" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出螺旋脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB86" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出旋风 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB88" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出爆龙升 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8A" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出阎魔突 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8C" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出蜻蛉 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB92" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空蝉 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8E" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出罗刹刃 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB90" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出十文字 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB98" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出焰旋风 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB9A" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 塔巴莎 ]"/>
+	<cheat desc="容易出天使之锤 (究极防御技成功后) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206ABA0" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出查卡拉波 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB84" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出幻想之刃 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB86" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空中查卡拉波 PL2 (只能在空中)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB88" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出冰冻大炮 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8A" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出火焰大炮 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8C" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出雷电大炮 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8E" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出幽灵干扰 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB90" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出死亡镰刀 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB92" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出三角刀刃 PL2 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB98" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出超级大炮 PL2 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB9A" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="[ 桃 ]"/>
+	<cheat desc="容易出鹰空破 (究极防御技成功后) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206ABA0" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出虎空破 (究极防御技成功后) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB9E" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空刃拳 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB84" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出炎龙脚 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB86" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出红鹤蹴 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8E" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出弧炎 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB88" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出空击掌 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB90" value="0x04"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出天坠牙 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB8A" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出超空刃拳 PL2 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB98" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc="容易出超炎龙脚 PL2 (必须有一颗宝珠)" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x206AB9A" value="0x05"/>
+		</option>
+	</cheat>
 </shufflecheat>

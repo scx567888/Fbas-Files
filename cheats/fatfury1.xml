@@ -18,6 +18,7 @@
             <parameter cpu="0" address="0x1042F5" value="0x1E"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -33,51 +34,53 @@
             <parameter cpu="0" address="0x1003B9" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="使用游戏角色Terry Bogard PL1" default="0">
+    <cheat desc="[ 回合开始后再开启选择，否则死机 ]"/>
+    <cheat desc="选择角色 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="使用游戏角色Terry Bogard PL1">
+        <option desc="特瑞 PL1">
             <parameter cpu="0" address="0x100331" value="0x01"/>
         </option>
-        <option desc="使用游戏角色Andy Bogard PL1">
+        <option desc="安迪 PL1">
             <parameter cpu="0" address="0x100331" value="0x02"/>
         </option>
-        <option desc="使用游戏角色Joe Higashi PL1">
+        <option desc="东丈 PL1">
             <parameter cpu="0" address="0x100331" value="0x03"/>
         </option>
-        <option desc="使用游戏角色Duck King PL1">
+        <option desc="达克 PL1">
             <parameter cpu="0" address="0x100331" value="0x04"/>
         </option>
-        <option desc="使用游戏角色Richard Myer PL1">
+        <option desc="米亚 PL1">
             <parameter cpu="0" address="0x100331" value="0x05"/>
         </option>
-        <option desc="使用游戏角色Michael Max PL1">
+        <option desc="麦克斯 PL1">
             <parameter cpu="0" address="0x100331" value="0x06"/>
         </option>
-        <option desc="使用游戏角色Tung Fu Rue PL1">
+        <option desc="唐葫芦 PL1">
             <parameter cpu="0" address="0x100331" value="0x07"/>
         </option>
-        <option desc="使用游戏角色Hwa Jai PL1">
+        <option desc="霍查 PL1">
             <parameter cpu="0" address="0x100331" value="0x08"/>
         </option>
-        <option desc="使用游戏角色Raiden PL1">
+        <option desc="雷电 PL1">
             <parameter cpu="0" address="0x100331" value="0x09"/>
         </option>
-        <option desc="使用游戏角色Billy Kane PL1">
+        <option desc="比利 PL1">
             <parameter cpu="0" address="0x100331" value="0x0A"/>
         </option>
-        <option desc="使用游戏角色Geese Howard PL1">
+        <option desc="基斯 PL1">
             <parameter cpu="0" address="0x100331" value="0x0B"/>
         </option>
-        <option desc="使用游戏角色''Reverse'' Myer PL1">
+        <option desc="倒立的米亚 PL1">
             <parameter cpu="0" address="0x100331" value="0x0C"/>
         </option>
-        <option desc="使用游戏角色''Beast'' Tung Fu Rue PL1">
+        <option desc="刚灵身唐葫芦 PL1">
             <parameter cpu="0" address="0x100331" value="0x0D"/>
         </option>
-        <option desc="使用游戏角色''Drunk'' Hwa Jai PL1">
+        <option desc="醉酒状态霍查 PL1">
             <parameter cpu="0" address="0x100331" value="0x0E"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -89,51 +92,53 @@
             <parameter cpu="0" address="0x1004B9" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="使用游戏角色Terry Bogard PL2" default="0">
+    <cheat desc="[ 回合开始后再开启选择，否则死机 ]"/>
+    <cheat desc="选择角色 PL2" default="0">
         <option desc="关闭"/>
-        <option desc="使用游戏角色Terry Bogard PL2">
+        <option desc="特瑞 PL2">
             <parameter cpu="0" address="0x100431" value="0x01"/>
         </option>
-        <option desc="使用游戏角色Andy Bogard PL2">
+        <option desc="安迪 PL2">
             <parameter cpu="0" address="0x100431" value="0x02"/>
         </option>
-        <option desc="使用游戏角色Joe Higashi PL2">
+        <option desc="东丈 PL2">
             <parameter cpu="0" address="0x100431" value="0x03"/>
         </option>
-        <option desc="使用游戏角色Duck King PL2">
+        <option desc="达克 PL2">
             <parameter cpu="0" address="0x100431" value="0x04"/>
         </option>
-        <option desc="使用游戏角色Richard Myer PL2">
+        <option desc="米亚 PL2">
             <parameter cpu="0" address="0x100431" value="0x05"/>
         </option>
-        <option desc="使用游戏角色Michael Max PL2">
+        <option desc="麦克斯 PL2">
             <parameter cpu="0" address="0x100431" value="0x06"/>
         </option>
-        <option desc="使用游戏角色Tung Fu Rue PL2">
+        <option desc="唐葫芦 PL2">
             <parameter cpu="0" address="0x100431" value="0x07"/>
         </option>
-        <option desc="使用游戏角色Hwa Jai PL2">
+        <option desc="霍查 PL2">
             <parameter cpu="0" address="0x100431" value="0x08"/>
         </option>
-        <option desc="使用游戏角色Raiden PL2">
+        <option desc="雷电 PL2">
             <parameter cpu="0" address="0x100431" value="0x09"/>
         </option>
-        <option desc="使用游戏角色Billy Kane PL2">
+        <option desc="比利 PL2">
             <parameter cpu="0" address="0x100431" value="0x0A"/>
         </option>
-        <option desc="使用游戏角色Geese Howard PL2">
+        <option desc="基斯 PL2">
             <parameter cpu="0" address="0x100431" value="0x0B"/>
         </option>
-        <option desc="使用游戏角色''Reverse'' Myer PL2">
+        <option desc="倒立的米亚 PL2">
             <parameter cpu="0" address="0x100431" value="0x0C"/>
         </option>
-        <option desc="使用游戏角色''Beast'' Tung Fu Rue PL2">
+        <option desc="刚灵身唐葫芦 PL2">
             <parameter cpu="0" address="0x100431" value="0x0D"/>
         </option>
-        <option desc="使用游戏角色''Drunk'' Hwa Jai PL2">
+        <option desc="醉酒状态霍查 PL2">
             <parameter cpu="0" address="0x100431" value="0x0E"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 电脑" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 电脑">
@@ -145,48 +150,48 @@
             <parameter cpu="0" address="0x1005B9" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="使用游戏角色Terry Bogard 电脑" default="0">
+    <cheat desc="特瑞 电脑" default="0">
         <option desc="关闭"/>
-        <option desc="使用游戏角色Terry Bogard 电脑">
+        <option desc="特瑞 电脑">
             <parameter cpu="0" address="0x100531" value="0x01"/>
         </option>
-        <option desc="使用游戏角色Andy Bogard 电脑">
+        <option desc="安迪 电脑">
             <parameter cpu="0" address="0x100531" value="0x02"/>
         </option>
-        <option desc="使用游戏角色Joe Higashi 电脑">
+        <option desc="东丈 电脑">
             <parameter cpu="0" address="0x100531" value="0x03"/>
         </option>
-        <option desc="使用游戏角色Duck King 电脑">
+        <option desc="达克 电脑">
             <parameter cpu="0" address="0x100531" value="0x04"/>
         </option>
-        <option desc="使用游戏角色Richard Myer 电脑">
+        <option desc="米亚 电脑">
             <parameter cpu="0" address="0x100531" value="0x05"/>
         </option>
-        <option desc="使用游戏角色Michael Max 电脑">
+        <option desc="麦克斯 电脑">
             <parameter cpu="0" address="0x100531" value="0x06"/>
         </option>
-        <option desc="使用游戏角色Tung Fu Rue 电脑">
+        <option desc="唐葫芦 电脑">
             <parameter cpu="0" address="0x100531" value="0x07"/>
         </option>
-        <option desc="使用游戏角色Hwa Jai 电脑">
+        <option desc="霍查 电脑">
             <parameter cpu="0" address="0x100531" value="0x08"/>
         </option>
-        <option desc="使用游戏角色Raiden 电脑">
+        <option desc="雷电 电脑">
             <parameter cpu="0" address="0x100531" value="0x09"/>
         </option>
-        <option desc="使用游戏角色Billy Kane 电脑">
+        <option desc="比利 电脑">
             <parameter cpu="0" address="0x100531" value="0x0A"/>
         </option>
-        <option desc="使用游戏角色Geese Howard 电脑">
+        <option desc="基斯 电脑">
             <parameter cpu="0" address="0x100531" value="0x0B"/>
         </option>
-        <option desc="使用游戏角色''Reverse'' Myer 电脑">
+        <option desc="倒立的米亚 电脑">
             <parameter cpu="0" address="0x100531" value="0x0C"/>
         </option>
-        <option desc="使用游戏角色''Beast'' Tung Fu Rue 电脑">
+        <option desc="刚灵身唐葫芦 电脑">
             <parameter cpu="0" address="0x100531" value="0x0D"/>
         </option>
-        <option desc="使用游戏角色''Drunk'' Hwa Jai 电脑">
+        <option desc="醉酒状态霍查 电脑">
             <parameter cpu="0" address="0x100531" value="0x0E"/>
         </option>
     </cheat>

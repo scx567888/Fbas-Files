@@ -6,6 +6,7 @@
             <parameter cpu="0" address="0xFFFF4B" value="0x99"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限魔力 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -48,7 +49,7 @@
             <parameter cpu="0" address="0xFFA9CB" value="0x60"/>
         </option>
     </cheat>
-    <cheat desc="No 魔法装备 Floor Limit PL1" default="0">
+    <cheat desc="没有魔法装备限制 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFFA9F8" value="0x03"/>
@@ -159,13 +160,14 @@
         <option desc="魔法装备 - 蓝色石头 PL1">
             <parameter cpu="0" address="0xFFA9F6" value="0x0A"/>
         </option>
-        <option desc="魔法装备 -药剂 PL1">
+        <option desc="魔法装备 - 药剂 PL1">
             <parameter cpu="0" address="0xFFA9F6" value="0x0B"/>
         </option>
         <option desc="魔法装备 - 10000点石头 (无效) PL1">
             <parameter cpu="0" address="0xFFA9F6" value="0x0C"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限魔力 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -201,6 +203,7 @@
             <parameter cpu="0" address="0xFFAAAB" value="0x09"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="选关" default="0">
         <option desc="关闭"/>
         <option desc="选关 - 场景 1">

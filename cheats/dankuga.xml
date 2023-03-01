@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40E175" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x409733" value="0x09"/>
+            <parameter cpu="0" address="0x409737" value="0x09"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x409733" value="0x00"/>
+            <parameter cpu="0" address="0x409737" value="0x01"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="选择生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x412B35" value="0x63"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x412B35" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x412BC1" value="0xC8"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x412BC1" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+     <cheat desc="选择生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x412D35" value="0x63"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x412D35" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x412DC1" value="0xC8"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x412DC1" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

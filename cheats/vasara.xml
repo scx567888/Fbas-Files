@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无线投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2E9C" value="0x09"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0C52" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0C4A" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0C4B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="P1">
+            <parameter cpu="0" address="0x0C4E" value="0x04"/>
+        </option>
+        <option desc="P2">
+            <parameter cpu="0" address="0x0C4E" value="0x09"/>
+        </option>
+        <option desc="P3">
+            <parameter cpu="0" address="0x0C4E" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大连斩数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0C98" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有VASARA模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2EE2" value="0xFF"/>
+            <parameter cpu="0" address="0x2EE6" value="0x6A"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0CCA" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0CC2" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0CC3" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="P1">
+            <parameter cpu="0" address="0x0CC6" value="0x04"/>
+        </option>
+        <option desc="P2">
+            <parameter cpu="0" address="0x0CC6" value="0x09"/>
+        </option>
+        <option desc="P3">
+            <parameter cpu="0" address="0x0CC6" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大连斩数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0D10" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有VASARA模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2EE4" value="0xFF"/>
+            <parameter cpu="0" address="0x2EE8" value="0x6A"/>
+        </option>
+    </cheat>
+</shufflecheat>

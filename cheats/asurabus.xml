@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
@@ -15,6 +15,7 @@
             <parameter cpu="0" address="0x400006" value="0x99"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -42,12 +43,6 @@
         </option>
         <option desc="总是有最小力量 PL1">
             <parameter cpu="0" address="0x4034EF" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="选择角色CURFUE PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x401027" value="0x0D"/>
         </option>
     </cheat>
     <cheat desc="选择角色(选人画面) PL1(地址一)" default="0">
@@ -152,6 +147,7 @@
             <parameter cpu="0" address="0x4039A7" value="0x0F"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -179,6 +175,12 @@
         </option>
         <option desc="总是有最小力量 PL2">
             <parameter cpu="0" address="0x4041A9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色CURFUE PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x401027" value="0x0D"/>
         </option>
     </cheat>
     <cheat desc="选择角色 PL2 (地址二)" default="0">

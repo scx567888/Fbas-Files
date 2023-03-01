@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10FE00" value="0x09"/>
+            <parameter cpu="0" address="0x10A7C2" value="0x09"/>
+            <parameter cpu="0" address="0x10A7C3" value="0x09"/>
+        </option>
+    </cheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
         <option desc="无限时间">
@@ -9,6 +17,7 @@
             <parameter cpu="0" address="0x10A7E6" value="0x00"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -51,6 +60,7 @@
             <parameter cpu="0" address="0x1083E8" value="0x00"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="选择当前局" default="0">
         <option desc="关闭"/>
         <option desc="1">
@@ -72,27 +82,27 @@
             <parameter cpu="0" address="0x10A7B6" value="0x05"/>
         </option>
     </cheat>
-    <cheat desc="选择背景" default="0">
-        <option desc="关闭"/>
-        <option desc="公园">
-            <parameter cpu="0" address="0x10A7AE" value="0x00"/>
-        </option>
-        <option desc="巷">
-            <parameter cpu="0" address="0x10A7AE" value="0x01"/>
-        </option>
-        <option desc="飞机场">
-            <parameter cpu="0" address="0x10A7AE" value="0x02"/>
-        </option>
-        <option desc="博物馆">
-            <parameter cpu="0" address="0x10A7AE" value="0x03"/>
-        </option>
-        <option desc="污水处理场">
-            <parameter cpu="0" address="0x10A7AE" value="0x04"/>
-        </option>
-        <option desc="寺院">
-            <parameter cpu="0" address="0x10A7AE" value="0x05"/>
-        </option>
-    </cheat>
+	<cheat desc="选择背景" default="0">
+		<option desc="关闭"/>
+		<option desc="公园">
+			<parameter cpu="0" address="0x10A7AE" value="0x00"/>
+		</option>
+		<option desc="巷">
+			<parameter cpu="0" address="0x10A7AE" value="0x01"/>
+		</option>
+		<option desc="飞机场">
+			<parameter cpu="0" address="0x10A7AE" value="0x02"/>
+		</option>
+		<option desc="博物馆">
+			<parameter cpu="0" address="0x10A7AE" value="0x03"/>
+		</option>
+		<option desc="污水处理场">
+			<parameter cpu="0" address="0x10A7AE" value="0x04"/>
+		</option>
+		<option desc="寺院">
+			<parameter cpu="0" address="0x10A7AE" value="0x05"/>
+		</option>
+	</cheat>
     <cheat desc="选择背景音乐" default="0">
         <option desc="关闭"/>
         <option desc="KD-0079">
@@ -186,54 +196,54 @@
             <parameter cpu="0" address="0x10817D" value="0x0C"/>
         </option>
     </cheat>
-    <cheat desc="选择队伍 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="主角队">
-            <parameter cpu="0" address="0x10A7F7" value="0x00"/>
-        </option>
-        <option desc="饿狼队">
-            <parameter cpu="0" address="0x10A7F7" value="0x01"/>
-        </option>
-        <option desc="龙虎之拳队">
-            <parameter cpu="0" address="0x10A7F7" value="0x02"/>
-        </option>
-        <option desc="怒之队">
-            <parameter cpu="0" address="0x10A7F7" value="0x03"/>
-        </option>
-        <option desc="超能力队">
-            <parameter cpu="0" address="0x10A7F7" value="0x04"/>
-        </option>
-        <option desc="女性格斗家队">
-            <parameter cpu="0" address="0x10A7F7" value="0x05"/>
-        </option>
-        <option desc="韩国队">
-            <parameter cpu="0" address="0x10A7F7" value="0x06"/>
-        </option>
-        <option desc="库利扎里德(单人)">
-            <parameter cpu="0" address="0x10A7F7" value="0x07"/>
-        </option>
-        <option desc="库利扎里德(最终形态) (单人)">
-            <parameter cpu="0" address="0x10A7F7" value="0x08"/>
-        </option>
-        <option desc="草薙京 (单人)">
-            <parameter cpu="0" address="0x10A7F7" value="0x09"/>
-        </option>
-        <option desc="八神庵 (单人)">
-            <parameter cpu="0" address="0x10A7F7" value="0x0A"/>
-        </option>
-        <option desc="草薙京-八神庵队">
-            <parameter cpu="0" address="0x10A7F7" value="0x0B"/>
-        </option>
-        <option desc="草薙京队">
-            <parameter cpu="0" address="0x10A7F7" value="0x0C"/>
-        </option>
-        <option desc="八神庵队">
-            <parameter cpu="0" address="0x10A7F7" value="0x0D"/>
-        </option>
-        <option desc="自由队">
-            <parameter cpu="0" address="0x10A7F7" value="0x0E"/>
-        </option>
-    </cheat>
+	<cheat desc="选择队伍 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="主角队">
+			<parameter cpu="0" address="0x10A7F7" value="0x00"/>
+		</option>
+		<option desc="饿狼队">
+			<parameter cpu="0" address="0x10A7F7" value="0x01"/>
+		</option>
+		<option desc="龙虎之拳队">
+			<parameter cpu="0" address="0x10A7F7" value="0x02"/>
+		</option>
+		<option desc="怒之队">
+			<parameter cpu="0" address="0x10A7F7" value="0x03"/>
+		</option>
+		<option desc="超能力队">
+			<parameter cpu="0" address="0x10A7F7" value="0x04"/>
+		</option>
+		<option desc="女性格斗家队">
+			<parameter cpu="0" address="0x10A7F7" value="0x05"/>
+		</option>
+		<option desc="韩国队">
+			<parameter cpu="0" address="0x10A7F7" value="0x06"/>
+		</option>
+		<option desc="库利扎里德(单人)">
+			<parameter cpu="0" address="0x10A7F7" value="0x07"/>
+		</option>
+		<option desc="库利扎里德(最终形态) (单人)">
+			<parameter cpu="0" address="0x10A7F7" value="0x08"/>
+		</option>
+		<option desc="草薙京 (单人)">
+			<parameter cpu="0" address="0x10A7F7" value="0x09"/>
+		</option>
+		<option desc="八神庵 (单人)">
+			<parameter cpu="0" address="0x10A7F7" value="0x0A"/>
+		</option>
+		<option desc="草薙京-八神庵队">
+			<parameter cpu="0" address="0x10A7F7" value="0x0B"/>
+		</option>
+		<option desc="草薙京队">
+			<parameter cpu="0" address="0x10A7F7" value="0x0C"/>
+		</option>
+		<option desc="八神庵队">
+			<parameter cpu="0" address="0x10A7F7" value="0x0D"/>
+		</option>
+		<option desc="自由队">
+			<parameter cpu="0" address="0x10A7F7" value="0x0E"/>
+		</option>
+	</cheat>
     <cheat desc="选择输掉的局数 PL1" default="0">
         <option desc="关闭"/>
         <option desc="0">
@@ -246,426 +256,426 @@
             <parameter cpu="0" address="0x10A7F9" value="0x02"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 (A) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A7FA" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A7FA" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A7FA" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A7FA" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A7FA" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A7FA" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A7FA" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A7FA" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A7FA" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A7FA" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A7FA" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A7FA" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A7FA" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A7FA" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A7FA" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A7FA" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A7FA" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A7FA" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A7FA" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A7FA" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A7FA" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A7FA" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A7FA" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A7FA" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A7FA" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A7FA" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A7FA" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A7FA" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A7FA" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A7FA" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A7FA" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A7FA" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A7FA" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A7FA" value="0x21"/>
-        </option>
-    </cheat>
-    <cheat desc="选择游戏角色 (B) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A7FB" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A7FB" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A7FB" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A7FB" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A7FB" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A7FB" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A7FB" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A7FB" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A7FB" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A7FB" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A7FB" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A7FB" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A7FB" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A7FB" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A7FB" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A7FB" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A7FB" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A7FB" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A7FB" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A7FB" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A7FB" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A7FB" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A7FB" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A7FB" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A7FB" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A7FB" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A7FB" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A7FB" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A7FB" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A7FB" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A7FB" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A7FB" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A7FB" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A7FB" value="0x21"/>
-        </option>
-    </cheat>
-    <cheat desc="选择游戏角色 (C) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A7FC" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A7FC" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A7FC" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A7FC" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A7FC" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A7FC" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A7FC" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A7FC" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A7FC" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A7FC" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A7FC" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A7FC" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A7FC" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A7FC" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A7FC" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A7FC" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A7FC" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A7FC" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A7FC" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A7FC" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A7FC" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A7FC" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A7FC" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A7FC" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A7FC" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A7FC" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A7FC" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A7FC" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A7FC" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A7FC" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A7FC" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A7FC" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A7FC" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A7FC" value="0x21"/>
-        </option>
-    </cheat>
-    <cheat desc="选择游戏角色 (D) PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A7FD" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A7FD" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A7FD" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A7FD" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A7FD" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A7FD" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A7FD" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A7FD" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A7FD" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A7FD" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A7FD" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A7FD" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A7FD" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A7FD" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A7FD" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A7FD" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A7FD" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A7FD" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A7FD" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A7FD" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A7FD" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A7FD" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A7FD" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A7FD" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A7FD" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A7FD" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A7FD" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A7FD" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A7FD" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A7FD" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A7FD" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A7FD" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A7FD" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A7FD" value="0x21"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 (A) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A7FA" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A7FA" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A7FA" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A7FA" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A7FA" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A7FA" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A7FA" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A7FA" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A7FA" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A7FA" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A7FA" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A7FA" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A7FA" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A7FA" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A7FA" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A7FA" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A7FA" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A7FA" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A7FA" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A7FA" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A7FA" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A7FA" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A7FA" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A7FA" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A7FA" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A7FA" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A7FA" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A7FA" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A7FA" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A7FA" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A7FA" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A7FA" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A7FA" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A7FA" value="0x21"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (B) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A7FB" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A7FB" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A7FB" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A7FB" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A7FB" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A7FB" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A7FB" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A7FB" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A7FB" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A7FB" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A7FB" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A7FB" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A7FB" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A7FB" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A7FB" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A7FB" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A7FB" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A7FB" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A7FB" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A7FB" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A7FB" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A7FB" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A7FB" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A7FB" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A7FB" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A7FB" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A7FB" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A7FB" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A7FB" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A7FB" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A7FB" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A7FB" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A7FB" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A7FB" value="0x21"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (C) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A7FC" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A7FC" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A7FC" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A7FC" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A7FC" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A7FC" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A7FC" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A7FC" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A7FC" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A7FC" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A7FC" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A7FC" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A7FC" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A7FC" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A7FC" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A7FC" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A7FC" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A7FC" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A7FC" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A7FC" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A7FC" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A7FC" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A7FC" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A7FC" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A7FC" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A7FC" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A7FC" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A7FC" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A7FC" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A7FC" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A7FC" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A7FC" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A7FC" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A7FC" value="0x21"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (D) PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A7FD" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A7FD" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A7FD" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A7FD" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A7FD" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A7FD" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A7FD" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A7FD" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A7FD" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A7FD" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A7FD" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A7FD" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A7FD" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A7FD" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A7FD" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A7FD" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A7FD" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A7FD" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A7FD" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A7FD" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A7FD" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A7FD" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A7FD" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A7FD" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A7FD" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A7FD" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A7FD" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A7FD" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A7FD" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A7FD" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A7FD" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A7FD" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A7FD" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A7FD" value="0x21"/>
+		</option>
+	</cheat>
     <cheat desc="选择角色让电脑随意选择时状态 PL1" default="0">
         <option desc="关闭"/>
         <option desc="没有一个选择是随意的">
@@ -834,54 +844,54 @@
             <parameter cpu="0" address="0x10837D" value="0x0C"/>
         </option>
     </cheat>
-    <cheat desc="选择队伍 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="主角队">
-            <parameter cpu="0" address="0x10A80C" value="0x00"/>
-        </option>
-        <option desc="饿狼队">
-            <parameter cpu="0" address="0x10A80C" value="0x01"/>
-        </option>
-        <option desc="龙虎之拳队">
-            <parameter cpu="0" address="0x10A80C" value="0x02"/>
-        </option>
-        <option desc="怒之队">
-            <parameter cpu="0" address="0x10A80C" value="0x03"/>
-        </option>
-        <option desc="超能力队">
-            <parameter cpu="0" address="0x10A80C" value="0x04"/>
-        </option>
-        <option desc="女性格斗家队">
-            <parameter cpu="0" address="0x10A80C" value="0x05"/>
-        </option>
-        <option desc="韩国队">
-            <parameter cpu="0" address="0x10A80C" value="0x06"/>
-        </option>
-        <option desc="库利扎里德(单人)">
-            <parameter cpu="0" address="0x10A80C" value="0x07"/>
-        </option>
-        <option desc="库利扎里德(最终形态) (单人)">
-            <parameter cpu="0" address="0x10A80C" value="0x08"/>
-        </option>
-        <option desc="草薙京 (单人)">
-            <parameter cpu="0" address="0x10A80C" value="0x09"/>
-        </option>
-        <option desc="八神庵 (单人)">
-            <parameter cpu="0" address="0x10A80C" value="0x0A"/>
-        </option>
-        <option desc="草薙京-八神庵队">
-            <parameter cpu="0" address="0x10A80C" value="0x0B"/>
-        </option>
-        <option desc="草薙京队">
-            <parameter cpu="0" address="0x10A80C" value="0x0C"/>
-        </option>
-        <option desc="八神庵队">
-            <parameter cpu="0" address="0x10A80C" value="0x0D"/>
-        </option>
-        <option desc="自由队">
-            <parameter cpu="0" address="0x10A80C" value="0x0E"/>
-        </option>
-    </cheat>
+	<cheat desc="选择队伍 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="主角队">
+			<parameter cpu="0" address="0x10A80C" value="0x00"/>
+		</option>
+		<option desc="饿狼队">
+			<parameter cpu="0" address="0x10A80C" value="0x01"/>
+		</option>
+		<option desc="龙虎之拳队">
+			<parameter cpu="0" address="0x10A80C" value="0x02"/>
+		</option>
+		<option desc="怒之队">
+			<parameter cpu="0" address="0x10A80C" value="0x03"/>
+		</option>
+		<option desc="超能力队">
+			<parameter cpu="0" address="0x10A80C" value="0x04"/>
+		</option>
+		<option desc="女性格斗家队">
+			<parameter cpu="0" address="0x10A80C" value="0x05"/>
+		</option>
+		<option desc="韩国队">
+			<parameter cpu="0" address="0x10A80C" value="0x06"/>
+		</option>
+		<option desc="库利扎里德(单人)">
+			<parameter cpu="0" address="0x10A80C" value="0x07"/>
+		</option>
+		<option desc="库利扎里德(最终形态) (单人)">
+			<parameter cpu="0" address="0x10A80C" value="0x08"/>
+		</option>
+		<option desc="草薙京 (单人)">
+			<parameter cpu="0" address="0x10A80C" value="0x09"/>
+		</option>
+		<option desc="八神庵 (单人)">
+			<parameter cpu="0" address="0x10A80C" value="0x0A"/>
+		</option>
+		<option desc="草薙京-八神庵队">
+			<parameter cpu="0" address="0x10A80C" value="0x0B"/>
+		</option>
+		<option desc="草薙京队">
+			<parameter cpu="0" address="0x10A80C" value="0x0C"/>
+		</option>
+		<option desc="八神庵队">
+			<parameter cpu="0" address="0x10A80C" value="0x0D"/>
+		</option>
+		<option desc="自由队">
+			<parameter cpu="0" address="0x10A80C" value="0x0E"/>
+		</option>
+	</cheat>
     <cheat desc="选择输掉的局数 PL2" default="0">
         <option desc="关闭"/>
         <option desc="0">
@@ -894,426 +904,426 @@
             <parameter cpu="0" address="0x10A80E" value="0x02"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 (A) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A80F" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A80F" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A80F" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A80F" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A80F" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A80F" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A80F" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A80F" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A80F" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A80F" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A80F" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A80F" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A80F" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A80F" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A80F" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A80F" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A80F" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A80F" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A80F" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A80F" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A80F" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A80F" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A80F" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A80F" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A80F" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A80F" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A80F" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A80F" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A80F" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A80F" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A80F" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A80F" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A80F" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A80F" value="0x21"/>
-        </option>
-    </cheat>
-    <cheat desc="选择游戏角色 (B) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A810" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A810" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A810" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A810" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A810" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A810" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A810" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A810" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A810" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A810" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A810" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A810" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A810" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A810" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A810" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A810" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A810" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A810" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A810" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A810" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A810" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A810" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A810" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A810" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A810" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A810" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A810" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A810" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A810" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A810" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A810" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A810" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A810" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A810" value="0x21"/>
-        </option>
-    </cheat>
-    <cheat desc="选择游戏角色 (C) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A811" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A811" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A811" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A811" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A811" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A811" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A811" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A811" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A811" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A811" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A811" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A811" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A811" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A811" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A811" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A811" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A811" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A811" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A811" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A811" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A811" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A811" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A811" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A811" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A811" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A811" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A811" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A811" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A811" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A811" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A811" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A811" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A811" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A811" value="0x21"/>
-        </option>
-    </cheat>
-    <cheat desc="选择游戏角色 (D) PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="K'">
-            <parameter cpu="0" address="0x10A812" value="0x00"/>
-        </option>
-        <option desc="马克西马">
-            <parameter cpu="0" address="0x10A812" value="0x01"/>
-        </option>
-        <option desc="二阶堂红丸">
-            <parameter cpu="0" address="0x10A812" value="0x02"/>
-        </option>
-        <option desc="矢吹真吾">
-            <parameter cpu="0" address="0x10A812" value="0x03"/>
-        </option>
-        <option desc="特瑞">
-            <parameter cpu="0" address="0x10A812" value="0x04"/>
-        </option>
-        <option desc="安迪">
-            <parameter cpu="0" address="0x10A812" value="0x05"/>
-        </option>
-        <option desc="东丈">
-            <parameter cpu="0" address="0x10A812" value="0x06"/>
-        </option>
-        <option desc="不知火舞">
-            <parameter cpu="0" address="0x10A812" value="0x07"/>
-        </option>
-        <option desc="阪崎亮">
-            <parameter cpu="0" address="0x10A812" value="0x08"/>
-        </option>
-        <option desc="罗伯特">
-            <parameter cpu="0" address="0x10A812" value="0x09"/>
-        </option>
-        <option desc="阪崎由莉">
-            <parameter cpu="0" address="0x10A812" value="0x0A"/>
-        </option>
-        <option desc="阪崎琢磨">
-            <parameter cpu="0" address="0x10A812" value="0x0B"/>
-        </option>
-        <option desc="莉安娜">
-            <parameter cpu="0" address="0x10A812" value="0x0C"/>
-        </option>
-        <option desc="拉尔夫">
-            <parameter cpu="0" address="0x10A812" value="0x0D"/>
-        </option>
-        <option desc="克拉克">
-            <parameter cpu="0" address="0x10A812" value="0x0E"/>
-        </option>
-        <option desc="薇璞">
-            <parameter cpu="0" address="0x10A812" value="0x0F"/>
-        </option>
-        <option desc="麻宫雅典娜">
-            <parameter cpu="0" address="0x10A812" value="0x10"/>
-        </option>
-        <option desc="椎拳崇">
-            <parameter cpu="0" address="0x10A812" value="0x11"/>
-        </option>
-        <option desc="镇元斋">
-            <parameter cpu="0" address="0x10A812" value="0x12"/>
-        </option>
-        <option desc="包">
-            <parameter cpu="0" address="0x10A812" value="0x13"/>
-        </option>
-        <option desc="京">
-            <parameter cpu="0" address="0x10A812" value="0x14"/>
-        </option>
-        <option desc="布鲁玛莉">
-            <parameter cpu="0" address="0x10A812" value="0x15"/>
-        </option>
-        <option desc="藤堂香澄">
-            <parameter cpu="0" address="0x10A812" value="0x16"/>
-        </option>
-        <option desc="李香绯">
-            <parameter cpu="0" address="0x10A812" value="0x17"/>
-        </option>
-        <option desc="金甲唤">
-            <parameter cpu="0" address="0x10A812" value="0x18"/>
-        </option>
-        <option desc="陈国汉">
-            <parameter cpu="0" address="0x10A812" value="0x19"/>
-        </option>
-        <option desc="蔡宝健">
-            <parameter cpu="0" address="0x10A812" value="0x1A"/>
-        </option>
-        <option desc="全勋">
-            <parameter cpu="0" address="0x10A812" value="0x1B"/>
-        </option>
-        <option desc="#草薙京#">
-            <parameter cpu="0" address="0x10A812" value="0x1C"/>
-        </option>
-        <option desc="草薙京-1">
-            <parameter cpu="0" address="0x10A812" value="0x1D"/>
-        </option>
-        <option desc="#八神庵#">
-            <parameter cpu="0" address="0x10A812" value="0x1E"/>
-        </option>
-        <option desc="#库利扎里德#">
-            <parameter cpu="0" address="0x10A812" value="0x1F"/>
-        </option>
-        <option desc="#库利扎里德(最终形态)#">
-            <parameter cpu="0" address="0x10A812" value="0x20"/>
-        </option>
-        <option desc="草薙京-2">
-            <parameter cpu="0" address="0x10A812" value="0x21"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 (A) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A80F" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A80F" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A80F" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A80F" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A80F" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A80F" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A80F" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A80F" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A80F" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A80F" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A80F" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A80F" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A80F" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A80F" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A80F" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A80F" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A80F" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A80F" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A80F" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A80F" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A80F" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A80F" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A80F" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A80F" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A80F" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A80F" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A80F" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A80F" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A80F" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A80F" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A80F" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A80F" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A80F" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A80F" value="0x21"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (B) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A810" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A810" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A810" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A810" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A810" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A810" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A810" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A810" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A810" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A810" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A810" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A810" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A810" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A810" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A810" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A810" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A810" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A810" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A810" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A810" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A810" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A810" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A810" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A810" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A810" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A810" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A810" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A810" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A810" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A810" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A810" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A810" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A810" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A810" value="0x21"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (C) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A811" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A811" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A811" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A811" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A811" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A811" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A811" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A811" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A811" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A811" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A811" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A811" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A811" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A811" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A811" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A811" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A811" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A811" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A811" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A811" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A811" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A811" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A811" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A811" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A811" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A811" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A811" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A811" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A811" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A811" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A811" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A811" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A811" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A811" value="0x21"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 (D) PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="K'">
+			<parameter cpu="0" address="0x10A812" value="0x00"/>
+		</option>
+		<option desc="马克西马">
+			<parameter cpu="0" address="0x10A812" value="0x01"/>
+		</option>
+		<option desc="二阶堂红丸">
+			<parameter cpu="0" address="0x10A812" value="0x02"/>
+		</option>
+		<option desc="矢吹真吾">
+			<parameter cpu="0" address="0x10A812" value="0x03"/>
+		</option>
+		<option desc="特瑞">
+			<parameter cpu="0" address="0x10A812" value="0x04"/>
+		</option>
+		<option desc="安迪">
+			<parameter cpu="0" address="0x10A812" value="0x05"/>
+		</option>
+		<option desc="东丈">
+			<parameter cpu="0" address="0x10A812" value="0x06"/>
+		</option>
+		<option desc="不知火舞">
+			<parameter cpu="0" address="0x10A812" value="0x07"/>
+		</option>
+		<option desc="阪崎亮">
+			<parameter cpu="0" address="0x10A812" value="0x08"/>
+		</option>
+		<option desc="罗伯特">
+			<parameter cpu="0" address="0x10A812" value="0x09"/>
+		</option>
+		<option desc="阪崎由莉">
+			<parameter cpu="0" address="0x10A812" value="0x0A"/>
+		</option>
+		<option desc="阪崎琢磨">
+			<parameter cpu="0" address="0x10A812" value="0x0B"/>
+		</option>
+		<option desc="莉安娜">
+			<parameter cpu="0" address="0x10A812" value="0x0C"/>
+		</option>
+		<option desc="拉尔夫">
+			<parameter cpu="0" address="0x10A812" value="0x0D"/>
+		</option>
+		<option desc="克拉克">
+			<parameter cpu="0" address="0x10A812" value="0x0E"/>
+		</option>
+		<option desc="薇璞">
+			<parameter cpu="0" address="0x10A812" value="0x0F"/>
+		</option>
+		<option desc="麻宫雅典娜">
+			<parameter cpu="0" address="0x10A812" value="0x10"/>
+		</option>
+		<option desc="椎拳崇">
+			<parameter cpu="0" address="0x10A812" value="0x11"/>
+		</option>
+		<option desc="镇元斋">
+			<parameter cpu="0" address="0x10A812" value="0x12"/>
+		</option>
+		<option desc="包">
+			<parameter cpu="0" address="0x10A812" value="0x13"/>
+		</option>
+		<option desc="京">
+			<parameter cpu="0" address="0x10A812" value="0x14"/>
+		</option>
+		<option desc="布鲁玛莉">
+			<parameter cpu="0" address="0x10A812" value="0x15"/>
+		</option>
+		<option desc="藤堂香澄">
+			<parameter cpu="0" address="0x10A812" value="0x16"/>
+		</option>
+		<option desc="李香绯">
+			<parameter cpu="0" address="0x10A812" value="0x17"/>
+		</option>
+		<option desc="金甲唤">
+			<parameter cpu="0" address="0x10A812" value="0x18"/>
+		</option>
+		<option desc="陈国汉">
+			<parameter cpu="0" address="0x10A812" value="0x19"/>
+		</option>
+		<option desc="蔡宝健">
+			<parameter cpu="0" address="0x10A812" value="0x1A"/>
+		</option>
+		<option desc="全勋">
+			<parameter cpu="0" address="0x10A812" value="0x1B"/>
+		</option>
+		<option desc="#草薙京#">
+			<parameter cpu="0" address="0x10A812" value="0x1C"/>
+		</option>
+		<option desc="草薙京-1">
+			<parameter cpu="0" address="0x10A812" value="0x1D"/>
+		</option>
+		<option desc="#八神庵#">
+			<parameter cpu="0" address="0x10A812" value="0x1E"/>
+		</option>
+		<option desc="#库利扎里德#">
+			<parameter cpu="0" address="0x10A812" value="0x1F"/>
+		</option>
+		<option desc="#库利扎里德(最终形态)#">
+			<parameter cpu="0" address="0x10A812" value="0x20"/>
+		</option>
+		<option desc="草薙京-2">
+			<parameter cpu="0" address="0x10A812" value="0x21"/>
+		</option>
+	</cheat>
     <cheat desc="选择角色让电脑随意选择时状态 PL2" default="0">
         <option desc="关闭"/>
         <option desc="没有一个选择是随意的">

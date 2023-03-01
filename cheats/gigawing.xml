@@ -45,11 +45,11 @@
             <parameter cpu="0" address="0xFF72E1" value="0x08"/>
         </option>
     </cheat>
-    <cheat desc="无敌(有问题) PL1" default="0">
+ <cheat desc="无敌(有问题) PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0xFFAE3A" value="0x0003"/>
-            <parameter cpu="0" address="0xFFADEB" value="0x40"/>
+            <parameter cpu="0" address="0xFFAE3A" value="0x0003"/>  
+            <parameter cpu="0" address="0xFFADEB" value="0x40"/>       
         </option>
         <option desc="强制关闭">
             <parameter cpu="0" address="0xFFADEB" value="0x00"/>
@@ -318,13 +318,13 @@
             <parameter cpu="0" address="0xFF20B1" value="0x0A"/>
         </option>
     </cheat>
-    <cheat desc="无限制物品" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF6F84" value="0x00"/>
-            <parameter cpu="0" address="0xFF6F85" value="0x00"/>
-            <parameter cpu="0" address="0xFF6F86" value="0x00"/>
-            <parameter cpu="0" address="0xFF6F87" value="0x00"/>
-        </option>
-    </cheat>
+	<cheat desc="无限制物品" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF6F84" value="0x00"/>
+			<parameter cpu="0" address="0xFF6F85" value="0x00"/>
+			<parameter cpu="0" address="0xFF6F86" value="0x00"/>
+			<parameter cpu="0" address="0xFF6F87" value="0x00"/>
+		</option>
+	</cheat>
 </shufflecheat>

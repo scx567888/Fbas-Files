@@ -151,7 +151,7 @@
         <option desc="BOSS战 - 幻影兽">
             <parameter cpu="0" address="0xFF8034" value="0x62"/>
         </option>
-        <option desc="BOSS战 - Tel Arin和Tel Eron">
+        <option desc="BOSS战 - 黑暗精灵兄弟">
             <parameter cpu="0" address="0xFF8034" value="0x6F"/>
         </option>
         <option desc="BOSS战 - 绿龙">
@@ -174,7 +174,7 @@
             <parameter cpu="0" address="0xFFBA81" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -259,40 +259,40 @@
     </cheat>
     <cheat desc="角色选择 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="Crassus (Warrior 1)">
+        <option desc="Crassus (战士 1)">
             <parameter cpu="0" address="0xFF85E1" value="0x00"/>
         </option>
-        <option desc="Jarred (Warrior 2)">
+        <option desc="Jarred (战士 2)">
             <parameter cpu="0" address="0xFF85E1" value="0x01"/>
         </option>
-        <option desc="Greldon (Cleric 1)">
+        <option desc="Greldon (牧师 1)">
             <parameter cpu="0" address="0xFF85E1" value="0x02"/>
         </option>
-        <option desc="Miles (Cleric 2)">
+        <option desc="Miles (牧师 2)">
             <parameter cpu="0" address="0xFF85E1" value="0x03"/>
         </option>
-        <option desc="Lucia (Elf 1)">
+        <option desc="Lucia (精灵 1)">
             <parameter cpu="0" address="0xFF85E0" value="0x04"/>
         </option>
-        <option desc="Kayla (Elf 2)">
+        <option desc="Kayla (精灵 2)">
             <parameter cpu="0" address="0xFF85E1" value="0x05"/>
         </option>
-        <option desc="Dimsdale (Dwarf 1)">
+        <option desc="Dimsdale (矮人 1)">
             <parameter cpu="0" address="0xFF85E1" value="0x06"/>
         </option>
-        <option desc="Hendel (Dwarf 2)">
+        <option desc="Hendel (矮人 2)">
             <parameter cpu="0" address="0xFF85E1" value="0x07"/>
         </option>
-        <option desc="Syous (Mage 1)">
+        <option desc="Syous (法师 1)">
             <parameter cpu="0" address="0xFF85E1" value="0x08"/>
         </option>
-        <option desc="D'Raven (Mage 2)">
+        <option desc="D'Raven (法师 2)">
             <parameter cpu="0" address="0xFF85E1" value="0x09"/>
         </option>
-        <option desc="Moriah (Theif 1)">
+        <option desc="Moriah (盗贼 1)">
             <parameter cpu="0" address="0xFF85E1" value="0x0A"/>
         </option>
-        <option desc="Shannon (Thief 2)">
+        <option desc="Shannon (盗贼 2)">
             <parameter cpu="0" address="0xFF85E1" value="0x0B"/>
         </option>
     </cheat>
@@ -304,10 +304,10 @@
         <option desc="箭">
             <parameter cpu="0" address="0xFF871E" value="0x23"/>
         </option>
-        <option desc="大剑 1">
+        <option desc="重剑 1">
             <parameter cpu="0" address="0xFF871E" value="0x37"/>
         </option>
-        <option desc="大剑 2">
+        <option desc="重剑 2">
             <parameter cpu="0" address="0xFF871E" value="0x38"/>
         </option>
         <option desc="战斧">
@@ -436,16 +436,16 @@
         <option desc="闪电术">
             <parameter cpu="0" address="0xFF871E" value="0x0D"/>
         </option>
-        <option desc="钉头锤 等级 1">
+        <option desc="硬头锤 等级 1">
             <parameter cpu="0" address="0xFF871E" value="0x47"/>
         </option>
-        <option desc="钉头锤 等级 2">
+        <option desc="硬头锤 等级 2">
             <parameter cpu="0" address="0xFF871E" value="0x48"/>
         </option>
-        <option desc="钉头锤 等级 3">
+        <option desc="硬头锤 等级 3">
             <parameter cpu="0" address="0xFF871E" value="0x49"/>
         </option>
-        <option desc="钉头锤 等级 4">
+        <option desc="硬头锤 等级 4">
             <parameter cpu="0" address="0xFF871E" value="0x4A"/>
         </option>
         <option desc="魔法飞弹">
@@ -586,7 +586,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF86EB" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF86EB" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -694,7 +694,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF86EC" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF86EC" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -784,7 +784,7 @@
         <option desc="头巾">
             <parameter cpu="0" address="0xFF873E" value="0x02"/>
         </option>
-        <option desc="头带">
+        <option desc="头环">
             <parameter cpu="0" address="0xFF873E" value="0x03"/>
         </option>
         <option desc="牧师帽">
@@ -811,7 +811,7 @@
         <option desc="魔法师">
             <parameter cpu="0" address="0xFF873F" value="0x04"/>
         </option>
-        <option desc="小偷">
+        <option desc="盗贼">
             <parameter cpu="0" address="0xFF873F" value="0x05"/>
         </option>
     </cheat>
@@ -845,13 +845,13 @@
         <option desc="普通护盾(精灵)">
             <parameter cpu="0" address="0xFF8742" value="0x01"/>
         </option>
-        <option desc="龙护盾">
+        <option desc="龙盾">
             <parameter cpu="0" address="0xFF8742" value="0x04"/>
         </option>
-        <option desc="火护盾">
+        <option desc="火盾">
             <parameter cpu="0" address="0xFF8742" value="0x05"/>
         </option>
-        <option desc="冰护盾">
+        <option desc="冰盾">
             <parameter cpu="0" address="0xFF8742" value="0x06"/>
         </option>
         <option desc="圣盾">
@@ -860,19 +860,19 @@
     </cheat>
     <cheat desc="选择魔法辅助装备 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="保护之戒">
+        <option desc="保护戒指">
             <parameter cpu="0" address="0xFF8743" value="0x00"/>
             <parameter cpu="0" address="0xFF874B" value="0x05"/>
         </option>
-        <option desc="防火之戒">
+        <option desc="防火戒指">
             <parameter cpu="0" address="0xFF8743" value="0x01"/>
             <parameter cpu="0" address="0xFF874B" value="0x05"/>
         </option>
-        <option desc="弹咒之戒">
+        <option desc="法术反转戒指">
             <parameter cpu="0" address="0xFF8743" value="0x02"/>
             <parameter cpu="0" address="0xFF874B" value="0x05"/>
         </option>
-        <option desc="驱邪之戒">
+        <option desc="驱邪戒指">
             <parameter cpu="0" address="0xFF8743" value="0x03"/>
             <parameter cpu="0" address="0xFF874B" value="0x05"/>
         </option>
@@ -894,7 +894,7 @@
         <option desc="项链">
             <parameter cpu="0" address="0xFF8744" value="0x00"/>
         </option>
-        <option desc="天体球">
+        <option desc="宝珠">
             <parameter cpu="0" address="0xFF8744" value="0x01"/>
         </option>
         <option desc="手镯">
@@ -946,7 +946,7 @@
             <parameter cpu="0" address="0xFF8745" value="0x0A"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -1031,40 +1031,40 @@
     </cheat>
     <cheat desc="角色选择 PL2" default="0">
         <option desc="关闭"/>
-        <option desc="Crassus (Warrior 1)">
+        <option desc="Crassus (战士 1)">
             <parameter cpu="0" address="0xFF87E1" value="0x00"/>
         </option>
-        <option desc="Jarred (Warrior 2)">
+        <option desc="Jarred (战士 2)">
             <parameter cpu="0" address="0xFF87E1" value="0x01"/>
         </option>
-        <option desc="Greldon (Cleric 1)">
+        <option desc="Greldon (牧师 1)">
             <parameter cpu="0" address="0xFF87E1" value="0x02"/>
         </option>
-        <option desc="Miles (Cleric 2)">
+        <option desc="Miles (牧师 2)">
             <parameter cpu="0" address="0xFF87E1" value="0x03"/>
         </option>
-        <option desc="Lucia (Elf 1)">
+        <option desc="Lucia (精灵 1)">
             <parameter cpu="0" address="0xFF87E1" value="0x04"/>
         </option>
-        <option desc="Kayla (Elf 2)">
+        <option desc="Kayla (精灵 2)">
             <parameter cpu="0" address="0xFF87E1" value="0x05"/>
         </option>
-        <option desc="Dimsdale (Dwarf 1)">
+        <option desc="Dimsdale (矮人 1)">
             <parameter cpu="0" address="0xFF87E1" value="0x06"/>
         </option>
-        <option desc="Hendel (Dwarf 2)">
+        <option desc="Hendel (矮人 2)">
             <parameter cpu="0" address="0xFF87E1" value="0x07"/>
         </option>
-        <option desc="Syous (Mage 1)">
+        <option desc="Syous (法师 1)">
             <parameter cpu="0" address="0xFF87E1" value="0x08"/>
         </option>
-        <option desc="D'Raven (Mage 2)">
+        <option desc="D'Raven (法师 2)">
             <parameter cpu="0" address="0xFF87E1" value="0x09"/>
         </option>
-        <option desc="Moriah (Theif 1)">
+        <option desc="Moriah (盗贼 1)">
             <parameter cpu="0" address="0xFF87E1" value="0x0A"/>
         </option>
-        <option desc="Shannon (Thief 2)">
+        <option desc="Shannon (盗贼 2)">
             <parameter cpu="0" address="0xFF87E1" value="0x0B"/>
         </option>
     </cheat>
@@ -1076,10 +1076,10 @@
         <option desc="箭">
             <parameter cpu="0" address="0xFF891E" value="0x23"/>
         </option>
-        <option desc="大剑 1">
+        <option desc="重剑 1">
             <parameter cpu="0" address="0xFF891E" value="0x37"/>
         </option>
-        <option desc="大剑 2">
+        <option desc="重剑 2">
             <parameter cpu="0" address="0xFF891E" value="0x38"/>
         </option>
         <option desc="战斧">
@@ -1208,16 +1208,16 @@
         <option desc="闪电术">
             <parameter cpu="0" address="0xFF891E" value="0x0D"/>
         </option>
-        <option desc="钉头锤 等级 1">
+        <option desc="硬头锤 等级 1">
             <parameter cpu="0" address="0xFF891E" value="0x47"/>
         </option>
-        <option desc="钉头锤 等级 2">
+        <option desc="硬头锤 等级 2">
             <parameter cpu="0" address="0xFF891E" value="0x48"/>
         </option>
-        <option desc="钉头锤 等级 3">
+        <option desc="硬头锤 等级 3">
             <parameter cpu="0" address="0xFF891E" value="0x49"/>
         </option>
-        <option desc="钉头锤 等级 4">
+        <option desc="硬头锤 等级 4">
             <parameter cpu="0" address="0xFF891E" value="0x4A"/>
         </option>
         <option desc="魔法飞弹">
@@ -1358,7 +1358,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF88EB" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF88EB" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -1466,7 +1466,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF88EC" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF88EC" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -1556,7 +1556,7 @@
         <option desc="头巾">
             <parameter cpu="0" address="0xFF893E" value="0x02"/>
         </option>
-        <option desc="头带">
+        <option desc="头环">
             <parameter cpu="0" address="0xFF893E" value="0x03"/>
         </option>
         <option desc="牧师帽">
@@ -1583,7 +1583,7 @@
         <option desc="魔法师">
             <parameter cpu="0" address="0xFF893F" value="0x04"/>
         </option>
-        <option desc="小偷">
+        <option desc="盗贼">
             <parameter cpu="0" address="0xFF893F" value="0x05"/>
         </option>
     </cheat>
@@ -1617,13 +1617,13 @@
         <option desc="普通护盾(精灵)">
             <parameter cpu="0" address="0xFF8942" value="0x01"/>
         </option>
-        <option desc="龙护盾">
+        <option desc="龙盾">
             <parameter cpu="0" address="0xFF8942" value="0x04"/>
         </option>
-        <option desc="火护盾">
+        <option desc="火盾">
             <parameter cpu="0" address="0xFF8942" value="0x05"/>
         </option>
-        <option desc="冰护盾">
+        <option desc="冰盾">
             <parameter cpu="0" address="0xFF8942" value="0x06"/>
         </option>
         <option desc="圣盾">
@@ -1632,19 +1632,19 @@
     </cheat>
     <cheat desc="选择魔法辅助装备 PL2" default="0">
         <option desc="关闭"/>
-        <option desc="保护之戒">
+        <option desc="保护戒指">
             <parameter cpu="0" address="0xFF8943" value="0x00"/>
             <parameter cpu="0" address="0xFF894B" value="0x05"/>
         </option>
-        <option desc="防火之戒">
+        <option desc="防火戒指">
             <parameter cpu="0" address="0xFF8943" value="0x01"/>
             <parameter cpu="0" address="0xFF894B" value="0x05"/>
         </option>
-        <option desc="弹咒之戒">
+        <option desc="法术反转戒指">
             <parameter cpu="0" address="0xFF8943" value="0x02"/>
             <parameter cpu="0" address="0xFF894B" value="0x05"/>
         </option>
-        <option desc="驱邪之戒">
+        <option desc="驱邪戒指">
             <parameter cpu="0" address="0xFF8943" value="0x03"/>
             <parameter cpu="0" address="0xFF894B" value="0x05"/>
         </option>
@@ -1666,7 +1666,7 @@
         <option desc="项链">
             <parameter cpu="0" address="0xFF8944" value="0x00"/>
         </option>
-        <option desc="天体球">
+        <option desc="宝珠">
             <parameter cpu="0" address="0xFF8944" value="0x01"/>
         </option>
         <option desc="手镯">
@@ -1718,7 +1718,7 @@
             <parameter cpu="0" address="0xFF8945" value="0x0A"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -1803,40 +1803,40 @@
     </cheat>
     <cheat desc="角色选择 PL3" default="0">
         <option desc="关闭"/>
-        <option desc="Crassus (Warrior 1)">
+        <option desc="Crassus (战士 1)">
             <parameter cpu="0" address="0xFF89E1" value="0x00"/>
         </option>
-        <option desc="Jarred (Warrior 2)">
+        <option desc="Jarred (战士 2)">
             <parameter cpu="0" address="0xFF89E1" value="0x01"/>
         </option>
-        <option desc="Greldon (Cleric 1)">
+        <option desc="Greldon (牧师 1)">
             <parameter cpu="0" address="0xFF89E1" value="0x02"/>
         </option>
-        <option desc="Miles (Cleric 2)">
+        <option desc="Miles (牧师 2)">
             <parameter cpu="0" address="0xFF89E1" value="0x03"/>
         </option>
-        <option desc="Lucia (Elf 1)">
+        <option desc="Lucia (精灵 1)">
             <parameter cpu="0" address="0xFF89E1" value="0x04"/>
         </option>
-        <option desc="Kayla (Elf 2)">
+        <option desc="Kayla (精灵 2)">
             <parameter cpu="0" address="0xFF89E1" value="0x05"/>
         </option>
-        <option desc="Dimsdale (Dwarf 1)">
+        <option desc="Dimsdale (矮人 1)">
             <parameter cpu="0" address="0xFF89E1" value="0x06"/>
         </option>
-        <option desc="Hendel (Dwarf 2)">
+        <option desc="Hendel (矮人 2)">
             <parameter cpu="0" address="0xFF89E1" value="0x07"/>
         </option>
-        <option desc="Syous (Mage 1)">
+        <option desc="Syous (法师 1)">
             <parameter cpu="0" address="0xFF89E1" value="0x08"/>
         </option>
-        <option desc="D'Raven (Mage 2)">
+        <option desc="D'Raven (法师 2)">
             <parameter cpu="0" address="0xFF89E1" value="0x09"/>
         </option>
-        <option desc="Moriah (Theif 1)">
+        <option desc="Moriah (盗贼 1)">
             <parameter cpu="0" address="0xFF89E1" value="0x0A"/>
         </option>
-        <option desc="Shannon (Thief 2)">
+        <option desc="Shannon (盗贼 2)">
             <parameter cpu="0" address="0xFF89E1" value="0x0B"/>
         </option>
     </cheat>
@@ -1848,10 +1848,10 @@
         <option desc="箭">
             <parameter cpu="0" address="0xFF8B1E" value="0x23"/>
         </option>
-        <option desc="大剑 1">
+        <option desc="重剑 1">
             <parameter cpu="0" address="0xFF8B1E" value="0x37"/>
         </option>
-        <option desc="大剑 2">
+        <option desc="重剑 2">
             <parameter cpu="0" address="0xFF8B1E" value="0x38"/>
         </option>
         <option desc="战斧">
@@ -1980,16 +1980,16 @@
         <option desc="闪电术">
             <parameter cpu="0" address="0xFF8B1E" value="0x0D"/>
         </option>
-        <option desc="钉头锤 等级 1">
+        <option desc="硬头锤 等级 1">
             <parameter cpu="0" address="0xFF8B1E" value="0x47"/>
         </option>
-        <option desc="钉头锤 等级 2">
+        <option desc="硬头锤 等级 2">
             <parameter cpu="0" address="0xFF8B1E" value="0x48"/>
         </option>
-        <option desc="钉头锤 等级 3">
+        <option desc="硬头锤 等级 3">
             <parameter cpu="0" address="0xFF8B1E" value="0x49"/>
         </option>
-        <option desc="钉头锤 等级 4">
+        <option desc="硬头锤 等级 4">
             <parameter cpu="0" address="0xFF8B1E" value="0x4A"/>
         </option>
         <option desc="魔法飞弹">
@@ -2130,7 +2130,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF8AEB" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF8AEB" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -2238,7 +2238,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF8AEC" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF8AEC" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -2328,7 +2328,7 @@
         <option desc="头巾">
             <parameter cpu="0" address="0xFF8B3E" value="0x02"/>
         </option>
-        <option desc="头带">
+        <option desc="头环">
             <parameter cpu="0" address="0xFF8B3E" value="0x03"/>
         </option>
         <option desc="牧师帽">
@@ -2355,7 +2355,7 @@
         <option desc="魔法师">
             <parameter cpu="0" address="0xFF8B3F" value="0x04"/>
         </option>
-        <option desc="小偷">
+        <option desc="盗贼">
             <parameter cpu="0" address="0xFF8B3F" value="0x05"/>
         </option>
     </cheat>
@@ -2389,13 +2389,13 @@
         <option desc="普通护盾(精灵)">
             <parameter cpu="0" address="0xFF8B42" value="0x01"/>
         </option>
-        <option desc="龙护盾">
+        <option desc="龙盾">
             <parameter cpu="0" address="0xFF8B42" value="0x04"/>
         </option>
-        <option desc="火护盾">
+        <option desc="火盾">
             <parameter cpu="0" address="0xFF8B42" value="0x05"/>
         </option>
-        <option desc="冰护盾">
+        <option desc="冰盾">
             <parameter cpu="0" address="0xFF8B42" value="0x06"/>
         </option>
         <option desc="圣盾">
@@ -2404,19 +2404,19 @@
     </cheat>
     <cheat desc="选择魔法辅助装备 PL3" default="0">
         <option desc="关闭"/>
-        <option desc="保护之戒">
+        <option desc="保护戒指">
             <parameter cpu="0" address="0xFF8B43" value="0x00"/>
             <parameter cpu="0" address="0xFF8B4B" value="0x05"/>
         </option>
-        <option desc="防火之戒">
+        <option desc="防火戒指">
             <parameter cpu="0" address="0xFF8B43" value="0x01"/>
             <parameter cpu="0" address="0xFF8B4B" value="0x05"/>
         </option>
-        <option desc="弹咒之戒">
+        <option desc="法术反转戒指">
             <parameter cpu="0" address="0xFF8B43" value="0x02"/>
             <parameter cpu="0" address="0xFF8B4B" value="0x05"/>
         </option>
-        <option desc="驱邪之戒">
+        <option desc="驱邪戒指">
             <parameter cpu="0" address="0xFF8B43" value="0x03"/>
             <parameter cpu="0" address="0xFF8B4B" value="0x05"/>
         </option>
@@ -2438,7 +2438,7 @@
         <option desc="项链">
             <parameter cpu="0" address="0xFF8B44" value="0x00"/>
         </option>
-        <option desc="天体球">
+        <option desc="宝珠">
             <parameter cpu="0" address="0xFF8B44" value="0x01"/>
         </option>
         <option desc="手镯">
@@ -2490,7 +2490,7 @@
             <parameter cpu="0" address="0xFF8B45" value="0x0A"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -2575,40 +2575,40 @@
     </cheat>
     <cheat desc="角色选择 PL4" default="0">
         <option desc="关闭"/>
-        <option desc="Crassus (Warrior 1)">
+        <option desc="Crassus (战士 1)">
             <parameter cpu="0" address="0xFF8BE1" value="0x00"/>
         </option>
-        <option desc="Jarred (Warrior 2)">
+        <option desc="Jarred (战士 2)">
             <parameter cpu="0" address="0xFF8BE1" value="0x01"/>
         </option>
-        <option desc="Greldon (Cleric 1)">
+        <option desc="Greldon (牧师 1)">
             <parameter cpu="0" address="0xFF8BE1" value="0x02"/>
         </option>
-        <option desc="Miles (Cleric 2)">
+        <option desc="Miles (牧师 2)">
             <parameter cpu="0" address="0xFF8BE1" value="0x03"/>
         </option>
-        <option desc="Lucia (Elf 1)">
+        <option desc="Lucia (精灵 1)">
             <parameter cpu="0" address="0xFF8BE1" value="0x04"/>
         </option>
-        <option desc="Kayla (Elf 2)">
+        <option desc="Kayla (精灵 2)">
             <parameter cpu="0" address="0xFF8BE1" value="0x05"/>
         </option>
-        <option desc="Dimsdale (Dwarf 1)">
+        <option desc="Dimsdale (矮人 1)">
             <parameter cpu="0" address="0xFF8BE1" value="0x06"/>
         </option>
-        <option desc="Hendel (Dwarf 2)">
+        <option desc="Hendel (矮人 2)">
             <parameter cpu="0" address="0xFF8BE1" value="0x07"/>
         </option>
-        <option desc="Syous (Mage 1)">
+        <option desc="Syous (法师 1)">
             <parameter cpu="0" address="0xFF8BE1" value="0x08"/>
         </option>
-        <option desc="D'Raven (Mage 2)">
+        <option desc="D'Raven (法师 2)">
             <parameter cpu="0" address="0xFF8BE1" value="0x09"/>
         </option>
-        <option desc="Moriah (Theif 1)">
+        <option desc="Moriah (盗贼 1)">
             <parameter cpu="0" address="0xFF8BE1" value="0x0A"/>
         </option>
-        <option desc="Shannon (Thief 2)">
+        <option desc="Shannon (盗贼 2)">
             <parameter cpu="0" address="0xFF8BE1" value="0x0B"/>
         </option>
     </cheat>
@@ -2620,10 +2620,10 @@
         <option desc="箭">
             <parameter cpu="0" address="0xFF8D1E" value="0x23"/>
         </option>
-        <option desc="大剑 1">
+        <option desc="重剑 1">
             <parameter cpu="0" address="0xFF8D1E" value="0x37"/>
         </option>
-        <option desc="大剑 2">
+        <option desc="重剑 2">
             <parameter cpu="0" address="0xFF8D1E" value="0x38"/>
         </option>
         <option desc="战斧">
@@ -2752,16 +2752,16 @@
         <option desc="闪电术">
             <parameter cpu="0" address="0xFF8D1E" value="0x0D"/>
         </option>
-        <option desc="钉头锤 等级 1">
+        <option desc="硬头锤 等级 1">
             <parameter cpu="0" address="0xFF8D1E" value="0x47"/>
         </option>
-        <option desc="钉头锤 等级 2">
+        <option desc="硬头锤 等级 2">
             <parameter cpu="0" address="0xFF8D1E" value="0x48"/>
         </option>
-        <option desc="钉头锤 等级 3">
+        <option desc="硬头锤 等级 3">
             <parameter cpu="0" address="0xFF8D1E" value="0x49"/>
         </option>
-        <option desc="钉头锤 等级 4">
+        <option desc="硬头锤 等级 4">
             <parameter cpu="0" address="0xFF8D1E" value="0x4A"/>
         </option>
         <option desc="魔法飞弹">
@@ -2902,7 +2902,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF8CEB" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF8CEB" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -3010,7 +3010,7 @@
         <option desc="双手剑">
             <parameter cpu="0" address="0xFF8CEC" value="0x08"/>
         </option>
-        <option desc="大剑">
+        <option desc="重剑">
             <parameter cpu="0" address="0xFF8CEC" value="0x09"/>
         </option>
         <option desc="屠龙剑">
@@ -3100,7 +3100,7 @@
         <option desc="头巾">
             <parameter cpu="0" address="0xFF8D3E" value="0x02"/>
         </option>
-        <option desc="头带">
+        <option desc="头环">
             <parameter cpu="0" address="0xFF8D3E" value="0x03"/>
         </option>
         <option desc="牧师帽">
@@ -3127,7 +3127,7 @@
         <option desc="魔法师">
             <parameter cpu="0" address="0xFF8D3F" value="0x04"/>
         </option>
-        <option desc="小偷">
+        <option desc="盗贼">
             <parameter cpu="0" address="0xFF8D3F" value="0x05"/>
         </option>
     </cheat>
@@ -3161,13 +3161,13 @@
         <option desc="普通护盾(精灵)">
             <parameter cpu="0" address="0xFF8D42" value="0x01"/>
         </option>
-        <option desc="龙护盾">
+        <option desc="龙盾">
             <parameter cpu="0" address="0xFF8D42" value="0x04"/>
         </option>
-        <option desc="火护盾">
+        <option desc="火盾">
             <parameter cpu="0" address="0xFF8D42" value="0x05"/>
         </option>
-        <option desc="冰护盾">
+        <option desc="冰盾">
             <parameter cpu="0" address="0xFF8D42" value="0x06"/>
         </option>
         <option desc="圣盾">
@@ -3176,19 +3176,19 @@
     </cheat>
     <cheat desc="选择魔法辅助装备 PL4" default="0">
         <option desc="关闭"/>
-        <option desc="保护之戒">
+        <option desc="保护戒指">
             <parameter cpu="0" address="0xFF8D43" value="0x00"/>
             <parameter cpu="0" address="0xFF8D4B" value="0x05"/>
         </option>
-        <option desc="防火之戒">
+        <option desc="防火戒指">
             <parameter cpu="0" address="0xFF8D43" value="0x01"/>
             <parameter cpu="0" address="0xFF8D4B" value="0x05"/>
         </option>
-        <option desc="弹咒之戒">
+        <option desc="法术反转戒指">
             <parameter cpu="0" address="0xFF8D43" value="0x02"/>
             <parameter cpu="0" address="0xFF8D4B" value="0x05"/>
         </option>
-        <option desc="驱邪之戒">
+        <option desc="驱邪戒指">
             <parameter cpu="0" address="0xFF8D43" value="0x03"/>
             <parameter cpu="0" address="0xFF8D4B" value="0x05"/>
         </option>
@@ -3210,7 +3210,7 @@
         <option desc="项链">
             <parameter cpu="0" address="0xFF8D44" value="0x00"/>
         </option>
-        <option desc="天体球">
+        <option desc="宝珠">
             <parameter cpu="0" address="0xFF8D44" value="0x01"/>
         </option>
         <option desc="手镯">

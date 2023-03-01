@@ -6,15 +6,15 @@
             <parameter cpu="0" address="0x80395A" value="0x09"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
-    <cheat desc="无限分 PL1" default="0">
+  <cheat desc=" "/>
+  <cheat desc="无限分 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0x81B438" value="0x99"/>
-            <parameter cpu="0" address="0x81B439" value="0x99"/>
-            <parameter cpu="0" address="0x81B43A" value="0x99"/>
-        </option>
-    </cheat>
+<parameter cpu="0" address="0x81B438" value="0x99"/>
+<parameter cpu="0" address="0x81B439" value="0x99"/>
+<parameter cpu="0" address="0x81B43A" value="0x99"/>
+    </option>
+  </cheat>
     <cheat desc="无敌 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -53,15 +53,15 @@
             <parameter cpu="0" address="0x81B655" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
-    <cheat desc="无限分 PL2" default="0">
+  <cheat desc=" "/>
+  <cheat desc="无限分 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0x81B43C" value="0x99"/>
-            <parameter cpu="0" address="0x81B43D" value="0x99"/>
-            <parameter cpu="0" address="0x81B43E" value="0x99"/>
-        </option>
-    </cheat>
+<parameter cpu="0" address="0x81B43C" value="0x99"/>
+<parameter cpu="0" address="0x81B43D" value="0x99"/>
+<parameter cpu="0" address="0x81B43E" value="0x99"/>
+    </option>
+  </cheat>
     <cheat desc="无敌 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">

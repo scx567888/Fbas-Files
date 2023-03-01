@@ -22,6 +22,15 @@
         </option>
     </cheat>
     <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="西域双怪">
+            <parameter cpu="0" address="0x80BFBC" value="0x0D"/>
+        </option>
+        <option desc="千幻邪魔">
+            <parameter cpu="0" address="0x80BFBC" value="0x0E"/>
+        </option>
+    </cheat>
     <cheat desc="选择血量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限血量">
@@ -63,6 +72,15 @@
         </option>
     </cheat>
     <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="西域双怪 PL2">
+            <parameter cpu="0" address="0x80C056" value="0x0D"/>
+        </option>
+        <option desc="千幻邪魔 PL2">
+            <parameter cpu="0" address="0x80C056" value="0x0E"/>
+        </option>
+    </cheat>
     <cheat desc="选择血量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限血量">
@@ -110,22 +128,4 @@
         </option>
     </cheat>
     <cheat desc=" "/>
-    <cheat desc="使用隐藏角色 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="西域双怪">
-            <parameter cpu="0" address="0x80BFBC" value="0x0D"/>
-        </option>
-        <option desc="千幻邪魔">
-            <parameter cpu="0" address="0x80BFBC" value="0x0E"/>
-        </option>
-    </cheat>
-    <cheat desc="使用隐藏角色 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="西域双怪 PL2">
-            <parameter cpu="0" address="0x80C056" value="0x0D"/>
-        </option>
-        <option desc="千幻邪魔 PL2">
-            <parameter cpu="0" address="0x80C056" value="0x0E"/>
-        </option>
-    </cheat>
 </shufflecheat>

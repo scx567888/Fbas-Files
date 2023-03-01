@@ -24,6 +24,7 @@
             <parameter cpu="0" address="0x10C017" value="0x0C"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -52,15 +53,16 @@
             <parameter cpu="0" address="0x1000AC" value="0x05"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="兰丸">
-            <parameter cpu="0" address="0x10C044" value="0x0A"/>
-        </option>
-        <option desc="信长">
-            <parameter cpu="0" address="0x10C044" value="0x0B"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="兰丸">
+			<parameter cpu="0" address="0x10C044" value="0x0A"/>
+		</option>
+		<option desc="信长">
+			<parameter cpu="0" address="0x10C044" value="0x0B"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -89,15 +91,16 @@
             <parameter cpu="0" address="0x1010AC" value="0x05"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="兰丸">
-            <parameter cpu="0" address="0x10C084" value="0x0A"/>
-        </option>
-        <option desc="信长">
-            <parameter cpu="0" address="0x10C084" value="0x0B"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="兰丸">
+			<parameter cpu="0" address="0x10C084" value="0x0A"/>
+		</option>
+		<option desc="信长">
+			<parameter cpu="0" address="0x10C084" value="0x0B"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
     <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
         <option desc="关闭"/>
         <option desc="街机 (MVS)">

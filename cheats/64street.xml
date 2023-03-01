@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB6AD" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9DE4" value="0xFF"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9F09" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9F8D" value="0xD8"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9F29" value="0xB3"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有撬棍 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9F85" value="0x29"/>
+            <parameter cpu="0" address="0xFF9FC5" value="0x29"/>
+            <parameter cpu="0" address="0xFF9FC8" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有扳手 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9F85" value="0x2A"/>
+            <parameter cpu="0" address="0xFF9FC5" value="0x2A"/>
+            <parameter cpu="0" address="0xFF9FC8" value="0x05"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9F33" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA04D" value="0xD8"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9F59" value="0xB3"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有撬棍 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA045" value="0x29"/>
+            <parameter cpu="0" address="0xFFA085" value="0x29"/>
+            <parameter cpu="0" address="0xFFA088" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有扳手 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA045" value="0x2A"/>
+            <parameter cpu="0" address="0xFFA085" value="0x2A"/>
+            <parameter cpu="0" address="0xFFA088" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

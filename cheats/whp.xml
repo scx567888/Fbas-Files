@@ -9,6 +9,7 @@
             <parameter cpu="0" address="0x10C109" value="0x01"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -87,6 +88,13 @@
             <parameter cpu="0" address="0x106004" value="0x10"/>
         </option>
     </cheat>
+    <cheat desc="超强状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10607D" value="0xFF"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -165,18 +173,13 @@
             <parameter cpu="0" address="0x106104" value="0x10"/>
         </option>
     </cheat>
-    <cheat desc="超强状态 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x10607D" value="0xFF"/>
-        </option>
-    </cheat>
     <cheat desc="超强状态 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x10617D" value="0xFF"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="选择背景" default="0">
         <option desc="关闭"/>
         <option desc="Genesis">

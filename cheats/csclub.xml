@@ -1,1755 +1,1755 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-    <cheat desc="无限投币" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8AE9" value="0x09"/>
-        </option>
-    </cheat>
-    <cheat desc="无限时间" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C92" value="0x09"/>
-            <parameter cpu="0" address="0xFF8C93" value="0x05"/>
-            <parameter cpu="0" address="0xFF8C94" value="0x09"/>
-            <parameter cpu="0" address="0xFF8C95" value="0x23"/>
-        </option>
-    </cheat>
-    <cheat desc="立即结束游戏" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C92" value="0x00"/>
-            <parameter cpu="0" address="0xFF8C93" value="0x00"/>
-            <parameter cpu="0" address="0xFF8C94" value="0x00"/>
-            <parameter cpu="0" address="0xFF8C95" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="选择隐藏角色的可用性" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C20" value="0xFF"/>
-            <parameter cpu="0" address="0xFF8C21" value="0xFF"/>
-        </option>
-        <option desc="禁用">
-            <parameter cpu="0" address="0xFF8C20" value="0x00"/>
-            <parameter cpu="0" address="0xFF8C21" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="游戏Dunk Stars修改项"/>
-    <cheat desc="-------------------"/>
-    <cheat desc="选择开始关卡" default="0">
-        <option desc="关闭"/>
-        <option desc="四分之一决赛">
-            <parameter cpu="0" address="0xFF8CA0" value="0x00"/>
-        </option>
-        <option desc="半决赛">
-            <parameter cpu="0" address="0xFF8CA0" value="0x01"/>
-        </option>
-        <option desc="决赛">
-            <parameter cpu="0" address="0xFF8CA0" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="无限队伍选择时间 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF0E3F" value="0xFF"/>
-        </option>
-    </cheat>
-    <cheat desc="选择队伍 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="韩国">
-            <parameter cpu="0" address="0xFF0E36" value="0x00"/>
-        </option>
-        <option desc="中国">
-            <parameter cpu="0" address="0xFF0E36" value="0x01"/>
-        </option>
-        <option desc="台湾">
-            <parameter cpu="0" address="0xFF0E36" value="0x02"/>
-        </option>
-        <option desc="巴西">
-            <parameter cpu="0" address="0xFF0E36" value="0x03"/>
-        </option>
-        <option desc="菲律宾">
-            <parameter cpu="0" address="0xFF0E36" value="0x04"/>
-        </option>
-        <option desc="意大利">
-            <parameter cpu="0" address="0xFF0E36" value="0x05"/>
-        </option>
-        <option desc="俄国">
-            <parameter cpu="0" address="0xFF0E36" value="0x06"/>
-        </option>
-        <option desc="美国">
-            <parameter cpu="0" address="0xFF0E36" value="0x07"/>
-        </option>
-        <option desc="#美国/金队">
-            <parameter cpu="0" address="0xFF0E36" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C99" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 99 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C99" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C99" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 50 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C99" value="0x32"/>
-        </option>
-    </cheat>
-    <cheat desc="选择得分 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="0">
-            <parameter cpu="0" address="0xFF8C99" value="0x00"/>
-        </option>
-        <option desc="1">
-            <parameter cpu="0" address="0xFF8C99" value="0x01"/>
-        </option>
-        <option desc="2">
-            <parameter cpu="0" address="0xFF8C99" value="0x02"/>
-        </option>
-        <option desc="3">
-            <parameter cpu="0" address="0xFF8C99" value="0x03"/>
-        </option>
-        <option desc="4">
-            <parameter cpu="0" address="0xFF8C99" value="0x04"/>
-        </option>
-        <option desc="5">
-            <parameter cpu="0" address="0xFF8C99" value="0x05"/>
-        </option>
-        <option desc="6">
-            <parameter cpu="0" address="0xFF8C99" value="0x06"/>
-        </option>
-        <option desc="7">
-            <parameter cpu="0" address="0xFF8C99" value="0x07"/>
-        </option>
-        <option desc="8">
-            <parameter cpu="0" address="0xFF8C99" value="0x08"/>
-        </option>
-        <option desc="9">
-            <parameter cpu="0" address="0xFF8C99" value="0x09"/>
-        </option>
-        <option desc="10">
-            <parameter cpu="0" address="0xFF8C99" value="0x0A"/>
-        </option>
-        <option desc="11">
-            <parameter cpu="0" address="0xFF8C99" value="0x0B"/>
-        </option>
-        <option desc="12">
-            <parameter cpu="0" address="0xFF8C99" value="0x0C"/>
-        </option>
-        <option desc="13">
-            <parameter cpu="0" address="0xFF8C99" value="0x0D"/>
-        </option>
-        <option desc="14">
-            <parameter cpu="0" address="0xFF8C99" value="0x0E"/>
-        </option>
-        <option desc="15">
-            <parameter cpu="0" address="0xFF8C99" value="0x0F"/>
-        </option>
-        <option desc="16">
-            <parameter cpu="0" address="0xFF8C99" value="0x10"/>
-        </option>
-        <option desc="17">
-            <parameter cpu="0" address="0xFF8C99" value="0x11"/>
-        </option>
-        <option desc="18">
-            <parameter cpu="0" address="0xFF8C99" value="0x12"/>
-        </option>
-        <option desc="19">
-            <parameter cpu="0" address="0xFF8C99" value="0x13"/>
-        </option>
-        <option desc="20">
-            <parameter cpu="0" address="0xFF8C99" value="0x14"/>
-        </option>
-        <option desc="21">
-            <parameter cpu="0" address="0xFF8C99" value="0x15"/>
-        </option>
-        <option desc="22">
-            <parameter cpu="0" address="0xFF8C99" value="0x16"/>
-        </option>
-        <option desc="23">
-            <parameter cpu="0" address="0xFF8C99" value="0x17"/>
-        </option>
-        <option desc="24">
-            <parameter cpu="0" address="0xFF8C99" value="0x18"/>
-        </option>
-        <option desc="25">
-            <parameter cpu="0" address="0xFF8C99" value="0x19"/>
-        </option>
-        <option desc="26">
-            <parameter cpu="0" address="0xFF8C99" value="0x1A"/>
-        </option>
-        <option desc="27">
-            <parameter cpu="0" address="0xFF8C99" value="0x1B"/>
-        </option>
-        <option desc="28">
-            <parameter cpu="0" address="0xFF8C99" value="0x1C"/>
-        </option>
-        <option desc="29">
-            <parameter cpu="0" address="0xFF8C99" value="0x1D"/>
-        </option>
-        <option desc="30">
-            <parameter cpu="0" address="0xFF8C99" value="0x1E"/>
-        </option>
-        <option desc="31">
-            <parameter cpu="0" address="0xFF8C99" value="0x1F"/>
-        </option>
-        <option desc="32">
-            <parameter cpu="0" address="0xFF8C99" value="0x20"/>
-        </option>
-        <option desc="33">
-            <parameter cpu="0" address="0xFF8C99" value="0x21"/>
-        </option>
-        <option desc="34">
-            <parameter cpu="0" address="0xFF8C99" value="0x22"/>
-        </option>
-        <option desc="35">
-            <parameter cpu="0" address="0xFF8C99" value="0x23"/>
-        </option>
-        <option desc="36">
-            <parameter cpu="0" address="0xFF8C99" value="0x24"/>
-        </option>
-        <option desc="37">
-            <parameter cpu="0" address="0xFF8C99" value="0x25"/>
-        </option>
-        <option desc="38">
-            <parameter cpu="0" address="0xFF8C99" value="0x26"/>
-        </option>
-        <option desc="39">
-            <parameter cpu="0" address="0xFF8C99" value="0x27"/>
-        </option>
-        <option desc="40">
-            <parameter cpu="0" address="0xFF8C99" value="0x28"/>
-        </option>
-        <option desc="41">
-            <parameter cpu="0" address="0xFF8C99" value="0x29"/>
-        </option>
-        <option desc="42">
-            <parameter cpu="0" address="0xFF8C99" value="0x2A"/>
-        </option>
-        <option desc="43">
-            <parameter cpu="0" address="0xFF8C99" value="0x2B"/>
-        </option>
-        <option desc="44">
-            <parameter cpu="0" address="0xFF8C99" value="0x2C"/>
-        </option>
-        <option desc="45">
-            <parameter cpu="0" address="0xFF8C99" value="0x2D"/>
-        </option>
-        <option desc="46">
-            <parameter cpu="0" address="0xFF8C99" value="0x2E"/>
-        </option>
-        <option desc="47">
-            <parameter cpu="0" address="0xFF8C99" value="0x2F"/>
-        </option>
-        <option desc="48">
-            <parameter cpu="0" address="0xFF8C99" value="0x30"/>
-        </option>
-        <option desc="49">
-            <parameter cpu="0" address="0xFF8C99" value="0x31"/>
-        </option>
-        <option desc="50">
-            <parameter cpu="0" address="0xFF8C99" value="0x32"/>
-        </option>
-        <option desc="51">
-            <parameter cpu="0" address="0xFF8C99" value="0x33"/>
-        </option>
-        <option desc="52">
-            <parameter cpu="0" address="0xFF8C99" value="0x34"/>
-        </option>
-        <option desc="53">
-            <parameter cpu="0" address="0xFF8C99" value="0x35"/>
-        </option>
-        <option desc="54">
-            <parameter cpu="0" address="0xFF8C99" value="0x36"/>
-        </option>
-        <option desc="55">
-            <parameter cpu="0" address="0xFF8C99" value="0x37"/>
-        </option>
-        <option desc="56">
-            <parameter cpu="0" address="0xFF8C99" value="0x38"/>
-        </option>
-        <option desc="57">
-            <parameter cpu="0" address="0xFF8C99" value="0x39"/>
-        </option>
-        <option desc="58">
-            <parameter cpu="0" address="0xFF8C99" value="0x3A"/>
-        </option>
-        <option desc="59">
-            <parameter cpu="0" address="0xFF8C99" value="0x3B"/>
-        </option>
-        <option desc="60">
-            <parameter cpu="0" address="0xFF8C99" value="0x3C"/>
-        </option>
-        <option desc="61">
-            <parameter cpu="0" address="0xFF8C99" value="0x3D"/>
-        </option>
-        <option desc="62">
-            <parameter cpu="0" address="0xFF8C99" value="0x3E"/>
-        </option>
-        <option desc="63">
-            <parameter cpu="0" address="0xFF8C99" value="0x3F"/>
-        </option>
-        <option desc="64">
-            <parameter cpu="0" address="0xFF8C99" value="0x40"/>
-        </option>
-        <option desc="65">
-            <parameter cpu="0" address="0xFF8C99" value="0x41"/>
-        </option>
-        <option desc="66">
-            <parameter cpu="0" address="0xFF8C99" value="0x42"/>
-        </option>
-        <option desc="67">
-            <parameter cpu="0" address="0xFF8C99" value="0x43"/>
-        </option>
-        <option desc="68">
-            <parameter cpu="0" address="0xFF8C99" value="0x44"/>
-        </option>
-        <option desc="69">
-            <parameter cpu="0" address="0xFF8C99" value="0x45"/>
-        </option>
-        <option desc="70">
-            <parameter cpu="0" address="0xFF8C99" value="0x46"/>
-        </option>
-        <option desc="71">
-            <parameter cpu="0" address="0xFF8C99" value="0x47"/>
-        </option>
-        <option desc="72">
-            <parameter cpu="0" address="0xFF8C99" value="0x48"/>
-        </option>
-        <option desc="73">
-            <parameter cpu="0" address="0xFF8C99" value="0x49"/>
-        </option>
-        <option desc="74">
-            <parameter cpu="0" address="0xFF8C99" value="0x4A"/>
-        </option>
-        <option desc="75">
-            <parameter cpu="0" address="0xFF8C99" value="0x4B"/>
-        </option>
-        <option desc="76">
-            <parameter cpu="0" address="0xFF8C99" value="0x4C"/>
-        </option>
-        <option desc="77">
-            <parameter cpu="0" address="0xFF8C99" value="0x4D"/>
-        </option>
-        <option desc="78">
-            <parameter cpu="0" address="0xFF8C99" value="0x4E"/>
-        </option>
-        <option desc="79">
-            <parameter cpu="0" address="0xFF8C99" value="0x4F"/>
-        </option>
-        <option desc="80">
-            <parameter cpu="0" address="0xFF8C99" value="0x50"/>
-        </option>
-        <option desc="81">
-            <parameter cpu="0" address="0xFF8C99" value="0x51"/>
-        </option>
-        <option desc="82">
-            <parameter cpu="0" address="0xFF8C99" value="0x52"/>
-        </option>
-        <option desc="83">
-            <parameter cpu="0" address="0xFF8C99" value="0x53"/>
-        </option>
-        <option desc="84">
-            <parameter cpu="0" address="0xFF8C99" value="0x54"/>
-        </option>
-        <option desc="85">
-            <parameter cpu="0" address="0xFF8C99" value="0x55"/>
-        </option>
-        <option desc="86">
-            <parameter cpu="0" address="0xFF8C99" value="0x56"/>
-        </option>
-        <option desc="87">
-            <parameter cpu="0" address="0xFF8C99" value="0x57"/>
-        </option>
-        <option desc="88">
-            <parameter cpu="0" address="0xFF8C99" value="0x58"/>
-        </option>
-        <option desc="89">
-            <parameter cpu="0" address="0xFF8C99" value="0x59"/>
-        </option>
-        <option desc="90">
-            <parameter cpu="0" address="0xFF8C99" value="0x5A"/>
-        </option>
-        <option desc="91">
-            <parameter cpu="0" address="0xFF8C99" value="0x5B"/>
-        </option>
-        <option desc="92">
-            <parameter cpu="0" address="0xFF8C99" value="0x5C"/>
-        </option>
-        <option desc="93">
-            <parameter cpu="0" address="0xFF8C99" value="0x5D"/>
-        </option>
-        <option desc="94">
-            <parameter cpu="0" address="0xFF8C99" value="0x5E"/>
-        </option>
-        <option desc="95">
-            <parameter cpu="0" address="0xFF8C99" value="0x5F"/>
-        </option>
-        <option desc="96">
-            <parameter cpu="0" address="0xFF8C99" value="0x60"/>
-        </option>
-        <option desc="97">
-            <parameter cpu="0" address="0xFF8C99" value="0x61"/>
-        </option>
-        <option desc="98">
-            <parameter cpu="0" address="0xFF8C99" value="0x62"/>
-        </option>
-        <option desc="99">
-            <parameter cpu="0" address="0xFF8C99" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="无限队伍选择时间 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF0E4F" value="0xFF"/>
-        </option>
-    </cheat>
-    <cheat desc="选择队伍 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="韩国">
-            <parameter cpu="0" address="0xFF0E46" value="0x00"/>
-        </option>
-        <option desc="中国">
-            <parameter cpu="0" address="0xFF0E46" value="0x01"/>
-        </option>
-        <option desc="台湾">
-            <parameter cpu="0" address="0xFF0E46" value="0x02"/>
-        </option>
-        <option desc="巴西">
-            <parameter cpu="0" address="0xFF0E46" value="0x03"/>
-        </option>
-        <option desc="菲律宾">
-            <parameter cpu="0" address="0xFF0E46" value="0x04"/>
-        </option>
-        <option desc="意大利">
-            <parameter cpu="0" address="0xFF0E46" value="0x05"/>
-        </option>
-        <option desc="俄国">
-            <parameter cpu="0" address="0xFF0E46" value="0x06"/>
-        </option>
-        <option desc="美国">
-            <parameter cpu="0" address="0xFF0E46" value="0x07"/>
-        </option>
-        <option desc="#美国/金队">
-            <parameter cpu="0" address="0xFF0E46" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C9B" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 99 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C9B" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C9B" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 50 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8C9B" value="0x32"/>
-        </option>
-    </cheat>
-    <cheat desc="选择得分 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="0">
-            <parameter cpu="0" address="0xFF8C9B" value="0x00"/>
-        </option>
-        <option desc="1">
-            <parameter cpu="0" address="0xFF8C9B" value="0x01"/>
-        </option>
-        <option desc="2">
-            <parameter cpu="0" address="0xFF8C9B" value="0x02"/>
-        </option>
-        <option desc="3">
-            <parameter cpu="0" address="0xFF8C9B" value="0x03"/>
-        </option>
-        <option desc="4">
-            <parameter cpu="0" address="0xFF8C9B" value="0x04"/>
-        </option>
-        <option desc="5">
-            <parameter cpu="0" address="0xFF8C9B" value="0x05"/>
-        </option>
-        <option desc="6">
-            <parameter cpu="0" address="0xFF8C9B" value="0x06"/>
-        </option>
-        <option desc="7">
-            <parameter cpu="0" address="0xFF8C9B" value="0x07"/>
-        </option>
-        <option desc="8">
-            <parameter cpu="0" address="0xFF8C9B" value="0x08"/>
-        </option>
-        <option desc="9">
-            <parameter cpu="0" address="0xFF8C9B" value="0x09"/>
-        </option>
-        <option desc="10">
-            <parameter cpu="0" address="0xFF8C9B" value="0x0A"/>
-        </option>
-        <option desc="11">
-            <parameter cpu="0" address="0xFF8C9B" value="0x0B"/>
-        </option>
-        <option desc="12">
-            <parameter cpu="0" address="0xFF8C9B" value="0x0C"/>
-        </option>
-        <option desc="13">
-            <parameter cpu="0" address="0xFF8C9B" value="0x0D"/>
-        </option>
-        <option desc="14">
-            <parameter cpu="0" address="0xFF8C9B" value="0x0E"/>
-        </option>
-        <option desc="15">
-            <parameter cpu="0" address="0xFF8C9B" value="0x0F"/>
-        </option>
-        <option desc="16">
-            <parameter cpu="0" address="0xFF8C9B" value="0x10"/>
-        </option>
-        <option desc="17">
-            <parameter cpu="0" address="0xFF8C9B" value="0x11"/>
-        </option>
-        <option desc="18">
-            <parameter cpu="0" address="0xFF8C9B" value="0x12"/>
-        </option>
-        <option desc="19">
-            <parameter cpu="0" address="0xFF8C9B" value="0x13"/>
-        </option>
-        <option desc="20">
-            <parameter cpu="0" address="0xFF8C9B" value="0x14"/>
-        </option>
-        <option desc="21">
-            <parameter cpu="0" address="0xFF8C9B" value="0x15"/>
-        </option>
-        <option desc="22">
-            <parameter cpu="0" address="0xFF8C9B" value="0x16"/>
-        </option>
-        <option desc="23">
-            <parameter cpu="0" address="0xFF8C9B" value="0x17"/>
-        </option>
-        <option desc="24">
-            <parameter cpu="0" address="0xFF8C9B" value="0x18"/>
-        </option>
-        <option desc="25">
-            <parameter cpu="0" address="0xFF8C9B" value="0x19"/>
-        </option>
-        <option desc="26">
-            <parameter cpu="0" address="0xFF8C9B" value="0x1A"/>
-        </option>
-        <option desc="27">
-            <parameter cpu="0" address="0xFF8C9B" value="0x1B"/>
-        </option>
-        <option desc="28">
-            <parameter cpu="0" address="0xFF8C9B" value="0x1C"/>
-        </option>
-        <option desc="29">
-            <parameter cpu="0" address="0xFF8C9B" value="0x1D"/>
-        </option>
-        <option desc="30">
-            <parameter cpu="0" address="0xFF8C9B" value="0x1E"/>
-        </option>
-        <option desc="31">
-            <parameter cpu="0" address="0xFF8C9B" value="0x1F"/>
-        </option>
-        <option desc="32">
-            <parameter cpu="0" address="0xFF8C9B" value="0x20"/>
-        </option>
-        <option desc="33">
-            <parameter cpu="0" address="0xFF8C9B" value="0x21"/>
-        </option>
-        <option desc="34">
-            <parameter cpu="0" address="0xFF8C9B" value="0x22"/>
-        </option>
-        <option desc="35">
-            <parameter cpu="0" address="0xFF8C9B" value="0x23"/>
-        </option>
-        <option desc="36">
-            <parameter cpu="0" address="0xFF8C9B" value="0x24"/>
-        </option>
-        <option desc="37">
-            <parameter cpu="0" address="0xFF8C9B" value="0x25"/>
-        </option>
-        <option desc="38">
-            <parameter cpu="0" address="0xFF8C9B" value="0x26"/>
-        </option>
-        <option desc="39">
-            <parameter cpu="0" address="0xFF8C9B" value="0x27"/>
-        </option>
-        <option desc="40">
-            <parameter cpu="0" address="0xFF8C9B" value="0x28"/>
-        </option>
-        <option desc="41">
-            <parameter cpu="0" address="0xFF8C9B" value="0x29"/>
-        </option>
-        <option desc="42">
-            <parameter cpu="0" address="0xFF8C9B" value="0x2A"/>
-        </option>
-        <option desc="43">
-            <parameter cpu="0" address="0xFF8C9B" value="0x2B"/>
-        </option>
-        <option desc="44">
-            <parameter cpu="0" address="0xFF8C9B" value="0x2C"/>
-        </option>
-        <option desc="45">
-            <parameter cpu="0" address="0xFF8C9B" value="0x2D"/>
-        </option>
-        <option desc="46">
-            <parameter cpu="0" address="0xFF8C9B" value="0x2E"/>
-        </option>
-        <option desc="47">
-            <parameter cpu="0" address="0xFF8C9B" value="0x2F"/>
-        </option>
-        <option desc="48">
-            <parameter cpu="0" address="0xFF8C9B" value="0x30"/>
-        </option>
-        <option desc="49">
-            <parameter cpu="0" address="0xFF8C9B" value="0x31"/>
-        </option>
-        <option desc="50">
-            <parameter cpu="0" address="0xFF8C9B" value="0x32"/>
-        </option>
-        <option desc="51">
-            <parameter cpu="0" address="0xFF8C9B" value="0x33"/>
-        </option>
-        <option desc="52">
-            <parameter cpu="0" address="0xFF8C9B" value="0x34"/>
-        </option>
-        <option desc="53">
-            <parameter cpu="0" address="0xFF8C9B" value="0x35"/>
-        </option>
-        <option desc="54">
-            <parameter cpu="0" address="0xFF8C9B" value="0x36"/>
-        </option>
-        <option desc="55">
-            <parameter cpu="0" address="0xFF8C9B" value="0x37"/>
-        </option>
-        <option desc="56">
-            <parameter cpu="0" address="0xFF8C9B" value="0x38"/>
-        </option>
-        <option desc="57">
-            <parameter cpu="0" address="0xFF8C9B" value="0x39"/>
-        </option>
-        <option desc="58">
-            <parameter cpu="0" address="0xFF8C9B" value="0x3A"/>
-        </option>
-        <option desc="59">
-            <parameter cpu="0" address="0xFF8C9B" value="0x3B"/>
-        </option>
-        <option desc="60">
-            <parameter cpu="0" address="0xFF8C9B" value="0x3C"/>
-        </option>
-        <option desc="61">
-            <parameter cpu="0" address="0xFF8C9B" value="0x3D"/>
-        </option>
-        <option desc="62">
-            <parameter cpu="0" address="0xFF8C9B" value="0x3E"/>
-        </option>
-        <option desc="63">
-            <parameter cpu="0" address="0xFF8C9B" value="0x3F"/>
-        </option>
-        <option desc="64">
-            <parameter cpu="0" address="0xFF8C9B" value="0x40"/>
-        </option>
-        <option desc="65">
-            <parameter cpu="0" address="0xFF8C9B" value="0x41"/>
-        </option>
-        <option desc="66">
-            <parameter cpu="0" address="0xFF8C9B" value="0x42"/>
-        </option>
-        <option desc="67">
-            <parameter cpu="0" address="0xFF8C9B" value="0x43"/>
-        </option>
-        <option desc="68">
-            <parameter cpu="0" address="0xFF8C9B" value="0x44"/>
-        </option>
-        <option desc="69">
-            <parameter cpu="0" address="0xFF8C9B" value="0x45"/>
-        </option>
-        <option desc="70">
-            <parameter cpu="0" address="0xFF8C9B" value="0x46"/>
-        </option>
-        <option desc="71">
-            <parameter cpu="0" address="0xFF8C9B" value="0x47"/>
-        </option>
-        <option desc="72">
-            <parameter cpu="0" address="0xFF8C9B" value="0x48"/>
-        </option>
-        <option desc="73">
-            <parameter cpu="0" address="0xFF8C9B" value="0x49"/>
-        </option>
-        <option desc="74">
-            <parameter cpu="0" address="0xFF8C9B" value="0x4A"/>
-        </option>
-        <option desc="75">
-            <parameter cpu="0" address="0xFF8C9B" value="0x4B"/>
-        </option>
-        <option desc="76">
-            <parameter cpu="0" address="0xFF8C9B" value="0x4C"/>
-        </option>
-        <option desc="77">
-            <parameter cpu="0" address="0xFF8C9B" value="0x4D"/>
-        </option>
-        <option desc="78">
-            <parameter cpu="0" address="0xFF8C9B" value="0x4E"/>
-        </option>
-        <option desc="79">
-            <parameter cpu="0" address="0xFF8C9B" value="0x4F"/>
-        </option>
-        <option desc="80">
-            <parameter cpu="0" address="0xFF8C9B" value="0x50"/>
-        </option>
-        <option desc="81">
-            <parameter cpu="0" address="0xFF8C9B" value="0x51"/>
-        </option>
-        <option desc="82">
-            <parameter cpu="0" address="0xFF8C9B" value="0x52"/>
-        </option>
-        <option desc="83">
-            <parameter cpu="0" address="0xFF8C9B" value="0x53"/>
-        </option>
-        <option desc="84">
-            <parameter cpu="0" address="0xFF8C9B" value="0x54"/>
-        </option>
-        <option desc="85">
-            <parameter cpu="0" address="0xFF8C9B" value="0x55"/>
-        </option>
-        <option desc="86">
-            <parameter cpu="0" address="0xFF8C9B" value="0x56"/>
-        </option>
-        <option desc="87">
-            <parameter cpu="0" address="0xFF8C9B" value="0x57"/>
-        </option>
-        <option desc="88">
-            <parameter cpu="0" address="0xFF8C9B" value="0x58"/>
-        </option>
-        <option desc="89">
-            <parameter cpu="0" address="0xFF8C9B" value="0x59"/>
-        </option>
-        <option desc="90">
-            <parameter cpu="0" address="0xFF8C9B" value="0x5A"/>
-        </option>
-        <option desc="91">
-            <parameter cpu="0" address="0xFF8C9B" value="0x5B"/>
-        </option>
-        <option desc="92">
-            <parameter cpu="0" address="0xFF8C9B" value="0x5C"/>
-        </option>
-        <option desc="93">
-            <parameter cpu="0" address="0xFF8C9B" value="0x5D"/>
-        </option>
-        <option desc="94">
-            <parameter cpu="0" address="0xFF8C9B" value="0x5E"/>
-        </option>
-        <option desc="95">
-            <parameter cpu="0" address="0xFF8C9B" value="0x5F"/>
-        </option>
-        <option desc="96">
-            <parameter cpu="0" address="0xFF8C9B" value="0x60"/>
-        </option>
-        <option desc="97">
-            <parameter cpu="0" address="0xFF8C9B" value="0x61"/>
-        </option>
-        <option desc="98">
-            <parameter cpu="0" address="0xFF8C9B" value="0x62"/>
-        </option>
-        <option desc="99">
-            <parameter cpu="0" address="0xFF8C9B" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="游戏Kick Stars修改项"/>
-    <cheat desc="-------------------"/>
-    <cheat desc="选择开始关卡" default="0">
-        <option desc="关闭"/>
-        <option desc="四分之一决赛">
-            <parameter cpu="0" address="0xFF8C9C" value="0x00"/>
-        </option>
-        <option desc="半决赛">
-            <parameter cpu="0" address="0xFF8C9C" value="0x01"/>
-        </option>
-        <option desc="决赛">
-            <parameter cpu="0" address="0xFF8C9C" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="无限队伍选择时间 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF0995" value="0xFF"/>
-        </option>
-    </cheat>
-    <cheat desc="选择队伍 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="韩国">
-            <parameter cpu="0" address="0xFF098C" value="0x00"/>
-        </option>
-        <option desc="日本">
-            <parameter cpu="0" address="0xFF098C" value="0x01"/>
-        </option>
-        <option desc="台湾">
-            <parameter cpu="0" address="0xFF098C" value="0x02"/>
-        </option>
-        <option desc="西班牙">
-            <parameter cpu="0" address="0xFF098C" value="0x03"/>
-        </option>
-        <option desc="法国">
-            <parameter cpu="0" address="0xFF098C" value="0x04"/>
-        </option>
-        <option desc="意大利">
-            <parameter cpu="0" address="0xFF098C" value="0x05"/>
-        </option>
-        <option desc="阿根廷">
-            <parameter cpu="0" address="0xFF098C" value="0x06"/>
-        </option>
-        <option desc="巴西">
-            <parameter cpu="0" address="0xFF098C" value="0x07"/>
-        </option>
-        <option desc="#全明星">
-            <parameter cpu="0" address="0xFF098C" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CB5" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 99 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CB5" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CB5" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 50 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CB5" value="0x32"/>
-        </option>
-    </cheat>
-    <cheat desc="选择得分 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="0">
-            <parameter cpu="0" address="0xFF8CB5" value="0x00"/>
-        </option>
-        <option desc="1">
-            <parameter cpu="0" address="0xFF8CB5" value="0x01"/>
-        </option>
-        <option desc="2">
-            <parameter cpu="0" address="0xFF8CB5" value="0x02"/>
-        </option>
-        <option desc="3">
-            <parameter cpu="0" address="0xFF8CB5" value="0x03"/>
-        </option>
-        <option desc="4">
-            <parameter cpu="0" address="0xFF8CB5" value="0x04"/>
-        </option>
-        <option desc="5">
-            <parameter cpu="0" address="0xFF8CB5" value="0x05"/>
-        </option>
-        <option desc="6">
-            <parameter cpu="0" address="0xFF8CB5" value="0x06"/>
-        </option>
-        <option desc="7">
-            <parameter cpu="0" address="0xFF8CB5" value="0x07"/>
-        </option>
-        <option desc="8">
-            <parameter cpu="0" address="0xFF8CB5" value="0x08"/>
-        </option>
-        <option desc="9">
-            <parameter cpu="0" address="0xFF8CB5" value="0x09"/>
-        </option>
-        <option desc="10">
-            <parameter cpu="0" address="0xFF8CB5" value="0x0A"/>
-        </option>
-        <option desc="11">
-            <parameter cpu="0" address="0xFF8CB5" value="0x0B"/>
-        </option>
-        <option desc="12">
-            <parameter cpu="0" address="0xFF8CB5" value="0x0C"/>
-        </option>
-        <option desc="13">
-            <parameter cpu="0" address="0xFF8CB5" value="0x0D"/>
-        </option>
-        <option desc="14">
-            <parameter cpu="0" address="0xFF8CB5" value="0x0E"/>
-        </option>
-        <option desc="15">
-            <parameter cpu="0" address="0xFF8CB5" value="0x0F"/>
-        </option>
-        <option desc="16">
-            <parameter cpu="0" address="0xFF8CB5" value="0x10"/>
-        </option>
-        <option desc="17">
-            <parameter cpu="0" address="0xFF8CB5" value="0x11"/>
-        </option>
-        <option desc="18">
-            <parameter cpu="0" address="0xFF8CB5" value="0x12"/>
-        </option>
-        <option desc="19">
-            <parameter cpu="0" address="0xFF8CB5" value="0x13"/>
-        </option>
-        <option desc="20">
-            <parameter cpu="0" address="0xFF8CB5" value="0x14"/>
-        </option>
-        <option desc="21">
-            <parameter cpu="0" address="0xFF8CB5" value="0x15"/>
-        </option>
-        <option desc="22">
-            <parameter cpu="0" address="0xFF8CB5" value="0x16"/>
-        </option>
-        <option desc="23">
-            <parameter cpu="0" address="0xFF8CB5" value="0x17"/>
-        </option>
-        <option desc="24">
-            <parameter cpu="0" address="0xFF8CB5" value="0x18"/>
-        </option>
-        <option desc="25">
-            <parameter cpu="0" address="0xFF8CB5" value="0x19"/>
-        </option>
-        <option desc="26">
-            <parameter cpu="0" address="0xFF8CB5" value="0x1A"/>
-        </option>
-        <option desc="27">
-            <parameter cpu="0" address="0xFF8CB5" value="0x1B"/>
-        </option>
-        <option desc="28">
-            <parameter cpu="0" address="0xFF8CB5" value="0x1C"/>
-        </option>
-        <option desc="29">
-            <parameter cpu="0" address="0xFF8CB5" value="0x1D"/>
-        </option>
-        <option desc="30">
-            <parameter cpu="0" address="0xFF8CB5" value="0x1E"/>
-        </option>
-        <option desc="31">
-            <parameter cpu="0" address="0xFF8CB5" value="0x1F"/>
-        </option>
-        <option desc="32">
-            <parameter cpu="0" address="0xFF8CB5" value="0x20"/>
-        </option>
-        <option desc="33">
-            <parameter cpu="0" address="0xFF8CB5" value="0x21"/>
-        </option>
-        <option desc="34">
-            <parameter cpu="0" address="0xFF8CB5" value="0x22"/>
-        </option>
-        <option desc="35">
-            <parameter cpu="0" address="0xFF8CB5" value="0x23"/>
-        </option>
-        <option desc="36">
-            <parameter cpu="0" address="0xFF8CB5" value="0x24"/>
-        </option>
-        <option desc="37">
-            <parameter cpu="0" address="0xFF8CB5" value="0x25"/>
-        </option>
-        <option desc="38">
-            <parameter cpu="0" address="0xFF8CB5" value="0x26"/>
-        </option>
-        <option desc="39">
-            <parameter cpu="0" address="0xFF8CB5" value="0x27"/>
-        </option>
-        <option desc="40">
-            <parameter cpu="0" address="0xFF8CB5" value="0x28"/>
-        </option>
-        <option desc="41">
-            <parameter cpu="0" address="0xFF8CB5" value="0x29"/>
-        </option>
-        <option desc="42">
-            <parameter cpu="0" address="0xFF8CB5" value="0x2A"/>
-        </option>
-        <option desc="43">
-            <parameter cpu="0" address="0xFF8CB5" value="0x2B"/>
-        </option>
-        <option desc="44">
-            <parameter cpu="0" address="0xFF8CB5" value="0x2C"/>
-        </option>
-        <option desc="45">
-            <parameter cpu="0" address="0xFF8CB5" value="0x2D"/>
-        </option>
-        <option desc="46">
-            <parameter cpu="0" address="0xFF8CB5" value="0x2E"/>
-        </option>
-        <option desc="47">
-            <parameter cpu="0" address="0xFF8CB5" value="0x2F"/>
-        </option>
-        <option desc="48">
-            <parameter cpu="0" address="0xFF8CB5" value="0x30"/>
-        </option>
-        <option desc="49">
-            <parameter cpu="0" address="0xFF8CB5" value="0x31"/>
-        </option>
-        <option desc="50">
-            <parameter cpu="0" address="0xFF8CB5" value="0x32"/>
-        </option>
-        <option desc="51">
-            <parameter cpu="0" address="0xFF8CB5" value="0x33"/>
-        </option>
-        <option desc="52">
-            <parameter cpu="0" address="0xFF8CB5" value="0x34"/>
-        </option>
-        <option desc="53">
-            <parameter cpu="0" address="0xFF8CB5" value="0x35"/>
-        </option>
-        <option desc="54">
-            <parameter cpu="0" address="0xFF8CB5" value="0x36"/>
-        </option>
-        <option desc="55">
-            <parameter cpu="0" address="0xFF8CB5" value="0x37"/>
-        </option>
-        <option desc="56">
-            <parameter cpu="0" address="0xFF8CB5" value="0x38"/>
-        </option>
-        <option desc="57">
-            <parameter cpu="0" address="0xFF8CB5" value="0x39"/>
-        </option>
-        <option desc="58">
-            <parameter cpu="0" address="0xFF8CB5" value="0x3A"/>
-        </option>
-        <option desc="59">
-            <parameter cpu="0" address="0xFF8CB5" value="0x3B"/>
-        </option>
-        <option desc="60">
-            <parameter cpu="0" address="0xFF8CB5" value="0x3C"/>
-        </option>
-        <option desc="61">
-            <parameter cpu="0" address="0xFF8CB5" value="0x3D"/>
-        </option>
-        <option desc="62">
-            <parameter cpu="0" address="0xFF8CB5" value="0x3E"/>
-        </option>
-        <option desc="63">
-            <parameter cpu="0" address="0xFF8CB5" value="0x3F"/>
-        </option>
-        <option desc="64">
-            <parameter cpu="0" address="0xFF8CB5" value="0x40"/>
-        </option>
-        <option desc="65">
-            <parameter cpu="0" address="0xFF8CB5" value="0x41"/>
-        </option>
-        <option desc="66">
-            <parameter cpu="0" address="0xFF8CB5" value="0x42"/>
-        </option>
-        <option desc="67">
-            <parameter cpu="0" address="0xFF8CB5" value="0x43"/>
-        </option>
-        <option desc="68">
-            <parameter cpu="0" address="0xFF8CB5" value="0x44"/>
-        </option>
-        <option desc="69">
-            <parameter cpu="0" address="0xFF8CB5" value="0x45"/>
-        </option>
-        <option desc="70">
-            <parameter cpu="0" address="0xFF8CB5" value="0x46"/>
-        </option>
-        <option desc="71">
-            <parameter cpu="0" address="0xFF8CB5" value="0x47"/>
-        </option>
-        <option desc="72">
-            <parameter cpu="0" address="0xFF8CB5" value="0x48"/>
-        </option>
-        <option desc="73">
-            <parameter cpu="0" address="0xFF8CB5" value="0x49"/>
-        </option>
-        <option desc="74">
-            <parameter cpu="0" address="0xFF8CB5" value="0x4A"/>
-        </option>
-        <option desc="75">
-            <parameter cpu="0" address="0xFF8CB5" value="0x4B"/>
-        </option>
-        <option desc="76">
-            <parameter cpu="0" address="0xFF8CB5" value="0x4C"/>
-        </option>
-        <option desc="77">
-            <parameter cpu="0" address="0xFF8CB5" value="0x4D"/>
-        </option>
-        <option desc="78">
-            <parameter cpu="0" address="0xFF8CB5" value="0x4E"/>
-        </option>
-        <option desc="79">
-            <parameter cpu="0" address="0xFF8CB5" value="0x4F"/>
-        </option>
-        <option desc="80">
-            <parameter cpu="0" address="0xFF8CB5" value="0x50"/>
-        </option>
-        <option desc="81">
-            <parameter cpu="0" address="0xFF8CB5" value="0x51"/>
-        </option>
-        <option desc="82">
-            <parameter cpu="0" address="0xFF8CB5" value="0x52"/>
-        </option>
-        <option desc="83">
-            <parameter cpu="0" address="0xFF8CB5" value="0x53"/>
-        </option>
-        <option desc="84">
-            <parameter cpu="0" address="0xFF8CB5" value="0x54"/>
-        </option>
-        <option desc="85">
-            <parameter cpu="0" address="0xFF8CB5" value="0x55"/>
-        </option>
-        <option desc="86">
-            <parameter cpu="0" address="0xFF8CB5" value="0x56"/>
-        </option>
-        <option desc="87">
-            <parameter cpu="0" address="0xFF8CB5" value="0x57"/>
-        </option>
-        <option desc="88">
-            <parameter cpu="0" address="0xFF8CB5" value="0x58"/>
-        </option>
-        <option desc="89">
-            <parameter cpu="0" address="0xFF8CB5" value="0x59"/>
-        </option>
-        <option desc="90">
-            <parameter cpu="0" address="0xFF8CB5" value="0x5A"/>
-        </option>
-        <option desc="91">
-            <parameter cpu="0" address="0xFF8CB5" value="0x5B"/>
-        </option>
-        <option desc="92">
-            <parameter cpu="0" address="0xFF8CB5" value="0x5C"/>
-        </option>
-        <option desc="93">
-            <parameter cpu="0" address="0xFF8CB5" value="0x5D"/>
-        </option>
-        <option desc="94">
-            <parameter cpu="0" address="0xFF8CB5" value="0x5E"/>
-        </option>
-        <option desc="95">
-            <parameter cpu="0" address="0xFF8CB5" value="0x5F"/>
-        </option>
-        <option desc="96">
-            <parameter cpu="0" address="0xFF8CB5" value="0x60"/>
-        </option>
-        <option desc="97">
-            <parameter cpu="0" address="0xFF8CB5" value="0x61"/>
-        </option>
-        <option desc="98">
-            <parameter cpu="0" address="0xFF8CB5" value="0x62"/>
-        </option>
-        <option desc="99">
-            <parameter cpu="0" address="0xFF8CB5" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="无限队伍选择时间 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF09A9" value="0xFF"/>
-        </option>
-    </cheat>
-    <cheat desc="选择队伍 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="韩国">
-            <parameter cpu="0" address="0xFF09A0" value="0x00"/>
-        </option>
-        <option desc="日本">
-            <parameter cpu="0" address="0xFF09A0" value="0x01"/>
-        </option>
-        <option desc="台湾">
-            <parameter cpu="0" address="0xFF09A0" value="0x02"/>
-        </option>
-        <option desc="西班牙">
-            <parameter cpu="0" address="0xFF09A0" value="0x03"/>
-        </option>
-        <option desc="法国">
-            <parameter cpu="0" address="0xFF09A0" value="0x04"/>
-        </option>
-        <option desc="意大利">
-            <parameter cpu="0" address="0xFF09A0" value="0x05"/>
-        </option>
-        <option desc="阿根廷">
-            <parameter cpu="0" address="0xFF09A0" value="0x06"/>
-        </option>
-        <option desc="巴西">
-            <parameter cpu="0" address="0xFF09A0" value="0x07"/>
-        </option>
-        <option desc="#全明星">
-            <parameter cpu="0" address="0xFF09A0" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CBB" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="得分总是 = 99 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CBB" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CBB" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 50 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF8CBB" value="0x32"/>
-        </option>
-    </cheat>
-    <cheat desc="选择得分 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="0">
-            <parameter cpu="0" address="0xFF8CBB" value="0x00"/>
-        </option>
-        <option desc="1">
-            <parameter cpu="0" address="0xFF8CBB" value="0x01"/>
-        </option>
-        <option desc="2">
-            <parameter cpu="0" address="0xFF8CBB" value="0x02"/>
-        </option>
-        <option desc="3">
-            <parameter cpu="0" address="0xFF8CBB" value="0x03"/>
-        </option>
-        <option desc="4">
-            <parameter cpu="0" address="0xFF8CBB" value="0x04"/>
-        </option>
-        <option desc="5">
-            <parameter cpu="0" address="0xFF8CBB" value="0x05"/>
-        </option>
-        <option desc="6">
-            <parameter cpu="0" address="0xFF8CBB" value="0x06"/>
-        </option>
-        <option desc="7">
-            <parameter cpu="0" address="0xFF8CBB" value="0x07"/>
-        </option>
-        <option desc="8">
-            <parameter cpu="0" address="0xFF8CBB" value="0x08"/>
-        </option>
-        <option desc="9">
-            <parameter cpu="0" address="0xFF8CBB" value="0x09"/>
-        </option>
-        <option desc="10">
-            <parameter cpu="0" address="0xFF8CBB" value="0x0A"/>
-        </option>
-        <option desc="11">
-            <parameter cpu="0" address="0xFF8CBB" value="0x0B"/>
-        </option>
-        <option desc="12">
-            <parameter cpu="0" address="0xFF8CBB" value="0x0C"/>
-        </option>
-        <option desc="13">
-            <parameter cpu="0" address="0xFF8CBB" value="0x0D"/>
-        </option>
-        <option desc="14">
-            <parameter cpu="0" address="0xFF8CBB" value="0x0E"/>
-        </option>
-        <option desc="15">
-            <parameter cpu="0" address="0xFF8CBB" value="0x0F"/>
-        </option>
-        <option desc="16">
-            <parameter cpu="0" address="0xFF8CBB" value="0x10"/>
-        </option>
-        <option desc="17">
-            <parameter cpu="0" address="0xFF8CBB" value="0x11"/>
-        </option>
-        <option desc="18">
-            <parameter cpu="0" address="0xFF8CBB" value="0x12"/>
-        </option>
-        <option desc="19">
-            <parameter cpu="0" address="0xFF8CBB" value="0x13"/>
-        </option>
-        <option desc="20">
-            <parameter cpu="0" address="0xFF8CBB" value="0x14"/>
-        </option>
-        <option desc="21">
-            <parameter cpu="0" address="0xFF8CBB" value="0x15"/>
-        </option>
-        <option desc="22">
-            <parameter cpu="0" address="0xFF8CBB" value="0x16"/>
-        </option>
-        <option desc="23">
-            <parameter cpu="0" address="0xFF8CBB" value="0x17"/>
-        </option>
-        <option desc="24">
-            <parameter cpu="0" address="0xFF8CBB" value="0x18"/>
-        </option>
-        <option desc="25">
-            <parameter cpu="0" address="0xFF8CBB" value="0x19"/>
-        </option>
-        <option desc="26">
-            <parameter cpu="0" address="0xFF8CBB" value="0x1A"/>
-        </option>
-        <option desc="27">
-            <parameter cpu="0" address="0xFF8CBB" value="0x1B"/>
-        </option>
-        <option desc="28">
-            <parameter cpu="0" address="0xFF8CBB" value="0x1C"/>
-        </option>
-        <option desc="29">
-            <parameter cpu="0" address="0xFF8CBB" value="0x1D"/>
-        </option>
-        <option desc="30">
-            <parameter cpu="0" address="0xFF8CBB" value="0x1E"/>
-        </option>
-        <option desc="31">
-            <parameter cpu="0" address="0xFF8CBB" value="0x1F"/>
-        </option>
-        <option desc="32">
-            <parameter cpu="0" address="0xFF8CBB" value="0x20"/>
-        </option>
-        <option desc="33">
-            <parameter cpu="0" address="0xFF8CBB" value="0x21"/>
-        </option>
-        <option desc="34">
-            <parameter cpu="0" address="0xFF8CBB" value="0x22"/>
-        </option>
-        <option desc="35">
-            <parameter cpu="0" address="0xFF8CBB" value="0x23"/>
-        </option>
-        <option desc="36">
-            <parameter cpu="0" address="0xFF8CBB" value="0x24"/>
-        </option>
-        <option desc="37">
-            <parameter cpu="0" address="0xFF8CBB" value="0x25"/>
-        </option>
-        <option desc="38">
-            <parameter cpu="0" address="0xFF8CBB" value="0x26"/>
-        </option>
-        <option desc="39">
-            <parameter cpu="0" address="0xFF8CBB" value="0x27"/>
-        </option>
-        <option desc="40">
-            <parameter cpu="0" address="0xFF8CBB" value="0x28"/>
-        </option>
-        <option desc="41">
-            <parameter cpu="0" address="0xFF8CBB" value="0x29"/>
-        </option>
-        <option desc="42">
-            <parameter cpu="0" address="0xFF8CBB" value="0x2A"/>
-        </option>
-        <option desc="43">
-            <parameter cpu="0" address="0xFF8CBB" value="0x2B"/>
-        </option>
-        <option desc="44">
-            <parameter cpu="0" address="0xFF8CBB" value="0x2C"/>
-        </option>
-        <option desc="45">
-            <parameter cpu="0" address="0xFF8CBB" value="0x2D"/>
-        </option>
-        <option desc="46">
-            <parameter cpu="0" address="0xFF8CBB" value="0x2E"/>
-        </option>
-        <option desc="47">
-            <parameter cpu="0" address="0xFF8CBB" value="0x2F"/>
-        </option>
-        <option desc="48">
-            <parameter cpu="0" address="0xFF8CBB" value="0x30"/>
-        </option>
-        <option desc="49">
-            <parameter cpu="0" address="0xFF8CBB" value="0x31"/>
-        </option>
-        <option desc="50">
-            <parameter cpu="0" address="0xFF8CBB" value="0x32"/>
-        </option>
-        <option desc="51">
-            <parameter cpu="0" address="0xFF8CBB" value="0x33"/>
-        </option>
-        <option desc="52">
-            <parameter cpu="0" address="0xFF8CBB" value="0x34"/>
-        </option>
-        <option desc="53">
-            <parameter cpu="0" address="0xFF8CBB" value="0x35"/>
-        </option>
-        <option desc="54">
-            <parameter cpu="0" address="0xFF8CBB" value="0x36"/>
-        </option>
-        <option desc="55">
-            <parameter cpu="0" address="0xFF8CBB" value="0x37"/>
-        </option>
-        <option desc="56">
-            <parameter cpu="0" address="0xFF8CBB" value="0x38"/>
-        </option>
-        <option desc="57">
-            <parameter cpu="0" address="0xFF8CBB" value="0x39"/>
-        </option>
-        <option desc="58">
-            <parameter cpu="0" address="0xFF8CBB" value="0x3A"/>
-        </option>
-        <option desc="59">
-            <parameter cpu="0" address="0xFF8CBB" value="0x3B"/>
-        </option>
-        <option desc="60">
-            <parameter cpu="0" address="0xFF8CBB" value="0x3C"/>
-        </option>
-        <option desc="61">
-            <parameter cpu="0" address="0xFF8CBB" value="0x3D"/>
-        </option>
-        <option desc="62">
-            <parameter cpu="0" address="0xFF8CBB" value="0x3E"/>
-        </option>
-        <option desc="63">
-            <parameter cpu="0" address="0xFF8CBB" value="0x3F"/>
-        </option>
-        <option desc="64">
-            <parameter cpu="0" address="0xFF8CBB" value="0x40"/>
-        </option>
-        <option desc="65">
-            <parameter cpu="0" address="0xFF8CBB" value="0x41"/>
-        </option>
-        <option desc="66">
-            <parameter cpu="0" address="0xFF8CBB" value="0x42"/>
-        </option>
-        <option desc="67">
-            <parameter cpu="0" address="0xFF8CBB" value="0x43"/>
-        </option>
-        <option desc="68">
-            <parameter cpu="0" address="0xFF8CBB" value="0x44"/>
-        </option>
-        <option desc="69">
-            <parameter cpu="0" address="0xFF8CBB" value="0x45"/>
-        </option>
-        <option desc="70">
-            <parameter cpu="0" address="0xFF8CBB" value="0x46"/>
-        </option>
-        <option desc="71">
-            <parameter cpu="0" address="0xFF8CBB" value="0x47"/>
-        </option>
-        <option desc="72">
-            <parameter cpu="0" address="0xFF8CBB" value="0x48"/>
-        </option>
-        <option desc="73">
-            <parameter cpu="0" address="0xFF8CBB" value="0x49"/>
-        </option>
-        <option desc="74">
-            <parameter cpu="0" address="0xFF8CBB" value="0x4A"/>
-        </option>
-        <option desc="75">
-            <parameter cpu="0" address="0xFF8CBB" value="0x4B"/>
-        </option>
-        <option desc="76">
-            <parameter cpu="0" address="0xFF8CBB" value="0x4C"/>
-        </option>
-        <option desc="77">
-            <parameter cpu="0" address="0xFF8CBB" value="0x4D"/>
-        </option>
-        <option desc="78">
-            <parameter cpu="0" address="0xFF8CBB" value="0x4E"/>
-        </option>
-        <option desc="79">
-            <parameter cpu="0" address="0xFF8CBB" value="0x4F"/>
-        </option>
-        <option desc="80">
-            <parameter cpu="0" address="0xFF8CBB" value="0x50"/>
-        </option>
-        <option desc="81">
-            <parameter cpu="0" address="0xFF8CBB" value="0x51"/>
-        </option>
-        <option desc="82">
-            <parameter cpu="0" address="0xFF8CBB" value="0x52"/>
-        </option>
-        <option desc="83">
-            <parameter cpu="0" address="0xFF8CBB" value="0x53"/>
-        </option>
-        <option desc="84">
-            <parameter cpu="0" address="0xFF8CBB" value="0x54"/>
-        </option>
-        <option desc="85">
-            <parameter cpu="0" address="0xFF8CBB" value="0x55"/>
-        </option>
-        <option desc="86">
-            <parameter cpu="0" address="0xFF8CBB" value="0x56"/>
-        </option>
-        <option desc="87">
-            <parameter cpu="0" address="0xFF8CBB" value="0x57"/>
-        </option>
-        <option desc="88">
-            <parameter cpu="0" address="0xFF8CBB" value="0x58"/>
-        </option>
-        <option desc="89">
-            <parameter cpu="0" address="0xFF8CBB" value="0x59"/>
-        </option>
-        <option desc="90">
-            <parameter cpu="0" address="0xFF8CBB" value="0x5A"/>
-        </option>
-        <option desc="91">
-            <parameter cpu="0" address="0xFF8CBB" value="0x5B"/>
-        </option>
-        <option desc="92">
-            <parameter cpu="0" address="0xFF8CBB" value="0x5C"/>
-        </option>
-        <option desc="93">
-            <parameter cpu="0" address="0xFF8CBB" value="0x5D"/>
-        </option>
-        <option desc="94">
-            <parameter cpu="0" address="0xFF8CBB" value="0x5E"/>
-        </option>
-        <option desc="95">
-            <parameter cpu="0" address="0xFF8CBB" value="0x5F"/>
-        </option>
-        <option desc="96">
-            <parameter cpu="0" address="0xFF8CBB" value="0x60"/>
-        </option>
-        <option desc="97">
-            <parameter cpu="0" address="0xFF8CBB" value="0x61"/>
-        </option>
-        <option desc="98">
-            <parameter cpu="0" address="0xFF8CBB" value="0x62"/>
-        </option>
-        <option desc="99">
-            <parameter cpu="0" address="0xFF8CBB" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="游戏Smash Stars修改项"/>
-    <cheat desc="--------------------"/>
-    <cheat desc="选择开始关卡" default="0">
-        <option desc="关闭"/>
-        <option desc="四分之一决赛">
-            <parameter cpu="0" address="0xFF8CDA" value="0x00"/>
-        </option>
-        <option desc="半决赛">
-            <parameter cpu="0" address="0xFF8CDA" value="0x01"/>
-        </option>
-        <option desc="决赛">
-            <parameter cpu="0" address="0xFF8CDA" value="0x02"/>
-        </option>
-    </cheat>
-    <cheat desc="无限队伍选择时间 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF0CAB" value="0xFF"/>
-        </option>
-    </cheat>
-    <cheat desc="选择队伍 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="Sue (Korea)">
-            <parameter cpu="0" address="0xFFAE87" value="0x00"/>
-        </option>
-        <option desc="Hikari (Japan)">
-            <parameter cpu="0" address="0xFFAE87" value="0x01"/>
-        </option>
-        <option desc="Li-Li (China)">
-            <parameter cpu="0" address="0xFFAE87" value="0x02"/>
-        </option>
-        <option desc="Jana (Brazil)">
-            <parameter cpu="0" address="0xFFAE87" value="0x03"/>
-        </option>
-        <option desc="Zina (Egypt)">
-            <parameter cpu="0" address="0xFFAE87" value="0x04"/>
-        </option>
-        <option desc="Fei-Fei (Singapore)">
-            <parameter cpu="0" address="0xFFAE87" value="0x05"/>
-        </option>
-        <option desc="Myray (Philippines)">
-            <parameter cpu="0" address="0xFFAE87" value="0x06"/>
-        </option>
-        <option desc="Fang-Ming (Taiwan)">
-            <parameter cpu="0" address="0xFFAE87" value="0x07"/>
-        </option>
-        <option desc="Florence (Italy)">
-            <parameter cpu="0" address="0xFFAE87" value="0x08"/>
-        </option>
-        <option desc="Laurie (UK)">
-            <parameter cpu="0" address="0xFFAE87" value="0x09"/>
-        </option>
-        <option desc="Katrina (Russia)">
-            <parameter cpu="0" address="0xFFAE87" value="0x0A"/>
-        </option>
-        <option desc="Natalie (France)">
-            <parameter cpu="0" address="0xFFAE87" value="0x0B"/>
-        </option>
-        <option desc="Simmy (India)">
-            <parameter cpu="0" address="0xFFAE87" value="0x0C"/>
-        </option>
-        <option desc="Graft (Germany)">
-            <parameter cpu="0" address="0xFFAE87" value="0x0D"/>
-        </option>
-        <option desc="Amee (USA)">
-            <parameter cpu="0" address="0xFFAE87" value="0x0E"/>
-        </option>
-        <option desc="Estella (Spain)">
-            <parameter cpu="0" address="0xFFAE87" value="0x0F"/>
-        </option>
-        <option desc="#Melody (Love)">
-            <parameter cpu="0" address="0xFFAE87" value="0x10"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分总是 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFAE14" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFAE14" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 40 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFAE14" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="比赛总是得分 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFAE15" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置比赛得分 = 0 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFAE15" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置比赛得分 = 6 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFAE15" value="0x06"/>
-        </option>
-    </cheat>
-    <cheat desc="无限队伍选择时间 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFF0CBF" value="0xFF"/>
-        </option>
-    </cheat>
-    <cheat desc="选择队伍 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="Sue (Korea)">
-            <parameter cpu="0" address="0xFFB387" value="0x00"/>
-        </option>
-        <option desc="Hikari (Japan)">
-            <parameter cpu="0" address="0xFFB387" value="0x01"/>
-        </option>
-        <option desc="Li-Li (China)">
-            <parameter cpu="0" address="0xFFB387" value="0x02"/>
-        </option>
-        <option desc="Jana (Brazil)">
-            <parameter cpu="0" address="0xFFB387" value="0x03"/>
-        </option>
-        <option desc="Zina (Egypt)">
-            <parameter cpu="0" address="0xFFB387" value="0x04"/>
-        </option>
-        <option desc="Fei-Fei (Singapore)">
-            <parameter cpu="0" address="0xFFB387" value="0x05"/>
-        </option>
-        <option desc="Myray (Philippines)">
-            <parameter cpu="0" address="0xFFB387" value="0x06"/>
-        </option>
-        <option desc="Fang-Ming (Taiwan)">
-            <parameter cpu="0" address="0xFFB387" value="0x07"/>
-        </option>
-        <option desc="Florence (Italy)">
-            <parameter cpu="0" address="0xFFB387" value="0x08"/>
-        </option>
-        <option desc="Laurie (UK)">
-            <parameter cpu="0" address="0xFFB387" value="0x09"/>
-        </option>
-        <option desc="Katrina (Russia)">
-            <parameter cpu="0" address="0xFFB387" value="0x0A"/>
-        </option>
-        <option desc="Natalie (France)">
-            <parameter cpu="0" address="0xFFB387" value="0x0B"/>
-        </option>
-        <option desc="Simmy (India)">
-            <parameter cpu="0" address="0xFFB387" value="0x0C"/>
-        </option>
-        <option desc="Graft (Germany)">
-            <parameter cpu="0" address="0xFFB387" value="0x0D"/>
-        </option>
-        <option desc="Amee (USA)">
-            <parameter cpu="0" address="0xFFB387" value="0x0E"/>
-        </option>
-        <option desc="Estella (Spain)">
-            <parameter cpu="0" address="0xFFB387" value="0x0F"/>
-        </option>
-        <option desc="#Melody (Love)">
-            <parameter cpu="0" address="0xFFB387" value="0x10"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分总是 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFB314" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFB314" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置得分 = 40 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFB314" value="0x03"/>
-        </option>
-    </cheat>
-    <cheat desc="比赛总是得分 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFB315" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置比赛得分 = 0 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFB315" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="设置比赛得分 = 6 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0xFFB315" value="0x06"/>
-        </option>
-    </cheat>
-    <cheat desc=" "/>
-    <cheat desc="选择区域码" default="0">
-        <option desc="关闭"/>
-        <option desc="日本">
-            <parameter cpu="0" address="0xFF8C0B" value="0x00"/>
-        </option>
-        <option desc="美国">
-            <parameter cpu="0" address="0xFF8C0B" value="0x01"/>
-        </option>
-        <option desc="亚洲">
-            <parameter cpu="0" address="0xFF8C0B" value="0x02"/>
-        </option>
-        <option desc="西班牙">
-            <parameter cpu="0" address="0xFF8C0B" value="0x03"/>
-        </option>
-        <option desc="欧洲">
-            <parameter cpu="0" address="0xFF8C0B" value="0x04"/>
-        </option>
-        <option desc="巴西">
-            <parameter cpu="0" address="0xFF8C0B" value="0x05"/>
-        </option>
-        <option desc="大洋洲">
-            <parameter cpu="0" address="0xFF8C0B" value="0x06"/>
-        </option>
-        <option desc="韩国">
-            <parameter cpu="0" address="0xFF8C0B" value="0x07"/>
-        </option>
-    </cheat>
+	<cheat desc="无限投币" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8AE9" value="0x09"/>
+		</option>
+	</cheat>
+	<cheat desc="无限时间" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C92" value="0x09"/>
+			<parameter cpu="0" address="0xFF8C93" value="0x05"/>
+			<parameter cpu="0" address="0xFF8C94" value="0x09"/>
+			<parameter cpu="0" address="0xFF8C95" value="0x23"/>
+		</option>
+	</cheat>
+	<cheat desc="立即结束游戏" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C92" value="0x00"/>
+			<parameter cpu="0" address="0xFF8C93" value="0x00"/>
+			<parameter cpu="0" address="0xFF8C94" value="0x00"/>
+			<parameter cpu="0" address="0xFF8C95" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="选择隐藏角色的可用性" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C20" value="0xFF"/>
+			<parameter cpu="0" address="0xFF8C21" value="0xFF"/>
+		</option>
+		<option desc="禁用">
+			<parameter cpu="0" address="0xFF8C20" value="0x00"/>
+			<parameter cpu="0" address="0xFF8C21" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="游戏Dunk Stars修改项"/>
+	<cheat desc="-------------------"/>
+	<cheat desc="选择开始关卡" default="0">
+		<option desc="关闭"/>
+		<option desc="四分之一决赛">
+			<parameter cpu="0" address="0xFF8CA0" value="0x00"/>
+		</option>
+		<option desc="半决赛">
+			<parameter cpu="0" address="0xFF8CA0" value="0x01"/>
+		</option>
+		<option desc="决赛">
+			<parameter cpu="0" address="0xFF8CA0" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="无限队伍选择时间 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF0E3F" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择队伍 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="韩国">
+			<parameter cpu="0" address="0xFF0E36" value="0x00"/>
+		</option>
+		<option desc="中国">
+			<parameter cpu="0" address="0xFF0E36" value="0x01"/>
+		</option>
+		<option desc="台湾">
+			<parameter cpu="0" address="0xFF0E36" value="0x02"/>
+		</option>
+		<option desc="巴西">
+			<parameter cpu="0" address="0xFF0E36" value="0x03"/>
+		</option>
+		<option desc="菲律宾">
+			<parameter cpu="0" address="0xFF0E36" value="0x04"/>
+		</option>
+		<option desc="意大利">
+			<parameter cpu="0" address="0xFF0E36" value="0x05"/>
+		</option>
+		<option desc="俄国">
+			<parameter cpu="0" address="0xFF0E36" value="0x06"/>
+		</option>
+		<option desc="美国">
+			<parameter cpu="0" address="0xFF0E36" value="0x07"/>
+		</option>
+		<option desc="#美国/金队">
+			<parameter cpu="0" address="0xFF0E36" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C99" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 99 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C99" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C99" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 50 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C99" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="选择得分 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="0">
+			<parameter cpu="0" address="0xFF8C99" value="0x00"/>
+		</option>
+		<option desc="1">
+			<parameter cpu="0" address="0xFF8C99" value="0x01"/>
+		</option>
+		<option desc="2">
+			<parameter cpu="0" address="0xFF8C99" value="0x02"/>
+		</option>
+		<option desc="3">
+			<parameter cpu="0" address="0xFF8C99" value="0x03"/>
+		</option>
+		<option desc="4">
+			<parameter cpu="0" address="0xFF8C99" value="0x04"/>
+		</option>
+		<option desc="5">
+			<parameter cpu="0" address="0xFF8C99" value="0x05"/>
+		</option>
+		<option desc="6">
+			<parameter cpu="0" address="0xFF8C99" value="0x06"/>
+		</option>
+		<option desc="7">
+			<parameter cpu="0" address="0xFF8C99" value="0x07"/>
+		</option>
+		<option desc="8">
+			<parameter cpu="0" address="0xFF8C99" value="0x08"/>
+		</option>
+		<option desc="9">
+			<parameter cpu="0" address="0xFF8C99" value="0x09"/>
+		</option>
+		<option desc="10">
+			<parameter cpu="0" address="0xFF8C99" value="0x0A"/>
+		</option>
+		<option desc="11">
+			<parameter cpu="0" address="0xFF8C99" value="0x0B"/>
+		</option>
+		<option desc="12">
+			<parameter cpu="0" address="0xFF8C99" value="0x0C"/>
+		</option>
+		<option desc="13">
+			<parameter cpu="0" address="0xFF8C99" value="0x0D"/>
+		</option>
+		<option desc="14">
+			<parameter cpu="0" address="0xFF8C99" value="0x0E"/>
+		</option>
+		<option desc="15">
+			<parameter cpu="0" address="0xFF8C99" value="0x0F"/>
+		</option>
+		<option desc="16">
+			<parameter cpu="0" address="0xFF8C99" value="0x10"/>
+		</option>
+		<option desc="17">
+			<parameter cpu="0" address="0xFF8C99" value="0x11"/>
+		</option>
+		<option desc="18">
+			<parameter cpu="0" address="0xFF8C99" value="0x12"/>
+		</option>
+		<option desc="19">
+			<parameter cpu="0" address="0xFF8C99" value="0x13"/>
+		</option>
+		<option desc="20">
+			<parameter cpu="0" address="0xFF8C99" value="0x14"/>
+		</option>
+		<option desc="21">
+			<parameter cpu="0" address="0xFF8C99" value="0x15"/>
+		</option>
+		<option desc="22">
+			<parameter cpu="0" address="0xFF8C99" value="0x16"/>
+		</option>
+		<option desc="23">
+			<parameter cpu="0" address="0xFF8C99" value="0x17"/>
+		</option>
+		<option desc="24">
+			<parameter cpu="0" address="0xFF8C99" value="0x18"/>
+		</option>
+		<option desc="25">
+			<parameter cpu="0" address="0xFF8C99" value="0x19"/>
+		</option>
+		<option desc="26">
+			<parameter cpu="0" address="0xFF8C99" value="0x1A"/>
+		</option>
+		<option desc="27">
+			<parameter cpu="0" address="0xFF8C99" value="0x1B"/>
+		</option>
+		<option desc="28">
+			<parameter cpu="0" address="0xFF8C99" value="0x1C"/>
+		</option>
+		<option desc="29">
+			<parameter cpu="0" address="0xFF8C99" value="0x1D"/>
+		</option>
+		<option desc="30">
+			<parameter cpu="0" address="0xFF8C99" value="0x1E"/>
+		</option>
+		<option desc="31">
+			<parameter cpu="0" address="0xFF8C99" value="0x1F"/>
+		</option>
+		<option desc="32">
+			<parameter cpu="0" address="0xFF8C99" value="0x20"/>
+		</option>
+		<option desc="33">
+			<parameter cpu="0" address="0xFF8C99" value="0x21"/>
+		</option>
+		<option desc="34">
+			<parameter cpu="0" address="0xFF8C99" value="0x22"/>
+		</option>
+		<option desc="35">
+			<parameter cpu="0" address="0xFF8C99" value="0x23"/>
+		</option>
+		<option desc="36">
+			<parameter cpu="0" address="0xFF8C99" value="0x24"/>
+		</option>
+		<option desc="37">
+			<parameter cpu="0" address="0xFF8C99" value="0x25"/>
+		</option>
+		<option desc="38">
+			<parameter cpu="0" address="0xFF8C99" value="0x26"/>
+		</option>
+		<option desc="39">
+			<parameter cpu="0" address="0xFF8C99" value="0x27"/>
+		</option>
+		<option desc="40">
+			<parameter cpu="0" address="0xFF8C99" value="0x28"/>
+		</option>
+		<option desc="41">
+			<parameter cpu="0" address="0xFF8C99" value="0x29"/>
+		</option>
+		<option desc="42">
+			<parameter cpu="0" address="0xFF8C99" value="0x2A"/>
+		</option>
+		<option desc="43">
+			<parameter cpu="0" address="0xFF8C99" value="0x2B"/>
+		</option>
+		<option desc="44">
+			<parameter cpu="0" address="0xFF8C99" value="0x2C"/>
+		</option>
+		<option desc="45">
+			<parameter cpu="0" address="0xFF8C99" value="0x2D"/>
+		</option>
+		<option desc="46">
+			<parameter cpu="0" address="0xFF8C99" value="0x2E"/>
+		</option>
+		<option desc="47">
+			<parameter cpu="0" address="0xFF8C99" value="0x2F"/>
+		</option>
+		<option desc="48">
+			<parameter cpu="0" address="0xFF8C99" value="0x30"/>
+		</option>
+		<option desc="49">
+			<parameter cpu="0" address="0xFF8C99" value="0x31"/>
+		</option>
+		<option desc="50">
+			<parameter cpu="0" address="0xFF8C99" value="0x32"/>
+		</option>
+		<option desc="51">
+			<parameter cpu="0" address="0xFF8C99" value="0x33"/>
+		</option>
+		<option desc="52">
+			<parameter cpu="0" address="0xFF8C99" value="0x34"/>
+		</option>
+		<option desc="53">
+			<parameter cpu="0" address="0xFF8C99" value="0x35"/>
+		</option>
+		<option desc="54">
+			<parameter cpu="0" address="0xFF8C99" value="0x36"/>
+		</option>
+		<option desc="55">
+			<parameter cpu="0" address="0xFF8C99" value="0x37"/>
+		</option>
+		<option desc="56">
+			<parameter cpu="0" address="0xFF8C99" value="0x38"/>
+		</option>
+		<option desc="57">
+			<parameter cpu="0" address="0xFF8C99" value="0x39"/>
+		</option>
+		<option desc="58">
+			<parameter cpu="0" address="0xFF8C99" value="0x3A"/>
+		</option>
+		<option desc="59">
+			<parameter cpu="0" address="0xFF8C99" value="0x3B"/>
+		</option>
+		<option desc="60">
+			<parameter cpu="0" address="0xFF8C99" value="0x3C"/>
+		</option>
+		<option desc="61">
+			<parameter cpu="0" address="0xFF8C99" value="0x3D"/>
+		</option>
+		<option desc="62">
+			<parameter cpu="0" address="0xFF8C99" value="0x3E"/>
+		</option>
+		<option desc="63">
+			<parameter cpu="0" address="0xFF8C99" value="0x3F"/>
+		</option>
+		<option desc="64">
+			<parameter cpu="0" address="0xFF8C99" value="0x40"/>
+		</option>
+		<option desc="65">
+			<parameter cpu="0" address="0xFF8C99" value="0x41"/>
+		</option>
+		<option desc="66">
+			<parameter cpu="0" address="0xFF8C99" value="0x42"/>
+		</option>
+		<option desc="67">
+			<parameter cpu="0" address="0xFF8C99" value="0x43"/>
+		</option>
+		<option desc="68">
+			<parameter cpu="0" address="0xFF8C99" value="0x44"/>
+		</option>
+		<option desc="69">
+			<parameter cpu="0" address="0xFF8C99" value="0x45"/>
+		</option>
+		<option desc="70">
+			<parameter cpu="0" address="0xFF8C99" value="0x46"/>
+		</option>
+		<option desc="71">
+			<parameter cpu="0" address="0xFF8C99" value="0x47"/>
+		</option>
+		<option desc="72">
+			<parameter cpu="0" address="0xFF8C99" value="0x48"/>
+		</option>
+		<option desc="73">
+			<parameter cpu="0" address="0xFF8C99" value="0x49"/>
+		</option>
+		<option desc="74">
+			<parameter cpu="0" address="0xFF8C99" value="0x4A"/>
+		</option>
+		<option desc="75">
+			<parameter cpu="0" address="0xFF8C99" value="0x4B"/>
+		</option>
+		<option desc="76">
+			<parameter cpu="0" address="0xFF8C99" value="0x4C"/>
+		</option>
+		<option desc="77">
+			<parameter cpu="0" address="0xFF8C99" value="0x4D"/>
+		</option>
+		<option desc="78">
+			<parameter cpu="0" address="0xFF8C99" value="0x4E"/>
+		</option>
+		<option desc="79">
+			<parameter cpu="0" address="0xFF8C99" value="0x4F"/>
+		</option>
+		<option desc="80">
+			<parameter cpu="0" address="0xFF8C99" value="0x50"/>
+		</option>
+		<option desc="81">
+			<parameter cpu="0" address="0xFF8C99" value="0x51"/>
+		</option>
+		<option desc="82">
+			<parameter cpu="0" address="0xFF8C99" value="0x52"/>
+		</option>
+		<option desc="83">
+			<parameter cpu="0" address="0xFF8C99" value="0x53"/>
+		</option>
+		<option desc="84">
+			<parameter cpu="0" address="0xFF8C99" value="0x54"/>
+		</option>
+		<option desc="85">
+			<parameter cpu="0" address="0xFF8C99" value="0x55"/>
+		</option>
+		<option desc="86">
+			<parameter cpu="0" address="0xFF8C99" value="0x56"/>
+		</option>
+		<option desc="87">
+			<parameter cpu="0" address="0xFF8C99" value="0x57"/>
+		</option>
+		<option desc="88">
+			<parameter cpu="0" address="0xFF8C99" value="0x58"/>
+		</option>
+		<option desc="89">
+			<parameter cpu="0" address="0xFF8C99" value="0x59"/>
+		</option>
+		<option desc="90">
+			<parameter cpu="0" address="0xFF8C99" value="0x5A"/>
+		</option>
+		<option desc="91">
+			<parameter cpu="0" address="0xFF8C99" value="0x5B"/>
+		</option>
+		<option desc="92">
+			<parameter cpu="0" address="0xFF8C99" value="0x5C"/>
+		</option>
+		<option desc="93">
+			<parameter cpu="0" address="0xFF8C99" value="0x5D"/>
+		</option>
+		<option desc="94">
+			<parameter cpu="0" address="0xFF8C99" value="0x5E"/>
+		</option>
+		<option desc="95">
+			<parameter cpu="0" address="0xFF8C99" value="0x5F"/>
+		</option>
+		<option desc="96">
+			<parameter cpu="0" address="0xFF8C99" value="0x60"/>
+		</option>
+		<option desc="97">
+			<parameter cpu="0" address="0xFF8C99" value="0x61"/>
+		</option>
+		<option desc="98">
+			<parameter cpu="0" address="0xFF8C99" value="0x62"/>
+		</option>
+		<option desc="99">
+			<parameter cpu="0" address="0xFF8C99" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc="无限队伍选择时间 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF0E4F" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择队伍 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="韩国">
+			<parameter cpu="0" address="0xFF0E46" value="0x00"/>
+		</option>
+		<option desc="中国">
+			<parameter cpu="0" address="0xFF0E46" value="0x01"/>
+		</option>
+		<option desc="台湾">
+			<parameter cpu="0" address="0xFF0E46" value="0x02"/>
+		</option>
+		<option desc="巴西">
+			<parameter cpu="0" address="0xFF0E46" value="0x03"/>
+		</option>
+		<option desc="菲律宾">
+			<parameter cpu="0" address="0xFF0E46" value="0x04"/>
+		</option>
+		<option desc="意大利">
+			<parameter cpu="0" address="0xFF0E46" value="0x05"/>
+		</option>
+		<option desc="俄国">
+			<parameter cpu="0" address="0xFF0E46" value="0x06"/>
+		</option>
+		<option desc="美国">
+			<parameter cpu="0" address="0xFF0E46" value="0x07"/>
+		</option>
+		<option desc="#美国/金队">
+			<parameter cpu="0" address="0xFF0E46" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C9B" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 99 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C9B" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C9B" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 50 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8C9B" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="选择得分 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="0">
+			<parameter cpu="0" address="0xFF8C9B" value="0x00"/>
+		</option>
+		<option desc="1">
+			<parameter cpu="0" address="0xFF8C9B" value="0x01"/>
+		</option>
+		<option desc="2">
+			<parameter cpu="0" address="0xFF8C9B" value="0x02"/>
+		</option>
+		<option desc="3">
+			<parameter cpu="0" address="0xFF8C9B" value="0x03"/>
+		</option>
+		<option desc="4">
+			<parameter cpu="0" address="0xFF8C9B" value="0x04"/>
+		</option>
+		<option desc="5">
+			<parameter cpu="0" address="0xFF8C9B" value="0x05"/>
+		</option>
+		<option desc="6">
+			<parameter cpu="0" address="0xFF8C9B" value="0x06"/>
+		</option>
+		<option desc="7">
+			<parameter cpu="0" address="0xFF8C9B" value="0x07"/>
+		</option>
+		<option desc="8">
+			<parameter cpu="0" address="0xFF8C9B" value="0x08"/>
+		</option>
+		<option desc="9">
+			<parameter cpu="0" address="0xFF8C9B" value="0x09"/>
+		</option>
+		<option desc="10">
+			<parameter cpu="0" address="0xFF8C9B" value="0x0A"/>
+		</option>
+		<option desc="11">
+			<parameter cpu="0" address="0xFF8C9B" value="0x0B"/>
+		</option>
+		<option desc="12">
+			<parameter cpu="0" address="0xFF8C9B" value="0x0C"/>
+		</option>
+		<option desc="13">
+			<parameter cpu="0" address="0xFF8C9B" value="0x0D"/>
+		</option>
+		<option desc="14">
+			<parameter cpu="0" address="0xFF8C9B" value="0x0E"/>
+		</option>
+		<option desc="15">
+			<parameter cpu="0" address="0xFF8C9B" value="0x0F"/>
+		</option>
+		<option desc="16">
+			<parameter cpu="0" address="0xFF8C9B" value="0x10"/>
+		</option>
+		<option desc="17">
+			<parameter cpu="0" address="0xFF8C9B" value="0x11"/>
+		</option>
+		<option desc="18">
+			<parameter cpu="0" address="0xFF8C9B" value="0x12"/>
+		</option>
+		<option desc="19">
+			<parameter cpu="0" address="0xFF8C9B" value="0x13"/>
+		</option>
+		<option desc="20">
+			<parameter cpu="0" address="0xFF8C9B" value="0x14"/>
+		</option>
+		<option desc="21">
+			<parameter cpu="0" address="0xFF8C9B" value="0x15"/>
+		</option>
+		<option desc="22">
+			<parameter cpu="0" address="0xFF8C9B" value="0x16"/>
+		</option>
+		<option desc="23">
+			<parameter cpu="0" address="0xFF8C9B" value="0x17"/>
+		</option>
+		<option desc="24">
+			<parameter cpu="0" address="0xFF8C9B" value="0x18"/>
+		</option>
+		<option desc="25">
+			<parameter cpu="0" address="0xFF8C9B" value="0x19"/>
+		</option>
+		<option desc="26">
+			<parameter cpu="0" address="0xFF8C9B" value="0x1A"/>
+		</option>
+		<option desc="27">
+			<parameter cpu="0" address="0xFF8C9B" value="0x1B"/>
+		</option>
+		<option desc="28">
+			<parameter cpu="0" address="0xFF8C9B" value="0x1C"/>
+		</option>
+		<option desc="29">
+			<parameter cpu="0" address="0xFF8C9B" value="0x1D"/>
+		</option>
+		<option desc="30">
+			<parameter cpu="0" address="0xFF8C9B" value="0x1E"/>
+		</option>
+		<option desc="31">
+			<parameter cpu="0" address="0xFF8C9B" value="0x1F"/>
+		</option>
+		<option desc="32">
+			<parameter cpu="0" address="0xFF8C9B" value="0x20"/>
+		</option>
+		<option desc="33">
+			<parameter cpu="0" address="0xFF8C9B" value="0x21"/>
+		</option>
+		<option desc="34">
+			<parameter cpu="0" address="0xFF8C9B" value="0x22"/>
+		</option>
+		<option desc="35">
+			<parameter cpu="0" address="0xFF8C9B" value="0x23"/>
+		</option>
+		<option desc="36">
+			<parameter cpu="0" address="0xFF8C9B" value="0x24"/>
+		</option>
+		<option desc="37">
+			<parameter cpu="0" address="0xFF8C9B" value="0x25"/>
+		</option>
+		<option desc="38">
+			<parameter cpu="0" address="0xFF8C9B" value="0x26"/>
+		</option>
+		<option desc="39">
+			<parameter cpu="0" address="0xFF8C9B" value="0x27"/>
+		</option>
+		<option desc="40">
+			<parameter cpu="0" address="0xFF8C9B" value="0x28"/>
+		</option>
+		<option desc="41">
+			<parameter cpu="0" address="0xFF8C9B" value="0x29"/>
+		</option>
+		<option desc="42">
+			<parameter cpu="0" address="0xFF8C9B" value="0x2A"/>
+		</option>
+		<option desc="43">
+			<parameter cpu="0" address="0xFF8C9B" value="0x2B"/>
+		</option>
+		<option desc="44">
+			<parameter cpu="0" address="0xFF8C9B" value="0x2C"/>
+		</option>
+		<option desc="45">
+			<parameter cpu="0" address="0xFF8C9B" value="0x2D"/>
+		</option>
+		<option desc="46">
+			<parameter cpu="0" address="0xFF8C9B" value="0x2E"/>
+		</option>
+		<option desc="47">
+			<parameter cpu="0" address="0xFF8C9B" value="0x2F"/>
+		</option>
+		<option desc="48">
+			<parameter cpu="0" address="0xFF8C9B" value="0x30"/>
+		</option>
+		<option desc="49">
+			<parameter cpu="0" address="0xFF8C9B" value="0x31"/>
+		</option>
+		<option desc="50">
+			<parameter cpu="0" address="0xFF8C9B" value="0x32"/>
+		</option>
+		<option desc="51">
+			<parameter cpu="0" address="0xFF8C9B" value="0x33"/>
+		</option>
+		<option desc="52">
+			<parameter cpu="0" address="0xFF8C9B" value="0x34"/>
+		</option>
+		<option desc="53">
+			<parameter cpu="0" address="0xFF8C9B" value="0x35"/>
+		</option>
+		<option desc="54">
+			<parameter cpu="0" address="0xFF8C9B" value="0x36"/>
+		</option>
+		<option desc="55">
+			<parameter cpu="0" address="0xFF8C9B" value="0x37"/>
+		</option>
+		<option desc="56">
+			<parameter cpu="0" address="0xFF8C9B" value="0x38"/>
+		</option>
+		<option desc="57">
+			<parameter cpu="0" address="0xFF8C9B" value="0x39"/>
+		</option>
+		<option desc="58">
+			<parameter cpu="0" address="0xFF8C9B" value="0x3A"/>
+		</option>
+		<option desc="59">
+			<parameter cpu="0" address="0xFF8C9B" value="0x3B"/>
+		</option>
+		<option desc="60">
+			<parameter cpu="0" address="0xFF8C9B" value="0x3C"/>
+		</option>
+		<option desc="61">
+			<parameter cpu="0" address="0xFF8C9B" value="0x3D"/>
+		</option>
+		<option desc="62">
+			<parameter cpu="0" address="0xFF8C9B" value="0x3E"/>
+		</option>
+		<option desc="63">
+			<parameter cpu="0" address="0xFF8C9B" value="0x3F"/>
+		</option>
+		<option desc="64">
+			<parameter cpu="0" address="0xFF8C9B" value="0x40"/>
+		</option>
+		<option desc="65">
+			<parameter cpu="0" address="0xFF8C9B" value="0x41"/>
+		</option>
+		<option desc="66">
+			<parameter cpu="0" address="0xFF8C9B" value="0x42"/>
+		</option>
+		<option desc="67">
+			<parameter cpu="0" address="0xFF8C9B" value="0x43"/>
+		</option>
+		<option desc="68">
+			<parameter cpu="0" address="0xFF8C9B" value="0x44"/>
+		</option>
+		<option desc="69">
+			<parameter cpu="0" address="0xFF8C9B" value="0x45"/>
+		</option>
+		<option desc="70">
+			<parameter cpu="0" address="0xFF8C9B" value="0x46"/>
+		</option>
+		<option desc="71">
+			<parameter cpu="0" address="0xFF8C9B" value="0x47"/>
+		</option>
+		<option desc="72">
+			<parameter cpu="0" address="0xFF8C9B" value="0x48"/>
+		</option>
+		<option desc="73">
+			<parameter cpu="0" address="0xFF8C9B" value="0x49"/>
+		</option>
+		<option desc="74">
+			<parameter cpu="0" address="0xFF8C9B" value="0x4A"/>
+		</option>
+		<option desc="75">
+			<parameter cpu="0" address="0xFF8C9B" value="0x4B"/>
+		</option>
+		<option desc="76">
+			<parameter cpu="0" address="0xFF8C9B" value="0x4C"/>
+		</option>
+		<option desc="77">
+			<parameter cpu="0" address="0xFF8C9B" value="0x4D"/>
+		</option>
+		<option desc="78">
+			<parameter cpu="0" address="0xFF8C9B" value="0x4E"/>
+		</option>
+		<option desc="79">
+			<parameter cpu="0" address="0xFF8C9B" value="0x4F"/>
+		</option>
+		<option desc="80">
+			<parameter cpu="0" address="0xFF8C9B" value="0x50"/>
+		</option>
+		<option desc="81">
+			<parameter cpu="0" address="0xFF8C9B" value="0x51"/>
+		</option>
+		<option desc="82">
+			<parameter cpu="0" address="0xFF8C9B" value="0x52"/>
+		</option>
+		<option desc="83">
+			<parameter cpu="0" address="0xFF8C9B" value="0x53"/>
+		</option>
+		<option desc="84">
+			<parameter cpu="0" address="0xFF8C9B" value="0x54"/>
+		</option>
+		<option desc="85">
+			<parameter cpu="0" address="0xFF8C9B" value="0x55"/>
+		</option>
+		<option desc="86">
+			<parameter cpu="0" address="0xFF8C9B" value="0x56"/>
+		</option>
+		<option desc="87">
+			<parameter cpu="0" address="0xFF8C9B" value="0x57"/>
+		</option>
+		<option desc="88">
+			<parameter cpu="0" address="0xFF8C9B" value="0x58"/>
+		</option>
+		<option desc="89">
+			<parameter cpu="0" address="0xFF8C9B" value="0x59"/>
+		</option>
+		<option desc="90">
+			<parameter cpu="0" address="0xFF8C9B" value="0x5A"/>
+		</option>
+		<option desc="91">
+			<parameter cpu="0" address="0xFF8C9B" value="0x5B"/>
+		</option>
+		<option desc="92">
+			<parameter cpu="0" address="0xFF8C9B" value="0x5C"/>
+		</option>
+		<option desc="93">
+			<parameter cpu="0" address="0xFF8C9B" value="0x5D"/>
+		</option>
+		<option desc="94">
+			<parameter cpu="0" address="0xFF8C9B" value="0x5E"/>
+		</option>
+		<option desc="95">
+			<parameter cpu="0" address="0xFF8C9B" value="0x5F"/>
+		</option>
+		<option desc="96">
+			<parameter cpu="0" address="0xFF8C9B" value="0x60"/>
+		</option>
+		<option desc="97">
+			<parameter cpu="0" address="0xFF8C9B" value="0x61"/>
+		</option>
+		<option desc="98">
+			<parameter cpu="0" address="0xFF8C9B" value="0x62"/>
+		</option>
+		<option desc="99">
+			<parameter cpu="0" address="0xFF8C9B" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="游戏Kick Stars修改项"/>
+	<cheat desc="-------------------"/>
+	<cheat desc="选择开始关卡" default="0">
+		<option desc="关闭"/>
+		<option desc="四分之一决赛">
+			<parameter cpu="0" address="0xFF8C9C" value="0x00"/>
+		</option>
+		<option desc="半决赛">
+			<parameter cpu="0" address="0xFF8C9C" value="0x01"/>
+		</option>
+		<option desc="决赛">
+			<parameter cpu="0" address="0xFF8C9C" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="无限队伍选择时间 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF0995" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择队伍 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="韩国">
+			<parameter cpu="0" address="0xFF098C" value="0x00"/>
+		</option>
+		<option desc="日本">
+			<parameter cpu="0" address="0xFF098C" value="0x01"/>
+		</option>
+		<option desc="台湾">
+			<parameter cpu="0" address="0xFF098C" value="0x02"/>
+		</option>
+		<option desc="西班牙">
+			<parameter cpu="0" address="0xFF098C" value="0x03"/>
+		</option>
+		<option desc="法国">
+			<parameter cpu="0" address="0xFF098C" value="0x04"/>
+		</option>
+		<option desc="意大利">
+			<parameter cpu="0" address="0xFF098C" value="0x05"/>
+		</option>
+		<option desc="阿根廷">
+			<parameter cpu="0" address="0xFF098C" value="0x06"/>
+		</option>
+		<option desc="巴西">
+			<parameter cpu="0" address="0xFF098C" value="0x07"/>
+		</option>
+		<option desc="#全明星">
+			<parameter cpu="0" address="0xFF098C" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CB5" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 99 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CB5" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CB5" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 50 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CB5" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="选择得分 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="0">
+			<parameter cpu="0" address="0xFF8CB5" value="0x00"/>
+		</option>
+		<option desc="1">
+			<parameter cpu="0" address="0xFF8CB5" value="0x01"/>
+		</option>
+		<option desc="2">
+			<parameter cpu="0" address="0xFF8CB5" value="0x02"/>
+		</option>
+		<option desc="3">
+			<parameter cpu="0" address="0xFF8CB5" value="0x03"/>
+		</option>
+		<option desc="4">
+			<parameter cpu="0" address="0xFF8CB5" value="0x04"/>
+		</option>
+		<option desc="5">
+			<parameter cpu="0" address="0xFF8CB5" value="0x05"/>
+		</option>
+		<option desc="6">
+			<parameter cpu="0" address="0xFF8CB5" value="0x06"/>
+		</option>
+		<option desc="7">
+			<parameter cpu="0" address="0xFF8CB5" value="0x07"/>
+		</option>
+		<option desc="8">
+			<parameter cpu="0" address="0xFF8CB5" value="0x08"/>
+		</option>
+		<option desc="9">
+			<parameter cpu="0" address="0xFF8CB5" value="0x09"/>
+		</option>
+		<option desc="10">
+			<parameter cpu="0" address="0xFF8CB5" value="0x0A"/>
+		</option>
+		<option desc="11">
+			<parameter cpu="0" address="0xFF8CB5" value="0x0B"/>
+		</option>
+		<option desc="12">
+			<parameter cpu="0" address="0xFF8CB5" value="0x0C"/>
+		</option>
+		<option desc="13">
+			<parameter cpu="0" address="0xFF8CB5" value="0x0D"/>
+		</option>
+		<option desc="14">
+			<parameter cpu="0" address="0xFF8CB5" value="0x0E"/>
+		</option>
+		<option desc="15">
+			<parameter cpu="0" address="0xFF8CB5" value="0x0F"/>
+		</option>
+		<option desc="16">
+			<parameter cpu="0" address="0xFF8CB5" value="0x10"/>
+		</option>
+		<option desc="17">
+			<parameter cpu="0" address="0xFF8CB5" value="0x11"/>
+		</option>
+		<option desc="18">
+			<parameter cpu="0" address="0xFF8CB5" value="0x12"/>
+		</option>
+		<option desc="19">
+			<parameter cpu="0" address="0xFF8CB5" value="0x13"/>
+		</option>
+		<option desc="20">
+			<parameter cpu="0" address="0xFF8CB5" value="0x14"/>
+		</option>
+		<option desc="21">
+			<parameter cpu="0" address="0xFF8CB5" value="0x15"/>
+		</option>
+		<option desc="22">
+			<parameter cpu="0" address="0xFF8CB5" value="0x16"/>
+		</option>
+		<option desc="23">
+			<parameter cpu="0" address="0xFF8CB5" value="0x17"/>
+		</option>
+		<option desc="24">
+			<parameter cpu="0" address="0xFF8CB5" value="0x18"/>
+		</option>
+		<option desc="25">
+			<parameter cpu="0" address="0xFF8CB5" value="0x19"/>
+		</option>
+		<option desc="26">
+			<parameter cpu="0" address="0xFF8CB5" value="0x1A"/>
+		</option>
+		<option desc="27">
+			<parameter cpu="0" address="0xFF8CB5" value="0x1B"/>
+		</option>
+		<option desc="28">
+			<parameter cpu="0" address="0xFF8CB5" value="0x1C"/>
+		</option>
+		<option desc="29">
+			<parameter cpu="0" address="0xFF8CB5" value="0x1D"/>
+		</option>
+		<option desc="30">
+			<parameter cpu="0" address="0xFF8CB5" value="0x1E"/>
+		</option>
+		<option desc="31">
+			<parameter cpu="0" address="0xFF8CB5" value="0x1F"/>
+		</option>
+		<option desc="32">
+			<parameter cpu="0" address="0xFF8CB5" value="0x20"/>
+		</option>
+		<option desc="33">
+			<parameter cpu="0" address="0xFF8CB5" value="0x21"/>
+		</option>
+		<option desc="34">
+			<parameter cpu="0" address="0xFF8CB5" value="0x22"/>
+		</option>
+		<option desc="35">
+			<parameter cpu="0" address="0xFF8CB5" value="0x23"/>
+		</option>
+		<option desc="36">
+			<parameter cpu="0" address="0xFF8CB5" value="0x24"/>
+		</option>
+		<option desc="37">
+			<parameter cpu="0" address="0xFF8CB5" value="0x25"/>
+		</option>
+		<option desc="38">
+			<parameter cpu="0" address="0xFF8CB5" value="0x26"/>
+		</option>
+		<option desc="39">
+			<parameter cpu="0" address="0xFF8CB5" value="0x27"/>
+		</option>
+		<option desc="40">
+			<parameter cpu="0" address="0xFF8CB5" value="0x28"/>
+		</option>
+		<option desc="41">
+			<parameter cpu="0" address="0xFF8CB5" value="0x29"/>
+		</option>
+		<option desc="42">
+			<parameter cpu="0" address="0xFF8CB5" value="0x2A"/>
+		</option>
+		<option desc="43">
+			<parameter cpu="0" address="0xFF8CB5" value="0x2B"/>
+		</option>
+		<option desc="44">
+			<parameter cpu="0" address="0xFF8CB5" value="0x2C"/>
+		</option>
+		<option desc="45">
+			<parameter cpu="0" address="0xFF8CB5" value="0x2D"/>
+		</option>
+		<option desc="46">
+			<parameter cpu="0" address="0xFF8CB5" value="0x2E"/>
+		</option>
+		<option desc="47">
+			<parameter cpu="0" address="0xFF8CB5" value="0x2F"/>
+		</option>
+		<option desc="48">
+			<parameter cpu="0" address="0xFF8CB5" value="0x30"/>
+		</option>
+		<option desc="49">
+			<parameter cpu="0" address="0xFF8CB5" value="0x31"/>
+		</option>
+		<option desc="50">
+			<parameter cpu="0" address="0xFF8CB5" value="0x32"/>
+		</option>
+		<option desc="51">
+			<parameter cpu="0" address="0xFF8CB5" value="0x33"/>
+		</option>
+		<option desc="52">
+			<parameter cpu="0" address="0xFF8CB5" value="0x34"/>
+		</option>
+		<option desc="53">
+			<parameter cpu="0" address="0xFF8CB5" value="0x35"/>
+		</option>
+		<option desc="54">
+			<parameter cpu="0" address="0xFF8CB5" value="0x36"/>
+		</option>
+		<option desc="55">
+			<parameter cpu="0" address="0xFF8CB5" value="0x37"/>
+		</option>
+		<option desc="56">
+			<parameter cpu="0" address="0xFF8CB5" value="0x38"/>
+		</option>
+		<option desc="57">
+			<parameter cpu="0" address="0xFF8CB5" value="0x39"/>
+		</option>
+		<option desc="58">
+			<parameter cpu="0" address="0xFF8CB5" value="0x3A"/>
+		</option>
+		<option desc="59">
+			<parameter cpu="0" address="0xFF8CB5" value="0x3B"/>
+		</option>
+		<option desc="60">
+			<parameter cpu="0" address="0xFF8CB5" value="0x3C"/>
+		</option>
+		<option desc="61">
+			<parameter cpu="0" address="0xFF8CB5" value="0x3D"/>
+		</option>
+		<option desc="62">
+			<parameter cpu="0" address="0xFF8CB5" value="0x3E"/>
+		</option>
+		<option desc="63">
+			<parameter cpu="0" address="0xFF8CB5" value="0x3F"/>
+		</option>
+		<option desc="64">
+			<parameter cpu="0" address="0xFF8CB5" value="0x40"/>
+		</option>
+		<option desc="65">
+			<parameter cpu="0" address="0xFF8CB5" value="0x41"/>
+		</option>
+		<option desc="66">
+			<parameter cpu="0" address="0xFF8CB5" value="0x42"/>
+		</option>
+		<option desc="67">
+			<parameter cpu="0" address="0xFF8CB5" value="0x43"/>
+		</option>
+		<option desc="68">
+			<parameter cpu="0" address="0xFF8CB5" value="0x44"/>
+		</option>
+		<option desc="69">
+			<parameter cpu="0" address="0xFF8CB5" value="0x45"/>
+		</option>
+		<option desc="70">
+			<parameter cpu="0" address="0xFF8CB5" value="0x46"/>
+		</option>
+		<option desc="71">
+			<parameter cpu="0" address="0xFF8CB5" value="0x47"/>
+		</option>
+		<option desc="72">
+			<parameter cpu="0" address="0xFF8CB5" value="0x48"/>
+		</option>
+		<option desc="73">
+			<parameter cpu="0" address="0xFF8CB5" value="0x49"/>
+		</option>
+		<option desc="74">
+			<parameter cpu="0" address="0xFF8CB5" value="0x4A"/>
+		</option>
+		<option desc="75">
+			<parameter cpu="0" address="0xFF8CB5" value="0x4B"/>
+		</option>
+		<option desc="76">
+			<parameter cpu="0" address="0xFF8CB5" value="0x4C"/>
+		</option>
+		<option desc="77">
+			<parameter cpu="0" address="0xFF8CB5" value="0x4D"/>
+		</option>
+		<option desc="78">
+			<parameter cpu="0" address="0xFF8CB5" value="0x4E"/>
+		</option>
+		<option desc="79">
+			<parameter cpu="0" address="0xFF8CB5" value="0x4F"/>
+		</option>
+		<option desc="80">
+			<parameter cpu="0" address="0xFF8CB5" value="0x50"/>
+		</option>
+		<option desc="81">
+			<parameter cpu="0" address="0xFF8CB5" value="0x51"/>
+		</option>
+		<option desc="82">
+			<parameter cpu="0" address="0xFF8CB5" value="0x52"/>
+		</option>
+		<option desc="83">
+			<parameter cpu="0" address="0xFF8CB5" value="0x53"/>
+		</option>
+		<option desc="84">
+			<parameter cpu="0" address="0xFF8CB5" value="0x54"/>
+		</option>
+		<option desc="85">
+			<parameter cpu="0" address="0xFF8CB5" value="0x55"/>
+		</option>
+		<option desc="86">
+			<parameter cpu="0" address="0xFF8CB5" value="0x56"/>
+		</option>
+		<option desc="87">
+			<parameter cpu="0" address="0xFF8CB5" value="0x57"/>
+		</option>
+		<option desc="88">
+			<parameter cpu="0" address="0xFF8CB5" value="0x58"/>
+		</option>
+		<option desc="89">
+			<parameter cpu="0" address="0xFF8CB5" value="0x59"/>
+		</option>
+		<option desc="90">
+			<parameter cpu="0" address="0xFF8CB5" value="0x5A"/>
+		</option>
+		<option desc="91">
+			<parameter cpu="0" address="0xFF8CB5" value="0x5B"/>
+		</option>
+		<option desc="92">
+			<parameter cpu="0" address="0xFF8CB5" value="0x5C"/>
+		</option>
+		<option desc="93">
+			<parameter cpu="0" address="0xFF8CB5" value="0x5D"/>
+		</option>
+		<option desc="94">
+			<parameter cpu="0" address="0xFF8CB5" value="0x5E"/>
+		</option>
+		<option desc="95">
+			<parameter cpu="0" address="0xFF8CB5" value="0x5F"/>
+		</option>
+		<option desc="96">
+			<parameter cpu="0" address="0xFF8CB5" value="0x60"/>
+		</option>
+		<option desc="97">
+			<parameter cpu="0" address="0xFF8CB5" value="0x61"/>
+		</option>
+		<option desc="98">
+			<parameter cpu="0" address="0xFF8CB5" value="0x62"/>
+		</option>
+		<option desc="99">
+			<parameter cpu="0" address="0xFF8CB5" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc="无限队伍选择时间 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF09A9" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择队伍 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="韩国">
+			<parameter cpu="0" address="0xFF09A0" value="0x00"/>
+		</option>
+		<option desc="日本">
+			<parameter cpu="0" address="0xFF09A0" value="0x01"/>
+		</option>
+		<option desc="台湾">
+			<parameter cpu="0" address="0xFF09A0" value="0x02"/>
+		</option>
+		<option desc="西班牙">
+			<parameter cpu="0" address="0xFF09A0" value="0x03"/>
+		</option>
+		<option desc="法国">
+			<parameter cpu="0" address="0xFF09A0" value="0x04"/>
+		</option>
+		<option desc="意大利">
+			<parameter cpu="0" address="0xFF09A0" value="0x05"/>
+		</option>
+		<option desc="阿根廷">
+			<parameter cpu="0" address="0xFF09A0" value="0x06"/>
+		</option>
+		<option desc="巴西">
+			<parameter cpu="0" address="0xFF09A0" value="0x07"/>
+		</option>
+		<option desc="#全明星">
+			<parameter cpu="0" address="0xFF09A0" value="0x08"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CBB" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="得分总是 = 99 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CBB" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CBB" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 50 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF8CBB" value="0x32"/>
+		</option>
+	</cheat>
+	<cheat desc="选择得分 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="0">
+			<parameter cpu="0" address="0xFF8CBB" value="0x00"/>
+		</option>
+		<option desc="1">
+			<parameter cpu="0" address="0xFF8CBB" value="0x01"/>
+		</option>
+		<option desc="2">
+			<parameter cpu="0" address="0xFF8CBB" value="0x02"/>
+		</option>
+		<option desc="3">
+			<parameter cpu="0" address="0xFF8CBB" value="0x03"/>
+		</option>
+		<option desc="4">
+			<parameter cpu="0" address="0xFF8CBB" value="0x04"/>
+		</option>
+		<option desc="5">
+			<parameter cpu="0" address="0xFF8CBB" value="0x05"/>
+		</option>
+		<option desc="6">
+			<parameter cpu="0" address="0xFF8CBB" value="0x06"/>
+		</option>
+		<option desc="7">
+			<parameter cpu="0" address="0xFF8CBB" value="0x07"/>
+		</option>
+		<option desc="8">
+			<parameter cpu="0" address="0xFF8CBB" value="0x08"/>
+		</option>
+		<option desc="9">
+			<parameter cpu="0" address="0xFF8CBB" value="0x09"/>
+		</option>
+		<option desc="10">
+			<parameter cpu="0" address="0xFF8CBB" value="0x0A"/>
+		</option>
+		<option desc="11">
+			<parameter cpu="0" address="0xFF8CBB" value="0x0B"/>
+		</option>
+		<option desc="12">
+			<parameter cpu="0" address="0xFF8CBB" value="0x0C"/>
+		</option>
+		<option desc="13">
+			<parameter cpu="0" address="0xFF8CBB" value="0x0D"/>
+		</option>
+		<option desc="14">
+			<parameter cpu="0" address="0xFF8CBB" value="0x0E"/>
+		</option>
+		<option desc="15">
+			<parameter cpu="0" address="0xFF8CBB" value="0x0F"/>
+		</option>
+		<option desc="16">
+			<parameter cpu="0" address="0xFF8CBB" value="0x10"/>
+		</option>
+		<option desc="17">
+			<parameter cpu="0" address="0xFF8CBB" value="0x11"/>
+		</option>
+		<option desc="18">
+			<parameter cpu="0" address="0xFF8CBB" value="0x12"/>
+		</option>
+		<option desc="19">
+			<parameter cpu="0" address="0xFF8CBB" value="0x13"/>
+		</option>
+		<option desc="20">
+			<parameter cpu="0" address="0xFF8CBB" value="0x14"/>
+		</option>
+		<option desc="21">
+			<parameter cpu="0" address="0xFF8CBB" value="0x15"/>
+		</option>
+		<option desc="22">
+			<parameter cpu="0" address="0xFF8CBB" value="0x16"/>
+		</option>
+		<option desc="23">
+			<parameter cpu="0" address="0xFF8CBB" value="0x17"/>
+		</option>
+		<option desc="24">
+			<parameter cpu="0" address="0xFF8CBB" value="0x18"/>
+		</option>
+		<option desc="25">
+			<parameter cpu="0" address="0xFF8CBB" value="0x19"/>
+		</option>
+		<option desc="26">
+			<parameter cpu="0" address="0xFF8CBB" value="0x1A"/>
+		</option>
+		<option desc="27">
+			<parameter cpu="0" address="0xFF8CBB" value="0x1B"/>
+		</option>
+		<option desc="28">
+			<parameter cpu="0" address="0xFF8CBB" value="0x1C"/>
+		</option>
+		<option desc="29">
+			<parameter cpu="0" address="0xFF8CBB" value="0x1D"/>
+		</option>
+		<option desc="30">
+			<parameter cpu="0" address="0xFF8CBB" value="0x1E"/>
+		</option>
+		<option desc="31">
+			<parameter cpu="0" address="0xFF8CBB" value="0x1F"/>
+		</option>
+		<option desc="32">
+			<parameter cpu="0" address="0xFF8CBB" value="0x20"/>
+		</option>
+		<option desc="33">
+			<parameter cpu="0" address="0xFF8CBB" value="0x21"/>
+		</option>
+		<option desc="34">
+			<parameter cpu="0" address="0xFF8CBB" value="0x22"/>
+		</option>
+		<option desc="35">
+			<parameter cpu="0" address="0xFF8CBB" value="0x23"/>
+		</option>
+		<option desc="36">
+			<parameter cpu="0" address="0xFF8CBB" value="0x24"/>
+		</option>
+		<option desc="37">
+			<parameter cpu="0" address="0xFF8CBB" value="0x25"/>
+		</option>
+		<option desc="38">
+			<parameter cpu="0" address="0xFF8CBB" value="0x26"/>
+		</option>
+		<option desc="39">
+			<parameter cpu="0" address="0xFF8CBB" value="0x27"/>
+		</option>
+		<option desc="40">
+			<parameter cpu="0" address="0xFF8CBB" value="0x28"/>
+		</option>
+		<option desc="41">
+			<parameter cpu="0" address="0xFF8CBB" value="0x29"/>
+		</option>
+		<option desc="42">
+			<parameter cpu="0" address="0xFF8CBB" value="0x2A"/>
+		</option>
+		<option desc="43">
+			<parameter cpu="0" address="0xFF8CBB" value="0x2B"/>
+		</option>
+		<option desc="44">
+			<parameter cpu="0" address="0xFF8CBB" value="0x2C"/>
+		</option>
+		<option desc="45">
+			<parameter cpu="0" address="0xFF8CBB" value="0x2D"/>
+		</option>
+		<option desc="46">
+			<parameter cpu="0" address="0xFF8CBB" value="0x2E"/>
+		</option>
+		<option desc="47">
+			<parameter cpu="0" address="0xFF8CBB" value="0x2F"/>
+		</option>
+		<option desc="48">
+			<parameter cpu="0" address="0xFF8CBB" value="0x30"/>
+		</option>
+		<option desc="49">
+			<parameter cpu="0" address="0xFF8CBB" value="0x31"/>
+		</option>
+		<option desc="50">
+			<parameter cpu="0" address="0xFF8CBB" value="0x32"/>
+		</option>
+		<option desc="51">
+			<parameter cpu="0" address="0xFF8CBB" value="0x33"/>
+		</option>
+		<option desc="52">
+			<parameter cpu="0" address="0xFF8CBB" value="0x34"/>
+		</option>
+		<option desc="53">
+			<parameter cpu="0" address="0xFF8CBB" value="0x35"/>
+		</option>
+		<option desc="54">
+			<parameter cpu="0" address="0xFF8CBB" value="0x36"/>
+		</option>
+		<option desc="55">
+			<parameter cpu="0" address="0xFF8CBB" value="0x37"/>
+		</option>
+		<option desc="56">
+			<parameter cpu="0" address="0xFF8CBB" value="0x38"/>
+		</option>
+		<option desc="57">
+			<parameter cpu="0" address="0xFF8CBB" value="0x39"/>
+		</option>
+		<option desc="58">
+			<parameter cpu="0" address="0xFF8CBB" value="0x3A"/>
+		</option>
+		<option desc="59">
+			<parameter cpu="0" address="0xFF8CBB" value="0x3B"/>
+		</option>
+		<option desc="60">
+			<parameter cpu="0" address="0xFF8CBB" value="0x3C"/>
+		</option>
+		<option desc="61">
+			<parameter cpu="0" address="0xFF8CBB" value="0x3D"/>
+		</option>
+		<option desc="62">
+			<parameter cpu="0" address="0xFF8CBB" value="0x3E"/>
+		</option>
+		<option desc="63">
+			<parameter cpu="0" address="0xFF8CBB" value="0x3F"/>
+		</option>
+		<option desc="64">
+			<parameter cpu="0" address="0xFF8CBB" value="0x40"/>
+		</option>
+		<option desc="65">
+			<parameter cpu="0" address="0xFF8CBB" value="0x41"/>
+		</option>
+		<option desc="66">
+			<parameter cpu="0" address="0xFF8CBB" value="0x42"/>
+		</option>
+		<option desc="67">
+			<parameter cpu="0" address="0xFF8CBB" value="0x43"/>
+		</option>
+		<option desc="68">
+			<parameter cpu="0" address="0xFF8CBB" value="0x44"/>
+		</option>
+		<option desc="69">
+			<parameter cpu="0" address="0xFF8CBB" value="0x45"/>
+		</option>
+		<option desc="70">
+			<parameter cpu="0" address="0xFF8CBB" value="0x46"/>
+		</option>
+		<option desc="71">
+			<parameter cpu="0" address="0xFF8CBB" value="0x47"/>
+		</option>
+		<option desc="72">
+			<parameter cpu="0" address="0xFF8CBB" value="0x48"/>
+		</option>
+		<option desc="73">
+			<parameter cpu="0" address="0xFF8CBB" value="0x49"/>
+		</option>
+		<option desc="74">
+			<parameter cpu="0" address="0xFF8CBB" value="0x4A"/>
+		</option>
+		<option desc="75">
+			<parameter cpu="0" address="0xFF8CBB" value="0x4B"/>
+		</option>
+		<option desc="76">
+			<parameter cpu="0" address="0xFF8CBB" value="0x4C"/>
+		</option>
+		<option desc="77">
+			<parameter cpu="0" address="0xFF8CBB" value="0x4D"/>
+		</option>
+		<option desc="78">
+			<parameter cpu="0" address="0xFF8CBB" value="0x4E"/>
+		</option>
+		<option desc="79">
+			<parameter cpu="0" address="0xFF8CBB" value="0x4F"/>
+		</option>
+		<option desc="80">
+			<parameter cpu="0" address="0xFF8CBB" value="0x50"/>
+		</option>
+		<option desc="81">
+			<parameter cpu="0" address="0xFF8CBB" value="0x51"/>
+		</option>
+		<option desc="82">
+			<parameter cpu="0" address="0xFF8CBB" value="0x52"/>
+		</option>
+		<option desc="83">
+			<parameter cpu="0" address="0xFF8CBB" value="0x53"/>
+		</option>
+		<option desc="84">
+			<parameter cpu="0" address="0xFF8CBB" value="0x54"/>
+		</option>
+		<option desc="85">
+			<parameter cpu="0" address="0xFF8CBB" value="0x55"/>
+		</option>
+		<option desc="86">
+			<parameter cpu="0" address="0xFF8CBB" value="0x56"/>
+		</option>
+		<option desc="87">
+			<parameter cpu="0" address="0xFF8CBB" value="0x57"/>
+		</option>
+		<option desc="88">
+			<parameter cpu="0" address="0xFF8CBB" value="0x58"/>
+		</option>
+		<option desc="89">
+			<parameter cpu="0" address="0xFF8CBB" value="0x59"/>
+		</option>
+		<option desc="90">
+			<parameter cpu="0" address="0xFF8CBB" value="0x5A"/>
+		</option>
+		<option desc="91">
+			<parameter cpu="0" address="0xFF8CBB" value="0x5B"/>
+		</option>
+		<option desc="92">
+			<parameter cpu="0" address="0xFF8CBB" value="0x5C"/>
+		</option>
+		<option desc="93">
+			<parameter cpu="0" address="0xFF8CBB" value="0x5D"/>
+		</option>
+		<option desc="94">
+			<parameter cpu="0" address="0xFF8CBB" value="0x5E"/>
+		</option>
+		<option desc="95">
+			<parameter cpu="0" address="0xFF8CBB" value="0x5F"/>
+		</option>
+		<option desc="96">
+			<parameter cpu="0" address="0xFF8CBB" value="0x60"/>
+		</option>
+		<option desc="97">
+			<parameter cpu="0" address="0xFF8CBB" value="0x61"/>
+		</option>
+		<option desc="98">
+			<parameter cpu="0" address="0xFF8CBB" value="0x62"/>
+		</option>
+		<option desc="99">
+			<parameter cpu="0" address="0xFF8CBB" value="0x63"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="游戏Smash Stars修改项"/>
+	<cheat desc="--------------------"/>
+	<cheat desc="选择开始关卡" default="0">
+		<option desc="关闭"/>
+		<option desc="四分之一决赛">
+			<parameter cpu="0" address="0xFF8CDA" value="0x00"/>
+		</option>
+		<option desc="半决赛">
+			<parameter cpu="0" address="0xFF8CDA" value="0x01"/>
+		</option>
+		<option desc="决赛">
+			<parameter cpu="0" address="0xFF8CDA" value="0x02"/>
+		</option>
+	</cheat>
+	<cheat desc="无限队伍选择时间 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF0CAB" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择队伍 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="Sue (Korea)">
+			<parameter cpu="0" address="0xFFAE87" value="0x00"/>
+		</option>
+		<option desc="Hikari (Japan)">
+			<parameter cpu="0" address="0xFFAE87" value="0x01"/>
+		</option>
+		<option desc="Li-Li (China)">
+			<parameter cpu="0" address="0xFFAE87" value="0x02"/>
+		</option>
+		<option desc="Jana (Brazil)">
+			<parameter cpu="0" address="0xFFAE87" value="0x03"/>
+		</option>
+		<option desc="Zina (Egypt)">
+			<parameter cpu="0" address="0xFFAE87" value="0x04"/>
+		</option>
+		<option desc="Fei-Fei (Singapore)">
+			<parameter cpu="0" address="0xFFAE87" value="0x05"/>
+		</option>
+		<option desc="Myray (Philippines)">
+			<parameter cpu="0" address="0xFFAE87" value="0x06"/>
+		</option>
+		<option desc="Fang-Ming (Taiwan)">
+			<parameter cpu="0" address="0xFFAE87" value="0x07"/>
+		</option>
+		<option desc="Florence (Italy)">
+			<parameter cpu="0" address="0xFFAE87" value="0x08"/>
+		</option>
+		<option desc="Laurie (UK)">
+			<parameter cpu="0" address="0xFFAE87" value="0x09"/>
+		</option>
+		<option desc="Katrina (Russia)">
+			<parameter cpu="0" address="0xFFAE87" value="0x0A"/>
+		</option>
+		<option desc="Natalie (France)">
+			<parameter cpu="0" address="0xFFAE87" value="0x0B"/>
+		</option>
+		<option desc="Simmy (India)">
+			<parameter cpu="0" address="0xFFAE87" value="0x0C"/>
+		</option>
+		<option desc="Graft (Germany)">
+			<parameter cpu="0" address="0xFFAE87" value="0x0D"/>
+		</option>
+		<option desc="Amee (USA)">
+			<parameter cpu="0" address="0xFFAE87" value="0x0E"/>
+		</option>
+		<option desc="Estella (Spain)">
+			<parameter cpu="0" address="0xFFAE87" value="0x0F"/>
+		</option>
+		<option desc="#Melody (Love)">
+			<parameter cpu="0" address="0xFFAE87" value="0x10"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分总是 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFAE14" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFAE14" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 40 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFAE14" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="比赛总是得分 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFAE15" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置比赛得分 = 0 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFAE15" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置比赛得分 = 6 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFAE15" value="0x06"/>
+		</option>
+	</cheat>
+	<cheat desc="无限队伍选择时间 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFF0CBF" value="0xFF"/>
+		</option>
+	</cheat>
+	<cheat desc="选择队伍 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="Sue (Korea)">
+			<parameter cpu="0" address="0xFFB387" value="0x00"/>
+		</option>
+		<option desc="Hikari (Japan)">
+			<parameter cpu="0" address="0xFFB387" value="0x01"/>
+		</option>
+		<option desc="Li-Li (China)">
+			<parameter cpu="0" address="0xFFB387" value="0x02"/>
+		</option>
+		<option desc="Jana (Brazil)">
+			<parameter cpu="0" address="0xFFB387" value="0x03"/>
+		</option>
+		<option desc="Zina (Egypt)">
+			<parameter cpu="0" address="0xFFB387" value="0x04"/>
+		</option>
+		<option desc="Fei-Fei (Singapore)">
+			<parameter cpu="0" address="0xFFB387" value="0x05"/>
+		</option>
+		<option desc="Myray (Philippines)">
+			<parameter cpu="0" address="0xFFB387" value="0x06"/>
+		</option>
+		<option desc="Fang-Ming (Taiwan)">
+			<parameter cpu="0" address="0xFFB387" value="0x07"/>
+		</option>
+		<option desc="Florence (Italy)">
+			<parameter cpu="0" address="0xFFB387" value="0x08"/>
+		</option>
+		<option desc="Laurie (UK)">
+			<parameter cpu="0" address="0xFFB387" value="0x09"/>
+		</option>
+		<option desc="Katrina (Russia)">
+			<parameter cpu="0" address="0xFFB387" value="0x0A"/>
+		</option>
+		<option desc="Natalie (France)">
+			<parameter cpu="0" address="0xFFB387" value="0x0B"/>
+		</option>
+		<option desc="Simmy (India)">
+			<parameter cpu="0" address="0xFFB387" value="0x0C"/>
+		</option>
+		<option desc="Graft (Germany)">
+			<parameter cpu="0" address="0xFFB387" value="0x0D"/>
+		</option>
+		<option desc="Amee (USA)">
+			<parameter cpu="0" address="0xFFB387" value="0x0E"/>
+		</option>
+		<option desc="Estella (Spain)">
+			<parameter cpu="0" address="0xFFB387" value="0x0F"/>
+		</option>
+		<option desc="#Melody (Love)">
+			<parameter cpu="0" address="0xFFB387" value="0x10"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分总是 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFB314" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFB314" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置得分 = 40 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFB314" value="0x03"/>
+		</option>
+	</cheat>
+	<cheat desc="比赛总是得分 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFB315" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置比赛得分 = 0 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFB315" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc="设置比赛得分 = 6 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0xFFB315" value="0x06"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="选择区域码" default="0">
+		<option desc="关闭"/>
+		<option desc="日本">
+			<parameter cpu="0" address="0xFF8C0B" value="0x00"/>
+		</option>
+		<option desc="美国">
+			<parameter cpu="0" address="0xFF8C0B" value="0x01"/>
+		</option>
+		<option desc="亚洲">
+			<parameter cpu="0" address="0xFF8C0B" value="0x02"/>
+		</option>
+		<option desc="西班牙">
+			<parameter cpu="0" address="0xFF8C0B" value="0x03"/>
+		</option>
+		<option desc="欧洲">
+			<parameter cpu="0" address="0xFF8C0B" value="0x04"/>
+		</option>
+		<option desc="巴西">
+			<parameter cpu="0" address="0xFF8C0B" value="0x05"/>
+		</option>
+		<option desc="大洋洲">
+			<parameter cpu="0" address="0xFF8C0B" value="0x06"/>
+		</option>
+		<option desc="韩国">
+			<parameter cpu="0" address="0xFF8C0B" value="0x07"/>
+		</option>
+	</cheat>
 </shufflecheat>

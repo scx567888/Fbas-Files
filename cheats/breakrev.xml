@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
     <cheat desc="无限时间" default="0">
         <option desc="关闭"/>
@@ -6,6 +6,7 @@
             <parameter cpu="0" address="0x107C27" value="0x63"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -24,6 +25,13 @@
             <parameter cpu="0" address="0x107361" value="0x00"/>
         </option>
     </cheat>
+    <cheat desc="使用游戏角色Pi-Fu PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107171" value="0x08"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -42,6 +50,13 @@
             <parameter cpu="0" address="0x1078C1" value="0x00"/>
         </option>
     </cheat>
+    <cheat desc="使用游戏角色Pi-Fu PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1076D1" value="0x08"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
     <cheat desc="到BOSS战斗画面!" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -55,18 +70,6 @@
         </option>
         <option desc="家用机 (NEOGEO)">
             <parameter cpu="0" address="0x10FD82" value="0x00"/>
-        </option>
-    </cheat>
-    <cheat desc="使用游戏角色Pi-Fu PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x107171" value="0x08"/>
-        </option>
-    </cheat>
-    <cheat desc="使用游戏角色Pi-Fu PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x1076D1" value="0x08"/>
         </option>
     </cheat>
 </shufflecheat>

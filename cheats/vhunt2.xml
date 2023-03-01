@@ -251,72 +251,72 @@
             <parameter cpu="0" address="0xFF85C2" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="#布丽塔">
-            <parameter cpu="0" address="0xFF8782" value="0x00"/>
-        </option>
-        <option desc="迪米特利">
-            <parameter cpu="0" address="0xFF8782" value="0x01"/>
-        </option>
-        <option desc="卡隆">
-            <parameter cpu="0" address="0xFF8782" value="0x02"/>
-        </option>
-        <option desc="维克多">
-            <parameter cpu="0" address="0xFF8782" value="0x03"/>
-        </option>
-        <option desc="萨贝鲁">
-            <parameter cpu="0" address="0xFF8782" value="0x04"/>
-        </option>
-        <option desc="莫莉卡">
-            <parameter cpu="0" address="0xFF8782" value="0x05"/>
-        </option>
-        <option desc="阿纳卡利斯">
-            <parameter cpu="0" address="0xFF8782" value="0x06"/>
-        </option>
-        <option desc="菲莉西亚">
-            <parameter cpu="0" address="0xFF8782" value="0x07"/>
-        </option>
-        <option desc="比沙蒙">
-            <parameter cpu="0" address="0xFF8782" value="0x08"/>
-        </option>
-        <option desc="奥尔巴斯">
-            <parameter cpu="0" address="0xFF8782" value="0x09"/>
-        </option>
-        <option desc="萨斯卡茨">
-            <parameter cpu="0" address="0xFF8782" value="0x0A"/>
-        </option>
-        <option desc="#萨贝鲁(黑暗力量)">
-            <parameter cpu="0" address="0xFF8782" value="0x0B"/>
-        </option>
-        <option desc="#女王蜂">
-            <parameter cpu="0" address="0xFF8782" value="0x0C"/>
-        </option>
-        <option desc="泪泪">
-            <parameter cpu="0" address="0xFF8782" value="0x0D"/>
-        </option>
-        <option desc="#莉莉丝">
-            <parameter cpu="0" address="0xFF8782" value="0x0E"/>
-        </option>
-        <option desc="#杰达">
-            <parameter cpu="0" address="0xFF8782" value="0x0F"/>
-        </option>
-        <option desc="弗伯斯">
-            <parameter cpu="0" address="0xFF8782" value="0x10"/>
-        </option>
-        <option desc="拜隆">
-            <parameter cpu="0" address="0xFF8782" value="0x11"/>
-        </option>
-        <option desc="#暗黑卡隆">
-            <parameter cpu="0" address="0xFF8782" value="0x12"/>
-        </option>
-        <option desc="多诺万">
-            <parameter cpu="0" address="0xFF8782" value="0x13"/>
-        </option>
-        <option desc="#胧·比沙蒙">
-            <parameter cpu="0" address="0xFF8782" value="0x18"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="#布丽塔">
+			<parameter cpu="0" address="0xFF8782" value="0x00"/>
+		</option>
+		<option desc="迪米特利">
+			<parameter cpu="0" address="0xFF8782" value="0x01"/>
+		</option>
+		<option desc="卡隆">
+			<parameter cpu="0" address="0xFF8782" value="0x02"/>
+		</option>
+		<option desc="维克多">
+			<parameter cpu="0" address="0xFF8782" value="0x03"/>
+		</option>
+		<option desc="萨贝鲁">
+			<parameter cpu="0" address="0xFF8782" value="0x04"/>
+		</option>
+		<option desc="莫莉卡">
+			<parameter cpu="0" address="0xFF8782" value="0x05"/>
+		</option>
+		<option desc="阿纳卡利斯">
+			<parameter cpu="0" address="0xFF8782" value="0x06"/>
+		</option>
+		<option desc="菲莉西亚">
+			<parameter cpu="0" address="0xFF8782" value="0x07"/>
+		</option>
+		<option desc="比沙蒙">
+			<parameter cpu="0" address="0xFF8782" value="0x08"/>
+		</option>
+		<option desc="奥尔巴斯">
+			<parameter cpu="0" address="0xFF8782" value="0x09"/>
+		</option>
+		<option desc="萨斯卡茨">
+			<parameter cpu="0" address="0xFF8782" value="0x0A"/>
+		</option>
+		<option desc="#萨贝鲁(黑暗力量)">
+			<parameter cpu="0" address="0xFF8782" value="0x0B"/>
+		</option>
+		<option desc="#女王蜂">
+			<parameter cpu="0" address="0xFF8782" value="0x0C"/>
+		</option>
+		<option desc="泪泪">
+			<parameter cpu="0" address="0xFF8782" value="0x0D"/>
+		</option>
+		<option desc="#莉莉丝">
+			<parameter cpu="0" address="0xFF8782" value="0x0E"/>
+		</option>
+		<option desc="#杰达">
+			<parameter cpu="0" address="0xFF8782" value="0x0F"/>
+		</option>
+		<option desc="弗伯斯">
+			<parameter cpu="0" address="0xFF8782" value="0x10"/>
+		</option>
+		<option desc="拜隆">
+			<parameter cpu="0" address="0xFF8782" value="0x11"/>
+		</option>
+		<option desc="#暗黑卡隆">
+			<parameter cpu="0" address="0xFF8782" value="0x12"/>
+		</option>
+		<option desc="多诺万">
+			<parameter cpu="0" address="0xFF8782" value="0x13"/>
+		</option>
+		<option desc="#胧·比沙蒙">
+			<parameter cpu="0" address="0xFF8782" value="0x18"/>
+		</option>
+	</cheat>
     <cheat desc="选择颜色 PL1" default="0">
         <option desc="关闭"/>
         <option desc="LP颜色">
@@ -593,72 +593,72 @@
             <parameter cpu="0" address="0xFF8101" value="0x0E"/>
         </option>
     </cheat>
-    <cheat desc="选择游戏角色 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="#布丽塔">
-            <parameter cpu="0" address="0xFF8B82" value="0x00"/>
-        </option>
-        <option desc="迪米特利">
-            <parameter cpu="0" address="0xFF8B82" value="0x01"/>
-        </option>
-        <option desc="卡隆">
-            <parameter cpu="0" address="0xFF8B82" value="0x02"/>
-        </option>
-        <option desc="维克多">
-            <parameter cpu="0" address="0xFF8B82" value="0x03"/>
-        </option>
-        <option desc="萨贝鲁">
-            <parameter cpu="0" address="0xFF8B82" value="0x04"/>
-        </option>
-        <option desc="莫莉卡">
-            <parameter cpu="0" address="0xFF8B82" value="0x05"/>
-        </option>
-        <option desc="阿纳卡利斯">
-            <parameter cpu="0" address="0xFF8B82" value="0x06"/>
-        </option>
-        <option desc="菲莉西亚">
-            <parameter cpu="0" address="0xFF8B82" value="0x07"/>
-        </option>
-        <option desc="比沙蒙">
-            <parameter cpu="0" address="0xFF8B82" value="0x08"/>
-        </option>
-        <option desc="奥尔巴斯">
-            <parameter cpu="0" address="0xFF8B82" value="0x09"/>
-        </option>
-        <option desc="萨斯卡茨">
-            <parameter cpu="0" address="0xFF8B82" value="0x0A"/>
-        </option>
-        <option desc="#萨贝鲁(黑暗力量)">
-            <parameter cpu="0" address="0xFF8B82" value="0x0B"/>
-        </option>
-        <option desc="#女王蜂">
-            <parameter cpu="0" address="0xFF8B82" value="0x0C"/>
-        </option>
-        <option desc="泪泪">
-            <parameter cpu="0" address="0xFF8B82" value="0x0D"/>
-        </option>
-        <option desc="#莉莉丝">
-            <parameter cpu="0" address="0xFF8B82" value="0x0E"/>
-        </option>
-        <option desc="#杰达">
-            <parameter cpu="0" address="0xFF8B82" value="0x0F"/>
-        </option>
-        <option desc="弗伯斯">
-            <parameter cpu="0" address="0xFF8B82" value="0x10"/>
-        </option>
-        <option desc="拜隆">
-            <parameter cpu="0" address="0xFF8B82" value="0x11"/>
-        </option>
-        <option desc="#暗黑卡隆">
-            <parameter cpu="0" address="0xFF8B82" value="0x12"/>
-        </option>
-        <option desc="多诺万">
-            <parameter cpu="0" address="0xFF8B82" value="0x13"/>
-        </option>
-        <option desc="#胧·比沙蒙">
-            <parameter cpu="0" address="0xFF8B82" value="0x18"/>
-        </option>
-    </cheat>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="#布丽塔">
+			<parameter cpu="0" address="0xFF8B82" value="0x00"/>
+		</option>
+		<option desc="迪米特利">
+			<parameter cpu="0" address="0xFF8B82" value="0x01"/>
+		</option>
+		<option desc="卡隆">
+			<parameter cpu="0" address="0xFF8B82" value="0x02"/>
+		</option>
+		<option desc="维克多">
+			<parameter cpu="0" address="0xFF8B82" value="0x03"/>
+		</option>
+		<option desc="萨贝鲁">
+			<parameter cpu="0" address="0xFF8B82" value="0x04"/>
+		</option>
+		<option desc="莫莉卡">
+			<parameter cpu="0" address="0xFF8B82" value="0x05"/>
+		</option>
+		<option desc="阿纳卡利斯">
+			<parameter cpu="0" address="0xFF8B82" value="0x06"/>
+		</option>
+		<option desc="菲莉西亚">
+			<parameter cpu="0" address="0xFF8B82" value="0x07"/>
+		</option>
+		<option desc="比沙蒙">
+			<parameter cpu="0" address="0xFF8B82" value="0x08"/>
+		</option>
+		<option desc="奥尔巴斯">
+			<parameter cpu="0" address="0xFF8B82" value="0x09"/>
+		</option>
+		<option desc="萨斯卡茨">
+			<parameter cpu="0" address="0xFF8B82" value="0x0A"/>
+		</option>
+		<option desc="#萨贝鲁(黑暗力量)">
+			<parameter cpu="0" address="0xFF8B82" value="0x0B"/>
+		</option>
+		<option desc="#女王蜂">
+			<parameter cpu="0" address="0xFF8B82" value="0x0C"/>
+		</option>
+		<option desc="泪泪">
+			<parameter cpu="0" address="0xFF8B82" value="0x0D"/>
+		</option>
+		<option desc="#莉莉丝">
+			<parameter cpu="0" address="0xFF8B82" value="0x0E"/>
+		</option>
+		<option desc="#杰达">
+			<parameter cpu="0" address="0xFF8B82" value="0x0F"/>
+		</option>
+		<option desc="弗伯斯">
+			<parameter cpu="0" address="0xFF8B82" value="0x10"/>
+		</option>
+		<option desc="拜隆">
+			<parameter cpu="0" address="0xFF8B82" value="0x11"/>
+		</option>
+		<option desc="#暗黑卡隆">
+			<parameter cpu="0" address="0xFF8B82" value="0x12"/>
+		</option>
+		<option desc="多诺万">
+			<parameter cpu="0" address="0xFF8B82" value="0x13"/>
+		</option>
+		<option desc="#胧·比沙蒙">
+			<parameter cpu="0" address="0xFF8B82" value="0x18"/>
+		</option>
+	</cheat>
     <cheat desc="选择颜色 PL2" default="0">
         <option desc="关闭"/>
         <option desc="LP颜色">

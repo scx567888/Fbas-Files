@@ -6,6 +6,7 @@
             <parameter cpu="0" address="0x10041D" value="0x09"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -24,7 +25,7 @@
             <parameter cpu="0" address="0x1012D5" value="0x03"/>
         </option>
     </cheat>
-    <cheat desc="最大主要武器 火力 PL1" default="0">
+    <cheat desc="最大主要武器 火力 PL1(投币开始前开启)" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x1012DF" value="0x03"/>
@@ -37,6 +38,7 @@
         </option>
     </cheat>
     <cheat desc="选择额外武器 PL1" default="0">
+        <option desc="关闭"/>
         <option desc="正面">
             <parameter cpu="0" address="0x1012DB" value="0x01"/>
         </option>
@@ -44,6 +46,7 @@
             <parameter cpu="0" address="0x1012DB" value="0x02"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -62,7 +65,7 @@
             <parameter cpu="0" address="0x1013D5" value="0x03"/>
         </option>
     </cheat>
-    <cheat desc="最大主要武器 火力 PL2" default="0">
+    <cheat desc="最大主要武器 火力 PL2(投币开始前开启)" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x1013DF" value="0x03"/>
@@ -75,6 +78,7 @@
         </option>
     </cheat>
     <cheat desc="选择额外武器 PL2" default="0">
+        <option desc="关闭"/>
         <option desc="正面">
             <parameter cpu="0" address="0x1013DB" value="0x01"/>
         </option>

@@ -12,7 +12,7 @@
             <parameter cpu="0" address="0x092B6" value="0x63"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+  <cheat desc=" "/>
     <cheat desc="无敌 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -28,7 +28,7 @@
     <cheat desc="无限体力 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0x008E8" value="0x03"/>
+            <parameter cpu="0" address="0x008E8" value="0x99"/>
         </option>
     </cheat>
     <cheat desc="无限火箭筒 PL1" default="0">
@@ -42,7 +42,7 @@
             <parameter cpu="0" address="0x0931C" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+  <cheat desc=" "/>
     <cheat desc="无敌 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -58,7 +58,7 @@
     <cheat desc="无限体力 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
-            <parameter cpu="0" address="0x009E8" value="0x03"/>
+            <parameter cpu="0" address="0x009E8" value="0x99"/>
         </option>
     </cheat>
     <cheat desc="无限火箭筒 PL2" default="0">

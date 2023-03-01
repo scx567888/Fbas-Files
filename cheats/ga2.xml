@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20AD46" value="0x1D"/>
+        </option>
+    </cheat>
+    <cheat desc="坐骑不会跑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20011F" value="0x00"/>
+            <parameter cpu="0" address="0x20071B" value="0x01"/>
+            <parameter cpu="0" address="0x20085B" value="0x01"/>
+            <parameter cpu="0" address="0x20099B" value="0x05"/>
+            <parameter cpu="0" address="0x200D5B" value="0x05"/>
+            <parameter cpu="0" address="0x200FDB" value="0x05"/>
+            <parameter cpu="0" address="0x2005DB" value="0x05"/>
+            <parameter cpu="0" address="0x200C1B" value="0x05"/>
+            <parameter cpu="0" address="0x200E9B" value="0x03"/>
+            <parameter cpu="0" address="0x20161B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人不堪一击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20060C" value="0x00"/>
+            <parameter cpu="0" address="0x20088C" value="0x00"/>
+            <parameter cpu="0" address="0x20074C" value="0x00"/>
+            <parameter cpu="0" address="0x20178C" value="0x00"/>
+            <parameter cpu="0" address="0x20088C" value="0x00"/>
+            <parameter cpu="0" address="0x2013CC" value="0x00"/>
+            <parameter cpu="0" address="0x20100C" value="0x00"/>
+            <parameter cpu="0" address="0x200ECC" value="0x00"/>
+            <parameter cpu="0" address="0x200D8C" value="0x00"/>
+            <parameter cpu="0" address="0x2009CC" value="0x00"/>
+            <parameter cpu="0" address="0x2018CC" value="0x00"/>
+            <parameter cpu="0" address="0x20150C" value="0x00"/>
+            <parameter cpu="0" address="0x20128C" value="0x00"/>
+            <parameter cpu="0" address="0x200C4C" value="0x00"/>
+            <parameter cpu="0" address="0x200B0C" value="0x00"/>
+            <parameter cpu="0" address="0x20164C" value="0x00"/>
+            <parameter cpu="0" address="0x201F0C" value="0x00"/>
+            <parameter cpu="0" address="0x20204C" value="0x00"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B430" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20010C" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B43C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="得到普通螳螂 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000A2" value="0xB0"/>
+            <parameter cpu="0" address="0x2000A3" value="0x51"/>
+            <parameter cpu="0" address="0x2000A4" value="0x11"/>
+            <parameter cpu="0" address="0x20010E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到喷火螳螂 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000A2" value="0xB0"/>
+            <parameter cpu="0" address="0x2000A3" value="0x51"/>
+            <parameter cpu="0" address="0x2000A4" value="0x11"/>
+            <parameter cpu="0" address="0x20010E" value="0x01"/>
+        </option>
+    </cheat>
+
+    <cheat desc="得到普通蝎子 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000A2" value="0xDC"/>
+            <parameter cpu="0" address="0x2000A3" value="0x17"/>
+            <parameter cpu="0" address="0x2000A4" value="0x11"/>
+            <parameter cpu="0" address="0x20010E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到电蝎子 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000A2" value="0xDC"/>
+            <parameter cpu="0" address="0x2000A3" value="0x17"/>
+            <parameter cpu="0" address="0x2000A4" value="0x11"/>
+            <parameter cpu="0" address="0x20010E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到骨龙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000A2" value="0xC4"/>
+            <parameter cpu="0" address="0x2000A3" value="0x87"/>
+            <parameter cpu="0" address="0x2000A4" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹射武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20011D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x20011E" value="0x80"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x20011E" value="0x90"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x20011E" value="0xA0"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x20011E" value="0xB0"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x20011E" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器(骑乘状态) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x20011E" value="0x83"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x20011E" value="0x93"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x20011E" value="0xA3"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x20011E" value="0xB3"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x20011E" value="0xC3"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B530" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20024C" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B53C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="得到普通螳螂 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2001E2" value="0xB0"/>
+            <parameter cpu="0" address="0x2001E3" value="0x51"/>
+            <parameter cpu="0" address="0x2001E4" value="0x11"/>
+            <parameter cpu="0" address="0x20024E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到喷火螳螂 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2001E2" value="0xB0"/>
+            <parameter cpu="0" address="0x2001E3" value="0x51"/>
+            <parameter cpu="0" address="0x2001E4" value="0x11"/>
+            <parameter cpu="0" address="0x20024E" value="0x01"/>
+        </option>
+    </cheat>
+
+    <cheat desc="得到普通蝎子 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2001E2" value="0xDC"/>
+            <parameter cpu="0" address="0x2001E3" value="0x17"/>
+            <parameter cpu="0" address="0x2001E4" value="0x11"/>
+            <parameter cpu="0" address="0x20024E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到电蝎子 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2001E2" value="0xDC"/>
+            <parameter cpu="0" address="0x2001E3" value="0x17"/>
+            <parameter cpu="0" address="0x2001E4" value="0x11"/>
+            <parameter cpu="0" address="0x20024E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到骨龙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2001E2" value="0xC4"/>
+            <parameter cpu="0" address="0x2001E3" value="0x87"/>
+            <parameter cpu="0" address="0x2001E4" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹射武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20025D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x20025E" value="0x80"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x20025E" value="0x90"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x20025E" value="0xA0"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x20025E" value="0xB0"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x20025E" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器(骑乘状态) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x20025E" value="0x83"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x20025E" value="0x93"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x20025E" value="0xA3"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x20025E" value="0xB3"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x20025E" value="0xC3"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B630" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20038C" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B63C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="得到普通螳螂 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200322" value="0xB0"/>
+            <parameter cpu="0" address="0x200323" value="0x51"/>
+            <parameter cpu="0" address="0x200324" value="0x11"/>
+            <parameter cpu="0" address="0x20038E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到喷火螳螂 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200322" value="0xB0"/>
+            <parameter cpu="0" address="0x200323" value="0x51"/>
+            <parameter cpu="0" address="0x200324" value="0x11"/>
+            <parameter cpu="0" address="0x20038E" value="0x01"/>
+        </option>
+    </cheat>
+
+    <cheat desc="得到普通蝎子 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200322" value="0xDC"/>
+            <parameter cpu="0" address="0x200323" value="0x17"/>
+            <parameter cpu="0" address="0x200324" value="0x11"/>
+            <parameter cpu="0" address="0x20038E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到电蝎子 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200322" value="0xDC"/>
+            <parameter cpu="0" address="0x200323" value="0x17"/>
+            <parameter cpu="0" address="0x200324" value="0x11"/>
+            <parameter cpu="0" address="0x20038E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到骨龙 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200322" value="0xC4"/>
+            <parameter cpu="0" address="0x200323" value="0x87"/>
+            <parameter cpu="0" address="0x200324" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹射武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20039D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x20039E" value="0x80"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x20039E" value="0x90"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x20039E" value="0xA0"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x20039E" value="0xB0"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x20039E" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器(骑乘状态) PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x20039E" value="0x83"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x20039E" value="0x93"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x20039E" value="0xA3"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x20039E" value="0xB3"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x20039E" value="0xC3"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B730" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2004CC" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20B73C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="得到普通螳螂 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200462" value="0xB0"/>
+            <parameter cpu="0" address="0x200463" value="0x51"/>
+            <parameter cpu="0" address="0x200464" value="0x11"/>
+            <parameter cpu="0" address="0x2004CE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到喷火螳螂 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200462" value="0xB0"/>
+            <parameter cpu="0" address="0x200463" value="0x51"/>
+            <parameter cpu="0" address="0x200464" value="0x11"/>
+            <parameter cpu="0" address="0x2004CE" value="0x01"/>
+        </option>
+    </cheat>
+
+    <cheat desc="得到普通蝎子 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200462" value="0xDC"/>
+            <parameter cpu="0" address="0x200463" value="0x17"/>
+            <parameter cpu="0" address="0x200464" value="0x11"/>
+            <parameter cpu="0" address="0x2004CE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到电蝎子 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200462" value="0xDC"/>
+            <parameter cpu="0" address="0x200463" value="0x17"/>
+            <parameter cpu="0" address="0x200464" value="0x11"/>
+            <parameter cpu="0" address="0x2004CE" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到骨龙 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200462" value="0xC4"/>
+            <parameter cpu="0" address="0x200463" value="0x87"/>
+            <parameter cpu="0" address="0x200464" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹射武器 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2004DD" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x2004DE" value="0x80"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x2004DE" value="0x90"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x2004DE" value="0xA0"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x2004DE" value="0xB0"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x2004DE" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有弹射武器(骑乘状态) PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="石头">
+            <parameter cpu="0" address="0x2004DE" value="0x83"/>
+        </option>
+        <option desc="炮弹">
+            <parameter cpu="0" address="0x2004DE" value="0x93"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0x2004DE" value="0xA3"/>
+        </option>
+        <option desc="长矛">
+            <parameter cpu="0" address="0x2004DE" value="0xB3"/>
+        </option>
+        <option desc="箭">
+            <parameter cpu="0" address="0x2004DE" value="0xC3"/>
+        </option>
+    </cheat>
+</shufflecheat>

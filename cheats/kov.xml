@@ -13,7 +13,15 @@
             <parameter cpu="0" address="0x817EF7" value="0x09"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+    <cheat desc="117版隐藏人物开启" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x134106" value="0x02"/>
+            <parameter cpu="0" address="0x134172" value="0x02"/>
+            <parameter cpu="0" address="0x13418A" value="0x02"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -39,7 +47,7 @@
             <parameter cpu="0" address="0x81619F" value="0x03"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -65,7 +73,7 @@
             <parameter cpu="0" address="0x81633B" value="0x03"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -91,7 +99,7 @@
             <parameter cpu="0" address="0x8164D7" value="0x03"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL4" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -117,7 +125,7 @@
             <parameter cpu="0" address="0x816673" value="0x03"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="PL1 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -2749,7 +2757,7 @@
             <parameter cpu="0" address="0x81A6AE" value="0x35"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="PL2 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -5381,7 +5389,7 @@
             <parameter cpu="0" address="0x81A746" value="0x35"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="PL3 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -8013,7 +8021,7 @@
             <parameter cpu="0" address="0x81A7DE" value="0x35"/>
         </option>
     </cheat>
-    <cheat desc=" "/>
+	<cheat desc=" "/>
     <cheat desc="PL4 最大等级" default="0">
         <option desc="关闭"/>
         <option desc="开启">

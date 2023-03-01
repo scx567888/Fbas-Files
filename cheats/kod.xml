@@ -12,6 +12,7 @@
             <parameter cpu="0" address="0xFF431B" value="0x00"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -36,7 +37,7 @@
             <parameter cpu="0" address="0xFF12A2" value="0x17"/>
         </option>
     </cheat>
-    <cheat desc="选择武器等级 PL1" default="0">
+      <cheat desc="选择武器等级 PL1" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
             <parameter cpu="0" address="0xFF12A3" value="0x00"/>
@@ -62,8 +63,8 @@
         <option desc="等级8">
             <parameter cpu="0" address="0xFF12A3" value="0x07"/>
         </option>
-    </cheat>
-    <cheat desc="选择防护等级 PL1" default="0">
+       </cheat> 
+  <cheat desc="选择防护等级 PL1" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
             <parameter cpu="0" address="0xFF12A4" value="0x00"/>
@@ -89,7 +90,7 @@
         <option desc="等级8">
             <parameter cpu="0" address="0xFF12A4" value="0x07"/>
         </option>
-    </cheat>
+       </cheat> 
 
     <cheat desc="有99999999经验值 PL1" default="0">
         <option desc="关闭"/>
@@ -100,7 +101,7 @@
             <parameter cpu="0" address="0xFF12C5" value="0x99"/>
         </option>
     </cheat>
-    <cheat desc="最大攻击力量 PL1" default="0">
+ <cheat desc="最大攻击力量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFF129D" value="0x63"/>
@@ -112,6 +113,7 @@
             <parameter cpu="0" address="0xFF129F" value="0x63"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -136,7 +138,7 @@
             <parameter cpu="0" address="0xFF13A2" value="0x17"/>
         </option>
     </cheat>
-    <cheat desc="选择武器等级 PL2" default="0">
+ <cheat desc="选择武器等级 PL2" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
             <parameter cpu="0" address="0xFF13A3" value="0x00"/>
@@ -162,8 +164,8 @@
         <option desc="等级8">
             <parameter cpu="0" address="0xFF13A3" value="0x07"/>
         </option>
-    </cheat>
-    <cheat desc="选择防护等级 PL2" default="0">
+       </cheat> 
+  <cheat desc="选择防护等级 PL2" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
             <parameter cpu="0" address="0xFF13A4" value="0x00"/>
@@ -189,7 +191,7 @@
         <option desc="等级8">
             <parameter cpu="0" address="0xFF13A4" value="0x07"/>
         </option>
-    </cheat>
+       </cheat> 
     <cheat desc="有99999999经验值 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -211,6 +213,7 @@
             <parameter cpu="0" address="0xFF139F" value="0x63"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -235,7 +238,7 @@
             <parameter cpu="0" address="0xFF14A2" value="0x17"/>
         </option>
     </cheat>
-    <cheat desc="选择武器等级 PL3" default="0">
+<cheat desc="选择武器等级 PL3" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
             <parameter cpu="0" address="0xFF14A3" value="0x00"/>
@@ -261,8 +264,8 @@
         <option desc="等级8">
             <parameter cpu="0" address="0xFF14A3" value="0x07"/>
         </option>
-    </cheat>
-    <cheat desc="选择防护等级 PL3" default="0">
+       </cheat> 
+  <cheat desc="选择防护等级 PL3" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
             <parameter cpu="0" address="0xFF14A4" value="0x00"/>
@@ -288,7 +291,7 @@
         <option desc="等级8">
             <parameter cpu="0" address="0xFF14A4" value="0x07"/>
         </option>
-    </cheat>
+       </cheat> 
     <cheat desc="有99999999经验值 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -310,6 +313,7 @@
             <parameter cpu="0" address="0xFF149F" value="0x63"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="选关" default="0">
         <option desc="关闭"/>
         <option desc="选关 - 场景 1">
@@ -356,6 +360,9 @@
         </option>
         <option desc="选关 - 场景 15">
             <parameter cpu="0" address="0xFF0E49" value="0x0E"/>
+        </option>
+        <option desc="选关 - 场景 16">
+            <parameter cpu="0" address="0xFF0E49" value="0x0F"/>
         </option>
     </cheat>
 </shufflecheat>

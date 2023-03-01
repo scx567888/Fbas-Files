@@ -15,6 +15,7 @@
             <parameter cpu="0" address="0x10E001" value="0x01"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL1">
@@ -27,48 +28,49 @@
             <parameter cpu="0" address="0x100489" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc="使用游戏角色Terry Bogard PL1" default="0">
+    <cheat desc="选择角色 PL1" default="0">
         <option desc="关闭"/>
-        <option desc="使用游戏角色Terry Bogard PL1">
+        <option desc="特瑞 PL1">
             <parameter cpu="0" address="0x10561D" value="0x01"/>
         </option>
-        <option desc="使用游戏角色Andy Bogard PL1">
+        <option desc="安迪 PL1">
             <parameter cpu="0" address="0x10561D" value="0x02"/>
         </option>
-        <option desc="使用游戏角色Joe Higashi PL1">
+        <option desc="东丈 PL1">
             <parameter cpu="0" address="0x10561D" value="0x03"/>
         </option>
-        <option desc="使用游戏角色Mai Shiranui PL1">
+        <option desc="不知火舞 PL1">
             <parameter cpu="0" address="0x10561D" value="0x04"/>
         </option>
-        <option desc="使用游戏角色Geese Howard PL1">
+        <option desc="基斯 PL1">
             <parameter cpu="0" address="0x10561D" value="0x05"/>
         </option>
-        <option desc="使用游戏角色Sokaku PL1">
+        <option desc="望月双角 PL1">
             <parameter cpu="0" address="0x10561D" value="0x06"/>
         </option>
-        <option desc="使用游戏角色Bob Wilson PL1">
+        <option desc="鲍勃 PL1">
             <parameter cpu="0" address="0x10561D" value="0x07"/>
         </option>
-        <option desc="使用游戏角色Hon Fu PL1">
+        <option desc="红虎 PL1">
             <parameter cpu="0" address="0x10561D" value="0x08"/>
         </option>
-        <option desc="使用游戏角色Blue Mary PL1">
+        <option desc="玛莉 PL1">
             <parameter cpu="0" address="0x10561D" value="0x09"/>
         </option>
-        <option desc="使用游戏角色Franco Bash PL1">
+        <option desc="巴斯 PL1">
             <parameter cpu="0" address="0x10561D" value="0x0A"/>
         </option>
-        <option desc="使用游戏角色Ryuji Yamazaki PL1">
+        <option desc="山崎龙二 PL1">
             <parameter cpu="0" address="0x10561D" value="0x0B"/>
         </option>
-        <option desc="使用游戏角色Jin Chonrei PL1">
+        <option desc="秦崇雷 PL1">
             <parameter cpu="0" address="0x10561D" value="0x0C"/>
         </option>
-        <option desc="使用游戏角色Jin Chonshu PL1">
+        <option desc="秦崇秀 PL1">
             <parameter cpu="0" address="0x10561D" value="0x0D"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限能量 PL2" default="0">
         <option desc="关闭"/>
         <option desc="无限能量 PL2">
@@ -81,48 +83,49 @@
             <parameter cpu="0" address="0x100589" value="0x00"/>
         </option>
     </cheat>
-    <cheat desc="使用游戏角色Terry Bogard PL2" default="0">
+    <cheat desc="选择角色 PL2" default="0">
         <option desc="关闭"/>
-        <option desc="使用游戏角色Terry Bogard PL2">
+        <option desc="特瑞 PL2">
             <parameter cpu="0" address="0x10561F" value="0x01"/>
         </option>
-        <option desc="使用游戏角色Andy Bogard PL2">
+        <option desc="安迪 PL2">
             <parameter cpu="0" address="0x10561F" value="0x02"/>
         </option>
-        <option desc="使用游戏角色Joe Higashi PL2">
+        <option desc="东丈 PL2">
             <parameter cpu="0" address="0x10561F" value="0x03"/>
         </option>
-        <option desc="使用游戏角色Mai Shiranui PL2">
+        <option desc="不知火舞 PL2">
             <parameter cpu="0" address="0x10561F" value="0x04"/>
         </option>
-        <option desc="使用游戏角色Geese Howard PL2">
+        <option desc="基斯 PL2">
             <parameter cpu="0" address="0x10561F" value="0x05"/>
         </option>
-        <option desc="使用游戏角色Sokaku PL2">
+        <option desc="望月双角 PL2">
             <parameter cpu="0" address="0x10561F" value="0x06"/>
         </option>
-        <option desc="使用游戏角色Bob Wilson PL2">
+        <option desc="鲍勃 PL2">
             <parameter cpu="0" address="0x10561F" value="0x07"/>
         </option>
-        <option desc="使用游戏角色Hon Fu PL2">
+        <option desc="红虎 PL2">
             <parameter cpu="0" address="0x10561F" value="0x08"/>
         </option>
-        <option desc="使用游戏角色Blue Mary PL2">
+        <option desc="玛莉 PL2">
             <parameter cpu="0" address="0x10561F" value="0x09"/>
         </option>
-        <option desc="使用游戏角色Franco Bash PL2">
+        <option desc="巴斯 PL2">
             <parameter cpu="0" address="0x10561F" value="0x0A"/>
         </option>
-        <option desc="使用游戏角色Ryuji Yamazaki PL2">
+        <option desc="山崎龙二 PL2">
             <parameter cpu="0" address="0x10561F" value="0x0B"/>
         </option>
-        <option desc="使用游戏角色Jin Chonrei PL2">
+        <option desc="秦崇雷 PL2">
             <parameter cpu="0" address="0x10561F" value="0x0C"/>
         </option>
-        <option desc="使用游戏角色Jin Chonshu PL2">
+        <option desc="秦崇秀 PL2">
             <parameter cpu="0" address="0x10561F" value="0x0D"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
         <option desc="关闭"/>
         <option desc="街机 (MVS)">

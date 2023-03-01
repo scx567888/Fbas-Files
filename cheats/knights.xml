@@ -39,6 +39,7 @@
             <parameter cpu="0" address="0xFFA4C4" value="0x06"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -57,25 +58,25 @@
             <parameter cpu="0" address="0xFFAC7A" value="0x78"/>
         </option>
     </cheat>
-    <cheat desc="经验值满 PL1" default="0">
+ <cheat desc="经验值满 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0xFFAC8C" value="0x99"/>
         </option>
     </cheat>
-    <cheat desc="选择等级 PL1" default="0">
+  <cheat desc="选择等级 PL1" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
             <parameter cpu="0" address="0xFFAC4E" value="0x00"/>
         </option>
         <option desc="等级2">
-            <parameter cpu="0" address="0xFFAC4E" value="0x01"/>
+             <parameter cpu="0" address="0xFFAC4E" value="0x01"/>
         </option>
         <option desc="等级3">
-            <parameter cpu="0" address="0xFFAC4E" value="0x02"/>
+             <parameter cpu="0" address="0xFFAC4E" value="0x02"/>
         </option>
         <option desc="等级4">
-            <parameter cpu="0" address="0xFFAC4E" value="0x03"/>
+             <parameter cpu="0" address="0xFFAC4E" value="0x03"/>
         </option>
         <option desc="等级5">
             <parameter cpu="0" address="0xFFAC4E" value="0x04"/>
@@ -84,36 +85,36 @@
             <parameter cpu="0" address="0xFFAC4E" value="0x05"/>
         </option>
         <option desc="等级7">
-            <parameter cpu="0" address="0xFFAC4E" value="0x06"/>
+             <parameter cpu="0" address="0xFFAC4E" value="0x06"/>
         </option>
         <option desc="等级8">
-            <parameter cpu="0" address="0xFFAC4E" value="0x07"/>
+             <parameter cpu="0" address="0xFFAC4E" value="0x07"/>
         </option>
-        <option desc="等级9">
-            <parameter cpu="0" address="0xFFAC4E" value="0x08"/>
+<option desc="等级9">
+             <parameter cpu="0" address="0xFFAC4E" value="0x08"/>
         </option>
-        <option desc="等级10">
-            <parameter cpu="0" address="0xFFAC4E" value="0x09"/>
+<option desc="等级10">
+             <parameter cpu="0" address="0xFFAC4E" value="0x09"/>
         </option>
-        <option desc="等级11">
-            <parameter cpu="0" address="0xFFAC4E" value="0x0A"/>
+<option desc="等级11">
+             <parameter cpu="0" address="0xFFAC4E" value="0x0A"/>
         </option>
-        <option desc="等级12">
-            <parameter cpu="0" address="0xFFAC4E" value="0x0B"/>
+<option desc="等级12">
+             <parameter cpu="0" address="0xFFAC4E" value="0x0B"/>
         </option>
-        <option desc="等级13">
-            <parameter cpu="0" address="0xFFAC4E" value="0x0C"/>
+<option desc="等级13">
+             <parameter cpu="0" address="0xFFAC4E" value="0x0C"/>
         </option>
-        <option desc="等级14">
-            <parameter cpu="0" address="0xFFAC4E" value="0x0D"/>
+<option desc="等级14">
+             <parameter cpu="0" address="0xFFAC4E" value="0x0D"/>
         </option>
-        <option desc="等级15">
-            <parameter cpu="0" address="0xFFAC4E" value="0x0E"/>
+<option desc="等级15">
+             <parameter cpu="0" address="0xFFAC4E" value="0x0E"/>
         </option>
-        <option desc="等级16">
-            <parameter cpu="0" address="0xFFAC4E" value="0x0F"/>
+<option desc="等级16">
+             <parameter cpu="0" address="0xFFAC4E" value="0x0F"/>
         </option>
-    </cheat>
+       </cheat> 
     <cheat desc="快速攻击 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -138,6 +139,7 @@
             <parameter cpu="0" address="0xFFABCA" value="0x01"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -162,57 +164,57 @@
             <parameter cpu="0" address="0xFFADAC" value="0x99"/>
         </option>
     </cheat>
-    <cheat desc="选择等级 PL2" default="0">
+ <cheat desc="选择等级 PL2" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
-            <parameter cpu="0" address="0xFFAD6E" value="0x00"/>
+             <parameter cpu="0" address="0xFFAD6E" value="0x00"/>
         </option>
         <option desc="等级2">
-            <parameter cpu="0" address="0xFFAD6E" value="0x01"/>
+              <parameter cpu="0" address="0xFFAD6E" value="0x01"/>
         </option>
         <option desc="等级3">
-            <parameter cpu="0" address="0xFFAD6E" value="0x02"/>
+              <parameter cpu="0" address="0xFFAD6E" value="0x02"/>
         </option>
         <option desc="等级4">
-            <parameter cpu="0" address="0xFFAD6E" value="0x03"/>
+               <parameter cpu="0" address="0xFFAD6E" value="0x03"/>
         </option>
         <option desc="等级5">
-            <parameter cpu="0" address="0xFFAD6E" value="0x04"/>
+              <parameter cpu="0" address="0xFFAD6E" value="0x04"/>
         </option>
         <option desc="等级6">
-            <parameter cpu="0" address="0xFFAD6E" value="0x05"/>
+             <parameter cpu="0" address="0xFFAD6E" value="0x05"/>
         </option>
         <option desc="等级7">
-            <parameter cpu="0" address="0xFFAD6E" value="0x03"/>
+              <parameter cpu="0" address="0xFFAD6E" value="0x03"/>
         </option>
         <option desc="等级8">
-            <parameter cpu="0" address="0xFFAD6E" value="0x07"/>
+              <parameter cpu="0" address="0xFFAD6E" value="0x07"/>
         </option>
-        <option desc="等级9">
-            <parameter cpu="0" address="0xFFAD6E" value="0x08"/>
+<option desc="等级9">
+              <parameter cpu="0" address="0xFFAD6E" value="0x08"/>
         </option>
-        <option desc="等级10">
-            <parameter cpu="0" address="0xFFAD6E" value="0x09"/>
+<option desc="等级10">
+              <parameter cpu="0" address="0xFFAD6E" value="0x09"/>
         </option>
-        <option desc="等级11">
-            <parameter cpu="0" address="0xFFAD6E" value="0x0A"/>
+<option desc="等级11">
+              <parameter cpu="0" address="0xFFAD6E" value="0x0A"/>
         </option>
-        <option desc="等级12">
-            <parameter cpu="0" address="0xFFAD6E" value="0x0B"/>
+<option desc="等级12">
+              <parameter cpu="0" address="0xFFAD6E" value="0x0B"/>
         </option>
-        <option desc="等级13">
-            <parameter cpu="0" address="0xFFAD6E" value="0x0C"/>
+<option desc="等级13">
+             <parameter cpu="0" address="0xFFAD6E" value="0x0C"/>
         </option>
-        <option desc="等级14">
-            <parameter cpu="0" address="0xFFAD6E" value="0x0D"/>
+<option desc="等级14">
+              <parameter cpu="0" address="0xFFAD6E" value="0x0D"/>
         </option>
-        <option desc="等级15">
-            <parameter cpu="0" address="0xFFAD6E" value="0x0E"/>
+<option desc="等级15">
+             <parameter cpu="0" address="0xFFAD6E" value="0x0E"/>
         </option>
-        <option desc="等级16">
-            <parameter cpu="0" address="0xFFAD6E" value="0x0F"/>
+<option desc="等级16">
+              <parameter cpu="0" address="0xFFAD6E" value="0x0F"/>
         </option>
-    </cheat>
+       </cheat> 
     <cheat desc="快速攻击 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -231,6 +233,7 @@
             <parameter cpu="0" address="0xFFAD6C" value="0x02"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -255,57 +258,57 @@
             <parameter cpu="0" address="0xFFAECC" value="0x99"/>
         </option>
     </cheat>
-    <cheat desc="选择等级 PL3" default="0">
+ <cheat desc="选择等级 PL3" default="0">
         <option desc="关闭"/>
         <option desc="等级1">
-            <parameter cpu="0" address="0xFFAD8E" value="0x00"/>
+             <parameter cpu="0" address="0xFFAD8E" value="0x00"/>
         </option>
         <option desc="等级2">
-            <parameter cpu="0" address="0xFFAD8E" value="0x01"/>
+              <parameter cpu="0" address="0xFFAD8E" value="0x01"/>
         </option>
         <option desc="等级3">
-            <parameter cpu="0" address="0xFFAD8E" value="0x02"/>
+              <parameter cpu="0" address="0xFFAD8E" value="0x02"/>
         </option>
         <option desc="等级4">
-            <parameter cpu="0" address="0xFFAD8E" value="0x03"/>
+               <parameter cpu="0" address="0xFFAD8E" value="0x03"/>
         </option>
         <option desc="等级5">
-            <parameter cpu="0" address="0xFFAD8E" value="0x04"/>
+              <parameter cpu="0" address="0xFFAD8E" value="0x04"/>
         </option>
         <option desc="等级6">
-            <parameter cpu="0" address="0xFFAD8E" value="0x05"/>
+             <parameter cpu="0" address="0xFFAD8E" value="0x05"/>
         </option>
         <option desc="等级7">
-            <parameter cpu="0" address="0xFFAD8E" value="0x06"/>
+              <parameter cpu="0" address="0xFFAD8E" value="0x06"/>
         </option>
         <option desc="等级8">
-            <parameter cpu="0" address="0xFFAD8E" value="0x07"/>
+             <parameter cpu="0" address="0xFFAD8E" value="0x07"/>
         </option>
-        <option desc="等级9">
-            <parameter cpu="0" address="0xFFAD8E" value="0x08"/>
+<option desc="等级9">
+             <parameter cpu="0" address="0xFFAD8E" value="0x08"/>
         </option>
-        <option desc="等级10">
-            <parameter cpu="0" address="0xFFAD8E" value="0x09"/>
+<option desc="等级10">
+              <parameter cpu="0" address="0xFFAD8E" value="0x09"/>
         </option>
-        <option desc="等级11">
-            <parameter cpu="0" address="0xFFAD8E" value="0x0A"/>
+<option desc="等级11">
+              <parameter cpu="0" address="0xFFAD8E" value="0x0A"/>
         </option>
-        <option desc="等级12">
-            <parameter cpu="0" address="0xFFAD8E" value="0x0B"/>
+<option desc="等级12">
+              <parameter cpu="0" address="0xFFAD8E" value="0x0B"/>
         </option>
-        <option desc="等级13">
-            <parameter cpu="0" address="0xFFAD8E" value="0x0C"/>
+<option desc="等级13">
+             <parameter cpu="0" address="0xFFAD8E" value="0x0C"/>
         </option>
-        <option desc="等级14">
-            <parameter cpu="0" address="0xFFAD8E" value="0x0D"/>
+<option desc="等级14">
+             <parameter cpu="0" address="0xFFAD8E" value="0x0D"/>
         </option>
-        <option desc="等级15">
-            <parameter cpu="0" address="0xFFAD8E" value="0x0E"/>
+<option desc="等级15">
+             <parameter cpu="0" address="0xFFAD8E" value="0x0E"/>
         </option>
-        <option desc="等级16">
-            <parameter cpu="0" address="0xFFAD8E" value="0x0F"/>
+<option desc="等级16">
+              <parameter cpu="0" address="0xFFAD8E" value="0x0F"/>
         </option>
-    </cheat>
+       </cheat> 
     <cheat desc="快速攻击 PL3" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -324,6 +327,7 @@
             <parameter cpu="0" address="0xFFAE8C" value="0x02"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="全敌人转换(BOSS无效)" default="0">
         <option desc="关闭"/>
         <option desc="分">

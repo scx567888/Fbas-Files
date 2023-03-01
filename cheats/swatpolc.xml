@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
     <cheat desc="无限投币" default="0">
         <option desc="关闭"/>
@@ -6,6 +6,13 @@
             <parameter cpu="0" address="0x10835B" value="0x09"/>
         </option>
     </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x00C21C" value="0x60"/>
+        </option>
+    </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -16,15 +23,6 @@
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x103719" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="最大金钱 PL1" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x1036E4" value="0x00"/>
-            <parameter cpu="0" address="0x1036E5" value="0x98"/>
-            <parameter cpu="0" address="0x1036E6" value="0x96"/>
-            <parameter cpu="0" address="0x1036E7" value="0x7F"/>
         </option>
     </cheat>
     <cheat desc="最大速度 PL1" default="0">
@@ -39,7 +37,7 @@
             <parameter cpu="0" address="0x10372D" value="0x02"/>
         </option>
     </cheat>
-    <cheat desc="最大火力 PL2" default="0">
+    <cheat desc="最大火力 PL1" default="0">
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x1036CB" value="0x04"/>
@@ -51,6 +49,7 @@
             <parameter cpu="0" address="0x103731" value="0x01"/>
         </option>
     </cheat>
+	<cheat desc=" "/>
     <cheat desc="无限生命 PL2" default="0">
         <option desc="关闭"/>
         <option desc="开启">
@@ -61,15 +60,6 @@
         <option desc="关闭"/>
         <option desc="开启">
             <parameter cpu="0" address="0x10380F" value="0x63"/>
-        </option>
-    </cheat>
-    <cheat desc="最大金钱 PL2" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
-            <parameter cpu="0" address="0x1037DA" value="0x00"/>
-            <parameter cpu="0" address="0x1037DB" value="0x98"/>
-            <parameter cpu="0" address="0x1037DC" value="0x96"/>
-            <parameter cpu="0" address="0x1037DD" value="0x7F"/>
         </option>
     </cheat>
     <cheat desc="最大速度 PL2" default="0">
