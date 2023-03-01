@@ -6,16 +6,16 @@ The emulator will restore default settings when this file is deleted-->
 	<burnlib>libburn.dll</burnlib>
 	<emulation asm-68k="false" all-ram="0" cheat-enable="true" />
 	<video>
-		<fullscreen width="640" height="480" depth="32" refresh="0" />
+		<fullscreen width="1920" height="1080" depth="32" refresh="0" />
 		<adjust full-stretch="0" correct-aspect="1" rotate="0" />
 		<color enable="0" contrast="0" brightness="0" gamma="0" grayscale="0" invert="0" sepia="0" />
 		<monitor auto-aspect="true" aspect-x="4" aspect-y="3" />
-		<frame force-60hz="false" vsync="1" triple-buffer="1" />
+		<frame force-60hz="true" vsync="1" triple-buffer="1" />
 		<render>
 			<mode>Direct3D</mode>
 			<driver adapter="0" />
 		</render>
-		<filter linear="1" use-pixelfilter="false" pixel-filter="0" scanline-intensity="100">
+		<filter linear="1" use-pixelfilter="false" pixel-filter="0" scanline-intensity="99">
 			<bsnes-shader></bsnes-shader>
 			<cg-shader></cg-shader>
 		</filter>
@@ -24,22 +24,22 @@ The emulator will restore default settings when this file is deleted-->
 		<sound>DirectSound</sound>
 		<device ds="0" xa2="0" oal="0" />
 		<dsp>None</dsp>
-		<setting sync="true" rate="44100" latency="64" pcm-interp="1" fm-interp="0" reverse-stereo="0" stereo-upmix="0" />
+		<setting sync="false" rate="48000" latency="64" pcm-interp="1" fm-interp="0" reverse-stereo="0" stereo-upmix="0" />
 	</audio>
 	<gui>
 		<language>.\lang\zh_CN.dll</language>
 		<gamelist>.\lang\gamelist_cn.xml</gamelist>
-		<window size="3" posx="458" posy="145" on-top="false" auto-fullscreen="false" nosplash="false" splash-time="1500" />
-		<gamelist-dlg options="210" sys-sel="0" tab-sel="1">
+		<window size="3" posx="313" posy="61" on-top="false" auto-fullscreen="false" nosplash="true" splash-time="1000" />
+		<gamelist-dlg options="17" sys-sel="11" tab-sel="1">
 			<user-filter></user-filter>
 		</gamelist-dlg>
 		<ips language="1" dependancy="0" />
-		<skin render="true" random="true">
-			<path>skins\skin1.bmp</path>
+		<skin render="true" random="false">
+			<path></path>
 		</skin>
 	</gui>
 	<preference>
-		<setting always-processkey="false" auto-pause="1" avi-audio="1" fastforward="2" thread-priority="0" effect="0" log="false" />
+		<setting always-processkey="true" auto-pause="0" avi-audio="0" fastforward="2" thread-priority="0" effect="0" log="false" />
 		<autofire enable="true" default-delay="3" />
 		<rewind enable="false" granularity="1" buffer-size="20" />
 	</preference>
@@ -158,8 +158,8 @@ The emulator will restore default settings when this file is deleted-->
 		<fullscreen key="13" mod="2" />
 		<fake-full key="70" mod="1" />
 		<start-mvs key="0" mod="0" />
-		<rewind key="82" mod="0" />
-		<lua-open key="0" mod="0" />
+		<rewind key="0" mod="0" />
+		<lua-open key="76" mod="1" />
 		<lua-close-all key="0" mod="0" />
 		<lua-reload key="0" mod="0" />
 		<lua-stop key="0" mod="0" />
