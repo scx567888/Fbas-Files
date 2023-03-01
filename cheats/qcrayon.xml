@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A0A" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="快速完成问答 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A0E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="回答1总是正确" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A14" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择骰子数 !" default="0">
+        <option desc="关闭"/>
+        <option desc="抛骰子总是= 1">
+            <parameter cpu="0" address="0x100A50" value="0x01"/>
+        </option>
+        <option desc="抛骰子总是= 2">
+            <parameter cpu="0" address="0x100A50" value="0x02"/>
+        </option>
+        <option desc="抛骰子总是= 3">
+            <parameter cpu="0" address="0x100A50" value="0x03"/>
+        </option>
+        <option desc="抛骰子总是= 4">
+            <parameter cpu="0" address="0x100A50" value="0x04"/>
+        </option>
+        <option desc="抛骰子总是= 5">
+            <parameter cpu="0" address="0x100A50" value="0x05"/>
+        </option>
+        <option desc="抛骰子总是= 6">
+            <parameter cpu="0" address="0x100A50" value="0x06"/>
+        </option>
+        <option desc="抛骰子总是= 255">
+            <parameter cpu="0" address="0x100A50" value="0xFF"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x100A50" value="0x07"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x100A50" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1040DD" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104105" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

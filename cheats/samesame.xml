@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1B17" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC12E9" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC12DA" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="得到射击升级 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1B2F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大射击火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC12E7" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器">
+            <parameter cpu="0" address="0xC12E3" value="0x00"/>
+        </option>
+        <option desc="总是有激光武器">
+            <parameter cpu="0" address="0xC12E3" value="0x08"/>
+        </option>
+        <option desc="总是有火焰武器">
+            <parameter cpu="0" address="0xC12E3" value="0x10"/>
+        </option>
+    </cheat>
+</shufflecheat>

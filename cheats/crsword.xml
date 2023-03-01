@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续玩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106023" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10405B" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104052" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10405C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104066" value="0xFF"/>
+            <parameter cpu="0" address="0x104067" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续玩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106043" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1040DB" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1040D2" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1040DC" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1040E6" value="0xFF"/>
+            <parameter cpu="0" address="0x1040E7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="火球剑(10)">
+            <parameter cpu="0" address="0x104068" value="0x00"/>
+        </option>
+        <option desc="雾剑(6)">
+            <parameter cpu="0" address="0x104068" value="0x01"/>
+        </option>
+        <option desc="雾剑 DX(12)">
+            <parameter cpu="0" address="0x104068" value="0x02"/>
+        </option>
+        <option desc="火焰剑 (Low)(4)">
+            <parameter cpu="0" address="0x104068" value="0x03"/>
+        </option>
+        <option desc="火焰剑(6)">
+            <parameter cpu="0" address="0x104068" value="0x04"/>
+        </option>
+        <option desc="火球剑 DX(16)">
+            <parameter cpu="0" address="0x104068" value="0x05"/>
+        </option>
+        <option desc="护盾斧(8)">
+            <parameter cpu="0" address="0x104068" value="0x06"/>
+        </option>
+        <option desc="护盾斧 DX(16)">
+            <parameter cpu="0" address="0x104068" value="0x07"/>
+        </option>
+        <option desc="火球斧(16)">
+            <parameter cpu="0" address="0x104068" value="0x08"/>
+        </option>
+        <option desc="雷电剑(4)">
+            <parameter cpu="0" address="0x104068" value="0x09"/>
+        </option>
+        <option desc="雷电剑 DX(10)">
+            <parameter cpu="0" address="0x104068" value="0x0A"/>
+        </option>
+        <option desc="稻草剑(10)">
+            <parameter cpu="0" address="0x104068" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="火球剑(10)">
+            <parameter cpu="0" address="0x1040E8" value="0x00"/>
+        </option>
+        <option desc="雾剑(6)">
+            <parameter cpu="0" address="0x1040E8" value="0x01"/>
+        </option>
+        <option desc="雾剑 DX(12)">
+            <parameter cpu="0" address="0x1040E8" value="0x02"/>
+        </option>
+        <option desc="火焰剑 (Low)(4)">
+            <parameter cpu="0" address="0x1040E8" value="0x03"/>
+        </option>
+        <option desc="火焰剑(6)">
+            <parameter cpu="0" address="0x1040E8" value="0x04"/>
+        </option>
+        <option desc="火球剑 DX(16)">
+            <parameter cpu="0" address="0x1040E8" value="0x05"/>
+        </option>
+        <option desc="护盾斧(8)">
+            <parameter cpu="0" address="0x1040E8" value="0x06"/>
+        </option>
+        <option desc="护盾斧 DX(16)">
+            <parameter cpu="0" address="0x1040E8" value="0x07"/>
+        </option>
+        <option desc="火球斧(16)">
+            <parameter cpu="0" address="0x1040E8" value="0x08"/>
+        </option>
+        <option desc="雷电剑(4)">
+            <parameter cpu="0" address="0x1040E8" value="0x09"/>
+        </option>
+        <option desc="雷电剑 DX(10)">
+            <parameter cpu="0" address="0x1040E8" value="0x0A"/>
+        </option>
+        <option desc="稻草剑(10)">
+            <parameter cpu="0" address="0x1040E8" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

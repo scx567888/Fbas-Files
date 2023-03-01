@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1E67" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开始关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF81D0" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF81D0" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF81D0" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF81D0" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF81D0" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF81D0" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF81D0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择机体类型" default="0">
+        <option desc="关闭"/>
+        <option desc="喷气机">
+            <parameter cpu="0" address="0xFFF73F" value="0x00"/>
+        </option>
+        <option desc="机器人">
+            <parameter cpu="0" address="0xFFF73F" value="0x01"/>
+        </option>
+        <option desc="坦克">
+            <parameter cpu="0" address="0xFFF73F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="立即得到新机体" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9C8A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="合体后立即启动新机体" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9C8D" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限合体时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1E93" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="合体结束" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF74F" value="0x00"/>
+            <parameter cpu="0" address="0xFFF750" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF96E3" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF95DD" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9657" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限子弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF95FA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="布罗地亚">
+            <parameter cpu="0" address="0xFF95DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF965C" value="0x00"/>
+        </option>
+        <option desc="雷克多">
+            <parameter cpu="0" address="0xFF95DA" value="0x01"/>
+            <parameter cpu="0" address="0xFF965C" value="0x01"/>
+        </option>
+        <option desc="顾尔丁">
+            <parameter cpu="0" address="0xFF95DA" value="0x02"/>
+            <parameter cpu="0" address="0xFF965C" value="0x02"/>
+        </option>
+        <option desc="福地">
+            <parameter cpu="0" address="0xFF95DA" value="0x03"/>
+            <parameter cpu="0" address="0xFF965C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择主要武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="机关枪">
+            <parameter cpu="0" address="0xFF965E" value="0x00"/>
+        </option>
+        <option desc="钻机">
+            <parameter cpu="0" address="0xFF965E" value="0x01"/>
+        </option>
+        <option desc="闪光弹">
+            <parameter cpu="0" address="0xFF965E" value="0x02"/>
+        </option>
+        <option desc="爪">
+            <parameter cpu="0" address="0xFF965E" value="0x03"/>
+        </option>
+        <option desc="光刃">
+            <parameter cpu="0" address="0xFF965E" value="0x04"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0xFF965E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择副武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="直射">
+            <parameter cpu="0" address="0xFF965F" value="0x00"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFF965F" value="0x01"/>
+        </option>
+        <option desc="自引导">
+            <parameter cpu="0" address="0xFF965F" value="0x02"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFF965F" value="0x03"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF965F" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF965F" value="0x05"/>
+        </option>
+        <option desc="汽油弹">
+            <parameter cpu="0" address="0xFF965F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择底盘支架类型 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="机器人">
+            <parameter cpu="0" address="0xFF965D" value="0x00"/>
+        </option>
+        <option desc="坦克">
+            <parameter cpu="0" address="0xFF965D" value="0x01"/>
+        </option>
+        <option desc="力量脚">
+            <parameter cpu="0" address="0xFF965D" value="0x02"/>
+        </option>
+        <option desc="喷气机">
+            <parameter cpu="0" address="0xFF965D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF98A3" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF979D" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9817" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限子弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF97BA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="布罗地亚">
+            <parameter cpu="0" address="0xFF979A" value="0x00"/>
+            <parameter cpu="0" address="0xFF985C" value="0x00"/>
+        </option>
+        <option desc="雷克多">
+            <parameter cpu="0" address="0xFF979A" value="0x01"/>
+            <parameter cpu="0" address="0xFF985C" value="0x01"/>
+        </option>
+        <option desc="顾尔丁">
+            <parameter cpu="0" address="0xFF979A" value="0x02"/>
+            <parameter cpu="0" address="0xFF985C" value="0x02"/>
+        </option>
+        <option desc="福地">
+            <parameter cpu="0" address="0xFF979A" value="0x03"/>
+            <parameter cpu="0" address="0xFF985C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择主要武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="机关枪">
+            <parameter cpu="0" address="0xFF981E" value="0x00"/>
+        </option>
+        <option desc="钻机">
+            <parameter cpu="0" address="0xFF981E" value="0x01"/>
+        </option>
+        <option desc="闪光弹">
+            <parameter cpu="0" address="0xFF981E" value="0x02"/>
+        </option>
+        <option desc="爪">
+            <parameter cpu="0" address="0xFF981E" value="0x03"/>
+        </option>
+        <option desc="光刃">
+            <parameter cpu="0" address="0xFF981E" value="0x04"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0xFF981E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择副武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="直射">
+            <parameter cpu="0" address="0xFF981F" value="0x00"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFF981F" value="0x01"/>
+        </option>
+        <option desc="自引导">
+            <parameter cpu="0" address="0xFF981F" value="0x02"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFF981F" value="0x03"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF981F" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF981F" value="0x05"/>
+        </option>
+        <option desc="汽油弹">
+            <parameter cpu="0" address="0xFF981F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择底盘支架类型 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="机器人">
+            <parameter cpu="0" address="0xFF981D" value="0x00"/>
+        </option>
+        <option desc="坦克">
+            <parameter cpu="0" address="0xFF981D" value="0x01"/>
+        </option>
+        <option desc="力量脚">
+            <parameter cpu="0" address="0xFF981D" value="0x02"/>
+        </option>
+        <option desc="喷气机">
+            <parameter cpu="0" address="0xFF981D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9A63" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF995D" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF99D7" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限子弹 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF997A" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="布罗地亚">
+            <parameter cpu="0" address="0xFF994A" value="0x00"/>
+            <parameter cpu="0" address="0xFF9A5C" value="0x00"/>
+        </option>
+        <option desc="雷克多">
+            <parameter cpu="0" address="0xFF994A" value="0x01"/>
+            <parameter cpu="0" address="0xFF9A5C" value="0x01"/>
+        </option>
+        <option desc="顾尔丁">
+            <parameter cpu="0" address="0xFF994A" value="0x02"/>
+            <parameter cpu="0" address="0xFF9A5C" value="0x02"/>
+        </option>
+        <option desc="福地">
+            <parameter cpu="0" address="0xFF994A" value="0x03"/>
+            <parameter cpu="0" address="0xFF9A5C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择主要武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="机关枪">
+            <parameter cpu="0" address="0xFF99DE" value="0x00"/>
+        </option>
+        <option desc="钻机">
+            <parameter cpu="0" address="0xFF99DE" value="0x01"/>
+        </option>
+        <option desc="闪光弹">
+            <parameter cpu="0" address="0xFF99DE" value="0x02"/>
+        </option>
+        <option desc="爪">
+            <parameter cpu="0" address="0xFF99DE" value="0x03"/>
+        </option>
+        <option desc="光刃">
+            <parameter cpu="0" address="0xFF99DE" value="0x04"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0xFF99DE" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择副武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="直射">
+            <parameter cpu="0" address="0xFF99DF" value="0x00"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xFF99DF" value="0x01"/>
+        </option>
+        <option desc="自引导">
+            <parameter cpu="0" address="0xFF99DF" value="0x02"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xFF99DF" value="0x03"/>
+        </option>
+        <option desc="火焰">
+            <parameter cpu="0" address="0xFF99DF" value="0x04"/>
+        </option>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0xFF99DF" value="0x05"/>
+        </option>
+        <option desc="汽油弹">
+            <parameter cpu="0" address="0xFF99DF" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择底盘支架类型 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="机器人">
+            <parameter cpu="0" address="0xFF99DD" value="0x00"/>
+        </option>
+        <option desc="坦克">
+            <parameter cpu="0" address="0xFF99DD" value="0x01"/>
+        </option>
+        <option desc="力量脚">
+            <parameter cpu="0" address="0xFF99DD" value="0x02"/>
+        </option>
+        <option desc="喷气机">
+            <parameter cpu="0" address="0xFF99DD" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择区域码" default="0">
+        <option desc="关闭"/>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF80DB" value="0x01"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF80DB" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF80DB" value="0x03"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF80DB" value="0x04"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF80DB" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

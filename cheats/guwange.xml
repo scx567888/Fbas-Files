@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201011" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2026DA" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2028F9" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202918" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2028FB" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击强化 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2028FD" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限骷髅能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20289D" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="最大金币数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2028A5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="保持侧射击速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2028F4" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2026E0" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202959" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202978" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20295B" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击强化 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20295D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限骷髅能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20289F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="最大金币数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2028A9" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="保持侧射击速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202954" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Sisin">
+            <parameter cpu="0" address="0x2028F7" value="0x00"/>
+        </option>
+        <option desc="Kosame">
+            <parameter cpu="0" address="0x2028F7" value="0x02"/>
+        </option>
+        <option desc="Gensuke">
+            <parameter cpu="0" address="0x2028F7" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="改变颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Sisin">
+            <parameter cpu="0" address="0x2028E4" value="0x00"/>
+        </option>
+        <option desc="Kosame">
+            <parameter cpu="0" address="0x2028E4" value="0x01"/>
+        </option>
+        <option desc="Gensuke">
+            <parameter cpu="0" address="0x2028E4" value="0x02"/>
+        </option>
+        <option desc="金色">
+            <parameter cpu="0" address="0x2028E4" value="0x1D"/>
+        </option>
+        <option desc="火红">
+            <parameter cpu="0" address="0x2028E4" value="0x1E"/>
+        </option>
+        <option desc="白色">
+            <parameter cpu="0" address="0x2028E4" value="0x2D"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0x2028E4" value="0x3D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Sisin">
+            <parameter cpu="0" address="0x202957" value="0x00"/>
+        </option>
+        <option desc="Kosame">
+            <parameter cpu="0" address="0x202957" value="0x02"/>
+        </option>
+        <option desc="Gensuke">
+            <parameter cpu="0" address="0x202957" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Sisin">
+            <parameter cpu="0" address="0x202944" value="0x00"/>
+        </option>
+        <option desc="Kosame">
+            <parameter cpu="0" address="0x202944" value="0x01"/>
+        </option>
+        <option desc="Gensuke">
+            <parameter cpu="0" address="0x202944" value="0x02"/>
+        </option>
+        <option desc="金色">
+            <parameter cpu="0" address="0x202944" value="0x1D"/>
+        </option>
+        <option desc="火红">
+            <parameter cpu="0" address="0x202944" value="0x1E"/>
+        </option>
+        <option desc="白色">
+            <parameter cpu="0" address="0x202944" value="0x2D"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0x202944" value="0x3D"/>
+        </option>
+    </cheat>
+</shufflecheat>

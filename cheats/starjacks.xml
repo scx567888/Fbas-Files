@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC09B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC406" value="0x00"/>
+            <parameter cpu="0" address="0xC416" value="0x00"/>
+            <parameter cpu="0" address="0xC426" value="0x00"/>
+            <parameter cpu="0" address="0xC436" value="0x00"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC406" value="0x6D"/>
+            <parameter cpu="0" address="0xC416" value="0x6D"/>
+            <parameter cpu="0" address="0xC426" value="0x6D"/>
+            <parameter cpu="0" address="0xC436" value="0x6D"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1E8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 副武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1ED" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1031CD" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="开启调试模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10361B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1039E8" value="0x17"/>
+            <parameter cpu="0" address="0x1039E9" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="最大强壮值 - 战士" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104176" value="0x03"/>
+            <parameter cpu="0" address="0x104177" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击力 - 战士" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104162" value="0x03"/>
+            <parameter cpu="0" address="0x104163" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大盔甲值 - 战士" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104165" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="最大强壮值 - 魔法师" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104178" value="0x03"/>
+            <parameter cpu="0" address="0x104179" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击力 - 魔法师" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104166" value="0x03"/>
+            <parameter cpu="0" address="0x104167" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大盔甲值 - 魔法师" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104169" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="最大强壮值 - 牧师" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10417A" value="0x03"/>
+            <parameter cpu="0" address="0x10417B" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击力 - 牧师" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10416A" value="0x03"/>
+            <parameter cpu="0" address="0x10416B" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大盔甲值 - 牧师" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10416D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="最大强壮值 - 忍者" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10417C" value="0x03"/>
+            <parameter cpu="0" address="0x10417D" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大攻击力 - 忍者" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10416E" value="0x03"/>
+            <parameter cpu="0" address="0x10416F" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="最大盔甲值 - 忍者" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104171" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL1">
+            <parameter cpu="0" address="0x103E4B" value="0x59"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL1">
+            <parameter cpu="0" address="0x103E4B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命值 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103DF1" value="0xC8"/>
+            <parameter cpu="0" address="0x103DF3" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E3A" value="0xFA"/>
+        </option>
+    </cheat>
+    <cheat desc="无限增加生命药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E36" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限解毒剂 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E37" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限万能药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E35" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E32" value="0xEA"/>
+            <parameter cpu="0" address="0x103E33" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E38" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大敏捷 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E39" value="0xFA"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL2">
+            <parameter cpu="0" address="0x103EF5" value="0x59"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL2">
+            <parameter cpu="0" address="0x103EF5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命值 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E9B" value="0xC8"/>
+            <parameter cpu="0" address="0x103E9D" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103EE4" value="0xFA"/>
+        </option>
+    </cheat>
+    <cheat desc="无限增加生命药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103EE0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限解毒剂 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103EE1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限万能药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103EDF" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103EDC" value="0xEA"/>
+            <parameter cpu="0" address="0x103EDD" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="最大等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103EE2" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大敏捷 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103EE3" value="0xFA"/>
+        </option>
+    </cheat>
+</shufflecheat>

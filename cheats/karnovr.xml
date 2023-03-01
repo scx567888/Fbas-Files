@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103A70" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037B7" value="0xFF"/>
+            <parameter cpu="0" address="0x1037B8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Ray PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Ray PL1">
+            <parameter cpu="0" address="0x103671" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Feilin PL1">
+            <parameter cpu="0" address="0x103671" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Ryoko PL1">
+            <parameter cpu="0" address="0x103671" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Matlock PL1">
+            <parameter cpu="0" address="0x103671" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Samchay PL1">
+            <parameter cpu="0" address="0x103671" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Lee PL1">
+            <parameter cpu="0" address="0x103671" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Mizoguchi PL1">
+            <parameter cpu="0" address="0x103671" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Jean PL1">
+            <parameter cpu="0" address="0x103671" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Marstorius PL1">
+            <parameter cpu="0" address="0x103671" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Yungmie PL1">
+            <parameter cpu="0" address="0x103671" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Zazie PL1">
+            <parameter cpu="0" address="0x103671" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Clown PL1">
+            <parameter cpu="0" address="0x103671" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Karnov PL1">
+            <parameter cpu="0" address="0x103671" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Bull PL1">
+            <parameter cpu="0" address="0x103671" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1039B7" value="0xFF"/>
+            <parameter cpu="0" address="0x1039B8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Ray PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Ray PL2">
+            <parameter cpu="0" address="0x103871" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Feilin PL2">
+            <parameter cpu="0" address="0x103871" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Ryoko PL2">
+            <parameter cpu="0" address="0x103871" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Matlock PL2">
+            <parameter cpu="0" address="0x103871" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Samchay PL2">
+            <parameter cpu="0" address="0x103871" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Lee PL2">
+            <parameter cpu="0" address="0x103871" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Mizoguchi PL2">
+            <parameter cpu="0" address="0x103871" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Jean PL2">
+            <parameter cpu="0" address="0x103871" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Marstorius PL2">
+            <parameter cpu="0" address="0x103871" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Yungmie PL2">
+            <parameter cpu="0" address="0x103871" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Zazie PL2">
+            <parameter cpu="0" address="0x103871" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Clown PL2">
+            <parameter cpu="0" address="0x103871" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Karnov PL2">
+            <parameter cpu="0" address="0x103871" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Bull PL2">
+            <parameter cpu="0" address="0x103871" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

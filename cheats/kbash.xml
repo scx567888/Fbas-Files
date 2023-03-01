@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100023" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001D5" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10151C" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="在小游戏关得到255点 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="在小游戏关得到255点 PL1">
+            <parameter cpu="0" address="0x101659" value="0xFF"/>
+        </option>
+        <option desc="在小游戏关得到0点 PL1">
+            <parameter cpu="0" address="0x101659" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10020D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1015C4" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="在小游戏关得到255点 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="在小游戏关得到255点 PL2">
+            <parameter cpu="0" address="0x101701" value="0xFF"/>
+        </option>
+        <option desc="在小游戏关得到0点 PL2">
+            <parameter cpu="0" address="0x101701" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人1一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10166C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人2一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101714" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人3一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017BC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人4一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101864" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人5一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10190C" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

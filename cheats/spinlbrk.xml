@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8F87" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9735" value="0xB4"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA4C6" value="0x03"/>
+            <parameter cpu="0" address="0xFFA4C7" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA4C9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA4D5" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用正常武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是使用正常武器 PL1">
+            <parameter cpu="0" address="0xFF86F0" value="0x00"/>
+            <parameter cpu="0" address="0xFFA4E9" value="0x50"/>
+        </option>
+        <option desc="总是使用快枪 PL1">
+            <parameter cpu="0" address="0xFF86F0" value="0x00"/>
+            <parameter cpu="0" address="0xFFA4E9" value="0x56"/>
+        </option>
+        <option desc="总是使用散弹枪 PL1">
+            <parameter cpu="0" address="0xFF86F0" value="0x11"/>
+            <parameter cpu="0" address="0xFFA4E9" value="0x5C"/>
+        </option>
+        <option desc="总是使用强散弹枪 PL1">
+            <parameter cpu="0" address="0xFF86F0" value="0x11"/>
+            <parameter cpu="0" address="0xFFA4E9" value="0x62"/>
+        </option>
+        <option desc="总是使用超强散弹枪 PL1">
+            <parameter cpu="0" address="0xFF86F0" value="0x11"/>
+            <parameter cpu="0" address="0xFFA4E9" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="剩下的弹夹总是快枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="剩下的弹夹总是快枪 PL1">
+            <parameter cpu="0" address="0xFFA4CA" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4CB" value="0x00"/>
+        </option>
+        <option desc="剩下的弹夹总是散弹枪 PL1">
+            <parameter cpu="0" address="0xFFA4CA" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4CB" value="0x01"/>
+        </option>
+        <option desc="剩下的弹夹总是强散弹枪 PL1">
+            <parameter cpu="0" address="0xFFA4CA" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4CB" value="0x02"/>
+        </option>
+        <option desc="剩下的弹夹总是超强散弹枪 PL1">
+            <parameter cpu="0" address="0xFFA4CA" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4CB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA4F8" value="0x03"/>
+            <parameter cpu="0" address="0xFFA4F9" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA4FB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA507" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用正常武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是使用正常武器 PL2">
+            <parameter cpu="0" address="0xFF86E8" value="0x00"/>
+            <parameter cpu="0" address="0xFFA51B" value="0x50"/>
+        </option>
+        <option desc="总是使用快枪 PL2">
+            <parameter cpu="0" address="0xFF86E8" value="0x00"/>
+            <parameter cpu="0" address="0xFFA51B" value="0x56"/>
+        </option>
+        <option desc="总是使用散弹枪 PL2">
+            <parameter cpu="0" address="0xFF86E8" value="0x11"/>
+            <parameter cpu="0" address="0xFFA51B" value="0x5C"/>
+        </option>
+        <option desc="总是使用强散弹枪 PL2">
+            <parameter cpu="0" address="0xFF86E8" value="0x11"/>
+            <parameter cpu="0" address="0xFFA51B" value="0x62"/>
+        </option>
+        <option desc="总是使用超强散弹枪 PL2">
+            <parameter cpu="0" address="0xFF86E8" value="0x11"/>
+            <parameter cpu="0" address="0xFFA51B" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="剩下的弹夹总是快枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="剩下的弹夹总是快枪 PL2">
+            <parameter cpu="0" address="0xFFA4FC" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4FD" value="0x00"/>
+        </option>
+        <option desc="剩下的弹夹总是散弹枪 PL2">
+            <parameter cpu="0" address="0xFFA4FC" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4FD" value="0x01"/>
+        </option>
+        <option desc="剩下的弹夹总是强散弹枪 PL2">
+            <parameter cpu="0" address="0xFFA4FC" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4FD" value="0x02"/>
+        </option>
+        <option desc="剩下的弹夹总是超强散弹枪 PL2">
+            <parameter cpu="0" address="0xFFA4FC" value="0x02"/>
+            <parameter cpu="0" address="0xFFA4FD" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA4D4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA506" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x700039" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x701014" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x701015" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球数 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x701016" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球数 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x701017" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

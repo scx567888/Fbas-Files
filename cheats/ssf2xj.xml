@@ -1,0 +1,1257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xFF8DCE" value="0x99"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0xFF8DCE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF8479" value="0x90"/>
+            <parameter cpu="0" address="0xFF860B" value="0x90"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0xFF8479" value="0x00"/>
+            <parameter cpu="0" address="0xFF860B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级能力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限超级能力 PL1">
+            <parameter cpu="0" address="0xFF8702" value="0x30"/>
+        </option>
+        <option desc="设置超级能力 = 0! PL1">
+            <parameter cpu="0" address="0xFF8702" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF8879" value="0x90"/>
+            <parameter cpu="0" address="0xFF8A0B" value="0x90"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0xFF8879" value="0x00"/>
+            <parameter cpu="0" address="0xFF8A0B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级能力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限超级能力 PL2">
+            <parameter cpu="0" address="0xFF8B02" value="0x30"/>
+        </option>
+        <option desc="设置超级能力 = 0! PL2">
+            <parameter cpu="0" address="0xFF8B02" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Ryu PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Ryu PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色E. Honda PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Blanka PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Guile PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Ken PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Chun Li PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Zangief PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Dhalsim PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Vega PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Sagat PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色M.Bison PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Balrog PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Cammy PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色T. Hawk PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x0D"/>
+        </option>
+        <option desc="使用游戏角色Fei Long PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x0E"/>
+        </option>
+        <option desc="使用游戏角色Dee Jay PL1">
+            <parameter cpu="0" address="0xFF87DF" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF860D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="有拖影 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8703" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="设置赢盘数 = 0! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="设置赢盘数 = 0! PL1">
+            <parameter cpu="0" address="0xFF87DE" value="0x00"/>
+        </option>
+        <option desc="设置赢盘数 = 1! PL1">
+            <parameter cpu="0" address="0xFF87DE" value="0x01"/>
+        </option>
+        <option desc="设置赢盘数 = 2! PL1">
+            <parameter cpu="0" address="0xFF87DE" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="在跳时仍可发招 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85CF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用老版本的游戏角色 开启 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用老版本的游戏角色 开启 PL1">
+            <parameter cpu="0" address="0xFF8804" value="0x01"/>
+        </option>
+        <option desc="使用老版本的游戏角色 关闭 PL1">
+            <parameter cpu="0" address="0xFF8804" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色豪鬼 开启 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色豪鬼 开启 PL1">
+            <parameter cpu="0" address="0xFF880B" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色豪鬼 关闭 PL1">
+            <parameter cpu="0" address="0xFF880B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8467" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="取消波动拳 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF846C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="发下一飞行道具没有间隔限制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8622" value="0x00"/>
+            <parameter cpu="0" address="0xFF8623" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8622" value="0x00"/>
+            <parameter cpu="0" address="0xFF8A23" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8895" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="自动出组合技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8898" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84AF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="All Cancel PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85E0" value="0x01"/>
+            <parameter cpu="0" address="0xFF85E3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限空气 Juggle PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8AFA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="豪鬼标记 (S+Px3) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="豪鬼标记 (S+Px3) PL1">
+            <parameter cpu="0" address="0xFF84F0" value="0x01"/>
+        </option>
+        <option desc="容易使出回旋拳 (Cammy) PL1">
+            <parameter cpu="0" address="0xFF84F0" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="颜色选择 - 颜色 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="颜色选择 - 颜色 1 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x00"/>
+        </option>
+        <option desc="颜色选择 - 颜色 2 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x01"/>
+        </option>
+        <option desc="颜色选择 - 颜色 3 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x02"/>
+        </option>
+        <option desc="颜色选择 - 颜色 4 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x03"/>
+        </option>
+        <option desc="颜色选择 - 颜色 5 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x04"/>
+        </option>
+        <option desc="颜色选择 - 颜色 6 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x05"/>
+        </option>
+        <option desc="颜色选择 - 颜色 7 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x06"/>
+        </option>
+        <option desc="颜色选择 - 颜色 8 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x07"/>
+        </option>
+        <option desc="颜色选择 - Classic 1 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x08"/>
+        </option>
+        <option desc="颜色选择 - Classic 2h PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x09"/>
+        </option>
+        <option desc="颜色选择 - Akuma 颜色 1 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x0A"/>
+        </option>
+        <option desc="颜色选择 - Akuma 颜色 2 PL1">
+            <parameter cpu="0" address="0xFF87FF" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Ryu PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Ryu PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色E. Honda PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Blanka PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Guile PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Ken PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Chun Li PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Zangief PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Dhalsim PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Vega PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Sagat PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色M.Bison PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Balrog PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Cammy PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色T. Hawk PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x0D"/>
+        </option>
+        <option desc="使用游戏角色Fei Long PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x0E"/>
+        </option>
+        <option desc="使用游戏角色Dee Jay PL2">
+            <parameter cpu="0" address="0xFF8BDF" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A0D" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="有拖影 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8B03" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="设置赢盘数 = 0! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="设置赢盘数 = 0! PL2">
+            <parameter cpu="0" address="0xFF8BDE" value="0x00"/>
+        </option>
+        <option desc="设置赢盘数 = 1! PL2">
+            <parameter cpu="0" address="0xFF8BDE" value="0x01"/>
+        </option>
+        <option desc="设置赢盘数 = 2! PL2">
+            <parameter cpu="0" address="0xFF8BDE" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="在跳时仍可发招 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89CF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用老版本的游戏角色 开启 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用老版本的游戏角色 开启 PL2">
+            <parameter cpu="0" address="0xFF8C04" value="0x01"/>
+        </option>
+        <option desc="使用老版本的游戏角色 关闭 PL2">
+            <parameter cpu="0" address="0xFF8C04" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色豪鬼 开启 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色豪鬼 开启 PL2">
+            <parameter cpu="0" address="0xFF8C0B" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色豪鬼 关闭 PL2">
+            <parameter cpu="0" address="0xFF8C0B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8867" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="取消波动拳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF886C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="发下一飞行道具没有间隔限制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A22" value="0x00"/>
+            <parameter cpu="0" address="0xFF8A23" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8495" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="自动出组合技 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8498" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="不会昏晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88AF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="All Cancel PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89E0" value="0x01"/>
+            <parameter cpu="0" address="0xFF89E3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限空气 Juggle PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86FA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="豪鬼标记 (S+Px3) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="豪鬼标记 (S+Px3) PL2">
+            <parameter cpu="0" address="0xFF88F0" value="0x01"/>
+        </option>
+        <option desc="容易使出回旋拳 (Cammy) PL2">
+            <parameter cpu="0" address="0xFF88F0" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="颜色选择 - 颜色 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="颜色选择 - 颜色 1 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x00"/>
+        </option>
+        <option desc="颜色选择 - 颜色 2 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x01"/>
+        </option>
+        <option desc="颜色选择 - 颜色 3 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x02"/>
+        </option>
+        <option desc="颜色选择 - 颜色 4 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x03"/>
+        </option>
+        <option desc="颜色选择 - 颜色 5 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x04"/>
+        </option>
+        <option desc="颜色选择 - 颜色 6 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x05"/>
+        </option>
+        <option desc="颜色选择 - 颜色 7 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x06"/>
+        </option>
+        <option desc="颜色选择 - 颜色 8 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x07"/>
+        </option>
+        <option desc="颜色选择 - Classic 1 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x08"/>
+        </option>
+        <option desc="颜色选择 - Classic 2 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x09"/>
+        </option>
+        <option desc="颜色选择 - Akuma 颜色 1 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x0A"/>
+        </option>
+        <option desc="颜色选择 - Akuma 颜色 2 PL2">
+            <parameter cpu="0" address="0xFF8BFF" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景 - Balrog" default="0">
+        <option desc="关闭"/>
+        <option desc="选择背景 - Balrog">
+            <parameter cpu="0" address="0xFFE18B" value="0x0A"/>
+        </option>
+        <option desc="选择背景 - Blanka">
+            <parameter cpu="0" address="0xFFE18B" value="0x02"/>
+        </option>
+        <option desc="选择背景 - Cammy">
+            <parameter cpu="0" address="0xFFE18B" value="0x0C"/>
+        </option>
+        <option desc="选择背景 - Chun Li">
+            <parameter cpu="0" address="0xFFE18B" value="0x05"/>
+        </option>
+        <option desc="选择背景 - Dee Jay">
+            <parameter cpu="0" address="0xFFE18B" value="0x0F"/>
+        </option>
+        <option desc="选择背景 - Dhalsim">
+            <parameter cpu="0" address="0xFFE18B" value="0x07"/>
+        </option>
+        <option desc="选择背景 - E.Honda">
+            <parameter cpu="0" address="0xFFE18B" value="0x01"/>
+        </option>
+        <option desc="选择背景 - Fei Long">
+            <parameter cpu="0" address="0xFFE18B" value="0x0E"/>
+        </option>
+        <option desc="选择背景 - Guile">
+            <parameter cpu="0" address="0xFFE18B" value="0x03"/>
+        </option>
+        <option desc="选择背景 - Ken">
+            <parameter cpu="0" address="0xFFE18B" value="0x04"/>
+        </option>
+        <option desc="选择背景 - M.Bison">
+            <parameter cpu="0" address="0xFFE18B" value="0x08"/>
+        </option>
+        <option desc="选择背景 - Ryu">
+            <parameter cpu="0" address="0xFFE18B" value="0x00"/>
+        </option>
+        <option desc="选择背景 - Sagat">
+            <parameter cpu="0" address="0xFFE18B" value="0x09"/>
+        </option>
+        <option desc="选择背景 - T.Hawk">
+            <parameter cpu="0" address="0xFFE18B" value="0x0D"/>
+        </option>
+        <option desc="选择背景 - Vega">
+            <parameter cpu="0" address="0xFFE18B" value="0x0B"/>
+        </option>
+        <option desc="选择背景 - Zangief">
+            <parameter cpu="0" address="0xFFE18B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFF8C51" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFF8C51" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF8C51" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF8C51" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF8C51" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF8C51" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFF8C51" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 8">
+            <parameter cpu="0" address="0xFF8C51" value="0x07"/>
+        </option>
+        <option desc="选关 - 场景 9">
+            <parameter cpu="0" address="0xFF8C51" value="0x08"/>
+        </option>
+        <option desc="选关 - 场景 10">
+            <parameter cpu="0" address="0xFF8C51" value="0x09"/>
+        </option>
+        <option desc="选关 - 场景 11">
+            <parameter cpu="0" address="0xFF8C51" value="0x0A"/>
+        </option>
+        <option desc="选关 - 场景 12">
+            <parameter cpu="0" address="0xFF8C51" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="超高速模式!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82ED" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="游戏速度 [ SSF2速度 ]" default="0">
+        <option desc="关闭"/>
+        <option desc="游戏速度 [ SSF2速度 ]">
+            <parameter cpu="0" address="0xFF8CD3" value="0xFF"/>
+        </option>
+        <option desc="游戏速度 [ 速度最大 ]">
+            <parameter cpu="0" address="0xFF8CD3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="游戏速度- 慢速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82F2" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最终BOSS - M.Bison" default="0">
+        <option desc="关闭"/>
+        <option desc="最终BOSS - M.Bison">
+            <parameter cpu="0" address="0xFF831A" value="0x01"/>
+        </option>
+        <option desc="最终BOSS - Akuma">
+            <parameter cpu="0" address="0xFF831A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="发射道具能穿透" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9D31" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="战斗标题宣告前可以移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82C7" value="0x01"/>
+            <parameter cpu="0" address="0xFF82F3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有正常结局" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有正常结局">
+            <parameter cpu="0" address="0xFF8CA1" value="0x01"/>
+        </option>
+        <option desc="总是有特殊结局">
+            <parameter cpu="0" address="0xFF8CA1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="地区开关 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地区开关 = 日本">
+            <parameter cpu="0" address="0xFF82CF" value="0x00"/>
+        </option>
+        <option desc="地区开关 = 美国">
+            <parameter cpu="0" address="0xFF82CF" value="0x02"/>
+        </option>
+        <option desc="地区开关 = 其他">
+            <parameter cpu="0" address="0xFF82CF" value="0x04"/>
+        </option>
+        <option desc="地区开关 = 亚洲">
+            <parameter cpu="0" address="0xFF82CF" value="0x08"/>
+        </option>
+        <option desc="地区开关 = 亚洲台湾">
+            <parameter cpu="0" address="0xFF82CF" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出旋风脚 (Ryu / Ken / Gouki) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易发出旋风脚 (Ryu / Ken / Gouki) PL1">
+            <parameter cpu="0" address="0xFF84DE" value="0x04"/>
+        </option>
+        <option desc="容易使出百贯落 (E.Honda) PL1">
+            <parameter cpu="0" address="0xFF84DE" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出波动拳 (Ryu / Ken / Gouki) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易发出波动拳 (Ryu / Ken / Gouki) PL1">
+            <parameter cpu="0" address="0xFF84E2" value="0x04"/>
+        </option>
+        <option desc="容易使出超级头突 (E.Honda) PL1">
+            <parameter cpu="0" address="0xFF84E2" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出升龙拳 (Ryu / Ken / Gouki) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E6" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出真空波动拳 (Ryu) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出真空波动拳 (Ryu) PL1">
+            <parameter cpu="0" address="0xFF84EE" value="0x0A"/>
+        </option>
+        <option desc="容易使出升龙裂破 (Ken) PL1">
+            <parameter cpu="0" address="0xFF84EE" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出火焰波动拳 (Ryu / Gouki) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852E" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出超级头锤 (E.Honda) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出超级头锤 (E.Honda) PL1">
+            <parameter cpu="0" address="0xFF84D6" value="0x06"/>
+        </option>
+        <option desc="容易使出虎刃波 (Sagat) PL1">
+            <parameter cpu="0" address="0xFF84D6" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出大银杏投 (E.Honda) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出大银杏投 (E.Honda) PL1">
+            <parameter cpu="0" address="0xFF84E4" value="0x08"/>
+        </option>
+        <option desc="容易使出瑜珈超神火 (Dhalsim) PL1">
+            <parameter cpu="0" address="0xFF84E4" value="0x10"/>
+        </option>
+        <option desc="容易使出螺旋飞箭 (Cammy) PL1">
+            <parameter cpu="0" address="0xFF84E4" value="0x04"/>
+        </option>
+        <option desc="容易使出机关炮上勾拳 (DeeJay) PL1">
+            <parameter cpu="0" address="0xFF84E4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出回旋攻击 (Blanka) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出回旋攻击 (Blanka) PL1">
+            <parameter cpu="0" address="0xFF84CE" value="0x06"/>
+        </option>
+        <option desc="容易使出瑜珈之火 (Dhalsim) PL1">
+            <parameter cpu="0" address="0xFF84CE" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出垂直回旋攻击 (Blanka) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出垂直回旋攻击 (Blanka) PL1">
+            <parameter cpu="0" address="0xFF84FE" value="0x06"/>
+        </option>
+        <option desc="容易使出烈火真拳 (FeiLong) PL1">
+            <parameter cpu="0" address="0xFF84FE" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出后步撞 (Blanka) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8507" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出回旋直击 (Blanka) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF850F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出倒旋踢 (Guile) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84D4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出镰佛蹴 (Ken) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8534" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出铊落蹴 (Ken) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8536" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出大外回蹴 (Ken) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8538" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出天升脚 (春丽) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8508" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出千裂脚 (春丽) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF890D" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出倒抱打桩 (Zangief) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84CE" value="0x06"/>
+            <parameter cpu="0" address="0xFF84CF" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出原子能爆炸 (Zangief) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E9" value="0x06"/>
+            <parameter cpu="0" address="0xFF84EA" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出终极原子能爆炸 (Zangief) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84FA" value="0x0E"/>
+            <parameter cpu="0" address="0xFF84FB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出碎金掌 (Zangief) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8501" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出瑜珈之焰 (Dhalsim) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出瑜珈之焰 (Dhalsim) PL1">
+            <parameter cpu="0" address="0xFF84D2" value="0x08"/>
+        </option>
+        <option desc="容易使出虎膝击 crush (Sagat) PL1">
+            <parameter cpu="0" address="0xFF84D2" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出瑜珈瞬间移动 左 (Dhalsim) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出瑜珈瞬间移动 左 (Dhalsim) PL1">
+            <parameter cpu="0" address="0xFF84D6" value="0x04"/>
+            <parameter cpu="0" address="0xFF84DB" value="0x05"/>
+        </option>
+        <option desc="容易使出瑜珈瞬间移动 右 (Dhalsim) PL1">
+            <parameter cpu="0" address="0xFF84D6" value="0x04"/>
+            <parameter cpu="0" address="0xFF84DB" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出瑜珈天火 (Dhalsim) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E8" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出精神爆压 (M.Bison) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF850E" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出疯狂水牛击 (M.Bison) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8522" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出突进勾拳 (M.Bison) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8524" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出突进直拳 (M.Bison) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出下虎刃波 (Sagat) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出下虎刃波 (Sagat) PL1">
+            <parameter cpu="0" address="0xFF84DA" value="0x04"/>
+        </option>
+        <option desc="容易使出飞翔巴塞罗那 (Balrog) PL1">
+            <parameter cpu="0" address="0xFF84DA" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出猛虎绝灭杀 (Sagat) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84EC" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出饭纲落 (Balrog) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E7" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出千斤顶压 (Vega) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84DF" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出恶魔倒转 (Vega) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84FA" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出超级双截踢 (Vega) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8513" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出大炮轰击 (Cammy) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出大炮轰击 (Cammy) PL1">
+            <parameter cpu="0" address="0xFF84E0" value="0x04"/>
+        </option>
+        <option desc="容易使出旋转双踢 (DeeJay) PL1">
+            <parameter cpu="0" address="0xFF84E0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出螺旋纺锤攻击 (Cammy) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出螺旋纺锤攻击 (Cammy) PL1">
+            <parameter cpu="0" address="0xFF84F4" value="0x08"/>
+        </option>
+        <option desc="容易使出真空斩 (DeeJay) PL1">
+            <parameter cpu="0" address="0xFF84F4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出自由搏击杀 (Cammy) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84F7" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出飞鹰气旋 (T.Hawk) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84DB" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出墨西哥台风 (T.Hawk) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E0" value="0x06"/>
+            <parameter cpu="0" address="0xFF84E1" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出双台风 (T.Hawk) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84EC" value="0x0E"/>
+            <parameter cpu="0" address="0xFF84ED" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出烈火拳 (FeiLong) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84DE" value="0x04"/>
+            <parameter cpu="0" address="0xFF84EE" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出烈空脚 (FeiLong) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8502" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出杰克劲刀踢(DeeJay) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84F9" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出威慑连打 (DeeJay) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84FD" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出阿修罗闪空 左 (Gouki) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出阿修罗闪空 左 (Gouki) PL1">
+            <parameter cpu="0" address="0xFF84EC" value="0x04"/>
+            <parameter cpu="0" address="0xFF84F3" value="0x05"/>
+        </option>
+        <option desc="容易使出阿修罗闪空 右 (Gouki) PL1">
+            <parameter cpu="0" address="0xFF84EC" value="0x04"/>
+            <parameter cpu="0" address="0xFF84F3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出旋风脚 (Ryu / Ken / Gouki) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易发出旋风脚 (Ryu / Ken / Gouki) PL2">
+            <parameter cpu="0" address="0xFF88DE" value="0x04"/>
+        </option>
+        <option desc="容易使出百贯落 (E.Honda) PL2">
+            <parameter cpu="0" address="0xFF88DE" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出波动拳 (Ryu / Ken / Gouki) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易发出波动拳 (Ryu / Ken / Gouki) PL2">
+            <parameter cpu="0" address="0xFF88E2" value="0x04"/>
+        </option>
+        <option desc="容易使出超级头突 (E.Honda) PL2">
+            <parameter cpu="0" address="0xFF88E2" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易发出升龙拳 (Ryu / Ken / Gouki) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E6" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出真空波动拳 (Ryu) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出真空波动拳 (Ryu) PL2">
+            <parameter cpu="0" address="0xFF88EE" value="0x0A"/>
+        </option>
+        <option desc="容易使出升龙裂破 (Ken) PL2">
+            <parameter cpu="0" address="0xFF88EE" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出火焰波动拳 (Ryu / Gouki) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF892E" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出超级头锤 (E.Honda) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出超级头锤 (E.Honda) PL2">
+            <parameter cpu="0" address="0xFF88D6" value="0x06"/>
+        </option>
+        <option desc="容易使出虎刃波 (Sagat) PL2">
+            <parameter cpu="0" address="0xFF88D6" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出大银杏投 (E.Honda) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出大银杏投 (E.Honda) PL2">
+            <parameter cpu="0" address="0xFF88E4" value="0x08"/>
+        </option>
+        <option desc="容易使出瑜珈超神火 (Dhalsim) PL2">
+            <parameter cpu="0" address="0xFF88E4" value="0x10"/>
+        </option>
+        <option desc="容易使出螺旋飞箭 (Cammy) PL2">
+            <parameter cpu="0" address="0xFF88E4" value="0x04"/>
+        </option>
+        <option desc="容易使出机关炮上勾拳 (DeeJay) PL2">
+            <parameter cpu="0" address="0xFF88E4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出回旋攻击 (Blanka) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出回旋攻击 (Blanka) PL2">
+            <parameter cpu="0" address="0xFF88CE" value="0x06"/>
+        </option>
+        <option desc="容易使出瑜珈之火 (Dhalsim) PL2">
+            <parameter cpu="0" address="0xFF88CE" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出垂直回旋攻击 (Blanka) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出垂直回旋攻击 (Blanka) PL2">
+            <parameter cpu="0" address="0xFF88FE" value="0x06"/>
+        </option>
+        <option desc="容易使出烈火真拳 (FeiLong) PL2">
+            <parameter cpu="0" address="0xFF88FE" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出后步撞 (Blanka) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8907" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出回旋直击 (Blanka) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF890F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出倒旋踢 (Guile) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88D4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出镰佛蹴 (Ken) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8934" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出铊落蹴 (Ken) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8936" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出大外回蹴 (Ken) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8938" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出天升脚 (春丽) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8908" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出倒抱打桩 (Zangief) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88CE" value="0x06"/>
+            <parameter cpu="0" address="0xFF88CF" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出原子能爆炸 (Zangief) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E9" value="0x06"/>
+            <parameter cpu="0" address="0xFF88EA" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出终极原子能爆炸 (Zangief) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88FA" value="0x0E"/>
+            <parameter cpu="0" address="0xFF88FB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出碎金掌 (Zangief) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8901" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出瑜珈之焰 (Dhalsim) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出瑜珈之焰 (Dhalsim) PL2">
+            <parameter cpu="0" address="0xFF88D2" value="0x08"/>
+        </option>
+        <option desc="容易使出虎膝击 crush (Sagat) PL2">
+            <parameter cpu="0" address="0xFF88D2" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出瑜珈瞬间移动 左 (Dhalsim) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出瑜珈瞬间移动 左 (Dhalsim) PL2">
+            <parameter cpu="0" address="0xFF88D6" value="0x04"/>
+            <parameter cpu="0" address="0xFF88DB" value="0x05"/>
+        </option>
+        <option desc="容易使出瑜珈瞬间移动 右 (Dhalsim) PL2">
+            <parameter cpu="0" address="0xFF88D6" value="0x04"/>
+            <parameter cpu="0" address="0xFF88DB" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出瑜珈天火 (Dhalsim) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E8" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出精神爆压 (M.Bison) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF890E" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出疯狂水牛击 (M.Bison) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8922" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出突进勾拳 (M.Bison) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8924" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出突进直拳 (M.Bison) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF892B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出下虎刃波 (Sagat) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出下虎刃波 (Sagat) PL2">
+            <parameter cpu="0" address="0xFF88DA" value="0x04"/>
+        </option>
+        <option desc="容易使出飞翔巴塞罗那 (Balrog) PL2">
+            <parameter cpu="0" address="0xFF88DA" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出猛虎绝灭杀 (Sagat) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88EC" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出饭纲落 (Balrog) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E7" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出千斤顶压 (Vega) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88DF" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出恶魔倒转 (Vega) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88FA" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出超级双截踢 (Vega) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8913" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出大炮轰击 (Cammy) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出大炮轰击 (Cammy) PL2">
+            <parameter cpu="0" address="0xFF88E0" value="0x04"/>
+        </option>
+        <option desc="容易使出旋转双踢 (DeeJay) PL2">
+            <parameter cpu="0" address="0xFF88E0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出螺旋纺锤攻击 (Cammy) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出螺旋纺锤攻击 (Cammy) PL2">
+            <parameter cpu="0" address="0xFF88F4" value="0x08"/>
+        </option>
+        <option desc="容易使出真空斩 (DeeJay) PL2">
+            <parameter cpu="0" address="0xFF88F4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出自由搏击杀 (Cammy) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88F7" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出飞鹰气旋 (T.Hawk) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88DB" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出墨西哥台风 (T.Hawk) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E0" value="0x06"/>
+            <parameter cpu="0" address="0xFF88E1" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出双台风 (T.Hawk) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88EC" value="0x0E"/>
+            <parameter cpu="0" address="0xFF88ED" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出烈火拳 (FeiLong) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88DE" value="0x04"/>
+            <parameter cpu="0" address="0xFF88EE" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出烈空脚 (FeiLong) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8902" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出杰克劲刀踢(DeeJay) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88F9" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出威慑连打 (DeeJay) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88FD" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出阿修罗闪空 左 (Gouki) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出阿修罗闪空 左 (Gouki) PL2">
+            <parameter cpu="0" address="0xFF88EC" value="0x04"/>
+            <parameter cpu="0" address="0xFF88F3" value="0x05"/>
+        </option>
+        <option desc="容易使出阿修罗闪空 右 (Gouki) PL2">
+            <parameter cpu="0" address="0xFF88EC" value="0x04"/>
+            <parameter cpu="0" address="0xFF88F3" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC030" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0EA" value="0x09"/>
+            <parameter cpu="0" address="0xC0EB" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0A4" value="0x9B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC41D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限刀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限刀 PL1">
+            <parameter cpu="0" address="0xC0C1" value="0x01"/>
+        </option>
+        <option desc="无限炸弹 PL1">
+            <parameter cpu="0" address="0xC0C1" value="0x02"/>
+        </option>
+        <option desc="无限索连棍 PL1">
+            <parameter cpu="0" address="0xC0C1" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0A5" value="0x9B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC43D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限刀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限刀 PL2">
+            <parameter cpu="0" address="0xC0C2" value="0x01"/>
+        </option>
+        <option desc="无限炸弹 PL2">
+            <parameter cpu="0" address="0xC0C2" value="0x02"/>
+        </option>
+        <option desc="无限索连棍 PL2">
+            <parameter cpu="0" address="0xC0C2" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

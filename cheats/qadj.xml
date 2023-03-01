@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF81A7" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF82A7" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="立即正确答案结束问答!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8C0D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是让骰子抛到1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是让骰子抛到1">
+            <parameter cpu="0" address="0xFF8CCE" value="0x01"/>
+        </option>
+        <option desc="总是让骰子抛到2">
+            <parameter cpu="0" address="0xFF8CCE" value="0x02"/>
+        </option>
+        <option desc="总是让骰子抛到3">
+            <parameter cpu="0" address="0xFF8CCE" value="0x03"/>
+        </option>
+        <option desc="总是让骰子抛到4">
+            <parameter cpu="0" address="0xFF8CCE" value="0x04"/>
+        </option>
+        <option desc="总是让骰子抛到5">
+            <parameter cpu="0" address="0xFF8CCE" value="0x05"/>
+        </option>
+        <option desc="总是让骰子抛到6">
+            <parameter cpu="0" address="0xFF8CCE" value="0x06"/>
+        </option>
+        <option desc="总是一直走">
+            <parameter cpu="0" address="0xFF8CCE" value="0x32"/>
+        </option>
+    </cheat>
+</shufflecheat>

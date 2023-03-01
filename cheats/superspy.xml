@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10181F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有机关枪" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有机关枪">
+            <parameter cpu="0" address="0x101856" value="0x0F"/>
+        </option>
+        <option desc="总是有手枪">
+            <parameter cpu="0" address="0x101856" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限手枪弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017F6" value="0x09"/>
+            <parameter cpu="0" address="0x1017F7" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限机关枪武器弹药" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101854" value="0x09"/>
+            <parameter cpu="0" address="0x101855" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc=" 不可毁灭的刀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101878" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

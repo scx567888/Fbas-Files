@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x341C75" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x120825" value="0x68"/>
+        </option>
+        <option desc="立即耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x120825" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大力量 PL1">
+            <parameter cpu="0" address="0x120829" value="0x3D"/>
+        </option>
+        <option desc="总是有最小力量 PL1">
+            <parameter cpu="0" address="0x120829" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x120BEB" value="0x68"/>
+        </option>
+        <option desc="立即耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x120BEB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大力量 PL2">
+            <parameter cpu="0" address="0x120BEF" value="0x3D"/>
+        </option>
+        <option desc="总是有最小力量 PL2">
+            <parameter cpu="0" address="0x120BEF" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

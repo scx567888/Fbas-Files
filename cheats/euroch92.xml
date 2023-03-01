@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x102929" value="0x3B"/>
+            <parameter cpu="0" address="0x10A440" value="0x63"/>
+            <parameter cpu="0" address="0x10A441" value="0x3C"/>
+        </option>
+        <option desc="立即结束游戏!">
+            <parameter cpu="0" address="0x102929" value="0x00"/>
+            <parameter cpu="0" address="0x10A440" value="0x00"/>
+            <parameter cpu="0" address="0x10A441" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x102A5B" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x102A5B" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x102A5B" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x102A5B" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x102A5B" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x102A5B" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x102A5B" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是 0 队组 1" default="0">
+        <option desc="关闭"/>
+        <option desc="得分总是 0 队组 1">
+            <parameter cpu="0" address="0x1078EC" value="0x00"/>
+            <parameter cpu="0" address="0x10A43E" value="0x00"/>
+        </option>
+        <option desc="得分总是 9 队组 1">
+            <parameter cpu="0" address="0x1078EC" value="0x09"/>
+            <parameter cpu="0" address="0x10A43E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是 0 队组 2" default="0">
+        <option desc="关闭"/>
+        <option desc="得分总是 0 队组 2">
+            <parameter cpu="0" address="0x107BEC" value="0x00"/>
+            <parameter cpu="0" address="0x10A43F" value="0x00"/>
+        </option>
+        <option desc="得分总是 9 队组 2">
+            <parameter cpu="0" address="0x107BEC" value="0x09"/>
+            <parameter cpu="0" address="0x10A43F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102935" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="犯规总是 = 0 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1033B7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102937" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="犯规总是 = 0 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1033F7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102939" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="犯规总是 = 0 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103437" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10293B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="犯规总是 = 0 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103477" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

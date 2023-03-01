@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间(在奖励关不要使用!)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间(在奖励关不要使用!)">
+            <parameter cpu="0" address="0x108406" value="0x99"/>
+        </option>
+        <option desc="完成比赛!">
+            <parameter cpu="0" address="0x108406" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限血量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量 PL1">
+            <parameter cpu="0" address="0x1092CD" value="0x60"/>
+        </option>
+        <option desc="红血 PL1">
+            <parameter cpu="0" address="0x1092CD" value="0x20"/>
+        </option>
+        <option desc="耗尽所有血量! PL1">
+            <parameter cpu="0" address="0x1092CD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0x1094A4" value="0x80"/>
+        </option>
+        <option desc="耗尽所有力量! PL1">
+            <parameter cpu="0" address="0x1094A4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Ryo Sakazaki">
+            <parameter cpu="0" address="0x1092C3" value="0x00"/>
+        </option>
+        <option desc="Robert Garcia">
+            <parameter cpu="0" address="0x1092C3" value="0x01"/>
+        </option>
+        <option desc="Ryuhaku Todo">
+            <parameter cpu="0" address="0x1092C3" value="0x02"/>
+        </option>
+        <option desc="Jack Turner">
+            <parameter cpu="0" address="0x1092C3" value="0x03"/>
+        </option>
+        <option desc="Lee Pai Long">
+            <parameter cpu="0" address="0x1092C3" value="0x04"/>
+        </option>
+        <option desc="King">
+            <parameter cpu="0" address="0x1092C3" value="0x05"/>
+        </option>
+        <option desc="Micky Rodgers">
+            <parameter cpu="0" address="0x1092C3" value="0x06"/>
+        </option>
+        <option desc="John Crawley">
+            <parameter cpu="0" address="0x1092C3" value="0x07"/>
+        </option>
+        <option desc="#Mr. Big">
+            <parameter cpu="0" address="0x1092C3" value="0x08"/>
+        </option>
+        <option desc="#Mr. Karate">
+            <parameter cpu="0" address="0x1092C3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Ryo Sakazaki PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Ryo Sakazaki PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Robert Garcia PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Todo Ryuhaku PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Jack Turner PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Lee Pai Long PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色King PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Micky Rogers PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色John Crawley PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Mr. Big PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Mr. Karate PL1">
+            <parameter cpu="0" address="0x109EC4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有赢盘数 = 0 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有赢盘数 = 0 PL1">
+            <parameter cpu="0" address="0x1090E7" value="0x00"/>
+        </option>
+        <option desc="总是有赢盘数 = 2 PL1">
+            <parameter cpu="0" address="0x1090E7" value="0x02"/>
+        </option>
+        <option desc="设置赢盘数 = 1 ! PL1">
+            <parameter cpu="0" address="0x1090E7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限血量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量 PL2">
+            <parameter cpu="0" address="0x1093CD" value="0x60"/>
+        </option>
+        <option desc="红血 PL2">
+            <parameter cpu="0" address="0x1093CD" value="0x20"/>
+        </option>
+        <option desc="耗尽所有血量! PL2">
+            <parameter cpu="0" address="0x1093CD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0x1095A4" value="0x80"/>
+        </option>
+        <option desc="耗尽所有力量! PL2">
+            <parameter cpu="0" address="0x1095A4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Ryo Sakazaki">
+            <parameter cpu="0" address="0x1093C3" value="0x00"/>
+        </option>
+        <option desc="Robert Garcia">
+            <parameter cpu="0" address="0x1093C3" value="0x01"/>
+        </option>
+        <option desc="Ryuhaku Todo">
+            <parameter cpu="0" address="0x1093C3" value="0x02"/>
+        </option>
+        <option desc="Jack Turner">
+            <parameter cpu="0" address="0x1093C3" value="0x03"/>
+        </option>
+        <option desc="Lee Pai Long">
+            <parameter cpu="0" address="0x1093C3" value="0x04"/>
+        </option>
+        <option desc="King">
+            <parameter cpu="0" address="0x1093C3" value="0x05"/>
+        </option>
+        <option desc="Micky Rodgers">
+            <parameter cpu="0" address="0x1093C3" value="0x06"/>
+        </option>
+        <option desc="John Crawley">
+            <parameter cpu="0" address="0x1093C3" value="0x07"/>
+        </option>
+        <option desc="#Mr. Big">
+            <parameter cpu="0" address="0x1093C3" value="0x08"/>
+        </option>
+        <option desc="#Mr. Karate">
+            <parameter cpu="0" address="0x1093C3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Ryo Sakazaki PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Ryo Sakazaki PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Robert Garcia PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Todo Ryuhaku PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Jack Turner PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Lee Pai Long PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色King PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Micky Rogers PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色John Crawley PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Mr. Big PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Mr. Karate PL2">
+            <parameter cpu="0" address="0x109EC6" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有赢盘数 = 0 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有赢盘数 = 0 PL2">
+            <parameter cpu="0" address="0x1091E7" value="0x00"/>
+        </option>
+        <option desc="总是有赢盘数 = 2 PL2">
+            <parameter cpu="0" address="0x1091E7" value="0x02"/>
+        </option>
+        <option desc="设置赢盘数 = 1 ! PL2">
+            <parameter cpu="0" address="0x1091E7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF900D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF6335" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF632F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF6357" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通枪 PL1">
+            <parameter cpu="0" address="0xF6351" value="0x01"/>
+        </option>
+        <option desc="总是 激光枪 PL1">
+            <parameter cpu="0" address="0xF6351" value="0x02"/>
+        </option>
+        <option desc="总是 散弹 PL1">
+            <parameter cpu="0" address="0xF6351" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF632D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有护盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF6035" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF602F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF6057" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通枪 PL2">
+            <parameter cpu="0" address="0xF6051" value="0x01"/>
+        </option>
+        <option desc="总是 激光枪 PL2">
+            <parameter cpu="0" address="0xF6051" value="0x02"/>
+        </option>
+        <option desc="总是 散弹 PL2">
+            <parameter cpu="0" address="0xF6051" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF602D" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

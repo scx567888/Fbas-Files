@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4BC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xAF" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="超级射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4E8" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="超级速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4E0" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="遥控车模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4A3" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

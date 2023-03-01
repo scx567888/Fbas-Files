@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20F040" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 1-1">
+            <parameter cpu="0" address="0x20800D" value="0x00"/>
+        </option>
+        <option desc="关卡 1-2">
+            <parameter cpu="0" address="0x20800D" value="0x01"/>
+        </option>
+        <option desc="关卡 2-1">
+            <parameter cpu="0" address="0x20800D" value="0x02"/>
+        </option>
+        <option desc="关卡 2-2">
+            <parameter cpu="0" address="0x20800D" value="0x03"/>
+        </option>
+        <option desc="关卡 2-3">
+            <parameter cpu="0" address="0x20800D" value="0x04"/>
+        </option>
+        <option desc="关卡 3-1">
+            <parameter cpu="0" address="0x20800D" value="0x05"/>
+        </option>
+        <option desc="关卡 3-2">
+            <parameter cpu="0" address="0x20800D" value="0x06"/>
+        </option>
+        <option desc="关卡 3-3">
+            <parameter cpu="0" address="0x20800D" value="0x07"/>
+        </option>
+        <option desc="关卡 3-4">
+            <parameter cpu="0" address="0x20800D" value="0x08"/>
+        </option>
+        <option desc="关卡 4-1">
+            <parameter cpu="0" address="0x20800D" value="0x09"/>
+        </option>
+        <option desc="关卡 4-2">
+            <parameter cpu="0" address="0x20800D" value="0x0A"/>
+        </option>
+        <option desc="关卡 4-3">
+            <parameter cpu="0" address="0x20800D" value="0x0B"/>
+        </option>
+        <option desc="关卡 4-4">
+            <parameter cpu="0" address="0x20800D" value="0x0C"/>
+        </option>
+        <option desc="关卡 4-5">
+            <parameter cpu="0" address="0x20800D" value="0x0D"/>
+        </option>
+        <option desc="关卡 4-6">
+            <parameter cpu="0" address="0x20800D" value="0x0E"/>
+        </option>
+        <option desc="关卡 4-7">
+            <parameter cpu="0" address="0x20800D" value="0x0F"/>
+        </option>
+        <option desc="关卡 5-1">
+            <parameter cpu="0" address="0x20800D" value="0x10"/>
+        </option>
+        <option desc="关卡 5-2">
+            <parameter cpu="0" address="0x20800D" value="0x11"/>
+        </option>
+        <option desc="关卡 5-3">
+            <parameter cpu="0" address="0x20800D" value="0x12"/>
+        </option>
+        <option desc="关卡 5-4">
+            <parameter cpu="0" address="0x20800D" value="0x13"/>
+        </option>
+        <option desc="关卡 5-5">
+            <parameter cpu="0" address="0x20800D" value="0x14"/>
+        </option>
+        <option desc="关卡 5-6">
+            <parameter cpu="0" address="0x20800D" value="0x15"/>
+        </option>
+        <option desc="关卡 5-7">
+            <parameter cpu="0" address="0x20800D" value="0x16"/>
+        </option>
+        <option desc="关卡 6-1">
+            <parameter cpu="0" address="0x20800D" value="0x17"/>
+        </option>
+        <option desc="关卡 6-2">
+            <parameter cpu="0" address="0x20800D" value="0x18"/>
+        </option>
+        <option desc="关卡 6-3">
+            <parameter cpu="0" address="0x20800D" value="0x19"/>
+        </option>
+        <option desc="关卡 6-4">
+            <parameter cpu="0" address="0x20800D" value="0x1A"/>
+        </option>
+        <option desc="关卡 6-5">
+            <parameter cpu="0" address="0x20800D" value="0x1B"/>
+        </option>
+        <option desc="关卡 6-6">
+            <parameter cpu="0" address="0x20800D" value="0x1C"/>
+        </option>
+        <option desc="关卡 6-7">
+            <parameter cpu="0" address="0x20800D" value="0x1D"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限命数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20F082" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200650" value="0x00"/>
+            <parameter cpu="0" address="0x200651" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2006A6" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限命数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20F084" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200AC8" value="0x00"/>
+            <parameter cpu="0" address="0x200AC9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200B1E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限命数 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20F086" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200F40" value="0x00"/>
+            <parameter cpu="0" address="0x200F41" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200F96" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限命数 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20F088" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2013B8" value="0x00"/>
+            <parameter cpu="0" address="0x2013B9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20140E" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

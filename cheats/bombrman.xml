@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0045" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA35A2" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA35A0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BAA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BAB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火焰长度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BAD" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大放置炸弹数量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BAF" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有正常炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有正常炸弹 PL1">
+            <parameter cpu="0" address="0xA0BB0" value="0x00"/>
+        </option>
+        <option desc="总是有手动炸弹 PL1">
+            <parameter cpu="0" address="0xA0BB0" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BBA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BBB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火焰长度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BBD" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大放置炸弹数量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA0BBF" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有正常炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有正常炸弹 PL2">
+            <parameter cpu="0" address="0xA0BC0" value="0x00"/>
+        </option>
+        <option desc="总是有手动炸弹 PL2">
+            <parameter cpu="0" address="0xA0BC0" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C004F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1C16A1" value="0x99"/>
+            <parameter cpu="0" address="0x1C16A3" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 第一角色" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 第一角色">
+            <parameter cpu="0" address="0x1C0617" value="0x6E"/>
+            <parameter cpu="0" address="0x1C061F" value="0x6E"/>
+        </option>
+        <option desc="立即耗尽所有的能量! 第一角色">
+            <parameter cpu="0" address="0x1C0617" value="0x00"/>
+            <parameter cpu="0" address="0x1C061F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Hulk Hogan 第一角色" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Hulk Hogan 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Ultimate 战士 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Jake Roberts 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Big Boss Man 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Hawk 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Animal 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Sgt Slaughter 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Mr. Perfect 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Earthquake 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Ted DiBiase 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Smash 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Crush 第一角色">
+            <parameter cpu="0" address="0x1C0607" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 第二角色" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 第二角色">
+            <parameter cpu="0" address="0x1C0723" value="0x6E"/>
+            <parameter cpu="0" address="0x1C072B" value="0x6E"/>
+        </option>
+        <option desc="立即耗尽所有的能量! 第二角色">
+            <parameter cpu="0" address="0x1C0723" value="0x00"/>
+            <parameter cpu="0" address="0x1C072B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Hulk Hogan 第二角色" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Hulk Hogan 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Ultimate 战士 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Jake Roberts 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Big Boss Man 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Hawk 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Animal 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Sgt Slaughter 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Mr. 完美第二Char">
+            <parameter cpu="0" address="0x1C0713" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Earthquake 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Ted DiBiase 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Smash 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Crush 第二角色">
+            <parameter cpu="0" address="0x1C0713" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 第三角色" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 第三角色">
+            <parameter cpu="0" address="0x1C082F" value="0x6E"/>
+            <parameter cpu="0" address="0x1C0837" value="0x6E"/>
+        </option>
+        <option desc="立即耗尽所有的能量! 第三角色">
+            <parameter cpu="0" address="0x1C082F" value="0x00"/>
+            <parameter cpu="0" address="0x1C0837" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Hulk Hogan 第三角色" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Hulk Hogan 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Ultimate 战士 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Jake Roberts 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Big Boss Man 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Hawk 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Animal 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Sgt Slaughter 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Mr. Perfect 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Earthquake 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Ted DiBiase 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Smash 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Crush 第三角色">
+            <parameter cpu="0" address="0x1C081F" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 第四角色" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 第四角色">
+            <parameter cpu="0" address="0x1C093B" value="0x6E"/>
+            <parameter cpu="0" address="0x1C0942" value="0x6E"/>
+        </option>
+        <option desc="立即耗尽所有的能量! 第四角色">
+            <parameter cpu="0" address="0x1C093B" value="0x00"/>
+            <parameter cpu="0" address="0x1C0942" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Hulk Hogan 第四角色" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Hulk Hogan 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色 Ultimate 战士 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Jake Roberts 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Big Boss Man 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Hawk 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Animal 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Sgt Slaughter 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Mr. Perfect 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Earthquake 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Ted DiBiase 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Smash 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Crush 第四角色">
+            <parameter cpu="0" address="0x1C092B" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

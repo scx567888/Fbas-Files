@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E0" value="0x01"/>
+            <parameter cpu="0" address="0xFF88E1" value="0x29"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8D67" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8D77" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是飞行在最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8894" value="0xFF"/>
+            <parameter cpu="0" address="0xFF8D79" value="0x3F"/>
+            <parameter cpu="0" address="0xFF8D7C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="死亡画面快速结束" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9125" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF884D" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE593" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE477" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE479" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="正确答案 - 答案 1" default="0">
+        <option desc="关闭"/>
+        <option desc="正确答案 - 答案 1">
+            <parameter cpu="0" address="0xFFE004" value="0x00"/>
+        </option>
+        <option desc="正确答案 - 答案 2">
+            <parameter cpu="0" address="0xFFE004" value="0x01"/>
+        </option>
+        <option desc="正确答案 - 答案 3">
+            <parameter cpu="0" address="0xFFE004" value="0x02"/>
+        </option>
+        <option desc="正确答案 - 答案 4">
+            <parameter cpu="0" address="0xFFE004" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="立即正确答案结束问答!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE965" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="结束问答 1" default="0">
+        <option desc="关闭"/>
+        <option desc="结束问答 1">
+            <parameter cpu="0" address="0xFFE026" value="0x0A"/>
+        </option>
+        <option desc="结束问答 2-1">
+            <parameter cpu="0" address="0xFFE026" value="0x12"/>
+        </option>
+        <option desc="结束问答 2-2">
+            <parameter cpu="0" address="0xFFE026" value="0x20"/>
+        </option>
+        <option desc="结束问答 3">
+            <parameter cpu="0" address="0xFFE026" value="0x2A"/>
+        </option>
+        <option desc="结束问答 4">
+            <parameter cpu="0" address="0xFFE026" value="0x13"/>
+        </option>
+        <option desc="结束问答 5-1">
+            <parameter cpu="0" address="0xFFE026" value="0x1A"/>
+        </option>
+        <option desc="结束问答 7">
+            <parameter cpu="0" address="0xFFE026" value="0x22"/>
+        </option>
+    </cheat>
+    <cheat desc="得到 捷径 !" default="0">
+        <option desc="关闭"/>
+        <option desc="得到 捷径 !">
+            <parameter cpu="0" address="0xFFE967" value="0x01"/>
+        </option>
+        <option desc="得到 魔法卷轴!">
+            <parameter cpu="0" address="0xFFE967" value="0x02"/>
+        </option>
+        <option desc="得到 魔法棒 !">
+            <parameter cpu="0" address="0xFFE967" value="0x03"/>
+        </option>
+        <option desc="得到 魔法剑 !">
+            <parameter cpu="0" address="0xFFE967" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="问答目录 - 艺术" default="0">
+        <option desc="关闭"/>
+        <option desc="问答目录 - 艺术">
+            <parameter cpu="0" address="0xFF7FC1" value="0x00"/>
+        </option>
+        <option desc="问答目录 - 书籍">
+            <parameter cpu="0" address="0xFF7FC1" value="0x01"/>
+        </option>
+        <option desc="问答目录 - 娱乐">
+            <parameter cpu="0" address="0xFF7FC1" value="0x02"/>
+        </option>
+        <option desc="问答目录 - 食物和饮料">
+            <parameter cpu="0" address="0xFF7FC1" value="0x03"/>
+        </option>
+        <option desc="问答目录 - 地理">
+            <parameter cpu="0" address="0xFF7FC1" value="0x04"/>
+        </option>
+        <option desc="问答目录 - 健康">
+            <parameter cpu="0" address="0xFF7FC1" value="0x05"/>
+        </option>
+        <option desc="问答目录 - 历史">
+            <parameter cpu="0" address="0xFF7FC1" value="0x06"/>
+        </option>
+        <option desc="问答目录 - Pot pourri">
+            <parameter cpu="0" address="0xFF7FC1" value="0x07"/>
+        </option>
+        <option desc="问答目录 - 电影">
+            <parameter cpu="0" address="0xFF7FC1" value="0x08"/>
+        </option>
+        <option desc="问答目录 - 音乐">
+            <parameter cpu="0" address="0xFF7FC1" value="0x09"/>
+        </option>
+        <option desc="问答目录 - 神话">
+            <parameter cpu="0" address="0xFF7FC1" value="0x0A"/>
+        </option>
+        <option desc="问答目录 - 科学">
+            <parameter cpu="0" address="0xFF7FC1" value="0x0B"/>
+        </option>
+        <option desc="问答目录 - 运动">
+            <parameter cpu="0" address="0xFF7FC1" value="0x0C"/>
+        </option>
+        <option desc="问答目录 - 电视">
+            <parameter cpu="0" address="0xFF7FC1" value="0x0D"/>
+        </option>
+        <option desc="问答目录 - 其他">
+            <parameter cpu="0" address="0xFF7FC1" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="关卡选择 - 关卡 1" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡选择 - 关卡 1">
+            <parameter cpu="0" address="0xFFE024" value="0x00"/>
+        </option>
+        <option desc="关卡选择 - 关卡 2A">
+            <parameter cpu="0" address="0xFFE024" value="0x01"/>
+        </option>
+        <option desc="关卡选择 - 关卡 2B">
+            <parameter cpu="0" address="0xFFE024" value="0x02"/>
+        </option>
+        <option desc="关卡选择 - 关卡 3">
+            <parameter cpu="0" address="0xFFE024" value="0x03"/>
+        </option>
+        <option desc="关卡选择 - 关卡 4">
+            <parameter cpu="0" address="0xFFE024" value="0x04"/>
+        </option>
+        <option desc="关卡选择 - 关卡 5A">
+            <parameter cpu="0" address="0xFFE024" value="0x05"/>
+        </option>
+        <option desc="关卡选择 - 关卡 5B">
+            <parameter cpu="0" address="0xFFE024" value="0x06"/>
+        </option>
+        <option desc="关卡选择 - 关卡 6">
+            <parameter cpu="0" address="0xFFE024" value="0x07"/>
+        </option>
+        <option desc="关卡选择 - 关卡 7">
+            <parameter cpu="0" address="0xFFE024" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - 战士 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - 战士 PL1">
+            <parameter cpu="0" address="0xFFE235" value="0x00"/>
+        </option>
+        <option desc="角色选择 - 巫师 PL1">
+            <parameter cpu="0" address="0xFFE235" value="0x01"/>
+        </option>
+        <option desc="角色选择 - 亚马逊战士 PL1">
+            <parameter cpu="0" address="0xFFE235" value="0x02"/>
+        </option>
+        <option desc="角色选择 - 忍者 PL1">
+            <parameter cpu="0" address="0xFFE235" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - 战士 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - 战士 PL2">
+            <parameter cpu="0" address="0xFFE237" value="0x00"/>
+        </option>
+        <option desc="角色选择 - 巫师 PL2">
+            <parameter cpu="0" address="0xFFE237" value="0x01"/>
+        </option>
+        <option desc="角色选择 - 亚马逊战士 PL2">
+            <parameter cpu="0" address="0xFFE237" value="0x02"/>
+        </option>
+        <option desc="角色选择 - 忍者 PL2">
+            <parameter cpu="0" address="0xFFE237" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

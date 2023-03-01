@@ -3,6 +3,8 @@
 * cheats : 收集的一些 Fbas 模拟器的 作弊码(金手指)
     - 如发现 BUG (失效或错误) 请提交 issues
 
+* config : 配置文件 (个人用)
+
 * ips : 收集的一些 Fbas 模拟器的 IPS 补丁
     - 所有版权归 IPS 作者所有
     - 如发现有侵害作者权益的 IPS 请创建一个 issues

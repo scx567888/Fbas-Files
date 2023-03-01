@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x409D" value="0x01"/>
+            <parameter cpu="0" address="0x409E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4234" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限停靠时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4230" value="0x09"/>
+            <parameter cpu="0" address="0x4231" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有实际大小船体" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4140" value="0x01"/>
+            <parameter cpu="0" address="0x4143" value="0xC2"/>
+            <parameter cpu="0" address="0x4145" value="0x01"/>
+            <parameter cpu="0" address="0x4148" value="0xC8"/>
+            <parameter cpu="0" address="0x414A" value="0x01"/>
+            <parameter cpu="0" address="0x414D" value="0xD8"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x423C" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

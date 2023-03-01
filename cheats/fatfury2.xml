@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x10092A" value="0x99"/>
+        </option>
+        <option desc="过关!">
+            <parameter cpu="0" address="0x10092A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x1003CB" value="0x60"/>
+        </option>
+        <option desc="红血 PL1">
+            <parameter cpu="0" address="0x1003CB" value="0x18"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x1003CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择BOSS角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="比利 PL1">
+            <parameter cpu="0" address="0x102693" value="0x09"/>
+        </option>
+        <option desc="霍克 PL1">
+            <parameter cpu="0" address="0x102693" value="0x0A"/>
+        </option>
+        <option desc="劳伦斯 PL1">
+            <parameter cpu="0" address="0x102693" value="0x0B"/>
+        </option>
+        <option desc="克劳撒 PL1">
+            <parameter cpu="0" address="0x102693" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x1004CB" value="0x60"/>
+        </option>
+        <option desc="红血 PL2">
+            <parameter cpu="0" address="0x1004CB" value="0x18"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x1004CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择BOSS角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="比利 PL2">
+            <parameter cpu="0" address="0x102793" value="0x09"/>
+        </option>
+        <option desc="霍克 PL2">
+            <parameter cpu="0" address="0x102793" value="0x0A"/>
+        </option>
+        <option desc="劳伦斯 PL2">
+            <parameter cpu="0" address="0x102793" value="0x0B"/>
+        </option>
+        <option desc="克劳撒 PL2">
+            <parameter cpu="0" address="0x102793" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="DIP = Boss代码" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E000" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="U.S.A.(Terry)">
+            <parameter cpu="0" address="0x10AAD5" value="0x01"/>
+        </option>
+        <option desc="Italy(Andy)">
+            <parameter cpu="0" address="0x10AAD5" value="0x02"/>
+        </option>
+        <option desc="Thailand(Joe)">
+            <parameter cpu="0" address="0x10AAD5" value="0x03"/>
+        </option>
+        <option desc="Australia(Bear)">
+            <parameter cpu="0" address="0x10AAD5" value="0x04"/>
+        </option>
+        <option desc="Japan(Jubei)">
+            <parameter cpu="0" address="0x10AAD5" value="0x05"/>
+        </option>
+        <option desc="Hong Kong(Cheng)">
+            <parameter cpu="0" address="0x10AAD5" value="0x06"/>
+        </option>
+        <option desc="Korea(Kim)">
+            <parameter cpu="0" address="0x10AAD5" value="0x07"/>
+        </option>
+        <option desc="Japan(Mai)">
+            <parameter cpu="0" address="0x10AAD5" value="0x08"/>
+        </option>
+        <option desc="Great Britain(Billy)">
+            <parameter cpu="0" address="0x10AAD5" value="0x09"/>
+        </option>
+        <option desc="U.S.A.(Axel)">
+            <parameter cpu="0" address="0x10AAD5" value="0x0A"/>
+        </option>
+        <option desc="Spain(Laurence)">
+            <parameter cpu="0" address="0x10AAD5" value="0x0B"/>
+        </option>
+        <option desc="Germany(Krauser)">
+            <parameter cpu="0" address="0x10AAD5" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="快速动作 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100377" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100477" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出Power Geyser PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Power Geyser PL1">
+            <parameter cpu="0" address="0x10AB37" value="0x06"/>
+            <parameter cpu="0" address="0x10AB39" value="0x24"/>
+            <parameter cpu="0" address="0x10AB3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Cho Reppadan PL1">
+            <parameter cpu="0" address="0x10AB37" value="0x05"/>
+            <parameter cpu="0" address="0x10AB39" value="0x18"/>
+            <parameter cpu="0" address="0x10AB3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Screw Upper PL1">
+            <parameter cpu="0" address="0x10AB37" value="0x05"/>
+            <parameter cpu="0" address="0x10AB39" value="0x24"/>
+            <parameter cpu="0" address="0x10AB3B" value="0x08"/>
+        </option>
+        <option desc="容易使出HoohKyaku PL1">
+            <parameter cpu="0" address="0x10AB37" value="0x07"/>
+            <parameter cpu="0" address="0x10AB39" value="0x24"/>
+            <parameter cpu="0" address="0x10AB3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Dynamite IzunaOtoshi PL1">
+            <parameter cpu="0" address="0x10AB37" value="0x06"/>
+            <parameter cpu="0" address="0x10AB39" value="0x12"/>
+            <parameter cpu="0" address="0x10AB3B" value="0x08"/>
+        </option>
+        <option desc="容易使出ChoHissatsu ShinobiBachi PL1">
+            <parameter cpu="0" address="0x10AB37" value="0x09"/>
+            <parameter cpu="0" address="0x10AB39" value="0x18"/>
+            <parameter cpu="0" address="0x10AB3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Fire Breath PL1">
+            <parameter cpu="0" address="0x10AB37" value="0x08"/>
+            <parameter cpu="0" address="0x10AB39" value="0x24"/>
+            <parameter cpu="0" address="0x10AB3B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出Power Wave PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Power Wave PL1">
+            <parameter cpu="0" address="0x10AB2B" value="0x02"/>
+            <parameter cpu="0" address="0x10AB2D" value="0x12"/>
+            <parameter cpu="0" address="0x10AB2F" value="0x08"/>
+            <parameter cpu="0" address="0x10AB31" value="0x02"/>
+            <parameter cpu="0" address="0x10AB33" value="0x12"/>
+            <parameter cpu="0" address="0x10AB35" value="0x08"/>
+        </option>
+        <option desc="容易使出HishoKen PL1">
+            <parameter cpu="0" address="0x10AB2B" value="0x03"/>
+            <parameter cpu="0" address="0x10AB2D" value="0x12"/>
+            <parameter cpu="0" address="0x10AB2F" value="0x08"/>
+            <parameter cpu="0" address="0x10AB31" value="0x03"/>
+            <parameter cpu="0" address="0x10AB33" value="0x12"/>
+            <parameter cpu="0" address="0x10AB35" value="0x08"/>
+        </option>
+        <option desc="容易使出Hurricane Upper PL1">
+            <parameter cpu="0" address="0x10AB2B" value="0x02"/>
+            <parameter cpu="0" address="0x10AB2D" value="0x1E"/>
+            <parameter cpu="0" address="0x10AB2F" value="0x08"/>
+            <parameter cpu="0" address="0x10AB31" value="0x02"/>
+            <parameter cpu="0" address="0x10AB33" value="0x1E"/>
+            <parameter cpu="0" address="0x10AB35" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出Burn Knuckle PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Burn Knuckle PL1">
+            <parameter cpu="0" address="0x10AB07" value="0x02"/>
+            <parameter cpu="0" address="0x10AB09" value="0x12"/>
+            <parameter cpu="0" address="0x10AB0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AB0D" value="0x06"/>
+            <parameter cpu="0" address="0x10AB0F" value="0x12"/>
+            <parameter cpu="0" address="0x10AB11" value="0x08"/>
+        </option>
+        <option desc="容易使出ZaneiKen PL1">
+            <parameter cpu="0" address="0x10AB07" value="0x02"/>
+            <parameter cpu="0" address="0x10AB09" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AB0D" value="0x02"/>
+            <parameter cpu="0" address="0x10AB0F" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB11" value="0x08"/>
+        </option>
+        <option desc="容易使出HienZan PL1">
+            <parameter cpu="0" address="0x10AB07" value="0x09"/>
+            <parameter cpu="0" address="0x10AB09" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AB0D" value="0x09"/>
+            <parameter cpu="0" address="0x10AB0F" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB11" value="0x08"/>
+        </option>
+        <option desc="容易使出Ryuembu PL1">
+            <parameter cpu="0" address="0x10AB07" value="0x02"/>
+            <parameter cpu="0" address="0x10AB09" value="0x12"/>
+            <parameter cpu="0" address="0x10AB0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AB0D" value="0x02"/>
+            <parameter cpu="0" address="0x10AB0F" value="0x12"/>
+            <parameter cpu="0" address="0x10AB11" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出Rising Tackle PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Rising Tackle PL1">
+            <parameter cpu="0" address="0x10AB13" value="0x06"/>
+            <parameter cpu="0" address="0x10AB15" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB17" value="0x08"/>
+            <parameter cpu="0" address="0x10AB19" value="0x06"/>
+            <parameter cpu="0" address="0x10AB1B" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB1D" value="0x08"/>
+        </option>
+        <option desc="容易使出KuhaDan PL1">
+            <parameter cpu="0" address="0x10AB13" value="0x09"/>
+            <parameter cpu="0" address="0x10AB15" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB17" value="0x08"/>
+            <parameter cpu="0" address="0x10AB19" value="0x09"/>
+            <parameter cpu="0" address="0x10AB1B" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB1D" value="0x08"/>
+        </option>
+        <option desc="容易使出HangetsuZan PL1">
+            <parameter cpu="0" address="0x10AB13" value="0x03"/>
+            <parameter cpu="0" address="0x10AB15" value="0x12"/>
+            <parameter cpu="0" address="0x10AB17" value="0x08"/>
+            <parameter cpu="0" address="0x10AB19" value="0x03"/>
+            <parameter cpu="0" address="0x10AB1B" value="0x12"/>
+            <parameter cpu="0" address="0x10AB1D" value="0x08"/>
+        </option>
+        <option desc="容易使出IzunaOtoshi PL1">
+            <parameter cpu="0" address="0x10AB13" value="0x08"/>
+            <parameter cpu="0" address="0x10AB15" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB17" value="0x08"/>
+            <parameter cpu="0" address="0x10AB19" value="0x08"/>
+            <parameter cpu="0" address="0x10AB1B" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB1D" value="0x08"/>
+        </option>
+        <option desc="容易使出Hissatsu ShinobiBachi PL1">
+            <parameter cpu="0" address="0x10AB13" value="0x03"/>
+            <parameter cpu="0" address="0x10AB15" value="0x1E"/>
+            <parameter cpu="0" address="0x10AB17" value="0x08"/>
+            <parameter cpu="0" address="0x10AB19" value="0x03"/>
+            <parameter cpu="0" address="0x10AB1B" value="0x1E"/>
+            <parameter cpu="0" address="0x10AB1D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出ShoryuDan PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出ShoryuDan PL1">
+            <parameter cpu="0" address="0x10AB1F" value="0x02"/>
+            <parameter cpu="0" address="0x10AB21" value="0x12"/>
+            <parameter cpu="0" address="0x10AB23" value="0x08"/>
+            <parameter cpu="0" address="0x10AB25" value="0x02"/>
+            <parameter cpu="0" address="0x10AB27" value="0x12"/>
+            <parameter cpu="0" address="0x10AB29" value="0x08"/>
+        </option>
+        <option desc="容易使出Sembei Shuriken PL1">
+            <parameter cpu="0" address="0x10AB1F" value="0x02"/>
+            <parameter cpu="0" address="0x10AB21" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB23" value="0x08"/>
+            <parameter cpu="0" address="0x10AB25" value="0x02"/>
+            <parameter cpu="0" address="0x10AB27" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB29" value="0x08"/>
+        </option>
+        <option desc="容易使出HaganGeki PL1">
+            <parameter cpu="0" address="0x10AB1F" value="0x03"/>
+            <parameter cpu="0" address="0x10AB21" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB23" value="0x08"/>
+            <parameter cpu="0" address="0x10AB25" value="0x03"/>
+            <parameter cpu="0" address="0x10AB27" value="0x0C"/>
+            <parameter cpu="0" address="0x10AB29" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="容易使出Power Geyser PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Power Geyser PL2">
+            <parameter cpu="0" address="0x10AC37" value="0x06"/>
+            <parameter cpu="0" address="0x10AC39" value="0x24"/>
+            <parameter cpu="0" address="0x10AC3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Cho Reppadan PL2">
+            <parameter cpu="0" address="0x10AC37" value="0x05"/>
+            <parameter cpu="0" address="0x10AC39" value="0x18"/>
+            <parameter cpu="0" address="0x10AC3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Screw Upper PL2">
+            <parameter cpu="0" address="0x10AC37" value="0x05"/>
+            <parameter cpu="0" address="0x10AC39" value="0x24"/>
+            <parameter cpu="0" address="0x10AC3B" value="0x08"/>
+        </option>
+        <option desc="容易使出HoohKyaku PL2">
+            <parameter cpu="0" address="0x10AC37" value="0x07"/>
+            <parameter cpu="0" address="0x10AC39" value="0x24"/>
+            <parameter cpu="0" address="0x10AC3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Dynamite IzunaOtoshi PL2">
+            <parameter cpu="0" address="0x10AC37" value="0x06"/>
+            <parameter cpu="0" address="0x10AC39" value="0x12"/>
+            <parameter cpu="0" address="0x10AC3B" value="0x08"/>
+        </option>
+        <option desc="容易使出ChoHissatsu ShinobiBachi PL2">
+            <parameter cpu="0" address="0x10AC37" value="0x09"/>
+            <parameter cpu="0" address="0x10AC39" value="0x18"/>
+            <parameter cpu="0" address="0x10AC3B" value="0x08"/>
+        </option>
+        <option desc="容易使出Fire Breath PL2">
+            <parameter cpu="0" address="0x10AC37" value="0x08"/>
+            <parameter cpu="0" address="0x10AC39" value="0x24"/>
+            <parameter cpu="0" address="0x10AC3B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出Power Wave PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Power Wave PL2">
+            <parameter cpu="0" address="0x10AC2B" value="0x02"/>
+            <parameter cpu="0" address="0x10AC2D" value="0x12"/>
+            <parameter cpu="0" address="0x10AC2F" value="0x08"/>
+            <parameter cpu="0" address="0x10AC31" value="0x02"/>
+            <parameter cpu="0" address="0x10AC33" value="0x12"/>
+            <parameter cpu="0" address="0x10AC35" value="0x08"/>
+        </option>
+        <option desc="容易使出HishoKen PL2">
+            <parameter cpu="0" address="0x10AC2B" value="0x03"/>
+            <parameter cpu="0" address="0x10AC2D" value="0x12"/>
+            <parameter cpu="0" address="0x10AC2F" value="0x08"/>
+            <parameter cpu="0" address="0x10AC31" value="0x03"/>
+            <parameter cpu="0" address="0x10AC33" value="0x12"/>
+            <parameter cpu="0" address="0x10AC35" value="0x08"/>
+        </option>
+        <option desc="容易使出Hurricane Upper PL2">
+            <parameter cpu="0" address="0x10AC2B" value="0x02"/>
+            <parameter cpu="0" address="0x10AC2D" value="0x1E"/>
+            <parameter cpu="0" address="0x10AC2F" value="0x08"/>
+            <parameter cpu="0" address="0x10AC31" value="0x02"/>
+            <parameter cpu="0" address="0x10AC33" value="0x1E"/>
+            <parameter cpu="0" address="0x10AC35" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出Burn Knuckle PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Burn Knuckle PL2">
+            <parameter cpu="0" address="0x10AC07" value="0x02"/>
+            <parameter cpu="0" address="0x10AC09" value="0x12"/>
+            <parameter cpu="0" address="0x10AC0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AC0D" value="0x06"/>
+            <parameter cpu="0" address="0x10AC0F" value="0x12"/>
+            <parameter cpu="0" address="0x10AC11" value="0x08"/>
+        </option>
+        <option desc="容易使出ZaneiKen PL2">
+            <parameter cpu="0" address="0x10AC07" value="0x02"/>
+            <parameter cpu="0" address="0x10AC09" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AC0D" value="0x02"/>
+            <parameter cpu="0" address="0x10AC0F" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC11" value="0x08"/>
+        </option>
+        <option desc="容易使出HienZan PL2">
+            <parameter cpu="0" address="0x10AC07" value="0x09"/>
+            <parameter cpu="0" address="0x10AC09" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AC0D" value="0x09"/>
+            <parameter cpu="0" address="0x10AC0F" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC11" value="0x08"/>
+        </option>
+        <option desc="容易使出Ryuembu PL2">
+            <parameter cpu="0" address="0x10AC07" value="0x02"/>
+            <parameter cpu="0" address="0x10AC09" value="0x12"/>
+            <parameter cpu="0" address="0x10AC0B" value="0x08"/>
+            <parameter cpu="0" address="0x10AC0D" value="0x02"/>
+            <parameter cpu="0" address="0x10AC0F" value="0x12"/>
+            <parameter cpu="0" address="0x10AC11" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出Rising Tackle PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出Rising Tackle PL2">
+            <parameter cpu="0" address="0x10AC13" value="0x06"/>
+            <parameter cpu="0" address="0x10AC15" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC17" value="0x08"/>
+            <parameter cpu="0" address="0x10AC19" value="0x06"/>
+            <parameter cpu="0" address="0x10AC1B" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC1D" value="0x08"/>
+        </option>
+        <option desc="容易使出KuhaDan PL2">
+            <parameter cpu="0" address="0x10AC13" value="0x09"/>
+            <parameter cpu="0" address="0x10AC15" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC17" value="0x08"/>
+            <parameter cpu="0" address="0x10AC19" value="0x09"/>
+            <parameter cpu="0" address="0x10AC1B" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC1D" value="0x08"/>
+        </option>
+        <option desc="容易使出HangetsuZan PL2">
+            <parameter cpu="0" address="0x10AC13" value="0x03"/>
+            <parameter cpu="0" address="0x10AC15" value="0x12"/>
+            <parameter cpu="0" address="0x10AC17" value="0x08"/>
+            <parameter cpu="0" address="0x10AC19" value="0x03"/>
+            <parameter cpu="0" address="0x10AC1B" value="0x12"/>
+            <parameter cpu="0" address="0x10AC1D" value="0x08"/>
+        </option>
+        <option desc="容易使出IzunaOtoshi PL2">
+            <parameter cpu="0" address="0x10AC13" value="0x08"/>
+            <parameter cpu="0" address="0x10AC15" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC17" value="0x08"/>
+            <parameter cpu="0" address="0x10AC19" value="0x08"/>
+            <parameter cpu="0" address="0x10AC1B" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC1D" value="0x08"/>
+        </option>
+        <option desc="容易使出Hissatsu ShinobiBachi PL2">
+            <parameter cpu="0" address="0x10AC13" value="0x03"/>
+            <parameter cpu="0" address="0x10AC15" value="0x1E"/>
+            <parameter cpu="0" address="0x10AC17" value="0x08"/>
+            <parameter cpu="0" address="0x10AC19" value="0x03"/>
+            <parameter cpu="0" address="0x10AC1B" value="0x1E"/>
+            <parameter cpu="0" address="0x10AC1D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出ShoryuDan PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="容易使出ShoryuDan PL2">
+            <parameter cpu="0" address="0x10AC1F" value="0x02"/>
+            <parameter cpu="0" address="0x10AC21" value="0x12"/>
+            <parameter cpu="0" address="0x10AC23" value="0x08"/>
+            <parameter cpu="0" address="0x10AC25" value="0x02"/>
+            <parameter cpu="0" address="0x10AC27" value="0x12"/>
+            <parameter cpu="0" address="0x10AC29" value="0x08"/>
+        </option>
+        <option desc="容易使出Sembei Shuriken PL2">
+            <parameter cpu="0" address="0x10AC1F" value="0x02"/>
+            <parameter cpu="0" address="0x10AC21" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC23" value="0x08"/>
+            <parameter cpu="0" address="0x10AC25" value="0x02"/>
+            <parameter cpu="0" address="0x10AC27" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC29" value="0x08"/>
+        </option>
+        <option desc="容易使出HaganGeki PL2">
+            <parameter cpu="0" address="0x10AC1F" value="0x03"/>
+            <parameter cpu="0" address="0x10AC21" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC23" value="0x08"/>
+            <parameter cpu="0" address="0x10AC25" value="0x03"/>
+            <parameter cpu="0" address="0x10AC27" value="0x0C"/>
+            <parameter cpu="0" address="0x10AC29" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

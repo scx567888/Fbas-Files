@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限购物时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE1D2" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9035" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限金钱 PL1">
+            <parameter cpu="0" address="0xFFE192" value="0x99"/>
+            <parameter cpu="0" address="0xFFE193" value="0x99"/>
+            <parameter cpu="0" address="0xFFE194" value="0x99"/>
+        </option>
+        <option desc="还原金钱! PL1">
+            <parameter cpu="0" address="0xFFE192" value="0x01"/>
+            <parameter cpu="0" address="0xFFE193" value="0x01"/>
+            <parameter cpu="0" address="0xFFE194" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是激光 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x00"/>
+        </option>
+        <option desc="总是光刃 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x02"/>
+        </option>
+        <option desc="总是导弹 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x04"/>
+        </option>
+        <option desc="总是双炮 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x06"/>
+        </option>
+        <option desc="总是凝固汽油弹 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x08"/>
+        </option>
+        <option desc="总是V形炮 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x0A"/>
+        </option>
+        <option desc="总是火焰 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x0C"/>
+        </option>
+        <option desc="总是多向 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x0E"/>
+        </option>
+        <option desc="总是圆盘射击 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x10"/>
+        </option>
+        <option desc="总是加粗激光 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x12"/>
+        </option>
+        <option desc="总是跟踪激光 PL1">
+            <parameter cpu="0" address="0xFFCEE2" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF18" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="装备防护 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB376" value="0x02"/>
+            <parameter cpu="0" address="0xFFB384" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="装备复苏药剂 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB387" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大推进器等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB379" value="0x04"/>
+            <parameter cpu="0" address="0xFFB38E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大飞行速度等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE2AF" value="0x08"/>
+            <parameter cpu="0" address="0xFFE530" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9055" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限金钱 PL2">
+            <parameter cpu="0" address="0xFFE196" value="0x99"/>
+            <parameter cpu="0" address="0xFFE197" value="0x99"/>
+            <parameter cpu="0" address="0xFFE198" value="0x99"/>
+        </option>
+        <option desc="还原金钱! PL2">
+            <parameter cpu="0" address="0xFFE196" value="0x01"/>
+            <parameter cpu="0" address="0xFFE197" value="0x01"/>
+            <parameter cpu="0" address="0xFFE198" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是激光 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x00"/>
+        </option>
+        <option desc="总是光刃 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x02"/>
+        </option>
+        <option desc="总是导弹 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x04"/>
+        </option>
+        <option desc="总是双炮 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x06"/>
+        </option>
+        <option desc="总是凝固汽油弹 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x08"/>
+        </option>
+        <option desc="总是V形炮 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x0A"/>
+        </option>
+        <option desc="总是火焰 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x0C"/>
+        </option>
+        <option desc="总是多向 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x0E"/>
+        </option>
+        <option desc="总是圆盘射击 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x10"/>
+        </option>
+        <option desc="总是加粗激光 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x12"/>
+        </option>
+        <option desc="总是跟踪激光 PL2">
+            <parameter cpu="0" address="0xFFCF32" value="0x01"/>
+            <parameter cpu="0" address="0xFFCF68" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="装备防护 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB3C6" value="0x02"/>
+            <parameter cpu="0" address="0xFFB3D4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="装备复苏药剂 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB3D7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大推进器等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB3C9" value="0x04"/>
+            <parameter cpu="0" address="0xFFB3DE" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关" default="0">
+        <option desc="关闭"/>
+        <option desc="开局在关卡 2">
+            <parameter cpu="0" address="0xFFB2B2" value="0x01"/>
+        </option>
+        <option desc="开局在关卡 3">
+            <parameter cpu="0" address="0xFFB2B2" value="0x02"/>
+        </option>
+        <option desc="开局在关卡 4">
+            <parameter cpu="0" address="0xFFB2B2" value="0x03"/>
+        </option>
+        <option desc="开局在关卡 5">
+            <parameter cpu="0" address="0xFFB2B2" value="0x04"/>
+        </option>
+        <option desc="开局在关卡 6">
+            <parameter cpu="0" address="0xFFB2B2" value="0x05"/>
+        </option>
+        <option desc="开局在关卡 7">
+            <parameter cpu="0" address="0xFFB2B2" value="0x06"/>
+        </option>
+        <option desc="开局在关卡 8">
+            <parameter cpu="0" address="0xFFB2B2" value="0x07"/>
+        </option>
+        <option desc="开局在关卡 9">
+            <parameter cpu="0" address="0xFFB2B2" value="0x08"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xFFB2B2" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

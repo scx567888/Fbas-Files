@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择隐藏的飞机" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A6A7" value="0xFF"/>
+        </option>
+        <option desc="禁用">
+            <parameter cpu="0" address="0x10A6A7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有10000分奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109CB8" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最简单的排名" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C9D2" value="0x00"/>
+            <parameter cpu="0" address="0x10C9D3" value="0xF0"/>
+            <parameter cpu="0" address="0x10C9D4" value="0x00"/>
+            <parameter cpu="0" address="0x10C9D5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101686" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101682" value="0x04"/>
+            <parameter cpu="0" address="0x101684" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101688" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101680" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10177E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10177A" value="0x04"/>
+            <parameter cpu="0" address="0x10177C" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101780" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101778" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

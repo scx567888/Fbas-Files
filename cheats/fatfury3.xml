@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x105680" value="0x9A"/>
+        </option>
+        <option desc="过关!">
+            <parameter cpu="0" address="0x105680" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是容易使出超必杀技" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E001" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x100489" value="0x78"/>
+        </option>
+        <option desc="红血 PL1">
+            <parameter cpu="0" address="0x100489" value="0x18"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x100489" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="特瑞 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x01"/>
+        </option>
+        <option desc="安迪 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x02"/>
+        </option>
+        <option desc="东丈 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x03"/>
+        </option>
+        <option desc="不知火舞 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x04"/>
+        </option>
+        <option desc="基斯 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x05"/>
+        </option>
+        <option desc="望月双角 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x06"/>
+        </option>
+        <option desc="鲍勃 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x07"/>
+        </option>
+        <option desc="红虎 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x08"/>
+        </option>
+        <option desc="玛莉 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x09"/>
+        </option>
+        <option desc="巴斯 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0A"/>
+        </option>
+        <option desc="山崎龙二 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0B"/>
+        </option>
+        <option desc="秦崇雷 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0C"/>
+        </option>
+        <option desc="秦崇秀 PL1">
+            <parameter cpu="0" address="0x10561D" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x100589" value="0x78"/>
+        </option>
+        <option desc="红血 PL2">
+            <parameter cpu="0" address="0x100589" value="0x18"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x100589" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="特瑞 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x01"/>
+        </option>
+        <option desc="安迪 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x02"/>
+        </option>
+        <option desc="东丈 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x03"/>
+        </option>
+        <option desc="不知火舞 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x04"/>
+        </option>
+        <option desc="基斯 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x05"/>
+        </option>
+        <option desc="望月双角 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x06"/>
+        </option>
+        <option desc="鲍勃 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x07"/>
+        </option>
+        <option desc="红虎 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x08"/>
+        </option>
+        <option desc="玛莉 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x09"/>
+        </option>
+        <option desc="巴斯 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0A"/>
+        </option>
+        <option desc="山崎龙二 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0B"/>
+        </option>
+        <option desc="秦崇雷 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0C"/>
+        </option>
+        <option desc="秦崇秀 PL2">
+            <parameter cpu="0" address="0x10561F" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10046F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10056F" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

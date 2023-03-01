@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09FC2" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x95B60" value="0xC3"/>
+            <parameter cpu="0" address="0x86DD6" value="0xC3"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x95B60" value="0x83"/>
+            <parameter cpu="0" address="0x86DD6" value="0x83"/>
+        </option>
+    </cheat>
+    <cheat desc="全屏攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x95F7D" value="0x00"/>
+            <parameter cpu="0" address="0x871FB" value="0x00"/>
+        </option>
+        <option desc="强制关闭">
+            <parameter cpu="0" address="0x95F7D" value="0x0D"/>
+            <parameter cpu="0" address="0x871FB" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F60" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="散弹枪等级最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F48" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="蓝激光等级最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F4A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="紫激光等级最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F4C" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="导弹等级最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F50" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="跟踪导弹等级最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F52" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="红色炸弹">
+            <parameter cpu="0" address="0x9F58" value="0x01"/>
+            <parameter cpu="0" address="0x9F59" value="0x01"/>
+            <parameter cpu="0" address="0x9F5A" value="0x01"/>
+            <parameter cpu="0" address="0x9F5B" value="0x01"/>
+            <parameter cpu="0" address="0x9F5C" value="0x01"/>
+            <parameter cpu="0" address="0x9F5D" value="0x01"/>
+            <parameter cpu="0" address="0x9F5E" value="0x01"/>
+        </option>
+        <option desc="黄色炸弹">
+            <parameter cpu="0" address="0x9F58" value="0x02"/>
+            <parameter cpu="0" address="0x9F59" value="0x02"/>
+            <parameter cpu="0" address="0x9F5A" value="0x02"/>
+            <parameter cpu="0" address="0x9F5B" value="0x02"/>
+            <parameter cpu="0" address="0x9F5C" value="0x02"/>
+            <parameter cpu="0" address="0x9F5D" value="0x02"/>
+            <parameter cpu="0" address="0x9F5E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="速射 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0B14E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09FA0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="散弹枪等级最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F88" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="蓝激光等级最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F8A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="紫激光等级最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F8C" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="导弹等级最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F90" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="跟踪导弹等级最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x09F92" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="红色炸弹">
+            <parameter cpu="0" address="0x9F98" value="0x01"/>
+            <parameter cpu="0" address="0x9F99" value="0x01"/>
+            <parameter cpu="0" address="0x9F9A" value="0x01"/>
+            <parameter cpu="0" address="0x9F9B" value="0x01"/>
+            <parameter cpu="0" address="0x9F9C" value="0x01"/>
+            <parameter cpu="0" address="0x9F9D" value="0x01"/>
+            <parameter cpu="0" address="0x9F9E" value="0x01"/>
+        </option>
+        <option desc="黄色炸弹">
+            <parameter cpu="0" address="0x9F98" value="0x02"/>
+            <parameter cpu="0" address="0x9F99" value="0x02"/>
+            <parameter cpu="0" address="0x9F9A" value="0x02"/>
+            <parameter cpu="0" address="0x9F9B" value="0x02"/>
+            <parameter cpu="0" address="0x9F9C" value="0x02"/>
+            <parameter cpu="0" address="0x9F9D" value="0x02"/>
+            <parameter cpu="0" address="0x9F9E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="速射 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x0B143" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

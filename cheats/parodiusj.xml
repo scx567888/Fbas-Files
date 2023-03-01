@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1867" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1868" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 开启" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 开启">
+            <parameter cpu="0" address="0x18B1" value="0x01"/>
+        </option>
+        <option desc="无敌 关闭">
+            <parameter cpu="0" address="0x18B1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度" default="0">
+        <option desc="关闭"/>
+        <option desc="选择速度">
+            <parameter cpu="0" address="0x1893" value="0x01"/>
+        </option>
+        <option desc="选择导弹">
+            <parameter cpu="0" address="0x1893" value="0x02"/>
+        </option>
+        <option desc="选择双倍">
+            <parameter cpu="0" address="0x1893" value="0x03"/>
+        </option>
+        <option desc="选择激光">
+            <parameter cpu="0" address="0x1893" value="0x04"/>
+        </option>
+        <option desc="选择外挂">
+            <parameter cpu="0" address="0x1893" value="0x05"/>
+        </option>
+        <option desc="选择''?''">
+            <parameter cpu="0" address="0x1893" value="0x06"/>
+        </option>
+        <option desc="选择护盾">
+            <parameter cpu="0" address="0x1893" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="得到速度 1 !" default="0">
+        <option desc="关闭"/>
+        <option desc="得到速度 1 !">
+            <parameter cpu="0" address="0x1894" value="0x01"/>
+        </option>
+        <option desc="得到速度 2 !">
+            <parameter cpu="0" address="0x1894" value="0x02"/>
+        </option>
+        <option desc="得到速度 3 !">
+            <parameter cpu="0" address="0x1894" value="0x03"/>
+        </option>
+        <option desc="得到速度 4 !">
+            <parameter cpu="0" address="0x1894" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="得到蓝色钟铃的力量 !" default="0">
+        <option desc="关闭"/>
+        <option desc="得到蓝色钟铃的力量 !">
+            <parameter cpu="0" address="0x18AC" value="0x89"/>
+            <parameter cpu="0" address="0x18AD" value="0x01"/>
+        </option>
+        <option desc="总是红色钟铃">
+            <parameter cpu="0" address="0x18AC" value="0x07"/>
+            <parameter cpu="0" address="0x18AD" value="0x01"/>
+        </option>
+        <option desc="总是绿色钟铃">
+            <parameter cpu="0" address="0x18AC" value="0x0B"/>
+            <parameter cpu="0" address="0x18AD" value="0x01"/>
+        </option>
+        <option desc="总是白色钟铃">
+            <parameter cpu="0" address="0x18AC" value="0x05"/>
+            <parameter cpu="0" address="0x18AD" value="0x01"/>
+        </option>
+    </cheat>
+
+    <cheat desc="不能射击 !" default="0">
+        <option desc="关闭"/>
+        <option desc="不能射击 !">
+            <parameter cpu="0" address="0x18B0" value="0xC0"/>
+        </option>
+        <option desc="重启 ''不能射击'' !">
+            <parameter cpu="0" address="0x18B0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1BAE" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="画面卷动锁定" default="0">
+        <option desc="关闭"/>
+        <option desc="画面卷动锁定">
+            <parameter cpu="0" address="0x1998" value="0x00"/>
+        </option>
+        <option desc="画面卷动自由">
+            <parameter cpu="0" address="0x1998" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="NOW CHEATING PARO!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40E1" value="0x2E"/>
+            <parameter cpu="0" address="0x40E2" value="0x2F"/>
+            <parameter cpu="0" address="0x40E3" value="0x37"/>
+            <parameter cpu="0" address="0x40E4" value="0x00"/>
+            <parameter cpu="0" address="0x40E5" value="0x23"/>
+            <parameter cpu="0" address="0x40E6" value="0x25"/>
+            <parameter cpu="0" address="0x40E7" value="0x21"/>
+            <parameter cpu="0" address="0x40E8" value="0x34"/>
+            <parameter cpu="0" address="0x40E9" value="0x29"/>
+            <parameter cpu="0" address="0x40EA" value="0x2E"/>
+            <parameter cpu="0" address="0x40EB" value="0x27"/>
+            <parameter cpu="0" address="0x40EC" value="0x00"/>
+            <parameter cpu="0" address="0x40ED" value="0x30"/>
+            <parameter cpu="0" address="0x40EE" value="0x21"/>
+            <parameter cpu="0" address="0x40EF" value="0x32"/>
+            <parameter cpu="0" address="0x40F0" value="0x2F"/>
+            <parameter cpu="0" address="0x40F1" value="0x1C"/>
+        </option>
+    </cheat>
+</shufflecheat>

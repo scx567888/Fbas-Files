@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C846" value="0x09"/>
+            <parameter cpu="0" address="0x10C847" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="得分 = 99999 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B1B5" value="0x99"/>
+            <parameter cpu="0" address="0x10B1B6" value="0x99"/>
+            <parameter cpu="0" address="0x10B1B7" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="得分 = 0  PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10B1B9" value="0x00"/>
+            <parameter cpu="0" address="0x10B1BA" value="0x00"/>
+            <parameter cpu="0" address="0x10B1BB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="永不攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="永不攻击 PL1">
+            <parameter cpu="0" address="0x10B2B9" value="0x00"/>
+        </option>
+        <option desc="总是发送攻击障碍 PL1">
+            <parameter cpu="0" address="0x10B2B9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="永不攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="永不攻击 PL2">
+            <parameter cpu="0" address="0x10B2BB" value="0x00"/>
+        </option>
+        <option desc="总是发送攻击障碍 PL2">
+            <parameter cpu="0" address="0x10B2BB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

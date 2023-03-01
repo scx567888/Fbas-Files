@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107869" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1078C5" value="0xEE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107845" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="失去武器 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="失去武器 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x00"/>
+        </option>
+        <option desc="改变为刀 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x01"/>
+        </option>
+        <option desc="改变为连发左轮手枪 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x02"/>
+        </option>
+        <option desc="改变为鞭子 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x03"/>
+        </option>
+        <option desc="改变为来复枪 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x05"/>
+        </option>
+        <option desc="改变为火箭发射器 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x06"/>
+        </option>
+        <option desc="改变为手雷 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x07"/>
+        </option>
+        <option desc="改变为撬杠 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x08"/>
+        </option>
+        <option desc="改变为剑 ! PL1">
+            <parameter cpu="0" address="0x1078BB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107969" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1079C5" value="0xEE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107945" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="失去武器 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="失去武器 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x00"/>
+        </option>
+        <option desc="改变为刀 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x01"/>
+        </option>
+        <option desc="改变为连发左轮手枪 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x02"/>
+        </option>
+        <option desc="改变为鞭子 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x03"/>
+        </option>
+        <option desc="改变为来复枪 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x05"/>
+        </option>
+        <option desc="改变为火箭发射器 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x06"/>
+        </option>
+        <option desc="改变为手雷 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x07"/>
+        </option>
+        <option desc="改变为撬杠 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x08"/>
+        </option>
+        <option desc="改变为剑 ! PL2">
+            <parameter cpu="0" address="0x1079BB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107A69" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107AC5" value="0xEE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107A45" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="失去武器 ! PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="失去武器 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x00"/>
+        </option>
+        <option desc="改变为刀 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x01"/>
+        </option>
+        <option desc="改变为连发左轮手枪 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x02"/>
+        </option>
+        <option desc="改变为鞭子 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x03"/>
+        </option>
+        <option desc="改变为来复枪 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x05"/>
+        </option>
+        <option desc="改变为火箭发射器 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x06"/>
+        </option>
+        <option desc="改变为手雷 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x07"/>
+        </option>
+        <option desc="改变为撬杠 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x08"/>
+        </option>
+        <option desc="改变为剑 ! PL3">
+            <parameter cpu="0" address="0x107ABB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107B69" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BC5" value="0xEE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107B45" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="失去武器 ! PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="失去武器 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x00"/>
+        </option>
+        <option desc="改变为刀 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x01"/>
+        </option>
+        <option desc="改变为连发左轮手枪 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x02"/>
+        </option>
+        <option desc="改变为鞭子 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x03"/>
+        </option>
+        <option desc="改变为来复枪 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x05"/>
+        </option>
+        <option desc="改变为火箭发射器 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x06"/>
+        </option>
+        <option desc="改变为手雷 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x07"/>
+        </option>
+        <option desc="改变为撬杠 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x08"/>
+        </option>
+        <option desc="改变为剑 ! PL4">
+            <parameter cpu="0" address="0x107BBB" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

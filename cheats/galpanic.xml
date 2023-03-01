@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53D064" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53E7E7" value="0x3B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53E78D" value="0x14"/>
+            <parameter cpu="0" address="0x53E793" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="100%!过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53C0CD" value="0x64"/>
+            <parameter cpu="0" address="0x53C0CF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53E7D4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53E7D5" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最后脱衣层次(裸体)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53E7DD" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="挑战关 (特殊)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x53D535" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

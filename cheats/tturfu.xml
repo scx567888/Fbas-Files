@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20009C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200811" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010D6" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有水管 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20102A" value="0xFF"/>
+            <parameter cpu="0" address="0x201C2B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有狼牙棒 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20102A" value="0xFF"/>
+            <parameter cpu="0" address="0x20252B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1 - 拳" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010D1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1 - 脚" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010D0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 PL1 ''开启''">
+            <parameter cpu="0" address="0x20107E" value="0xFF"/>
+        </option>
+        <option desc="无敌 PL1 ''关闭''">
+            <parameter cpu="0" address="0x20107E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2011D6" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有水管 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20112A" value="0xFF"/>
+            <parameter cpu="0" address="0x201C2B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有狼牙棒 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20112A" value="0xFF"/>
+            <parameter cpu="0" address="0x20252B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2 - 拳" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2011D1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2 - 脚" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2011D0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 PL2 ''开启''">
+            <parameter cpu="0" address="0x20117E" value="0xFF"/>
+        </option>
+        <option desc="无敌 PL2 ''关闭''">
+            <parameter cpu="0" address="0x20117E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死敌人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20122E" value="0x00"/>
+            <parameter cpu="0" address="0x20122F" value="0x00"/>
+            <parameter cpu="0" address="0x20132E" value="0x00"/>
+            <parameter cpu="0" address="0x20132F" value="0x00"/>
+            <parameter cpu="0" address="0x20142E" value="0x00"/>
+            <parameter cpu="0" address="0x20142F" value="0x00"/>
+            <parameter cpu="0" address="0x20152E" value="0x00"/>
+            <parameter cpu="0" address="0x20152F" value="0x00"/>
+            <parameter cpu="0" address="0x20162E" value="0x00"/>
+            <parameter cpu="0" address="0x20162F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x200801" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x200801" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x200801" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x200801" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x200801" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x200801" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x200801" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x200801" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

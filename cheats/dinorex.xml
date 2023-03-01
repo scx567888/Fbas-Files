@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x60826F" value="0xFF"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x60826F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x605124" value="0x68"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x605124" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="设置赢盘数为 2! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="设置赢盘数为 2! PL1">
+            <parameter cpu="0" address="0x602750" value="0x02"/>
+        </option>
+        <option desc="设置赢盘数为 0! PL1">
+            <parameter cpu="0" address="0x602750" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x605190" value="0x68"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x605190" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="设置赢盘数为 2! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="设置赢盘数为 2! PL2">
+            <parameter cpu="0" address="0x602751" value="0x02"/>
+        </option>
+        <option desc="设置赢盘数为 0! PL2">
+            <parameter cpu="0" address="0x602751" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

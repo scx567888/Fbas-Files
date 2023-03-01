@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0001F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启''">
+            <parameter cpu="0" address="0xF00B5F" value="0xA0"/>
+        </option>
+        <option desc="无敌 ''关闭''">
+            <parameter cpu="0" address="0xF00B5F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="4th Unit Mode" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00B7F" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="前武器总是 =" default="0">
+        <option desc="关闭"/>
+        <option desc="射击">
+            <parameter cpu="0" address="0xF00B2C" value="0x01"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xF00B2C" value="0x02"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xF00B2C" value="0x03"/>
+        </option>
+        <option desc="球">
+            <parameter cpu="0" address="0xF00B2C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="后武器总是 =" default="0">
+        <option desc="关闭"/>
+        <option desc="射击">
+            <parameter cpu="0" address="0xF00B30" value="0x01"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xF00B30" value="0x02"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xF00B30" value="0x03"/>
+        </option>
+        <option desc="球">
+            <parameter cpu="0" address="0xF00B30" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="上武器总是 =" default="0">
+        <option desc="关闭"/>
+        <option desc="射击">
+            <parameter cpu="0" address="0xF00B2E" value="0x01"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xF00B2E" value="0x02"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xF00B2E" value="0x03"/>
+        </option>
+        <option desc="球">
+            <parameter cpu="0" address="0xF00B2E" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="下武器总是 =" default="0">
+        <option desc="关闭"/>
+        <option desc="射击">
+            <parameter cpu="0" address="0xF00B32" value="0x01"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xF00B32" value="0x02"/>
+        </option>
+        <option desc="激光">
+            <parameter cpu="0" address="0xF00B32" value="0x03"/>
+        </option>
+        <option desc="球">
+            <parameter cpu="0" address="0xF00B32" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="最大前火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00B34" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大后火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00B36" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大高火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00B35" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大低火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00B37" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="上武器方向变右上" default="0">
+        <option desc="关闭"/>
+        <option desc="上武器方向变右上">
+            <parameter cpu="0" address="0xF00BD6" value="0x02"/>
+        </option>
+        <option desc="上武器方向变上">
+            <parameter cpu="0" address="0xF00BD6" value="0x04"/>
+        </option>
+        <option desc="上武器方向变左上">
+            <parameter cpu="0" address="0xF00BD6" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="下武器方向变左下" default="0">
+        <option desc="关闭"/>
+        <option desc="下武器方向变左下">
+            <parameter cpu="0" address="0xF00BDA" value="0x0A"/>
+        </option>
+        <option desc="下武器方向变下">
+            <parameter cpu="0" address="0xF00BDA" value="0x0C"/>
+        </option>
+        <option desc="下武器方向变右下">
+            <parameter cpu="0" address="0xF00BDA" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="快速变化武器方向" default="0">
+        <option desc="关闭"/>
+        <option desc="快速变化武器方向">
+            <parameter cpu="0" address="0xF00B91" value="0x14"/>
+        </option>
+        <option desc="无法变化武器方向">
+            <parameter cpu="0" address="0xF00B91" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无法旋转" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00BD2" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00B8A" value="0x79"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00BB2" value="0x79"/>
+        </option>
+    </cheat>
+</shufflecheat>

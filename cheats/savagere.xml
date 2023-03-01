@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x1084A8" value="0x59"/>
+        </option>
+        <option desc="立即结束这一局!">
+            <parameter cpu="0" address="0x1084A8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用特殊角色" default="0">
+        <option desc="关闭"/>
+        <option desc="King Leo [最终Boss]">
+            <parameter cpu="0" address="0x1043C3" value="0x0A"/>
+        </option>
+        <option desc="怒状态Chung">
+            <parameter cpu="0" address="0x1043C3" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80AF" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8129" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="去到最终关!" default="0">
+        <option desc="关闭"/>
+        <option desc="去到最终关!">
+            <parameter cpu="0" address="0xFF80BE" value="0x05"/>
+        </option>
+        <option desc="选关* - 局数 1">
+            <parameter cpu="0" address="0xFF80BE" value="0x00"/>
+        </option>
+        <option desc="选关* - 局数 2">
+            <parameter cpu="0" address="0xFF80BE" value="0x01"/>
+        </option>
+        <option desc="选关* - 局数 3">
+            <parameter cpu="0" address="0xFF80BE" value="0x02"/>
+        </option>
+        <option desc="选关* - 局数 4">
+            <parameter cpu="0" address="0xFF80BE" value="0x03"/>
+        </option>
+        <option desc="选关* - 局数 5">
+            <parameter cpu="0" address="0xFF80BE" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀敌人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8701" value="0x00"/>
+            <parameter cpu="0" address="0xFF87C1" value="0x00"/>
+            <parameter cpu="0" address="0xFF8881" value="0x00"/>
+            <parameter cpu="0" address="0xFF8941" value="0x00"/>
+            <parameter cpu="0" address="0xFF8A01" value="0x00"/>
+            <parameter cpu="0" address="0xFF8AC1" value="0x00"/>
+            <parameter cpu="0" address="0xFF8B81" value="0x00"/>
+            <parameter cpu="0" address="0xFF8C41" value="0x00"/>
+            <parameter cpu="0" address="0xFF8D01" value="0x00"/>
+            <parameter cpu="0" address="0xFF8DC1" value="0x00"/>
+            <parameter cpu="0" address="0xFF8E81" value="0x00"/>
+            <parameter cpu="0" address="0xFF8F41" value="0x00"/>
+            <parameter cpu="0" address="0xFF9001" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速杀BOSS!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9A80" value="0x00"/>
+            <parameter cpu="0" address="0xFF9A81" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85E8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85C9" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8581" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="只用轻拳攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="只用轻拳攻击 PL1">
+            <parameter cpu="0" address="0xFF860B" value="0x00"/>
+        </option>
+        <option desc="只用次轻拳攻击 PL1">
+            <parameter cpu="0" address="0xFF860B" value="0x02"/>
+        </option>
+        <option desc="Cody只用重拳攻击 PL1">
+            <parameter cpu="0" address="0xFF860B" value="0x04"/>
+        </option>
+        <option desc="Guy只用重拳攻击 PL1">
+            <parameter cpu="0" address="0xFF860B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8590" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86A8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8689" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8641" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="只用轻拳攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="只用轻拳攻击 PL2">
+            <parameter cpu="0" address="0xFF86CB" value="0x00"/>
+        </option>
+        <option desc="只用次轻拳攻击 PL2">
+            <parameter cpu="0" address="0xFF86CB" value="0x02"/>
+        </option>
+        <option desc="Cody只用重拳攻击 PL2">
+            <parameter cpu="0" address="0xFF86CB" value="0x04"/>
+        </option>
+        <option desc="Guy只用重拳攻击 PL2">
+            <parameter cpu="0" address="0xFF86CB" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8650" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="跳攻击可连续出腿 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF860D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Guy PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Guy PL1">
+            <parameter cpu="0" address="0xFF857C" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Cody PL1">
+            <parameter cpu="0" address="0xFF857C" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Haggar PL1">
+            <parameter cpu="0" address="0xFF857C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="跳攻击可连续出腿 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86CD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Guy PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Guy PL2">
+            <parameter cpu="0" address="0xFF863C" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Cody PL2">
+            <parameter cpu="0" address="0xFF863C" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Haggar PL2">
+            <parameter cpu="0" address="0xFF863C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="到尾关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80C1" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

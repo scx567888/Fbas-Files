@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFE7822" value="0x52"/>
+            <parameter cpu="0" address="0xFE7823" value="0x01"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0xFE7822" value="0x00"/>
+            <parameter cpu="0" address="0xFE7823" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFE78C2" value="0x52"/>
+            <parameter cpu="0" address="0xFE78C3" value="0x01"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0xFE78C2" value="0x00"/>
+            <parameter cpu="0" address="0xFE78C3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 电脑">
+            <parameter cpu="0" address="0xFE7A02" value="0x52"/>
+            <parameter cpu="0" address="0xFE7A03" value="0x01"/>
+        </option>
+        <option desc="立即耗尽所有的能量! 电脑">
+            <parameter cpu="0" address="0xFE7A02" value="0x00"/>
+            <parameter cpu="0" address="0xFE7A03" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

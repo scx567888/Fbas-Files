@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF18AB" value="0xBF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有枪掉落" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5D96" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5FA1" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开始关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 1">
+            <parameter cpu="0" address="0xFF5BB9" value="0x00"/>
+        </option>
+        <option desc="关卡 2">
+            <parameter cpu="0" address="0xFF5BB9" value="0x01"/>
+        </option>
+        <option desc="关卡 3">
+            <parameter cpu="0" address="0xFF5BB9" value="0x02"/>
+        </option>
+        <option desc="奖励关">
+            <parameter cpu="0" address="0xFF5BB9" value="0x07"/>
+        </option>
+        <option desc="关卡 4">
+            <parameter cpu="0" address="0xFF5BB9" value="0x03"/>
+        </option>
+        <option desc="关卡 5">
+            <parameter cpu="0" address="0xFF5BB9" value="0x04"/>
+        </option>
+        <option desc="最后关卡">
+            <parameter cpu="0" address="0xFF5BB9" value="0x05"/>
+        </option>
+        <option desc="隐藏奖励关">
+            <parameter cpu="0" address="0xFF5BB9" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BA4" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8E9F" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BCA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8EB5" value="0xF0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8F9F" value="0x88"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BCB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF5BA5" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8FB5" value="0xF0"/>
+        </option>
+    </cheat>
+</shufflecheat>

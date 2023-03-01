@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xFF9409" value="0x99"/>
+        </option>
+        <option desc="立即结束这一局!">
+            <parameter cpu="0" address="0xFF9409" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF83CB" value="0x90"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0xFF83CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF855D" value="0x50"/>
+            <parameter cpu="0" address="0xFF855F" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8397" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83D3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="没有连续组合技限制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Dimitri ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Dimitri ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Gallon ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Victor ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Zabelzaroch ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Morrigan ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Anakaris ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Felicia ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Bishamon ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Aulbath ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Sasquatch ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Phobos ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色 Pyron ! PL1">
+            <parameter cpu="0" address="0xFF8729" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF87CB" value="0x90"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0xFF87CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF895D" value="0x50"/>
+            <parameter cpu="0" address="0xFF895F" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8797" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="被击打后无法恢复 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF87D3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="没有连续组合技限制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Dimitri ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色 Dimitri ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色 Gallon ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色 Victor ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色 Zabelzaroch ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色 Morrigan ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色 Anakaris ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色 Felicia ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色 Bishamon ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色 Aulbath ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色 Sasquatch ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色 Phobos ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色 Pyron ! PL2">
+            <parameter cpu="0" address="0xFF8B29" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="地域 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地域 = 日本">
+            <parameter cpu="0" address="0xFF8205" value="0x00"/>
+        </option>
+        <option desc="地域 = 美国">
+            <parameter cpu="0" address="0xFF8205" value="0x02"/>
+        </option>
+        <option desc="地域 = 亚洲">
+            <parameter cpu="0" address="0xFF8205" value="0x04"/>
+        </option>
+        <option desc="地域 = 西班牙">
+            <parameter cpu="0" address="0xFF8205" value="0x06"/>
+        </option>
+        <option desc="地域 = 欧洲">
+            <parameter cpu="0" address="0xFF8205" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="字幕转换 = Vampire (gives 日本 Text)" default="0">
+        <option desc="关闭"/>
+        <option desc="字幕转换 = Vampire (gives 日本 Text)">
+            <parameter cpu="0" address="0xFF8214" value="0x00"/>
+        </option>
+        <option desc="字幕转换 = Darkstalkers (英文)">
+            <parameter cpu="0" address="0xFF8214" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

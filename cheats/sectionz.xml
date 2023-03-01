@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCDA0" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC100" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC08F" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC10F" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

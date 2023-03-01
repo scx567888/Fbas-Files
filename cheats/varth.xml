@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83A4" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83B3" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8300" value="0x02"/>
+            <parameter cpu="0" address="0xFF8323" value="0xF0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83B1" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是普通火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是普通火力 PL1">
+            <parameter cpu="0" address="0xFF83B2" value="0x00"/>
+        </option>
+        <option desc="总是三向火力 PL1">
+            <parameter cpu="0" address="0xFF83B2" value="0x02"/>
+        </option>
+        <option desc="总是激光武器 PL1">
+            <parameter cpu="0" address="0xFF83B2" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有H导弹PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有H导弹PL1">
+            <parameter cpu="0" address="0xFF83B8" value="0x00"/>
+        </option>
+        <option desc="总是有M导弹PL1">
+            <parameter cpu="0" address="0xFF83B8" value="0x01"/>
+        </option>
+        <option desc="总是有N导弹PL1">
+            <parameter cpu="0" address="0xFF83B8" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="最大导弹火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83B6" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="圆环射击 - 火焰 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8341" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="圆环射击 - 导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8344" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="圆环射击 - 火焰 + 导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8341" value="0x00"/>
+            <parameter cpu="0" address="0xFF8344" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84A4" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B3" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8400" value="0x02"/>
+            <parameter cpu="0" address="0xFF8423" value="0xF0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B1" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是普通火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是普通火力 PL2">
+            <parameter cpu="0" address="0xFF84B2" value="0x00"/>
+        </option>
+        <option desc="总是三向火力 PL2">
+            <parameter cpu="0" address="0xFF84B2" value="0x02"/>
+        </option>
+        <option desc="总是激光武器 PL2">
+            <parameter cpu="0" address="0xFF84B2" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有H导弹PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有H导弹PL2">
+            <parameter cpu="0" address="0xFF84B8" value="0x00"/>
+        </option>
+        <option desc="总是有M导弹PL2">
+            <parameter cpu="0" address="0xFF84B8" value="0x01"/>
+        </option>
+        <option desc="总是有N导弹PL2">
+            <parameter cpu="0" address="0xFF84B8" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="P2最大导弹火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B6" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="圆环射击 - 火焰 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8441" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="圆环射击 - 导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8444" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="圆环射击 - 火焰 + 导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8441" value="0x00"/>
+            <parameter cpu="0" address="0xFF8444" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFF8501" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFF8501" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF8501" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF8501" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF8501" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF8501" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFF8501" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 8">
+            <parameter cpu="0" address="0xFF8501" value="0x07"/>
+        </option>
+        <option desc="选关 - 场景 9">
+            <parameter cpu="0" address="0xFF8501" value="0x08"/>
+        </option>
+        <option desc="选关 - 场景 10">
+            <parameter cpu="0" address="0xFF8501" value="0x09"/>
+        </option>
+        <option desc="选关 - 场景 11">
+            <parameter cpu="0" address="0xFF8501" value="0x0A"/>
+        </option>
+        <option desc="选关 - 场景 12">
+            <parameter cpu="0" address="0xFF8501" value="0x0B"/>
+        </option>
+        <option desc="选关 - 场景 13">
+            <parameter cpu="0" address="0xFF8501" value="0x0C"/>
+        </option>
+        <option desc="选关 - 场景 14">
+            <parameter cpu="0" address="0xFF8501" value="0x0D"/>
+        </option>
+        <option desc="选关 - 场景 15">
+            <parameter cpu="0" address="0xFF8501" value="0x0E"/>
+        </option>
+        <option desc="选关 - 场景 16">
+            <parameter cpu="0" address="0xFF8501" value="0x0F"/>
+        </option>
+        <option desc="选关 - 场景 17">
+            <parameter cpu="0" address="0xFF8501" value="0x10"/>
+        </option>
+        <option desc="选关 - 场景 18">
+            <parameter cpu="0" address="0xFF8501" value="0x11"/>
+        </option>
+        <option desc="选关 - 场景 19">
+            <parameter cpu="0" address="0xFF8501" value="0x12"/>
+        </option>
+        <option desc="选关 - 场景 20">
+            <parameter cpu="0" address="0xFF8501" value="0x13"/>
+        </option>
+        <option desc="选关 - 场景 21">
+            <parameter cpu="0" address="0xFF8501" value="0x14"/>
+        </option>
+        <option desc="选关 - 场景 22">
+            <parameter cpu="0" address="0xFF8501" value="0x15"/>
+        </option>
+        <option desc="选关 - 场景 23">
+            <parameter cpu="0" address="0xFF8501" value="0x16"/>
+        </option>
+        <option desc="选关 - 场景 24">
+            <parameter cpu="0" address="0xFF8501" value="0x17"/>
+        </option>
+        <option desc="选关 - 场景 25">
+            <parameter cpu="0" address="0xFF8501" value="0x18"/>
+        </option>
+        <option desc="选关 - 场景 26">
+            <parameter cpu="0" address="0xFF8501" value="0x19"/>
+        </option>
+        <option desc="选关 - 场景 27">
+            <parameter cpu="0" address="0xFF8501" value="0x1A"/>
+        </option>
+        <option desc="选关 - 场景 28">
+            <parameter cpu="0" address="0xFF8501" value="0x1B"/>
+        </option>
+        <option desc="选关 - 场景 29">
+            <parameter cpu="0" address="0xFF8501" value="0x1C"/>
+        </option>
+        <option desc="选关 - 场景 30">
+            <parameter cpu="0" address="0xFF8501" value="0x1D"/>
+        </option>
+    </cheat>
+</shufflecheat>

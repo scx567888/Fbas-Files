@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C419" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C455" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x10C452" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x10C452" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x10C452" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x10C452" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x10C452" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x10C452" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x10C452" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x10C452" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x10C452" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x10C452" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x10C452" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x10C452" value="0x0B"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x10C452" value="0x0C"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x10C452" value="0x0D"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x10C452" value="0x0E"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x10C452" value="0x0F"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x10C452" value="0x10"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x10C452" value="0x11"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x10C452" value="0x12"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x10C452" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无限装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C444" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="障碍永不落下 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C142" value="0xFF"/>
+            <parameter cpu="0" address="0x10C144" value="0xFF"/>
+            <parameter cpu="0" address="0x10C146" value="0xFF"/>
+            <parameter cpu="0" address="0x10C148" value="0xFF"/>
+            <parameter cpu="0" address="0x10C14A" value="0xFF"/>
+            <parameter cpu="0" address="0x10C14C" value="0xFF"/>
+            <parameter cpu="0" address="0x10C14E" value="0xFF"/>
+            <parameter cpu="0" address="0x10C150" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Subberg Hungneil">
+            <parameter cpu="0" address="0x10B609" value="0x00"/>
+        </option>
+        <option desc="Pukie">
+            <parameter cpu="0" address="0x10B609" value="0x01"/>
+        </option>
+        <option desc="Sheila Flay">
+            <parameter cpu="0" address="0x10B609" value="0x02"/>
+        </option>
+        <option desc="Reusha Fino (Elf)">
+            <parameter cpu="0" address="0x10B609" value="0x03"/>
+        </option>
+        <option desc="Kaireen (Valkiree)">
+            <parameter cpu="0" address="0x10B609" value="0x04"/>
+        </option>
+        <option desc="Hawk's Eye of Iga (Ninja)">
+            <parameter cpu="0" address="0x10B609" value="0x05"/>
+        </option>
+        <option desc="Gimri (Troll)">
+            <parameter cpu="0" address="0x10B609" value="0x06"/>
+        </option>
+        <option desc="Dark Sniper">
+            <parameter cpu="0" address="0x10B609" value="0x07"/>
+        </option>
+        <option desc="#Ryu Eagle">
+            <parameter cpu="0" address="0x10B609" value="0x08"/>
+        </option>
+        <option desc="#Fenril">
+            <parameter cpu="0" address="0x10B609" value="0x09"/>
+        </option>
+        <option desc="#Yormngand">
+            <parameter cpu="0" address="0x10B609" value="0x0A"/>
+        </option>
+        <option desc="#Roki">
+            <parameter cpu="0" address="0x10B609" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C4D5" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x10C4D2" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x10C4D2" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x10C4D2" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x10C4D2" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x10C4D2" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x10C4D2" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x10C4D2" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x10C4D2" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x10C4D2" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x10C4D2" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x10C4D2" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x10C4D2" value="0x0B"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x10C4D2" value="0x0C"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x10C4D2" value="0x0D"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x10C4D2" value="0x0E"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x10C4D2" value="0x0F"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x10C4D2" value="0x10"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x10C4D2" value="0x11"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x10C4D2" value="0x12"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x10C4D2" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无限装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C4C4" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="障碍永不落下 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C156" value="0xFF"/>
+            <parameter cpu="0" address="0x10C158" value="0xFF"/>
+            <parameter cpu="0" address="0x10C15A" value="0xFF"/>
+            <parameter cpu="0" address="0x10C15C" value="0xFF"/>
+            <parameter cpu="0" address="0x10C15E" value="0xFF"/>
+            <parameter cpu="0" address="0x10C160" value="0xFF"/>
+            <parameter cpu="0" address="0x10C162" value="0xFF"/>
+            <parameter cpu="0" address="0x10C164" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Subberg Hungneil">
+            <parameter cpu="0" address="0x10B649" value="0x00"/>
+        </option>
+        <option desc="Pukie">
+            <parameter cpu="0" address="0x10B649" value="0x01"/>
+        </option>
+        <option desc="Sheila Flay">
+            <parameter cpu="0" address="0x10B649" value="0x02"/>
+        </option>
+        <option desc="Reusha Fino (Elf)">
+            <parameter cpu="0" address="0x10B649" value="0x03"/>
+        </option>
+        <option desc="Kaireen (Valkiree)">
+            <parameter cpu="0" address="0x10B649" value="0x04"/>
+        </option>
+        <option desc="Hawk's Eye of Iga (Ninja)">
+            <parameter cpu="0" address="0x10B649" value="0x05"/>
+        </option>
+        <option desc="Gimri (Troll)">
+            <parameter cpu="0" address="0x10B649" value="0x06"/>
+        </option>
+        <option desc="Dark Sniper">
+            <parameter cpu="0" address="0x10B649" value="0x07"/>
+        </option>
+        <option desc="#Ryu Eagle">
+            <parameter cpu="0" address="0x10B649" value="0x08"/>
+        </option>
+        <option desc="#Fenril">
+            <parameter cpu="0" address="0x10B649" value="0x09"/>
+        </option>
+        <option desc="#Yormngand">
+            <parameter cpu="0" address="0x10B649" value="0x0A"/>
+        </option>
+        <option desc="#Roki">
+            <parameter cpu="0" address="0x10B649" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

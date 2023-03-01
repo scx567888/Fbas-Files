@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD00034" value="0x99"/>
+            <parameter cpu="0" address="0x10A7AE" value="0x09"/>
+            <parameter cpu="0" address="0x10A7AF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7D2" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="直接打关底" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A79B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限血量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量 PL1">
+            <parameter cpu="0" address="0x108239" value="0x66"/>
+        </option>
+        <option desc="无限血量 (1/4)PL1">
+            <parameter cpu="0" address="0x108239" value="0x19"/>
+        </option>
+        <option desc="没有血量 PL1">
+            <parameter cpu="0" address="0x108239" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大气量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1082E3" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是Max超杀模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081EA" value="0x2F"/>
+            <parameter cpu="0" address="0x1081EB" value="0x10"/>
+            <parameter cpu="0" address="0x10821D" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽气量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E8" value="0x00"/>
+            <parameter cpu="0" address="0x1082E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限血量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量 PL2">
+            <parameter cpu="0" address="0x108439" value="0x66"/>
+        </option>
+        <option desc="无限血量 (1/4) PL2">
+            <parameter cpu="0" address="0x108439" value="0x19"/>
+        </option>
+        <option desc="没有血量 PL2">
+            <parameter cpu="0" address="0x108439" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大气量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1084E3" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是Max超杀模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083EA" value="0x2F"/>
+            <parameter cpu="0" address="0x1083EB" value="0x10"/>
+            <parameter cpu="0" address="0x10841D" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽气量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E8" value="0x00"/>
+            <parameter cpu="0" address="0x1084E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="战前偷袭 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E2" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="空中出招 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="穿过对方 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081A4" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无受创硬直 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无受创硬直 PL1">
+            <parameter cpu="0" address="0x1083E6" value="0x81"/>
+        </option>
+        <option desc="记数 PL1">
+            <parameter cpu="0" address="0x1083E6" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="空中无限追打 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10837C" value="0x06"/>
+            <parameter cpu="0" address="0x108393" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="招式中断 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="招式中断 PL1">
+            <parameter cpu="0" address="0x10817B" value="0x7F"/>
+        </option>
+        <option desc="超级取消 PL1">
+            <parameter cpu="0" address="0x10817B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最高击打数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10817C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击加强 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108172" value="0x00"/>
+            <parameter cpu="0" address="0x108178" value="0x00"/>
+            <parameter cpu="0" address="0x1081E2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="保护层 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10819A" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="永远不会防御破坏 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="永远不会防御破坏 PL1">
+            <parameter cpu="0" address="0x108246" value="0x66"/>
+        </option>
+        <option desc="被击会防御破坏 PL1">
+            <parameter cpu="0" address="0x108246" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="可选隐藏大蛇队(选大蛇队人物后用)PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7E4" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Rugal (1st Pos.) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7E6" value="0x27"/>
+            <parameter cpu="0" address="0x10A804" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Kusanagi (2nd Pos.) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A7E7" value="0x28"/>
+            <parameter cpu="0" address="0x10A805" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选人时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017D3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限格斗顺序选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011D3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="不会眩晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不会眩晕 PL1">
+            <parameter cpu="0" address="0x10823F" value="0x66"/>
+        </option>
+        <option desc="一击即晕 PL1">
+            <parameter cpu="0" address="0x10823F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="闪光模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E3" value="0x22"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投技 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E3" value="0x22"/>
+        </option>
+    </cheat>
+    <cheat desc="超绝攻击力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081EF" value="0x3D"/>
+        </option>
+    </cheat>
+    <cheat desc="忽略距离攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108193" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="打击特效 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="爪击">
+            <parameter cpu="0" address="0x10817E" value="0x10"/>
+        </option>
+        <option desc="红火">
+            <parameter cpu="0" address="0x10817E" value="0x20"/>
+        </option>
+        <option desc="紫火">
+            <parameter cpu="0" address="0x10817E" value="0x30"/>
+        </option>
+        <option desc="雷电">
+            <parameter cpu="0" address="0x10817E" value="0x40"/>
+        </option>
+        <option desc="铁球">
+            <parameter cpu="0" address="0x10817E" value="0x60"/>
+        </option>
+        <option desc="掌击">
+            <parameter cpu="0" address="0x10817E" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="人物强化 镇元斋无限酒力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1082F7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="人物强化 李珍珠英雄模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108182" value="0x04"/>
+            <parameter cpu="0" address="0x1081E5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="人物强化 莉安娜暴走模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E4" value="0xC0"/>
+            <parameter cpu="0" address="0x10E311" value="0x04"/>
+            <parameter cpu="0" address="0x10E31C" value="0xA0"/>
+            <parameter cpu="0" address="0x10E325" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="人物尺寸 Ｑ版1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="人物尺寸 Ｑ版1 PL1">
+            <parameter cpu="0" address="0x10812D" value="0x88"/>
+            <parameter cpu="0" address="0x10812E" value="0x88"/>
+        </option>
+        <option desc="人物尺寸 Ｑ版2 PL1">
+            <parameter cpu="0" address="0x10812D" value="0x88"/>
+            <parameter cpu="0" address="0x10812E" value="0xDF"/>
+        </option>
+        <option desc="人物尺寸 隐形 PL1">
+            <parameter cpu="0" address="0x10812D" value="0x00"/>
+            <parameter cpu="0" address="0x10812E" value="0x00"/>
+        </option>
+        <option desc="人物尺寸 正常 PL1">
+            <parameter cpu="0" address="0x10812D" value="0xFF"/>
+            <parameter cpu="0" address="0x10812E" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="角色1为第一种颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色1为第一种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EA" value="0x00"/>
+            <parameter cpu="0" address="0x10A800" value="0x00"/>
+        </option>
+        <option desc="角色1为第二种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EA" value="0x01"/>
+            <parameter cpu="0" address="0x10A800" value="0x01"/>
+        </option>
+        <option desc="角色1为第三种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EA" value="0x02"/>
+            <parameter cpu="0" address="0x10A800" value="0x02"/>
+        </option>
+        <option desc="角色1为第四种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EA" value="0x03"/>
+            <parameter cpu="0" address="0x10A800" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色2为第一种颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色2为第一种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EB" value="0x00"/>
+            <parameter cpu="0" address="0x10A801" value="0x00"/>
+        </option>
+        <option desc="角色2为第二种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EB" value="0x01"/>
+            <parameter cpu="0" address="0x10A801" value="0x01"/>
+        </option>
+        <option desc="角色2为第三种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EB" value="0x02"/>
+            <parameter cpu="0" address="0x10A801" value="0x02"/>
+        </option>
+        <option desc="角色2为第四种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EB" value="0x03"/>
+            <parameter cpu="0" address="0x10A801" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色3为第一种颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色3为第一种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EC" value="0x00"/>
+            <parameter cpu="0" address="0x10A802" value="0x00"/>
+        </option>
+        <option desc="角色3为第二种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EC" value="0x01"/>
+            <parameter cpu="0" address="0x10A802" value="0x01"/>
+        </option>
+        <option desc="角色3为第三种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EC" value="0x02"/>
+            <parameter cpu="0" address="0x10A802" value="0x02"/>
+        </option>
+        <option desc="角色3为第四种颜色 PL1">
+            <parameter cpu="0" address="0x10A7EC" value="0x03"/>
+            <parameter cpu="0" address="0x10A802" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="战前偷袭 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E2" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="空中出招 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="穿过对方 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083A4" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无受创硬直 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无受创硬直 PL2">
+            <parameter cpu="0" address="0x1081E6" value="0x81"/>
+        </option>
+        <option desc="记数 PL2">
+            <parameter cpu="0" address="0x1081E6" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="空中无限追打 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10817C" value="0x06"/>
+            <parameter cpu="0" address="0x108193" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="招式中断 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="招式中断 PL2">
+            <parameter cpu="0" address="0x10837B" value="0x7F"/>
+        </option>
+        <option desc="超级取消 PL2">
+            <parameter cpu="0" address="0x10837B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最高击打数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10837C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击加强 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108372" value="0x00"/>
+            <parameter cpu="0" address="0x108373" value="0x79"/>
+            <parameter cpu="0" address="0x108374" value="0x00"/>
+            <parameter cpu="0" address="0x1083E2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="保护层 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10839A" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="不会眩晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="不会眩晕 PL2">
+            <parameter cpu="0" address="0x10843F" value="0x66"/>
+        </option>
+        <option desc="一击即晕 PL2">
+            <parameter cpu="0" address="0x10843F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="超绝攻击力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083EF" value="0x3D"/>
+        </option>
+    </cheat>
+    <cheat desc="忽略距离攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108393" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="打击特效 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="爪击">
+            <parameter cpu="0" address="0x10837E" value="0x10"/>
+        </option>
+        <option desc="红火">
+            <parameter cpu="0" address="0x10837E" value="0x20"/>
+        </option>
+        <option desc="紫火">
+            <parameter cpu="0" address="0x10837E" value="0x30"/>
+        </option>
+        <option desc="雷电">
+            <parameter cpu="0" address="0x10837E" value="0x40"/>
+        </option>
+        <option desc="铁球">
+            <parameter cpu="0" address="0x10837E" value="0x60"/>
+        </option>
+        <option desc="掌击">
+            <parameter cpu="0" address="0x10837E" value="0x70"/>
+        </option>
+    </cheat>
+    <cheat desc="永远不会防御破坏 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="永远不会防御破坏 PL2">
+            <parameter cpu="0" address="0x108446" value="0x66"/>
+        </option>
+        <option desc="被击会防御破坏 PL2">
+            <parameter cpu="0" address="0x108446" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="可选隐藏大蛇队(选大蛇队人物后用)PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A80A" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Rugal (1st Pos.) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A80C" value="0x27"/>
+            <parameter cpu="0" address="0x10A82A" value="0x27"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 Kusanagi (2nd Pos.) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A80D" value="0x28"/>
+            <parameter cpu="0" address="0x10A82B" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="人物强化 镇元斋无限酒力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1084F7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="人物强化 李珍珠英雄模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108382" value="0x04"/>
+            <parameter cpu="0" address="0x1083E5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="人物强化 莉安娜暴走模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E4" value="0xC0"/>
+            <parameter cpu="0" address="0x10E511" value="0x04"/>
+            <parameter cpu="0" address="0x10E51C" value="0xA0"/>
+            <parameter cpu="0" address="0x10E525" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="人物尺寸 Ｑ版1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="人物尺寸 Ｑ版1 PL2">
+            <parameter cpu="0" address="0x10832D" value="0x88"/>
+            <parameter cpu="0" address="0x10832E" value="0x88"/>
+        </option>
+        <option desc="人物尺寸 Ｑ版2 PL2">
+            <parameter cpu="0" address="0x10832D" value="0x88"/>
+            <parameter cpu="0" address="0x10832E" value="0xDF"/>
+        </option>
+        <option desc="人物尺寸 隐形 PL2">
+            <parameter cpu="0" address="0x10832D" value="0x00"/>
+            <parameter cpu="0" address="0x10832E" value="0x00"/>
+        </option>
+        <option desc="人物尺寸 正常 PL2">
+            <parameter cpu="0" address="0x10832D" value="0xFF"/>
+            <parameter cpu="0" address="0x10832E" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="角色1为第一种颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色1为第一种颜色 PL2">
+            <parameter cpu="0" address="0x10A810" value="0x00"/>
+            <parameter cpu="0" address="0x10A826" value="0x00"/>
+        </option>
+        <option desc="角色1为第二种颜色 PL2">
+            <parameter cpu="0" address="0x10A810" value="0x01"/>
+            <parameter cpu="0" address="0x10A826" value="0x01"/>
+        </option>
+        <option desc="角色1为第三种颜色 PL2">
+            <parameter cpu="0" address="0x10A810" value="0x02"/>
+            <parameter cpu="0" address="0x10A826" value="0x02"/>
+        </option>
+        <option desc="角色1为第四种颜色 PL2">
+            <parameter cpu="0" address="0x10A810" value="0x03"/>
+            <parameter cpu="0" address="0x10A826" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色2为第一种颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色2为第一种颜色 PL2">
+            <parameter cpu="0" address="0x10A811" value="0x00"/>
+            <parameter cpu="0" address="0x10A827" value="0x00"/>
+        </option>
+        <option desc="角色2为第二种颜色 PL2">
+            <parameter cpu="0" address="0x10A811" value="0x01"/>
+            <parameter cpu="0" address="0x10A827" value="0x01"/>
+        </option>
+        <option desc="角色2为第三种颜色 PL2">
+            <parameter cpu="0" address="0x10A811" value="0x02"/>
+            <parameter cpu="0" address="0x10A827" value="0x02"/>
+        </option>
+        <option desc="角色2为第四种颜色 PL2">
+            <parameter cpu="0" address="0x10A811" value="0x03"/>
+            <parameter cpu="0" address="0x10A827" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="角色3为第一种颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色3为第一种颜色 PL2">
+            <parameter cpu="0" address="0x10A812" value="0x00"/>
+            <parameter cpu="0" address="0x10A828" value="0x00"/>
+        </option>
+        <option desc="角色3为第二种颜色 PL2">
+            <parameter cpu="0" address="0x10A812" value="0x01"/>
+            <parameter cpu="0" address="0x10A828" value="0x01"/>
+        </option>
+        <option desc="角色3为第三种颜色 PL2">
+            <parameter cpu="0" address="0x10A812" value="0x02"/>
+            <parameter cpu="0" address="0x10A828" value="0x02"/>
+        </option>
+        <option desc="角色3为第四种颜色 PL2">
+            <parameter cpu="0" address="0x10A812" value="0x03"/>
+            <parameter cpu="0" address="0x10A828" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择控制权" default="0">
+        <option desc="关闭"/>
+        <option desc="全电脑控制">
+            <parameter cpu="0" address="0x10A7A3" value="0x00"/>
+        </option>
+        <option desc="1P手动">
+            <parameter cpu="0" address="0x10A7A3" value="0x01"/>
+        </option>
+        <option desc="2P手动">
+            <parameter cpu="0" address="0x10A7A3" value="0x02"/>
+        </option>
+        <option desc="全手动">
+            <parameter cpu="0" address="0x10A7A3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0x10A797" value="0x00"/>
+        </option>
+        <option desc="第2关">
+            <parameter cpu="0" address="0x10A797" value="0x01"/>
+        </option>
+        <option desc="第3关">
+            <parameter cpu="0" address="0x10A797" value="0x03"/>
+        </option>
+        <option desc="第4关">
+            <parameter cpu="0" address="0x10A797" value="0x07"/>
+        </option>
+        <option desc="第5关">
+            <parameter cpu="0" address="0x10A797" value="0x0F"/>
+        </option>
+        <option desc="第6关">
+            <parameter cpu="0" address="0x10A797" value="0x1F"/>
+        </option>
+        <option desc="第7关">
+            <parameter cpu="0" address="0x10A797" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="BOSS关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A797" value="0x7F"/>
+            <parameter cpu="0" address="0x10A79A" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0x10A79A" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0x10A79A" value="0x01"/>
+        </option>
+        <option desc="中国">
+            <parameter cpu="0" address="0x10A79A" value="0x02"/>
+        </option>
+        <option desc="荷兰">
+            <parameter cpu="0" address="0x10A79A" value="0x03"/>
+        </option>
+        <option desc="韩国">
+            <parameter cpu="0" address="0x10A79A" value="0x04"/>
+        </option>
+        <option desc="墨西哥">
+            <parameter cpu="0" address="0x10A79A" value="0x05"/>
+        </option>
+        <option desc="意大利">
+            <parameter cpu="0" address="0x10A79A" value="0x06"/>
+        </option>
+        <option desc="Boss屋(Rugal)">
+            <parameter cpu="0" address="0x10A79A" value="0x07"/>
+        </option>
+        <option desc="Boss屋(Middle)">
+            <parameter cpu="0" address="0x10A79A" value="0x08"/>
+        </option>
+        <option desc="日本">
+            <parameter cpu="0" address="0x10A79A" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

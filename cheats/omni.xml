@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x407B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4110" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限燃料" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x5160" value="0x69"/>
+        </option>
+    </cheat>
+    <cheat desc="总是三倍射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4113" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

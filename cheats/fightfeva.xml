@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x108110" value="0x99"/>
+        </option>
+        <option desc="过关!">
+            <parameter cpu="0" address="0x108110" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x10C602" value="0x78"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x10C602" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x10C702" value="0x78"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x10C702" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="Han Baedal ">
+            <parameter cpu="0" address="0x10C6B0" value="0x00"/>
+        </option>
+        <option desc="Miyuki ">
+            <parameter cpu="0" address="0x10C6B0" value="0x01"/>
+        </option>
+        <option desc="Rophen Heimer ">
+            <parameter cpu="0" address="0x10C6B0" value="0x02"/>
+        </option>
+        <option desc="Golrio ">
+            <parameter cpu="0" address="0x10C6B0" value="0x03"/>
+        </option>
+        <option desc="Nick Commando ">
+            <parameter cpu="0" address="0x10C6B0" value="0x04"/>
+        </option>
+        <option desc="Chintao ">
+            <parameter cpu="0" address="0x10C6B0" value="0x05"/>
+        </option>
+        <option desc="Kim Hoon ">
+            <parameter cpu="0" address="0x10C6B0" value="0x06"/>
+        </option>
+        <option desc="#Master Taekuk ">
+            <parameter cpu="0" address="0x10C6B0" value="0x07"/>
+        </option>
+        <option desc="Magic Dunker ">
+            <parameter cpu="0" address="0x10C6B0" value="0x08"/>
+        </option>
+        <option desc="#Karate Kenji ">
+            <parameter cpu="0" address="0x10C6B0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="Han Baedal ">
+            <parameter cpu="0" address="0x10C7B0" value="0x00"/>
+        </option>
+        <option desc="Miyuki ">
+            <parameter cpu="0" address="0x10C7B0" value="0x01"/>
+        </option>
+        <option desc="Rophen Heimer ">
+            <parameter cpu="0" address="0x10C7B0" value="0x02"/>
+        </option>
+        <option desc="Golrio ">
+            <parameter cpu="0" address="0x10C7B0" value="0x03"/>
+        </option>
+        <option desc="Nick Commando ">
+            <parameter cpu="0" address="0x10C7B0" value="0x04"/>
+        </option>
+        <option desc="Chintao ">
+            <parameter cpu="0" address="0x10C7B0" value="0x05"/>
+        </option>
+        <option desc="Kim Hoon ">
+            <parameter cpu="0" address="0x10C7B0" value="0x06"/>
+        </option>
+        <option desc="#Master Taekuk ">
+            <parameter cpu="0" address="0x10C7B0" value="0x07"/>
+        </option>
+        <option desc="Magic Dunker ">
+            <parameter cpu="0" address="0x10C7B0" value="0x08"/>
+        </option>
+        <option desc="#Karate Kenji ">
+            <parameter cpu="0" address="0x10C7B0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 Master Taekuk PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C62E" value="0x09"/>
+            <parameter cpu="0" address="0x10C648" value="0x09"/>
+            <parameter cpu="0" address="0x10C6B0" value="0x07"/>
+            <parameter cpu="0" address="0x10CAB0" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 Master Taekuk PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C72E" value="0x09"/>
+            <parameter cpu="0" address="0x10C748" value="0x09"/>
+            <parameter cpu="0" address="0x10C7B0" value="0x07"/>
+            <parameter cpu="0" address="0x10CBB0" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE003D" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE229A" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量蓄力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE2855" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="最大速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE282A" value="0x0A"/>
+            <parameter cpu="0" address="0xE282C" value="0x5A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是没有额外火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是没有额外火力 PL1">
+            <parameter cpu="0" address="0xE2842" value="0x00"/>
+        </option>
+        <option desc="总是有 红色额外火力 PL1">
+            <parameter cpu="0" address="0xE2842" value="0x01"/>
+        </option>
+        <option desc="总是有 绿色额外火力 PL1">
+            <parameter cpu="0" address="0xE2842" value="0x02"/>
+        </option>
+        <option desc="总是有 蓝色额外火力 PL1">
+            <parameter cpu="0" address="0xE2842" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE229B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量蓄力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE28D5" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="最大速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE28AA" value="0x0A"/>
+            <parameter cpu="0" address="0xE28AC" value="0x5A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是没有额外火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是没有额外火力 PL2">
+            <parameter cpu="0" address="0xE28C2" value="0x00"/>
+        </option>
+        <option desc="总是有 红色额外火力 PL2">
+            <parameter cpu="0" address="0xE28C2" value="0x01"/>
+        </option>
+        <option desc="总是有 绿色额外火力 PL2">
+            <parameter cpu="0" address="0xE28C2" value="0x02"/>
+        </option>
+        <option desc="总是有 蓝色额外火力 PL2">
+            <parameter cpu="0" address="0xE28C2" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

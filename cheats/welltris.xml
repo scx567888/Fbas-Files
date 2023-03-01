@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF803A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限错误" default="0">
+        <option desc="关闭"/>
+        <option desc="无限错误">
+            <parameter cpu="0" address="0xFF8959" value="0x00"/>
+        </option>
+        <option desc="快速结束游戏! PL1">
+            <parameter cpu="0" address="0xFF8959" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="没有障碍 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有障碍 PL2">
+            <parameter cpu="0" address="0xFF89D9" value="0x00"/>
+        </option>
+        <option desc="快速结束游戏! PL2">
+            <parameter cpu="0" address="0xFF89D9" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个总是形状 0 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个总是形状 0 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x00"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 1 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x01"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 2 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x02"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 3 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x03"/>
+            <parameter cpu="0" address="0xFF8967" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 4 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x04"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 5 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x05"/>
+            <parameter cpu="0" address="0xFF8967" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 6 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x06"/>
+            <parameter cpu="0" address="0xFF8967" value="0x08"/>
+        </option>
+        <option desc="下一个总是形状 7 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x07"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0D"/>
+        </option>
+        <option desc="下一个总是形状 8 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x08"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 9 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x09"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 10 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 11 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 12 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x0C"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 13 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x0D"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 14 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x0E"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0D"/>
+        </option>
+        <option desc="下一个总是形状 15 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x0F"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 16 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x10"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0D"/>
+        </option>
+        <option desc="下一个总是形状 17 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x11"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 18 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x12"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 19 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x13"/>
+            <parameter cpu="0" address="0xFF8967" value="0x08"/>
+        </option>
+        <option desc="下一个总是形状 20 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x14"/>
+            <parameter cpu="0" address="0xFF8967" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 21 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x15"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 22 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x16"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 23 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x17"/>
+            <parameter cpu="0" address="0xFF8967" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 24 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x18"/>
+            <parameter cpu="0" address="0xFF8967" value="0x08"/>
+        </option>
+        <option desc="下一个总是形状 25 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x19"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 26 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x1A"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 27 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x1B"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 28 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x1C"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 29 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x1D"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0F"/>
+        </option>
+        <option desc="下一个总是形状 30 PL1">
+            <parameter cpu="0" address="0xFF8962" value="0x1E"/>
+            <parameter cpu="0" address="0xFF8967" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个总是形状 0 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一个总是形状 0 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x00"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 1 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x01"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 2 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x02"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 3 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x03"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 4 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x04"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 5 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x05"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 6 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x06"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x08"/>
+        </option>
+        <option desc="下一个总是形状 7 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x07"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0D"/>
+        </option>
+        <option desc="下一个总是形状 8 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x08"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 9 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x09"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 10 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x0A"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 11 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x0B"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0A"/>
+        </option>
+        <option desc="下一个总是形状 12 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x0C"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 13 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x0D"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 14 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x0E"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0D"/>
+        </option>
+        <option desc="下一个总是形状 15 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x0F"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 16 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x10"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0D"/>
+        </option>
+        <option desc="下一个总是形状 17 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x11"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 18 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x12"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 19 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x13"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x08"/>
+        </option>
+        <option desc="下一个总是形状 20 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x14"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 21 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x15"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 22 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x16"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 23 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x17"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x09"/>
+        </option>
+        <option desc="下一个总是形状 24 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x18"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x08"/>
+        </option>
+        <option desc="下一个总是形状 25 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x19"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0C"/>
+        </option>
+        <option desc="下一个总是形状 26 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x1A"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0B"/>
+        </option>
+        <option desc="下一个总是形状 27 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x1B"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 28 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x1C"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0E"/>
+        </option>
+        <option desc="下一个总是形状 29 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x1D"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0F"/>
+        </option>
+        <option desc="下一个总是形状 30 PL2">
+            <parameter cpu="0" address="0xFF89E2" value="0x1E"/>
+            <parameter cpu="0" address="0xFF89E7" value="0x0F"/>
+        </option>
+    </cheat>
+</shufflecheat>

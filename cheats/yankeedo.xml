@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE097" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="很多红色妖怪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="很多红色妖怪 PL1">
+            <parameter cpu="0" address="0xE0A1" value="0x21"/>
+        </option>
+        <option desc="一个红色妖怪 PL1">
+            <parameter cpu="0" address="0xE0A1" value="0x01"/>
+        </option>
+        <option desc="没有红色妖怪 PL1">
+            <parameter cpu="0" address="0xE0A1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE11C" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="很多红色妖怪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="很多红色妖怪 PL2">
+            <parameter cpu="0" address="0xE126" value="0x21"/>
+        </option>
+        <option desc="一个红色妖怪 PL2">
+            <parameter cpu="0" address="0xE126" value="0x01"/>
+        </option>
+        <option desc="没有红色妖怪 PL2">
+            <parameter cpu="0" address="0xE126" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

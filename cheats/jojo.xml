@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206B850" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20573BB" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间 ">
+            <parameter cpu="0" address="0x202D0B0" value="0x63"/>
+        </option>
+        <option desc="过关!">
+            <parameter cpu="0" address="0x202D0B0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1">
+            <parameter cpu="0" address="0x20305AD" value="0x90"/>
+        </option>
+        <option desc="耗尽所有体力! PL1">
+            <parameter cpu="0" address="0x20305AD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="替身无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1">
+            <parameter cpu="0" address="0x2030DBD" value="0x58"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2030443" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL2">
+            <parameter cpu="0" address="0x20309B5" value="0x90"/>
+        </option>
+        <option desc="耗尽所有体力! PL2">
+            <parameter cpu="0" address="0x20309B5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="替身无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1">
+            <parameter cpu="0" address="0x20311C5" value="0x58"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2030467" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

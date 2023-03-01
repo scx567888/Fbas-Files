@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8024" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励关时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80B9" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS (World 2)!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAA84" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS (World 4)!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC64" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS - L.H. (World 8)!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFABC4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击伤害BOSS (World 4, 6, 8)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC24" value="0x05"/>
+            <parameter cpu="0" address="0xFFACC4" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86B6" value="0x00"/>
+            <parameter cpu="0" address="0xFF86B7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86A3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF868A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊装备时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF87A2" value="0x01"/>
+            <parameter cpu="0" address="0xFF87A3" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8687" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8686" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有射程 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8689" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8688" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是喝威士忌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是喝威士忌 PL1">
+            <parameter cpu="0" address="0xFF868B" value="0x01"/>
+        </option>
+        <option desc="永不喝威士忌(颠倒) PL1">
+            <parameter cpu="0" address="0xFF868B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88B6" value="0x00"/>
+            <parameter cpu="0" address="0xFF88B7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF88A3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF888A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊装备时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89A2" value="0x01"/>
+            <parameter cpu="0" address="0xFF89A3" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8887" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8886" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有射程 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8889" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8888" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是喝威士忌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是喝威士忌 PL2">
+            <parameter cpu="0" address="0xFF888B" value="0x01"/>
+        </option>
+        <option desc="永不喝威士忌(颠倒) PL2">
+            <parameter cpu="0" address="0xFF888B" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

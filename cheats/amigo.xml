@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8002" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8288" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限跳" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8285" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81F5" value="0xFF"/>
+            <parameter cpu="0" address="0x81F6" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有涂料(涂料线不消失)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8352" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无妖怪/音乐" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81F1" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

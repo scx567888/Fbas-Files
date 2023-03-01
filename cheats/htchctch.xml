@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x341C7F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120D87" value="0x00"/>
+            <parameter cpu="0" address="0x120D88" value="0x00"/>
+            <parameter cpu="0" address="0x120D89" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120217" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择上部物体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色圆柱">
+            <parameter cpu="0" address="0x12039D" value="0x00"/>
+        </option>
+        <option desc="紫色立方体">
+            <parameter cpu="0" address="0x12039D" value="0x01"/>
+        </option>
+        <option desc="橙色多边球">
+            <parameter cpu="0" address="0x12039D" value="0x02"/>
+        </option>
+        <option desc="蓝色球">
+            <parameter cpu="0" address="0x12039D" value="0x03"/>
+        </option>
+        <option desc="红色多边球">
+            <parameter cpu="0" address="0x12039D" value="0x04"/>
+        </option>
+        <option desc="绿色立方体">
+            <parameter cpu="0" address="0x12039D" value="0x05"/>
+        </option>
+        <option desc="灰白球">
+            <parameter cpu="0" address="0x12039D" value="0x06"/>
+        </option>
+        <option desc="蓝色多边球">
+            <parameter cpu="0" address="0x12039D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下部物体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色圆柱">
+            <parameter cpu="0" address="0x12039F" value="0x00"/>
+        </option>
+        <option desc="紫色立方体">
+            <parameter cpu="0" address="0x12039F" value="0x01"/>
+        </option>
+        <option desc="橙色多边球">
+            <parameter cpu="0" address="0x12039F" value="0x02"/>
+        </option>
+        <option desc="蓝色球">
+            <parameter cpu="0" address="0x12039F" value="0x03"/>
+        </option>
+        <option desc="红色多边球">
+            <parameter cpu="0" address="0x12039F" value="0x04"/>
+        </option>
+        <option desc="绿色立方体">
+            <parameter cpu="0" address="0x12039F" value="0x05"/>
+        </option>
+        <option desc="灰白球">
+            <parameter cpu="0" address="0x12039F" value="0x06"/>
+        </option>
+        <option desc="蓝色多边球">
+            <parameter cpu="0" address="0x12039F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择上部物体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色圆柱">
+            <parameter cpu="0" address="0x120455" value="0x00"/>
+        </option>
+        <option desc="紫色立方体">
+            <parameter cpu="0" address="0x120455" value="0x01"/>
+        </option>
+        <option desc="橙色多边球">
+            <parameter cpu="0" address="0x120455" value="0x02"/>
+        </option>
+        <option desc="蓝色球">
+            <parameter cpu="0" address="0x120455" value="0x03"/>
+        </option>
+        <option desc="红色多边球">
+            <parameter cpu="0" address="0x120455" value="0x04"/>
+        </option>
+        <option desc="绿色立方体">
+            <parameter cpu="0" address="0x120455" value="0x05"/>
+        </option>
+        <option desc="灰白球">
+            <parameter cpu="0" address="0x120455" value="0x06"/>
+        </option>
+        <option desc="蓝色多边球">
+            <parameter cpu="0" address="0x120455" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下部物体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色圆柱">
+            <parameter cpu="0" address="0x120457" value="0x00"/>
+        </option>
+        <option desc="紫色立方体">
+            <parameter cpu="0" address="0x120457" value="0x01"/>
+        </option>
+        <option desc="橙色多边球">
+            <parameter cpu="0" address="0x120457" value="0x02"/>
+        </option>
+        <option desc="蓝色球">
+            <parameter cpu="0" address="0x120457" value="0x03"/>
+        </option>
+        <option desc="红色多边球">
+            <parameter cpu="0" address="0x120457" value="0x04"/>
+        </option>
+        <option desc="绿色立方体">
+            <parameter cpu="0" address="0x120457" value="0x05"/>
+        </option>
+        <option desc="灰白球">
+            <parameter cpu="0" address="0x120457" value="0x06"/>
+        </option>
+        <option desc="蓝色多边球">
+            <parameter cpu="0" address="0x120457" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

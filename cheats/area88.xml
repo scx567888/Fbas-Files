@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0FFE" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限购物时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE00B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限护盾" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF15D7" value="0x02"/>
+            <parameter cpu="0" address="0xFF1657" value="0x02"/>
+            <parameter cpu="0" address="0xFF2EA0" value="0x05"/>
+            <parameter cpu="0" address="0xFF2EA3" value="0x05"/>
+            <parameter cpu="0" address="0xFF2F00" value="0x05"/>
+            <parameter cpu="0" address="0xFF2F03" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是面向右边" default="0">
+        <option desc="关闭"/>
+        <option desc="总是面向右边">
+            <parameter cpu="0" address="0xFF10D6" value="0x00"/>
+        </option>
+        <option desc="总是面向左边">
+            <parameter cpu="0" address="0xFF10D6" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF15C3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF160B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大副武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF15D3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限副武器弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF15E3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有凤凰跟踪弹副武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有凤凰跟踪弹副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x00"/>
+        </option>
+        <option desc="总是有猎鹰跟踪弹副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x04"/>
+        </option>
+        <option desc="总是有炸弹副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x08"/>
+        </option>
+        <option desc="总是有炸弹II副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x0C"/>
+        </option>
+        <option desc="总是有凝固汽油弹副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x10"/>
+        </option>
+        <option desc="总是有凝固汽油弹II副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x14"/>
+        </option>
+        <option desc="总是有散射弹副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x1C"/>
+        </option>
+        <option desc="总是有散射弹II副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x20"/>
+        </option>
+        <option desc="总是有超级炮弹副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x34"/>
+        </option>
+        <option desc="总是有超级炮弹II副武器 PL1">
+            <parameter cpu="0" address="0xFF15E1" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 主武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF15D9" value="0x00"/>
+            <parameter cpu="0" address="0xFF15DA" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 副武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF15DF" value="0x01"/>
+            <parameter cpu="0" address="0xFF15E0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1643" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF168B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大副武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1653" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限副武器弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1663" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 主武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF1659" value="0x00"/>
+            <parameter cpu="0" address="0xFF165A" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 副武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF165F" value="0x01"/>
+            <parameter cpu="0" address="0xFF1660" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有凤凰跟踪弹副武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有凤凰跟踪弹副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x00"/>
+        </option>
+        <option desc="总是有猎鹰跟踪弹副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x04"/>
+        </option>
+        <option desc="总是有炸弹副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x08"/>
+        </option>
+        <option desc="总是有炸弹II副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x0C"/>
+        </option>
+        <option desc="总是有凝固汽油弹副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x10"/>
+        </option>
+        <option desc="总是有凝固汽油弹II副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x14"/>
+        </option>
+        <option desc="总是有散射弹副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x1C"/>
+        </option>
+        <option desc="总是有散射弹II副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x20"/>
+        </option>
+        <option desc="总是有超级炮弹副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x34"/>
+        </option>
+        <option desc="总是有超级炮弹II副武器 PL2">
+            <parameter cpu="0" address="0xFF1661" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="结束游戏*" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF10D9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 1" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFF10D8" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFF10D8" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF10D8" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF10D8" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF10D8" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF10D8" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFF10D8" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 8">
+            <parameter cpu="0" address="0xFF10D8" value="0x07"/>
+        </option>
+        <option desc="选关 - 场景 9">
+            <parameter cpu="0" address="0xFF10D8" value="0x08"/>
+        </option>
+        <option desc="选关 - 场景 10">
+            <parameter cpu="0" address="0xFF10D8" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

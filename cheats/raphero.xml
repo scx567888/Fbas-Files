@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F900D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择场景" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x1F9021" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1F9021" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1F9021" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x1F9021" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x1F9021" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x1F9021" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x1F9021" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x1F9021" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7F2D" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7F29" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7F2F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大射击火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FF1" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FF5" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有自引导导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FFD" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FF9" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大''星''奖励 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7F97" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击普通射击武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FC3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FC7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击自引导导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FCF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7FCB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7E2D" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7E29" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7E2F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大射击火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7EF1" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7EF5" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有自引导导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7EFD" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7EF9" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大''星''奖励 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7E97" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击普通射击武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7EC3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7EC7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击自引导导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7ECF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F7ECB" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

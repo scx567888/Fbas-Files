@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC70000" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限燃料" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC71034" value="0x08"/>
+            <parameter cpu="0" address="0xC71035" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有地图" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC70144" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xC7011A" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xC7011A" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xC7011A" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xC7011A" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xC7011A" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xC7011A" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xC7011A" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xC7011A" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xC7011A" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xC7011A" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xC7011A" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xC7011A" value="0x0B"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xC7011A" value="0x0C"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xC7011A" value="0x0D"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xC7011A" value="0x0E"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xC7011A" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC701C0" value="0x00"/>
+            <parameter cpu="0" address="0xC70235" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC70066" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC70067" value="0x19"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续玩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100FEC" value="0x00"/>
+            <parameter cpu="0" address="0x10FD89" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010F2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010B0" value="0x09"/>
+            <parameter cpu="0" address="0x1010B1" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊武器能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010DD" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="射击火力最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010A0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="导弹火力最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010A1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x1010A2" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x1010A2" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1010A2" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1010A2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101015" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊武器总是可选 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010B2" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="激光">
+            <parameter cpu="0" address="0x1010B3" value="0x00"/>
+        </option>
+        <option desc="泡泡">
+            <parameter cpu="0" address="0x1010B3" value="0x01"/>
+        </option>
+        <option desc="副机">
+            <parameter cpu="0" address="0x1010B3" value="0x02"/>
+        </option>
+        <option desc="电浆炮">
+            <parameter cpu="0" address="0x1010B3" value="0x03"/>
+        </option>
+        <option desc="六向跟踪弹">
+            <parameter cpu="0" address="0x1010B3" value="0x04"/>
+        </option>
+        <option desc="双火焰">
+            <parameter cpu="0" address="0x1010B3" value="0x05"/>
+        </option>
+        <option desc="直火焰">
+            <parameter cpu="0" address="0x1010B3" value="0x06"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x1010B3" value="0x07"/>
+        </option>
+        <option desc="黑洞炮">
+            <parameter cpu="0" address="0x1010B3" value="0x08"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x1010B3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011F2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011B0" value="0x09"/>
+            <parameter cpu="0" address="0x1011B1" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊武器能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011DD" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="射击火力最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011A0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="导弹火力最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011A1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x1011A2" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x1011A2" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1011A2" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1011A2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101115" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊武器总是可选 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011B2" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="激光">
+            <parameter cpu="0" address="0x1011B3" value="0x00"/>
+        </option>
+        <option desc="泡泡">
+            <parameter cpu="0" address="0x1011B3" value="0x01"/>
+        </option>
+        <option desc="副机">
+            <parameter cpu="0" address="0x1011B3" value="0x02"/>
+        </option>
+        <option desc="电浆炮">
+            <parameter cpu="0" address="0x1011B3" value="0x03"/>
+        </option>
+        <option desc="六向跟踪弹">
+            <parameter cpu="0" address="0x1011B3" value="0x04"/>
+        </option>
+        <option desc="双火焰">
+            <parameter cpu="0" address="0x1011B3" value="0x05"/>
+        </option>
+        <option desc="直火焰">
+            <parameter cpu="0" address="0x1011B3" value="0x06"/>
+        </option>
+        <option desc="闪电">
+            <parameter cpu="0" address="0x1011B3" value="0x07"/>
+        </option>
+        <option desc="黑洞炮">
+            <parameter cpu="0" address="0x1011B3" value="0x08"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x1011B3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限购装备时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106884" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

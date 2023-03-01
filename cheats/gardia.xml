@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC028" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC04E" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大奖励碎片 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0B2" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC04F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大奖励碎片 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0B3" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xEF03" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xEF03" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xEF03" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xC03A" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xC03A" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xC03A" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xC03A" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

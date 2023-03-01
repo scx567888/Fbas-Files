@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101252" value="0xFF"/>
+            <parameter cpu="0" address="0x101253" value="0xDB"/>
+        </option>
+    </cheat>
+    <cheat desc="与Yacopu战斗 [首位Boss]!" default="0">
+        <option desc="关闭"/>
+        <option desc="与Yacopu战斗 [首位Boss]!">
+            <parameter cpu="0" address="0x105C49" value="0x08"/>
+        </option>
+        <option desc="与Felden战斗 [最终Boss]!">
+            <parameter cpu="0" address="0x105C49" value="0x09"/>
+        </option>
+        <option desc="与Rouwe战斗 [隐藏Boss]!">
+            <parameter cpu="0" address="0x105C49" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Felden PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Felden PL1">
+            <parameter cpu="0" address="0x105C7F" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Rouwe PL1">
+            <parameter cpu="0" address="0x105C7F" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x10103C" value="0xFF"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x10103C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x101152" value="0xFF"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x101152" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Felden PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Felden PL2">
+            <parameter cpu="0" address="0x105C81" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Rouwe PL2">
+            <parameter cpu="0" address="0x105C81" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101011" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Felden PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Felden PL1">
+            <parameter cpu="0" address="0x105C3D" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Yacopu PL1">
+            <parameter cpu="0" address="0x105C3D" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Rouwe PL1">
+            <parameter cpu="0" address="0x105C3D" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Bonus Kun PL1">
+            <parameter cpu="0" address="0x105C3D" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="快速动作 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101127" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Felden PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Felden PL2">
+            <parameter cpu="0" address="0x105C43" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Yacopu PL2">
+            <parameter cpu="0" address="0x105C43" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Rouwe PL2">
+            <parameter cpu="0" address="0x105C43" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色Bonus Kun PL2">
+            <parameter cpu="0" address="0x105C43" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

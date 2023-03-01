@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8EDB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8DE4" value="0x01"/>
+            <parameter cpu="0" address="0xFF8DE5" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="没有左边装备PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有左边装备PL1">
+            <parameter cpu="0" address="0xFF8E45" value="0x00"/>
+        </option>
+        <option desc="左边装备总是炸弹 PL1">
+            <parameter cpu="0" address="0xFF8E45" value="0x01"/>
+        </option>
+        <option desc="左边装备总是铁锤 PL1">
+            <parameter cpu="0" address="0xFF8E45" value="0x02"/>
+        </option>
+        <option desc="左边装备总是清除者 PL1">
+            <parameter cpu="0" address="0xFF8E45" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="没有右边装备PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有右边装备PL1">
+            <parameter cpu="0" address="0xFF8E43" value="0x00"/>
+        </option>
+        <option desc="右边装备总是炸弹 PL1">
+            <parameter cpu="0" address="0xFF8E43" value="0x01"/>
+        </option>
+        <option desc="右边装备总是铁锤 PL1">
+            <parameter cpu="0" address="0xFF8E43" value="0x02"/>
+        </option>
+        <option desc="右边装备总是清除者 PL1">
+            <parameter cpu="0" address="0xFF8E43" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8E60" value="0x01"/>
+            <parameter cpu="0" address="0xFF8E61" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="没有左边装备PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有左边装备PL2">
+            <parameter cpu="0" address="0xFF8EBF" value="0x00"/>
+        </option>
+        <option desc="左边装备总是炸弹 PL2">
+            <parameter cpu="0" address="0xFF8EBF" value="0x01"/>
+        </option>
+        <option desc="左边装备总是铁锤 PL2">
+            <parameter cpu="0" address="0xFF8EBF" value="0x02"/>
+        </option>
+        <option desc="左边装备总是清除者 PL2">
+            <parameter cpu="0" address="0xFF8EBF" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="没有右边装备PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有右边装备PL2">
+            <parameter cpu="0" address="0xFF8EC1" value="0x00"/>
+        </option>
+        <option desc="右边装备总是炸弹 PL2">
+            <parameter cpu="0" address="0xFF8EC1" value="0x01"/>
+        </option>
+        <option desc="右边装备总是铁锤 PL2">
+            <parameter cpu="0" address="0xFF8EC1" value="0x02"/>
+        </option>
+        <option desc="右边装备总是清除者 PL2">
+            <parameter cpu="0" address="0xFF8EC1" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE479" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE483" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="结束游戏过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE71E" value="0x24"/>
+            <parameter cpu="0" address="0xE71F" value="0x50"/>
+            <parameter cpu="0" address="0xE720" value="0x03"/>
+            <parameter cpu="0" address="0xE721" value="0x00"/>
+            <parameter cpu="0" address="0xE723" value="0xD3"/>
+            <parameter cpu="0" address="0xE724" value="0x8C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有大网" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE4C9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有防护帽" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE4CA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一大关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE474" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE474" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE474" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE474" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE474" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE474" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE474" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE474" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xE474" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xE474" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一小关" default="0">
+        <option desc="关闭"/>
+        <option desc="2">
+            <parameter cpu="0" address="0xE476" value="0x00"/>
+        </option>
+        <option desc="奖励 (3)">
+            <parameter cpu="0" address="0xE476" value="0x01"/>
+        </option>
+        <option desc="Boss (4)">
+            <parameter cpu="0" address="0xE476" value="0x02"/>
+        </option>
+        <option desc="完成后到下一大关">
+            <parameter cpu="0" address="0xE476" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币(左屏幕)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600A520" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间(左屏幕)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60347E0" value="0x00"/>
+            <parameter cpu="0" address="0x60347E1" value="0x12"/>
+            <parameter cpu="0" address="0x60347E2" value="0xC2"/>
+            <parameter cpu="0" address="0x60347E3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得一金币过关(左屏幕)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60347E5" value="0x01"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限投币(右屏幕)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600A521" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间(右屏幕)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6037BA4" value="0x00"/>
+            <parameter cpu="0" address="0x6037BA5" value="0x12"/>
+            <parameter cpu="0" address="0x6037BA6" value="0xC2"/>
+            <parameter cpu="0" address="0x6037BA7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得一金币过关(右屏幕)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6037BA9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间(左右对战时)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60347DC" value="0x00"/>
+            <parameter cpu="0" address="0x60347DD" value="0x00"/>
+            <parameter cpu="0" address="0x60347DE" value="0x02"/>
+            <parameter cpu="0" address="0x60347DF" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

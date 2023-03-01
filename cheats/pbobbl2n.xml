@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D617" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D6AD" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="指示线 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="指示线 ''开启''">
+            <parameter cpu="0" address="0x105834" value="0xFF"/>
+        </option>
+        <option desc="指示线 ''关闭''">
+            <parameter cpu="0" address="0x105834" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开始于局数 A-01 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开始于局数 A-01 !">
+            <parameter cpu="0" address="0x10582D" value="0x00"/>
+            <parameter cpu="0" address="0x105831" value="0x00"/>
+            <parameter cpu="0" address="0x10E701" value="0x00"/>
+        </option>
+        <option desc="开始于局数 A-02 !">
+            <parameter cpu="0" address="0x10582D" value="0x01"/>
+            <parameter cpu="0" address="0x105831" value="0x01"/>
+            <parameter cpu="0" address="0x10E701" value="0x00"/>
+        </option>
+        <option desc="开始于局数 A-03 !">
+            <parameter cpu="0" address="0x10582D" value="0x02"/>
+            <parameter cpu="0" address="0x105831" value="0x02"/>
+            <parameter cpu="0" address="0x10E701" value="0x00"/>
+        </option>
+        <option desc="开始于局数 A-04 !">
+            <parameter cpu="0" address="0x10582D" value="0x03"/>
+            <parameter cpu="0" address="0x105831" value="0x03"/>
+            <parameter cpu="0" address="0x10E701" value="0x00"/>
+        </option>
+        <option desc="开始于局数 A-05 !">
+            <parameter cpu="0" address="0x10582D" value="0x04"/>
+            <parameter cpu="0" address="0x105831" value="0x04"/>
+            <parameter cpu="0" address="0x10E701" value="0x00"/>
+        </option>
+        <option desc="开始于局数 B-01 !">
+            <parameter cpu="0" address="0x10582D" value="0x00"/>
+            <parameter cpu="0" address="0x105831" value="0x00"/>
+            <parameter cpu="0" address="0x10E701" value="0x01"/>
+        </option>
+        <option desc="开始于局数 B-02 !">
+            <parameter cpu="0" address="0x10582D" value="0x01"/>
+            <parameter cpu="0" address="0x105831" value="0x01"/>
+            <parameter cpu="0" address="0x10E701" value="0x01"/>
+        </option>
+        <option desc="开始于局数 B-03 !">
+            <parameter cpu="0" address="0x10582D" value="0x02"/>
+            <parameter cpu="0" address="0x105831" value="0x02"/>
+            <parameter cpu="0" address="0x10E701" value="0x01"/>
+        </option>
+        <option desc="开始于局数 B-04 !">
+            <parameter cpu="0" address="0x10582D" value="0x03"/>
+            <parameter cpu="0" address="0x105831" value="0x03"/>
+            <parameter cpu="0" address="0x10E701" value="0x01"/>
+        </option>
+        <option desc="开始于局数 B-05 !">
+            <parameter cpu="0" address="0x10582D" value="0x04"/>
+            <parameter cpu="0" address="0x105831" value="0x04"/>
+            <parameter cpu="0" address="0x10E701" value="0x01"/>
+        </option>
+        <option desc="开始于局数 C-06 !">
+            <parameter cpu="0" address="0x10582D" value="0x05"/>
+            <parameter cpu="0" address="0x105831" value="0x05"/>
+            <parameter cpu="0" address="0x10E701" value="0x02"/>
+        </option>
+        <option desc="开始于局数 C-07 !">
+            <parameter cpu="0" address="0x10582D" value="0x06"/>
+            <parameter cpu="0" address="0x105831" value="0x06"/>
+            <parameter cpu="0" address="0x10E701" value="0x02"/>
+        </option>
+        <option desc="开始于局数 C-08 !">
+            <parameter cpu="0" address="0x10582D" value="0x07"/>
+            <parameter cpu="0" address="0x105831" value="0x07"/>
+            <parameter cpu="0" address="0x10E701" value="0x02"/>
+        </option>
+        <option desc="开始于局数 C-09 !">
+            <parameter cpu="0" address="0x10582D" value="0x08"/>
+            <parameter cpu="0" address="0x105831" value="0x08"/>
+            <parameter cpu="0" address="0x10E701" value="0x02"/>
+        </option>
+        <option desc="开始于局数 C-10 !">
+            <parameter cpu="0" address="0x10582D" value="0x09"/>
+            <parameter cpu="0" address="0x105831" value="0x09"/>
+            <parameter cpu="0" address="0x10E701" value="0x02"/>
+        </option>
+        <option desc="开始于局数 D-06 !">
+            <parameter cpu="0" address="0x10582D" value="0x05"/>
+            <parameter cpu="0" address="0x105831" value="0x05"/>
+            <parameter cpu="0" address="0x10E701" value="0x03"/>
+        </option>
+        <option desc="开始于局数 D-07 !">
+            <parameter cpu="0" address="0x10582D" value="0x06"/>
+            <parameter cpu="0" address="0x105831" value="0x06"/>
+            <parameter cpu="0" address="0x10E701" value="0x03"/>
+        </option>
+        <option desc="开始于局数 D-08 !">
+            <parameter cpu="0" address="0x10582D" value="0x07"/>
+            <parameter cpu="0" address="0x105831" value="0x07"/>
+            <parameter cpu="0" address="0x10E701" value="0x03"/>
+        </option>
+        <option desc="开始于局数 D-09 !">
+            <parameter cpu="0" address="0x10582D" value="0x08"/>
+            <parameter cpu="0" address="0x105831" value="0x08"/>
+            <parameter cpu="0" address="0x10E701" value="0x03"/>
+        </option>
+        <option desc="开始于局数 D-10 !">
+            <parameter cpu="0" address="0x10582D" value="0x09"/>
+            <parameter cpu="0" address="0x105831" value="0x09"/>
+            <parameter cpu="0" address="0x10E701" value="0x03"/>
+        </option>
+        <option desc="开始于局数 E-06 !">
+            <parameter cpu="0" address="0x10582D" value="0x05"/>
+            <parameter cpu="0" address="0x105831" value="0x05"/>
+            <parameter cpu="0" address="0x10E701" value="0x04"/>
+        </option>
+        <option desc="开始于局数 E-07 !">
+            <parameter cpu="0" address="0x10582D" value="0x06"/>
+            <parameter cpu="0" address="0x105831" value="0x06"/>
+            <parameter cpu="0" address="0x10E701" value="0x04"/>
+        </option>
+        <option desc="开始于局数 E-08 !">
+            <parameter cpu="0" address="0x10582D" value="0x07"/>
+            <parameter cpu="0" address="0x105831" value="0x07"/>
+            <parameter cpu="0" address="0x10E701" value="0x04"/>
+        </option>
+        <option desc="开始于局数 E-09 !">
+            <parameter cpu="0" address="0x10582D" value="0x08"/>
+            <parameter cpu="0" address="0x105831" value="0x08"/>
+            <parameter cpu="0" address="0x10E701" value="0x04"/>
+        </option>
+        <option desc="开始于局数 E-10 !">
+            <parameter cpu="0" address="0x10582D" value="0x09"/>
+            <parameter cpu="0" address="0x105831" value="0x09"/>
+            <parameter cpu="0" address="0x10E701" value="0x04"/>
+        </option>
+        <option desc="开始于局数 F-11 !">
+            <parameter cpu="0" address="0x10582D" value="0x0A"/>
+            <parameter cpu="0" address="0x105831" value="0x0A"/>
+            <parameter cpu="0" address="0x10E701" value="0x05"/>
+        </option>
+        <option desc="开始于局数 F-12 !">
+            <parameter cpu="0" address="0x10582D" value="0x0B"/>
+            <parameter cpu="0" address="0x105831" value="0x0B"/>
+            <parameter cpu="0" address="0x10E701" value="0x05"/>
+        </option>
+        <option desc="开始于局数 F-13 !">
+            <parameter cpu="0" address="0x10582D" value="0x0C"/>
+            <parameter cpu="0" address="0x105831" value="0x0C"/>
+            <parameter cpu="0" address="0x10E701" value="0x05"/>
+        </option>
+        <option desc="开始于局数 F-14 !">
+            <parameter cpu="0" address="0x10582D" value="0x0D"/>
+            <parameter cpu="0" address="0x105831" value="0x0D"/>
+            <parameter cpu="0" address="0x10E701" value="0x05"/>
+        </option>
+        <option desc="开始于局数 F-15 !">
+            <parameter cpu="0" address="0x10582D" value="0x0E"/>
+            <parameter cpu="0" address="0x105831" value="0x0E"/>
+            <parameter cpu="0" address="0x10E701" value="0x05"/>
+        </option>
+        <option desc="开始于局数 G-11 !">
+            <parameter cpu="0" address="0x10582D" value="0x0A"/>
+            <parameter cpu="0" address="0x105831" value="0x0A"/>
+            <parameter cpu="0" address="0x10E701" value="0x06"/>
+        </option>
+        <option desc="开始于局数 G-12 !">
+            <parameter cpu="0" address="0x10582D" value="0x0B"/>
+            <parameter cpu="0" address="0x105831" value="0x0B"/>
+            <parameter cpu="0" address="0x10E701" value="0x06"/>
+        </option>
+        <option desc="开始于局数 G-13 !">
+            <parameter cpu="0" address="0x10582D" value="0x0C"/>
+            <parameter cpu="0" address="0x105831" value="0x0C"/>
+            <parameter cpu="0" address="0x10E701" value="0x06"/>
+        </option>
+        <option desc="开始于局数 G-14 !">
+            <parameter cpu="0" address="0x10582D" value="0x0D"/>
+            <parameter cpu="0" address="0x105831" value="0x0D"/>
+            <parameter cpu="0" address="0x10E701" value="0x06"/>
+        </option>
+        <option desc="开始于局数 G-15 !">
+            <parameter cpu="0" address="0x10582D" value="0x0E"/>
+            <parameter cpu="0" address="0x105831" value="0x0E"/>
+            <parameter cpu="0" address="0x10E701" value="0x06"/>
+        </option>
+        <option desc="开始于局数 H-11 !">
+            <parameter cpu="0" address="0x10582D" value="0x0A"/>
+            <parameter cpu="0" address="0x105831" value="0x0A"/>
+            <parameter cpu="0" address="0x10E701" value="0x07"/>
+        </option>
+        <option desc="开始于局数 H-12 !">
+            <parameter cpu="0" address="0x10582D" value="0x0B"/>
+            <parameter cpu="0" address="0x105831" value="0x0B"/>
+            <parameter cpu="0" address="0x10E701" value="0x07"/>
+        </option>
+        <option desc="开始于局数 H-13 !">
+            <parameter cpu="0" address="0x10582D" value="0x0C"/>
+            <parameter cpu="0" address="0x105831" value="0x0C"/>
+            <parameter cpu="0" address="0x10E701" value="0x07"/>
+        </option>
+        <option desc="开始于局数 H-14 !">
+            <parameter cpu="0" address="0x10582D" value="0x0D"/>
+            <parameter cpu="0" address="0x105831" value="0x0D"/>
+            <parameter cpu="0" address="0x10E701" value="0x07"/>
+        </option>
+        <option desc="开始于局数 H-15 !">
+            <parameter cpu="0" address="0x10582D" value="0x0E"/>
+            <parameter cpu="0" address="0x105831" value="0x0E"/>
+            <parameter cpu="0" address="0x10E701" value="0x07"/>
+        </option>
+        <option desc="开始于局数 I-11 !">
+            <parameter cpu="0" address="0x10582D" value="0x0A"/>
+            <parameter cpu="0" address="0x105831" value="0x0A"/>
+            <parameter cpu="0" address="0x10E701" value="0x08"/>
+        </option>
+        <option desc="开始于局数 I-12 !">
+            <parameter cpu="0" address="0x10582D" value="0x0B"/>
+            <parameter cpu="0" address="0x105831" value="0x0B"/>
+            <parameter cpu="0" address="0x10E701" value="0x08"/>
+        </option>
+        <option desc="开始于局数 I-13 !">
+            <parameter cpu="0" address="0x10582D" value="0x0C"/>
+            <parameter cpu="0" address="0x105831" value="0x0C"/>
+            <parameter cpu="0" address="0x10E701" value="0x08"/>
+        </option>
+        <option desc="开始于局数 I-14 !">
+            <parameter cpu="0" address="0x10582D" value="0x0D"/>
+            <parameter cpu="0" address="0x105831" value="0x0D"/>
+            <parameter cpu="0" address="0x10E701" value="0x08"/>
+        </option>
+        <option desc="开始于局数 I-15 !">
+            <parameter cpu="0" address="0x10582D" value="0x0E"/>
+            <parameter cpu="0" address="0x105831" value="0x0E"/>
+            <parameter cpu="0" address="0x10E701" value="0x08"/>
+        </option>
+        <option desc="开始于局数 J-16 !">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x09"/>
+        </option>
+        <option desc="开始于局数 J-17 !">
+            <parameter cpu="0" address="0x10582D" value="0x10"/>
+            <parameter cpu="0" address="0x105831" value="0x10"/>
+            <parameter cpu="0" address="0x10E701" value="0x09"/>
+        </option>
+        <option desc="开始于局数 J-18 !">
+            <parameter cpu="0" address="0x10582D" value="0x11"/>
+            <parameter cpu="0" address="0x105831" value="0x11"/>
+            <parameter cpu="0" address="0x10E701" value="0x09"/>
+        </option>
+        <option desc="开始于局数 J-19 !">
+            <parameter cpu="0" address="0x10582D" value="0x12"/>
+            <parameter cpu="0" address="0x105831" value="0x12"/>
+            <parameter cpu="0" address="0x10E701" value="0x09"/>
+        </option>
+        <option desc="开始于局数 J-20 !">
+            <parameter cpu="0" address="0x10582D" value="0x13"/>
+            <parameter cpu="0" address="0x105831" value="0x13"/>
+            <parameter cpu="0" address="0x10E701" value="0x09"/>
+        </option>
+        <option desc="开始于局数 K-16 !">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x0A"/>
+        </option>
+        <option desc="开始于局数 K-17 !">
+            <parameter cpu="0" address="0x10582D" value="0x10"/>
+            <parameter cpu="0" address="0x105831" value="0x10"/>
+            <parameter cpu="0" address="0x10E701" value="0x0A"/>
+        </option>
+        <option desc="开始于局数 K-18 !">
+            <parameter cpu="0" address="0x10582D" value="0x11"/>
+            <parameter cpu="0" address="0x105831" value="0x11"/>
+            <parameter cpu="0" address="0x10E701" value="0x0A"/>
+        </option>
+        <option desc="开始于局数 K-19 !">
+            <parameter cpu="0" address="0x10582D" value="0x12"/>
+            <parameter cpu="0" address="0x105831" value="0x12"/>
+            <parameter cpu="0" address="0x10E701" value="0x0A"/>
+        </option>
+        <option desc="开始于局数 K-20 !">
+            <parameter cpu="0" address="0x10582D" value="0x13"/>
+            <parameter cpu="0" address="0x105831" value="0x13"/>
+            <parameter cpu="0" address="0x10E701" value="0x0A"/>
+        </option>
+        <option desc="开始于局数 L-16 !">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x0B"/>
+        </option>
+        <option desc="开始于局数 L-17 !">
+            <parameter cpu="0" address="0x10582D" value="0x10"/>
+            <parameter cpu="0" address="0x105831" value="0x10"/>
+            <parameter cpu="0" address="0x10E701" value="0x0B"/>
+        </option>
+        <option desc="开始于局数 L-18 !">
+            <parameter cpu="0" address="0x10582D" value="0x11"/>
+            <parameter cpu="0" address="0x105831" value="0x11"/>
+            <parameter cpu="0" address="0x10E701" value="0x0B"/>
+        </option>
+        <option desc="开始于局数 L-19 !">
+            <parameter cpu="0" address="0x10582D" value="0x12"/>
+            <parameter cpu="0" address="0x105831" value="0x12"/>
+            <parameter cpu="0" address="0x10E701" value="0x0B"/>
+        </option>
+        <option desc="开始于局数 L-20 !">
+            <parameter cpu="0" address="0x10582D" value="0x13"/>
+            <parameter cpu="0" address="0x105831" value="0x13"/>
+            <parameter cpu="0" address="0x10E701" value="0x0B"/>
+        </option>
+        <option desc="开始于局数 M-16 !">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x0C"/>
+        </option>
+        <option desc="开始于局数 M-17 !">
+            <parameter cpu="0" address="0x10582D" value="0x10"/>
+            <parameter cpu="0" address="0x105831" value="0x10"/>
+            <parameter cpu="0" address="0x10E701" value="0x0C"/>
+        </option>
+        <option desc="开始于局数 M-18 !">
+            <parameter cpu="0" address="0x10582D" value="0x11"/>
+            <parameter cpu="0" address="0x105831" value="0x11"/>
+            <parameter cpu="0" address="0x10E701" value="0x0C"/>
+        </option>
+        <option desc="开始于局数 M-19 !">
+            <parameter cpu="0" address="0x10582D" value="0x12"/>
+            <parameter cpu="0" address="0x105831" value="0x12"/>
+            <parameter cpu="0" address="0x10E701" value="0x0C"/>
+        </option>
+        <option desc="开始于局数 M-20 !">
+            <parameter cpu="0" address="0x10582D" value="0x13"/>
+            <parameter cpu="0" address="0x105831" value="0x13"/>
+            <parameter cpu="0" address="0x10E701" value="0x0C"/>
+        </option>
+        <option desc="开始于局数 N-16 !">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x0D"/>
+        </option>
+        <option desc="开始于局数 N-17 !">
+            <parameter cpu="0" address="0x10582D" value="0x10"/>
+            <parameter cpu="0" address="0x105831" value="0x10"/>
+            <parameter cpu="0" address="0x10E701" value="0x0D"/>
+        </option>
+        <option desc="开始于局数 N-18 !">
+            <parameter cpu="0" address="0x10582D" value="0x11"/>
+            <parameter cpu="0" address="0x105831" value="0x11"/>
+            <parameter cpu="0" address="0x10E701" value="0x0D"/>
+        </option>
+        <option desc="开始于局数 N-19 !">
+            <parameter cpu="0" address="0x10582D" value="0x12"/>
+            <parameter cpu="0" address="0x105831" value="0x12"/>
+            <parameter cpu="0" address="0x10E701" value="0x0D"/>
+        </option>
+        <option desc="开始于局数 N-20 !">
+            <parameter cpu="0" address="0x10582D" value="0x13"/>
+            <parameter cpu="0" address="0x105831" value="0x13"/>
+            <parameter cpu="0" address="0x10E701" value="0x0D"/>
+        </option>
+        <option desc="开始于局数 O-21 !">
+            <parameter cpu="0" address="0x10582D" value="0x14"/>
+            <parameter cpu="0" address="0x105831" value="0x14"/>
+            <parameter cpu="0" address="0x10E701" value="0x0E"/>
+        </option>
+        <option desc="开始于局数 O-22 !">
+            <parameter cpu="0" address="0x10582D" value="0x15"/>
+            <parameter cpu="0" address="0x105831" value="0x15"/>
+            <parameter cpu="0" address="0x10E701" value="0x0E"/>
+        </option>
+        <option desc="开始于局数 O-23 !">
+            <parameter cpu="0" address="0x10582D" value="0x16"/>
+            <parameter cpu="0" address="0x105831" value="0x16"/>
+            <parameter cpu="0" address="0x10E701" value="0x0E"/>
+        </option>
+        <option desc="开始于局数 O-24 !">
+            <parameter cpu="0" address="0x10582D" value="0x17"/>
+            <parameter cpu="0" address="0x105831" value="0x17"/>
+            <parameter cpu="0" address="0x10E701" value="0x0E"/>
+        </option>
+        <option desc="开始于局数 O-25 !">
+            <parameter cpu="0" address="0x10582D" value="0x18"/>
+            <parameter cpu="0" address="0x105831" value="0x18"/>
+            <parameter cpu="0" address="0x10E701" value="0x0E"/>
+        </option>
+        <option desc="开始于局数 P-21 !">
+            <parameter cpu="0" address="0x10582D" value="0x14"/>
+            <parameter cpu="0" address="0x105831" value="0x14"/>
+            <parameter cpu="0" address="0x10E701" value="0x0F"/>
+        </option>
+        <option desc="开始于局数 P-22 !">
+            <parameter cpu="0" address="0x10582D" value="0x15"/>
+            <parameter cpu="0" address="0x105831" value="0x15"/>
+            <parameter cpu="0" address="0x10E701" value="0x0F"/>
+        </option>
+        <option desc="开始于局数 P-23 !">
+            <parameter cpu="0" address="0x10582D" value="0x16"/>
+            <parameter cpu="0" address="0x105831" value="0x16"/>
+            <parameter cpu="0" address="0x10E701" value="0x0F"/>
+        </option>
+        <option desc="开始于局数 P-24 !">
+            <parameter cpu="0" address="0x10582D" value="0x17"/>
+            <parameter cpu="0" address="0x105831" value="0x17"/>
+            <parameter cpu="0" address="0x10E701" value="0x0F"/>
+        </option>
+        <option desc="开始于局数 P-25 !">
+            <parameter cpu="0" address="0x10582D" value="0x18"/>
+            <parameter cpu="0" address="0x105831" value="0x18"/>
+            <parameter cpu="0" address="0x10E701" value="0x0F"/>
+        </option>
+        <option desc="开始于局数 Q-21 !">
+            <parameter cpu="0" address="0x10582D" value="0x14"/>
+            <parameter cpu="0" address="0x105831" value="0x14"/>
+            <parameter cpu="0" address="0x10E701" value="0x10"/>
+        </option>
+        <option desc="开始于局数 Q-22 !">
+            <parameter cpu="0" address="0x10582D" value="0x15"/>
+            <parameter cpu="0" address="0x105831" value="0x15"/>
+            <parameter cpu="0" address="0x10E701" value="0x10"/>
+        </option>
+        <option desc="开始于局数 Q-23 !">
+            <parameter cpu="0" address="0x10582D" value="0x16"/>
+            <parameter cpu="0" address="0x105831" value="0x16"/>
+            <parameter cpu="0" address="0x10E701" value="0x10"/>
+        </option>
+        <option desc="开始于局数 Q-24 !">
+            <parameter cpu="0" address="0x10582D" value="0x17"/>
+            <parameter cpu="0" address="0x105831" value="0x17"/>
+            <parameter cpu="0" address="0x10E701" value="0x10"/>
+        </option>
+        <option desc="开始于局数 Q-25 !">
+            <parameter cpu="0" address="0x10582D" value="0x18"/>
+            <parameter cpu="0" address="0x105831" value="0x18"/>
+            <parameter cpu="0" address="0x10E701" value="0x10"/>
+        </option>
+        <option desc="开始于局数 R-21 !">
+            <parameter cpu="0" address="0x10582D" value="0x14"/>
+            <parameter cpu="0" address="0x105831" value="0x14"/>
+            <parameter cpu="0" address="0x10E701" value="0x11"/>
+        </option>
+        <option desc="开始于局数 R-22 !">
+            <parameter cpu="0" address="0x10582D" value="0x15"/>
+            <parameter cpu="0" address="0x105831" value="0x15"/>
+            <parameter cpu="0" address="0x10E701" value="0x11"/>
+        </option>
+        <option desc="开始于局数 R-23 !">
+            <parameter cpu="0" address="0x10582D" value="0x16"/>
+            <parameter cpu="0" address="0x105831" value="0x16"/>
+            <parameter cpu="0" address="0x10E701" value="0x11"/>
+        </option>
+        <option desc="开始于局数 R-24 !">
+            <parameter cpu="0" address="0x10582D" value="0x17"/>
+            <parameter cpu="0" address="0x105831" value="0x17"/>
+            <parameter cpu="0" address="0x10E701" value="0x11"/>
+        </option>
+        <option desc="开始于局数 R-25 !">
+            <parameter cpu="0" address="0x10582D" value="0x18"/>
+            <parameter cpu="0" address="0x105831" value="0x18"/>
+            <parameter cpu="0" address="0x10E701" value="0x11"/>
+        </option>
+        <option desc="开始于局数 S-21 !">
+            <parameter cpu="0" address="0x10582D" value="0x14"/>
+            <parameter cpu="0" address="0x105831" value="0x14"/>
+            <parameter cpu="0" address="0x10E701" value="0x12"/>
+        </option>
+        <option desc="开始于局数 S-22 !">
+            <parameter cpu="0" address="0x10582D" value="0x15"/>
+            <parameter cpu="0" address="0x105831" value="0x15"/>
+            <parameter cpu="0" address="0x10E701" value="0x12"/>
+        </option>
+        <option desc="开始于局数 S-23 !">
+            <parameter cpu="0" address="0x10582D" value="0x16"/>
+            <parameter cpu="0" address="0x105831" value="0x16"/>
+            <parameter cpu="0" address="0x10E701" value="0x12"/>
+        </option>
+        <option desc="开始于局数 S-24 !">
+            <parameter cpu="0" address="0x10582D" value="0x17"/>
+            <parameter cpu="0" address="0x105831" value="0x17"/>
+            <parameter cpu="0" address="0x10E701" value="0x12"/>
+        </option>
+        <option desc="开始于局数 S-25 !">
+            <parameter cpu="0" address="0x10582D" value="0x18"/>
+            <parameter cpu="0" address="0x105831" value="0x18"/>
+            <parameter cpu="0" address="0x10E701" value="0x12"/>
+        </option>
+        <option desc="开始于局数 T-21 !">
+            <parameter cpu="0" address="0x10582D" value="0x14"/>
+            <parameter cpu="0" address="0x105831" value="0x14"/>
+            <parameter cpu="0" address="0x10E701" value="0x13"/>
+        </option>
+        <option desc="开始于局数 T-22 !">
+            <parameter cpu="0" address="0x10582D" value="0x15"/>
+            <parameter cpu="0" address="0x105831" value="0x15"/>
+            <parameter cpu="0" address="0x10E701" value="0x13"/>
+        </option>
+        <option desc="开始于局数 T-23 !">
+            <parameter cpu="0" address="0x10582D" value="0x16"/>
+            <parameter cpu="0" address="0x105831" value="0x16"/>
+            <parameter cpu="0" address="0x10E701" value="0x13"/>
+        </option>
+        <option desc="开始于局数 T-24 !">
+            <parameter cpu="0" address="0x10582D" value="0x17"/>
+            <parameter cpu="0" address="0x105831" value="0x17"/>
+            <parameter cpu="0" address="0x10E701" value="0x13"/>
+        </option>
+        <option desc="开始于局数 T-25 !">
+            <parameter cpu="0" address="0x10582D" value="0x18"/>
+            <parameter cpu="0" address="0x105831" value="0x18"/>
+            <parameter cpu="0" address="0x10E701" value="0x13"/>
+        </option>
+        <option desc="开始于局数 U-26 !">
+            <parameter cpu="0" address="0x10582D" value="0x19"/>
+            <parameter cpu="0" address="0x105831" value="0x19"/>
+            <parameter cpu="0" address="0x10E701" value="0x14"/>
+        </option>
+        <option desc="开始于局数 U-27 !">
+            <parameter cpu="0" address="0x10582D" value="0x1A"/>
+            <parameter cpu="0" address="0x105831" value="0x1A"/>
+            <parameter cpu="0" address="0x10E701" value="0x14"/>
+        </option>
+        <option desc="开始于局数 U-28 !">
+            <parameter cpu="0" address="0x10582D" value="0x1B"/>
+            <parameter cpu="0" address="0x105831" value="0x1B"/>
+            <parameter cpu="0" address="0x10E701" value="0x14"/>
+        </option>
+        <option desc="开始于局数 U-29 !">
+            <parameter cpu="0" address="0x10582D" value="0x1C"/>
+            <parameter cpu="0" address="0x105831" value="0x1C"/>
+            <parameter cpu="0" address="0x10E701" value="0x14"/>
+        </option>
+        <option desc="开始于局数 U-30 !">
+            <parameter cpu="0" address="0x10582D" value="0x1D"/>
+            <parameter cpu="0" address="0x105831" value="0x1D"/>
+            <parameter cpu="0" address="0x10E701" value="0x14"/>
+        </option>
+        <option desc="开始于局数 V-26 !">
+            <parameter cpu="0" address="0x10582D" value="0x19"/>
+            <parameter cpu="0" address="0x105831" value="0x19"/>
+            <parameter cpu="0" address="0x10E701" value="0x15"/>
+        </option>
+        <option desc="开始于局数 V-27 !">
+            <parameter cpu="0" address="0x10582D" value="0x1A"/>
+            <parameter cpu="0" address="0x105831" value="0x1A"/>
+            <parameter cpu="0" address="0x10E701" value="0x15"/>
+        </option>
+        <option desc="开始于局数 V-28 !">
+            <parameter cpu="0" address="0x10582D" value="0x1B"/>
+            <parameter cpu="0" address="0x105831" value="0x1B"/>
+            <parameter cpu="0" address="0x10E701" value="0x15"/>
+        </option>
+        <option desc="开始于局数 V-29 !">
+            <parameter cpu="0" address="0x10582D" value="0x1C"/>
+            <parameter cpu="0" address="0x105831" value="0x1C"/>
+            <parameter cpu="0" address="0x10E701" value="0x15"/>
+        </option>
+        <option desc="开始于局数 V-30 !">
+            <parameter cpu="0" address="0x10582D" value="0x1D"/>
+            <parameter cpu="0" address="0x105831" value="0x1D"/>
+            <parameter cpu="0" address="0x10E701" value="0x15"/>
+        </option>
+        <option desc="开始于局数 W-26 !">
+            <parameter cpu="0" address="0x10582D" value="0x19"/>
+            <parameter cpu="0" address="0x105831" value="0x19"/>
+            <parameter cpu="0" address="0x10E701" value="0x16"/>
+        </option>
+        <option desc="开始于局数 W-27 !">
+            <parameter cpu="0" address="0x10582D" value="0x1A"/>
+            <parameter cpu="0" address="0x105831" value="0x1A"/>
+            <parameter cpu="0" address="0x10E701" value="0x16"/>
+        </option>
+        <option desc="开始于局数 W-28 !">
+            <parameter cpu="0" address="0x10582D" value="0x1B"/>
+            <parameter cpu="0" address="0x105831" value="0x1B"/>
+            <parameter cpu="0" address="0x10E701" value="0x16"/>
+        </option>
+        <option desc="开始于局数 W-29 !">
+            <parameter cpu="0" address="0x10582D" value="0x1C"/>
+            <parameter cpu="0" address="0x105831" value="0x1C"/>
+            <parameter cpu="0" address="0x10E701" value="0x16"/>
+        </option>
+        <option desc="开始于局数 W-30 !">
+            <parameter cpu="0" address="0x10582D" value="0x1D"/>
+            <parameter cpu="0" address="0x105831" value="0x1D"/>
+            <parameter cpu="0" address="0x10E701" value="0x16"/>
+        </option>
+        <option desc="开始于局数 ?-26 !">
+            <parameter cpu="0" address="0x10582D" value="0x19"/>
+            <parameter cpu="0" address="0x105831" value="0x19"/>
+            <parameter cpu="0" address="0x10E701" value="0x17"/>
+        </option>
+        <option desc="开始于局数 ?-27 !">
+            <parameter cpu="0" address="0x10582D" value="0x1A"/>
+            <parameter cpu="0" address="0x105831" value="0x1A"/>
+            <parameter cpu="0" address="0x10E701" value="0x17"/>
+        </option>
+        <option desc="开始于局数 ?-28 !">
+            <parameter cpu="0" address="0x10582D" value="0x1B"/>
+            <parameter cpu="0" address="0x105831" value="0x1B"/>
+            <parameter cpu="0" address="0x10E701" value="0x17"/>
+        </option>
+        <option desc="开始于局数 ?-29 !">
+            <parameter cpu="0" address="0x10582D" value="0x1C"/>
+            <parameter cpu="0" address="0x105831" value="0x1C"/>
+            <parameter cpu="0" address="0x10E701" value="0x17"/>
+        </option>
+        <option desc="开始于局数 ?-30 !">
+            <parameter cpu="0" address="0x10582D" value="0x1D"/>
+            <parameter cpu="0" address="0x105831" value="0x1D"/>
+            <parameter cpu="0" address="0x10E701" value="0x17"/>
+        </option>
+        <option desc="开始于局数 X-26 !">
+            <parameter cpu="0" address="0x10582D" value="0x19"/>
+            <parameter cpu="0" address="0x105831" value="0x19"/>
+            <parameter cpu="0" address="0x10E701" value="0x18"/>
+        </option>
+        <option desc="开始于局数 X-27 !">
+            <parameter cpu="0" address="0x10582D" value="0x1A"/>
+            <parameter cpu="0" address="0x105831" value="0x1A"/>
+            <parameter cpu="0" address="0x10E701" value="0x18"/>
+        </option>
+        <option desc="开始于局数 X-28 !">
+            <parameter cpu="0" address="0x10582D" value="0x1B"/>
+            <parameter cpu="0" address="0x105831" value="0x1B"/>
+            <parameter cpu="0" address="0x10E701" value="0x18"/>
+        </option>
+        <option desc="开始于局数 X-29 !">
+            <parameter cpu="0" address="0x10582D" value="0x1C"/>
+            <parameter cpu="0" address="0x105831" value="0x1C"/>
+            <parameter cpu="0" address="0x10E701" value="0x18"/>
+        </option>
+        <option desc="开始于局数 X-30 !">
+            <parameter cpu="0" address="0x10582D" value="0x1D"/>
+            <parameter cpu="0" address="0x105831" value="0x1D"/>
+            <parameter cpu="0" address="0x10E701" value="0x18"/>
+        </option>
+        <option desc="开始于局数 Y-26 !">
+            <parameter cpu="0" address="0x10582D" value="0x19"/>
+            <parameter cpu="0" address="0x105831" value="0x19"/>
+            <parameter cpu="0" address="0x10E701" value="0x19"/>
+        </option>
+        <option desc="开始于局数 Y-27 !">
+            <parameter cpu="0" address="0x10582D" value="0x1A"/>
+            <parameter cpu="0" address="0x105831" value="0x1A"/>
+            <parameter cpu="0" address="0x10E701" value="0x19"/>
+        </option>
+        <option desc="开始于局数 Y-28 !">
+            <parameter cpu="0" address="0x10582D" value="0x1B"/>
+            <parameter cpu="0" address="0x105831" value="0x1B"/>
+            <parameter cpu="0" address="0x10E701" value="0x19"/>
+        </option>
+        <option desc="开始于局数 Y-29 !">
+            <parameter cpu="0" address="0x10582D" value="0x1C"/>
+            <parameter cpu="0" address="0x105831" value="0x1C"/>
+            <parameter cpu="0" address="0x10E701" value="0x19"/>
+        </option>
+        <option desc="开始于局数 Y-30 !">
+            <parameter cpu="0" address="0x10582D" value="0x1D"/>
+            <parameter cpu="0" address="0x105831" value="0x1D"/>
+            <parameter cpu="0" address="0x10E701" value="0x19"/>
+        </option>
+        <option desc="开始于局数 Z-26 !">
+            <parameter cpu="0" address="0x10582D" value="0x19"/>
+            <parameter cpu="0" address="0x105831" value="0x19"/>
+            <parameter cpu="0" address="0x10E701" value="0x1A"/>
+        </option>
+        <option desc="开始于局数 Z-27 !">
+            <parameter cpu="0" address="0x10582D" value="0x1A"/>
+            <parameter cpu="0" address="0x105831" value="0x1A"/>
+            <parameter cpu="0" address="0x10E701" value="0x1A"/>
+        </option>
+        <option desc="开始于局数 Z-28 !">
+            <parameter cpu="0" address="0x10582D" value="0x1B"/>
+            <parameter cpu="0" address="0x105831" value="0x1B"/>
+            <parameter cpu="0" address="0x10E701" value="0x1A"/>
+        </option>
+        <option desc="开始于局数 Z-29 !">
+            <parameter cpu="0" address="0x10582D" value="0x1C"/>
+            <parameter cpu="0" address="0x105831" value="0x1C"/>
+            <parameter cpu="0" address="0x10E701" value="0x1A"/>
+        </option>
+        <option desc="开始于局数 Z-30 !">
+            <parameter cpu="0" address="0x10582D" value="0x1D"/>
+            <parameter cpu="0" address="0x105831" value="0x1D"/>
+            <parameter cpu="0" address="0x10E701" value="0x1A"/>
+        </option>
+        <option desc="去到关卡 F-15 下次!">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x05"/>
+        </option>
+        <option desc="去到关卡 G-15 下次!">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x06"/>
+        </option>
+        <option desc="去到关卡 H-15 下次!">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x07"/>
+        </option>
+        <option desc="去到关卡 I-15 下次!">
+            <parameter cpu="0" address="0x10582D" value="0x0F"/>
+            <parameter cpu="0" address="0x105831" value="0x0F"/>
+            <parameter cpu="0" address="0x10E701" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

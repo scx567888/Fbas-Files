@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x26" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x58" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL1">
+            <parameter cpu="0" address="0x480" value="0x02"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL1">
+            <parameter cpu="0" address="0x480" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x59" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL2">
+            <parameter cpu="0" address="0x4B0" value="0x02"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL2">
+            <parameter cpu="0" address="0x4B0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 [开启可吃] PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x483" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用游戏角色TONTON PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x24"/>
+            <parameter cpu="0" address="0x1022" value="0x1F"/>
+            <parameter cpu="0" address="0x1023" value="0x1E"/>
+            <parameter cpu="0" address="0x1024" value="0x24"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x3A"/>
+            <parameter cpu="0" address="0x1022" value="0x7F"/>
+            <parameter cpu="0" address="0x1023" value="0x44"/>
+            <parameter cpu="0" address="0x1024" value="0x32"/>
+            <parameter cpu="0" address="0x1025" value="0x4E"/>
+            <parameter cpu="0" address="0x1026" value="0x32"/>
+            <parameter cpu="0" address="0x1027" value="0x3B"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x04"/>
+            <parameter cpu="0" address="0x1422" value="0x04"/>
+            <parameter cpu="0" address="0x1423" value="0x04"/>
+            <parameter cpu="0" address="0x1424" value="0x04"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x10"/>
+            <parameter cpu="0" address="0x1022" value="0x1B"/>
+            <parameter cpu="0" address="0x1023" value="0x11"/>
+            <parameter cpu="0" address="0x1024" value="0x20"/>
+            <parameter cpu="0" address="0x1025" value="0x20"/>
+            <parameter cpu="0" address="0x1026" value="0x11"/>
+            <parameter cpu="0" address="0x1027" value="0x10"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x1C"/>
+            <parameter cpu="0" address="0x1422" value="0x1C"/>
+            <parameter cpu="0" address="0x1423" value="0x1C"/>
+            <parameter cpu="0" address="0x1424" value="0x1C"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x10"/>
+            <parameter cpu="0" address="0x1022" value="0x25"/>
+            <parameter cpu="0" address="0x1023" value="0x1D"/>
+            <parameter cpu="0" address="0x1024" value="0x11"/>
+            <parameter cpu="0" address="0x1025" value="0x10"/>
+            <parameter cpu="0" address="0x1026" value="0x10"/>
+            <parameter cpu="0" address="0x1027" value="0x10"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x33"/>
+            <parameter cpu="0" address="0x1022" value="0x79"/>
+            <parameter cpu="0" address="0x1023" value="0x70"/>
+            <parameter cpu="0" address="0x1024" value="0x36"/>
+            <parameter cpu="0" address="0x1025" value="0x54"/>
+            <parameter cpu="0" address="0x1026" value="0x35"/>
+            <parameter cpu="0" address="0x1027" value="0x48"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x1C"/>
+            <parameter cpu="0" address="0x1422" value="0x1C"/>
+            <parameter cpu="0" address="0x1423" value="0x1C"/>
+            <parameter cpu="0" address="0x1424" value="0x1C"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x10"/>
+            <parameter cpu="0" address="0x1022" value="0x14"/>
+            <parameter cpu="0" address="0x1023" value="0x15"/>
+            <parameter cpu="0" address="0x1024" value="0x1B"/>
+            <parameter cpu="0" address="0x1025" value="0x25"/>
+            <parameter cpu="0" address="0x1026" value="0x10"/>
+            <parameter cpu="0" address="0x1027" value="0x10"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x08"/>
+            <parameter cpu="0" address="0x1422" value="0x08"/>
+            <parameter cpu="0" address="0x1423" value="0x08"/>
+            <parameter cpu="0" address="0x1424" value="0x08"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x10"/>
+            <parameter cpu="0" address="0x1022" value="0x22"/>
+            <parameter cpu="0" address="0x1023" value="0x11"/>
+            <parameter cpu="0" address="0x1024" value="0x1E"/>
+            <parameter cpu="0" address="0x1025" value="0x18"/>
+            <parameter cpu="0" address="0x1026" value="0x11"/>
+            <parameter cpu="0" address="0x1027" value="0x10"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x38"/>
+            <parameter cpu="0" address="0x1422" value="0x38"/>
+            <parameter cpu="0" address="0x1423" value="0x38"/>
+            <parameter cpu="0" address="0x1424" value="0x38"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x12"/>
+            <parameter cpu="0" address="0x1022" value="0x22"/>
+            <parameter cpu="0" address="0x1023" value="0x19"/>
+            <parameter cpu="0" address="0x1024" value="0x17"/>
+            <parameter cpu="0" address="0x1025" value="0x11"/>
+            <parameter cpu="0" address="0x1026" value="0x1E"/>
+            <parameter cpu="0" address="0x1027" value="0x10"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x10"/>
+            <parameter cpu="0" address="0x1422" value="0x10"/>
+            <parameter cpu="0" address="0x1423" value="0x10"/>
+            <parameter cpu="0" address="0x1424" value="0x10"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x10"/>
+            <parameter cpu="0" address="0x1022" value="0x13"/>
+            <parameter cpu="0" address="0x1023" value="0x18"/>
+            <parameter cpu="0" address="0x1024" value="0x15"/>
+            <parameter cpu="0" address="0x1025" value="0x1E"/>
+            <parameter cpu="0" address="0x1026" value="0x10"/>
+            <parameter cpu="0" address="0x1027" value="0x10"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x00"/>
+            <parameter cpu="0" address="0x1422" value="0x00"/>
+            <parameter cpu="0" address="0x1423" value="0x00"/>
+            <parameter cpu="0" address="0x1424" value="0x00"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021" value="0x10"/>
+            <parameter cpu="0" address="0x1022" value="0x1D"/>
+            <parameter cpu="0" address="0x1023" value="0x11"/>
+            <parameter cpu="0" address="0x1024" value="0x1A"/>
+            <parameter cpu="0" address="0x1025" value="0x19"/>
+            <parameter cpu="0" address="0x1026" value="0x1E"/>
+            <parameter cpu="0" address="0x1027" value="0x10"/>
+            <parameter cpu="0" address="0x1028" value="0x10"/>
+            <parameter cpu="0" address="0x1421" value="0x34"/>
+            <parameter cpu="0" address="0x1422" value="0x34"/>
+            <parameter cpu="0" address="0x1423" value="0x34"/>
+            <parameter cpu="0" address="0x1424" value="0x34"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x10"/>
+            <parameter cpu="0" address="0x1039" value="0x23"/>
+            <parameter cpu="0" address="0x103A" value="0x1F"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x3A"/>
+            <parameter cpu="0" address="0x1039" value="0x7F"/>
+            <parameter cpu="0" address="0x103A" value="0x44"/>
+            <parameter cpu="0" address="0x103B" value="0x32"/>
+            <parameter cpu="0" address="0x103C" value="0x4E"/>
+            <parameter cpu="0" address="0x103D" value="0x32"/>
+            <parameter cpu="0" address="0x103E" value="0x3B"/>
+            <parameter cpu="0" address="0x1437" value="0x04"/>
+            <parameter cpu="0" address="0x1438" value="0x04"/>
+            <parameter cpu="0" address="0x1439" value="0x04"/>
+            <parameter cpu="0" address="0x143A" value="0x04"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x10"/>
+            <parameter cpu="0" address="0x1039" value="0x1B"/>
+            <parameter cpu="0" address="0x103A" value="0x11"/>
+            <parameter cpu="0" address="0x103B" value="0x20"/>
+            <parameter cpu="0" address="0x103C" value="0x20"/>
+            <parameter cpu="0" address="0x103D" value="0x11"/>
+            <parameter cpu="0" address="0x103E" value="0x10"/>
+            <parameter cpu="0" address="0x1437" value="0x1C"/>
+            <parameter cpu="0" address="0x1438" value="0x1C"/>
+            <parameter cpu="0" address="0x1439" value="0x1C"/>
+            <parameter cpu="0" address="0x143A" value="0x1C"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103B" value="0x25"/>
+            <parameter cpu="0" address="0x103C" value="0x1D"/>
+            <parameter cpu="0" address="0x103D" value="0x11"/>
+            <parameter cpu="0" address="0x103E" value="0x10"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x33"/>
+            <parameter cpu="0" address="0x1039" value="0x79"/>
+            <parameter cpu="0" address="0x103A" value="0x70"/>
+            <parameter cpu="0" address="0x103B" value="0x36"/>
+            <parameter cpu="0" address="0x103C" value="0x54"/>
+            <parameter cpu="0" address="0x103D" value="0x35"/>
+            <parameter cpu="0" address="0x103E" value="0x48"/>
+            <parameter cpu="0" address="0x1437" value="0x1C"/>
+            <parameter cpu="0" address="0x1438" value="0x1C"/>
+            <parameter cpu="0" address="0x1439" value="0x1C"/>
+            <parameter cpu="0" address="0x143A" value="0x1C"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x10"/>
+            <parameter cpu="0" address="0x1039" value="0x10"/>
+            <parameter cpu="0" address="0x103A" value="0x14"/>
+            <parameter cpu="0" address="0x103B" value="0x15"/>
+            <parameter cpu="0" address="0x103C" value="0x1B"/>
+            <parameter cpu="0" address="0x103D" value="0x25"/>
+            <parameter cpu="0" address="0x103E" value="0x10"/>
+            <parameter cpu="0" address="0x1437" value="0x08"/>
+            <parameter cpu="0" address="0x1438" value="0x08"/>
+            <parameter cpu="0" address="0x1439" value="0x08"/>
+            <parameter cpu="0" address="0x143A" value="0x08"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x10"/>
+            <parameter cpu="0" address="0x1039" value="0x22"/>
+            <parameter cpu="0" address="0x103A" value="0x11"/>
+            <parameter cpu="0" address="0x103B" value="0x1E"/>
+            <parameter cpu="0" address="0x103C" value="0x18"/>
+            <parameter cpu="0" address="0x103D" value="0x11"/>
+            <parameter cpu="0" address="0x103E" value="0x10"/>
+            <parameter cpu="0" address="0x1437" value="0x38"/>
+            <parameter cpu="0" address="0x1438" value="0x38"/>
+            <parameter cpu="0" address="0x1439" value="0x38"/>
+            <parameter cpu="0" address="0x143A" value="0x38"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x10"/>
+            <parameter cpu="0" address="0x1039" value="0x12"/>
+            <parameter cpu="0" address="0x103A" value="0x22"/>
+            <parameter cpu="0" address="0x103B" value="0x19"/>
+            <parameter cpu="0" address="0x103C" value="0x17"/>
+            <parameter cpu="0" address="0x103D" value="0x11"/>
+            <parameter cpu="0" address="0x103E" value="0x1E"/>
+            <parameter cpu="0" address="0x1437" value="0x10"/>
+            <parameter cpu="0" address="0x1438" value="0x10"/>
+            <parameter cpu="0" address="0x1439" value="0x10"/>
+            <parameter cpu="0" address="0x143A" value="0x10"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x10"/>
+            <parameter cpu="0" address="0x1039" value="0x10"/>
+            <parameter cpu="0" address="0x103A" value="0x13"/>
+            <parameter cpu="0" address="0x103B" value="0x18"/>
+            <parameter cpu="0" address="0x103C" value="0x15"/>
+            <parameter cpu="0" address="0x103D" value="0x1E"/>
+            <parameter cpu="0" address="0x103E" value="0x10"/>
+            <parameter cpu="0" address="0x1437" value="0x00"/>
+            <parameter cpu="0" address="0x1438" value="0x00"/>
+            <parameter cpu="0" address="0x1439" value="0x00"/>
+            <parameter cpu="0" address="0x143A" value="0x00"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037" value="0x10"/>
+            <parameter cpu="0" address="0x1038" value="0x10"/>
+            <parameter cpu="0" address="0x1039" value="0x1D"/>
+            <parameter cpu="0" address="0x103A" value="0x11"/>
+            <parameter cpu="0" address="0x103B" value="0x1A"/>
+            <parameter cpu="0" address="0x103C" value="0x19"/>
+            <parameter cpu="0" address="0x103D" value="0x1E"/>
+            <parameter cpu="0" address="0x103E" value="0x10"/>
+            <parameter cpu="0" address="0x1437" value="0x34"/>
+            <parameter cpu="0" address="0x1438" value="0x34"/>
+            <parameter cpu="0" address="0x1439" value="0x34"/>
+            <parameter cpu="0" address="0x143A" value="0x34"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x67" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="去到关卡 5 !" default="0">
+        <option desc="关闭"/>
+        <option desc="去到关卡 5 !">
+            <parameter cpu="0" address="0x67" value="0x11"/>
+        </option>
+        <option desc="去到关卡 10 !">
+            <parameter cpu="0" address="0x67" value="0x0B"/>
+        </option>
+        <option desc="去到关卡 15 !">
+            <parameter cpu="0" address="0x67" value="0x05"/>
+        </option>
+        <option desc="去到关卡 20 !">
+            <parameter cpu="0" address="0x67" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

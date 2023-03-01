@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8094" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80E1" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限快跑时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80C0" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限跑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82C1" value="0x6F"/>
+            <parameter cpu="0" address="0x82D1" value="0x47"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80C5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="炸弹不会爆炸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82EB" value="0xAE"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人1停止移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x808A" value="0x11"/>
+            <parameter cpu="0" address="0x82B1" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人2停止移动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82A1" value="0xE7"/>
+            <parameter cpu="0" address="0x82A2" value="0x69"/>
+        </option>
+    </cheat>
+</shufflecheat>

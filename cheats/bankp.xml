@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE0A5" value="0x38"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE078" value="0x39"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE0A0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第1号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第1号门">
+            <parameter cpu="0" address="0xE2E6" value="0x00"/>
+            <parameter cpu="0" address="0xE2E7" value="0x00"/>
+            <parameter cpu="0" address="0xE2E8" value="0x05"/>
+        </option>
+        <option desc="锁上第 1号门">
+            <parameter cpu="0" address="0xE2E6" value="0x08"/>
+            <parameter cpu="0" address="0xE2E7" value="0xFF"/>
+            <parameter cpu="0" address="0xE2E8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第2号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第2号门">
+            <parameter cpu="0" address="0xE2FE" value="0x00"/>
+            <parameter cpu="0" address="0xE2FF" value="0x00"/>
+            <parameter cpu="0" address="0xE300" value="0x05"/>
+        </option>
+        <option desc="锁上第 2号门">
+            <parameter cpu="0" address="0xE2FE" value="0x08"/>
+            <parameter cpu="0" address="0xE2FF" value="0xFF"/>
+            <parameter cpu="0" address="0xE300" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第3号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第3号门">
+            <parameter cpu="0" address="0xE316" value="0x00"/>
+            <parameter cpu="0" address="0xE317" value="0x00"/>
+            <parameter cpu="0" address="0xE318" value="0x05"/>
+        </option>
+        <option desc="锁上第 3号门">
+            <parameter cpu="0" address="0xE316" value="0x08"/>
+            <parameter cpu="0" address="0xE317" value="0xFF"/>
+            <parameter cpu="0" address="0xE318" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第4号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第4号门">
+            <parameter cpu="0" address="0xE32E" value="0x00"/>
+            <parameter cpu="0" address="0xE32F" value="0x00"/>
+            <parameter cpu="0" address="0xE330" value="0x05"/>
+        </option>
+        <option desc="锁上第 4号门">
+            <parameter cpu="0" address="0xE32E" value="0x08"/>
+            <parameter cpu="0" address="0xE32F" value="0xFF"/>
+            <parameter cpu="0" address="0xE330" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第5号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第5号门">
+            <parameter cpu="0" address="0xE346" value="0x00"/>
+            <parameter cpu="0" address="0xE347" value="0x00"/>
+            <parameter cpu="0" address="0xE348" value="0x05"/>
+        </option>
+        <option desc="锁上第 5号门">
+            <parameter cpu="0" address="0xE346" value="0x08"/>
+            <parameter cpu="0" address="0xE347" value="0xFF"/>
+            <parameter cpu="0" address="0xE348" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第6号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第6号门">
+            <parameter cpu="0" address="0xE35E" value="0x00"/>
+            <parameter cpu="0" address="0xE35F" value="0x00"/>
+            <parameter cpu="0" address="0xE360" value="0x05"/>
+        </option>
+        <option desc="锁上第 6号门">
+            <parameter cpu="0" address="0xE35E" value="0x08"/>
+            <parameter cpu="0" address="0xE35F" value="0xFF"/>
+            <parameter cpu="0" address="0xE360" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第7号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第7号门">
+            <parameter cpu="0" address="0xE376" value="0x00"/>
+            <parameter cpu="0" address="0xE377" value="0x00"/>
+            <parameter cpu="0" address="0xE378" value="0x05"/>
+        </option>
+        <option desc="锁上第 7号门">
+            <parameter cpu="0" address="0xE376" value="0x08"/>
+            <parameter cpu="0" address="0xE377" value="0xFF"/>
+            <parameter cpu="0" address="0xE378" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第8号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第8号门">
+            <parameter cpu="0" address="0xE38E" value="0x00"/>
+            <parameter cpu="0" address="0xE38F" value="0x00"/>
+            <parameter cpu="0" address="0xE390" value="0x05"/>
+        </option>
+        <option desc="锁上第 8号门">
+            <parameter cpu="0" address="0xE38E" value="0x08"/>
+            <parameter cpu="0" address="0xE38F" value="0xFF"/>
+            <parameter cpu="0" address="0xE390" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第9号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第9号门">
+            <parameter cpu="0" address="0xE3A6" value="0x00"/>
+            <parameter cpu="0" address="0xE3A7" value="0x00"/>
+            <parameter cpu="0" address="0xE3A8" value="0x05"/>
+        </option>
+        <option desc="锁上第 9号门">
+            <parameter cpu="0" address="0xE3A6" value="0x08"/>
+            <parameter cpu="0" address="0xE3A7" value="0xFF"/>
+            <parameter cpu="0" address="0xE3A8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第10号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第10号门">
+            <parameter cpu="0" address="0xE3BE" value="0x00"/>
+            <parameter cpu="0" address="0xE3BF" value="0x00"/>
+            <parameter cpu="0" address="0xE3C0" value="0x05"/>
+        </option>
+        <option desc="锁上第 10号门">
+            <parameter cpu="0" address="0xE3BE" value="0x08"/>
+            <parameter cpu="0" address="0xE3BF" value="0xFF"/>
+            <parameter cpu="0" address="0xE3C0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第11号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第11号门">
+            <parameter cpu="0" address="0xE3D6" value="0x00"/>
+            <parameter cpu="0" address="0xE3D7" value="0x00"/>
+            <parameter cpu="0" address="0xE3D8" value="0x05"/>
+        </option>
+        <option desc="锁上第 11号门">
+            <parameter cpu="0" address="0xE3D6" value="0x08"/>
+            <parameter cpu="0" address="0xE3D7" value="0xFF"/>
+            <parameter cpu="0" address="0xE3D8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第12号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第12号门">
+            <parameter cpu="0" address="0xE3EE" value="0x00"/>
+            <parameter cpu="0" address="0xE3EF" value="0x00"/>
+            <parameter cpu="0" address="0xE3F0" value="0x05"/>
+        </option>
+        <option desc="锁上第 12号门">
+            <parameter cpu="0" address="0xE3EE" value="0x08"/>
+            <parameter cpu="0" address="0xE3EF" value="0xFF"/>
+            <parameter cpu="0" address="0xE3F0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第1号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第1号门">
+            <parameter cpu="0" address="0xE2E6" value="0x00"/>
+            <parameter cpu="0" address="0xE2E7" value="0x00"/>
+            <parameter cpu="0" address="0xE2E8" value="0x00"/>
+            <parameter cpu="0" address="0xE2E9" value="0x05"/>
+        </option>
+        <option desc="锁上第 1号门">
+            <parameter cpu="0" address="0xE2E6" value="0xFF"/>
+            <parameter cpu="0" address="0xE2E7" value="0x08"/>
+            <parameter cpu="0" address="0xE2E8" value="0xFF"/>
+            <parameter cpu="0" address="0xE2E9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第2号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第2号门">
+            <parameter cpu="0" address="0xE2FE" value="0x00"/>
+            <parameter cpu="0" address="0xE2FF" value="0x00"/>
+            <parameter cpu="0" address="0xE300" value="0x00"/>
+            <parameter cpu="0" address="0xE301" value="0x05"/>
+        </option>
+        <option desc="锁上第 2号门">
+            <parameter cpu="0" address="0xE2FE" value="0xFF"/>
+            <parameter cpu="0" address="0xE2FF" value="0x08"/>
+            <parameter cpu="0" address="0xE300" value="0xFF"/>
+            <parameter cpu="0" address="0xE301" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第3号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第3号门">
+            <parameter cpu="0" address="0xE316" value="0x00"/>
+            <parameter cpu="0" address="0xE317" value="0x00"/>
+            <parameter cpu="0" address="0xE318" value="0x00"/>
+            <parameter cpu="0" address="0xE319" value="0x05"/>
+        </option>
+        <option desc="锁上第 3号门">
+            <parameter cpu="0" address="0xE316" value="0xFF"/>
+            <parameter cpu="0" address="0xE317" value="0x08"/>
+            <parameter cpu="0" address="0xE318" value="0xFF"/>
+            <parameter cpu="0" address="0xE319" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第4号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第4号门">
+            <parameter cpu="0" address="0xE32E" value="0x00"/>
+            <parameter cpu="0" address="0xE32F" value="0x00"/>
+            <parameter cpu="0" address="0xE330" value="0x00"/>
+            <parameter cpu="0" address="0xE331" value="0x05"/>
+        </option>
+        <option desc="锁上第 4号门">
+            <parameter cpu="0" address="0xE32E" value="0xFF"/>
+            <parameter cpu="0" address="0xE32F" value="0x08"/>
+            <parameter cpu="0" address="0xE330" value="0xFF"/>
+            <parameter cpu="0" address="0xE331" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第5号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第5号门">
+            <parameter cpu="0" address="0xE346" value="0x00"/>
+            <parameter cpu="0" address="0xE347" value="0x00"/>
+            <parameter cpu="0" address="0xE348" value="0x00"/>
+            <parameter cpu="0" address="0xE349" value="0x05"/>
+        </option>
+        <option desc="锁上第 5号门">
+            <parameter cpu="0" address="0xE346" value="0xFF"/>
+            <parameter cpu="0" address="0xE347" value="0x08"/>
+            <parameter cpu="0" address="0xE348" value="0xFF"/>
+            <parameter cpu="0" address="0xE349" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第6号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第6号门">
+            <parameter cpu="0" address="0xE35E" value="0x00"/>
+            <parameter cpu="0" address="0xE35F" value="0x00"/>
+            <parameter cpu="0" address="0xE360" value="0x00"/>
+            <parameter cpu="0" address="0xE361" value="0x05"/>
+        </option>
+        <option desc="锁上第 6号门">
+            <parameter cpu="0" address="0xE35E" value="0xFF"/>
+            <parameter cpu="0" address="0xE35F" value="0x08"/>
+            <parameter cpu="0" address="0xE360" value="0xFF"/>
+            <parameter cpu="0" address="0xE361" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第7号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第7号门">
+            <parameter cpu="0" address="0xE376" value="0x00"/>
+            <parameter cpu="0" address="0xE377" value="0x00"/>
+            <parameter cpu="0" address="0xE378" value="0x00"/>
+            <parameter cpu="0" address="0xE379" value="0x05"/>
+        </option>
+        <option desc="锁上第 7号门">
+            <parameter cpu="0" address="0xE376" value="0xFF"/>
+            <parameter cpu="0" address="0xE377" value="0x08"/>
+            <parameter cpu="0" address="0xE378" value="0xFF"/>
+            <parameter cpu="0" address="0xE379" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第8号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第8号门">
+            <parameter cpu="0" address="0xE38E" value="0x00"/>
+            <parameter cpu="0" address="0xE38F" value="0x00"/>
+            <parameter cpu="0" address="0xE390" value="0x00"/>
+            <parameter cpu="0" address="0xE391" value="0x05"/>
+        </option>
+        <option desc="锁上第 8号门">
+            <parameter cpu="0" address="0xE38E" value="0xFF"/>
+            <parameter cpu="0" address="0xE38F" value="0x08"/>
+            <parameter cpu="0" address="0xE390" value="0xFF"/>
+            <parameter cpu="0" address="0xE391" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第9号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第9号门">
+            <parameter cpu="0" address="0xE3A6" value="0x00"/>
+            <parameter cpu="0" address="0xE3A7" value="0x00"/>
+            <parameter cpu="0" address="0xE3A8" value="0x00"/>
+            <parameter cpu="0" address="0xE3A9" value="0x05"/>
+        </option>
+        <option desc="锁上第 9号门">
+            <parameter cpu="0" address="0xE3A6" value="0xFF"/>
+            <parameter cpu="0" address="0xE3A7" value="0x08"/>
+            <parameter cpu="0" address="0xE3A8" value="0xFF"/>
+            <parameter cpu="0" address="0xE3A9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第10号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第10号门">
+            <parameter cpu="0" address="0xE3BE" value="0x00"/>
+            <parameter cpu="0" address="0xE3BF" value="0x00"/>
+            <parameter cpu="0" address="0xE3C0" value="0x00"/>
+            <parameter cpu="0" address="0xE3C1" value="0x05"/>
+        </option>
+        <option desc="锁上第 10号门">
+            <parameter cpu="0" address="0xE3BE" value="0xFF"/>
+            <parameter cpu="0" address="0xE3BF" value="0x08"/>
+            <parameter cpu="0" address="0xE3C0" value="0xFF"/>
+            <parameter cpu="0" address="0xE3C1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第11号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第11号门">
+            <parameter cpu="0" address="0xE3D6" value="0x00"/>
+            <parameter cpu="0" address="0xE3D7" value="0x00"/>
+            <parameter cpu="0" address="0xE3D8" value="0x00"/>
+            <parameter cpu="0" address="0xE3D9" value="0x05"/>
+        </option>
+        <option desc="锁上第 11号门">
+            <parameter cpu="0" address="0xE3D6" value="0xFF"/>
+            <parameter cpu="0" address="0xE3D7" value="0x08"/>
+            <parameter cpu="0" address="0xE3D8" value="0xFF"/>
+            <parameter cpu="0" address="0xE3D9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="打开第12号门" default="0">
+        <option desc="关闭"/>
+        <option desc="打开第12号门">
+            <parameter cpu="0" address="0xE3EE" value="0x00"/>
+            <parameter cpu="0" address="0xE3EF" value="0x00"/>
+            <parameter cpu="0" address="0xE3F0" value="0x00"/>
+            <parameter cpu="0" address="0xE3F1" value="0x05"/>
+        </option>
+        <option desc="锁上第 12号门">
+            <parameter cpu="0" address="0xE3EE" value="0xFF"/>
+            <parameter cpu="0" address="0xE3EF" value="0x08"/>
+            <parameter cpu="0" address="0xE3F0" value="0xFF"/>
+            <parameter cpu="0" address="0xE3F1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到一个字母后即完成''EXTRA''" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE0AB" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是得到快枪水平奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE14D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第1号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第1号门)">
+            <parameter cpu="0" address="0xE2F2" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第1号门)">
+            <parameter cpu="0" address="0xE2F2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第2号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第2号门)">
+            <parameter cpu="0" address="0xE30A" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第2号门)">
+            <parameter cpu="0" address="0xE30A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第3号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第3号门)">
+            <parameter cpu="0" address="0xE322" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第3号门)">
+            <parameter cpu="0" address="0xE322" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第4号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第4号门)">
+            <parameter cpu="0" address="0xE33A" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第4号门)">
+            <parameter cpu="0" address="0xE33A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第5号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第5号门)">
+            <parameter cpu="0" address="0xE352" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第5号门)">
+            <parameter cpu="0" address="0xE352" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第6号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第6号门)">
+            <parameter cpu="0" address="0xE36A" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第6号门)">
+            <parameter cpu="0" address="0xE36A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第7号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第7号门)">
+            <parameter cpu="0" address="0xE382" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第7号门)">
+            <parameter cpu="0" address="0xE382" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第8号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第8号门)">
+            <parameter cpu="0" address="0xE39A" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第8号门)">
+            <parameter cpu="0" address="0xE39A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第9号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第9号门)">
+            <parameter cpu="0" address="0xE3B2" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第9号门)">
+            <parameter cpu="0" address="0xE3B2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第10号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第10号门)">
+            <parameter cpu="0" address="0xE3CA" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第10号门)">
+            <parameter cpu="0" address="0xE3CA" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第11号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第11号门)">
+            <parameter cpu="0" address="0xE3E2" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第11号门)">
+            <parameter cpu="0" address="0xE3E2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="出现好人 (第12号门)" default="0">
+        <option desc="关闭"/>
+        <option desc="出现好人 (第12号门)">
+            <parameter cpu="0" address="0xE3FA" value="0x00"/>
+        </option>
+        <option desc="出现坏人 (第12号门)">
+            <parameter cpu="0" address="0xE3FA" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

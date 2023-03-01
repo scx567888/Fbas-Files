@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限摸牌时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108220" value="0x04"/>
+            <parameter cpu="0" address="0x108221" value="0x00"/>
+            <parameter cpu="0" address="0x108224" value="0x04"/>
+            <parameter cpu="0" address="0x108225" value="0x00"/>
+            <parameter cpu="0" address="0x108228" value="0x04"/>
+            <parameter cpu="0" address="0x108229" value="0x00"/>
+            <parameter cpu="0" address="0x10822C" value="0x04"/>
+            <parameter cpu="0" address="0x10822D" value="0x01"/>
+            <parameter cpu="0" address="0x108230" value="0x04"/>
+            <parameter cpu="0" address="0x108231" value="0x01"/>
+            <parameter cpu="0" address="0x108234" value="0x04"/>
+            <parameter cpu="0" address="0x108235" value="0x01"/>
+            <parameter cpu="0" address="0x108238" value="0x04"/>
+            <parameter cpu="0" address="0x108239" value="0x02"/>
+            <parameter cpu="0" address="0x10823C" value="0x04"/>
+            <parameter cpu="0" address="0x10823D" value="0x02"/>
+            <parameter cpu="0" address="0x108240" value="0x04"/>
+            <parameter cpu="0" address="0x108241" value="0x02"/>
+            <parameter cpu="0" address="0x108244" value="0x04"/>
+            <parameter cpu="0" address="0x108245" value="0x03"/>
+            <parameter cpu="0" address="0x108248" value="0x04"/>
+            <parameter cpu="0" address="0x108249" value="0x03"/>
+            <parameter cpu="0" address="0x10824C" value="0x04"/>
+            <parameter cpu="0" address="0x10824D" value="0x03"/>
+            <parameter cpu="0" address="0x108250" value="0x04"/>
+            <parameter cpu="0" address="0x108251" value="0x04"/>
+            <parameter cpu="0" address="0x108254" value="0x04"/>
+            <parameter cpu="0" address="0x108255" value="0x04"/>
+            <parameter cpu="0" address="0x108418" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104C75" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

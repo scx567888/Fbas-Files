@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8069" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF805C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF875D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 战士/矮人 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8491" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 精灵 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8491" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 牧师 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8491" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8719" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF874E" value="0x09"/>
+            <parameter cpu="0" address="0xFF874F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限飞刀 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84A8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限铁锤 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84A9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限箭 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84AA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限油 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84AB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹指环 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84AC" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球指环 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84AE" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限闪电指环 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84AF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限光指环 '所有人使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力导弹 '精灵使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限隐身 '精灵使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球 '精灵使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84BA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限控制身体 '牧师使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限连续闪光 '牧师使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84B5" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击打 '牧师使用' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84BF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - 矮人 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - 矮人 PL1">
+            <parameter cpu="0" address="0xFF86CB" value="0x03"/>
+        </option>
+        <option desc="角色选择 - 牧师 PL1">
+            <parameter cpu="0" address="0xFF86CB" value="0x01"/>
+        </option>
+        <option desc="角色选择 - 精灵 PL1">
+            <parameter cpu="0" address="0xFF86CB" value="0x02"/>
+        </option>
+        <option desc="角色选择 - 战士 PL1">
+            <parameter cpu="0" address="0xFF86CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF885D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 战士/矮人 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84D1" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 精灵 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84D1" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 牧师 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84D1" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8819" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF884E" value="0x09"/>
+            <parameter cpu="0" address="0xFF884F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限飞刀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限铁锤 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弓箭 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84EA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限油 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84EB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹指环 '所有人使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84EC" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球指环 '所有人使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84EE" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限闪电指环 '所有人使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84EF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限闪光指环 '所有人使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84F1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力导弹 '精灵使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84F8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限隐身 '精灵使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84F9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球 '精灵使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84FA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限控制身体 '牧师使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84F4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限连续闪光 '牧师使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84F5" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击打 '牧师使用' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84FF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - 矮人 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - 矮人 PL2">
+            <parameter cpu="0" address="0xFF87CB" value="0x03"/>
+        </option>
+        <option desc="角色选择 - 牧师 PL2">
+            <parameter cpu="0" address="0xFF87CB" value="0x01"/>
+        </option>
+        <option desc="角色选择 - 精灵 PL2">
+            <parameter cpu="0" address="0xFF87CB" value="0x02"/>
+        </option>
+        <option desc="角色选择 - 战士 PL2">
+            <parameter cpu="0" address="0xFF87CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF895D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 战士/矮人 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8511" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 精灵 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8511" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 牧师 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8511" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8919" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF894E" value="0x09"/>
+            <parameter cpu="0" address="0xFF894F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限飞刀 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8528" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限铁锤 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8529" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弓箭 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限油 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹指环 '所有人使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球指环 '所有人使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限闪电指环 '所有人使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限闪光指环 '所有人使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8531" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力导弹 '精灵使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8538" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限隐身 '精灵使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8539" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球 '精灵使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF853A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限控制身体 '牧师使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8534" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限连续闪光 '牧师使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8535" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击打 '牧师使用' PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF853F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - 矮人 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - 矮人 PL3">
+            <parameter cpu="0" address="0xFF88CB" value="0x03"/>
+        </option>
+        <option desc="角色选择 - 牧师 PL3">
+            <parameter cpu="0" address="0xFF88CB" value="0x01"/>
+        </option>
+        <option desc="角色选择 - 精灵 PL3">
+            <parameter cpu="0" address="0xFF88CB" value="0x02"/>
+        </option>
+        <option desc="角色选择 - 战士 PL3">
+            <parameter cpu="0" address="0xFF88CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A5D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 战士/矮人 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8551" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 精灵 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8551" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有装备 牧师 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8551" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A19" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8A4E" value="0x09"/>
+            <parameter cpu="0" address="0xFF8A4F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限飞刀 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8568" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限铁锤 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8569" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弓箭 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF856A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限油 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF856B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹指环 '所有人使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF856C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球指环 '所有人使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF856E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限闪电指环 '所有人使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF856F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限闪光指环 '所有人使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8571" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力导弹 '精灵使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8578" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限隐身 '精灵使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8579" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球 '精灵使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF857A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限控制身体 '牧师使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8574" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限连续闪光 '牧师使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8575" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击打 '牧师使用' PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF857F" value="0x09"/>
+            <parameter cpu="0" address="0xFF89CB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1-1">
+            <parameter cpu="0" address="0xFF8056" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 1-2a">
+            <parameter cpu="0" address="0xFF8056" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 1 Boss A">
+            <parameter cpu="0" address="0xFF8056" value="0x08"/>
+        </option>
+        <option desc="选关 - 场景 1-2b">
+            <parameter cpu="0" address="0xFF8056" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 1 Boss B">
+            <parameter cpu="0" address="0xFF8056" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 2-1">
+            <parameter cpu="0" address="0xFF8056" value="0x09"/>
+        </option>
+        <option desc="选关 - 场景 2-2a">
+            <parameter cpu="0" address="0xFF8056" value="0x0B"/>
+        </option>
+        <option desc="选关 - 场景 2 Boss A">
+            <parameter cpu="0" address="0xFF8056" value="0x0C"/>
+        </option>
+        <option desc="选关 - 场景 2-2b">
+            <parameter cpu="0" address="0xFF8056" value="0x10"/>
+        </option>
+        <option desc="选关 - 场景 2 Boss B">
+            <parameter cpu="0" address="0xFF8056" value="0x0F"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF8056" value="0x16"/>
+        </option>
+        <option desc="选关 - 场景 3 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x19"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF8056" value="0x1A"/>
+        </option>
+        <option desc="选关 - 场景 5a">
+            <parameter cpu="0" address="0xFF8056" value="0x24"/>
+        </option>
+        <option desc="选关 - 场景 5b">
+            <parameter cpu="0" address="0xFF8056" value="0x20"/>
+        </option>
+        <option desc="选关 - 场景 5c">
+            <parameter cpu="0" address="0xFF8056" value="0x1B"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF8056" value="0x26"/>
+        </option>
+        <option desc="选关 - 场景 6 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x33"/>
+        </option>
+        <option desc="选关 - 场景 7a">
+            <parameter cpu="0" address="0xFF8056" value="0x34"/>
+        </option>
+        <option desc="选关 - 场景 7b">
+            <parameter cpu="0" address="0xFF8056" value="0x39"/>
+        </option>
+        <option desc="选关 - 场景 7 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x3C"/>
+        </option>
+        <option desc="选关 - 红色 Dragon">
+            <parameter cpu="0" address="0xFF8056" value="0x37"/>
+        </option>
+        <option desc="选关 - 在场景7之后 (时间限定)">
+            <parameter cpu="0" address="0xFF8056" value="0x36"/>
+        </option>
+        <option desc="选关 - 场景 8a">
+            <parameter cpu="0" address="0xFF8056" value="0x3D"/>
+        </option>
+        <option desc="选关 - 场景 8 Boss">
+            <parameter cpu="0" address="0xFF8056" value="0x43"/>
+        </option>
+        <option desc="选关 - 最后场景">
+            <parameter cpu="0" address="0xFF8056" value="0x48"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 在场景7之后 (无限时间)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8056" value="0x36"/>
+            <parameter cpu="0" address="0xFFC990" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="地域 - 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地域 - 日本">
+            <parameter cpu="0" address="0xFF807A" value="0x00"/>
+            <parameter cpu="0" address="0xFF807B" value="0x00"/>
+        </option>
+        <option desc="地域 - 美国">
+            <parameter cpu="0" address="0xFF807A" value="0x01"/>
+            <parameter cpu="0" address="0xFF807B" value="0x01"/>
+        </option>
+        <option desc="地域 - 西班牙">
+            <parameter cpu="0" address="0xFF807A" value="0x02"/>
+            <parameter cpu="0" address="0xFF807B" value="0x02"/>
+        </option>
+        <option desc="地域 - 亚洲">
+            <parameter cpu="0" address="0xFF807A" value="0x03"/>
+            <parameter cpu="0" address="0xFF807B" value="0x03"/>
+        </option>
+        <option desc="地域 - 欧洲 英国">
+            <parameter cpu="0" address="0xFF807A" value="0x04"/>
+            <parameter cpu="0" address="0xFF807B" value="0x04"/>
+        </option>
+        <option desc="地域 - 欧洲 西班牙">
+            <parameter cpu="0" address="0xFF807A" value="0x05"/>
+            <parameter cpu="0" address="0xFF807B" value="0x05"/>
+        </option>
+        <option desc="地域 - 欧洲 法国">
+            <parameter cpu="0" address="0xFF807A" value="0x06"/>
+            <parameter cpu="0" address="0xFF807B" value="0x06"/>
+        </option>
+        <option desc="地域 - 欧洲 德国">
+            <parameter cpu="0" address="0xFF807A" value="0x07"/>
+            <parameter cpu="0" address="0xFF807B" value="0x07"/>
+        </option>
+        <option desc="地域 - 欧洲 意大利">
+            <parameter cpu="0" address="0xFF807A" value="0x08"/>
+            <parameter cpu="0" address="0xFF807B" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

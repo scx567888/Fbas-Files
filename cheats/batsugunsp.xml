@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10139B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101415" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10141E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101411" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大射击火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101413" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个'P' 总是=10000分 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013E7" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="升级火力等级! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101416" value="0x03"/>
+            <parameter cpu="0" address="0x101417" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10139D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101455" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10145E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101451" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大射击火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101453" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个'P' 总是=10000分 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013EB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="升级火力等级! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101456" value="0x03"/>
+            <parameter cpu="0" address="0x101457" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

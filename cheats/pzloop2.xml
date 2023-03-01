@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80B0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是慢速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF96D0" value="0x00"/>
+            <parameter cpu="0" address="0xFF96D1" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有时间停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF96CE" value="0x00"/>
+            <parameter cpu="0" address="0xFF96CF" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="当前手持球为红色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前手持球为红色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x00"/>
+            <parameter cpu="0" address="0xFF9900" value="0x00"/>
+        </option>
+        <option desc="当前手持球为蓝色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x01"/>
+            <parameter cpu="0" address="0xFF9900" value="0x01"/>
+        </option>
+        <option desc="当前手持球为绿色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x02"/>
+            <parameter cpu="0" address="0xFF9900" value="0x02"/>
+        </option>
+        <option desc="当前手持球为黄色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x03"/>
+            <parameter cpu="0" address="0xFF9900" value="0x03"/>
+        </option>
+        <option desc="当前手持球为橙色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x04"/>
+            <parameter cpu="0" address="0xFF9900" value="0x04"/>
+        </option>
+        <option desc="当前手持球为紫红色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x05"/>
+            <parameter cpu="0" address="0xFF9900" value="0x05"/>
+        </option>
+        <option desc="当前手持球为水蓝色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x06"/>
+            <parameter cpu="0" address="0xFF9900" value="0x06"/>
+        </option>
+        <option desc="当前手持球为深灰色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x07"/>
+            <parameter cpu="0" address="0xFF9900" value="0x07"/>
+        </option>
+        <option desc="当前手持球为黑色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x08"/>
+            <parameter cpu="0" address="0xFF9900" value="0x08"/>
+        </option>
+        <option desc="当前手持球为银灰色 PL1">
+            <parameter cpu="0" address="0xFF98DC" value="0x09"/>
+            <parameter cpu="0" address="0xFF9900" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

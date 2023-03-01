@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C1C" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C1D" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C1E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="黄色的不能吃你" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色的不能吃你">
+            <parameter cpu="0" address="0x4FC8" value="0x4C"/>
+        </option>
+        <option desc="黄色的能吃你">
+            <parameter cpu="0" address="0x4FC8" value="0xE0"/>
+        </option>
+    </cheat>
+    <cheat desc="绿色的不能吃你" default="0">
+        <option desc="关闭"/>
+        <option desc="绿色的不能吃你">
+            <parameter cpu="0" address="0x4FCA" value="0x4C"/>
+        </option>
+        <option desc="绿色的能吃你">
+            <parameter cpu="0" address="0x4FCA" value="0xE0"/>
+        </option>
+    </cheat>
+</shufflecheat>

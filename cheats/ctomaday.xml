@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10137D" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10413D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="右臂(武器)最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104201" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="左臂(武器)最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1041AB" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是原始身体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是原始身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x00"/>
+        </option>
+        <option desc="总是飞翼 PL1">
+            <parameter cpu="0" address="0x104135" value="0x01"/>
+        </option>
+        <option desc="总是最小身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x02"/>
+        </option>
+        <option desc="总是大身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x03"/>
+        </option>
+        <option desc="总是胡萝卜身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x04"/>
+        </option>
+        <option desc="总是鱼身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x05"/>
+        </option>
+        <option desc="总是十字身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x06"/>
+        </option>
+        <option desc="总是兔身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x07"/>
+        </option>
+        <option desc="总是蓝鱼身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x08"/>
+        </option>
+        <option desc="总是花盆身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x09"/>
+        </option>
+        <option desc="总是猫身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x0A"/>
+        </option>
+        <option desc="总是猴子身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x0B"/>
+        </option>
+        <option desc="总是虾身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x0C"/>
+        </option>
+        <option desc="总是航空飞行器身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x0D"/>
+        </option>
+        <option desc="总是丘比特身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x0E"/>
+        </option>
+        <option desc="总是婴儿身体 PL1">
+            <parameter cpu="0" address="0x104135" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101399" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10432D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="右臂(武器)最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1043F1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="左臂(武器)最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10439B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是飞翼 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是飞翼 PL2">
+            <parameter cpu="0" address="0x104325" value="0x01"/>
+        </option>
+        <option desc="总是最小身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x02"/>
+        </option>
+        <option desc="总是大身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x03"/>
+        </option>
+        <option desc="总是胡萝卜身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x04"/>
+        </option>
+        <option desc="总是鱼身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x05"/>
+        </option>
+        <option desc="总是十字身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x06"/>
+        </option>
+        <option desc="总是兔身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x07"/>
+        </option>
+        <option desc="总是蓝鱼身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x08"/>
+        </option>
+        <option desc="总是花盆身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x09"/>
+        </option>
+        <option desc="总是猫身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x0A"/>
+        </option>
+        <option desc="总是猴子身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x0B"/>
+        </option>
+        <option desc="总是虾身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x0C"/>
+        </option>
+        <option desc="总是航空飞行器身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x0D"/>
+        </option>
+        <option desc="总是丘比特身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x0E"/>
+        </option>
+        <option desc="总是婴儿身体 PL2">
+            <parameter cpu="0" address="0x104325" value="0x0F"/>
+        </option>
+        <option desc="得到原始身体 ! PL2">
+            <parameter cpu="0" address="0x104325" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

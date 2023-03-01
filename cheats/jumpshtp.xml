@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4CE1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限游戏时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限游戏时间">
+            <parameter cpu="0" address="0x4CD6" value="0x09"/>
+            <parameter cpu="0" address="0x4CD7" value="0x59"/>
+        </option>
+        <option desc="立即结束半场!">
+            <parameter cpu="0" address="0x4CD6" value="0x00"/>
+            <parameter cpu="0" address="0x4CD7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限制投篮时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限制投篮时间">
+            <parameter cpu="0" address="0x4CD9" value="0x09"/>
+            <parameter cpu="0" address="0x4CDA" value="0x09"/>
+        </option>
+        <option desc="投篮时间 = 0 !">
+            <parameter cpu="0" address="0x4CD9" value="0x00"/>
+            <parameter cpu="0" address="0x4CDA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择00X 远投得分" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4C60" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x4C60" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x4C60" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x4C60" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x4C60" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x4C60" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x4C60" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x4C60" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x4C60" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x4C60" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择0X0 远投得分" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4C5F" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x4C5F" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x4C5F" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x4C5F" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x4C5F" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x4C5F" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x4C5F" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x4C5F" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x4C5F" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x4C5F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择X00 远投得分" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4C5E" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x4C5E" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x4C5E" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x4C5E" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x4C5E" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x4C5E" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x4C5E" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x4C5E" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x4C5E" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x4C5E" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="远投得分总是 = 99" default="0">
+        <option desc="关闭"/>
+        <option desc="远投得分总是 = 99">
+            <parameter cpu="0" address="0x4C5F" value="0x09"/>
+            <parameter cpu="0" address="0x4C60" value="0x09"/>
+        </option>
+        <option desc="远投得分总是 = 0">
+            <parameter cpu="0" address="0x4C5F" value="0x00"/>
+            <parameter cpu="0" address="0x4C60" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择00X 近投得分" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4C44" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x4C44" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x4C44" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x4C44" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x4C44" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x4C44" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x4C44" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x4C44" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x4C44" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x4C44" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择0X0 近投得分" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4C43" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x4C43" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x4C43" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x4C43" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x4C43" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x4C43" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x4C43" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x4C43" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x4C43" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x4C43" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择X00 近投得分" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x4C42" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x4C42" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x4C42" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x4C42" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x4C42" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x4C42" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x4C42" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x4C42" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x4C42" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x4C42" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="近投得分总是 = 99" default="0">
+        <option desc="关闭"/>
+        <option desc="近投得分总是 = 99">
+            <parameter cpu="0" address="0x4C43" value="0x09"/>
+            <parameter cpu="0" address="0x4C44" value="0x09"/>
+        </option>
+        <option desc="近投得分总是 = 0">
+            <parameter cpu="0" address="0x4C43" value="0x00"/>
+            <parameter cpu="0" address="0x4C44" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

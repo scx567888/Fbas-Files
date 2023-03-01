@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="得到自摸胡牌 1!" default="0">
+        <option desc="关闭"/>
+        <option desc="得到自摸胡牌 1!">
+            <parameter cpu="0" address="0xE2C0" value="0x31"/>
+            <parameter cpu="0" address="0xE2C1" value="0x31"/>
+            <parameter cpu="0" address="0xE2C2" value="0x31"/>
+            <parameter cpu="0" address="0xE2C3" value="0x32"/>
+            <parameter cpu="0" address="0xE2C4" value="0x32"/>
+            <parameter cpu="0" address="0xE2C5" value="0x32"/>
+            <parameter cpu="0" address="0xE2C6" value="0x33"/>
+            <parameter cpu="0" address="0xE2C7" value="0x33"/>
+            <parameter cpu="0" address="0xE2C8" value="0x33"/>
+            <parameter cpu="0" address="0xE2C9" value="0x34"/>
+            <parameter cpu="0" address="0xE2CA" value="0x34"/>
+            <parameter cpu="0" address="0xE2CB" value="0x34"/>
+            <parameter cpu="0" address="0xE2CC" value="0x35"/>
+            <parameter cpu="0" address="0xE2CD" value="0x35"/>
+        </option>
+        <option desc="得到自摸胡牌 2!">
+            <parameter cpu="0" address="0xE2C0" value="0x02"/>
+            <parameter cpu="0" address="0xE2C1" value="0x03"/>
+            <parameter cpu="0" address="0xE2C2" value="0x04"/>
+            <parameter cpu="0" address="0xE2C3" value="0x17"/>
+            <parameter cpu="0" address="0xE2C4" value="0x17"/>
+            <parameter cpu="0" address="0xE2C5" value="0x17"/>
+            <parameter cpu="0" address="0xE2C6" value="0x25"/>
+            <parameter cpu="0" address="0xE2C7" value="0x26"/>
+            <parameter cpu="0" address="0xE2C8" value="0x27"/>
+            <parameter cpu="0" address="0xE2C9" value="0x28"/>
+            <parameter cpu="0" address="0xE2CA" value="0x28"/>
+            <parameter cpu="0" address="0xE2CB" value="0x28"/>
+            <parameter cpu="0" address="0xE2CC" value="0x29"/>
+            <parameter cpu="0" address="0xE2CD" value="0x29"/>
+        </option>
+    </cheat>
+</shufflecheat>

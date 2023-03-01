@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="重新开始在快速等级" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10025F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1003E9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0x102A69" value="0x00"/>
+        </option>
+        <option desc="红色">
+            <parameter cpu="0" address="0x102A69" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0x102A69" value="0x08"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0x102A69" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x102A6F" value="0x0C"/>
+        </option>
+        <option desc="加速">
+            <parameter cpu="0" address="0x102A6F" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1003EB" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0x102B29" value="0x00"/>
+        </option>
+        <option desc="红色">
+            <parameter cpu="0" address="0x102B29" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0x102B29" value="0x08"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0x102B29" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="炸弹">
+            <parameter cpu="0" address="0x102B2F" value="0x0C"/>
+        </option>
+        <option desc="加速">
+            <parameter cpu="0" address="0x102B2F" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

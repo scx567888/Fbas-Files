@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x1065AB" value="0x99"/>
+        </option>
+        <option desc="时间结束 !">
+            <parameter cpu="0" address="0x1065AB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105FD2" value="0x8F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x105CBD" value="0xFF"/>
+            <parameter cpu="0" address="0x105CBF" value="0xFF"/>
+            <parameter cpu="0" address="0x105CC1" value="0xFF"/>
+        </option>
+        <option desc="立即耗尽所有的能量!PL1">
+            <parameter cpu="0" address="0x105CBD" value="0x00"/>
+            <parameter cpu="0" address="0x105CBF" value="0x00"/>
+            <parameter cpu="0" address="0x105CC1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105FDA" value="0x8F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x105CC5" value="0xFF"/>
+            <parameter cpu="0" address="0x105CC7" value="0xFF"/>
+            <parameter cpu="0" address="0x105CC9" value="0xFF"/>
+        </option>
+        <option desc="立即耗尽所有的能量!PL2">
+            <parameter cpu="0" address="0x105CC5" value="0x00"/>
+            <parameter cpu="0" address="0x105CC7" value="0x00"/>
+            <parameter cpu="0" address="0x105CC9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

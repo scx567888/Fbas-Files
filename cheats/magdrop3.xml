@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="等级不会增加" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100626" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色s" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100112" value="0x03"/>
+            <parameter cpu="0" address="0x100113" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有消除数限制=200 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100611" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有消除数限制=200 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有消除数限制=200 PL2">
+            <parameter cpu="0" address="0x100651" value="0xC8"/>
+        </option>
+        <option desc="限额为1 P2">
+            <parameter cpu="0" address="0x100651" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 P1" default="0">
+        <option desc="关闭"/>
+        <option desc="Fool">
+            <parameter cpu="0" address="0x1014E6" value="0x00"/>
+        </option>
+        <option desc="Magician">
+            <parameter cpu="0" address="0x1014E6" value="0x01"/>
+        </option>
+        <option desc="High Priestess">
+            <parameter cpu="0" address="0x1014E6" value="0x02"/>
+        </option>
+        <option desc="Empress">
+            <parameter cpu="0" address="0x1014E6" value="0x03"/>
+        </option>
+        <option desc="Emperor">
+            <parameter cpu="0" address="0x1014E6" value="0x04"/>
+        </option>
+        <option desc="Hierophant">
+            <parameter cpu="0" address="0x1014E6" value="0x05"/>
+        </option>
+        <option desc="Lovers">
+            <parameter cpu="0" address="0x1014E6" value="0x06"/>
+        </option>
+        <option desc="Chariot">
+            <parameter cpu="0" address="0x1014E6" value="0x07"/>
+        </option>
+        <option desc="Strength">
+            <parameter cpu="0" address="0x1014E6" value="0x08"/>
+        </option>
+        <option desc="Justice">
+            <parameter cpu="0" address="0x1014E6" value="0x09"/>
+        </option>
+        <option desc="Death">
+            <parameter cpu="0" address="0x1014E6" value="0x0A"/>
+        </option>
+        <option desc="Devil">
+            <parameter cpu="0" address="0x1014E6" value="0x0B"/>
+        </option>
+        <option desc="Star">
+            <parameter cpu="0" address="0x1014E6" value="0x0C"/>
+        </option>
+        <option desc="Sun">
+            <parameter cpu="0" address="0x1014E6" value="0x0D"/>
+        </option>
+        <option desc="Judgement">
+            <parameter cpu="0" address="0x1014E6" value="0x0E"/>
+        </option>
+        <option desc="World">
+            <parameter cpu="0" address="0x1014E6" value="0x0F"/>
+        </option>
+        <option desc="Moon">
+            <parameter cpu="0" address="0x1014E6" value="0x10"/>
+        </option>
+        <option desc="Hanged Man">
+            <parameter cpu="0" address="0x1014E6" value="0x11"/>
+        </option>
+        <option desc="Fortune">
+            <parameter cpu="0" address="0x1014E6" value="0x12"/>
+        </option>
+        <option desc="Tower">
+            <parameter cpu="0" address="0x1014E6" value="0x13"/>
+        </option>
+        <option desc="Hermit">
+            <parameter cpu="0" address="0x1014E6" value="0x14"/>
+        </option>
+        <option desc="Temperance">
+            <parameter cpu="0" address="0x1014E6" value="0x15"/>
+        </option>
+        <option desc="Black Pierrot">
+            <parameter cpu="0" address="0x1014E6" value="0x16"/>
+        </option>
+        <option desc="Father Strength">
+            <parameter cpu="0" address="0x1014E6" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 P2" default="0">
+        <option desc="关闭"/>
+        <option desc="Fool">
+            <parameter cpu="0" address="0x1014E7" value="0x00"/>
+        </option>
+        <option desc="Magician">
+            <parameter cpu="0" address="0x1014E7" value="0x01"/>
+        </option>
+        <option desc="High Priestess">
+            <parameter cpu="0" address="0x1014E7" value="0x02"/>
+        </option>
+        <option desc="Empress">
+            <parameter cpu="0" address="0x1014E7" value="0x03"/>
+        </option>
+        <option desc="Emperor">
+            <parameter cpu="0" address="0x1014E7" value="0x04"/>
+        </option>
+        <option desc="Hierophant">
+            <parameter cpu="0" address="0x1014E7" value="0x05"/>
+        </option>
+        <option desc="Lovers">
+            <parameter cpu="0" address="0x1014E7" value="0x06"/>
+        </option>
+        <option desc="Chariot">
+            <parameter cpu="0" address="0x1014E7" value="0x07"/>
+        </option>
+        <option desc="Strength">
+            <parameter cpu="0" address="0x1014E7" value="0x08"/>
+        </option>
+        <option desc="Justice">
+            <parameter cpu="0" address="0x1014E7" value="0x09"/>
+        </option>
+        <option desc="Death">
+            <parameter cpu="0" address="0x1014E7" value="0x0A"/>
+        </option>
+        <option desc="Devil">
+            <parameter cpu="0" address="0x1014E7" value="0x0B"/>
+        </option>
+        <option desc="Star">
+            <parameter cpu="0" address="0x1014E7" value="0x0C"/>
+        </option>
+        <option desc="Sun">
+            <parameter cpu="0" address="0x1014E7" value="0x0D"/>
+        </option>
+        <option desc="Judgement">
+            <parameter cpu="0" address="0x1014E7" value="0x0E"/>
+        </option>
+        <option desc="World">
+            <parameter cpu="0" address="0x1014E7" value="0x0F"/>
+        </option>
+        <option desc="Moon">
+            <parameter cpu="0" address="0x1014E7" value="0x10"/>
+        </option>
+        <option desc="Hanged Man">
+            <parameter cpu="0" address="0x1014E7" value="0x11"/>
+        </option>
+        <option desc="Fortune">
+            <parameter cpu="0" address="0x1014E7" value="0x12"/>
+        </option>
+        <option desc="Tower">
+            <parameter cpu="0" address="0x1014E7" value="0x13"/>
+        </option>
+        <option desc="Hermit">
+            <parameter cpu="0" address="0x1014E7" value="0x14"/>
+        </option>
+        <option desc="Temperance">
+            <parameter cpu="0" address="0x1014E7" value="0x15"/>
+        </option>
+        <option desc="Black Pierrot">
+            <parameter cpu="0" address="0x1014E7" value="0x16"/>
+        </option>
+        <option desc="Father Strength">
+            <parameter cpu="0" address="0x1014E7" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="取下的球总是三个 P1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100409" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="取下的球总是三个 P2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100509" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择取下球的颜色 P1" default="0">
+        <option desc="关闭"/>
+        <option desc="红色的">
+            <parameter cpu="0" address="0x100408" value="0x00"/>
+        </option>
+        <option desc="黄色的">
+            <parameter cpu="0" address="0x100408" value="0x01"/>
+        </option>
+        <option desc="蓝色的">
+            <parameter cpu="0" address="0x100408" value="0x02"/>
+        </option>
+        <option desc="绿色的">
+            <parameter cpu="0" address="0x100408" value="0x03"/>
+        </option>
+        <option desc="没有">
+            <parameter cpu="0" address="0x100408" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择取下球的颜色 P2" default="0">
+        <option desc="关闭"/>
+        <option desc="红色的">
+            <parameter cpu="0" address="0x100508" value="0x00"/>
+        </option>
+        <option desc="黄色的">
+            <parameter cpu="0" address="0x100508" value="0x01"/>
+        </option>
+        <option desc="蓝色的">
+            <parameter cpu="0" address="0x100508" value="0x02"/>
+        </option>
+        <option desc="没有">
+            <parameter cpu="0" address="0x100508" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Black Pierrot PL1">
+            <parameter cpu="0" address="0x1000FA" value="0x16"/>
+        </option>
+        <option desc="使用游戏角色Strength's Father PL1">
+            <parameter cpu="0" address="0x1000FA" value="0x17"/>
+        </option>
+        <option desc="Fool">
+            <parameter cpu="0" address="0x1000FA" value="0x00"/>
+        </option>
+        <option desc="Magician">
+            <parameter cpu="0" address="0x1000FA" value="0x01"/>
+        </option>
+        <option desc="High Priestess">
+            <parameter cpu="0" address="0x1000FA" value="0x02"/>
+        </option>
+        <option desc="Empress">
+            <parameter cpu="0" address="0x1000FA" value="0x03"/>
+        </option>
+        <option desc="Emperor">
+            <parameter cpu="0" address="0x1000FA" value="0x04"/>
+        </option>
+        <option desc="Hierophant">
+            <parameter cpu="0" address="0x1000FA" value="0x05"/>
+        </option>
+        <option desc="Lovers">
+            <parameter cpu="0" address="0x1000FA" value="0x06"/>
+        </option>
+        <option desc="Chariot">
+            <parameter cpu="0" address="0x1000FA" value="0x07"/>
+        </option>
+        <option desc="Strength">
+            <parameter cpu="0" address="0x1000FA" value="0x08"/>
+        </option>
+        <option desc="#Hermit">
+            <parameter cpu="0" address="0x1000FA" value="0x09"/>
+        </option>
+        <option desc="#Fortune">
+            <parameter cpu="0" address="0x1000FA" value="0x0A"/>
+        </option>
+        <option desc="Justice">
+            <parameter cpu="0" address="0x1000FA" value="0x0B"/>
+        </option>
+        <option desc="#Hanged Man">
+            <parameter cpu="0" address="0x1000FA" value="0x0C"/>
+        </option>
+        <option desc="Death">
+            <parameter cpu="0" address="0x1000FA" value="0x0D"/>
+        </option>
+        <option desc="#Temperance">
+            <parameter cpu="0" address="0x1000FA" value="0x0E"/>
+        </option>
+        <option desc="Devil">
+            <parameter cpu="0" address="0x1000FA" value="0x0F"/>
+        </option>
+        <option desc="#Tower">
+            <parameter cpu="0" address="0x1000FA" value="0x10"/>
+        </option>
+        <option desc="Star">
+            <parameter cpu="0" address="0x1000FA" value="0x11"/>
+        </option>
+        <option desc="#Moon">
+            <parameter cpu="0" address="0x1000FA" value="0x12"/>
+        </option>
+        <option desc="Sun">
+            <parameter cpu="0" address="0x1000FA" value="0x13"/>
+        </option>
+        <option desc="Judgment">
+            <parameter cpu="0" address="0x1000FA" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Black Pierrot PL2">
+            <parameter cpu="0" address="0x1000FB" value="0x16"/>
+        </option>
+        <option desc="使用游戏角色Strength's Father PL2">
+            <parameter cpu="0" address="0x1000FB" value="0x17"/>
+        </option>
+        <option desc="Fool">
+            <parameter cpu="0" address="0x1000FB" value="0x00"/>
+        </option>
+        <option desc="Magician">
+            <parameter cpu="0" address="0x1000FB" value="0x01"/>
+        </option>
+        <option desc="High Priestess">
+            <parameter cpu="0" address="0x1000FB" value="0x02"/>
+        </option>
+        <option desc="Empress">
+            <parameter cpu="0" address="0x1000FB" value="0x03"/>
+        </option>
+        <option desc="Emperor">
+            <parameter cpu="0" address="0x1000FB" value="0x04"/>
+        </option>
+        <option desc="Hierophant">
+            <parameter cpu="0" address="0x1000FB" value="0x05"/>
+        </option>
+        <option desc="Lovers">
+            <parameter cpu="0" address="0x1000FB" value="0x06"/>
+        </option>
+        <option desc="Chariot">
+            <parameter cpu="0" address="0x1000FB" value="0x07"/>
+        </option>
+        <option desc="Strength">
+            <parameter cpu="0" address="0x1000FB" value="0x08"/>
+        </option>
+        <option desc="#Hermit">
+            <parameter cpu="0" address="0x1000FB" value="0x09"/>
+        </option>
+        <option desc="#Fortune">
+            <parameter cpu="0" address="0x1000FB" value="0x0A"/>
+        </option>
+        <option desc="Justice">
+            <parameter cpu="0" address="0x1000FB" value="0x0B"/>
+        </option>
+        <option desc="#Hanged Man">
+            <parameter cpu="0" address="0x1000FB" value="0x0C"/>
+        </option>
+        <option desc="Death">
+            <parameter cpu="0" address="0x1000FB" value="0x0D"/>
+        </option>
+        <option desc="#Temperance">
+            <parameter cpu="0" address="0x1000FB" value="0x0E"/>
+        </option>
+        <option desc="Devil">
+            <parameter cpu="0" address="0x1000FB" value="0x0F"/>
+        </option>
+        <option desc="#Tower">
+            <parameter cpu="0" address="0x1000FB" value="0x10"/>
+        </option>
+        <option desc="Star">
+            <parameter cpu="0" address="0x1000FB" value="0x11"/>
+        </option>
+        <option desc="#Moon">
+            <parameter cpu="0" address="0x1000FB" value="0x12"/>
+        </option>
+        <option desc="Sun">
+            <parameter cpu="0" address="0x1000FB" value="0x13"/>
+        </option>
+        <option desc="Judgment">
+            <parameter cpu="0" address="0x1000FB" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

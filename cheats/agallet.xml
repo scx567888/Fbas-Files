@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001CD" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002ED" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100D73" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100D71" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100D7C" value="0x1D"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002EF" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100E33" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100E31" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100E3C" value="0x1D"/>
+        </option>
+    </cheat>
+    <cheat desc="地区开关 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地区开关 = 日本">
+            <parameter cpu="0" address="0x1000DF" value="0x00"/>
+        </option>
+        <option desc="地区开关 = 美国">
+            <parameter cpu="0" address="0x1000DF" value="0x01"/>
+        </option>
+        <option desc="地区开关 = 欧洲">
+            <parameter cpu="0" address="0x1000DF" value="0x02"/>
+        </option>
+        <option desc="地区开关 = 香港">
+            <parameter cpu="0" address="0x1000DF" value="0x03"/>
+        </option>
+        <option desc="地区开关 = 台湾">
+            <parameter cpu="0" address="0x1000DF" value="0x04"/>
+        </option>
+        <option desc="地区开关 = 韩国">
+            <parameter cpu="0" address="0x1000DF" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8802B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间(通关时关闭)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8895A" value="0x0959"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x88958" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大火力射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8895E" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击-正常" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x88008" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击-特殊" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x88008" value="0x00"/>
+            <parameter cpu="0" address="0x88C16" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择龙尾卷形状" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0x88008" value="0x8000"/>
+        </option>
+        <option desc="向上卷">
+            <parameter cpu="0" address="0x88008" value="0x810B"/>
+        </option>
+        <option desc="向下卷">
+            <parameter cpu="0" address="0x88008" value="0x81F5"/>
+        </option>
+        <option desc="向上卷+射击">
+            <parameter cpu="0" address="0x88008" value="0x830B"/>
+        </option>
+        <option desc="向下卷+射击">
+            <parameter cpu="0" address="0x88008" value="0x83F5"/>
+        </option>
+    </cheat>
+    <cheat desc="选关(标题画面开启) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0x8895D" value="0x01"/>
+        </option>
+        <option desc="第2关">
+            <parameter cpu="0" address="0x8895D" value="0x02"/>
+        </option>
+        <option desc="第3关">
+            <parameter cpu="0" address="0x8895D" value="0x03"/>
+        </option>
+        <option desc="第4关">
+            <parameter cpu="0" address="0x8895D" value="0x04"/>
+        </option>
+        <option desc="第5关">
+            <parameter cpu="0" address="0x8895D" value="0x05"/>
+        </option>
+        <option desc="第6关">
+            <parameter cpu="0" address="0x8895D" value="0x06"/>
+        </option>
+        <option desc="第7关">
+            <parameter cpu="0" address="0x8895D" value="0x07"/>
+        </option>
+        <option desc="第8关">
+            <parameter cpu="0" address="0x8895D" value="0x08"/>
+        </option>
+        <option desc="第9关">
+            <parameter cpu="0" address="0x8895D" value="0x09"/>
+        </option>
+        <option desc="第10关">
+            <parameter cpu="0" address="0x8895D" value="0x0A"/>
+        </option>
+        <option desc="第11关">
+            <parameter cpu="0" address="0x8895D" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选关(标题画面开启) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0x88984" value="0x01"/>
+        </option>
+        <option desc="第2关">
+            <parameter cpu="0" address="0x88984" value="0x02"/>
+        </option>
+        <option desc="第3关">
+            <parameter cpu="0" address="0x88984" value="0x03"/>
+        </option>
+        <option desc="第4关">
+            <parameter cpu="0" address="0x88984" value="0x04"/>
+        </option>
+        <option desc="第5关">
+            <parameter cpu="0" address="0x88984" value="0x05"/>
+        </option>
+        <option desc="第6关">
+            <parameter cpu="0" address="0x88984" value="0x06"/>
+        </option>
+        <option desc="第7关">
+            <parameter cpu="0" address="0x88984" value="0x07"/>
+        </option>
+        <option desc="第8关">
+            <parameter cpu="0" address="0x88984" value="0x08"/>
+        </option>
+        <option desc="第9关">
+            <parameter cpu="0" address="0x88984" value="0x09"/>
+        </option>
+        <option desc="第10关">
+            <parameter cpu="0" address="0x88984" value="0x0A"/>
+        </option>
+        <option desc="第11关">
+            <parameter cpu="0" address="0x88984" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

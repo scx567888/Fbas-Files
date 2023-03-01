@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF9003" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励(游戏时间)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF9092" value="0x09"/>
+            <parameter cpu="0" address="0xF9093" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF1204" value="0x01"/>
+            <parameter cpu="0" address="0xF1205" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="总是X5倍奖励增加" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF9071" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个炸弹总是power" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF9073" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF1037" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF106F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="最大装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF105D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大炸弹 (单独/奖励) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="最大炸弹 (单独/奖励) PL1">
+            <parameter cpu="0" address="0xF106B" value="0x18"/>
+        </option>
+        <option desc="最大炸弹 (双人游戏) PL1">
+            <parameter cpu="0" address="0xF106B" value="0x46"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火焰炸弹(单独/奖励) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="最大火焰炸弹(单独/奖励) PL1">
+            <parameter cpu="0" address="0xF106D" value="0x17"/>
+        </option>
+        <option desc="最大火焰炸弹 (双人游戏) PL1">
+            <parameter cpu="0" address="0xF106D" value="0x45"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF1137" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF116F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="最大装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF115D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大炸弹 (单独/奖励) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="最大炸弹 (单独/奖励) PL2">
+            <parameter cpu="0" address="0xF116B" value="0x18"/>
+        </option>
+        <option desc="最大炸弹 (双人游戏) PL2">
+            <parameter cpu="0" address="0xF116B" value="0x46"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火焰炸弹(单独/奖励) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="最大火焰炸弹(单独/奖励) PL2">
+            <parameter cpu="0" address="0xF116D" value="0x17"/>
+        </option>
+        <option desc="最大火焰炸弹 (双人游戏) PL2">
+            <parameter cpu="0" address="0xF116D" value="0x45"/>
+        </option>
+    </cheat>
+</shufflecheat>

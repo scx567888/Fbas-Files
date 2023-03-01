@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x63510" value="0x99"/>
+            <parameter cpu="0" address="0x63511" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x61057" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球车" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x63772" value="0x09"/>
+            <parameter cpu="0" address="0x63773" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x6379F" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x6379F" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x6379F" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x6379F" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x6379F" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x6379F" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x6379F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6379A" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="保持住背上的婴孩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6379B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一些敌人不出现 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x63794" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有剑 PL1">
+            <parameter cpu="0" address="0x6379C" value="0x00"/>
+        </option>
+        <option desc="总是有矛 PL1">
+            <parameter cpu="0" address="0x6379C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励关 (2符咒) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6379E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x637BA" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="保持住背上的婴孩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x637BB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有剑 PL2">
+            <parameter cpu="0" address="0x637BC" value="0x00"/>
+        </option>
+        <option desc="总是有矛 PL2">
+            <parameter cpu="0" address="0x637BC" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一些敌人不出现 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x637B4" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励关 (2符咒) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x637BE" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x636DC" value="0x00"/>
+            <parameter cpu="0" address="0x636E2" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

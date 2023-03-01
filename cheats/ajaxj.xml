@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x208C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2098" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有强力炸弹 1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有强力炸弹 1">
+            <parameter cpu="0" address="0x558E" value="0x01"/>
+        </option>
+        <option desc="总是有强力炸弹 2">
+            <parameter cpu="0" address="0x558E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有副机" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x558C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 [1H]" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 [1H]">
+            <parameter cpu="0" address="0x558D" value="0x00"/>
+        </option>
+        <option desc="总是有直射武器 [1H]">
+            <parameter cpu="0" address="0x558D" value="0x01"/>
+        </option>
+        <option desc="总是有3向武器 [1H]">
+            <parameter cpu="0" address="0x558D" value="0x02"/>
+        </option>
+        <option desc="总是有多导弹武器 [1H]">
+            <parameter cpu="0" address="0x558D" value="0x04"/>
+        </option>
+        <option desc="总是有激光武器 [1H]">
+            <parameter cpu="0" address="0x558D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有6向射击!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4BB0" value="0x86"/>
+            <parameter cpu="0" address="0x4BE0" value="0x86"/>
+            <parameter cpu="0" address="0x4C10" value="0x86"/>
+            <parameter cpu="0" address="0x4C40" value="0x86"/>
+            <parameter cpu="0" address="0x4C70" value="0x86"/>
+            <parameter cpu="0" address="0x4CA0" value="0x86"/>
+            <parameter cpu="0" address="0x4CD0" value="0x86"/>
+            <parameter cpu="0" address="0x4D00" value="0x86"/>
+            <parameter cpu="0" address="0x4D30" value="0x86"/>
+            <parameter cpu="0" address="0x4D60" value="0x06"/>
+            <parameter cpu="0" address="0x4D90" value="0x06"/>
+            <parameter cpu="0" address="0x4DC0" value="0x06"/>
+            <parameter cpu="0" address="0x4DF0" value="0x06"/>
+            <parameter cpu="0" address="0x4E20" value="0x06"/>
+            <parameter cpu="0" address="0x4E50" value="0x06"/>
+            <parameter cpu="0" address="0x4E80" value="0x06"/>
+            <parameter cpu="0" address="0x4EB0" value="0x06"/>
+            <parameter cpu="0" address="0x4EE0" value="0x06"/>
+            <parameter cpu="0" address="0x558C" value="0x01"/>
+            <parameter cpu="0" address="0x558D" value="0x02"/>
+            <parameter cpu="0" address="0x55ED" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有超强普通射击 [1H]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4BB0" value="0x90"/>
+            <parameter cpu="0" address="0x4BE0" value="0x90"/>
+            <parameter cpu="0" address="0x4C10" value="0x90"/>
+            <parameter cpu="0" address="0x558D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有超强直射 [1H]" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有超强直射 [1H]">
+            <parameter cpu="0" address="0x4BB0" value="0x90"/>
+            <parameter cpu="0" address="0x4BE0" value="0x90"/>
+            <parameter cpu="0" address="0x4C10" value="0x90"/>
+            <parameter cpu="0" address="0x4C40" value="0x90"/>
+            <parameter cpu="0" address="0x4C70" value="0x90"/>
+            <parameter cpu="0" address="0x4CA0" value="0x90"/>
+            <parameter cpu="0" address="0x4CD0" value="0x90"/>
+            <parameter cpu="0" address="0x4D00" value="0x90"/>
+            <parameter cpu="0" address="0x4D30" value="0x90"/>
+            <parameter cpu="0" address="0x558D" value="0x01"/>
+        </option>
+        <option desc="总是有超强3向射击 [1H]">
+            <parameter cpu="0" address="0x4BB0" value="0x90"/>
+            <parameter cpu="0" address="0x4BE0" value="0x90"/>
+            <parameter cpu="0" address="0x4C10" value="0x90"/>
+            <parameter cpu="0" address="0x4C40" value="0x90"/>
+            <parameter cpu="0" address="0x4C70" value="0x90"/>
+            <parameter cpu="0" address="0x4CA0" value="0x90"/>
+            <parameter cpu="0" address="0x4CD0" value="0x90"/>
+            <parameter cpu="0" address="0x4D00" value="0x90"/>
+            <parameter cpu="0" address="0x4D30" value="0x90"/>
+            <parameter cpu="0" address="0x558D" value="0x02"/>
+        </option>
+        <option desc="总是有超强多导弹射击 [1H]">
+            <parameter cpu="0" address="0x4BB0" value="0x90"/>
+            <parameter cpu="0" address="0x4BE0" value="0x90"/>
+            <parameter cpu="0" address="0x4C10" value="0x90"/>
+            <parameter cpu="0" address="0x4C40" value="0x90"/>
+            <parameter cpu="0" address="0x4C70" value="0x90"/>
+            <parameter cpu="0" address="0x4CA0" value="0x90"/>
+            <parameter cpu="0" address="0x4CD0" value="0x90"/>
+            <parameter cpu="0" address="0x4D00" value="0x90"/>
+            <parameter cpu="0" address="0x4D30" value="0x90"/>
+            <parameter cpu="0" address="0x558D" value="0x04"/>
+        </option>
+        <option desc="总是有超强激光 [1H]">
+            <parameter cpu="0" address="0x4BB0" value="0x9A"/>
+            <parameter cpu="0" address="0x4BE0" value="0x9A"/>
+            <parameter cpu="0" address="0x4C10" value="0x9A"/>
+            <parameter cpu="0" address="0x4C40" value="0x9A"/>
+            <parameter cpu="0" address="0x4C70" value="0x9A"/>
+            <parameter cpu="0" address="0x4CA0" value="0x9A"/>
+            <parameter cpu="0" address="0x4CD0" value="0x9A"/>
+            <parameter cpu="0" address="0x4D00" value="0x9A"/>
+            <parameter cpu="0" address="0x4D30" value="0x9A"/>
+            <parameter cpu="0" address="0x558D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 [2H]" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 [2H]">
+            <parameter cpu="0" address="0x55ED" value="0x00"/>
+        </option>
+        <option desc="总是有直射武器 [2H]">
+            <parameter cpu="0" address="0x55ED" value="0x01"/>
+        </option>
+        <option desc="总是有3向武器 [2H]">
+            <parameter cpu="0" address="0x55ED" value="0x02"/>
+        </option>
+        <option desc="总是有多导弹武器 [2H]">
+            <parameter cpu="0" address="0x55ED" value="0x04"/>
+        </option>
+        <option desc="总是有激光武器 [2H]">
+            <parameter cpu="0" address="0x55ED" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有超强普通射击 [2H]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4D60" value="0x90"/>
+            <parameter cpu="0" address="0x4D90" value="0x90"/>
+            <parameter cpu="0" address="0x4DC0" value="0x90"/>
+            <parameter cpu="0" address="0x55ED" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有超强直射 [2H]" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有超强直射 [2H]">
+            <parameter cpu="0" address="0x4D60" value="0x90"/>
+            <parameter cpu="0" address="0x4D90" value="0x90"/>
+            <parameter cpu="0" address="0x4DC0" value="0x90"/>
+            <parameter cpu="0" address="0x4DF0" value="0x90"/>
+            <parameter cpu="0" address="0x4E20" value="0x90"/>
+            <parameter cpu="0" address="0x4E50" value="0x90"/>
+            <parameter cpu="0" address="0x4E80" value="0x90"/>
+            <parameter cpu="0" address="0x4EB0" value="0x90"/>
+            <parameter cpu="0" address="0x4EE0" value="0x90"/>
+            <parameter cpu="0" address="0x55ED" value="0x01"/>
+        </option>
+        <option desc="总是有超强3向射击 [2H]">
+            <parameter cpu="0" address="0x4D60" value="0x88"/>
+            <parameter cpu="0" address="0x4D90" value="0x88"/>
+            <parameter cpu="0" address="0x4DC0" value="0x88"/>
+            <parameter cpu="0" address="0x4DF0" value="0x88"/>
+            <parameter cpu="0" address="0x4E20" value="0x88"/>
+            <parameter cpu="0" address="0x4E50" value="0x88"/>
+            <parameter cpu="0" address="0x4E80" value="0x88"/>
+            <parameter cpu="0" address="0x4EB0" value="0x88"/>
+            <parameter cpu="0" address="0x4EE0" value="0x88"/>
+            <parameter cpu="0" address="0x55ED" value="0x02"/>
+        </option>
+        <option desc="总是有超强多导弹射击 [2H]">
+            <parameter cpu="0" address="0x4D60" value="0x90"/>
+            <parameter cpu="0" address="0x4D90" value="0x90"/>
+            <parameter cpu="0" address="0x4DC0" value="0x90"/>
+            <parameter cpu="0" address="0x4DF0" value="0x90"/>
+            <parameter cpu="0" address="0x4E20" value="0x90"/>
+            <parameter cpu="0" address="0x4E50" value="0x90"/>
+            <parameter cpu="0" address="0x4E80" value="0x90"/>
+            <parameter cpu="0" address="0x4EB0" value="0x90"/>
+            <parameter cpu="0" address="0x4EE0" value="0x90"/>
+            <parameter cpu="0" address="0x55ED" value="0x04"/>
+        </option>
+        <option desc="总是有超强激光 [2H]">
+            <parameter cpu="0" address="0x4D60" value="0x9A"/>
+            <parameter cpu="0" address="0x4D90" value="0x9A"/>
+            <parameter cpu="0" address="0x4DC0" value="0x9A"/>
+            <parameter cpu="0" address="0x4DF0" value="0x9A"/>
+            <parameter cpu="0" address="0x4E20" value="0x9A"/>
+            <parameter cpu="0" address="0x4E50" value="0x9A"/>
+            <parameter cpu="0" address="0x4E80" value="0x9A"/>
+            <parameter cpu="0" address="0x4EB0" value="0x9A"/>
+            <parameter cpu="0" address="0x4EE0" value="0x9A"/>
+            <parameter cpu="0" address="0x55ED" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="自杀!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x5809" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="开始于关卡 1" default="0">
+        <option desc="关闭"/>
+        <option desc="开始于关卡 1">
+            <parameter cpu="0" address="0x20A2" value="0x00"/>
+            <parameter cpu="0" address="0x20A4" value="0x00"/>
+        </option>
+        <option desc="开始于关卡 2">
+            <parameter cpu="0" address="0x20A2" value="0x01"/>
+            <parameter cpu="0" address="0x20A4" value="0x01"/>
+        </option>
+        <option desc="开始于关卡 3">
+            <parameter cpu="0" address="0x20A2" value="0x02"/>
+            <parameter cpu="0" address="0x20A4" value="0x02"/>
+        </option>
+        <option desc="开始于关卡 4">
+            <parameter cpu="0" address="0x20A2" value="0x04"/>
+            <parameter cpu="0" address="0x20A4" value="0x03"/>
+        </option>
+        <option desc="开始于关卡 5">
+            <parameter cpu="0" address="0x20A2" value="0x05"/>
+            <parameter cpu="0" address="0x20A4" value="0x04"/>
+        </option>
+        <option desc="开始于关卡 6">
+            <parameter cpu="0" address="0x20A2" value="0x06"/>
+            <parameter cpu="0" address="0x20A4" value="0x05"/>
+        </option>
+        <option desc="开始于关卡 7">
+            <parameter cpu="0" address="0x20A2" value="0x08"/>
+            <parameter cpu="0" address="0x20A4" value="0x06"/>
+        </option>
+        <option desc="开始于关卡 8">
+            <parameter cpu="0" address="0x20A2" value="0x09"/>
+            <parameter cpu="0" address="0x20A4" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2809" value="0xF0"/>
+        </option>
+    </cheat>
+</shufflecheat>

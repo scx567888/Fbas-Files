@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续玩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000C1" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限总出局数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000C0" value="0x16"/>
+        </option>
+    </cheat>
+    <cheat desc="无限游戏时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104290" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击球数" default="0">
+        <option desc="关闭"/>
+        <option desc="无限击球数">
+            <parameter cpu="0" address="0x101986" value="0x00"/>
+        </option>
+        <option desc="下一击球数 = 3!">
+            <parameter cpu="0" address="0x101986" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101987" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限出局数" default="0">
+        <option desc="关闭"/>
+        <option desc="无限出局数">
+            <parameter cpu="0" address="0x101988" value="0x00"/>
+        </option>
+        <option desc="快速出局!">
+            <parameter cpu="0" address="0x101988" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x105BA4" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="玩家2得分 = 0" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10170B" value="0x00"/>
+            <parameter cpu="0" address="0x10198B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="到第9局下半场" default="0">
+        <option desc="关闭"/>
+        <option desc="到第9局下半场">
+            <parameter cpu="0" address="0x101709" value="0x11"/>
+            <parameter cpu="0" address="0x101989" value="0x11"/>
+        </option>
+        <option desc="到第9局上半场">
+            <parameter cpu="0" address="0x101709" value="0x10"/>
+            <parameter cpu="0" address="0x101989" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="玩家2得分 = 0" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103A0B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="到第9局下半场" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103A09" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

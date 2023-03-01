@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="显示得分" default="0">
+        <option desc="关闭"/>
+        <option desc="'开启'">
+            <parameter cpu="0" address="0x600BB43" value="0x01"/>
+        </option>
+        <option desc="'关闭'">
+            <parameter cpu="0" address="0x600BB43" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B908" value="0x08"/>
+            <parameter cpu="0" address="0x600B909" value="0x00"/>
+            <parameter cpu="0" address="0x600B90C" value="0x08"/>
+            <parameter cpu="0" address="0x600B90D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B957" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B91D" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B943" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有的魔法 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B960" value="0x01"/>
+            <parameter cpu="0" address="0x600B961" value="0xFF"/>
+            <parameter cpu="0" address="0x600B964" value="0x06"/>
+            <parameter cpu="0" address="0x600B965" value="0x06"/>
+            <parameter cpu="0" address="0x600B966" value="0x06"/>
+            <parameter cpu="0" address="0x600B967" value="0x06"/>
+            <parameter cpu="0" address="0x600B968" value="0x06"/>
+            <parameter cpu="0" address="0x600B969" value="0x06"/>
+            <parameter cpu="0" address="0x600B96A" value="0x06"/>
+            <parameter cpu="0" address="0x600B96B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600BA0B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B9BC" value="0x08"/>
+            <parameter cpu="0" address="0x600B9BD" value="0x00"/>
+            <parameter cpu="0" address="0x600B9C0" value="0x08"/>
+            <parameter cpu="0" address="0x600B9C1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B9D1" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600B9F7" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有所有的魔法 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x600BA14" value="0x01"/>
+            <parameter cpu="0" address="0x600BA15" value="0xFF"/>
+            <parameter cpu="0" address="0x600BA18" value="0x06"/>
+            <parameter cpu="0" address="0x600BA19" value="0x06"/>
+            <parameter cpu="0" address="0x600BA1A" value="0x06"/>
+            <parameter cpu="0" address="0x600BA1B" value="0x06"/>
+            <parameter cpu="0" address="0x600BA1C" value="0x06"/>
+            <parameter cpu="0" address="0x600BA1D" value="0x06"/>
+            <parameter cpu="0" address="0x600BA1E" value="0x06"/>
+            <parameter cpu="0" address="0x600BA1F" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

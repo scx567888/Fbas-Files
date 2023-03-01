@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xC346" value="0x59"/>
+        </option>
+        <option desc="完成游戏 !">
+            <parameter cpu="0" address="0xC346" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人总是有5个球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC398" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="玩家总是有5个球" default="0">
+        <option desc="关闭"/>
+        <option desc="玩家总是有5个球">
+            <parameter cpu="0" address="0xC399" value="0x05"/>
+        </option>
+        <option desc="玩家总是有0个球">
+            <parameter cpu="0" address="0xC399" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="玩家赢 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC346" value="0x01"/>
+            <parameter cpu="0" address="0xC398" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人赢 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC346" value="0x01"/>
+            <parameter cpu="0" address="0xC399" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100219" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (单独游戏)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107D23" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="指示线 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="指示线 ''开启''">
+            <parameter cpu="0" address="0x1020FF" value="0x02"/>
+            <parameter cpu="0" address="0x107D41" value="0x0A"/>
+        </option>
+        <option desc="指示线 ''关闭''">
+            <parameter cpu="0" address="0x1020FF" value="0x00"/>
+            <parameter cpu="0" address="0x107D41" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="当此局结束即到39关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001E5" value="0x25"/>
+        </option>
+    </cheat>
+    <cheat desc="当前泡泡总是蓝色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="当前泡泡总是蓝色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x01"/>
+        </option>
+        <option desc="当前泡泡总是红色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x02"/>
+        </option>
+        <option desc="当前泡泡总是橙色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x03"/>
+        </option>
+        <option desc="当前泡泡总是绿色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x04"/>
+        </option>
+        <option desc="当前泡泡总是黄色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x05"/>
+        </option>
+        <option desc="当前泡泡总是灰白色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x06"/>
+        </option>
+        <option desc="当前泡泡总是紫色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x07"/>
+        </option>
+        <option desc="当前泡泡总是黑色 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x08"/>
+        </option>
+        <option desc="当前泡泡总是一颗星 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x09"/>
+        </option>
+        <option desc="当前泡泡总是一个帮助 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x0A"/>
+        </option>
+        <option desc="当前泡泡总是炸弹 PL1">
+            <parameter cpu="0" address="0x1023B5" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="下一泡泡总是蓝色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下一泡泡总是蓝色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x01"/>
+        </option>
+        <option desc="下一泡泡总是红色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x02"/>
+        </option>
+        <option desc="下一泡泡总是橙色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x03"/>
+        </option>
+        <option desc="下一泡泡总是绿色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x04"/>
+        </option>
+        <option desc="下一泡泡总是黄色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x05"/>
+        </option>
+        <option desc="下一泡泡总是灰白色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x06"/>
+        </option>
+        <option desc="下一泡泡总是紫色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x07"/>
+        </option>
+        <option desc="下一泡泡总是黑色 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x08"/>
+        </option>
+        <option desc="下一泡泡总是一颗星 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x09"/>
+        </option>
+        <option desc="下一泡泡总是一个帮助 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x0A"/>
+        </option>
+        <option desc="下一泡泡总是炸弹 PL1">
+            <parameter cpu="0" address="0x10212B" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="当前泡泡总是蓝色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="当前泡泡总是蓝色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x01"/>
+        </option>
+        <option desc="当前泡泡总是红色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x02"/>
+        </option>
+        <option desc="当前泡泡总是橙色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x03"/>
+        </option>
+        <option desc="当前泡泡总是绿色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x04"/>
+        </option>
+        <option desc="当前泡泡总是黄色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x05"/>
+        </option>
+        <option desc="当前泡泡总是灰白色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x06"/>
+        </option>
+        <option desc="当前泡泡总是紫色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x07"/>
+        </option>
+        <option desc="当前泡泡总是黑色 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x08"/>
+        </option>
+        <option desc="当前泡泡总是炸弹 PL2">
+            <parameter cpu="0" address="0x104B9D" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="下一泡泡总是蓝色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下一泡泡总是蓝色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x01"/>
+        </option>
+        <option desc="下一泡泡总是红色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x02"/>
+        </option>
+        <option desc="下一泡泡总是橙色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x03"/>
+        </option>
+        <option desc="下一泡泡总是绿色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x04"/>
+        </option>
+        <option desc="下一泡泡总是黄色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x05"/>
+        </option>
+        <option desc="下一泡泡总是灰白色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x06"/>
+        </option>
+        <option desc="下一泡泡总是紫色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x07"/>
+        </option>
+        <option desc="下一泡泡总是黑色 PL2">
+            <parameter cpu="0" address="0x104913" value="0x08"/>
+        </option>
+        <option desc="下一泡泡总是炸弹 PL2">
+            <parameter cpu="0" address="0x104913" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,72 @@
+<mamecheat version="1">
+
+    <cheat desc="无限投币">
+        <script state="run">
+            <action>maincpu.pb@4006CB=09</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL1">
+        <script state="run">
+            <action>maincpu.pb@400865=09</action>
+        </script>
+    </cheat>
+
+    <cheat desc="无限炸弹 PL1">
+        <script state="run">
+            <action>maincpu.pb@400869=05</action>
+        </script>
+    </cheat>
+
+    <cheat desc="角色无敌 PL1">
+        <script state="run">
+            <action>maincpu.pb@40D268=10|(maincpu.pb@40D268 BAND ~10)</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="无限生命 PL2">
+        <script state="run">
+            <action>maincpu.pb@400867=09</action>
+        </script>
+    </cheat>
+
+    <cheat desc="无限炸弹 PL2">
+        <script state="run">
+            <action>maincpu.pb@40086D=05</action>
+        </script>
+    </cheat>
+
+    <cheat desc="角色无敌 PL2">
+        <script state="run">
+            <action>maincpu.pb@40D328=10|(maincpu.pb@40D328 BAND ~10)</action>
+        </script>
+    </cheat>
+
+    <cheat desc=" "/>
+
+    <cheat desc="选择区域码">
+        <comment>After you enable this cheat to see any effect you will have to reset the game (F3). Then you may have
+            to turn the Test Mode ON (F2), wait for Test Mode to appear and reset again(F3).
+        </comment>
+        <parameter>
+            <item value="0x01">Japan (Kyukyoku Tiger 2)</item>
+            <item value="0x02">US (Twin Cobra 2)</item>
+            <item value="0x03">世界 (Twin Cobra 2)</item>
+        </parameter>
+        <script state="on">
+            <action>temp0 =maincpu.mb@0FFFFF</action>
+        </script>
+        <script state="run">
+            <action>maincpu.mb@0FFFFF=param</action>
+        </script>
+        <script state="off">
+            <action>maincpu.mb@0FFFFF=temp0</action>
+        </script>
+    </cheat>
+
+</mamecheat>
+        <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->

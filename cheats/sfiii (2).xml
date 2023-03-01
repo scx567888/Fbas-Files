@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2007188" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2012CA9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 " default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间 ">
+            <parameter cpu="0" address="0x200EB33" value="0x63"/>
+        </option>
+        <option desc="过关! ">
+            <parameter cpu="0" address="0x200EB33" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择固定背景" default="0">
+        <option desc="关闭"/>
+        <option desc="亚历克斯">
+            <parameter cpu="0" address="0x2012CA3" value="0x01"/>
+        </option>
+        <option desc="隆">
+            <parameter cpu="0" address="0x2012CA3" value="0x02"/>
+        </option>
+        <option desc="阴">
+            <parameter cpu="0" address="0x2012CA3" value="0x03"/>
+        </option>
+        <option desc="达德利">
+            <parameter cpu="0" address="0x2012CA3" value="0x04"/>
+        </option>
+        <option desc="内克罗">
+            <parameter cpu="0" address="0x2012CA3" value="0x05"/>
+        </option>
+        <option desc="雨果">
+            <parameter cpu="0" address="0x2012CA3" value="0x06"/>
+        </option>
+        <option desc="息吹">
+            <parameter cpu="0" address="0x2012CA3" value="0x07"/>
+        </option>
+        <option desc="艾莉娜">
+            <parameter cpu="0" address="0x2012CA3" value="0x08"/>
+        </option>
+        <option desc="欧罗">
+            <parameter cpu="0" address="0x2012CA3" value="0x09"/>
+        </option>
+        <option desc="阳">
+            <parameter cpu="0" address="0x2012CA3" value="0x0A"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0x2012CA3" value="0x0B"/>
+        </option>
+        <option desc="肖恩">
+            <parameter cpu="0" address="0x2012CA3" value="0x0C"/>
+        </option>
+        <option desc="基尔">
+            <parameter cpu="0" address="0x2012CA3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限体力 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1 ">
+            <parameter cpu="0" address="0x200D22B" value="0xA0"/>
+        </option>
+        <option desc="耗尽所有体力! PL1 ">
+            <parameter cpu="0" address="0x200D22B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕槽总是空 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="眩晕槽总是空 PL1">
+            <parameter cpu="0" address="0x200D985" value="0x00"/>
+        </option>
+        <option desc="眩晕槽总是满 PL1">
+            <parameter cpu="0" address="0x200D985" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="暴气状态 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200D953" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x00"/>
+        </option>
+        <option desc="达德利">
+            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x01"/>
+        </option>
+        <option desc="亚历克斯">
+            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x02"/>
+        </option>
+        <option desc="阴">
+            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x03"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x04"/>
+        </option>
+        <option desc="息吹">
+            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x00"/>
+        </option>
+        <option desc="内克罗">
+            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x01"/>
+        </option>
+        <option desc="肖恩">
+            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x02"/>
+        </option>
+        <option desc="欧罗">
+            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x03"/>
+        </option>
+        <option desc="艾莉娜">
+            <parameter cpu="0" address="0x2012E2F" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x04"/>
+        </option>
+        <option desc="#基尔#">
+            <parameter cpu="0" address="0x2012E2F" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7D" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="开启角色基尔 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2012C7D" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色基尔 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200EB43" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="基尔可连续复活 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200D941" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="必杀1">
+            <parameter cpu="0" address="0x200D93F" value="0x10"/>
+        </option>
+        <option desc="必杀2">
+            <parameter cpu="0" address="0x200D93F" value="0x11"/>
+        </option>
+        <option desc="必杀3">
+            <parameter cpu="0" address="0x200D93F" value="0x12"/>
+        </option>
+        <option desc="必杀关闭 PL1">
+            <parameter cpu="0" address="0x200D93F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限体力 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL2 ">
+            <parameter cpu="0" address="0x200D603" value="0xA0"/>
+        </option>
+        <option desc="耗尽所有体力! PL2 ">
+            <parameter cpu="0" address="0x200D603" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕槽总是空 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="眩晕槽总是空 PL2 ">
+            <parameter cpu="0" address="0x200D999" value="0x00"/>
+        </option>
+        <option desc="眩晕槽总是满 PL2 ">
+            <parameter cpu="0" address="0x200D999" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="暴气状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200D973" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0x2012E31" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x00"/>
+        </option>
+        <option desc="达德利">
+            <parameter cpu="0" address="0x2012E31" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x01"/>
+        </option>
+        <option desc="亚历克斯">
+            <parameter cpu="0" address="0x2012E31" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x02"/>
+        </option>
+        <option desc="阴">
+            <parameter cpu="0" address="0x2012E31" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x03"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0x2012E31" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x04"/>
+        </option>
+        <option desc="息吹">
+            <parameter cpu="0" address="0x2012E31" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x00"/>
+        </option>
+        <option desc="内克罗">
+            <parameter cpu="0" address="0x2012E31" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x01"/>
+        </option>
+        <option desc="肖恩">
+            <parameter cpu="0" address="0x2012E31" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x02"/>
+        </option>
+        <option desc="欧罗">
+            <parameter cpu="0" address="0x2012E31" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x03"/>
+        </option>
+        <option desc="艾莉娜">
+            <parameter cpu="0" address="0x2012E31" value="0x01"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x04"/>
+        </option>
+        <option desc="#基尔#">
+            <parameter cpu="0" address="0x2012E31" value="0x00"/>
+            <parameter cpu="0" address="0x2012C7F" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="开启角色基尔 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2012C7F" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色基尔 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200EB44" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="基尔可连续复活 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x200D961" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="必杀1">
+            <parameter cpu="0" address="0x200D95F" value="0x10"/>
+        </option>
+        <option desc="必杀2">
+            <parameter cpu="0" address="0x200D95F" value="0x11"/>
+        </option>
+        <option desc="必杀3">
+            <parameter cpu="0" address="0x200D95F" value="0x12"/>
+        </option>
+        <option desc="必杀关闭 PL2">
+            <parameter cpu="0" address="0x200D95F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="空压膝碎" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B707" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="强力轰炸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B709" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="闪光斩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B70B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="超强力轰炸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B6FB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="回旋镖强袭" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B6FD" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="晕击头槌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B6FE" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="上段足刀蹴" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B70D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="龙卷风" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B70F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="霞朱雀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201B71D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="空压膝碎" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA7D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="强力轰炸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA7F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="闪光斩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA81" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="超强力轰炸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA71" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="回旋镖强袭" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA73" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="晕击头槌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA74" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="上段足刀蹴" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA83" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="龙卷风" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA85" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="霞朱雀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BA93" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0A0" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0AA" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="总是所有力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是所有力量 PL1">
+            <parameter cpu="0" address="0xC0EE" value="0x1B"/>
+        </option>
+        <option desc="总是无敌/力量 PL1">
+            <parameter cpu="0" address="0xC0EE" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="下一颗星总是70000点数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0BC" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC190" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC19A" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="总是耗尽力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是耗尽力量 PL2">
+            <parameter cpu="0" address="0xC1DE" value="0x00"/>
+        </option>
+        <option desc="总是所有力量 PL2">
+            <parameter cpu="0" address="0xC1DE" value="0x1B"/>
+        </option>
+        <option desc="总是无敌/力量 PL2">
+            <parameter cpu="0" address="0xC1DE" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="下一颗星总是70000点数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1AC" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌计时无限" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌计时无限">
+            <parameter cpu="0" address="0xC461" value="0x14"/>
+        </option>
+        <option desc="停止无敌计时">
+            <parameter cpu="0" address="0xC461" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="设置等级为 5 !" default="0">
+        <option desc="关闭"/>
+        <option desc="设置等级为 5 !">
+            <parameter cpu="0" address="0xC0AE" value="0x05"/>
+        </option>
+        <option desc="设置等级为 10 !">
+            <parameter cpu="0" address="0xC0AE" value="0x0A"/>
+        </option>
+        <option desc="设置等级为 15 !">
+            <parameter cpu="0" address="0xC0AE" value="0x0F"/>
+        </option>
+        <option desc="设置等级为 20 !">
+            <parameter cpu="0" address="0xC0AE" value="0x14"/>
+        </option>
+        <option desc="设置等级为 25 !">
+            <parameter cpu="0" address="0xC0AE" value="0x19"/>
+        </option>
+        <option desc="设置等级为 30 !">
+            <parameter cpu="0" address="0xC0AE" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="超时魔鬼头会停留在第一个蛇穴处" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC586" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

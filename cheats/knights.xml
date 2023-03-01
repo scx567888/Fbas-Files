@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE7DA" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC88" value="0x00"/>
+            <parameter cpu="0" address="0xFFADA8" value="0x00"/>
+            <parameter cpu="0" address="0xFFAEC8" value="0x00"/>
+            <parameter cpu="0" address="0xFFE84D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFFA4C4" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFFA4C4" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFFA4C4" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFFA4C4" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFFA4C4" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFFA4C4" value="0x05"/>
+        </option>
+        <option desc="最终关">
+            <parameter cpu="0" address="0xFFA4C4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC76" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFABA5" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC7A" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="经验值满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC8C" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择等级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFFAC4E" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFFAC4E" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFFAC4E" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFFAC4E" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFFAC4E" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFFAC4E" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFFAC4E" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFFAC4E" value="0x07"/>
+        </option>
+        <option desc="等级9">
+            <parameter cpu="0" address="0xFFAC4E" value="0x08"/>
+        </option>
+        <option desc="等级10">
+            <parameter cpu="0" address="0xFFAC4E" value="0x09"/>
+        </option>
+        <option desc="等级11">
+            <parameter cpu="0" address="0xFFAC4E" value="0x0A"/>
+        </option>
+        <option desc="等级12">
+            <parameter cpu="0" address="0xFFAC4E" value="0x0B"/>
+        </option>
+        <option desc="等级13">
+            <parameter cpu="0" address="0xFFAC4E" value="0x0C"/>
+        </option>
+        <option desc="等级14">
+            <parameter cpu="0" address="0xFFAC4E" value="0x0D"/>
+        </option>
+        <option desc="等级15">
+            <parameter cpu="0" address="0xFFAC4E" value="0x0E"/>
+        </option>
+        <option desc="等级16">
+            <parameter cpu="0" address="0xFFAC4E" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE833" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Arthur PL1">
+            <parameter cpu="0" address="0xFFAC4C" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Lancelot PL1">
+            <parameter cpu="0" address="0xFFAC4C" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Perceval PL1">
+            <parameter cpu="0" address="0xFFAC4C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="档格后快速恢复 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFABCA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAD96" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFACC5" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAD9A" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="经验值满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFADAC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFFAD6E" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFFAD6E" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFFAD6E" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFFAD6E" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFFAD6E" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFFAD6E" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFFAD6E" value="0x03"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFFAD6E" value="0x07"/>
+        </option>
+        <option desc="等级9">
+            <parameter cpu="0" address="0xFFAD6E" value="0x08"/>
+        </option>
+        <option desc="等级10">
+            <parameter cpu="0" address="0xFFAD6E" value="0x09"/>
+        </option>
+        <option desc="等级11">
+            <parameter cpu="0" address="0xFFAD6E" value="0x0A"/>
+        </option>
+        <option desc="等级12">
+            <parameter cpu="0" address="0xFFAD6E" value="0x0B"/>
+        </option>
+        <option desc="等级13">
+            <parameter cpu="0" address="0xFFAD6E" value="0x0C"/>
+        </option>
+        <option desc="等级14">
+            <parameter cpu="0" address="0xFFAD6E" value="0x0D"/>
+        </option>
+        <option desc="等级15">
+            <parameter cpu="0" address="0xFFAD6E" value="0x0E"/>
+        </option>
+        <option desc="等级16">
+            <parameter cpu="0" address="0xFFAD6E" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE953" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Arthur PL2">
+            <parameter cpu="0" address="0xFFAD6C" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Lancelot PL2">
+            <parameter cpu="0" address="0xFFAD6C" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Perceval PL2">
+            <parameter cpu="0" address="0xFFAD6C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAEB6" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFADE5" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAEBA" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="经验值满 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAECC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择等级 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="等级1">
+            <parameter cpu="0" address="0xFFAD8E" value="0x00"/>
+        </option>
+        <option desc="等级2">
+            <parameter cpu="0" address="0xFFAD8E" value="0x01"/>
+        </option>
+        <option desc="等级3">
+            <parameter cpu="0" address="0xFFAD8E" value="0x02"/>
+        </option>
+        <option desc="等级4">
+            <parameter cpu="0" address="0xFFAD8E" value="0x03"/>
+        </option>
+        <option desc="等级5">
+            <parameter cpu="0" address="0xFFAD8E" value="0x04"/>
+        </option>
+        <option desc="等级6">
+            <parameter cpu="0" address="0xFFAD8E" value="0x05"/>
+        </option>
+        <option desc="等级7">
+            <parameter cpu="0" address="0xFFAD8E" value="0x06"/>
+        </option>
+        <option desc="等级8">
+            <parameter cpu="0" address="0xFFAD8E" value="0x07"/>
+        </option>
+        <option desc="等级9">
+            <parameter cpu="0" address="0xFFAD8E" value="0x08"/>
+        </option>
+        <option desc="等级10">
+            <parameter cpu="0" address="0xFFAD8E" value="0x09"/>
+        </option>
+        <option desc="等级11">
+            <parameter cpu="0" address="0xFFAD8E" value="0x0A"/>
+        </option>
+        <option desc="等级12">
+            <parameter cpu="0" address="0xFFAD8E" value="0x0B"/>
+        </option>
+        <option desc="等级13">
+            <parameter cpu="0" address="0xFFAD8E" value="0x0C"/>
+        </option>
+        <option desc="等级14">
+            <parameter cpu="0" address="0xFFAD8E" value="0x0D"/>
+        </option>
+        <option desc="等级15">
+            <parameter cpu="0" address="0xFFAD8E" value="0x0E"/>
+        </option>
+        <option desc="等级16">
+            <parameter cpu="0" address="0xFFAD8E" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFEA73" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Arthur PL3">
+            <parameter cpu="0" address="0xFFAE8C" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Lancelot PL3">
+            <parameter cpu="0" address="0xFFAE8C" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Perceval PL3">
+            <parameter cpu="0" address="0xFFAE8C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="全敌人转换(BOSS无效)" default="0">
+        <option desc="关闭"/>
+        <option desc="分">
+            <parameter cpu="0" address="0xFFE7D4" value="0xFF"/>
+        </option>
+        <option desc="血">
+            <parameter cpu="0" address="0xFFE7D5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="打箱子出现物品" default="0">
+        <option desc="关闭"/>
+        <option desc="烤火鸡">
+            <parameter cpu="0" address="0xFFC299" value="0x00"/>
+            <parameter cpu="0" address="0xFFC359" value="0x00"/>
+            <parameter cpu="0" address="0xFFC419" value="0x00"/>
+            <parameter cpu="0" address="0xFFC4D9" value="0x00"/>
+            <parameter cpu="0" address="0xFFC599" value="0x00"/>
+            <parameter cpu="0" address="0xFFC7D9" value="0x00"/>
+            <parameter cpu="0" address="0xFFC899" value="0x00"/>
+            <parameter cpu="0" address="0xFFC959" value="0x00"/>
+            <parameter cpu="0" address="0xFFCA19" value="0x00"/>
+            <parameter cpu="0" address="0xFFCAD9" value="0x00"/>
+            <parameter cpu="0" address="0xFFCD09" value="0x00"/>
+            <parameter cpu="0" address="0xFFD499" value="0x00"/>
+            <parameter cpu="0" address="0xFFD919" value="0x00"/>
+            <parameter cpu="0" address="0xFFD9D9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDA99" value="0x00"/>
+            <parameter cpu="0" address="0xFFDB59" value="0x00"/>
+            <parameter cpu="0" address="0xFFDC19" value="0x00"/>
+            <parameter cpu="0" address="0xFFDCD9" value="0x00"/>
+            <parameter cpu="0" address="0xFFDD99" value="0x00"/>
+            <parameter cpu="0" address="0xFFDE59" value="0x00"/>
+            <parameter cpu="0" address="0xFFDF19" value="0x00"/>
+            <parameter cpu="0" address="0xFFDFD9" value="0x00"/>
+            <parameter cpu="0" address="0xFFE099" value="0x00"/>
+            <parameter cpu="0" address="0xFFE159" value="0x00"/>
+        </option>
+        <option desc="红震">
+            <parameter cpu="0" address="0xFFC299" value="0x16"/>
+            <parameter cpu="0" address="0xFFC359" value="0x16"/>
+            <parameter cpu="0" address="0xFFC419" value="0x16"/>
+            <parameter cpu="0" address="0xFFC4D9" value="0x16"/>
+            <parameter cpu="0" address="0xFFC599" value="0x16"/>
+            <parameter cpu="0" address="0xFFC7D9" value="0x16"/>
+            <parameter cpu="0" address="0xFFC899" value="0x16"/>
+            <parameter cpu="0" address="0xFFC959" value="0x16"/>
+            <parameter cpu="0" address="0xFFCA19" value="0x16"/>
+            <parameter cpu="0" address="0xFFCAD9" value="0x16"/>
+            <parameter cpu="0" address="0xFFCD09" value="0x16"/>
+            <parameter cpu="0" address="0xFFD499" value="0x16"/>
+            <parameter cpu="0" address="0xFFD919" value="0x16"/>
+            <parameter cpu="0" address="0xFFD9D9" value="0x16"/>
+            <parameter cpu="0" address="0xFFDA99" value="0x16"/>
+            <parameter cpu="0" address="0xFFDB59" value="0x16"/>
+            <parameter cpu="0" address="0xFFDC19" value="0x16"/>
+            <parameter cpu="0" address="0xFFDCD9" value="0x16"/>
+            <parameter cpu="0" address="0xFFDD99" value="0x16"/>
+            <parameter cpu="0" address="0xFFDE59" value="0x16"/>
+            <parameter cpu="0" address="0xFFDF19" value="0x16"/>
+            <parameter cpu="0" address="0xFFDFD9" value="0x16"/>
+            <parameter cpu="0" address="0xFFE099" value="0x16"/>
+            <parameter cpu="0" address="0xFFE159" value="0x16"/>
+        </option>
+        <option desc="绿震">
+            <parameter cpu="0" address="0xFFC299" value="0x17"/>
+            <parameter cpu="0" address="0xFFC359" value="0x17"/>
+            <parameter cpu="0" address="0xFFC419" value="0x17"/>
+            <parameter cpu="0" address="0xFFC4D9" value="0x17"/>
+            <parameter cpu="0" address="0xFFC599" value="0x17"/>
+            <parameter cpu="0" address="0xFFC7D9" value="0x17"/>
+            <parameter cpu="0" address="0xFFC899" value="0x17"/>
+            <parameter cpu="0" address="0xFFC959" value="0x17"/>
+            <parameter cpu="0" address="0xFFCA19" value="0x17"/>
+            <parameter cpu="0" address="0xFFCAD9" value="0x17"/>
+            <parameter cpu="0" address="0xFFCD09" value="0x17"/>
+            <parameter cpu="0" address="0xFFD499" value="0x17"/>
+            <parameter cpu="0" address="0xFFD919" value="0x17"/>
+            <parameter cpu="0" address="0xFFD9D9" value="0x17"/>
+            <parameter cpu="0" address="0xFFDA99" value="0x17"/>
+            <parameter cpu="0" address="0xFFDB59" value="0x17"/>
+            <parameter cpu="0" address="0xFFDC19" value="0x17"/>
+            <parameter cpu="0" address="0xFFDCD9" value="0x17"/>
+            <parameter cpu="0" address="0xFFDD99" value="0x17"/>
+            <parameter cpu="0" address="0xFFDE59" value="0x17"/>
+            <parameter cpu="0" address="0xFFDF19" value="0x17"/>
+            <parameter cpu="0" address="0xFFDFD9" value="0x17"/>
+            <parameter cpu="0" address="0xFFE099" value="0x17"/>
+            <parameter cpu="0" address="0xFFE159" value="0x17"/>
+        </option>
+        <option desc="红魔杖">
+            <parameter cpu="0" address="0xFFC299" value="0x18"/>
+            <parameter cpu="0" address="0xFFC359" value="0x18"/>
+            <parameter cpu="0" address="0xFFC419" value="0x18"/>
+            <parameter cpu="0" address="0xFFC4D9" value="0x18"/>
+            <parameter cpu="0" address="0xFFC599" value="0x18"/>
+            <parameter cpu="0" address="0xFFC7D9" value="0x18"/>
+            <parameter cpu="0" address="0xFFC899" value="0x18"/>
+            <parameter cpu="0" address="0xFFC959" value="0x18"/>
+            <parameter cpu="0" address="0xFFCA19" value="0x18"/>
+            <parameter cpu="0" address="0xFFCAD9" value="0x18"/>
+            <parameter cpu="0" address="0xFFCD09" value="0x18"/>
+            <parameter cpu="0" address="0xFFD499" value="0x18"/>
+            <parameter cpu="0" address="0xFFD919" value="0x18"/>
+            <parameter cpu="0" address="0xFFD9D9" value="0x18"/>
+            <parameter cpu="0" address="0xFFDA99" value="0x18"/>
+            <parameter cpu="0" address="0xFFDB59" value="0x18"/>
+            <parameter cpu="0" address="0xFFDC19" value="0x18"/>
+            <parameter cpu="0" address="0xFFDCD9" value="0x18"/>
+            <parameter cpu="0" address="0xFFDD99" value="0x18"/>
+            <parameter cpu="0" address="0xFFDE59" value="0x18"/>
+            <parameter cpu="0" address="0xFFDF19" value="0x18"/>
+            <parameter cpu="0" address="0xFFDFD9" value="0x18"/>
+            <parameter cpu="0" address="0xFFE099" value="0x18"/>
+            <parameter cpu="0" address="0xFFE159" value="0x18"/>
+        </option>
+        <option desc="绿魔杖">
+            <parameter cpu="0" address="0xFFC299" value="0x19"/>
+            <parameter cpu="0" address="0xFFC359" value="0x19"/>
+            <parameter cpu="0" address="0xFFC419" value="0x19"/>
+            <parameter cpu="0" address="0xFFC4D9" value="0x19"/>
+            <parameter cpu="0" address="0xFFC599" value="0x19"/>
+            <parameter cpu="0" address="0xFFC7D9" value="0x19"/>
+            <parameter cpu="0" address="0xFFC899" value="0x19"/>
+            <parameter cpu="0" address="0xFFC959" value="0x19"/>
+            <parameter cpu="0" address="0xFFCA19" value="0x19"/>
+            <parameter cpu="0" address="0xFFCAD9" value="0x19"/>
+            <parameter cpu="0" address="0xFFCD09" value="0x19"/>
+            <parameter cpu="0" address="0xFFD499" value="0x19"/>
+            <parameter cpu="0" address="0xFFD919" value="0x19"/>
+            <parameter cpu="0" address="0xFFD9D9" value="0x19"/>
+            <parameter cpu="0" address="0xFFDA99" value="0x19"/>
+            <parameter cpu="0" address="0xFFDB59" value="0x19"/>
+            <parameter cpu="0" address="0xFFDC19" value="0x19"/>
+            <parameter cpu="0" address="0xFFDCD9" value="0x19"/>
+            <parameter cpu="0" address="0xFFDD99" value="0x19"/>
+            <parameter cpu="0" address="0xFFDE59" value="0x19"/>
+            <parameter cpu="0" address="0xFFDF19" value="0x19"/>
+            <parameter cpu="0" address="0xFFDFD9" value="0x19"/>
+            <parameter cpu="0" address="0xFFE099" value="0x19"/>
+            <parameter cpu="0" address="0xFFE159" value="0x19"/>
+        </option>
+        <option desc="2UP">
+            <parameter cpu="0" address="0xFFC299" value="0x1B"/>
+            <parameter cpu="0" address="0xFFC359" value="0x1B"/>
+            <parameter cpu="0" address="0xFFC419" value="0x1B"/>
+            <parameter cpu="0" address="0xFFC4D9" value="0x1B"/>
+            <parameter cpu="0" address="0xFFC599" value="0x1B"/>
+            <parameter cpu="0" address="0xFFC7D9" value="0x1B"/>
+            <parameter cpu="0" address="0xFFC899" value="0x1B"/>
+            <parameter cpu="0" address="0xFFC959" value="0x1B"/>
+            <parameter cpu="0" address="0xFFCA19" value="0x1B"/>
+            <parameter cpu="0" address="0xFFCAD9" value="0x1B"/>
+            <parameter cpu="0" address="0xFFCD09" value="0x1B"/>
+            <parameter cpu="0" address="0xFFD499" value="0x1B"/>
+            <parameter cpu="0" address="0xFFD919" value="0x1B"/>
+            <parameter cpu="0" address="0xFFD9D9" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDA99" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDB59" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDC19" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDCD9" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDD99" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDE59" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDF19" value="0x1B"/>
+            <parameter cpu="0" address="0xFFDFD9" value="0x1B"/>
+            <parameter cpu="0" address="0xFFE099" value="0x1B"/>
+            <parameter cpu="0" address="0xFFE159" value="0x1B"/>
+        </option>
+        <option desc="马">
+            <parameter cpu="0" address="0xFFC299" value="0x1C"/>
+            <parameter cpu="0" address="0xFFC359" value="0x1C"/>
+            <parameter cpu="0" address="0xFFC419" value="0x1C"/>
+            <parameter cpu="0" address="0xFFC4D9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFC599" value="0x1C"/>
+            <parameter cpu="0" address="0xFFC7D9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFC899" value="0x1C"/>
+            <parameter cpu="0" address="0xFFC959" value="0x1C"/>
+            <parameter cpu="0" address="0xFFCA19" value="0x1C"/>
+            <parameter cpu="0" address="0xFFCAD9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFCD09" value="0x1C"/>
+            <parameter cpu="0" address="0xFFD499" value="0x1C"/>
+            <parameter cpu="0" address="0xFFD919" value="0x1C"/>
+            <parameter cpu="0" address="0xFFD9D9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDA99" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDB59" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDC19" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDCD9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDD99" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDE59" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDF19" value="0x1C"/>
+            <parameter cpu="0" address="0xFFDFD9" value="0x1C"/>
+            <parameter cpu="0" address="0xFFE099" value="0x1C"/>
+            <parameter cpu="0" address="0xFFE159" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人1选择" default="0">
+        <option desc="关闭"/>
+        <option desc="FAT MAN">
+            <parameter cpu="0" address="0xFFBECB" value="0x01"/>
+        </option>
+        <option desc="MAD TIGER">
+            <parameter cpu="0" address="0xFFBECB" value="0x02"/>
+        </option>
+        <option desc="TALL MAN">
+            <parameter cpu="0" address="0xFFBECB" value="0x03"/>
+        </option>
+        <option desc="SOLIDER">
+            <parameter cpu="0" address="0xFFBECB" value="0x04"/>
+        </option>
+        <option desc="BRAFORD">
+            <parameter cpu="0" address="0xFFBECB" value="0x05"/>
+        </option>
+        <option desc="BUSTER.S">
+            <parameter cpu="0" address="0xFFBECB" value="0x06"/>
+        </option>
+        <option desc="MURAMASA">
+            <parameter cpu="0" address="0xFFBECB" value="0x07"/>
+        </option>
+        <option desc="ARLON">
+            <parameter cpu="0" address="0xFFBECB" value="0x08"/>
+        </option>
+        <option desc="SKY WALKER">
+            <parameter cpu="0" address="0xFFBECB" value="0x09"/>
+        </option>
+        <option desc="BARBARIAN">
+            <parameter cpu="0" address="0xFFBECB" value="0x0A"/>
+        </option>
+        <option desc="BAD FALCON">
+            <parameter cpu="0" address="0xFFBECB" value="0x0B"/>
+        </option>
+        <option desc="MAGICAN">
+            <parameter cpu="0" address="0xFFBECB" value="0x0D"/>
+        </option>
+        <option desc="GARIBALDI">
+            <parameter cpu="0" address="0xFFBECB" value="0x0E"/>
+        </option>
+        <option desc="M.C.HAMMER">
+            <parameter cpu="0" address="0xFFBECB" value="0x0F"/>
+        </option>
+        <option desc="BIRD MAN">
+            <parameter cpu="0" address="0xFFBECB" value="0x10"/>
+        </option>
+        <option desc="MASK MAN">
+            <parameter cpu="0" address="0xFFBECB" value="0x12"/>
+        </option>
+        <option desc="我方战士">
+            <parameter cpu="0" address="0xFFBECB" value="0x13"/>
+        </option>
+        <option desc="BUSTER.F">
+            <parameter cpu="0" address="0xFFBECB" value="0x14"/>
+        </option>
+        <option desc="BUSTER.D">
+            <parameter cpu="0" address="0xFFBECB" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人2选择" default="0">
+        <option desc="关闭"/>
+        <option desc="FAT MAN">
+            <parameter cpu="0" address="0xFFBE0B" value="0x01"/>
+        </option>
+        <option desc="MAD TIGER">
+            <parameter cpu="0" address="0xFFBE0B" value="0x02"/>
+        </option>
+        <option desc="TALL MAN">
+            <parameter cpu="0" address="0xFFBE0B" value="0x03"/>
+        </option>
+        <option desc="SOLIDER">
+            <parameter cpu="0" address="0xFFBE0B" value="0x04"/>
+        </option>
+        <option desc="BRAFORD">
+            <parameter cpu="0" address="0xFFBE0B" value="0x05"/>
+        </option>
+        <option desc="BUSTER.S">
+            <parameter cpu="0" address="0xFFBE0B" value="0x06"/>
+        </option>
+        <option desc="MURAMASA">
+            <parameter cpu="0" address="0xFFBE0B" value="0x07"/>
+        </option>
+        <option desc="ARLON">
+            <parameter cpu="0" address="0xFFBE0B" value="0x08"/>
+        </option>
+        <option desc="SKY WALKER">
+            <parameter cpu="0" address="0xFFBE0B" value="0x09"/>
+        </option>
+        <option desc="BARBARIAN">
+            <parameter cpu="0" address="0xFFBE0B" value="0x0A"/>
+        </option>
+        <option desc="BAD FALCON">
+            <parameter cpu="0" address="0xFFBE0B" value="0x0B"/>
+        </option>
+        <option desc="MAGICAN">
+            <parameter cpu="0" address="0xFFBE0B" value="0x0D"/>
+        </option>
+        <option desc="GARIBALDI">
+            <parameter cpu="0" address="0xFFBE0B" value="0x0E"/>
+        </option>
+        <option desc="M.C.HAMMER">
+            <parameter cpu="0" address="0xFFBE0B" value="0x0F"/>
+        </option>
+        <option desc="BIRD MAN">
+            <parameter cpu="0" address="0xFFBE0B" value="0x10"/>
+        </option>
+        <option desc="MASK MAN">
+            <parameter cpu="0" address="0xFFBE0B" value="0x12"/>
+        </option>
+        <option desc="我方战士">
+            <parameter cpu="0" address="0xFFBE0B" value="0x13"/>
+        </option>
+        <option desc="BUSTER.F">
+            <parameter cpu="0" address="0xFFBE0B" value="0x14"/>
+        </option>
+        <option desc="BUSTER.D">
+            <parameter cpu="0" address="0xFFBE0B" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人3选择" default="0">
+        <option desc="关闭"/>
+        <option desc="FAT MAN">
+            <parameter cpu="0" address="0xFFBC8B" value="0x01"/>
+        </option>
+        <option desc="MAD TIGER">
+            <parameter cpu="0" address="0xFFBC8B" value="0x02"/>
+        </option>
+        <option desc="TALL MAN">
+            <parameter cpu="0" address="0xFFBC8B" value="0x03"/>
+        </option>
+        <option desc="SOLIDER">
+            <parameter cpu="0" address="0xFFBC8B" value="0x04"/>
+        </option>
+        <option desc="BRAFORD">
+            <parameter cpu="0" address="0xFFBC8B" value="0x05"/>
+        </option>
+        <option desc="BUSTER.S">
+            <parameter cpu="0" address="0xFFBC8B" value="0x06"/>
+        </option>
+        <option desc="MURAMASA">
+            <parameter cpu="0" address="0xFFBC8B" value="0x07"/>
+        </option>
+        <option desc="ARLON">
+            <parameter cpu="0" address="0xFFBC8B" value="0x08"/>
+        </option>
+        <option desc="SKY WALKER">
+            <parameter cpu="0" address="0xFFBC8B" value="0x09"/>
+        </option>
+        <option desc="BARBARIAN">
+            <parameter cpu="0" address="0xFFBC8B" value="0x0A"/>
+        </option>
+        <option desc="BAD FALCON">
+            <parameter cpu="0" address="0xFFBC8B" value="0x0B"/>
+        </option>
+        <option desc="MAGICAN">
+            <parameter cpu="0" address="0xFFBC8B" value="0x0D"/>
+        </option>
+        <option desc="GARIBALDI">
+            <parameter cpu="0" address="0xFFBC8B" value="0x0E"/>
+        </option>
+        <option desc="M.C.HAMMER">
+            <parameter cpu="0" address="0xFFBC8B" value="0x0F"/>
+        </option>
+        <option desc="BIRD MAN">
+            <parameter cpu="0" address="0xFFBC8B" value="0x10"/>
+        </option>
+        <option desc="MASK MAN">
+            <parameter cpu="0" address="0xFFBC8B" value="0x12"/>
+        </option>
+        <option desc="我方战士">
+            <parameter cpu="0" address="0xFFBC8B" value="0x13"/>
+        </option>
+        <option desc="BUSTER.F">
+            <parameter cpu="0" address="0xFFBC8B" value="0x14"/>
+        </option>
+        <option desc="BUSTER.D">
+            <parameter cpu="0" address="0xFFBC8B" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人4选择" default="0">
+        <option desc="关闭"/>
+        <option desc="FAT MAN">
+            <parameter cpu="0" address="0xFFBD4B" value="0x01"/>
+        </option>
+        <option desc="MAD TIGER">
+            <parameter cpu="0" address="0xFFBD4B" value="0x02"/>
+        </option>
+        <option desc="TALL MAN">
+            <parameter cpu="0" address="0xFFBD4B" value="0x03"/>
+        </option>
+        <option desc="SOLIDER">
+            <parameter cpu="0" address="0xFFBD4B" value="0x04"/>
+        </option>
+        <option desc="BRAFORD">
+            <parameter cpu="0" address="0xFFBD4B" value="0x05"/>
+        </option>
+        <option desc="BUSTER.S">
+            <parameter cpu="0" address="0xFFBD4B" value="0x06"/>
+        </option>
+        <option desc="MURAMASA">
+            <parameter cpu="0" address="0xFFBD4B" value="0x07"/>
+        </option>
+        <option desc="ARLON">
+            <parameter cpu="0" address="0xFFBD4B" value="0x08"/>
+        </option>
+        <option desc="SKY WALKER">
+            <parameter cpu="0" address="0xFFBD4B" value="0x09"/>
+        </option>
+        <option desc="BARBARIAN">
+            <parameter cpu="0" address="0xFFBD4B" value="0x0A"/>
+        </option>
+        <option desc="BAD FALCON">
+            <parameter cpu="0" address="0xFFBD4B" value="0x0B"/>
+        </option>
+        <option desc="MAGICAN">
+            <parameter cpu="0" address="0xFFBD4B" value="0x0D"/>
+        </option>
+        <option desc="GARIBALDI">
+            <parameter cpu="0" address="0xFFBD4B" value="0x0E"/>
+        </option>
+        <option desc="M.C.HAMMER">
+            <parameter cpu="0" address="0xFFBD4B" value="0x0F"/>
+        </option>
+        <option desc="BIRD MAN">
+            <parameter cpu="0" address="0xFFBD4B" value="0x10"/>
+        </option>
+        <option desc="MASK MAN">
+            <parameter cpu="0" address="0xFFBD4B" value="0x12"/>
+        </option>
+        <option desc="我方战士">
+            <parameter cpu="0" address="0xFFBD4B" value="0x13"/>
+        </option>
+        <option desc="BUSTER.F">
+            <parameter cpu="0" address="0xFFBD4B" value="0x14"/>
+        </option>
+        <option desc="BUSTER.D">
+            <parameter cpu="0" address="0xFFBD4B" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人5选择" default="0">
+        <option desc="关闭"/>
+        <option desc="FAT MAN">
+            <parameter cpu="0" address="0xFFBBCB" value="0x01"/>
+        </option>
+        <option desc="MAD TIGER">
+            <parameter cpu="0" address="0xFFBBCB" value="0x02"/>
+        </option>
+        <option desc="TALL MAN">
+            <parameter cpu="0" address="0xFFBBCB" value="0x03"/>
+        </option>
+        <option desc="SOLIDER">
+            <parameter cpu="0" address="0xFFBBCB" value="0x04"/>
+        </option>
+        <option desc="BRAFORD">
+            <parameter cpu="0" address="0xFFBBCB" value="0x05"/>
+        </option>
+        <option desc="BUSTER.S">
+            <parameter cpu="0" address="0xFFBBCB" value="0x06"/>
+        </option>
+        <option desc="MURAMASA">
+            <parameter cpu="0" address="0xFFBBCB" value="0x07"/>
+        </option>
+        <option desc="ARLON">
+            <parameter cpu="0" address="0xFFBBCB" value="0x08"/>
+        </option>
+        <option desc="SKY WALKER">
+            <parameter cpu="0" address="0xFFBBCB" value="0x09"/>
+        </option>
+        <option desc="BARBARIAN">
+            <parameter cpu="0" address="0xFFBBCB" value="0x0A"/>
+        </option>
+        <option desc="BAD FALCON">
+            <parameter cpu="0" address="0xFFBBCB" value="0x0B"/>
+        </option>
+        <option desc="MAGICAN">
+            <parameter cpu="0" address="0xFFBBCB" value="0x0D"/>
+        </option>
+        <option desc="GARIBALDI">
+            <parameter cpu="0" address="0xFFBBCB" value="0x0E"/>
+        </option>
+        <option desc="M.C.HAMMER">
+            <parameter cpu="0" address="0xFFBBCB" value="0x0F"/>
+        </option>
+        <option desc="BIRD MAN">
+            <parameter cpu="0" address="0xFFBBCB" value="0x10"/>
+        </option>
+        <option desc="MASK MAN">
+            <parameter cpu="0" address="0xFFBBCB" value="0x12"/>
+        </option>
+        <option desc="我方战士">
+            <parameter cpu="0" address="0xFFBBCB" value="0x13"/>
+        </option>
+        <option desc="BUSTER.F">
+            <parameter cpu="0" address="0xFFBBCB" value="0x14"/>
+        </option>
+        <option desc="BUSTER.D">
+            <parameter cpu="0" address="0xFFBBCB" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="4倍最高分" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAC7B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="爆1UP,绿魔杖,2UP" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF89D6" value="0xA2"/>
+        </option>
+    </cheat>
+</shufflecheat>

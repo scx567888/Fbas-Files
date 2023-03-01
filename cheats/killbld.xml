@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811E01" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x80B3EF" value="0x63"/>
+        </option>
+        <option desc="过关!">
+            <parameter cpu="0" address="0x80B3EF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择角色时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81FE67" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="西域双怪">
+            <parameter cpu="0" address="0x80BFBC" value="0x0D"/>
+        </option>
+        <option desc="千幻邪魔">
+            <parameter cpu="0" address="0x80BFBC" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择血量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量">
+            <parameter cpu="0" address="0x811F80" value="0x01"/>
+            <parameter cpu="0" address="0x811F81" value="0x40"/>
+        </option>
+        <option desc="耗尽血量">
+            <parameter cpu="0" address="0x811F80" value="0x00"/>
+            <parameter cpu="0" address="0x811F81" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大红色攻击集气 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811F85" value="0x78"/>
+            <parameter cpu="0" address="0x811F87" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色防御集气 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811F8B" value="0x78"/>
+            <parameter cpu="0" address="0x811F8D" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="立即耗尽攻击集气 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811F85" value="0x00"/>
+            <parameter cpu="0" address="0x811F87" value="0x00"/>
+            <parameter cpu="0" address="0x811F8B" value="0x00"/>
+            <parameter cpu="0" address="0x811F8D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限逆袭灭时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8038BF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="西域双怪 PL2">
+            <parameter cpu="0" address="0x80C056" value="0x0D"/>
+        </option>
+        <option desc="千幻邪魔 PL2">
+            <parameter cpu="0" address="0x80C056" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择血量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量">
+            <parameter cpu="0" address="0x81213E" value="0x01"/>
+            <parameter cpu="0" address="0x81213F" value="0x40"/>
+        </option>
+        <option desc="耗尽血量">
+            <parameter cpu="0" address="0x81213E" value="0x00"/>
+            <parameter cpu="0" address="0x81213F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大红色攻击集气 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812143" value="0x78"/>
+            <parameter cpu="0" address="0x812145" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色防御集气 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812149" value="0x78"/>
+            <parameter cpu="0" address="0x81214B" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="逆袭灭攻击集气 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="逆袭灭攻击集气 PL2">
+            <parameter cpu="0" address="0x812143" value="0x78"/>
+            <parameter cpu="0" address="0x812145" value="0x78"/>
+            <parameter cpu="0" address="0x812149" value="0x78"/>
+            <parameter cpu="0" address="0x81214B" value="0x78"/>
+        </option>
+        <option desc="立即耗尽攻击集气 ! PL2">
+            <parameter cpu="0" address="0x812143" value="0x00"/>
+            <parameter cpu="0" address="0x812145" value="0x00"/>
+            <parameter cpu="0" address="0x812149" value="0x00"/>
+            <parameter cpu="0" address="0x81214B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限逆袭灭时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8038C3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+</shufflecheat>

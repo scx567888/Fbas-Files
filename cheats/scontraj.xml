@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="总是炸弹 in level 2 &amp; 5" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40AB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40A0" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4A00" value="0xC1"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1(闪烁时开启)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4A1B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL1">
+            <parameter cpu="0" address="0x4A30" value="0x00"/>
+        </option>
+        <option desc="总是有激光武器 PL1">
+            <parameter cpu="0" address="0x4A30" value="0x01"/>
+        </option>
+        <option desc="总是有火箭武器 PL1">
+            <parameter cpu="0" address="0x4A30" value="0x02"/>
+        </option>
+        <option desc="总是有三向武器 PL1">
+            <parameter cpu="0" address="0x4A30" value="0x03"/>
+        </option>
+        <option desc="总是有手雷武器 PL1">
+            <parameter cpu="0" address="0x4A30" value="0x04"/>
+        </option>
+        <option desc="总是有加强武器 PL1">
+            <parameter cpu="0" address="0x4A30" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40B0" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4B00" value="0xC1"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2(闪烁时开启)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4B1B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL2">
+            <parameter cpu="0" address="0x4B30" value="0x00"/>
+        </option>
+        <option desc="总是有激光武器 PL2">
+            <parameter cpu="0" address="0x4B30" value="0x01"/>
+        </option>
+        <option desc="总是有火箭武器 PL2">
+            <parameter cpu="0" address="0x4B30" value="0x02"/>
+        </option>
+        <option desc="总是有三向武器 PL2">
+            <parameter cpu="0" address="0x4B30" value="0x03"/>
+        </option>
+        <option desc="总是有手雷武器 PL2">
+            <parameter cpu="0" address="0x4B30" value="0x04"/>
+        </option>
+        <option desc="总是有加强武器 PL2">
+            <parameter cpu="0" address="0x4B30" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc="超长射击模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C1A" value="0x00"/>
+            <parameter cpu="0" address="0x4C3A" value="0x00"/>
+            <parameter cpu="0" address="0x4C5A" value="0x00"/>
+            <parameter cpu="0" address="0x4C7A" value="0x00"/>
+            <parameter cpu="0" address="0x4C9A" value="0x00"/>
+            <parameter cpu="0" address="0x4CBA" value="0x00"/>
+            <parameter cpu="0" address="0x4CDA" value="0x00"/>
+            <parameter cpu="0" address="0x4CFA" value="0x00"/>
+            <parameter cpu="0" address="0x4D1A" value="0x00"/>
+            <parameter cpu="0" address="0x4D3A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="超长射击模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4D5A" value="0x00"/>
+            <parameter cpu="0" address="0x4D7A" value="0x00"/>
+            <parameter cpu="0" address="0x4D9A" value="0x00"/>
+            <parameter cpu="0" address="0x4DBA" value="0x00"/>
+            <parameter cpu="0" address="0x4DDA" value="0x00"/>
+            <parameter cpu="0" address="0x4DFA" value="0x00"/>
+            <parameter cpu="0" address="0x4E1A" value="0x00"/>
+            <parameter cpu="0" address="0x4E3A" value="0x00"/>
+            <parameter cpu="0" address="0x4E5A" value="0x00"/>
+            <parameter cpu="0" address="0x4E7A" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

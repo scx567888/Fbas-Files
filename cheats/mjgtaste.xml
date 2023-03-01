@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x606678D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是自摸胡牌 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070E50" value="0x21"/>
+            <parameter cpu="0" address="0x6071100" value="0x1B"/>
+            <parameter cpu="0" address="0x6071104" value="0x1B"/>
+            <parameter cpu="0" address="0x6071108" value="0x1C"/>
+            <parameter cpu="0" address="0x607110C" value="0x1C"/>
+            <parameter cpu="0" address="0x6071110" value="0x1C"/>
+            <parameter cpu="0" address="0x6071114" value="0x1F"/>
+            <parameter cpu="0" address="0x6071118" value="0x1F"/>
+            <parameter cpu="0" address="0x607111C" value="0x1F"/>
+            <parameter cpu="0" address="0x6071120" value="0x20"/>
+            <parameter cpu="0" address="0x6071124" value="0x20"/>
+            <parameter cpu="0" address="0x6071128" value="0x20"/>
+            <parameter cpu="0" address="0x607112C" value="0x21"/>
+            <parameter cpu="0" address="0x6071130" value="0x21"/>
+            <parameter cpu="0" address="0x6071134" value="0x21"/>
+        </option>
+    </cheat>
+    <cheat desc="无限摸牌时间 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x607148A" value="0x01"/>
+            <parameter cpu="0" address="0x607148B" value="0xFF"/>
+            <parameter cpu="0" address="0x6071492" value="0x01"/>
+            <parameter cpu="0" address="0x6071493" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限得分 - 玩家" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070EE1" value="0x0F"/>
+            <parameter cpu="0" address="0x6070EE2" value="0x42"/>
+            <parameter cpu="0" address="0x6070EE3" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="没有得分 - 电脑 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070EDD" value="0x00"/>
+            <parameter cpu="0" address="0x6070EDE" value="0x00"/>
+            <parameter cpu="0" address="0x6070EDF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6070F11" value="0x98"/>
+            <parameter cpu="0" address="0x6070F12" value="0x96"/>
+            <parameter cpu="0" address="0x6070F13" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有''Nurikae Rouge'' " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6071211" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有''Tsumikomi Rose (Yellow)'' " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6071213" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有''Tsumikomi Rose (Blue)'' " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6071215" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有''Tsumikomi Rose (Red)'' " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6071217" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有''Flash Reach'' " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6071219" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有''Sexy Reach'' " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x607121B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择电脑角色" default="0">
+        <option desc="关闭"/>
+        <option desc="Shihoudou Yuki ">
+            <parameter cpu="0" address="0x6070F09" value="0x00"/>
+        </option>
+        <option desc="Jyougasaki Yui ">
+            <parameter cpu="0" address="0x6070F09" value="0x01"/>
+        </option>
+        <option desc="Senou Asuka ">
+            <parameter cpu="0" address="0x6070F09" value="0x02"/>
+        </option>
+        <option desc="Mizukoshi Sayaka ">
+            <parameter cpu="0" address="0x6070F09" value="0x03"/>
+        </option>
+        <option desc="Yagisawa Moe ">
+            <parameter cpu="0" address="0x6070F09" value="0x04"/>
+        </option>
+        <option desc="Morimura Nana ">
+            <parameter cpu="0" address="0x6070F09" value="0x05"/>
+        </option>
+        <option desc="Hoshino Mayu ">
+            <parameter cpu="0" address="0x6070F09" value="0x06"/>
+        </option>
+        <option desc="Kannazuki Mai ">
+            <parameter cpu="0" address="0x6070F09" value="0x07"/>
+        </option>
+        <option desc="Kawamura Sayuri &amp; Kusakabe Jun ">
+            <parameter cpu="0" address="0x6070F09" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

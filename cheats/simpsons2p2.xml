@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命是Marge" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x49D1" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量是Marge" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4A5B" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="Marge总是有扫帚" default="0">
+        <option desc="关闭"/>
+        <option desc="Marge总是有扫帚">
+            <parameter cpu="0" address="0x4A80" value="0x06"/>
+        </option>
+        <option desc="Marge总是有铁锤">
+            <parameter cpu="0" address="0x4A80" value="0x07"/>
+        </option>
+        <option desc="Marge总是有弹弓">
+            <parameter cpu="0" address="0x4A80" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命是Homer" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x49D9" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量是Homer" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4B1B" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="Homer总是有扫帚" default="0">
+        <option desc="关闭"/>
+        <option desc="Homer总是有扫帚">
+            <parameter cpu="0" address="0x4B40" value="0x06"/>
+        </option>
+        <option desc="Homer总是有铁锤">
+            <parameter cpu="0" address="0x4B40" value="0x07"/>
+        </option>
+        <option desc="Homer总是有弹弓">
+            <parameter cpu="0" address="0x4B40" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命是Bart" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x49E1" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量是Bart" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4BDB" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="Bart总是有扫帚" default="0">
+        <option desc="关闭"/>
+        <option desc="Bart总是有扫帚">
+            <parameter cpu="0" address="0x4C00" value="0x06"/>
+        </option>
+        <option desc="Bart总是有铁锤">
+            <parameter cpu="0" address="0x4C00" value="0x07"/>
+        </option>
+        <option desc="Bart总是有弹弓">
+            <parameter cpu="0" address="0x4C00" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命是Lisa" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x49E9" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量是Lisa" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C9B" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="Lisa总是有扫帚" default="0">
+        <option desc="关闭"/>
+        <option desc="Lisa总是有扫帚">
+            <parameter cpu="0" address="0x4CC0" value="0x06"/>
+        </option>
+        <option desc="Lisa总是有铁锤">
+            <parameter cpu="0" address="0x4CC0" value="0x07"/>
+        </option>
+        <option desc="Lisa总是有弹弓">
+            <parameter cpu="0" address="0x4CC0" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死BOSS-Wrestler clown/bear !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4F9B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死BOSS-Big MIB !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x50BB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死BOSS-Little MIB !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x505B" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

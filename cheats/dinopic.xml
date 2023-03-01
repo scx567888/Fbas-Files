@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84E9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限角色选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8635" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开始关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF84D9" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF84D9" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF84D9" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF84D9" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF84D9" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF84D9" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF84D9" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFF84D9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死Vice T." default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFDCA0" value="0x00"/>
+            <parameter cpu="0" address="0xFFDCA1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死Hogg" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD3E0" value="0x00"/>
+            <parameter cpu="0" address="0xFFD3E1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死Slice" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFDAE0" value="0x00"/>
+            <parameter cpu="0" address="0xFFDAE1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死Slisaur 1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD680" value="0x00"/>
+            <parameter cpu="0" address="0xFFD681" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死Slisaur 2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD5A0" value="0x00"/>
+            <parameter cpu="0" address="0xFFD5A1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死单头Fessenden" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD920" value="0x00"/>
+            <parameter cpu="0" address="0xFFD921" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀死多头Fessenden" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD4C0" value="0x00"/>
+            <parameter cpu="0" address="0xFFD4C1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB317" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB2E1" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB274" value="0x02"/>
+            <parameter cpu="0" address="0xFFB360" value="0x00"/>
+            <parameter cpu="0" address="0xFFB361" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Jack.T">
+            <parameter cpu="0" address="0xFF863A" value="0x00"/>
+            <parameter cpu="0" address="0xFFB277" value="0x00"/>
+        </option>
+        <option desc="Hannah.D">
+            <parameter cpu="0" address="0xFF863A" value="0x01"/>
+            <parameter cpu="0" address="0xFFB277" value="0x02"/>
+        </option>
+        <option desc="Mustapha.C">
+            <parameter cpu="0" address="0xFF863A" value="0x02"/>
+            <parameter cpu="0" address="0xFFB277" value="0x01"/>
+        </option>
+        <option desc="Mess.O">
+            <parameter cpu="0" address="0xFF863A" value="0x03"/>
+            <parameter cpu="0" address="0xFFB277" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB497" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB461" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB3F4" value="0x02"/>
+            <parameter cpu="0" address="0xFFB4E0" value="0x00"/>
+            <parameter cpu="0" address="0xFFB4E1" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Jack.T">
+            <parameter cpu="0" address="0xFF8646" value="0x00"/>
+            <parameter cpu="0" address="0xFFB3F7" value="0x00"/>
+        </option>
+        <option desc="Hannah.D">
+            <parameter cpu="0" address="0xFF8646" value="0x01"/>
+            <parameter cpu="0" address="0xFFB3F7" value="0x02"/>
+        </option>
+        <option desc="Mustapha.C">
+            <parameter cpu="0" address="0xFF8646" value="0x02"/>
+            <parameter cpu="0" address="0xFFB3F7" value="0x01"/>
+        </option>
+        <option desc="Mess.O">
+            <parameter cpu="0" address="0xFF8646" value="0x03"/>
+            <parameter cpu="0" address="0xFFB3F7" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB617" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB5E1" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFB574" value="0x02"/>
+            <parameter cpu="0" address="0xFFB660" value="0x00"/>
+            <parameter cpu="0" address="0xFFB661" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="Jack.T">
+            <parameter cpu="0" address="0xFF8652" value="0x00"/>
+            <parameter cpu="0" address="0xFFB577" value="0x00"/>
+        </option>
+        <option desc="Hannah.D">
+            <parameter cpu="0" address="0xFF8652" value="0x01"/>
+            <parameter cpu="0" address="0xFFB577" value="0x02"/>
+        </option>
+        <option desc="Mustapha.C">
+            <parameter cpu="0" address="0xFF8652" value="0x02"/>
+            <parameter cpu="0" address="0xFFB577" value="0x01"/>
+        </option>
+        <option desc="Mess.O">
+            <parameter cpu="0" address="0xFF8652" value="0x03"/>
+            <parameter cpu="0" address="0xFFB577" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="玩家选择－默认" default="0">
+        <option desc="关闭"/>
+        <option desc="玩家选择－默认">
+            <parameter cpu="0" address="0x20F792" value="0x00"/>
+        </option>
+        <option desc="玩家选择－阶段2">
+            <parameter cpu="0" address="0x20F792" value="0x02"/>
+        </option>
+        <option desc="玩家选择－阶段3">
+            <parameter cpu="0" address="0x20F792" value="0x04"/>
+        </option>
+        <option desc="玩家选择＋队伍编辑">
+            <parameter cpu="0" address="0x20F792" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="专业模式 '开启'" default="0">
+        <option desc="关闭"/>
+        <option desc="专业模式 '开启'">
+            <parameter cpu="0" address="0x20F760" value="0xFF"/>
+        </option>
+        <option desc="专业模式 '关闭'">
+            <parameter cpu="0" address="0x20F760" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041BD" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041BA" value="0x01"/>
+            <parameter cpu="0" address="0x2041BB" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="最大前射火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041B8" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大边侧射击火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041A2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大外挂武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2041C0" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20439F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20439C" value="0x01"/>
+            <parameter cpu="0" address="0x20439D" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="最大前射火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20439A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大边侧射击火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x204384" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大外挂武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2043A2" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

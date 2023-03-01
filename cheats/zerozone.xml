@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC179C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0967" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="过关! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0966" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1083" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="过关! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC1082" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择上部物品 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="红色">
+            <parameter cpu="0" address="0xC09CB" value="0x00"/>
+        </option>
+        <option desc="黄色">
+            <parameter cpu="0" address="0xC09CB" value="0x01"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0xC09CB" value="0x02"/>
+        </option>
+        <option desc="淡蓝色">
+            <parameter cpu="0" address="0xC09CB" value="0x03"/>
+        </option>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0xC09CB" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xC09CB" value="0x05"/>
+        </option>
+        <option desc="骷髅">
+            <parameter cpu="0" address="0xC09CB" value="0x06"/>
+        </option>
+        <option desc="帮助">
+            <parameter cpu="0" address="0xC09CB" value="0x07"/>
+        </option>
+        <option desc="十字架">
+            <parameter cpu="0" address="0xC09CB" value="0x08"/>
+        </option>
+        <option desc="方向箭头">
+            <parameter cpu="0" address="0xC09CB" value="0x09"/>
+        </option>
+        <option desc="压秤">
+            <parameter cpu="0" address="0xC09CB" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择中部物品 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="红色">
+            <parameter cpu="0" address="0xC09CA" value="0x00"/>
+        </option>
+        <option desc="黄色">
+            <parameter cpu="0" address="0xC09CA" value="0x01"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0xC09CA" value="0x02"/>
+        </option>
+        <option desc="淡蓝色">
+            <parameter cpu="0" address="0xC09CA" value="0x03"/>
+        </option>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0xC09CA" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xC09CA" value="0x05"/>
+        </option>
+        <option desc="骷髅">
+            <parameter cpu="0" address="0xC09CA" value="0x06"/>
+        </option>
+        <option desc="帮助">
+            <parameter cpu="0" address="0xC09CA" value="0x07"/>
+        </option>
+        <option desc="十字架">
+            <parameter cpu="0" address="0xC09CA" value="0x08"/>
+        </option>
+        <option desc="方向箭头">
+            <parameter cpu="0" address="0xC09CA" value="0x09"/>
+        </option>
+        <option desc="压秤">
+            <parameter cpu="0" address="0xC09CA" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下部物品 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="红色">
+            <parameter cpu="0" address="0xC09C9" value="0x00"/>
+        </option>
+        <option desc="黄色">
+            <parameter cpu="0" address="0xC09C9" value="0x01"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0xC09C9" value="0x02"/>
+        </option>
+        <option desc="淡蓝色">
+            <parameter cpu="0" address="0xC09C9" value="0x03"/>
+        </option>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0xC09C9" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xC09C9" value="0x05"/>
+        </option>
+        <option desc="骷髅">
+            <parameter cpu="0" address="0xC09C9" value="0x06"/>
+        </option>
+        <option desc="帮助">
+            <parameter cpu="0" address="0xC09C9" value="0x07"/>
+        </option>
+        <option desc="十字架">
+            <parameter cpu="0" address="0xC09C9" value="0x08"/>
+        </option>
+        <option desc="方向箭头">
+            <parameter cpu="0" address="0xC09C9" value="0x09"/>
+        </option>
+        <option desc="压秤">
+            <parameter cpu="0" address="0xC09C9" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择上部物品 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="红色">
+            <parameter cpu="0" address="0xC10E7" value="0x00"/>
+        </option>
+        <option desc="黄色">
+            <parameter cpu="0" address="0xC10E7" value="0x01"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0xC10E7" value="0x02"/>
+        </option>
+        <option desc="淡蓝色">
+            <parameter cpu="0" address="0xC10E7" value="0x03"/>
+        </option>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0xC10E7" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xC10E7" value="0x05"/>
+        </option>
+        <option desc="骷髅">
+            <parameter cpu="0" address="0xC10E7" value="0x06"/>
+        </option>
+        <option desc="帮助">
+            <parameter cpu="0" address="0xC10E7" value="0x07"/>
+        </option>
+        <option desc="十字架">
+            <parameter cpu="0" address="0xC10E7" value="0x08"/>
+        </option>
+        <option desc="方向箭头">
+            <parameter cpu="0" address="0xC10E7" value="0x09"/>
+        </option>
+        <option desc="压秤">
+            <parameter cpu="0" address="0xC10E7" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择中部物品 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="红色">
+            <parameter cpu="0" address="0xC10E6" value="0x00"/>
+        </option>
+        <option desc="黄色">
+            <parameter cpu="0" address="0xC10E6" value="0x01"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0xC10E6" value="0x02"/>
+        </option>
+        <option desc="淡蓝色">
+            <parameter cpu="0" address="0xC10E6" value="0x03"/>
+        </option>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0xC10E6" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xC10E6" value="0x05"/>
+        </option>
+        <option desc="骷髅">
+            <parameter cpu="0" address="0xC10E6" value="0x06"/>
+        </option>
+        <option desc="帮助">
+            <parameter cpu="0" address="0xC10E6" value="0x07"/>
+        </option>
+        <option desc="十字架">
+            <parameter cpu="0" address="0xC10E6" value="0x08"/>
+        </option>
+        <option desc="方向箭头">
+            <parameter cpu="0" address="0xC10E6" value="0x09"/>
+        </option>
+        <option desc="压秤">
+            <parameter cpu="0" address="0xC10E6" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下部物品 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="红色">
+            <parameter cpu="0" address="0xC10E5" value="0x00"/>
+        </option>
+        <option desc="黄色">
+            <parameter cpu="0" address="0xC10E5" value="0x01"/>
+        </option>
+        <option desc="绿色">
+            <parameter cpu="0" address="0xC10E5" value="0x02"/>
+        </option>
+        <option desc="淡蓝色">
+            <parameter cpu="0" address="0xC10E5" value="0x03"/>
+        </option>
+        <option desc="蓝色">
+            <parameter cpu="0" address="0xC10E5" value="0x04"/>
+        </option>
+        <option desc="紫色">
+            <parameter cpu="0" address="0xC10E5" value="0x05"/>
+        </option>
+        <option desc="骷髅">
+            <parameter cpu="0" address="0xC10E5" value="0x06"/>
+        </option>
+        <option desc="帮助">
+            <parameter cpu="0" address="0xC10E5" value="0x07"/>
+        </option>
+        <option desc="十字架">
+            <parameter cpu="0" address="0xC10E5" value="0x08"/>
+        </option>
+        <option desc="方向箭头">
+            <parameter cpu="0" address="0xC10E5" value="0x09"/>
+        </option>
+        <option desc="压秤">
+            <parameter cpu="0" address="0xC10E5" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

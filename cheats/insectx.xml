@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE01A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE01B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE1E3" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE025" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE01C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速杀死BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE484" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限杀死BOSS的时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE428" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是 额外武器 A" default="0">
+        <option desc="关闭"/>
+        <option desc="总是 额外武器 A">
+            <parameter cpu="0" address="0xE1E2" value="0x01"/>
+        </option>
+        <option desc="总是 额外武器 B">
+            <parameter cpu="0" address="0xE1E2" value="0x02"/>
+        </option>
+        <option desc="总是 额外武器 C">
+            <parameter cpu="0" address="0xE1E2" value="0x03"/>
+        </option>
+        <option desc="总是 额外武器 D">
+            <parameter cpu="0" address="0xE1E2" value="0x04"/>
+        </option>
+        <option desc="总是 额外武器 E">
+            <parameter cpu="0" address="0xE1E2" value="0x05"/>
+        </option>
+        <option desc="总是 额外武器 F">
+            <parameter cpu="0" address="0xE1E2" value="0x06"/>
+        </option>
+        <option desc="总是 额外武器 G">
+            <parameter cpu="0" address="0xE1E2" value="0x07"/>
+        </option>
+        <option desc="总是 额外武器 H">
+            <parameter cpu="0" address="0xE1E2" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

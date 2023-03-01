@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <shufflecheat>
-    <cheat desc="无限投币 PL1(家用)" default="0">
+    <cheat desc="无限投币" default="0">
         <option desc="关闭"/>
         <option desc="开启">
+            <parameter cpu="0" address="0xD00034" value="0x09"/>
             <parameter cpu="0" address="0x10A816" value="0x09"/>
-        </option>
-    </cheat>
-    <cheat desc="无限投币 PL2(家用)" default="0">
-        <option desc="关闭"/>
-        <option desc="开启">
             <parameter cpu="0" address="0x10A817" value="0x09"/>
         </option>
     </cheat>
@@ -31,6 +27,7 @@
             <parameter cpu="0" address="0x10A83A" value="0x60"/>
         </option>
     </cheat>
+    <cheat desc=" "/>
     <cheat desc="无限体力 PL1" default="0">
         <option desc="关闭"/>
         <option desc="无限体力 PL1">
@@ -43,24 +40,9 @@
             <parameter cpu="0" address="0x108239" value="0x01"/>
         </option>
     </cheat>
-    <cheat desc="无限体力 PL2" default="0">
+    <cheat desc="无限能量珠 PL1 (ADVANCED模式)" default="0">
         <option desc="关闭"/>
-        <option desc="无限体力 PL2">
-            <parameter cpu="0" address="0x108439" value="0x67"/>
-        </option>
-        <option desc="体力见红 PL2">
-            <parameter cpu="0" address="0x108439" value="0x20"/>
-        </option>
-        <option desc="体力一击必死 PL2">
-            <parameter cpu="0" address="0x108439" value="0x01"/>
-        </option>
-    </cheat>
-    <cheat desc="能量珠数量 PL1" default="0">
-        <option desc="关闭"/>
-		<option desc="0">
-            <parameter cpu="0" address="0x1082E3" value="0x00"/>
-        </option>
-        <option desc="3">
+        <option desc="无限能量珠 PL1">
             <parameter cpu="0" address="0x1082E3" value="0x03"/>
         </option>
     </cheat>
@@ -82,12 +64,22 @@
             <parameter cpu="0" address="0x10824D" value="0x04"/>
         </option>
     </cheat>
-    <cheat desc="能量珠数量 PL2" default="0">
+    <cheat desc=" "/>
+    <cheat desc="无限体力 PL2" default="0">
         <option desc="关闭"/>
-		<option desc="0">
-            <parameter cpu="0" address="0x1084E3" value="0x00"/>
+        <option desc="无限体力 PL2">
+            <parameter cpu="0" address="0x108439" value="0x67"/>
         </option>
-        <option desc="3">
+        <option desc="体力见红 PL2">
+            <parameter cpu="0" address="0x108439" value="0x20"/>
+        </option>
+        <option desc="体力一击必死 PL2">
+            <parameter cpu="0" address="0x108439" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量珠 PL2 (ADVANCED模式)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量珠 PL1">
             <parameter cpu="0" address="0x1084E3" value="0x03"/>
         </option>
     </cheat>
@@ -109,6 +101,7 @@
             <parameter cpu="0" address="0x10844D" value="0x04"/>
         </option>
     </cheat>
+    <cheat desc=" "/>
     <cheat desc="不会昏晕 PL1" default="0">
         <option desc="关闭"/>
         <option desc="不会昏晕 PL1">
@@ -529,6 +522,7 @@
             <parameter cpu="0" address="0x10A853" value="0x02"/>
         </option>
     </cheat>
+    <cheat desc=" "/>
     <cheat desc="不会昏晕 PL2" default="0">
         <option desc="关闭"/>
         <option desc="不会昏晕 PL2">
@@ -934,6 +928,7 @@
             <parameter cpu="0" address="0x10A864" value="0x02"/>
         </option>
     </cheat>
+    <cheat desc=" "/>
     <cheat desc="月光锯, 口径炮" default="0">
         <option desc="关闭"/>
         <option desc="开启">

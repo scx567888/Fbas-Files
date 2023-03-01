@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF830A" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xFF8BFC" value="0x99"/>
+        </option>
+        <option desc="过关">
+            <parameter cpu="0" address="0xFF8BFC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF8367" value="0x90"/>
+            <parameter cpu="0" address="0xFF84F9" value="0x90"/>
+        </option>
+        <option desc="耗尽所有能量 PL1">
+            <parameter cpu="0" address="0xFF8367" value="0x00"/>
+            <parameter cpu="0" address="0xFF84F9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0xFF85F0" value="0x30"/>
+        </option>
+        <option desc="总是耗尽力量 PL1">
+            <parameter cpu="0" address="0xFF85F0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF8667" value="0x00"/>
+        </option>
+        <option desc="本田">
+            <parameter cpu="0" address="0xFF8667" value="0x01"/>
+        </option>
+        <option desc="布兰卡">
+            <parameter cpu="0" address="0xFF8667" value="0x02"/>
+        </option>
+        <option desc="盖尔">
+            <parameter cpu="0" address="0xFF8667" value="0x03"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF8667" value="0x04"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF8667" value="0x05"/>
+        </option>
+        <option desc="桑基尔夫">
+            <parameter cpu="0" address="0xFF8667" value="0x06"/>
+        </option>
+        <option desc="达尔锡">
+            <parameter cpu="0" address="0xFF8667" value="0x07"/>
+        </option>
+        <option desc="拜森">
+            <parameter cpu="0" address="0xFF8667" value="0x08"/>
+        </option>
+        <option desc="萨卡特">
+            <parameter cpu="0" address="0xFF8667" value="0x09"/>
+        </option>
+        <option desc="巴洛克">
+            <parameter cpu="0" address="0xFF8667" value="0x0A"/>
+        </option>
+        <option desc="维加">
+            <parameter cpu="0" address="0xFF8667" value="0x0B"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF8667" value="0x0C"/>
+        </option>
+        <option desc="猎鹰">
+            <parameter cpu="0" address="0xFF8667" value="0x0D"/>
+        </option>
+        <option desc="飞龙">
+            <parameter cpu="0" address="0xFF8667" value="0x0E"/>
+        </option>
+        <option desc="迪杰">
+            <parameter cpu="0" address="0xFF8667" value="0x0F"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF8666" value="0x00"/>
+            <parameter cpu="0" address="0xFF8667" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xFF8668" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF8668" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF8668" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF8668" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF8668" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF8668" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF8668" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF8668" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF8767" value="0x90"/>
+            <parameter cpu="0" address="0xFF88F9" value="0x90"/>
+        </option>
+        <option desc="耗尽所有能量 PL2">
+            <parameter cpu="0" address="0xFF8767" value="0x00"/>
+            <parameter cpu="0" address="0xFF88F9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0xFF89F0" value="0x30"/>
+        </option>
+        <option desc="总是耗尽力量 PL2">
+            <parameter cpu="0" address="0xFF89F0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="隆">
+            <parameter cpu="0" address="0xFF8A67" value="0x00"/>
+        </option>
+        <option desc="本田">
+            <parameter cpu="0" address="0xFF8A67" value="0x01"/>
+        </option>
+        <option desc="布兰卡">
+            <parameter cpu="0" address="0xFF8A67" value="0x02"/>
+        </option>
+        <option desc="盖尔">
+            <parameter cpu="0" address="0xFF8A67" value="0x03"/>
+        </option>
+        <option desc="肯">
+            <parameter cpu="0" address="0xFF8A67" value="0x04"/>
+        </option>
+        <option desc="春丽">
+            <parameter cpu="0" address="0xFF8A67" value="0x05"/>
+        </option>
+        <option desc="桑基尔夫">
+            <parameter cpu="0" address="0xFF8A67" value="0x06"/>
+        </option>
+        <option desc="达尔锡">
+            <parameter cpu="0" address="0xFF8A67" value="0x07"/>
+        </option>
+        <option desc="拜森">
+            <parameter cpu="0" address="0xFF8A67" value="0x08"/>
+        </option>
+        <option desc="萨卡特">
+            <parameter cpu="0" address="0xFF8A67" value="0x09"/>
+        </option>
+        <option desc="巴洛克">
+            <parameter cpu="0" address="0xFF8A67" value="0x0A"/>
+        </option>
+        <option desc="维加">
+            <parameter cpu="0" address="0xFF8A67" value="0x0B"/>
+        </option>
+        <option desc="嘉米">
+            <parameter cpu="0" address="0xFF8A67" value="0x0C"/>
+        </option>
+        <option desc="猎鹰">
+            <parameter cpu="0" address="0xFF8A67" value="0x0D"/>
+        </option>
+        <option desc="飞龙">
+            <parameter cpu="0" address="0xFF8A67" value="0x0E"/>
+        </option>
+        <option desc="迪杰">
+            <parameter cpu="0" address="0xFF8A67" value="0x0F"/>
+        </option>
+        <option desc="#豪鬼">
+            <parameter cpu="0" address="0xFF8A66" value="0x00"/>
+            <parameter cpu="0" address="0xFF8A67" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xFF8A68" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF8A68" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF8A68" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF8A68" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF8A68" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF8A68" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF8A68" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF8A68" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择区域码" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF82FB" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF82FB" value="0x02"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF82FB" value="0x04"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF82FB" value="0x06"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF82FB" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

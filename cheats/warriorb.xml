@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000B9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A12" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏地区" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202993" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌(不完整) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20D6E7" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20D699" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选择兵器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通">
+            <parameter cpu="0" address="0x2029F0" value="0x01"/>
+            <parameter cpu="0" address="0x20D6D8" value="0x05"/>
+        </option>
+        <option desc="火兵器">
+            <parameter cpu="0" address="0x2029F0" value="0x02"/>
+            <parameter cpu="0" address="0x20D6D8" value="0x02"/>
+            <parameter cpu="0" address="0x20D6EB" value="0x40"/>
+        </option>
+        <option desc="雷兵器">
+            <parameter cpu="0" address="0x2029F0" value="0x04"/>
+            <parameter cpu="0" address="0x20D6D8" value="0x02"/>
+            <parameter cpu="0" address="0x20D6EB" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-生命上限提升 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-防御力上升 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-魔法威力上升 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-幸运等级提升 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-攻击加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-攻击力提升 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡道具-移动速度提升 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-敌方攻击力下降 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F1" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="最大铜币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F6" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大银币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大金币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F8" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大财宝 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2029F9" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌(不完整) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20DC67" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20DC19" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选择兵器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通">
+            <parameter cpu="0" address="0x202A04" value="0x01"/>
+            <parameter cpu="0" address="0x20DC58" value="0x05"/>
+        </option>
+        <option desc="火兵器">
+            <parameter cpu="0" address="0x202A04" value="0x02"/>
+            <parameter cpu="0" address="0x20DC58" value="0x02"/>
+            <parameter cpu="0" address="0x20DC6B" value="0x40"/>
+        </option>
+        <option desc="雷兵器">
+            <parameter cpu="0" address="0x202A04" value="0x04"/>
+            <parameter cpu="0" address="0x20DC58" value="0x02"/>
+            <parameter cpu="0" address="0x20DC6B" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-生命上限提升 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-防御力上升 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-魔法威力上升 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-幸运等级提升 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-攻击加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-攻击力提升 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡道具-移动速度提升 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="获得关卡奖励-敌方攻击力下降 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A05" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="最大铜币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A0A" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大银币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A0B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大金币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A0C" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="最大财宝 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202A0D" value="0x63"/>
+        </option>
+    </cheat>
+</shufflecheat>

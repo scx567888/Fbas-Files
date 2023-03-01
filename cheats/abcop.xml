@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8043" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限跳跃" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80CAD" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限头盔(碰撞)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF972E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3FAA85" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是骑行在超快速度" default="0">
+        <option desc="关闭"/>
+        <option desc="总是骑行在超快速度">
+            <parameter cpu="0" address="0xFF8DD8" value="0x25"/>
+        </option>
+        <option desc="总是骑行在最快速度">
+            <parameter cpu="0" address="0xFF8DD8" value="0x4A"/>
+        </option>
+    </cheat>
+</shufflecheat>

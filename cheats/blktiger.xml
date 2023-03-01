@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF3A0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF3B1" value="0x3B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限护盾" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF3AD" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF3A8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限药剂" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF3B0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钥匙" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF3AB" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE905" value="0x01"/>
+            <parameter cpu="0" address="0xF424" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最好武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF3AC" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xF3A1" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xF3A1" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xF3A1" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xF3A1" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xF3A1" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xF3A1" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xF3A1" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xF3A1" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

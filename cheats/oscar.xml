@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7D" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x42" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x43" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大跳跃" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x92" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="高亮项目 ''跳跃''" default="0">
+        <option desc="关闭"/>
+        <option desc="高亮项目 ''跳跃''">
+            <parameter cpu="0" address="0x91" value="0x01"/>
+        </option>
+        <option desc="高亮项目 ''手雷''">
+            <parameter cpu="0" address="0x91" value="0x02"/>
+        </option>
+        <option desc="高亮项目 ''导弹''">
+            <parameter cpu="0" address="0x91" value="0x03"/>
+        </option>
+        <option desc="高亮项目 ''P.C.U.''">
+            <parameter cpu="0" address="0x91" value="0x04"/>
+        </option>
+        <option desc="高亮项目 ''枪/装甲''">
+            <parameter cpu="0" address="0x91" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

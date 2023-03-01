@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8908" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死一头狼即可过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8901" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌(仍无法抵御推落的大岩石)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8D32" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限肉弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8F30" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

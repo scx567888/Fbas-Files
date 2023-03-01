@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="立即自摸胡牌!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2042CB" value="0x00"/>
+            <parameter cpu="0" address="0x2042CD" value="0x00"/>
+            <parameter cpu="0" address="0x2042CF" value="0x00"/>
+            <parameter cpu="0" address="0x2042D1" value="0x01"/>
+            <parameter cpu="0" address="0x2042D3" value="0x01"/>
+            <parameter cpu="0" address="0x2042D5" value="0x01"/>
+            <parameter cpu="0" address="0x2042D7" value="0x02"/>
+            <parameter cpu="0" address="0x2042D9" value="0x02"/>
+            <parameter cpu="0" address="0x2042DB" value="0x02"/>
+            <parameter cpu="0" address="0x2042DD" value="0x03"/>
+            <parameter cpu="0" address="0x2042DF" value="0x03"/>
+            <parameter cpu="0" address="0x2042E1" value="0x03"/>
+            <parameter cpu="0" address="0x2042E3" value="0x04"/>
+            <parameter cpu="0" address="0x2042E5" value="0x04"/>
+            <parameter cpu="0" address="0x2043E5" value="0x00"/>
+            <parameter cpu="0" address="0x2043E7" value="0x00"/>
+            <parameter cpu="0" address="0x2043E9" value="0x00"/>
+            <parameter cpu="0" address="0x2043EB" value="0x01"/>
+            <parameter cpu="0" address="0x2043ED" value="0x01"/>
+            <parameter cpu="0" address="0x2043EF" value="0x01"/>
+            <parameter cpu="0" address="0x2043F1" value="0x02"/>
+            <parameter cpu="0" address="0x2043F3" value="0x02"/>
+            <parameter cpu="0" address="0x2043F5" value="0x02"/>
+            <parameter cpu="0" address="0x2043F7" value="0x03"/>
+            <parameter cpu="0" address="0x2043F9" value="0x03"/>
+            <parameter cpu="0" address="0x2043FB" value="0x03"/>
+            <parameter cpu="0" address="0x2043FD" value="0x04"/>
+            <parameter cpu="0" address="0x2043FF" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

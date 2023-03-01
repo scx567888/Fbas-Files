@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8827" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8844" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8846" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限保护" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF910E" value="0x01"/>
+            <parameter cpu="0" address="0xFF910F" value="0xEF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是驾驶在最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF90D8" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="开始在场景 2" default="0">
+        <option desc="关闭"/>
+        <option desc="开始在场景 2">
+            <parameter cpu="0" address="0xFF881E" value="0x01"/>
+            <parameter cpu="0" address="0xFF881F" value="0x01"/>
+        </option>
+        <option desc="开始在场景 3">
+            <parameter cpu="0" address="0xFF881E" value="0x02"/>
+            <parameter cpu="0" address="0xFF881F" value="0x02"/>
+        </option>
+        <option desc="开始在场景 4">
+            <parameter cpu="0" address="0xFF881E" value="0x03"/>
+            <parameter cpu="0" address="0xFF881F" value="0x03"/>
+        </option>
+        <option desc="开始在场景 5">
+            <parameter cpu="0" address="0xFF881E" value="0x04"/>
+            <parameter cpu="0" address="0xFF881F" value="0x04"/>
+        </option>
+        <option desc="开始在场景 6">
+            <parameter cpu="0" address="0xFF881E" value="0x05"/>
+            <parameter cpu="0" address="0xFF881F" value="0x05"/>
+        </option>
+        <option desc="开始在场景 7">
+            <parameter cpu="0" address="0xFF881E" value="0x06"/>
+            <parameter cpu="0" address="0xFF881F" value="0x06"/>
+        </option>
+        <option desc="开始在场景 8">
+            <parameter cpu="0" address="0xFF881E" value="0x07"/>
+            <parameter cpu="0" address="0xFF881F" value="0x07"/>
+        </option>
+        <option desc="开始在场景 9">
+            <parameter cpu="0" address="0xFF881E" value="0x08"/>
+            <parameter cpu="0" address="0xFF881F" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

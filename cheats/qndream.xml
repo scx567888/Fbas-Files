@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8D67" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间*" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC170" value="0x00"/>
+            <parameter cpu="0" address="0xFFC1F0" value="0x00"/>
+            <parameter cpu="0" address="0xFFC1F3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="显示正确答案" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8097" value="0x03"/>
+            <parameter cpu="0" address="0xFF80A3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="回答一次正确答案即结束*" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83B0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Ezaki Kumiko PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF855A" value="0x00"/>
+            <parameter cpu="0" address="0xFF855B" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Fujiya Momoko PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF85DB" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Kanebo Saki PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF86DB" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Sakuma Emi PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF87DA" value="0x00"/>
+            <parameter cpu="0" address="0xFF87DB" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Sakuma Megumi PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF885A" value="0x00"/>
+            <parameter cpu="0" address="0xFF885B" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Toumato Mayumi PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF875A" value="0x00"/>
+            <parameter cpu="0" address="0xFF875B" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="总水平 - 0% PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总水平 - 0% PL1">
+            <parameter cpu="0" address="0xFF80A9" value="0x00"/>
+        </option>
+        <option desc="总水平 - 100% PL1">
+            <parameter cpu="0" address="0xFF80A9" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Ezaki Kumiko PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF855C" value="0x00"/>
+            <parameter cpu="0" address="0xFF855D" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Fujiya Momoko PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85DC" value="0x00"/>
+            <parameter cpu="0" address="0xFF85DD" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Kanebo Saki PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF86DC" value="0x00"/>
+            <parameter cpu="0" address="0xFF86DD" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Sakuma Emi PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF87DC" value="0x00"/>
+            <parameter cpu="0" address="0xFF87DD" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Sakuma Megumi PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF885C" value="0x00"/>
+            <parameter cpu="0" address="0xFF885D" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="100爱情点数 - Toumato Mayumi PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF875C" value="0x00"/>
+            <parameter cpu="0" address="0xFF875D" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="总水平 - 0% PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总水平 - 0% PL2">
+            <parameter cpu="0" address="0xFF81A9" value="0x00"/>
+        </option>
+        <option desc="总水平 - 100% PL2">
+            <parameter cpu="0" address="0xFF81A9" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="问答种类- 类型  1" default="0">
+        <option desc="关闭"/>
+        <option desc="问答种类- 类型  1">
+            <parameter cpu="0" address="0xFF83C4" value="0x00"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  2">
+            <parameter cpu="0" address="0xFF83C4" value="0x01"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  3">
+            <parameter cpu="0" address="0xFF83C4" value="0x02"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  4">
+            <parameter cpu="0" address="0xFF83C4" value="0x03"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  5">
+            <parameter cpu="0" address="0xFF83C4" value="0x04"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  6">
+            <parameter cpu="0" address="0xFF83C4" value="0x05"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  7">
+            <parameter cpu="0" address="0xFF83C4" value="0x06"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  8">
+            <parameter cpu="0" address="0xFF83C4" value="0x07"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  9">
+            <parameter cpu="0" address="0xFF83C4" value="0x08"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  10">
+            <parameter cpu="0" address="0xFF83C4" value="0x09"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  11">
+            <parameter cpu="0" address="0xFF83C4" value="0x0A"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  12">
+            <parameter cpu="0" address="0xFF83C4" value="0x0B"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  13">
+            <parameter cpu="0" address="0xFF83C4" value="0x0C"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  14">
+            <parameter cpu="0" address="0xFF83C4" value="0x0D"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  15">
+            <parameter cpu="0" address="0xFF83C4" value="0x0E"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  16">
+            <parameter cpu="0" address="0xFF83C4" value="0x0F"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+        <option desc="问答种类- 类型  17">
+            <parameter cpu="0" address="0xFF83C4" value="0x10"/>
+            <parameter cpu="0" address="0xFF83C6" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="骰子 - 1" default="0">
+        <option desc="关闭"/>
+        <option desc="骰子 - 1">
+            <parameter cpu="0" address="0xFF834B" value="0x01"/>
+        </option>
+        <option desc="骰子 - 2">
+            <parameter cpu="0" address="0xFF834B" value="0x02"/>
+        </option>
+        <option desc="骰子 - 3">
+            <parameter cpu="0" address="0xFF834B" value="0x03"/>
+        </option>
+        <option desc="骰子 - 4">
+            <parameter cpu="0" address="0xFF834B" value="0x04"/>
+        </option>
+        <option desc="骰子 - 5">
+            <parameter cpu="0" address="0xFF834B" value="0x05"/>
+        </option>
+        <option desc="骰子 - 6">
+            <parameter cpu="0" address="0xFF834B" value="0x06"/>
+        </option>
+        <option desc="骰子 - 场景结尾">
+            <parameter cpu="0" address="0xFF834B" value="0x20"/>
+        </option>
+        <option desc="骰子 - 遇到Envy">
+            <parameter cpu="0" address="0xFF834B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="正确答案 - 答案 1" default="0">
+        <option desc="关闭"/>
+        <option desc="正确答案 - 答案 1">
+            <parameter cpu="0" address="0xFF8397" value="0x00"/>
+        </option>
+        <option desc="正确答案 - 答案 2">
+            <parameter cpu="0" address="0xFF8397" value="0x04"/>
+        </option>
+        <option desc="正确答案 - 答案 3">
+            <parameter cpu="0" address="0xFF8397" value="0x08"/>
+        </option>
+        <option desc="正确答案 - 答案 4">
+            <parameter cpu="0" address="0xFF8397" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="问答计数 - 清除问题计数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8D5E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="问答计数 - 清除回答计数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8079" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="第一帮助装备 - 什么也没有" default="0">
+        <option desc="关闭"/>
+        <option desc="第一帮助装备 - 什么也没有">
+            <parameter cpu="0" address="0xFF8097" value="0x00"/>
+        </option>
+        <option desc="第一帮助装备 - 两个问题">
+            <parameter cpu="0" address="0xFF8097" value="0x01"/>
+        </option>
+        <option desc="第一帮助装备 - 三个问题">
+            <parameter cpu="0" address="0xFF8097" value="0x02"/>
+        </option>
+        <option desc="第一帮助装备 - 显示正确答案">
+            <parameter cpu="0" address="0xFF8097" value="0x03"/>
+        </option>
+        <option desc="第一帮助装备 - 允许一次错误">
+            <parameter cpu="0" address="0xFF8097" value="0x04"/>
+        </option>
+        <option desc="第一帮助装备 - 类型选择">
+            <parameter cpu="0" address="0xFF8097" value="0x05"/>
+        </option>
+        <option desc="第一帮助装备 - 标准时间">
+            <parameter cpu="0" address="0xFF8097" value="0x06"/>
+        </option>
+        <option desc="第一帮助装备 - 双倍得分">
+            <parameter cpu="0" address="0xFF8097" value="0x07"/>
+        </option>
+        <option desc="第一帮助装备 - 奖励爱情点">
+            <parameter cpu="0" address="0xFF8097" value="0x08"/>
+        </option>
+        <option desc="第一帮助装备 - 奖励攻击点">
+            <parameter cpu="0" address="0xFF8097" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="第二帮助装备 - 什么也没有" default="0">
+        <option desc="关闭"/>
+        <option desc="第二帮助装备 - 什么也没有">
+            <parameter cpu="0" address="0xFF80A4" value="0x00"/>
+        </option>
+        <option desc="第二帮助装备 - 两个问题">
+            <parameter cpu="0" address="0xFF80A4" value="0x01"/>
+        </option>
+        <option desc="第二帮助装备 - 三个问题">
+            <parameter cpu="0" address="0xFF80A4" value="0x02"/>
+        </option>
+        <option desc="第二帮助装备 - 显示正确答案">
+            <parameter cpu="0" address="0xFF80A4" value="0x03"/>
+        </option>
+        <option desc="第二帮助装备 - 允许一次错误">
+            <parameter cpu="0" address="0xFF80A4" value="0x04"/>
+        </option>
+        <option desc="第二帮助装备 - 类型选择">
+            <parameter cpu="0" address="0xFF80A4" value="0x05"/>
+        </option>
+        <option desc="第二帮助装备 - 标准时间">
+            <parameter cpu="0" address="0xFF80A4" value="0x06"/>
+        </option>
+        <option desc="第二帮助装备 - 双倍得分">
+            <parameter cpu="0" address="0xFF80A4" value="0x07"/>
+        </option>
+        <option desc="第二帮助装备 - 奖励爱情点">
+            <parameter cpu="0" address="0xFF80A4" value="0x08"/>
+        </option>
+        <option desc="第二帮助装备 - 奖励攻击点">
+            <parameter cpu="0" address="0xFF80A4" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="问答角色 - Ezaki Kumiko" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF4093" value="0x00"/>
+            <parameter cpu="0" address="0xFF839D" value="0x00"/>
+            <parameter cpu="0" address="0xFF83CF" value="0x00"/>
+            <parameter cpu="0" address="0xFF83D1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="问答角色 - Fujiya Momoko" default="0">
+        <option desc="关闭"/>
+        <option desc="问答角色 - Fujiya Momoko">
+            <parameter cpu="0" address="0xFF4093" value="0x01"/>
+            <parameter cpu="0" address="0xFF839D" value="0x01"/>
+            <parameter cpu="0" address="0xFF83CF" value="0x01"/>
+        </option>
+        <option desc="问答角色 - Kanebo Saki">
+            <parameter cpu="0" address="0xFF4093" value="0x03"/>
+            <parameter cpu="0" address="0xFF839D" value="0x03"/>
+            <parameter cpu="0" address="0xFF83CF" value="0x03"/>
+        </option>
+        <option desc="问答角色 - Sakuma Emi">
+            <parameter cpu="0" address="0xFF4093" value="0x05"/>
+            <parameter cpu="0" address="0xFF839D" value="0x05"/>
+            <parameter cpu="0" address="0xFF83CF" value="0x05"/>
+        </option>
+        <option desc="问答角色 - Sakuma Megumi">
+            <parameter cpu="0" address="0xFF4093" value="0x06"/>
+            <parameter cpu="0" address="0xFF839D" value="0x06"/>
+            <parameter cpu="0" address="0xFF83CF" value="0x06"/>
+        </option>
+        <option desc="问答角色 - Shall-Lotte">
+            <parameter cpu="0" address="0xFF4093" value="0x02"/>
+            <parameter cpu="0" address="0xFF839D" value="0x02"/>
+            <parameter cpu="0" address="0xFF83CF" value="0x02"/>
+        </option>
+        <option desc="问答角色 - Toumato Mayumi">
+            <parameter cpu="0" address="0xFF4093" value="0x04"/>
+            <parameter cpu="0" address="0xFF839D" value="0x04"/>
+            <parameter cpu="0" address="0xFF83CF" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选关 - 场景 4" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF8200" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF8200" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF8200" value="0x06"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFF8200" value="0x07"/>
+        </option>
+        <option desc="选关 - 场景 8">
+            <parameter cpu="0" address="0xFF8200" value="0x08"/>
+        </option>
+        <option desc="选关 - 场景 9">
+            <parameter cpu="0" address="0xFF8200" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="地域 - 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地域 - 日本">
+            <parameter cpu="0" address="0xFF8D81" value="0x00"/>
+        </option>
+        <option desc="地域 - 美国">
+            <parameter cpu="0" address="0xFF8D81" value="0x02"/>
+        </option>
+        <option desc="地域 - 西班牙">
+            <parameter cpu="0" address="0xFF8D81" value="0x04"/>
+        </option>
+        <option desc="地域 - 亚洲">
+            <parameter cpu="0" address="0xFF8D81" value="0x06"/>
+        </option>
+        <option desc="地域 - 欧洲">
+            <parameter cpu="0" address="0xFF8D81" value="0x08"/>
+        </option>
+        <option desc="地域 - 巴西">
+            <parameter cpu="0" address="0xFF8D81" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

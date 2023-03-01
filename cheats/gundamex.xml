@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2034EF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x2035A2" value="0x0B"/>
+            <parameter cpu="0" address="0x2035A3" value="0x9B"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x2035A2" value="0x00"/>
+            <parameter cpu="0" address="0x2035A3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x204569" value="0x93"/>
+            <parameter cpu="0" address="0x20456B" value="0x93"/>
+            <parameter cpu="0" address="0x204587" value="0x93"/>
+        </option>
+        <option desc="耗尽能量 ! PL1">
+            <parameter cpu="0" address="0x204569" value="0x00"/>
+            <parameter cpu="0" address="0x20456B" value="0x00"/>
+            <parameter cpu="0" address="0x204587" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色Ziong PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用角色Ziong PL1">
+            <parameter cpu="0" address="0x206B7E" value="0x0C"/>
+        </option>
+        <option desc="使用角色Dolmel PL1">
+            <parameter cpu="0" address="0x206B7E" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x2045BF" value="0x93"/>
+            <parameter cpu="0" address="0x2045C1" value="0x93"/>
+            <parameter cpu="0" address="0x2045DD" value="0x93"/>
+        </option>
+        <option desc="耗尽能量 ! PL2">
+            <parameter cpu="0" address="0x2045BF" value="0x00"/>
+            <parameter cpu="0" address="0x2045C1" value="0x00"/>
+            <parameter cpu="0" address="0x2045DD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色Ziong PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用角色Ziong PL2">
+            <parameter cpu="0" address="0x206B7F" value="0x0C"/>
+        </option>
+        <option desc="使用角色Dolmel PL2">
+            <parameter cpu="0" address="0x206B7F" value="0x0D"/>
+        </option>
+    </cheat>
+</shufflecheat>

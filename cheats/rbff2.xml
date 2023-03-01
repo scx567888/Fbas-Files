@@ -1,0 +1,971 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107C28" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc="总是容易使出超必杀技" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E001" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关与角色克劳撒战斗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关与角色基斯战斗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关与角色阿尔福瑞德战斗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关到最终关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BB5" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="Tree [Mai, Sokaku, Andy]">
+            <parameter cpu="0" address="0x107BB1" value="0x01"/>
+        </option>
+        <option desc="Billboard (1 Line) [Cheng, Yamazaki]">
+            <parameter cpu="0" address="0x107BB1" value="0x02"/>
+        </option>
+        <option desc="Square [Kim, Tung]">
+            <parameter cpu="0" address="0x107BB1" value="0x03"/>
+        </option>
+        <option desc="基斯塔 [基斯, 比利]">
+            <parameter cpu="0" address="0x107BB1" value="0x04"/>
+        </option>
+        <option desc="Strolheim Castle [Krauser, Laurence]">
+            <parameter cpu="0" address="0x107BB1" value="0x05"/>
+        </option>
+        <option desc="Crosswalk [Duck, Mary]">
+            <parameter cpu="0" address="0x107BB1" value="0x06"/>
+        </option>
+        <option desc="Fighting Ring [Bob, Franco, Joe]">
+            <parameter cpu="0" address="0x107BB1" value="0x07"/>
+        </option>
+        <option desc="Jin Chamber [Chonshu, Chonrei]">
+            <parameter cpu="0" address="0x107BB1" value="0x08"/>
+        </option>
+        <option desc="Rest Stop [Terry, Rick, Alfred]">
+            <parameter cpu="0" address="0x107BB1" value="0x09"/>
+        </option>
+        <option desc="Street (1 Line) [Xiangfei, Hon-Fu]">
+            <parameter cpu="0" address="0x107BB1" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="选择阶段变化" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107BB7" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107BB7" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107BB7" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限血量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量 PL1">
+            <parameter cpu="0" address="0x10048B" value="0xC0"/>
+        </option>
+        <option desc="红血 PL1">
+            <parameter cpu="0" address="0x10048B" value="0x60"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL1">
+            <parameter cpu="0" address="0x10048B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004BC" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="动作有重影 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004CD" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="特瑞">
+            <parameter cpu="0" address="0x107BA5" value="0x01"/>
+        </option>
+        <option desc="安迪">
+            <parameter cpu="0" address="0x107BA5" value="0x02"/>
+        </option>
+        <option desc="东丈">
+            <parameter cpu="0" address="0x107BA5" value="0x03"/>
+        </option>
+        <option desc="不知火舞">
+            <parameter cpu="0" address="0x107BA5" value="0x04"/>
+        </option>
+        <option desc="基斯">
+            <parameter cpu="0" address="0x107BA5" value="0x05"/>
+        </option>
+        <option desc="望月双角">
+            <parameter cpu="0" address="0x107BA5" value="0x06"/>
+        </option>
+        <option desc="鲍伯">
+            <parameter cpu="0" address="0x107BA5" value="0x07"/>
+        </option>
+        <option desc="红虎">
+            <parameter cpu="0" address="0x107BA5" value="0x08"/>
+        </option>
+        <option desc="布鲁玛莉">
+            <parameter cpu="0" address="0x107BA5" value="0x09"/>
+        </option>
+        <option desc="佛朗哥·巴斯">
+            <parameter cpu="0" address="0x107BA5" value="0x0A"/>
+        </option>
+        <option desc="山崎龙二">
+            <parameter cpu="0" address="0x107BA5" value="0x0B"/>
+        </option>
+        <option desc="秦崇秀">
+            <parameter cpu="0" address="0x107BA5" value="0x0C"/>
+        </option>
+        <option desc="秦崇雷">
+            <parameter cpu="0" address="0x107BA5" value="0x0D"/>
+        </option>
+        <option desc="达克">
+            <parameter cpu="0" address="0x107BA5" value="0x0E"/>
+        </option>
+        <option desc="金甲唤">
+            <parameter cpu="0" address="0x107BA5" value="0x0F"/>
+        </option>
+        <option desc="比利">
+            <parameter cpu="0" address="0x107BA5" value="0x10"/>
+        </option>
+        <option desc="陈秦山">
+            <parameter cpu="0" address="0x107BA5" value="0x11"/>
+        </option>
+        <option desc="唐葫芦">
+            <parameter cpu="0" address="0x107BA5" value="0x12"/>
+        </option>
+        <option desc="劳伦斯">
+            <parameter cpu="0" address="0x107BA5" value="0x13"/>
+        </option>
+        <option desc="克劳撒">
+            <parameter cpu="0" address="0x107BA5" value="0x14"/>
+        </option>
+        <option desc="瑞克">
+            <parameter cpu="0" address="0x107BA5" value="0x15"/>
+        </option>
+        <option desc="李香绯">
+            <parameter cpu="0" address="0x107BA5" value="0x16"/>
+        </option>
+        <option desc="#阿尔福瑞德#">
+            <parameter cpu="0" address="0x107BA5" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="Alfred百分百乱入 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A8DC" value="0x08"/>
+            <parameter cpu="0" address="0x10A8DD" value="0x06"/>
+            <parameter cpu="0" address="0x10A8E4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限血量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量 PL2">
+            <parameter cpu="0" address="0x10058B" value="0xC0"/>
+        </option>
+        <option desc="红血 PL2">
+            <parameter cpu="0" address="0x10058B" value="0x60"/>
+        </option>
+        <option desc="立即耗尽所有的能量! PL2">
+            <parameter cpu="0" address="0x10058B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1005BC" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="动作有重影 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1005CD" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="特瑞">
+            <parameter cpu="0" address="0x107BA7" value="0x01"/>
+        </option>
+        <option desc="安迪">
+            <parameter cpu="0" address="0x107BA7" value="0x02"/>
+        </option>
+        <option desc="东丈">
+            <parameter cpu="0" address="0x107BA7" value="0x03"/>
+        </option>
+        <option desc="不知火舞">
+            <parameter cpu="0" address="0x107BA7" value="0x04"/>
+        </option>
+        <option desc="基斯">
+            <parameter cpu="0" address="0x107BA7" value="0x05"/>
+        </option>
+        <option desc="望月双角">
+            <parameter cpu="0" address="0x107BA7" value="0x06"/>
+        </option>
+        <option desc="鲍伯">
+            <parameter cpu="0" address="0x107BA7" value="0x07"/>
+        </option>
+        <option desc="红虎">
+            <parameter cpu="0" address="0x107BA7" value="0x08"/>
+        </option>
+        <option desc="布鲁玛莉">
+            <parameter cpu="0" address="0x107BA7" value="0x09"/>
+        </option>
+        <option desc="佛朗哥·巴斯">
+            <parameter cpu="0" address="0x107BA7" value="0x0A"/>
+        </option>
+        <option desc="山崎龙二">
+            <parameter cpu="0" address="0x107BA7" value="0x0B"/>
+        </option>
+        <option desc="秦崇秀">
+            <parameter cpu="0" address="0x107BA7" value="0x0C"/>
+        </option>
+        <option desc="秦崇雷">
+            <parameter cpu="0" address="0x107BA7" value="0x0D"/>
+        </option>
+        <option desc="达克">
+            <parameter cpu="0" address="0x107BA7" value="0x0E"/>
+        </option>
+        <option desc="金甲唤">
+            <parameter cpu="0" address="0x107BA7" value="0x0F"/>
+        </option>
+        <option desc="比利">
+            <parameter cpu="0" address="0x107BA7" value="0x10"/>
+        </option>
+        <option desc="陈秦山">
+            <parameter cpu="0" address="0x107BA7" value="0x11"/>
+        </option>
+        <option desc="唐葫芦">
+            <parameter cpu="0" address="0x107BA7" value="0x12"/>
+        </option>
+        <option desc="劳伦斯">
+            <parameter cpu="0" address="0x107BA7" value="0x13"/>
+        </option>
+        <option desc="克劳撒">
+            <parameter cpu="0" address="0x107BA7" value="0x14"/>
+        </option>
+        <option desc="瑞克">
+            <parameter cpu="0" address="0x107BA7" value="0x15"/>
+        </option>
+        <option desc="李香绯">
+            <parameter cpu="0" address="0x107BA7" value="0x16"/>
+        </option>
+        <option desc="#阿尔福瑞德#">
+            <parameter cpu="0" address="0x107BA7" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选关 Variation" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107BB7" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107BB7" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107BB7" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择赢盘 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107C0C" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107C0C" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107C0C" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x107C0C" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x107C0C" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x107C0C" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x107C0C" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x107C0C" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x107C0C" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x107C0C" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x107C0C" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x107C0C" value="0x0B"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x107C0C" value="0x0C"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x107C0C" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择连击计数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107C1B" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107C1B" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107C1B" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x107C1B" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x107C1B" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x107C1B" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x107C1B" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x107C1B" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x107C1B" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x107C1B" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x107C1B" value="0x10"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x107C1B" value="0x11"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x107C1B" value="0x12"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x107C1B" value="0x13"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x107C1B" value="0x14"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x107C1B" value="0x15"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x107C1B" value="0x16"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x107C1B" value="0x17"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x107C1B" value="0x18"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x107C1B" value="0x19"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0x107C1B" value="0x20"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0x107C1B" value="0x21"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0x107C1B" value="0x22"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0x107C1B" value="0x23"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0x107C1B" value="0x24"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0x107C1B" value="0x25"/>
+        </option>
+        <option desc="26">
+            <parameter cpu="0" address="0x107C1B" value="0x26"/>
+        </option>
+        <option desc="27">
+            <parameter cpu="0" address="0x107C1B" value="0x27"/>
+        </option>
+        <option desc="28">
+            <parameter cpu="0" address="0x107C1B" value="0x28"/>
+        </option>
+        <option desc="29">
+            <parameter cpu="0" address="0x107C1B" value="0x29"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0x107C1B" value="0x30"/>
+        </option>
+        <option desc="31">
+            <parameter cpu="0" address="0x107C1B" value="0x31"/>
+        </option>
+        <option desc="32">
+            <parameter cpu="0" address="0x107C1B" value="0x32"/>
+        </option>
+        <option desc="33">
+            <parameter cpu="0" address="0x107C1B" value="0x33"/>
+        </option>
+        <option desc="34">
+            <parameter cpu="0" address="0x107C1B" value="0x34"/>
+        </option>
+        <option desc="35">
+            <parameter cpu="0" address="0x107C1B" value="0x35"/>
+        </option>
+        <option desc="36">
+            <parameter cpu="0" address="0x107C1B" value="0x36"/>
+        </option>
+        <option desc="37">
+            <parameter cpu="0" address="0x107C1B" value="0x37"/>
+        </option>
+        <option desc="38">
+            <parameter cpu="0" address="0x107C1B" value="0x38"/>
+        </option>
+        <option desc="39">
+            <parameter cpu="0" address="0x107C1B" value="0x39"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0x107C1B" value="0x40"/>
+        </option>
+        <option desc="41">
+            <parameter cpu="0" address="0x107C1B" value="0x41"/>
+        </option>
+        <option desc="42">
+            <parameter cpu="0" address="0x107C1B" value="0x42"/>
+        </option>
+        <option desc="43">
+            <parameter cpu="0" address="0x107C1B" value="0x43"/>
+        </option>
+        <option desc="44">
+            <parameter cpu="0" address="0x107C1B" value="0x44"/>
+        </option>
+        <option desc="45">
+            <parameter cpu="0" address="0x107C1B" value="0x45"/>
+        </option>
+        <option desc="46">
+            <parameter cpu="0" address="0x107C1B" value="0x46"/>
+        </option>
+        <option desc="47">
+            <parameter cpu="0" address="0x107C1B" value="0x47"/>
+        </option>
+        <option desc="48">
+            <parameter cpu="0" address="0x107C1B" value="0x48"/>
+        </option>
+        <option desc="49">
+            <parameter cpu="0" address="0x107C1B" value="0x49"/>
+        </option>
+        <option desc="50">
+            <parameter cpu="0" address="0x107C1B" value="0x50"/>
+        </option>
+        <option desc="51">
+            <parameter cpu="0" address="0x107C1B" value="0x51"/>
+        </option>
+        <option desc="52">
+            <parameter cpu="0" address="0x107C1B" value="0x52"/>
+        </option>
+        <option desc="53">
+            <parameter cpu="0" address="0x107C1B" value="0x53"/>
+        </option>
+        <option desc="54">
+            <parameter cpu="0" address="0x107C1B" value="0x54"/>
+        </option>
+        <option desc="55">
+            <parameter cpu="0" address="0x107C1B" value="0x55"/>
+        </option>
+        <option desc="56">
+            <parameter cpu="0" address="0x107C1B" value="0x56"/>
+        </option>
+        <option desc="57">
+            <parameter cpu="0" address="0x107C1B" value="0x57"/>
+        </option>
+        <option desc="58">
+            <parameter cpu="0" address="0x107C1B" value="0x58"/>
+        </option>
+        <option desc="59">
+            <parameter cpu="0" address="0x107C1B" value="0x59"/>
+        </option>
+        <option desc="60">
+            <parameter cpu="0" address="0x107C1B" value="0x60"/>
+        </option>
+        <option desc="61">
+            <parameter cpu="0" address="0x107C1B" value="0x61"/>
+        </option>
+        <option desc="62">
+            <parameter cpu="0" address="0x107C1B" value="0x62"/>
+        </option>
+        <option desc="63">
+            <parameter cpu="0" address="0x107C1B" value="0x63"/>
+        </option>
+        <option desc="64">
+            <parameter cpu="0" address="0x107C1B" value="0x64"/>
+        </option>
+        <option desc="65">
+            <parameter cpu="0" address="0x107C1B" value="0x65"/>
+        </option>
+        <option desc="66">
+            <parameter cpu="0" address="0x107C1B" value="0x66"/>
+        </option>
+        <option desc="67">
+            <parameter cpu="0" address="0x107C1B" value="0x67"/>
+        </option>
+        <option desc="68">
+            <parameter cpu="0" address="0x107C1B" value="0x68"/>
+        </option>
+        <option desc="69">
+            <parameter cpu="0" address="0x107C1B" value="0x69"/>
+        </option>
+        <option desc="70">
+            <parameter cpu="0" address="0x107C1B" value="0x70"/>
+        </option>
+        <option desc="71">
+            <parameter cpu="0" address="0x107C1B" value="0x71"/>
+        </option>
+        <option desc="72">
+            <parameter cpu="0" address="0x107C1B" value="0x72"/>
+        </option>
+        <option desc="73">
+            <parameter cpu="0" address="0x107C1B" value="0x73"/>
+        </option>
+        <option desc="74">
+            <parameter cpu="0" address="0x107C1B" value="0x74"/>
+        </option>
+        <option desc="75">
+            <parameter cpu="0" address="0x107C1B" value="0x75"/>
+        </option>
+        <option desc="76">
+            <parameter cpu="0" address="0x107C1B" value="0x76"/>
+        </option>
+        <option desc="77">
+            <parameter cpu="0" address="0x107C1B" value="0x77"/>
+        </option>
+        <option desc="78">
+            <parameter cpu="0" address="0x107C1B" value="0x78"/>
+        </option>
+        <option desc="79">
+            <parameter cpu="0" address="0x107C1B" value="0x79"/>
+        </option>
+        <option desc="80">
+            <parameter cpu="0" address="0x107C1B" value="0x80"/>
+        </option>
+        <option desc="81">
+            <parameter cpu="0" address="0x107C1B" value="0x81"/>
+        </option>
+        <option desc="82">
+            <parameter cpu="0" address="0x107C1B" value="0x82"/>
+        </option>
+        <option desc="83">
+            <parameter cpu="0" address="0x107C1B" value="0x83"/>
+        </option>
+        <option desc="84">
+            <parameter cpu="0" address="0x107C1B" value="0x84"/>
+        </option>
+        <option desc="85">
+            <parameter cpu="0" address="0x107C1B" value="0x85"/>
+        </option>
+        <option desc="86">
+            <parameter cpu="0" address="0x107C1B" value="0x86"/>
+        </option>
+        <option desc="87">
+            <parameter cpu="0" address="0x107C1B" value="0x87"/>
+        </option>
+        <option desc="88">
+            <parameter cpu="0" address="0x107C1B" value="0x88"/>
+        </option>
+        <option desc="89">
+            <parameter cpu="0" address="0x107C1B" value="0x89"/>
+        </option>
+        <option desc="90">
+            <parameter cpu="0" address="0x107C1B" value="0x90"/>
+        </option>
+        <option desc="91">
+            <parameter cpu="0" address="0x107C1B" value="0x91"/>
+        </option>
+        <option desc="92">
+            <parameter cpu="0" address="0x107C1B" value="0x92"/>
+        </option>
+        <option desc="93">
+            <parameter cpu="0" address="0x107C1B" value="0x93"/>
+        </option>
+        <option desc="94">
+            <parameter cpu="0" address="0x107C1B" value="0x94"/>
+        </option>
+        <option desc="95">
+            <parameter cpu="0" address="0x107C1B" value="0x95"/>
+        </option>
+        <option desc="96">
+            <parameter cpu="0" address="0x107C1B" value="0x96"/>
+        </option>
+        <option desc="97">
+            <parameter cpu="0" address="0x107C1B" value="0x97"/>
+        </option>
+        <option desc="98">
+            <parameter cpu="0" address="0x107C1B" value="0x98"/>
+        </option>
+        <option desc="99">
+            <parameter cpu="0" address="0x107C1B" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BAC" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择连击计数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x107C1D" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x107C1D" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x107C1D" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x107C1D" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x107C1D" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x107C1D" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x107C1D" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x107C1D" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x107C1D" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x107C1D" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x107C1D" value="0x10"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x107C1D" value="0x11"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x107C1D" value="0x12"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x107C1D" value="0x13"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x107C1D" value="0x14"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x107C1D" value="0x15"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x107C1D" value="0x16"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x107C1D" value="0x17"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x107C1D" value="0x18"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x107C1D" value="0x19"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0x107C1D" value="0x20"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0x107C1D" value="0x21"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0x107C1D" value="0x22"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0x107C1D" value="0x23"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0x107C1D" value="0x24"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0x107C1D" value="0x25"/>
+        </option>
+        <option desc="26">
+            <parameter cpu="0" address="0x107C1D" value="0x26"/>
+        </option>
+        <option desc="27">
+            <parameter cpu="0" address="0x107C1D" value="0x27"/>
+        </option>
+        <option desc="28">
+            <parameter cpu="0" address="0x107C1D" value="0x28"/>
+        </option>
+        <option desc="29">
+            <parameter cpu="0" address="0x107C1D" value="0x29"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0x107C1D" value="0x30"/>
+        </option>
+        <option desc="31">
+            <parameter cpu="0" address="0x107C1D" value="0x31"/>
+        </option>
+        <option desc="32">
+            <parameter cpu="0" address="0x107C1D" value="0x32"/>
+        </option>
+        <option desc="33">
+            <parameter cpu="0" address="0x107C1D" value="0x33"/>
+        </option>
+        <option desc="34">
+            <parameter cpu="0" address="0x107C1D" value="0x34"/>
+        </option>
+        <option desc="35">
+            <parameter cpu="0" address="0x107C1D" value="0x35"/>
+        </option>
+        <option desc="36">
+            <parameter cpu="0" address="0x107C1D" value="0x36"/>
+        </option>
+        <option desc="37">
+            <parameter cpu="0" address="0x107C1D" value="0x37"/>
+        </option>
+        <option desc="38">
+            <parameter cpu="0" address="0x107C1D" value="0x38"/>
+        </option>
+        <option desc="39">
+            <parameter cpu="0" address="0x107C1D" value="0x39"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0x107C1D" value="0x40"/>
+        </option>
+        <option desc="41">
+            <parameter cpu="0" address="0x107C1D" value="0x41"/>
+        </option>
+        <option desc="42">
+            <parameter cpu="0" address="0x107C1D" value="0x42"/>
+        </option>
+        <option desc="43">
+            <parameter cpu="0" address="0x107C1D" value="0x43"/>
+        </option>
+        <option desc="44">
+            <parameter cpu="0" address="0x107C1D" value="0x44"/>
+        </option>
+        <option desc="45">
+            <parameter cpu="0" address="0x107C1D" value="0x45"/>
+        </option>
+        <option desc="46">
+            <parameter cpu="0" address="0x107C1D" value="0x46"/>
+        </option>
+        <option desc="47">
+            <parameter cpu="0" address="0x107C1D" value="0x47"/>
+        </option>
+        <option desc="48">
+            <parameter cpu="0" address="0x107C1D" value="0x48"/>
+        </option>
+        <option desc="49">
+            <parameter cpu="0" address="0x107C1D" value="0x49"/>
+        </option>
+        <option desc="50">
+            <parameter cpu="0" address="0x107C1D" value="0x50"/>
+        </option>
+        <option desc="51">
+            <parameter cpu="0" address="0x107C1D" value="0x51"/>
+        </option>
+        <option desc="52">
+            <parameter cpu="0" address="0x107C1D" value="0x52"/>
+        </option>
+        <option desc="53">
+            <parameter cpu="0" address="0x107C1D" value="0x53"/>
+        </option>
+        <option desc="54">
+            <parameter cpu="0" address="0x107C1D" value="0x54"/>
+        </option>
+        <option desc="55">
+            <parameter cpu="0" address="0x107C1D" value="0x55"/>
+        </option>
+        <option desc="56">
+            <parameter cpu="0" address="0x107C1D" value="0x56"/>
+        </option>
+        <option desc="57">
+            <parameter cpu="0" address="0x107C1D" value="0x57"/>
+        </option>
+        <option desc="58">
+            <parameter cpu="0" address="0x107C1D" value="0x58"/>
+        </option>
+        <option desc="59">
+            <parameter cpu="0" address="0x107C1D" value="0x59"/>
+        </option>
+        <option desc="60">
+            <parameter cpu="0" address="0x107C1D" value="0x60"/>
+        </option>
+        <option desc="61">
+            <parameter cpu="0" address="0x107C1D" value="0x61"/>
+        </option>
+        <option desc="62">
+            <parameter cpu="0" address="0x107C1D" value="0x62"/>
+        </option>
+        <option desc="63">
+            <parameter cpu="0" address="0x107C1D" value="0x63"/>
+        </option>
+        <option desc="64">
+            <parameter cpu="0" address="0x107C1D" value="0x64"/>
+        </option>
+        <option desc="65">
+            <parameter cpu="0" address="0x107C1D" value="0x65"/>
+        </option>
+        <option desc="66">
+            <parameter cpu="0" address="0x107C1D" value="0x66"/>
+        </option>
+        <option desc="67">
+            <parameter cpu="0" address="0x107C1D" value="0x67"/>
+        </option>
+        <option desc="68">
+            <parameter cpu="0" address="0x107C1D" value="0x68"/>
+        </option>
+        <option desc="69">
+            <parameter cpu="0" address="0x107C1D" value="0x69"/>
+        </option>
+        <option desc="70">
+            <parameter cpu="0" address="0x107C1D" value="0x70"/>
+        </option>
+        <option desc="71">
+            <parameter cpu="0" address="0x107C1D" value="0x71"/>
+        </option>
+        <option desc="72">
+            <parameter cpu="0" address="0x107C1D" value="0x72"/>
+        </option>
+        <option desc="73">
+            <parameter cpu="0" address="0x107C1D" value="0x73"/>
+        </option>
+        <option desc="74">
+            <parameter cpu="0" address="0x107C1D" value="0x74"/>
+        </option>
+        <option desc="75">
+            <parameter cpu="0" address="0x107C1D" value="0x75"/>
+        </option>
+        <option desc="76">
+            <parameter cpu="0" address="0x107C1D" value="0x76"/>
+        </option>
+        <option desc="77">
+            <parameter cpu="0" address="0x107C1D" value="0x77"/>
+        </option>
+        <option desc="78">
+            <parameter cpu="0" address="0x107C1D" value="0x78"/>
+        </option>
+        <option desc="79">
+            <parameter cpu="0" address="0x107C1D" value="0x79"/>
+        </option>
+        <option desc="80">
+            <parameter cpu="0" address="0x107C1D" value="0x80"/>
+        </option>
+        <option desc="81">
+            <parameter cpu="0" address="0x107C1D" value="0x81"/>
+        </option>
+        <option desc="82">
+            <parameter cpu="0" address="0x107C1D" value="0x82"/>
+        </option>
+        <option desc="83">
+            <parameter cpu="0" address="0x107C1D" value="0x83"/>
+        </option>
+        <option desc="84">
+            <parameter cpu="0" address="0x107C1D" value="0x84"/>
+        </option>
+        <option desc="85">
+            <parameter cpu="0" address="0x107C1D" value="0x85"/>
+        </option>
+        <option desc="86">
+            <parameter cpu="0" address="0x107C1D" value="0x86"/>
+        </option>
+        <option desc="87">
+            <parameter cpu="0" address="0x107C1D" value="0x87"/>
+        </option>
+        <option desc="88">
+            <parameter cpu="0" address="0x107C1D" value="0x88"/>
+        </option>
+        <option desc="89">
+            <parameter cpu="0" address="0x107C1D" value="0x89"/>
+        </option>
+        <option desc="90">
+            <parameter cpu="0" address="0x107C1D" value="0x90"/>
+        </option>
+        <option desc="91">
+            <parameter cpu="0" address="0x107C1D" value="0x91"/>
+        </option>
+        <option desc="92">
+            <parameter cpu="0" address="0x107C1D" value="0x92"/>
+        </option>
+        <option desc="93">
+            <parameter cpu="0" address="0x107C1D" value="0x93"/>
+        </option>
+        <option desc="94">
+            <parameter cpu="0" address="0x107C1D" value="0x94"/>
+        </option>
+        <option desc="95">
+            <parameter cpu="0" address="0x107C1D" value="0x95"/>
+        </option>
+        <option desc="96">
+            <parameter cpu="0" address="0x107C1D" value="0x96"/>
+        </option>
+        <option desc="97">
+            <parameter cpu="0" address="0x107C1D" value="0x97"/>
+        </option>
+        <option desc="98">
+            <parameter cpu="0" address="0x107C1D" value="0x98"/>
+        </option>
+        <option desc="99">
+            <parameter cpu="0" address="0x107C1D" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107BAD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

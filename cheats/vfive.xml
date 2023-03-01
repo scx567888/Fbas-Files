@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1003B3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10063B" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 (闪烁)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10060F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度" default="0">
+        <option desc="关闭"/>
+        <option desc="最小">
+            <parameter cpu="0" address="0x1005FC" value="0x0E"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x1005FC" value="0x18"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x1005FC" value="0x22"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x1005FC" value="0x2C"/>
+        </option>
+        <option desc="最大">
+            <parameter cpu="0" address="0x1005FC" value="0x36"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100600" value="0x00"/>
+            <parameter cpu="0" address="0x100601" value="0x02"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1005FF" value="0x00"/>
+            <parameter cpu="0" address="0x100608" value="0x01"/>
+            <parameter cpu="0" address="0x100609" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有跟踪武器" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有跟踪武器">
+            <parameter cpu="0" address="0x1005FF" value="0x01"/>
+            <parameter cpu="0" address="0x100608" value="0x01"/>
+            <parameter cpu="0" address="0x100609" value="0x00"/>
+        </option>
+        <option desc="总是有导弹">
+            <parameter cpu="0" address="0x1005FF" value="0x02"/>
+            <parameter cpu="0" address="0x100608" value="0x01"/>
+            <parameter cpu="0" address="0x100609" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择模式" default="0">
+        <option desc="关闭"/>
+        <option desc="正常模式">
+            <parameter cpu="0" address="0x100655" value="0x00"/>
+        </option>
+        <option desc="轰炸机模式">
+            <parameter cpu="0" address="0x100655" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器选择位置" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x100647" value="0x00"/>
+        </option>
+        <option desc="加速">
+            <parameter cpu="0" address="0x100647" value="0x01"/>
+        </option>
+        <option desc="正常武器">
+            <parameter cpu="0" address="0x100647" value="0x02"/>
+        </option>
+        <option desc="跟踪">
+            <parameter cpu="0" address="0x100647" value="0x03"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0x100647" value="0x04"/>
+        </option>
+        <option desc="火力升级">
+            <parameter cpu="0" address="0x100647" value="0x05"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0x100647" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100659" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="开始于关卡 1" default="0">
+        <option desc="关闭"/>
+        <option desc="开始于关卡 1">
+            <parameter cpu="0" address="0x10063E" value="0x00"/>
+            <parameter cpu="0" address="0x10063F" value="0x00"/>
+            <parameter cpu="0" address="0x100645" value="0x00"/>
+            <parameter cpu="0" address="0x10064D" value="0x01"/>
+        </option>
+        <option desc="开始于关卡 2">
+            <parameter cpu="0" address="0x10063E" value="0x02"/>
+            <parameter cpu="0" address="0x10063F" value="0xC0"/>
+            <parameter cpu="0" address="0x100645" value="0x01"/>
+            <parameter cpu="0" address="0x10064D" value="0x01"/>
+        </option>
+        <option desc="开始于关卡 3">
+            <parameter cpu="0" address="0x10063E" value="0x06"/>
+            <parameter cpu="0" address="0x10063F" value="0x40"/>
+            <parameter cpu="0" address="0x100645" value="0x02"/>
+            <parameter cpu="0" address="0x10064D" value="0x01"/>
+        </option>
+        <option desc="开始于关卡 4">
+            <parameter cpu="0" address="0x10063E" value="0x0A"/>
+            <parameter cpu="0" address="0x10063F" value="0x80"/>
+            <parameter cpu="0" address="0x100645" value="0x03"/>
+            <parameter cpu="0" address="0x10064D" value="0x01"/>
+        </option>
+        <option desc="开始于关卡 5">
+            <parameter cpu="0" address="0x10063E" value="0x0F"/>
+            <parameter cpu="0" address="0x10063F" value="0x00"/>
+            <parameter cpu="0" address="0x100645" value="0x04"/>
+            <parameter cpu="0" address="0x10064D" value="0x01"/>
+        </option>
+        <option desc="开始于关卡 6">
+            <parameter cpu="0" address="0x10063E" value="0x15"/>
+            <parameter cpu="0" address="0x10063F" value="0x00"/>
+            <parameter cpu="0" address="0x100645" value="0x05"/>
+            <parameter cpu="0" address="0x10064D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前循环" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x100643" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x100643" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

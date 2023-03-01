@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102295" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="指示线 [仅单人模式]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10369B" value="0x01"/>
+        </option>
+        <option desc="关闭">
+            <parameter cpu="0" address="0x10369B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="停止震动 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10233B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="停止下落 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10233D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102337" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="寿司">
+            <parameter cpu="0" address="0x102329" value="0x02"/>
+        </option>
+        <option desc="黄桔子">
+            <parameter cpu="0" address="0x102329" value="0x03"/>
+        </option>
+        <option desc="蓝梅">
+            <parameter cpu="0" address="0x102329" value="0x04"/>
+        </option>
+        <option desc="汉堡">
+            <parameter cpu="0" address="0x102329" value="0x05"/>
+        </option>
+        <option desc="半边西瓜">
+            <parameter cpu="0" address="0x102329" value="0x06"/>
+        </option>
+        <option desc="紫球">
+            <parameter cpu="0" address="0x102329" value="0x07"/>
+        </option>
+        <option desc="煎蛋">
+            <parameter cpu="0" address="0x102329" value="0x08"/>
+        </option>
+        <option desc="黑火球">
+            <parameter cpu="0" address="0x102329" value="0x09"/>
+        </option>
+        <option desc="火炸弹">
+            <parameter cpu="0" address="0x102329" value="0x0A"/>
+        </option>
+        <option desc="五星水晶球">
+            <parameter cpu="0" address="0x102329" value="0x0B"/>
+        </option>
+        <option desc="问号">
+            <parameter cpu="0" address="0x102329" value="0x0C"/>
+        </option>
+        <option desc="黄水晶球">
+            <parameter cpu="0" address="0x102329" value="0x0D"/>
+        </option>
+        <option desc="气泡">
+            <parameter cpu="0" address="0x102329" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="寿司">
+            <parameter cpu="0" address="0x10232B" value="0x02"/>
+        </option>
+        <option desc="黄桔子">
+            <parameter cpu="0" address="0x10232B" value="0x03"/>
+        </option>
+        <option desc="蓝梅">
+            <parameter cpu="0" address="0x10232B" value="0x04"/>
+        </option>
+        <option desc="汉堡">
+            <parameter cpu="0" address="0x10232B" value="0x05"/>
+        </option>
+        <option desc="半边西瓜">
+            <parameter cpu="0" address="0x10232B" value="0x06"/>
+        </option>
+        <option desc="紫球">
+            <parameter cpu="0" address="0x10232B" value="0x07"/>
+        </option>
+        <option desc="煎蛋">
+            <parameter cpu="0" address="0x10232B" value="0x08"/>
+        </option>
+        <option desc="黑火球">
+            <parameter cpu="0" address="0x10232B" value="0x09"/>
+        </option>
+        <option desc="火炸弹">
+            <parameter cpu="0" address="0x10232B" value="0x0A"/>
+        </option>
+        <option desc="五星水晶球">
+            <parameter cpu="0" address="0x10232B" value="0x0B"/>
+        </option>
+        <option desc="问号">
+            <parameter cpu="0" address="0x10232B" value="0x0C"/>
+        </option>
+        <option desc="黄水晶球">
+            <parameter cpu="0" address="0x10232B" value="0x0D"/>
+        </option>
+        <option desc="气泡">
+            <parameter cpu="0" address="0x10232B" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="停止震动 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1023C1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="停止下落 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1023C3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1023BD" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前球 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="寿司">
+            <parameter cpu="0" address="0x1023AF" value="0x02"/>
+        </option>
+        <option desc="黄桔子">
+            <parameter cpu="0" address="0x1023AF" value="0x03"/>
+        </option>
+        <option desc="蓝梅">
+            <parameter cpu="0" address="0x1023AF" value="0x04"/>
+        </option>
+        <option desc="汉堡">
+            <parameter cpu="0" address="0x1023AF" value="0x05"/>
+        </option>
+        <option desc="半边西瓜">
+            <parameter cpu="0" address="0x1023AF" value="0x06"/>
+        </option>
+        <option desc="紫球">
+            <parameter cpu="0" address="0x1023AF" value="0x07"/>
+        </option>
+        <option desc="煎蛋">
+            <parameter cpu="0" address="0x1023AF" value="0x08"/>
+        </option>
+        <option desc="黑火球">
+            <parameter cpu="0" address="0x1023AF" value="0x09"/>
+        </option>
+        <option desc="火炸弹">
+            <parameter cpu="0" address="0x1023AF" value="0x0A"/>
+        </option>
+        <option desc="五星水晶球">
+            <parameter cpu="0" address="0x1023AF" value="0x0B"/>
+        </option>
+        <option desc="问号">
+            <parameter cpu="0" address="0x1023AF" value="0x0C"/>
+        </option>
+        <option desc="黄水晶球">
+            <parameter cpu="0" address="0x1023AF" value="0x0D"/>
+        </option>
+        <option desc="气泡">
+            <parameter cpu="0" address="0x1023AF" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一球 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="寿司">
+            <parameter cpu="0" address="0x1023B1" value="0x02"/>
+        </option>
+        <option desc="黄桔子">
+            <parameter cpu="0" address="0x1023B1" value="0x03"/>
+        </option>
+        <option desc="蓝梅">
+            <parameter cpu="0" address="0x1023B1" value="0x04"/>
+        </option>
+        <option desc="汉堡">
+            <parameter cpu="0" address="0x1023B1" value="0x05"/>
+        </option>
+        <option desc="半边西瓜">
+            <parameter cpu="0" address="0x1023B1" value="0x06"/>
+        </option>
+        <option desc="紫球">
+            <parameter cpu="0" address="0x1023B1" value="0x07"/>
+        </option>
+        <option desc="煎蛋">
+            <parameter cpu="0" address="0x1023B1" value="0x08"/>
+        </option>
+        <option desc="黑火球">
+            <parameter cpu="0" address="0x1023B1" value="0x09"/>
+        </option>
+        <option desc="火炸弹">
+            <parameter cpu="0" address="0x1023B1" value="0x0A"/>
+        </option>
+        <option desc="五星水晶球">
+            <parameter cpu="0" address="0x1023B1" value="0x0B"/>
+        </option>
+        <option desc="问号">
+            <parameter cpu="0" address="0x1023B1" value="0x0C"/>
+        </option>
+        <option desc="黄水晶球">
+            <parameter cpu="0" address="0x1023B1" value="0x0D"/>
+        </option>
+        <option desc="气泡">
+            <parameter cpu="0" address="0x1023B1" value="0x0E"/>
+        </option>
+    </cheat>
+    <cheat desc="下一关卡到02" default="0">
+        <option desc="关闭"/>
+        <option desc="下一关卡到02">
+            <parameter cpu="0" address="0x103643" value="0x00"/>
+            <parameter cpu="0" address="0x10369B" value="0x01"/>
+        </option>
+        <option desc="下一关卡到03">
+            <parameter cpu="0" address="0x103643" value="0x01"/>
+            <parameter cpu="0" address="0x10369B" value="0x02"/>
+        </option>
+        <option desc="下一关卡到04">
+            <parameter cpu="0" address="0x103643" value="0x02"/>
+            <parameter cpu="0" address="0x10369B" value="0x03"/>
+        </option>
+        <option desc="下一关卡到05">
+            <parameter cpu="0" address="0x103643" value="0x03"/>
+            <parameter cpu="0" address="0x10369B" value="0x04"/>
+        </option>
+        <option desc="下一关卡到06">
+            <parameter cpu="0" address="0x103643" value="0x04"/>
+            <parameter cpu="0" address="0x10369B" value="0x05"/>
+        </option>
+        <option desc="下一关卡到07">
+            <parameter cpu="0" address="0x103643" value="0x05"/>
+            <parameter cpu="0" address="0x10369B" value="0x06"/>
+        </option>
+        <option desc="下一关卡到08">
+            <parameter cpu="0" address="0x103643" value="0x06"/>
+            <parameter cpu="0" address="0x10369B" value="0x07"/>
+        </option>
+        <option desc="下一关卡到09">
+            <parameter cpu="0" address="0x103643" value="0x07"/>
+            <parameter cpu="0" address="0x10369B" value="0x08"/>
+        </option>
+        <option desc="下一关卡到10">
+            <parameter cpu="0" address="0x103643" value="0x08"/>
+            <parameter cpu="0" address="0x10369B" value="0x09"/>
+        </option>
+        <option desc="下一关卡到11">
+            <parameter cpu="0" address="0x103643" value="0x09"/>
+            <parameter cpu="0" address="0x10369B" value="0x0A"/>
+        </option>
+        <option desc="下一关卡到12">
+            <parameter cpu="0" address="0x103643" value="0x0A"/>
+            <parameter cpu="0" address="0x10369B" value="0x0B"/>
+        </option>
+        <option desc="下一关卡到13">
+            <parameter cpu="0" address="0x103643" value="0x0B"/>
+            <parameter cpu="0" address="0x10369B" value="0x0C"/>
+        </option>
+        <option desc="下一关卡到14">
+            <parameter cpu="0" address="0x103643" value="0x0C"/>
+            <parameter cpu="0" address="0x10369B" value="0x0D"/>
+        </option>
+        <option desc="下一关卡到15">
+            <parameter cpu="0" address="0x103643" value="0x0D"/>
+            <parameter cpu="0" address="0x10369B" value="0x0E"/>
+        </option>
+        <option desc="下一关卡到16">
+            <parameter cpu="0" address="0x103643" value="0x0E"/>
+            <parameter cpu="0" address="0x10369B" value="0x0F"/>
+        </option>
+        <option desc="下一关卡到17">
+            <parameter cpu="0" address="0x103643" value="0x0F"/>
+            <parameter cpu="0" address="0x10369B" value="0x10"/>
+        </option>
+        <option desc="下一关卡到18">
+            <parameter cpu="0" address="0x103643" value="0x10"/>
+            <parameter cpu="0" address="0x10369B" value="0x11"/>
+        </option>
+        <option desc="下一关卡到19">
+            <parameter cpu="0" address="0x103643" value="0x11"/>
+            <parameter cpu="0" address="0x10369B" value="0x12"/>
+        </option>
+        <option desc="下一关卡到20">
+            <parameter cpu="0" address="0x103643" value="0x12"/>
+            <parameter cpu="0" address="0x10369B" value="0x13"/>
+        </option>
+        <option desc="下一关卡到21">
+            <parameter cpu="0" address="0x103643" value="0x13"/>
+            <parameter cpu="0" address="0x10369B" value="0x14"/>
+        </option>
+        <option desc="下一关卡到22">
+            <parameter cpu="0" address="0x103643" value="0x14"/>
+            <parameter cpu="0" address="0x10369B" value="0x15"/>
+        </option>
+        <option desc="下一关卡到23">
+            <parameter cpu="0" address="0x103643" value="0x15"/>
+            <parameter cpu="0" address="0x10369B" value="0x16"/>
+        </option>
+        <option desc="下一关卡到24">
+            <parameter cpu="0" address="0x103643" value="0x16"/>
+            <parameter cpu="0" address="0x10369B" value="0x17"/>
+        </option>
+        <option desc="下一关卡到25">
+            <parameter cpu="0" address="0x103643" value="0x17"/>
+            <parameter cpu="0" address="0x10369B" value="0x18"/>
+        </option>
+        <option desc="下一关卡到26">
+            <parameter cpu="0" address="0x103643" value="0x18"/>
+            <parameter cpu="0" address="0x10369B" value="0x19"/>
+        </option>
+        <option desc="下一关卡到27">
+            <parameter cpu="0" address="0x103643" value="0x19"/>
+            <parameter cpu="0" address="0x10369B" value="0x1A"/>
+        </option>
+        <option desc="下一关卡到28">
+            <parameter cpu="0" address="0x103643" value="0x1A"/>
+            <parameter cpu="0" address="0x10369B" value="0x1B"/>
+        </option>
+        <option desc="下一关卡到29">
+            <parameter cpu="0" address="0x103643" value="0x1B"/>
+            <parameter cpu="0" address="0x10369B" value="0x1C"/>
+        </option>
+        <option desc="下一关卡到30">
+            <parameter cpu="0" address="0x103643" value="0x1C"/>
+            <parameter cpu="0" address="0x10369B" value="0x1D"/>
+        </option>
+        <option desc="下一关卡到31">
+            <parameter cpu="0" address="0x103643" value="0x1D"/>
+            <parameter cpu="0" address="0x10369B" value="0x1E"/>
+        </option>
+        <option desc="下一关卡到32">
+            <parameter cpu="0" address="0x103643" value="0x1E"/>
+            <parameter cpu="0" address="0x10369B" value="0x1F"/>
+        </option>
+        <option desc="下一关卡到33">
+            <parameter cpu="0" address="0x103643" value="0x1F"/>
+            <parameter cpu="0" address="0x10369B" value="0x20"/>
+        </option>
+        <option desc="下一关卡到34">
+            <parameter cpu="0" address="0x103643" value="0x20"/>
+            <parameter cpu="0" address="0x10369B" value="0x21"/>
+        </option>
+        <option desc="下一关卡到35">
+            <parameter cpu="0" address="0x103643" value="0x21"/>
+            <parameter cpu="0" address="0x10369B" value="0x22"/>
+        </option>
+        <option desc="下一关卡到36">
+            <parameter cpu="0" address="0x103643" value="0x22"/>
+            <parameter cpu="0" address="0x10369B" value="0x23"/>
+        </option>
+        <option desc="下一关卡到37">
+            <parameter cpu="0" address="0x103643" value="0x23"/>
+            <parameter cpu="0" address="0x10369B" value="0x24"/>
+        </option>
+        <option desc="下一关卡到38">
+            <parameter cpu="0" address="0x103643" value="0x24"/>
+            <parameter cpu="0" address="0x10369B" value="0x25"/>
+        </option>
+        <option desc="下一关卡到39">
+            <parameter cpu="0" address="0x103643" value="0x25"/>
+            <parameter cpu="0" address="0x10369B" value="0x26"/>
+        </option>
+        <option desc="下一关卡到40">
+            <parameter cpu="0" address="0x103643" value="0x26"/>
+            <parameter cpu="0" address="0x10369B" value="0x27"/>
+        </option>
+        <option desc="下一关卡到41">
+            <parameter cpu="0" address="0x103643" value="0x27"/>
+            <parameter cpu="0" address="0x10369B" value="0x28"/>
+        </option>
+        <option desc="下一关卡到42">
+            <parameter cpu="0" address="0x103643" value="0x28"/>
+            <parameter cpu="0" address="0x10369B" value="0x29"/>
+        </option>
+        <option desc="下一关卡到43">
+            <parameter cpu="0" address="0x103643" value="0x29"/>
+            <parameter cpu="0" address="0x10369B" value="0x2A"/>
+        </option>
+        <option desc="下一关卡到44">
+            <parameter cpu="0" address="0x103643" value="0x2A"/>
+            <parameter cpu="0" address="0x10369B" value="0x2B"/>
+        </option>
+        <option desc="下一关卡到45">
+            <parameter cpu="0" address="0x103643" value="0x2B"/>
+            <parameter cpu="0" address="0x10369B" value="0x2C"/>
+        </option>
+        <option desc="下一关卡到46">
+            <parameter cpu="0" address="0x103643" value="0x2C"/>
+            <parameter cpu="0" address="0x10369B" value="0x2D"/>
+        </option>
+        <option desc="下一关卡到47">
+            <parameter cpu="0" address="0x103643" value="0x2D"/>
+            <parameter cpu="0" address="0x10369B" value="0x2E"/>
+        </option>
+        <option desc="下一关卡到48">
+            <parameter cpu="0" address="0x103643" value="0x2E"/>
+            <parameter cpu="0" address="0x10369B" value="0x2F"/>
+        </option>
+        <option desc="下一关卡到49">
+            <parameter cpu="0" address="0x103643" value="0x2F"/>
+            <parameter cpu="0" address="0x10369B" value="0x30"/>
+        </option>
+        <option desc="下一关卡到50">
+            <parameter cpu="0" address="0x103643" value="0x30"/>
+            <parameter cpu="0" address="0x10369B" value="0x31"/>
+        </option>
+    </cheat>
+</shufflecheat>

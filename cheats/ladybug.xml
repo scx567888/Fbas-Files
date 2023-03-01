@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6066" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6067" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励总是红色" default="0">
+        <option desc="关闭"/>
+        <option desc="奖励总是红色">
+            <parameter cpu="0" address="0x6199" value="0x10"/>
+        </option>
+        <option desc="奖励总是黄色">
+            <parameter cpu="0" address="0x6199" value="0x70"/>
+        </option>
+        <option desc="奖励总是蓝色">
+            <parameter cpu="0" address="0x6199" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="消完一个点即结束此局!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60A9" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励总是x5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x609F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="得到EXTR- ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到EXTR- ! PL1">
+            <parameter cpu="0" address="0x609E" value="0xF0"/>
+        </option>
+        <option desc="得到EXT-A ! PL1">
+            <parameter cpu="0" address="0x609E" value="0xE8"/>
+        </option>
+        <option desc="得到EX-RA ! PL1">
+            <parameter cpu="0" address="0x609E" value="0xE4"/>
+        </option>
+        <option desc="得到E-TRA ! PL1">
+            <parameter cpu="0" address="0x609E" value="0xE2"/>
+        </option>
+        <option desc="得到-XTRA ! PL1">
+            <parameter cpu="0" address="0x609E" value="0xE1"/>
+        </option>
+    </cheat>
+    <cheat desc="得到SPECIA- ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到SPECIA- ! PL1">
+            <parameter cpu="0" address="0x609D" value="0xC0"/>
+        </option>
+        <option desc="得到SPECI-L ! PL1">
+            <parameter cpu="0" address="0x609D" value="0xA0"/>
+        </option>
+        <option desc="得到SPEC-AL ! PL1">
+            <parameter cpu="0" address="0x609D" value="0x90"/>
+        </option>
+        <option desc="得到SPE-IAL ! PL1">
+            <parameter cpu="0" address="0x609D" value="0x88"/>
+        </option>
+        <option desc="得到SP-CIAL ! PL1">
+            <parameter cpu="0" address="0x609D" value="0x84"/>
+        </option>
+        <option desc="得到S-ECIAL ! PL1">
+            <parameter cpu="0" address="0x609D" value="0x82"/>
+        </option>
+        <option desc="得到-PECIAL ! PL1">
+            <parameter cpu="0" address="0x609D" value="0x81"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励总是x5 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60A2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="得到EXTR- ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到EXTR- ! PL2">
+            <parameter cpu="0" address="0x60A1" value="0xF0"/>
+        </option>
+        <option desc="得到EXT-A ! PL2">
+            <parameter cpu="0" address="0x60A1" value="0xE8"/>
+        </option>
+        <option desc="得到EX-RA ! PL2">
+            <parameter cpu="0" address="0x60A1" value="0xE4"/>
+        </option>
+        <option desc="得到E-TRA ! PL2">
+            <parameter cpu="0" address="0x60A1" value="0xE2"/>
+        </option>
+        <option desc="得到-XTRA ! PL2">
+            <parameter cpu="0" address="0x60A1" value="0xE1"/>
+        </option>
+    </cheat>
+    <cheat desc="得到SPECIA- ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到SPECIA- ! PL2">
+            <parameter cpu="0" address="0x60A0" value="0xC0"/>
+        </option>
+        <option desc="得到SPECI-L ! PL2">
+            <parameter cpu="0" address="0x60A0" value="0xA0"/>
+        </option>
+        <option desc="得到SPEC-AL ! PL2">
+            <parameter cpu="0" address="0x60A0" value="0x90"/>
+        </option>
+        <option desc="得到SPE-IAL ! PL2">
+            <parameter cpu="0" address="0x60A0" value="0x88"/>
+        </option>
+        <option desc="得到SP-CIAL ! PL2">
+            <parameter cpu="0" address="0x60A0" value="0x84"/>
+        </option>
+        <option desc="得到S-ECIAL ! PL2">
+            <parameter cpu="0" address="0x60A0" value="0x82"/>
+        </option>
+        <option desc="得到-PECIAL ! PL2">
+            <parameter cpu="0" address="0x60A0" value="0x81"/>
+        </option>
+    </cheat>
+</shufflecheat>

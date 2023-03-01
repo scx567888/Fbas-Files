@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD7FD" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF72DD" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF72E1" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="最大火力 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x03"/>
+        </option>
+        <option desc="射击类型 - 类型A 等级1 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x00"/>
+        </option>
+        <option desc="射击类型 - 类型A 等级2 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x01"/>
+        </option>
+        <option desc="射击类型 - 类型A 等级3 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x02"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级1 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x04"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级2 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x05"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级3 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x06"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级4 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x07"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级1 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x08"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级2 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x09"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级3 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x0A"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级4 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x0B"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级1 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x0C"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级2 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x0D"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级3 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x0E"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级4 PL1">
+            <parameter cpu="0" address="0xFF730D" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="炸弹类型 - 手动炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9E2B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="炸弹类型 - 自动炸弹(无限?) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9E2A" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击* PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAE36" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Sinnosuke PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Sinnosuke PL1">
+            <parameter cpu="0" address="0xFF7309" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Ruby PL1">
+            <parameter cpu="0" address="0xFF7309" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Isha PL1">
+            <parameter cpu="0" address="0xFF7309" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Stuck PL1">
+            <parameter cpu="0" address="0xFF7309" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Unknown PL1">
+            <parameter cpu="0" address="0xFF7309" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF72DF" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF72E3" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL2">
+            <parameter cpu="0" address="0xFFAEAB" value="0x40"/>
+            <parameter cpu="0" address="0xFFAEFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFAEFB" value="0xEF"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL2">
+            <parameter cpu="0" address="0xFFAEAB" value="0x00"/>
+            <parameter cpu="0" address="0xFFAEFA" value="0x00"/>
+            <parameter cpu="0" address="0xFFAEFB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="最大火力 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x03"/>
+        </option>
+        <option desc="射击类型 - 类型A 等级1 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x00"/>
+        </option>
+        <option desc="射击类型 - 类型A 等级2 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x01"/>
+        </option>
+        <option desc="射击类型 - 类型A 等级3 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x02"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级1 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x04"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级2 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x05"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级3 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x06"/>
+        </option>
+        <option desc="射击类型 - 类型B 等级4 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x07"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级1 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x08"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级2 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x09"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级3 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x0A"/>
+        </option>
+        <option desc="射击类型 - 类型C 等级4 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x0B"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级1 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x0C"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级2 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x0D"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级3 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x0E"/>
+        </option>
+        <option desc="射击类型 - 类型D 等级4 PL2">
+            <parameter cpu="0" address="0xFF7315" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="炸弹类型 - 手动炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9FAB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="炸弹类型 - 自动炸弹(无限?) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9FAA" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="自动射击* PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAEF6" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="角色选择 - Sinnosuke PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色选择 - Sinnosuke PL2">
+            <parameter cpu="0" address="0xFF7311" value="0x00"/>
+        </option>
+        <option desc="角色选择 - Ruby PL2">
+            <parameter cpu="0" address="0xFF7311" value="0x01"/>
+        </option>
+        <option desc="角色选择 - Isha PL2">
+            <parameter cpu="0" address="0xFF7311" value="0x02"/>
+        </option>
+        <option desc="角色选择 - Stuck PL2">
+            <parameter cpu="0" address="0xFF7311" value="0x03"/>
+        </option>
+        <option desc="角色选择 - Unknown PL2">
+            <parameter cpu="0" address="0xFF7311" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="最大奖励倍数! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF72E4" value="0x49"/>
+            <parameter cpu="0" address="0xFF72E5" value="0x99"/>
+            <parameter cpu="0" address="0xFF72E6" value="0x99"/>
+            <parameter cpu="0" address="0xFF72E7" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是自动开火 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAE71" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="最大奖励倍数! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF72E8" value="0x49"/>
+            <parameter cpu="0" address="0xFF72E9" value="0x99"/>
+            <parameter cpu="0" address="0xFF72EA" value="0x99"/>
+            <parameter cpu="0" address="0xFF72EB" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是自动开火 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFAF31" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 - 场景 1">
+            <parameter cpu="0" address="0xFF7341" value="0x00"/>
+        </option>
+        <option desc="选关 - 场景 2">
+            <parameter cpu="0" address="0xFF7341" value="0x01"/>
+        </option>
+        <option desc="选关 - 场景 3">
+            <parameter cpu="0" address="0xFF7341" value="0x02"/>
+        </option>
+        <option desc="选关 - 场景 4">
+            <parameter cpu="0" address="0xFF7341" value="0x03"/>
+        </option>
+        <option desc="选关 - 场景 5">
+            <parameter cpu="0" address="0xFF7341" value="0x04"/>
+        </option>
+        <option desc="选关 - 场景 6">
+            <parameter cpu="0" address="0xFF7341" value="0x05"/>
+        </option>
+        <option desc="选关 - 场景 7">
+            <parameter cpu="0" address="0xFF7341" value="0x06"/>
+        </option>
+        <option desc="选关 - 试验关？">
+            <parameter cpu="0" address="0xFF7341" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="地区开关 = 日本" default="0">
+        <option desc="关闭"/>
+        <option desc="地区开关 = 日本">
+            <parameter cpu="0" address="0xFF20B1" value="0x00"/>
+        </option>
+        <option desc="地区开关 = 美国">
+            <parameter cpu="0" address="0xFF20B1" value="0x02"/>
+        </option>
+        <option desc="地区开关 = 欧洲">
+            <parameter cpu="0" address="0xFF20B1" value="0x04"/>
+        </option>
+        <option desc="地区开关 = 巴西">
+            <parameter cpu="0" address="0xFF20B1" value="0x06"/>
+        </option>
+        <option desc="地区开关 = 西班牙">
+            <parameter cpu="0" address="0xFF20B1" value="0x08"/>
+        </option>
+        <option desc="地区开关 = 亚洲">
+            <parameter cpu="0" address="0xFF20B1" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

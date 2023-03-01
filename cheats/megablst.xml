@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2030F7" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2043F9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 前 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010B3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 后 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010D3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 上 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2010F3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 下 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201113" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20105E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="前部武器总是激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="前部武器总是激光 PL1">
+            <parameter cpu="0" address="0x2010B1" value="0x01"/>
+        </option>
+        <option desc="前部武器总是普通 PL1">
+            <parameter cpu="0" address="0x2010B1" value="0x02"/>
+        </option>
+        <option desc="前部武器总是跳跃 PL1">
+            <parameter cpu="0" address="0x2010B1" value="0x03"/>
+        </option>
+        <option desc="前部武器总是红色射击武器 PL1">
+            <parameter cpu="0" address="0x2010B1" value="0x04"/>
+        </option>
+        <option desc="前部武器总是自引导武器 PL1">
+            <parameter cpu="0" address="0x2010B1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="后部武器总是激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="后部武器总是激光 PL1">
+            <parameter cpu="0" address="0x2010D1" value="0x01"/>
+        </option>
+        <option desc="后部武器总是普通 PL1">
+            <parameter cpu="0" address="0x2010D1" value="0x02"/>
+        </option>
+        <option desc="后部武器总是跳跃 PL1">
+            <parameter cpu="0" address="0x2010D1" value="0x03"/>
+        </option>
+        <option desc="后部武器总是红色射击武器 PL1">
+            <parameter cpu="0" address="0x2010D1" value="0x04"/>
+        </option>
+        <option desc="后部武器总是自引导武器 PL1">
+            <parameter cpu="0" address="0x2010D1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="上部武器总是激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="上部武器总是激光 PL1">
+            <parameter cpu="0" address="0x2010F1" value="0x01"/>
+        </option>
+        <option desc="上部武器总是普通 PL1">
+            <parameter cpu="0" address="0x2010F1" value="0x02"/>
+        </option>
+        <option desc="上部武器总是跳跃 PL1">
+            <parameter cpu="0" address="0x2010F1" value="0x03"/>
+        </option>
+        <option desc="上部武器总是红色射击武器 PL1">
+            <parameter cpu="0" address="0x2010F1" value="0x04"/>
+        </option>
+        <option desc="上部武器总是自引导武器 PL1">
+            <parameter cpu="0" address="0x2010F1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="下部武器总是激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="下部武器总是激光 PL1">
+            <parameter cpu="0" address="0x201111" value="0x01"/>
+        </option>
+        <option desc="下部武器总是普通 PL1">
+            <parameter cpu="0" address="0x201111" value="0x02"/>
+        </option>
+        <option desc="下部武器总是跳跃 PL1">
+            <parameter cpu="0" address="0x201111" value="0x03"/>
+        </option>
+        <option desc="下部武器总是红色射击武器 PL1">
+            <parameter cpu="0" address="0x201111" value="0x04"/>
+        </option>
+        <option desc="下部武器总是自引导武器 PL1">
+            <parameter cpu="0" address="0x201111" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20440D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 前 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202053" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 后 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202073" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 上 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x202093" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 - 下 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2020B3" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201FFE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="前部武器总是激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="前部武器总是激光 PL2">
+            <parameter cpu="0" address="0x202051" value="0x01"/>
+        </option>
+        <option desc="前部武器总是普通 PL2">
+            <parameter cpu="0" address="0x202051" value="0x02"/>
+        </option>
+        <option desc="前部武器总是跳跃 PL2">
+            <parameter cpu="0" address="0x202051" value="0x03"/>
+        </option>
+        <option desc="前部武器总是红色射击武器 PL2">
+            <parameter cpu="0" address="0x202051" value="0x04"/>
+        </option>
+        <option desc="前部武器总是自引导武器 PL2">
+            <parameter cpu="0" address="0x202051" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="后部武器总是激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="后部武器总是激光 PL2">
+            <parameter cpu="0" address="0x202071" value="0x01"/>
+        </option>
+        <option desc="后部武器总是普通 PL2">
+            <parameter cpu="0" address="0x202071" value="0x02"/>
+        </option>
+        <option desc="后部武器总是跳跃 PL2">
+            <parameter cpu="0" address="0x202071" value="0x03"/>
+        </option>
+        <option desc="后部武器总是红色射击武器 PL2">
+            <parameter cpu="0" address="0x202071" value="0x04"/>
+        </option>
+        <option desc="后部武器总是自引导武器 PL2">
+            <parameter cpu="0" address="0x202071" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="上部武器总是激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="上部武器总是激光 PL2">
+            <parameter cpu="0" address="0x202091" value="0x01"/>
+        </option>
+        <option desc="上部武器总是普通 PL2">
+            <parameter cpu="0" address="0x202091" value="0x02"/>
+        </option>
+        <option desc="上部武器总是跳跃 PL2">
+            <parameter cpu="0" address="0x202091" value="0x03"/>
+        </option>
+        <option desc="上部武器总是红色射击武器 PL2">
+            <parameter cpu="0" address="0x202091" value="0x04"/>
+        </option>
+        <option desc="上部武器总是自引导武器 PL2">
+            <parameter cpu="0" address="0x202091" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="下部武器总是激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="下部武器总是激光 PL2">
+            <parameter cpu="0" address="0x2020B1" value="0x01"/>
+        </option>
+        <option desc="下部武器总是普通 PL2">
+            <parameter cpu="0" address="0x2020B1" value="0x02"/>
+        </option>
+        <option desc="下部武器总是跳跃 PL2">
+            <parameter cpu="0" address="0x2020B1" value="0x03"/>
+        </option>
+        <option desc="下部武器总是红色射击武器 PL2">
+            <parameter cpu="0" address="0x2020B1" value="0x04"/>
+        </option>
+        <option desc="下部武器总是自引导武器 PL2">
+            <parameter cpu="0" address="0x2020B1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="下一局是 3" default="0">
+        <option desc="关闭"/>
+        <option desc="下一局是 3">
+            <parameter cpu="0" address="0x2043E5" value="0x03"/>
+            <parameter cpu="0" address="0x204451" value="0x03"/>
+        </option>
+        <option desc="下一局是 4">
+            <parameter cpu="0" address="0x2043E5" value="0x04"/>
+            <parameter cpu="0" address="0x204451" value="0x04"/>
+        </option>
+        <option desc="下一局是 5">
+            <parameter cpu="0" address="0x2043E5" value="0x05"/>
+            <parameter cpu="0" address="0x204451" value="0x05"/>
+        </option>
+        <option desc="下一局是 6">
+            <parameter cpu="0" address="0x2043E5" value="0x06"/>
+            <parameter cpu="0" address="0x204451" value="0x06"/>
+        </option>
+        <option desc="下一局是 7">
+            <parameter cpu="0" address="0x2043E5" value="0x07"/>
+            <parameter cpu="0" address="0x204451" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

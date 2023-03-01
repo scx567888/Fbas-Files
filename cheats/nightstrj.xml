@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109C59" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限护盾" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C28D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10BCE3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="设置BOSS时间 = 0" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109BD7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择交通工具" default="0">
+        <option desc="关闭"/>
+        <option desc="Normal Unit">
+            <parameter cpu="0" address="0x10BD4D" value="0x00"/>
+        </option>
+        <option desc="变形金刚">
+            <parameter cpu="0" address="0x10BD4D" value="0x01"/>
+        </option>
+        <option desc="装甲人">
+            <parameter cpu="0" address="0x10BD4D" value="0x02"/>
+        </option>
+        <option desc="Normal Unit with the Supporting Plane">
+            <parameter cpu="0" address="0x10BD4D" value="0x03"/>
+        </option>
+        <option desc="摩托车">
+            <parameter cpu="0" address="0x10BD4D" value="0x04"/>
+        </option>
+        <option desc="Boosted Unit">
+            <parameter cpu="0" address="0x10BD4D" value="0x05"/>
+        </option>
+        <option desc="Best Unit">
+            <parameter cpu="0" address="0x10BD4D" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

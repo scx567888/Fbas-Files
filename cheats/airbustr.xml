@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF000" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF007" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC840" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE667" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是没有额外武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是没有额外武器 PL1">
+            <parameter cpu="0" address="0xE666" value="0x00"/>
+        </option>
+        <option desc="总是有侧面武器 PL1">
+            <parameter cpu="0" address="0xE666" value="0x01"/>
+        </option>
+        <option desc="总是有向后武器 PL1">
+            <parameter cpu="0" address="0xE666" value="0x02"/>
+        </option>
+        <option desc="总是有六向武器 PL1">
+            <parameter cpu="0" address="0xE666" value="0x03"/>
+        </option>
+        <option desc="总是有能量球 PL1">
+            <parameter cpu="0" address="0xE666" value="0x04"/>
+        </option>
+        <option desc="总是有B PL1">
+            <parameter cpu="0" address="0xE666" value="0x05"/>
+        </option>
+        <option desc="总是有R导弹 PL1">
+            <parameter cpu="0" address="0xE666" value="0x06"/>
+        </option>
+        <option desc="总是有G导弹 PL1">
+            <parameter cpu="0" address="0xE666" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF008" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC848" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE67B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是没有额外武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是没有额外武器 PL2">
+            <parameter cpu="0" address="0xE67A" value="0x00"/>
+        </option>
+        <option desc="总是有侧面武器 PL2">
+            <parameter cpu="0" address="0xE67A" value="0x01"/>
+        </option>
+        <option desc="总是有向后武器 PL2">
+            <parameter cpu="0" address="0xE67A" value="0x02"/>
+        </option>
+        <option desc="总是有六向武器 PL2">
+            <parameter cpu="0" address="0xE67A" value="0x03"/>
+        </option>
+        <option desc="总是有能量球 PL2">
+            <parameter cpu="0" address="0xE67A" value="0x04"/>
+        </option>
+        <option desc="总是有B PL2">
+            <parameter cpu="0" address="0xE67A" value="0x05"/>
+        </option>
+        <option desc="总是有R导弹 PL2">
+            <parameter cpu="0" address="0xE67A" value="0x06"/>
+        </option>
+        <option desc="总是有G导弹 PL2">
+            <parameter cpu="0" address="0xE67A" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

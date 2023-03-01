@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="等级不在增加" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A5F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="Surely Face The Black Clawn " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100073" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色Black Clawn PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100117" value="0x0A"/>
+            <parameter cpu="0" address="0x100805" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色Black Clawn PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100118" value="0x0A"/>
+            <parameter cpu="0" address="0x100905" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="要消除数量=200 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A4B" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="要消除数量=200 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100A6B" value="0xC8"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101489" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

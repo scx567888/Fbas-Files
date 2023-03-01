@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+	<cheat desc="无限时间" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E595" value="0x60"/>
+		</option>
+	</cheat>
+	<cheat desc="完成比赛" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E595" value="0x00"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="这2个BOSS作弊码必须在角色选择画面开启"/>
+	<cheat desc="如果在第一局开启并且胜利"/>
+	<cheat desc="首位Boss作弊码带你到最终Boss关"/>
+	<cheat desc="最终Boss作弊码让你看到结局画面"/>
+	<cheat desc=" "/>
+	<cheat desc="到首位Boss" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E581" value="0x06"/>
+		</option>
+	</cheat>
+	<cheat desc="到最终Boss" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E581" value="0x07"/>
+		</option>
+	</cheat>
+	<cheat desc="选择固定背景" default="0">
+		<option desc="关闭"/>
+		<option desc="Shimiji Pass">
+			<parameter cpu="0" address="0x10E57D" value="0x00"/>
+		</option>
+		<option desc="Battle of Cloudy Sky">
+			<parameter cpu="0" address="0x10E57D" value="0x01"/>
+		</option>
+		<option desc="13 Porttown">
+			<parameter cpu="0" address="0x10E57D" value="0x02"/>
+		</option>
+		<option desc="Village of Twilight">
+			<parameter cpu="0" address="0x10E57D" value="0x03"/>
+		</option>
+		<option desc="墓地">
+			<parameter cpu="0" address="0x10E57D" value="0x04"/>
+		</option>
+		<option desc="Forest of Forgetfulness">
+			<parameter cpu="0" address="0x10E57D" value="0x05"/>
+		</option>
+		<option desc="The Night Before 'Yuki-Machi'">
+			<parameter cpu="0" address="0x10E57D" value="0x06"/>
+		</option>
+		<option desc="Shrine of the Vanquished">
+			<parameter cpu="0" address="0x10E57D" value="0x07"/>
+		</option>
+		<option desc="Boss Stage">
+			<parameter cpu="0" address="0x10E57D" value="0x08"/>
+		</option>
+		<option desc="Fire at the Wadamoya">
+			<parameter cpu="0" address="0x10E57D" value="0x09"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="角色无敌 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E4B2" value="0x01"/>
+			<parameter cpu="0" address="0x10E44C" value="0x01"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="枫">
+			<parameter cpu="0" address="0x10BD59" value="0x00"/>
+		</option>
+		<option desc="御名方守矢">
+			<parameter cpu="0" address="0x10BD59" value="0x01"/>
+		</option>
+		<option desc="雪">
+			<parameter cpu="0" address="0x10BD59" value="0x02"/>
+		</option>
+		<option desc="玄武之翁">
+			<parameter cpu="0" address="0x10BD59" value="0x03"/>
+		</option>
+		<option desc="一条明">
+			<parameter cpu="0" address="0x10BD59" value="0x04"/>
+		</option>
+		<option desc="神崎十三">
+			<parameter cpu="0" address="0x10BD59" value="0x05"/>
+		</option>
+		<option desc="鹫冢庆一郎">
+			<parameter cpu="0" address="0x10BD59" value="0x06"/>
+		</option>
+		<option desc="骸">
+			<parameter cpu="0" address="0x10BD59" value="0x07"/>
+		</option>
+		<option desc="天野漂">
+			<parameter cpu="0" address="0x10BD59" value="0x08"/>
+		</option>
+		<option desc="李典德">
+			<parameter cpu="0" address="0x10BD59" value="0x09"/>
+		</option>
+		<option desc="斩铁">
+			<parameter cpu="0" address="0x10BD59" value="0x0A"/>
+		</option>
+		<option desc="直卫示源">
+			<parameter cpu="0" address="0x10BD59" value="0x0B"/>
+		</option>
+		<option desc="嘉神慎之介">
+			<parameter cpu="0" address="0x10BD59" value="0x0C"/>
+		</option>
+		<option desc="真田小次郎">
+			<parameter cpu="0" address="0x10BD59" value="0x0D"/>
+		</option>
+		<option desc="高岭响">
+			<parameter cpu="0" address="0x10BD59" value="0x0E"/>
+		</option>
+		<option desc="刹那">
+			<parameter cpu="0" address="0x10BD59" value="0x0F"/>
+		</option>
+		<option desc="黄龙">
+			<parameter cpu="0" address="0x10BD59" value="0x10"/>
+		</option>
+		<option desc="觉醒前的枫">
+			<parameter cpu="0" address="0x10BD59" value="0x11"/>
+		</option>
+		<option desc="走失人形">
+			<parameter cpu="0" address="0x10BD59" value="0x12"/>
+		</option>
+		<option desc="直卫虎彻">
+			<parameter cpu="0" address="0x10BD59" value="0x13"/>
+		</option>
+	</cheat>
+	<cheat desc="选择颜色 PL1" default="0">
+		<option desc="关闭"/>
+		<option desc="A颜色（力量模式）">
+			<parameter cpu="0" address="0x10BD60" value="0x00"/>
+		</option>
+		<option desc="A颜色（速度模式）">
+			<parameter cpu="0" address="0x10BD60" value="0x01"/>
+		</option>
+		<option desc="A颜色（额外模式）">
+			<parameter cpu="0" address="0x10BD60" value="0x02"/>
+		</option>
+		<option desc="D颜色（力量模式）">
+			<parameter cpu="0" address="0x10BD60" value="0x03"/>
+		</option>
+		<option desc="D颜色（速度模式）">
+			<parameter cpu="0" address="0x10BD60" value="0x04"/>
+		</option>
+		<option desc="D颜色（额外模式）">
+			<parameter cpu="0" address="0x10BD60" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="角色无敌 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="开启">
+			<parameter cpu="0" address="0x10E4B3" value="0x01"/>
+			<parameter cpu="0" address="0x10E450" value="0x01"/>
+		</option>
+	</cheat>
+	<cheat desc="选择游戏角色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="枫">
+			<parameter cpu="0" address="0x10BD5B" value="0x00"/>
+		</option>
+		<option desc="御名方守矢">
+			<parameter cpu="0" address="0x10BD5B" value="0x01"/>
+		</option>
+		<option desc="雪">
+			<parameter cpu="0" address="0x10BD5B" value="0x02"/>
+		</option>
+		<option desc="玄武之翁">
+			<parameter cpu="0" address="0x10BD5B" value="0x03"/>
+		</option>
+		<option desc="一条明">
+			<parameter cpu="0" address="0x10BD5B" value="0x04"/>
+		</option>
+		<option desc="神崎十三">
+			<parameter cpu="0" address="0x10BD5B" value="0x05"/>
+		</option>
+		<option desc="鹫冢庆一郎">
+			<parameter cpu="0" address="0x10BD5B" value="0x06"/>
+		</option>
+		<option desc="骸">
+			<parameter cpu="0" address="0x10BD5B" value="0x07"/>
+		</option>
+		<option desc="天野漂">
+			<parameter cpu="0" address="0x10BD5B" value="0x08"/>
+		</option>
+		<option desc="李典德">
+			<parameter cpu="0" address="0x10BD5B" value="0x09"/>
+		</option>
+		<option desc="斩铁">
+			<parameter cpu="0" address="0x10BD5B" value="0x0A"/>
+		</option>
+		<option desc="直卫示源">
+			<parameter cpu="0" address="0x10BD5B" value="0x0B"/>
+		</option>
+		<option desc="嘉神慎之介">
+			<parameter cpu="0" address="0x10BD5B" value="0x0C"/>
+		</option>
+		<option desc="真田小次郎">
+			<parameter cpu="0" address="0x10BD5B" value="0x0D"/>
+		</option>
+		<option desc="高岭响">
+			<parameter cpu="0" address="0x10BD5B" value="0x0E"/>
+		</option>
+		<option desc="刹那">
+			<parameter cpu="0" address="0x10BD5B" value="0x0F"/>
+		</option>
+		<option desc="黄龙">
+			<parameter cpu="0" address="0x10BD5B" value="0x10"/>
+		</option>
+		<option desc="觉醒前的枫">
+			<parameter cpu="0" address="0x10BD5B" value="0x11"/>
+		</option>
+		<option desc="走失人形">
+			<parameter cpu="0" address="0x10BD5B" value="0x12"/>
+		</option>
+		<option desc="直卫虎彻">
+			<parameter cpu="0" address="0x10BD5B" value="0x13"/>
+		</option>
+	</cheat>
+	<cheat desc="选择颜色 PL2" default="0">
+		<option desc="关闭"/>
+		<option desc="A颜色（力量模式）">
+			<parameter cpu="0" address="0x10BD61" value="0x00"/>
+		</option>
+		<option desc="A颜色（速度模式）">
+			<parameter cpu="0" address="0x10BD61" value="0x01"/>
+		</option>
+		<option desc="A颜色（额外模式）">
+			<parameter cpu="0" address="0x10BD61" value="0x02"/>
+		</option>
+		<option desc="D颜色（力量模式）">
+			<parameter cpu="0" address="0x10BD61" value="0x03"/>
+		</option>
+		<option desc="D颜色（速度模式）">
+			<parameter cpu="0" address="0x10BD61" value="0x04"/>
+		</option>
+		<option desc="D颜色（额外模式）">
+			<parameter cpu="0" address="0x10BD61" value="0x05"/>
+		</option>
+	</cheat>
+	<cheat desc=" "/>
+	<cheat desc="Select Cartridge/NeoGeo Type" default="0">
+		<option desc="关闭"/>
+		<option desc="街机 (MVS)">
+			<parameter cpu="0" address="0x10FD82" value="0x80"/>
+		</option>
+		<option desc="家机 (NEOGEO)">
+			<parameter cpu="0" address="0x10FD82" value="0x00"/>
+		</option>
+	</cheat>
+</shufflecheat>

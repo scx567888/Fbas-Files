@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB9003" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7A29" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7A2F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7A56" value="0x00"/>
+            <parameter cpu="0" address="0xB7A7F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7A2D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Vulcan">
+            <parameter cpu="0" address="0xB7A57" value="0x00"/>
+        </option>
+        <option desc="火">
+            <parameter cpu="0" address="0xB7A57" value="0x01"/>
+        </option>
+        <option desc="多向">
+            <parameter cpu="0" address="0xB7A57" value="0x02"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xB7A57" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7A1D" value="0x00"/>
+            <parameter cpu="0" address="0xB7A7B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7B2D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7B29" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7B2F" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7B56" value="0x00"/>
+            <parameter cpu="0" address="0xB7B7F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Vulcan">
+            <parameter cpu="0" address="0xB7B57" value="0x00"/>
+        </option>
+        <option desc="火">
+            <parameter cpu="0" address="0xB7B57" value="0x01"/>
+        </option>
+        <option desc="多向">
+            <parameter cpu="0" address="0xB7B57" value="0x02"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0xB7A57" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB7B1D" value="0x00"/>
+            <parameter cpu="0" address="0xB7B7B" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

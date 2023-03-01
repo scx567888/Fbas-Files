@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4D77" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得分 = 0 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得分 = 0 ! PL1">
+            <parameter cpu="0" address="0x4D00" value="0x00"/>
+            <parameter cpu="0" address="0x4D01" value="0x00"/>
+            <parameter cpu="0" address="0x4D02" value="0x00"/>
+        </option>
+        <option desc="得分总是 = 301 PL1">
+            <parameter cpu="0" address="0x4D00" value="0x03"/>
+            <parameter cpu="0" address="0x4D01" value="0x00"/>
+            <parameter cpu="0" address="0x4D02" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得分 = 0 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得分 = 0 ! PL2">
+            <parameter cpu="0" address="0x4D04" value="0x00"/>
+            <parameter cpu="0" address="0x4D05" value="0x00"/>
+            <parameter cpu="0" address="0x4D06" value="0x00"/>
+        </option>
+        <option desc="得分总是 = 301 PL2">
+            <parameter cpu="0" address="0x4D04" value="0x03"/>
+            <parameter cpu="0" address="0x4D05" value="0x00"/>
+            <parameter cpu="0" address="0x4D06" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得分 = 0 ! PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="得分 = 0 ! PL3">
+            <parameter cpu="0" address="0x4D08" value="0x00"/>
+            <parameter cpu="0" address="0x4D09" value="0x00"/>
+            <parameter cpu="0" address="0x4D0A" value="0x00"/>
+        </option>
+        <option desc="得分总是 = 301 PL3">
+            <parameter cpu="0" address="0x4D08" value="0x03"/>
+            <parameter cpu="0" address="0x4D09" value="0x00"/>
+            <parameter cpu="0" address="0x4D0A" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得分 = 0 ! PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="得分 = 0 ! PL4">
+            <parameter cpu="0" address="0x4D0C" value="0x00"/>
+            <parameter cpu="0" address="0x4D0D" value="0x00"/>
+            <parameter cpu="0" address="0x4D0E" value="0x00"/>
+        </option>
+        <option desc="得分总是 = 301 PL4">
+            <parameter cpu="0" address="0x4D0C" value="0x03"/>
+            <parameter cpu="0" address="0x4D0D" value="0x00"/>
+            <parameter cpu="0" address="0x4D0E" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

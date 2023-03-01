@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择关卡 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡1">
+            <parameter cpu="0" address="0x101AB5" value="0x01"/>
+            <parameter cpu="0" address="0x101ADD" value="0x01"/>
+        </option>
+        <option desc="关卡2">
+            <parameter cpu="0" address="0x101AB5" value="0x02"/>
+            <parameter cpu="0" address="0x101ADD" value="0x02"/>
+        </option>
+        <option desc="关卡3">
+            <parameter cpu="0" address="0x101AB5" value="0x03"/>
+            <parameter cpu="0" address="0x101ADD" value="0x03"/>
+        </option>
+        <option desc="关卡4">
+            <parameter cpu="0" address="0x101AB5" value="0x04"/>
+            <parameter cpu="0" address="0x101ADD" value="0x04"/>
+        </option>
+        <option desc="关卡5">
+            <parameter cpu="0" address="0x101AB5" value="0x05"/>
+            <parameter cpu="0" address="0x101ADD" value="0x05"/>
+        </option>
+        <option desc="关卡6">
+            <parameter cpu="0" address="0x101AB5" value="0x06"/>
+            <parameter cpu="0" address="0x101ADD" value="0x06"/>
+        </option>
+        <option desc="关卡7">
+            <parameter cpu="0" address="0x101AB5" value="0x07"/>
+            <parameter cpu="0" address="0x101ADD" value="0x07"/>
+        </option>
+        <option desc="关卡8-1">
+            <parameter cpu="0" address="0x101AB5" value="0x08"/>
+            <parameter cpu="0" address="0x101ADD" value="0x08"/>
+        </option>
+        <option desc="关卡8-2">
+            <parameter cpu="0" address="0x101AB5" value="0x09"/>
+            <parameter cpu="0" address="0x101ADD" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017DE" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10132A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10132B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1016AD" value="0xA4"/>
+        </option>
+    </cheat>
+    <cheat desc="蓄气全满" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101696" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="火力全满" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017E1" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="[  以下功能在获得辅助装备后开启，否则辅助装备无法得到 ]"/>
+    <cheat desc="选择炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="跟踪导弹">
+            <parameter cpu="0" address="0x1017DF" value="0x00"/>
+            <parameter cpu="0" address="0x1017E1" value="0x40"/>
+        </option>
+        <option desc="前方导弹">
+            <parameter cpu="0" address="0x1017DF" value="0x01"/>
+            <parameter cpu="0" address="0x1017E1" value="0x40"/>
+        </option>
+        <option desc="下方炸弹">
+            <parameter cpu="0" address="0x1017DF" value="0x02"/>
+            <parameter cpu="0" address="0x1017E1" value="0x40"/>
+        </option>
+        <option desc="禁用">
+            <parameter cpu="0" address="0x1017DF" value="0x00"/>
+            <parameter cpu="0" address="0x1017E1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择辅助装备火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="扩散火焰">
+            <parameter cpu="0" address="0x1017E0" value="0x00"/>
+        </option>
+        <option desc="跟踪激光">
+            <parameter cpu="0" address="0x1017E0" value="0x01"/>
+        </option>
+        <option desc="电浆盾(有问题)">
+            <parameter cpu="0" address="0x1017E0" value="0x02"/>
+        </option>
+        <option desc="反射激光">
+            <parameter cpu="0" address="0x1017E0" value="0x03"/>
+        </option>
+        <option desc="贯穿激光">
+            <parameter cpu="0" address="0x1017E0" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="开启上面外挂武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017E1" value="0x02"/>
+        </option>
+        <option desc="禁用">
+            <parameter cpu="0" address="0x1017E1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开启下面外挂武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1017E1" value="0x04"/>
+        </option>
+        <option desc="禁用">
+            <parameter cpu="0" address="0x1017E1" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

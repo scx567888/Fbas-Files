@@ -1,0 +1,69 @@
+152-p1.p1	combo-p1	CRC(f2c7ddfa)
+152-p2.sp2	combo-p2	CRC(274ef47a)
+251-c1.c1	kof99\combo-c1	CRC(0f9e93fe)
+251-c2.c2	kof99\combo-c2	CRC(e71e2ea3)
+251-c3.c3	kof99\combo-c3	CRC(238755d2)
+251-c4.c4	kof99\combo-c4	CRC(438c8b22)
+251-c5.c5	kof99\combo-c5	CRC(0b0abd0a)
+251-c6.c6	kof99\combo-c6	CRC(65bbf281)
+251-c7.c7	kof99\combo-c7	CRC(ff65f62e)
+251-c8.c8	kof99\combo-c8	CRC(8d921c68)
+
+[en_US]
+Move Mod/COMBO version
+
+Hacker: ivex
+
+Description:
+
+- Modes cancel et supercancel activés
+- Kryzalid et Shin-Kryzalid séléctionnables (pas d'icônes)
+- Les gauges de vies et de combos sont modifiées
+- Les mouvements des personnages sont modifiés ( Iori se téléporte, ...)
+- Possibilité de choisir plusieurs fois le même personnage
+- Fonctionne aussi bien en AES qu'en MVS
+
+[zh_CN]
+出招修改/COMBO版
+
+修改者: ivex
+
+说明: 测试版~
+
+修改角色: K', Benimaru, Yuri, 所有Kyo, Iori, 2个Krizalid, Mary的打击技(投技是部分共用的, 还没来得及具体弄)
+
+系统修改: 1管气可爆, 但持续时间仍和爆气时能量对应。AM可出普通超杀, CM下原版里巨慢的超杀加快至正常。
+后闪避前冲取消, 距离基本同'98。闪避攻击改为只有C∕D才可出, 效果在CM模式下可完全Cancel不变, 普通状态下可Cancel必杀∕击中空中对手自起身(这个是因为看到有一些角色可以闪避攻击无限连而修改的), AM模式下可Cancel必杀且可追打。
+
+Bug修正: Max八稚女对Krizalid, Jhun被破防状态无敌, Joe作ST无闪光, Benimaru俯卧起身动作(这个是个人感觉而已, '99-02都是如此)
+
+其它: Max八稚女动作修改(个人BT修改-_-), Shin Krizalid 大部分必杀聚气值减少, 624A∕C收招动作减慢(还是为了Kill无限连), 原624A∕C特定Cancel出626A∕C改为出2426A∕C, 但出招方式不变, 且不需能量, 只能出普通版。闪光样式修改。
+
+只是暂时收山的纪念物, 浮空和投技是在P1里改的, 对整体的影响是许多未特意修改的角色有简单的无限连或招式hit超多攻击超强。就当测试用了~
+Combo的性质大家应该都有了解了。99有CM SC, 偶自然也没放过。其它的2B Down攻击什么的也不用偶废话了。S1也早发过了。
+感谢 惊世之风 的工具~
+P.S: P1里设定招式可以穿过对手的语句格式偶找不到, 还望知道的朋友告知。增加了2个Bug(K'的Max链动倒数第2hit Cancel后自身体积变大; Benimaru的2626B∕D Cancel后可以穿过对手)都是因为这个。
+感谢: Chl Creamymami Robert
+
+[zh_TW]
+出招修改/COMBO版
+
+修改者: ivex
+
+說明: 測試版~
+
+修改角色: K', Benimaru, Yuri, 所有Kyo, Iori, 2個Krizalid, Mary的打擊技(投技是部分共用的, 還沒來得及具體弄)
+
+系統修改: 1管氣可爆, 但持續時間仍和爆氣時能量對應。AM可出普通超殺, CM下原版裡巨慢的超殺加快至正常。
+後閃避前衝取消, 距離基本同'98。閃避攻擊改為只有C∕D才可出, 效果在CM模式下可完全Cancel不變, 普通狀態下可Cancel必殺∕擊中空中對手自起身(這個是因為看到有一些角色可以閃避攻擊無限連而修改的), AM模式下可Cancel必殺且可追打。
+
+Bug修正: Max八稚女對Krizalid, Jhun被破防狀態無敵, Joe作ST無閃光, Benimaru俯臥起身動作(這個是個人感覺而已, '99-02都是如此)
+
+其它: Max八稚女動作修改(個人BT修改-_-), Shin Krizalid 大部分必殺聚氣值減少, 624A∕C收招動作減慢(還是為了Kill無限連), 原624A∕C特定Cancel出626A∕C改為出2426A∕C, 但出招方式不變, 且不需能量, 只能出普通版。閃光樣式修改。
+
+只是暫時收山的紀念物, 浮空和投技是在P1里改的, 對整體的影響是許多未特意修改的角色有簡單的無限連或招式hit超多攻擊超強。就當測試用了~
+Combo的性質大家應該都有瞭解了。99有CM SC, 偶自然也沒放過。其它的2B Down攻擊什麼的也不用偶廢話了。S1也早發過了。
+感謝 驚世之風 的工具~
+P.S: P1里設定招式可以穿過對手的語句格式偶找不到, 還望知道的朋友告知。增加了2個Bug(K'的Max鏈動倒數第2hit Cancel後自身體積變大; Benimaru的2626B∕D Cancel後可以穿過對手)都是因為這個。
+感謝: Chl Creamymami Robert
+

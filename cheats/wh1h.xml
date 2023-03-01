@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x10B008" value="0x9A"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x10B008" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x10600A" value="0x68"/>
+            <parameter cpu="0" address="0x10602E" value="0x68"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0x10600A" value="0x00"/>
+            <parameter cpu="0" address="0x10602E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Dragon PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Dragon PL1">
+            <parameter cpu="0" address="0x10600C" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Hanzo PL1">
+            <parameter cpu="0" address="0x10600C" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Muscle Power PL1">
+            <parameter cpu="0" address="0x10600C" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色J. Carn PL1">
+            <parameter cpu="0" address="0x10600C" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Janne PL1">
+            <parameter cpu="0" address="0x10600C" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Rasputin PL1">
+            <parameter cpu="0" address="0x10600C" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Fuuma PL1">
+            <parameter cpu="0" address="0x10600C" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Brocken PL1">
+            <parameter cpu="0" address="0x10600C" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Geegus PL1">
+            <parameter cpu="0" address="0x10600C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x10610A" value="0x68"/>
+            <parameter cpu="0" address="0x10612E" value="0x68"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0x10610A" value="0x00"/>
+            <parameter cpu="0" address="0x10612E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Dragon PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Dragon PL2">
+            <parameter cpu="0" address="0x10610C" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Hanzo PL2">
+            <parameter cpu="0" address="0x10610C" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Muscle Power PL2">
+            <parameter cpu="0" address="0x10610C" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色J. Carn PL2">
+            <parameter cpu="0" address="0x10610C" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Janne PL2">
+            <parameter cpu="0" address="0x10610C" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Rasputin PL2">
+            <parameter cpu="0" address="0x10610C" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Fuuma PL2">
+            <parameter cpu="0" address="0x10610C" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Brocken PL2">
+            <parameter cpu="0" address="0x10610C" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Geegus PL2">
+            <parameter cpu="0" address="0x10610C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是第1局" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10C129" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景 [DeathMatch]" default="0">
+        <option desc="关闭"/>
+        <option desc="Janne">
+            <parameter cpu="0" address="0x10B005" value="0x00"/>
+        </option>
+        <option desc="Hanzou">
+            <parameter cpu="0" address="0x10B005" value="0x01"/>
+        </option>
+        <option desc="Dragon">
+            <parameter cpu="0" address="0x10B005" value="0x02"/>
+        </option>
+        <option desc="Muscle Power">
+            <parameter cpu="0" address="0x10B005" value="0x03"/>
+        </option>
+        <option desc="J. Carn">
+            <parameter cpu="0" address="0x10B005" value="0x04"/>
+        </option>
+        <option desc="Rasputin">
+            <parameter cpu="0" address="0x10B005" value="0x05"/>
+        </option>
+        <option desc="Brocken">
+            <parameter cpu="0" address="0x10B005" value="0x06"/>
+        </option>
+        <option desc="Fuuma">
+            <parameter cpu="0" address="0x10B005" value="0x07"/>
+        </option>
+        <option desc="Geegus">
+            <parameter cpu="0" address="0x10B005" value="0x08"/>
+        </option>
+        <option desc="第1奖励关">
+            <parameter cpu="0" address="0x10B005" value="0x12"/>
+        </option>
+        <option desc="第2奖励关">
+            <parameter cpu="0" address="0x10B005" value="0x13"/>
+        </option>
+        <option desc="Janne">
+            <parameter cpu="0" address="0x10B005" value="0x09"/>
+        </option>
+        <option desc="Hanzou">
+            <parameter cpu="0" address="0x10B005" value="0x0A"/>
+        </option>
+        <option desc="Dragon">
+            <parameter cpu="0" address="0x10B005" value="0x0B"/>
+        </option>
+        <option desc="Muscle Power">
+            <parameter cpu="0" address="0x10B005" value="0x0C"/>
+        </option>
+        <option desc="J. Carn">
+            <parameter cpu="0" address="0x10B005" value="0x0D"/>
+        </option>
+        <option desc="Rasputin">
+            <parameter cpu="0" address="0x10B005" value="0x0E"/>
+        </option>
+        <option desc="Brocken">
+            <parameter cpu="0" address="0x10B005" value="0x0F"/>
+        </option>
+        <option desc="Fuuma">
+            <parameter cpu="0" address="0x10B005" value="0x10"/>
+        </option>
+        <option desc="Geegus">
+            <parameter cpu="0" address="0x10B005" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

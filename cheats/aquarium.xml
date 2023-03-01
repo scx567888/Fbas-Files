@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8BF7" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择攻击无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="关闭而且致命!">
+            <parameter cpu="0" address="0xFF9A61" value="0x07"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF9A61" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个将落下的形状顶部 PL1 ! =" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x08"/>
+            <parameter cpu="0" address="0xFF4005" value="0x00"/>
+        </option>
+        <option desc="黄色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x48"/>
+            <parameter cpu="0" address="0xFF4005" value="0x00"/>
+        </option>
+        <option desc="斑马鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x08"/>
+            <parameter cpu="0" address="0xFF4005" value="0x01"/>
+        </option>
+        <option desc="斑马泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x48"/>
+            <parameter cpu="0" address="0xFF4005" value="0x01"/>
+        </option>
+        <option desc="蓝色的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x08"/>
+            <parameter cpu="0" address="0xFF4005" value="0x02"/>
+        </option>
+        <option desc="蓝色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x48"/>
+            <parameter cpu="0" address="0xFF4005" value="0x02"/>
+        </option>
+        <option desc="红色的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x08"/>
+            <parameter cpu="0" address="0xFF4005" value="0x03"/>
+        </option>
+        <option desc="红色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x48"/>
+            <parameter cpu="0" address="0xFF4005" value="0x03"/>
+        </option>
+        <option desc="绿色的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x08"/>
+            <parameter cpu="0" address="0xFF4005" value="0x04"/>
+        </option>
+        <option desc="绿色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4004" value="0x48"/>
+            <parameter cpu="0" address="0xFF4005" value="0x04"/>
+        </option>
+        <option desc="空泡泡">
+            <parameter cpu="0" address="0xFF4004" value="0x40"/>
+            <parameter cpu="0" address="0xFF4005" value="0x00"/>
+        </option>
+        <option desc="粉红色泡泡">
+            <parameter cpu="0" address="0xFF4004" value="0x58"/>
+            <parameter cpu="0" address="0xFF4005" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个将落下的形状中部 PL1 ! =" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x08"/>
+            <parameter cpu="0" address="0xFF400B" value="0x00"/>
+        </option>
+        <option desc="黄色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x48"/>
+            <parameter cpu="0" address="0xFF400B" value="0x00"/>
+        </option>
+        <option desc="斑马鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x08"/>
+            <parameter cpu="0" address="0xFF400B" value="0x01"/>
+        </option>
+        <option desc="斑马泡泡里的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x48"/>
+            <parameter cpu="0" address="0xFF400B" value="0x01"/>
+        </option>
+        <option desc="蓝色的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x08"/>
+            <parameter cpu="0" address="0xFF400B" value="0x02"/>
+        </option>
+        <option desc="蓝色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x48"/>
+            <parameter cpu="0" address="0xFF400B" value="0x02"/>
+        </option>
+        <option desc="红色的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x08"/>
+            <parameter cpu="0" address="0xFF400B" value="0x03"/>
+        </option>
+        <option desc="红色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x48"/>
+            <parameter cpu="0" address="0xFF400B" value="0x03"/>
+        </option>
+        <option desc="绿色的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x08"/>
+            <parameter cpu="0" address="0xFF400B" value="0x04"/>
+        </option>
+        <option desc="绿色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF400A" value="0x48"/>
+            <parameter cpu="0" address="0xFF400B" value="0x04"/>
+        </option>
+        <option desc="空泡泡">
+            <parameter cpu="0" address="0xFF400A" value="0x40"/>
+            <parameter cpu="0" address="0xFF400B" value="0x00"/>
+        </option>
+        <option desc="粉红色泡泡">
+            <parameter cpu="0" address="0xFF400A" value="0x58"/>
+            <parameter cpu="0" address="0xFF400B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个将落下的形状底部PL1 ! =" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x08"/>
+            <parameter cpu="0" address="0xFF4011" value="0x00"/>
+        </option>
+        <option desc="黄色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x48"/>
+            <parameter cpu="0" address="0xFF4011" value="0x00"/>
+        </option>
+        <option desc="斑马鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x08"/>
+            <parameter cpu="0" address="0xFF4011" value="0x01"/>
+        </option>
+        <option desc="斑马泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x48"/>
+            <parameter cpu="0" address="0xFF4011" value="0x01"/>
+        </option>
+        <option desc="蓝色的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x08"/>
+            <parameter cpu="0" address="0xFF4011" value="0x02"/>
+        </option>
+        <option desc="蓝色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x48"/>
+            <parameter cpu="0" address="0xFF4011" value="0x02"/>
+        </option>
+        <option desc="红色的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x08"/>
+            <parameter cpu="0" address="0xFF4011" value="0x03"/>
+        </option>
+        <option desc="红色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x48"/>
+            <parameter cpu="0" address="0xFF4011" value="0x03"/>
+        </option>
+        <option desc="绿色的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x08"/>
+            <parameter cpu="0" address="0xFF4011" value="0x04"/>
+        </option>
+        <option desc="绿色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF4010" value="0x48"/>
+            <parameter cpu="0" address="0xFF4011" value="0x04"/>
+        </option>
+        <option desc="空泡泡">
+            <parameter cpu="0" address="0xFF4010" value="0x40"/>
+            <parameter cpu="0" address="0xFF4011" value="0x00"/>
+        </option>
+        <option desc="粉红色泡泡">
+            <parameter cpu="0" address="0xFF4010" value="0x58"/>
+            <parameter cpu="0" address="0xFF4011" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="关闭而且致命!">
+            <parameter cpu="0" address="0xFF9A63" value="0x07"/>
+        </option>
+        <option desc="打开">
+            <parameter cpu="0" address="0xFF9A63" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个将落下的形状顶部 PL2 ! =" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x08"/>
+            <parameter cpu="0" address="0xFF3405" value="0x00"/>
+        </option>
+        <option desc="黄色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x48"/>
+            <parameter cpu="0" address="0xFF3405" value="0x00"/>
+        </option>
+        <option desc="斑马鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x08"/>
+            <parameter cpu="0" address="0xFF3405" value="0x01"/>
+        </option>
+        <option desc="斑马泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x48"/>
+            <parameter cpu="0" address="0xFF3405" value="0x01"/>
+        </option>
+        <option desc="蓝色的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x08"/>
+            <parameter cpu="0" address="0xFF3405" value="0x02"/>
+        </option>
+        <option desc="蓝色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x48"/>
+            <parameter cpu="0" address="0xFF3405" value="0x02"/>
+        </option>
+        <option desc="红色的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x08"/>
+            <parameter cpu="0" address="0xFF3405" value="0x03"/>
+        </option>
+        <option desc="红色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x48"/>
+            <parameter cpu="0" address="0xFF3405" value="0x03"/>
+        </option>
+        <option desc="绿色的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x08"/>
+            <parameter cpu="0" address="0xFF3405" value="0x04"/>
+        </option>
+        <option desc="绿色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3404" value="0x48"/>
+            <parameter cpu="0" address="0xFF3405" value="0x04"/>
+        </option>
+        <option desc="空泡泡">
+            <parameter cpu="0" address="0xFF3404" value="0x40"/>
+            <parameter cpu="0" address="0xFF3405" value="0x00"/>
+        </option>
+        <option desc="粉红色泡泡">
+            <parameter cpu="0" address="0xFF3404" value="0x58"/>
+            <parameter cpu="0" address="0xFF3405" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个将落下的形状中部 PL2 ! =" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x08"/>
+            <parameter cpu="0" address="0xFF340B" value="0x00"/>
+        </option>
+        <option desc="黄色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x48"/>
+            <parameter cpu="0" address="0xFF340B" value="0x00"/>
+        </option>
+        <option desc="斑马鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x08"/>
+            <parameter cpu="0" address="0xFF340B" value="0x01"/>
+        </option>
+        <option desc="斑马泡泡里的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x48"/>
+            <parameter cpu="0" address="0xFF340B" value="0x01"/>
+        </option>
+        <option desc="蓝色的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x08"/>
+            <parameter cpu="0" address="0xFF340B" value="0x02"/>
+        </option>
+        <option desc="蓝色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x48"/>
+            <parameter cpu="0" address="0xFF340B" value="0x02"/>
+        </option>
+        <option desc="红色的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x08"/>
+            <parameter cpu="0" address="0xFF340B" value="0x03"/>
+        </option>
+        <option desc="红色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x48"/>
+            <parameter cpu="0" address="0xFF340B" value="0x03"/>
+        </option>
+        <option desc="绿色的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x08"/>
+            <parameter cpu="0" address="0xFF340B" value="0x04"/>
+        </option>
+        <option desc="绿色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF340A" value="0x48"/>
+            <parameter cpu="0" address="0xFF340B" value="0x04"/>
+        </option>
+        <option desc="空泡泡">
+            <parameter cpu="0" address="0xFF340A" value="0x40"/>
+            <parameter cpu="0" address="0xFF340B" value="0x00"/>
+        </option>
+        <option desc="粉红色泡泡">
+            <parameter cpu="0" address="0xFF340A" value="0x58"/>
+            <parameter cpu="0" address="0xFF340B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="下一个将落下的形状底部PL2 ! =" default="0">
+        <option desc="关闭"/>
+        <option desc="黄色的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x08"/>
+            <parameter cpu="0" address="0xFF3411" value="0x00"/>
+        </option>
+        <option desc="黄色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x48"/>
+            <parameter cpu="0" address="0xFF3411" value="0x00"/>
+        </option>
+        <option desc="斑马鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x08"/>
+            <parameter cpu="0" address="0xFF3411" value="0x01"/>
+        </option>
+        <option desc="斑马泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x48"/>
+            <parameter cpu="0" address="0xFF3411" value="0x01"/>
+        </option>
+        <option desc="蓝色的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x08"/>
+            <parameter cpu="0" address="0xFF3411" value="0x02"/>
+        </option>
+        <option desc="蓝色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x48"/>
+            <parameter cpu="0" address="0xFF3411" value="0x02"/>
+        </option>
+        <option desc="红色的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x08"/>
+            <parameter cpu="0" address="0xFF3411" value="0x03"/>
+        </option>
+        <option desc="红色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x48"/>
+            <parameter cpu="0" address="0xFF3411" value="0x03"/>
+        </option>
+        <option desc="绿色的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x08"/>
+            <parameter cpu="0" address="0xFF3411" value="0x04"/>
+        </option>
+        <option desc="绿色的泡泡里的鱼">
+            <parameter cpu="0" address="0xFF3410" value="0x48"/>
+            <parameter cpu="0" address="0xFF3411" value="0x04"/>
+        </option>
+        <option desc="空泡泡">
+            <parameter cpu="0" address="0xFF3410" value="0x40"/>
+            <parameter cpu="0" address="0xFF3411" value="0x00"/>
+        </option>
+        <option desc="粉红色泡泡">
+            <parameter cpu="0" address="0xFF3410" value="0x58"/>
+            <parameter cpu="0" address="0xFF3411" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

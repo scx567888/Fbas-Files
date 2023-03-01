@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="自摸胡牌 (1a)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x11A300" value="0x04"/>
+            <parameter cpu="0" address="0x11A301" value="0x00"/>
+            <parameter cpu="0" address="0x11A304" value="0x04"/>
+            <parameter cpu="0" address="0x11A305" value="0x00"/>
+            <parameter cpu="0" address="0x11A308" value="0x04"/>
+            <parameter cpu="0" address="0x11A309" value="0x00"/>
+            <parameter cpu="0" address="0x11A30C" value="0x04"/>
+            <parameter cpu="0" address="0x11A30D" value="0x01"/>
+            <parameter cpu="0" address="0x11A310" value="0x04"/>
+            <parameter cpu="0" address="0x11A311" value="0x01"/>
+            <parameter cpu="0" address="0x11A314" value="0x04"/>
+            <parameter cpu="0" address="0x11A315" value="0x01"/>
+            <parameter cpu="0" address="0x11A318" value="0x04"/>
+            <parameter cpu="0" address="0x11A319" value="0x02"/>
+            <parameter cpu="0" address="0x11A31C" value="0x04"/>
+            <parameter cpu="0" address="0x11A31D" value="0x02"/>
+            <parameter cpu="0" address="0x11A320" value="0x04"/>
+            <parameter cpu="0" address="0x11A321" value="0x02"/>
+            <parameter cpu="0" address="0x11A324" value="0x04"/>
+            <parameter cpu="0" address="0x11A325" value="0x03"/>
+            <parameter cpu="0" address="0x11A328" value="0x04"/>
+            <parameter cpu="0" address="0x11A329" value="0x03"/>
+            <parameter cpu="0" address="0x11A32C" value="0x04"/>
+            <parameter cpu="0" address="0x11A32D" value="0x03"/>
+            <parameter cpu="0" address="0x11A330" value="0x04"/>
+            <parameter cpu="0" address="0x11A331" value="0x04"/>
+            <parameter cpu="0" address="0x11A334" value="0x04"/>
+            <parameter cpu="0" address="0x11A335" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA0E0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是自摸" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA3B2" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3B3" value="0x00"/>
+            <parameter cpu="0" address="0xFFA3B6" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3B7" value="0x00"/>
+            <parameter cpu="0" address="0xFFA3BA" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3BB" value="0x01"/>
+            <parameter cpu="0" address="0xFFA3BE" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3BF" value="0x01"/>
+            <parameter cpu="0" address="0xFFA3C2" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3C3" value="0x01"/>
+            <parameter cpu="0" address="0xFFA3C6" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3C7" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3CA" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3CB" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3CE" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3CF" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3D2" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3D3" value="0x05"/>
+            <parameter cpu="0" address="0xFFA3D6" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3D7" value="0x05"/>
+            <parameter cpu="0" address="0xFFA3DA" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3DB" value="0x05"/>
+            <parameter cpu="0" address="0xFFA3DE" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3DF" value="0x06"/>
+            <parameter cpu="0" address="0xFFA3E2" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3E3" value="0x06"/>
+            <parameter cpu="0" address="0xFFA3E6" value="0x04"/>
+            <parameter cpu="0" address="0xFFA3E7" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大得分 - 玩家" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA16E" value="0x27"/>
+            <parameter cpu="0" address="0xFFA16F" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最小得分 - 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA170" value="0xFC"/>
+            <parameter cpu="0" address="0xFFA171" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="无限思考时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA6A8" value="0x00"/>
+            <parameter cpu="0" address="0xFFA6A9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大Hai-Pai等级" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA173" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有Ikari-Power" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA177" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有ESP-Power" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA179" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用Ikari-Power" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA236" value="0x01"/>
+            <parameter cpu="0" address="0xFFA66B" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用ESP-Power" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA22E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏模式" default="0">
+        <option desc="关闭"/>
+        <option desc="正常模式">
+            <parameter cpu="0" address="0xFFA14F" value="0x00"/>
+        </option>
+        <option desc="Advice模式">
+            <parameter cpu="0" address="0xFFA14F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择脱衣画面 - 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xFFE16B" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xFFE16B" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFFE16B" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFFE16B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择脱衣画面 - 玩家" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xFFE169" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xFFE169" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFFE169" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFFE169" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="St.1 (Higasi Fuuko)">
+            <parameter cpu="0" address="0xFFA165" value="0x00"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x00"/>
+        </option>
+        <option desc="St.2 (Nan Nyan-Nyan)">
+            <parameter cpu="0" address="0xFFA165" value="0x01"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x01"/>
+        </option>
+        <option desc="St.3 (Nisino Yuma)">
+            <parameter cpu="0" address="0xFFA165" value="0x02"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x02"/>
+        </option>
+        <option desc="St.3 (Nisino Yuka)">
+            <parameter cpu="0" address="0xFFA165" value="0x02"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x03"/>
+        </option>
+        <option desc="St.3 (Nisino Yui)">
+            <parameter cpu="0" address="0xFFA165" value="0x02"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x04"/>
+        </option>
+        <option desc="St.4 (Kitajima Mami)">
+            <parameter cpu="0" address="0xFFA165" value="0x03"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x05"/>
+        </option>
+        <option desc="St.5 (Jong-oh)">
+            <parameter cpu="0" address="0xFFA165" value="0x04"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x06"/>
+        </option>
+        <option desc="St.6 (Kujyaku Himeko)">
+            <parameter cpu="0" address="0xFFA165" value="0x05"/>
+            <parameter cpu="0" address="0xFFA166" value="0x00"/>
+            <parameter cpu="0" address="0xFFA167" value="0x07"/>
+        </option>
+        <option desc="结局">
+            <parameter cpu="0" address="0xFFE165" value="0x06"/>
+            <parameter cpu="0" address="0xFFE166" value="0x00"/>
+            <parameter cpu="0" address="0xFFE167" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

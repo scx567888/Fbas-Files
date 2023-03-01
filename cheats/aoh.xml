@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="投币数255" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x28E73F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限战斗时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x28DED7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29ECEA" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29ECF3" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29ED0E" value="0x03"/>
+            <parameter cpu="0" address="0x29ED0F" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F55F" value="0x06"/>
+            <parameter cpu="0" address="0x29F563" value="0x06"/>
+            <parameter cpu="0" address="0x29F567" value="0x06"/>
+            <parameter cpu="0" address="0x29F56B" value="0x06"/>
+            <parameter cpu="0" address="0x29F56F" value="0x06"/>
+            <parameter cpu="0" address="0x29F573" value="0x06"/>
+            <parameter cpu="0" address="0x29F577" value="0x06"/>
+            <parameter cpu="0" address="0x29F57B" value="0x06"/>
+            <parameter cpu="0" address="0x29F57F" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F7FE" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F807" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x29F822" value="0x03"/>
+            <parameter cpu="0" address="0x29F823" value="0xE7"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔法道具 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2A0073" value="0x06"/>
+            <parameter cpu="0" address="0x2A0077" value="0x06"/>
+            <parameter cpu="0" address="0x2A007B" value="0x06"/>
+            <parameter cpu="0" address="0x2A007F" value="0x06"/>
+            <parameter cpu="0" address="0x2A0083" value="0x06"/>
+            <parameter cpu="0" address="0x2A0087" value="0x06"/>
+            <parameter cpu="0" address="0x2A008B" value="0x06"/>
+            <parameter cpu="0" address="0x2A008F" value="0x06"/>
+            <parameter cpu="0" address="0x2A0093" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

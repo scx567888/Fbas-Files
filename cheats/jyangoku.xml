@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="总是自摸胡牌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84DC" value="0x20"/>
+            <parameter cpu="0" address="0xFF8600" value="0x1C"/>
+            <parameter cpu="0" address="0xFF8604" value="0x1C"/>
+            <parameter cpu="0" address="0xFF8608" value="0x1C"/>
+            <parameter cpu="0" address="0xFF860C" value="0x1D"/>
+            <parameter cpu="0" address="0xFF8610" value="0x1D"/>
+            <parameter cpu="0" address="0xFF8614" value="0x1D"/>
+            <parameter cpu="0" address="0xFF8618" value="0x1E"/>
+            <parameter cpu="0" address="0xFF861C" value="0x1E"/>
+            <parameter cpu="0" address="0xFF8620" value="0x1E"/>
+            <parameter cpu="0" address="0xFF8624" value="0x1F"/>
+            <parameter cpu="0" address="0xFF8628" value="0x1F"/>
+            <parameter cpu="0" address="0xFF862C" value="0x1F"/>
+            <parameter cpu="0" address="0xFF8630" value="0x20"/>
+            <parameter cpu="0" address="0xFF8634" value="0x20"/>
+        </option>
+    </cheat>
+</shufflecheat>

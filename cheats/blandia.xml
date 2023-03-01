@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x300ABF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="回合时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x3010FF" value="0x63"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0x3010FF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x30110F" value="0x80"/>
+            <parameter cpu="0" address="0x301113" value="0x80"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x30110F" value="0x00"/>
+            <parameter cpu="0" address="0x301113" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="古瑞阿诺斯">
+            <parameter cpu="0" address="0x300FCE" value="0x00"/>
+        </option>
+        <option desc="戴奥克勒斯">
+            <parameter cpu="0" address="0x300FCE" value="0x01"/>
+        </option>
+        <option desc="厄瑞阿娜">
+            <parameter cpu="0" address="0x300FCE" value="0x02"/>
+        </option>
+        <option desc="烈禅">
+            <parameter cpu="0" address="0x300FCE" value="0x03"/>
+        </option>
+        <option desc="麦吉尔">
+            <parameter cpu="0" address="0x300FCE" value="0x04"/>
+        </option>
+        <option desc="茱瑞恩">
+            <parameter cpu="0" address="0x300FCE" value="0x05"/>
+        </option>
+        <option desc="Launa">
+            <parameter cpu="0" address="0x300FCE" value="0x06"/>
+        </option>
+        <option desc="Xeldus">
+            <parameter cpu="0" address="0x300FCE" value="0x07"/>
+        </option>
+        <option desc="Imageo">
+            <parameter cpu="0" address="0x300FCE" value="0x08"/>
+        </option>
+        <option desc="Gildus">
+            <parameter cpu="0" address="0x300FCE" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x30110D" value="0x80"/>
+            <parameter cpu="0" address="0x301111" value="0x80"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x30110D" value="0x00"/>
+            <parameter cpu="0" address="0x301111" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="古瑞阿诺斯">
+            <parameter cpu="0" address="0x300FCF" value="0x00"/>
+        </option>
+        <option desc="戴奥克勒斯">
+            <parameter cpu="0" address="0x300FCF" value="0x01"/>
+        </option>
+        <option desc="厄瑞阿娜">
+            <parameter cpu="0" address="0x300FCF" value="0x02"/>
+        </option>
+        <option desc="烈禅">
+            <parameter cpu="0" address="0x300FCF" value="0x03"/>
+        </option>
+        <option desc="麦吉尔">
+            <parameter cpu="0" address="0x300FCF" value="0x04"/>
+        </option>
+        <option desc="茱瑞恩">
+            <parameter cpu="0" address="0x300FCF" value="0x05"/>
+        </option>
+        <option desc="Launa">
+            <parameter cpu="0" address="0x300FCF" value="0x06"/>
+        </option>
+        <option desc="Xeldus">
+            <parameter cpu="0" address="0x300FCF" value="0x07"/>
+        </option>
+        <option desc="Imageo">
+            <parameter cpu="0" address="0x300FCF" value="0x08"/>
+        </option>
+        <option desc="Gildus">
+            <parameter cpu="0" address="0x300FCF" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

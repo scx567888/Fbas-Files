@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1020EF" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10109D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="只有两个答案" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102C5D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="回答1总是正确" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1020E5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是逮捕罪犯 [追赶]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102B89" value="0x08"/>
+            <parameter cpu="0" address="0x102C59" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是马上赶上车 [战斗]" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102C8D" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

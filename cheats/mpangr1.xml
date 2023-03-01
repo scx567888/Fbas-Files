@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8108" value="0x63"/>
+            <parameter cpu="0" address="0xFF8109" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8126" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA502" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到护盾 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA503" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通">
+            <parameter cpu="0" address="0xFFA50C" value="0x04"/>
+        </option>
+        <option desc="双倍射击">
+            <parameter cpu="0" address="0xFFA50C" value="0x00"/>
+        </option>
+        <option desc="吸盘射击">
+            <parameter cpu="0" address="0xFFA50C" value="0x01"/>
+        </option>
+        <option desc="激光枪">
+            <parameter cpu="0" address="0xFFA50C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8127" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA5C2" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="得到护盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFA5C3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通">
+            <parameter cpu="0" address="0xFFA5CC" value="0x04"/>
+        </option>
+        <option desc="双倍射击">
+            <parameter cpu="0" address="0xFFA5CC" value="0x00"/>
+        </option>
+        <option desc="吸盘射击">
+            <parameter cpu="0" address="0xFFA5CC" value="0x01"/>
+        </option>
+        <option desc="激光枪">
+            <parameter cpu="0" address="0xFFA5CC" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="冻结球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF810B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="冻结球2秒" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF810A" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择区域码" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF80A1" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF80A1" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF80A1" value="0x04"/>
+        </option>
+        <option desc="大洋洲">
+            <parameter cpu="0" address="0xFF80A1" value="0x06"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF80A1" value="0x08"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF80A1" value="0x0A"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF80A1" value="0x0C"/>
+        </option>
+    </cheat>
+</shufflecheat>

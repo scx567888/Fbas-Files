@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20C052" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20C500" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大速度骑" default="0">
+        <option desc="关闭"/>
+        <option desc="总是最大速度骑">
+            <parameter cpu="0" address="0xC7E078" value="0x00"/>
+            <parameter cpu="0" address="0xC7E079" value="0xF3"/>
+        </option>
+        <option desc="总是发狂速度骑（1000KPH）">
+            <parameter cpu="0" address="0xC7E078" value="0x03"/>
+            <parameter cpu="0" address="0xC7E079" value="0x5D"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续玩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000D8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100343" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大射击火力 (蓝色武器) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100350" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大炸弹威力 (橙色武器) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100351" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大导弹火力 (黄色武器) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100352" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="最大副机火力 (绿色武器) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100353" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="完美奖励 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="完美奖励 PL1">
+            <parameter cpu="0" address="0x1001A7" value="0x07"/>
+            <parameter cpu="0" address="0x1001A9" value="0x00"/>
+        </option>
+        <option desc="完美奖励 PL2">
+            <parameter cpu="0" address="0x1001A7" value="0x00"/>
+            <parameter cpu="0" address="0x1001A9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续玩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000D9" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100383" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大射击火力 (蓝色武器) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100390" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="最大炸弹威力 (橙色武器) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100391" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="最大导弹火力 (黄色武器) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100392" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="最大副机火力 (绿色武器) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100393" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

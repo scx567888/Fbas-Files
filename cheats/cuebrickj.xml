@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41110" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限游戏时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40008" value="0x03"/>
+            <parameter cpu="0" address="0x40009" value="0x84"/>
+        </option>
+    </cheat>
+    <cheat desc="无限停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40070" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限空间时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限空间时间">
+            <parameter cpu="0" address="0x4000D" value="0x64"/>
+        </option>
+        <option desc="打开空间门!">
+            <parameter cpu="0" address="0x4000D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40302" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

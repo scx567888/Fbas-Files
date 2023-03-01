@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1041BA" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1044C9" value="0x06"/>
+            <parameter cpu="0" address="0x1044CB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大'超人'力量  PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大'超人'力量  PL1">
+            <parameter cpu="0" address="0x10444C" value="0x80"/>
+            <parameter cpu="0" address="0x104461" value="0x03"/>
+        </option>
+        <option desc="总是耗尽力量 PL1">
+            <parameter cpu="0" address="0x10444C" value="0x00"/>
+            <parameter cpu="0" address="0x104461" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Chinta">
+            <parameter cpu="0" address="0x1041AF" value="0x00"/>
+        </option>
+        <option desc="Siren">
+            <parameter cpu="0" address="0x1041AF" value="0x01"/>
+        </option>
+        <option desc="Hiromu">
+            <parameter cpu="0" address="0x1041AF" value="0x02"/>
+        </option>
+        <option desc="Bloody Wolf">
+            <parameter cpu="0" address="0x1041AF" value="0x03"/>
+        </option>
+        <option desc="Simon">
+            <parameter cpu="0" address="0x1041AF" value="0x04"/>
+        </option>
+        <option desc="Surya">
+            <parameter cpu="0" address="0x1041AF" value="0x05"/>
+        </option>
+        <option desc="Mr. Justice">
+            <parameter cpu="0" address="0x1041AF" value="0x06"/>
+        </option>
+        <option desc="#Hegins 2nd#">
+            <parameter cpu="0" address="0x1041AF" value="0x07"/>
+        </option>
+        <option desc="#Takuzo#">
+            <parameter cpu="0" address="0x1041AF" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="防御电墙不会被摧毁 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1038F7" value="0x00"/>
+            <parameter cpu="0" address="0x1038FB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大'超人'力量  PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大'超人'力量  PL2">
+            <parameter cpu="0" address="0x104476" value="0x80"/>
+            <parameter cpu="0" address="0x10448B" value="0x03"/>
+        </option>
+        <option desc="总是耗尽力量 PL2">
+            <parameter cpu="0" address="0x104476" value="0x00"/>
+            <parameter cpu="0" address="0x10448B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Chinta">
+            <parameter cpu="0" address="0x1041B1" value="0x00"/>
+        </option>
+        <option desc="Siren">
+            <parameter cpu="0" address="0x1041B1" value="0x01"/>
+        </option>
+        <option desc="Hiromu">
+            <parameter cpu="0" address="0x1041B1" value="0x02"/>
+        </option>
+        <option desc="Bloody Wolf">
+            <parameter cpu="0" address="0x1041B1" value="0x03"/>
+        </option>
+        <option desc="Simon">
+            <parameter cpu="0" address="0x1041B1" value="0x04"/>
+        </option>
+        <option desc="Surya">
+            <parameter cpu="0" address="0x1041B1" value="0x05"/>
+        </option>
+        <option desc="Mr. Justice">
+            <parameter cpu="0" address="0x1041B1" value="0x06"/>
+        </option>
+        <option desc="#Hegins 2nd#">
+            <parameter cpu="0" address="0x1041B1" value="0x07"/>
+        </option>
+        <option desc="#Takuzo#">
+            <parameter cpu="0" address="0x1041B1" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="防御电墙不会被摧毁 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103949" value="0x00"/>
+            <parameter cpu="0" address="0x10394D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

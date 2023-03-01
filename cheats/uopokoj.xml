@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100195" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择局数" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x100203" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x100203" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x100203" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x100203" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x100203" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x100203" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x100203" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x100203" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x100203" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x100203" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x100203" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x100203" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x100203" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x100203" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x100203" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x100203" value="0x0F"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x100203" value="0x10"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x100203" value="0x11"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x100203" value="0x12"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0x100203" value="0x13"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0x100203" value="0x14"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0x100203" value="0x15"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0x100203" value="0x16"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0x100203" value="0x17"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0x100203" value="0x18"/>
+        </option>
+        <option desc="26">
+            <parameter cpu="0" address="0x100203" value="0x19"/>
+        </option>
+        <option desc="27">
+            <parameter cpu="0" address="0x100203" value="0x1A"/>
+        </option>
+        <option desc="28">
+            <parameter cpu="0" address="0x100203" value="0x1B"/>
+        </option>
+        <option desc="29">
+            <parameter cpu="0" address="0x100203" value="0x1C"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0x100203" value="0x1D"/>
+        </option>
+        <option desc="31">
+            <parameter cpu="0" address="0x100203" value="0x1E"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102310" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有导向点 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有导向点 PL1">
+            <parameter cpu="0" address="0x10233B" value="0x01"/>
+            <parameter cpu="0" address="0x10233C" value="0x0A"/>
+            <parameter cpu="0" address="0x10233D" value="0x22"/>
+        </option>
+        <option desc="总是有导向点 (对战模式) PL1">
+            <parameter cpu="0" address="0x10233B" value="0x01"/>
+            <parameter cpu="0" address="0x10233C" value="0x0D"/>
+            <parameter cpu="0" address="0x10233D" value="0xC6"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有红紫色泡 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有红紫色泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x80"/>
+        </option>
+        <option desc="总是有蓝色泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x81"/>
+        </option>
+        <option desc="总是有绿色泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x82"/>
+        </option>
+        <option desc="总是有浅绿泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x83"/>
+        </option>
+        <option desc="总是有红色泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x84"/>
+        </option>
+        <option desc="总是有黑色泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x85"/>
+        </option>
+        <option desc="总是有黄色泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x86"/>
+        </option>
+        <option desc="总是有橙色泡 PL1">
+            <parameter cpu="0" address="0x1022F1" value="0x87"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102312" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有导向点 (对战模式) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1023BB" value="0x01"/>
+            <parameter cpu="0" address="0x1023BC" value="0x0D"/>
+            <parameter cpu="0" address="0x1023BD" value="0xC6"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有红紫色泡 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有红紫色泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x80"/>
+        </option>
+        <option desc="总是有蓝色泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x81"/>
+        </option>
+        <option desc="总是有绿色泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x82"/>
+        </option>
+        <option desc="总是有浅绿泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x83"/>
+        </option>
+        <option desc="总是有红色泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x84"/>
+        </option>
+        <option desc="总是有黑色泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x85"/>
+        </option>
+        <option desc="总是有黄色泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x86"/>
+        </option>
+        <option desc="总是有橙色泡 PL2">
+            <parameter cpu="0" address="0x1022F3" value="0x87"/>
+        </option>
+    </cheat>
+</shufflecheat>

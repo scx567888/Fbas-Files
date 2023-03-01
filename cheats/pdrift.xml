@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE852" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是驾驶在最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="总是驾驶在最大速度">
+            <parameter cpu="0" address="0xCEA12" value="0x01"/>
+            <parameter cpu="0" address="0xCEA13" value="0x6F"/>
+        </option>
+        <option desc="总是驾驶在疯狂速度">
+            <parameter cpu="0" address="0xCEA12" value="0x05"/>
+            <parameter cpu="0" address="0xCEA13" value="0xDB"/>
+        </option>
+    </cheat>
+    <cheat desc="总是第一位" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0866" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最终圈" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC087D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前路线" default="0">
+        <option desc="关闭"/>
+        <option desc="路线 A">
+            <parameter cpu="0" address="0xCEA2B" value="0x00"/>
+        </option>
+        <option desc="路线 B">
+            <parameter cpu="0" address="0xCEA2B" value="0x01"/>
+        </option>
+        <option desc="路线 C">
+            <parameter cpu="0" address="0xCEA2B" value="0x02"/>
+        </option>
+        <option desc="路线 D">
+            <parameter cpu="0" address="0xCEA2B" value="0x03"/>
+        </option>
+        <option desc="路线 E">
+            <parameter cpu="0" address="0xCEA2B" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开局" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡 1">
+            <parameter cpu="0" address="0xCEA39" value="0x00"/>
+        </option>
+        <option desc="关卡 2">
+            <parameter cpu="0" address="0xCEA39" value="0x01"/>
+        </option>
+        <option desc="关卡 3">
+            <parameter cpu="0" address="0xCEA39" value="0x02"/>
+        </option>
+        <option desc="关卡 4">
+            <parameter cpu="0" address="0xCEA39" value="0x03"/>
+        </option>
+        <option desc="关卡 5">
+            <parameter cpu="0" address="0xCEA39" value="0x04"/>
+        </option>
+        <option desc="额外关">
+            <parameter cpu="0" address="0xCEA39" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

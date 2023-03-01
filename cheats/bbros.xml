@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE200" value="0x04"/>
+            <parameter cpu="0" address="0xE221" value="0x5B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE01A" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="静止泡泡!" default="0">
+        <option desc="关闭"/>
+        <option desc="静止泡泡!">
+            <parameter cpu="0" address="0xE027" value="0x01"/>
+        </option>
+        <option desc="泡泡启动!">
+            <parameter cpu="0" address="0xE027" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限泡泡静止时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE028" value="0x8C"/>
+        </option>
+    </cheat>
+    <cheat desc="完成此关后到最终关" default="0">
+        <option desc="关闭"/>
+        <option desc="完成此关后到最终关">
+            <parameter cpu="0" address="0xE018" value="0x10"/>
+            <parameter cpu="0" address="0xE019" value="0x30"/>
+        </option>
+        <option desc="失一命后到最终关">
+            <parameter cpu="0" address="0xE018" value="0x10"/>
+            <parameter cpu="0" address="0xE019" value="0x31"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE230" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有保护 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE228" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是普通武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是普通武器 PL1">
+            <parameter cpu="0" address="0xE229" value="0x00"/>
+            <parameter cpu="0" address="0xE22C" value="0x00"/>
+            <parameter cpu="0" address="0xE244" value="0x00"/>
+        </option>
+        <option desc="总是双倍武器 PL1">
+            <parameter cpu="0" address="0xE229" value="0x01"/>
+            <parameter cpu="0" address="0xE22C" value="0x00"/>
+            <parameter cpu="0" address="0xE244" value="0x00"/>
+        </option>
+        <option desc="总是机枪 PL1">
+            <parameter cpu="0" address="0xE229" value="0x00"/>
+            <parameter cpu="0" address="0xE22C" value="0x01"/>
+            <parameter cpu="0" address="0xE244" value="0x00"/>
+        </option>
+        <option desc="总是吸盘武器 PL1">
+            <parameter cpu="0" address="0xE229" value="0x00"/>
+            <parameter cpu="0" address="0xE22C" value="0x00"/>
+            <parameter cpu="0" address="0xE244" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE2B0" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有保护 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE2A8" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是普通武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是普通武器 PL2">
+            <parameter cpu="0" address="0xE2A9" value="0x00"/>
+            <parameter cpu="0" address="0xE2AC" value="0x00"/>
+            <parameter cpu="0" address="0xE2C4" value="0x00"/>
+        </option>
+        <option desc="总是双倍武器 PL2">
+            <parameter cpu="0" address="0xE2A9" value="0x01"/>
+            <parameter cpu="0" address="0xE2AC" value="0x00"/>
+            <parameter cpu="0" address="0xE2C4" value="0x00"/>
+        </option>
+        <option desc="总是机枪 PL2">
+            <parameter cpu="0" address="0xE2A9" value="0x00"/>
+            <parameter cpu="0" address="0xE2AC" value="0x01"/>
+            <parameter cpu="0" address="0xE2C4" value="0x00"/>
+        </option>
+        <option desc="总是吸盘武器 PL2">
+            <parameter cpu="0" address="0xE2A9" value="0x00"/>
+            <parameter cpu="0" address="0xE2AC" value="0x00"/>
+            <parameter cpu="0" address="0xE2C4" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

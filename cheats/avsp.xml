@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8225" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF81F3" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8471" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83C1" value="0x65"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF840B" value="0x00"/>
+            <parameter cpu="0" address="0xFF840C" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF842F" value="0xE4"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83CC" value="0x01"/>
+            <parameter cpu="0" address="0xFF83F0" value="0x10"/>
+            <parameter cpu="0" address="0xFF841F" value="0x00"/>
+            <parameter cpu="0" address="0xFF8429" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF846E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8571" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84C1" value="0x65"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF850B" value="0x00"/>
+            <parameter cpu="0" address="0xFF850C" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852F" value="0xE4"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84CC" value="0x01"/>
+            <parameter cpu="0" address="0xFF84F0" value="0x10"/>
+            <parameter cpu="0" address="0xFF851F" value="0x00"/>
+            <parameter cpu="0" address="0xFF8529" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF856E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8671" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85C1" value="0x65"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊射击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF860B" value="0x00"/>
+            <parameter cpu="0" address="0xFF860C" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级射击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF862F" value="0xE4"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85CC" value="0x01"/>
+            <parameter cpu="0" address="0xFF85F0" value="0x10"/>
+            <parameter cpu="0" address="0xFF861F" value="0x00"/>
+            <parameter cpu="0" address="0xFF8629" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 - 武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF866E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择区域码" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF81C9" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF81C9" value="0x02"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF81C9" value="0x04"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF81C9" value="0x06"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF81C9" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc=">>> 底下是添加的作弊码 <<<"/>
+    <cheat desc=" "/>
+    <cheat desc="透明 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8381" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="透明 (隐形) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF83AE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF838B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最强特殊射击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF842E" value="0x02"/>
+            <parameter cpu="0" address="0xFF842F" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊技快速击出 PL1 (仅 LINN)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8437" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="P.WARRIOR">
+            <parameter cpu="0" address="0xFF8452" value="0x00"/>
+        </option>
+        <option desc="SCHAEFER">
+            <parameter cpu="0" address="0xFF8452" value="0x01"/>
+        </option>
+        <option desc="P.HUNTER">
+            <parameter cpu="0" address="0xFF8452" value="0x02"/>
+        </option>
+        <option desc="LINN">
+            <parameter cpu="0" address="0xFF8452" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="透明 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8481" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="透明 (隐形) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF84AE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF848B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最强特殊射击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF852E" value="0x02"/>
+            <parameter cpu="0" address="0xFF852F" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊技快速击出 PL2 (仅 LINN)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8537" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="P.WARRIOR">
+            <parameter cpu="0" address="0xFF8552" value="0x00"/>
+        </option>
+        <option desc="SCHAEFER">
+            <parameter cpu="0" address="0xFF8552" value="0x01"/>
+        </option>
+        <option desc="P.HUNTER">
+            <parameter cpu="0" address="0xFF8552" value="0x02"/>
+        </option>
+        <option desc="LINN">
+            <parameter cpu="0" address="0xFF8552" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="透明 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8581" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="透明 (隐形) PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF85AE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF858B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最强特殊射击 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF862E" value="0x02"/>
+            <parameter cpu="0" address="0xFF862F" value="0x3F"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊技快速击出 PL3 (仅 LINN)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8637" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择游戏角色 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="P.WARRIOR">
+            <parameter cpu="0" address="0xFF8652" value="0x00"/>
+        </option>
+        <option desc="SCHAEFER">
+            <parameter cpu="0" address="0xFF8652" value="0x01"/>
+        </option>
+        <option desc="P.HUNTER">
+            <parameter cpu="0" address="0xFF8652" value="0x02"/>
+        </option>
+        <option desc="LINN">
+            <parameter cpu="0" address="0xFF8652" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

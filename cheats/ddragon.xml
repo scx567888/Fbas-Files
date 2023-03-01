@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE5E" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3EA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3C1" value="0x35"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL1">
+            <parameter cpu="0" address="0x3CE" value="0x40"/>
+        </option>
+        <option desc="无敌 '关闭' PL1">
+            <parameter cpu="0" address="0x3CE" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是拿着木棍 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3C3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="变成敌人角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3B8" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x448" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x41F" value="0x35"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL2">
+            <parameter cpu="0" address="0x42C" value="0x40"/>
+        </option>
+        <option desc="无敌 '关闭' PL2">
+            <parameter cpu="0" address="0x42C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是拿着木棍 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x421" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="变成敌人角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x416" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="所有敌人不堪一击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x47D" value="0x00"/>
+            <parameter cpu="0" address="0x4D2" value="0x00"/>
+            <parameter cpu="0" address="0x527" value="0x00"/>
+            <parameter cpu="0" address="0x57C" value="0x00"/>
+            <parameter cpu="0" address="0x5D1" value="0x00"/>
+            <parameter cpu="0" address="0x725" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="改变敌人角色" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x45F" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x45F" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x45F" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x45F" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x45F" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x45F" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x45F" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x45F" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x45F" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x45F" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x45F" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x45F" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="改变敌人角色" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x509" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x509" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x509" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x509" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x509" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x509" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x509" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x509" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x509" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x509" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x509" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x509" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="改变敌人角色" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x5B3" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x5B3" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x5B3" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x5B3" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x5B3" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x5B3" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x5B3" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x5B3" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x5B3" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x5B3" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x5B3" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x5B3" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="改变敌人角色" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x55E" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x55E" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x55E" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x55E" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x55E" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x55E" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x55E" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x55E" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x55E" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x55E" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x55E" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x55E" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="改变敌人角色" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x707" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x707" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x707" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x707" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x707" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x707" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x707" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x707" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x707" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x707" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x707" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x707" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="总是拿着鞭子 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3C3" value="0x07"/>
+            <parameter cpu="0" address="0x3E3" value="0x07"/>
+            <parameter cpu="0" address="0x3E4" value="0x5B"/>
+            <parameter cpu="0" address="0x75B" value="0x81"/>
+            <parameter cpu="0" address="0x776" value="0x80"/>
+            <parameter cpu="0" address="0x77A" value="0x03"/>
+            <parameter cpu="0" address="0x77B" value="0xA2"/>
+        </option>
+    </cheat>
+</shufflecheat>

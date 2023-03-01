@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A8C3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 (过关后关闭!)" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间 (过关后关闭!)">
+            <parameter cpu="0" address="0x100300" value="0x63"/>
+        </option>
+        <option desc="过关 !">
+            <parameter cpu="0" address="0x100300" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完成一项即过关" default="0">
+        <option desc="关闭"/>
+        <option desc="总是完成一项即过关">
+            <parameter cpu="0" address="0x10030E" value="0x01"/>
+        </option>
+        <option desc="果实出现为此局">
+            <parameter cpu="0" address="0x10030E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002E8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001A1" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002DC" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001A2" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="完成下一差别点即过关 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100140" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="自动完成大多数难题 !PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100564" value="0x01"/>
+            <parameter cpu="0" address="0x100565" value="0x02"/>
+            <parameter cpu="0" address="0x100566" value="0x03"/>
+            <parameter cpu="0" address="0x100567" value="0x04"/>
+            <parameter cpu="0" address="0x100568" value="0x05"/>
+            <parameter cpu="0" address="0x100569" value="0x06"/>
+            <parameter cpu="0" address="0x10056A" value="0x07"/>
+            <parameter cpu="0" address="0x10056B" value="0x08"/>
+            <parameter cpu="0" address="0x10056C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="自动完成大多数难题 !PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000A8" value="0x01"/>
+            <parameter cpu="0" address="0x1000A9" value="0x02"/>
+            <parameter cpu="0" address="0x1000AA" value="0x03"/>
+            <parameter cpu="0" address="0x1000AB" value="0x04"/>
+            <parameter cpu="0" address="0x1000AC" value="0x05"/>
+            <parameter cpu="0" address="0x1000AD" value="0x06"/>
+            <parameter cpu="0" address="0x1000AE" value="0x07"/>
+            <parameter cpu="0" address="0x1000AF" value="0x08"/>
+            <parameter cpu="0" address="0x1000B0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="过关! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10004A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10004B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="得到额外生命 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100300" value="0x00"/>
+            <parameter cpu="0" address="0x1003AC" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10012A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100264" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

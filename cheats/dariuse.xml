@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82BF9" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82B7F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82B9D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82BA1" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82BA5" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有射击导弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有射击导弹 PL1">
+            <parameter cpu="0" address="0x82B9B" value="0x00"/>
+        </option>
+        <option desc="总是有激光导弹 PL1">
+            <parameter cpu="0" address="0x82B9B" value="0x01"/>
+        </option>
+        <option desc="总是有电波导弹 PL1">
+            <parameter cpu="0" address="0x82B9B" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有单炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有单炸弹 PL1">
+            <parameter cpu="0" address="0x82B9F" value="0x00"/>
+        </option>
+        <option desc="总是有双倍炸弹 PL1">
+            <parameter cpu="0" address="0x82B9F" value="0x01"/>
+        </option>
+        <option desc="总是有四向炸弹 PL1">
+            <parameter cpu="0" address="0x82B9F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有绿色装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有绿色装备 PL1">
+            <parameter cpu="0" address="0x82BA3" value="0x00"/>
+        </option>
+        <option desc="总是有银色装备 PL1">
+            <parameter cpu="0" address="0x82BA3" value="0x01"/>
+        </option>
+        <option desc="总是有金色装备 PL1">
+            <parameter cpu="0" address="0x82BA3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82C0F" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82BB3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82BD1" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82BD5" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x82BD9" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有射击导弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有射击导弹 PL2">
+            <parameter cpu="0" address="0x82BCF" value="0x00"/>
+        </option>
+        <option desc="总是有激光导弹 PL2">
+            <parameter cpu="0" address="0x82BCF" value="0x01"/>
+        </option>
+        <option desc="总是有电波导弹 PL2">
+            <parameter cpu="0" address="0x82BCF" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有单炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有单炸弹 PL2">
+            <parameter cpu="0" address="0x82BD3" value="0x00"/>
+        </option>
+        <option desc="总是有双倍炸弹 PL2">
+            <parameter cpu="0" address="0x82BD3" value="0x01"/>
+        </option>
+        <option desc="总是有四向炸弹 PL2">
+            <parameter cpu="0" address="0x82BD3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有绿色装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有绿色装备 PL2">
+            <parameter cpu="0" address="0x82BD7" value="0x00"/>
+        </option>
+        <option desc="总是有银色装备 PL2">
+            <parameter cpu="0" address="0x82BD7" value="0x01"/>
+        </option>
+        <option desc="总是有金色装备 PL2">
+            <parameter cpu="0" address="0x82BD7" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

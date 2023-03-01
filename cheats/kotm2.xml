@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013D2" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013B8" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101417" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="得到最大力量 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013E3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013B9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101517" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="得到最大力量 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1014E3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽BOSS能量 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101617" value="0x00"/>
+            <parameter cpu="0" address="0x101697" value="0x00"/>
+            <parameter cpu="0" address="0x101717" value="0x00"/>
+            <parameter cpu="0" address="0x101917" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Super Geon">
+            <parameter cpu="0" address="0x1013DC" value="0x00"/>
+        </option>
+        <option desc="Atomic Guy">
+            <parameter cpu="0" address="0x1013DC" value="0x01"/>
+        </option>
+        <option desc="Cyber Woo">
+            <parameter cpu="0" address="0x1013DC" value="0x02"/>
+        </option>
+        <option desc="Huge Keal">
+            <parameter cpu="0" address="0x1013DC" value="0x04"/>
+        </option>
+        <option desc="Horn Du Out">
+            <parameter cpu="0" address="0x1013DC" value="0x06"/>
+        </option>
+        <option desc="Yam A Mordon">
+            <parameter cpu="0" address="0x1013DC" value="0x03"/>
+        </option>
+        <option desc="Kili-Kili">
+            <parameter cpu="0" address="0x1013DC" value="0x07"/>
+        </option>
+        <option desc="Sack Eyes">
+            <parameter cpu="0" address="0x1013DC" value="0x05"/>
+        </option>
+        <option desc="Eat Wow">
+            <parameter cpu="0" address="0x1013DC" value="0x08"/>
+        </option>
+        <option desc="King Famardy">
+            <parameter cpu="0" address="0x1013DC" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Super Geon">
+            <parameter cpu="0" address="0x1014DC" value="0x00"/>
+        </option>
+        <option desc="Atomic Guy">
+            <parameter cpu="0" address="0x1014DC" value="0x01"/>
+        </option>
+        <option desc="Cyber Woo">
+            <parameter cpu="0" address="0x1014DC" value="0x02"/>
+        </option>
+        <option desc="Huge Keal">
+            <parameter cpu="0" address="0x1014DC" value="0x04"/>
+        </option>
+        <option desc="Horn Du Out">
+            <parameter cpu="0" address="0x1014DC" value="0x06"/>
+        </option>
+        <option desc="Yam A Mordon">
+            <parameter cpu="0" address="0x1014DC" value="0x03"/>
+        </option>
+        <option desc="Kili-Kili">
+            <parameter cpu="0" address="0x1014DC" value="0x07"/>
+        </option>
+        <option desc="Sack Eyes">
+            <parameter cpu="0" address="0x1014DC" value="0x05"/>
+        </option>
+        <option desc="Eat Wow">
+            <parameter cpu="0" address="0x1014DC" value="0x08"/>
+        </option>
+        <option desc="King Famardy">
+            <parameter cpu="0" address="0x1014DC" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 电脑" default="0">
+        <option desc="关闭"/>
+        <option desc="Super Geon">
+            <parameter cpu="0" address="0x1015DC" value="0x00"/>
+        </option>
+        <option desc="Atomic Guy">
+            <parameter cpu="0" address="0x1015DC" value="0x01"/>
+        </option>
+        <option desc="Cyber Woo">
+            <parameter cpu="0" address="0x1015DC" value="0x02"/>
+        </option>
+        <option desc="Huge Keal">
+            <parameter cpu="0" address="0x1015DC" value="0x04"/>
+        </option>
+        <option desc="Horn Du Out">
+            <parameter cpu="0" address="0x1015DC" value="0x06"/>
+        </option>
+        <option desc="Yam A Mordon">
+            <parameter cpu="0" address="0x1015DC" value="0x03"/>
+        </option>
+        <option desc="Kili-Kili">
+            <parameter cpu="0" address="0x1015DC" value="0x07"/>
+        </option>
+        <option desc="Sack Eyes">
+            <parameter cpu="0" address="0x1015DC" value="0x05"/>
+        </option>
+        <option desc="Eat Wow">
+            <parameter cpu="0" address="0x1015DC" value="0x08"/>
+        </option>
+        <option desc="King Famardy">
+            <parameter cpu="0" address="0x1015DC" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

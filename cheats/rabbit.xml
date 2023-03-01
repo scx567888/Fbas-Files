@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFFE48" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2570" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF14F3" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF14F3" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF14F3" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF14F3" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF14F3" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xFF14F3" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xFF14F3" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xFF14F3" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xFF14F3" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择缩放" default="0">
+        <option desc="关闭"/>
+        <option desc="缩小">
+            <parameter cpu="0" address="0xFF1433" value="0x8C"/>
+        </option>
+        <option desc="放大">
+            <parameter cpu="0" address="0xFF1433" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用BOSS PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF14E5" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF24EF" value="0x88"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF24EF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF24F9" value="0x30"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF24F9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有兽神珠 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF24FF" value="0x01"/>
+            <parameter cpu="0" address="0xFF2509" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2500" value="0x02"/>
+            <parameter cpu="0" address="0xFF250A" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2501" value="0x03"/>
+            <parameter cpu="0" address="0xFF250B" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2502" value="0x04"/>
+            <parameter cpu="0" address="0xFF250C" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2503" value="0x05"/>
+            <parameter cpu="0" address="0xFF250D" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2504" value="0x06"/>
+            <parameter cpu="0" address="0xFF250E" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2505" value="0x07"/>
+            <parameter cpu="0" address="0xFF250F" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2506" value="0x08"/>
+            <parameter cpu="0" address="0xFF2510" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限兽之力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2519" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="使用BOSS PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF14E7" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF2533" value="0x88"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF2533" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0xFF253D" value="0x30"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0xFF253D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有兽神珠 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF2543" value="0x01"/>
+            <parameter cpu="0" address="0xFF254D" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2544" value="0x02"/>
+            <parameter cpu="0" address="0xFF254E" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2545" value="0x03"/>
+            <parameter cpu="0" address="0xFF254F" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2546" value="0x04"/>
+            <parameter cpu="0" address="0xFF2550" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2547" value="0x05"/>
+            <parameter cpu="0" address="0xFF2551" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2548" value="0x06"/>
+            <parameter cpu="0" address="0xFF2552" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF2549" value="0x07"/>
+            <parameter cpu="0" address="0xFF2553" value="0xFF"/>
+
+            <parameter cpu="0" address="0xFF254A" value="0x08"/>
+            <parameter cpu="0" address="0xFF2554" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限兽之力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF255D" value="0x60"/>
+        </option>
+    </cheat>
+</shufflecheat>

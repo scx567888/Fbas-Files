@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001AF" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102CF3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D1D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="永久武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D1E" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍者时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D5F" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成老人时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D60" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成狗时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102D61" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="标准武器 PL1">
+            <parameter cpu="0" address="0x102D29" value="0x00"/>
+        </option>
+        <option desc="得到蓝色球 PL1">
+            <parameter cpu="0" address="0x102D29" value="0x01"/>
+        </option>
+        <option desc="得到粉红球 PL1">
+            <parameter cpu="0" address="0x102D29" value="0x02"/>
+        </option>
+        <option desc="得到黄色球 PL1">
+            <parameter cpu="0" address="0x102D29" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001B1" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102DF3" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E1D" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="永久武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E1E" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成忍者时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E5F" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成老人时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E60" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限变成狗时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102E61" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="标准武器 PL2">
+            <parameter cpu="0" address="0x102E29" value="0x00"/>
+        </option>
+        <option desc="得到蓝色球 PL2">
+            <parameter cpu="0" address="0x102E29" value="0x01"/>
+        </option>
+        <option desc="得到粉红球 PL2">
+            <parameter cpu="0" address="0x102E29" value="0x02"/>
+        </option>
+        <option desc="得到黄色球 PL2">
+            <parameter cpu="0" address="0x102E29" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

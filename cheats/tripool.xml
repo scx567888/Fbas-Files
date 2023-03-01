@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x48A5" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x488E" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

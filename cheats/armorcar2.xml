@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8112" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8628" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限锯木架" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8630" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限燃料" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x868F" value="0x5F"/>
+            <parameter cpu="0" address="0x8690" value="0x88"/>
+            <parameter cpu="0" address="0x885F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有钥匙" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x869B" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

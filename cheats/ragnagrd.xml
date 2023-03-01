@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x033B64" value="0x001E"/>
+        </option>
+    </cheat>
+    <cheat desc="开启隐藏角色" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x00FD75" value="0x0B"/>
+            <parameter cpu="0" address="0x00FDD7" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="超神拳技无限制" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01708B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01CD01" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能力属性 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限雷能力 PL1">
+            <parameter cpu="0" address="0x1090A9" value="0x03"/>
+            <parameter cpu="0" address="0x1090AA" value="0x03"/>
+            <parameter cpu="0" address="0x1090AB" value="0x03"/>
+        </option>
+        <option desc="无限火能力 PL1">
+            <parameter cpu="0" address="0x1090A9" value="0x00"/>
+            <parameter cpu="0" address="0x1090AA" value="0x00"/>
+            <parameter cpu="0" address="0x1090AB" value="0x00"/>
+        </option>
+        <option desc="无限风能力 PL1">
+            <parameter cpu="0" address="0x1090A9" value="0x02"/>
+            <parameter cpu="0" address="0x1090AA" value="0x02"/>
+            <parameter cpu="0" address="0x1090AB" value="0x02"/>
+        </option>
+        <option desc="无限水能力 PL1">
+            <parameter cpu="0" address="0x1090A9" value="0x01"/>
+            <parameter cpu="0" address="0x1090AA" value="0x01"/>
+            <parameter cpu="0" address="0x1090AB" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="天变地异能力一蓄即满 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10909F" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x01CD1D" value="0x32"/>
+        </option>
+    </cheat>
+
+    <cheat desc="天变地异能力一蓄即满 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109377" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

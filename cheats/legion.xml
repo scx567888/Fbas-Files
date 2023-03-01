@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62CE4" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62CE9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62CDA" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外装备 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62CE1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62D16" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62D1B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是使用激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62D0C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有额外装备 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62D13" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62CED" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度升级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x61644" value="0x03"/>
+            <parameter cpu="0" address="0x61645" value="0x02"/>
+            <parameter cpu="0" address="0x62D04" value="0x00"/>
+            <parameter cpu="0" address="0x62D05" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62CDA" value="0x00"/>
+            <parameter cpu="0" address="0x62CDB" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62D1F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度升级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x61684" value="0x03"/>
+            <parameter cpu="0" address="0x61685" value="0x02"/>
+            <parameter cpu="0" address="0x62D36" value="0x00"/>
+            <parameter cpu="0" address="0x62D37" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62D0C" value="0x00"/>
+            <parameter cpu="0" address="0x62D0D" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

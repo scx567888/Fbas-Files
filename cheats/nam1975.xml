@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A625" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010E7" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限手雷 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010ED" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1010F0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有火焰喷射器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有火焰喷射器 PL1">
+            <parameter cpu="0" address="0x1010E6" value="0x02"/>
+        </option>
+        <option desc="总是有火箭筒 PL1">
+            <parameter cpu="0" address="0x1010E6" value="0x08"/>
+        </option>
+        <option desc="总是有机关枪 PL1">
+            <parameter cpu="0" address="0x1010E6" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011E7" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限手雷 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011ED" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1011F0" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有火焰喷射器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有火焰喷射器 PL2">
+            <parameter cpu="0" address="0x1011E6" value="0x02"/>
+        </option>
+        <option desc="总是有火箭筒 PL2">
+            <parameter cpu="0" address="0x1011E6" value="0x08"/>
+        </option>
+        <option desc="总是有机关枪 PL2">
+            <parameter cpu="0" address="0x1011E6" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

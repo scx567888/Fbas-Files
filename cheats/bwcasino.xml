@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限得点 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4C2D" value="0x99"/>
+            <parameter cpu="0" address="0x4C2E" value="0x99"/>
+            <parameter cpu="0" address="0x4C2F" value="0x99"/>
+            <parameter cpu="0" address="0x4C30" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第一张牌花色" default="0">
+        <option desc="关闭"/>
+        <option desc="红心2">
+            <parameter cpu="0" address="0x4D97" value="0x02"/>
+        </option>
+        <option desc="红心3">
+            <parameter cpu="0" address="0x4D97" value="0x03"/>
+        </option>
+        <option desc="红心4">
+            <parameter cpu="0" address="0x4D97" value="0x04"/>
+        </option>
+        <option desc="红心5">
+            <parameter cpu="0" address="0x4D97" value="0x05"/>
+        </option>
+        <option desc="红心6">
+            <parameter cpu="0" address="0x4D97" value="0x06"/>
+        </option>
+        <option desc="红心7">
+            <parameter cpu="0" address="0x4D97" value="0x07"/>
+        </option>
+        <option desc="红心8">
+            <parameter cpu="0" address="0x4D97" value="0x08"/>
+        </option>
+        <option desc="红心9">
+            <parameter cpu="0" address="0x4D97" value="0x09"/>
+        </option>
+        <option desc="红心10">
+            <parameter cpu="0" address="0x4D97" value="0x0A"/>
+        </option>
+        <option desc="红心J">
+            <parameter cpu="0" address="0x4D97" value="0x0B"/>
+        </option>
+        <option desc="红心Q">
+            <parameter cpu="0" address="0x4D97" value="0x0C"/>
+        </option>
+        <option desc="红心K">
+            <parameter cpu="0" address="0x4D97" value="0x0D"/>
+        </option>
+        <option desc="红心A">
+            <parameter cpu="0" address="0x4D97" value="0x0E"/>
+        </option>
+        <option desc="方块2">
+            <parameter cpu="0" address="0x4D97" value="0x12"/>
+        </option>
+        <option desc="方块3">
+            <parameter cpu="0" address="0x4D97" value="0x13"/>
+        </option>
+        <option desc="方块4">
+            <parameter cpu="0" address="0x4D97" value="0x14"/>
+        </option>
+        <option desc="方块5">
+            <parameter cpu="0" address="0x4D97" value="0x15"/>
+        </option>
+        <option desc="方块6">
+            <parameter cpu="0" address="0x4D97" value="0x16"/>
+        </option>
+        <option desc="方块7">
+            <parameter cpu="0" address="0x4D97" value="0x17"/>
+        </option>
+        <option desc="方块8">
+            <parameter cpu="0" address="0x4D97" value="0x18"/>
+        </option>
+        <option desc="方块9">
+            <parameter cpu="0" address="0x4D97" value="0x19"/>
+        </option>
+        <option desc="方块10">
+            <parameter cpu="0" address="0x4D97" value="0x1A"/>
+        </option>
+        <option desc="方块J">
+            <parameter cpu="0" address="0x4D97" value="0x1B"/>
+        </option>
+        <option desc="方块Q">
+            <parameter cpu="0" address="0x4D97" value="0x1C"/>
+        </option>
+        <option desc="方块K">
+            <parameter cpu="0" address="0x4D97" value="0x1D"/>
+        </option>
+        <option desc="方块A">
+            <parameter cpu="0" address="0x4D97" value="0x1E"/>
+        </option>
+        <option desc="梅花2">
+            <parameter cpu="0" address="0x4D97" value="0x22"/>
+        </option>
+        <option desc="梅花3">
+            <parameter cpu="0" address="0x4D97" value="0x23"/>
+        </option>
+        <option desc="梅花4">
+            <parameter cpu="0" address="0x4D97" value="0x24"/>
+        </option>
+        <option desc="梅花5">
+            <parameter cpu="0" address="0x4D97" value="0x25"/>
+        </option>
+        <option desc="梅花6">
+            <parameter cpu="0" address="0x4D97" value="0x26"/>
+        </option>
+        <option desc="梅花7">
+            <parameter cpu="0" address="0x4D97" value="0x27"/>
+        </option>
+        <option desc="梅花8">
+            <parameter cpu="0" address="0x4D97" value="0x28"/>
+        </option>
+        <option desc="梅花9">
+            <parameter cpu="0" address="0x4D97" value="0x29"/>
+        </option>
+        <option desc="梅花10">
+            <parameter cpu="0" address="0x4D97" value="0x2A"/>
+        </option>
+        <option desc="梅花J">
+            <parameter cpu="0" address="0x4D97" value="0x2B"/>
+        </option>
+        <option desc="梅花Q">
+            <parameter cpu="0" address="0x4D97" value="0x2C"/>
+        </option>
+        <option desc="梅花K">
+            <parameter cpu="0" address="0x4D97" value="0x2D"/>
+        </option>
+        <option desc="梅花A">
+            <parameter cpu="0" address="0x4D97" value="0x2E"/>
+        </option>
+        <option desc="黑桃2">
+            <parameter cpu="0" address="0x4D97" value="0x32"/>
+        </option>
+        <option desc="黑桃3">
+            <parameter cpu="0" address="0x4D97" value="0x33"/>
+        </option>
+        <option desc="黑桃4">
+            <parameter cpu="0" address="0x4D97" value="0x34"/>
+        </option>
+        <option desc="黑桃5">
+            <parameter cpu="0" address="0x4D97" value="0x35"/>
+        </option>
+        <option desc="黑桃6">
+            <parameter cpu="0" address="0x4D97" value="0x36"/>
+        </option>
+        <option desc="黑桃7">
+            <parameter cpu="0" address="0x4D97" value="0x37"/>
+        </option>
+        <option desc="黑桃8">
+            <parameter cpu="0" address="0x4D97" value="0x38"/>
+        </option>
+        <option desc="黑桃9">
+            <parameter cpu="0" address="0x4D97" value="0x39"/>
+        </option>
+        <option desc="黑桃10">
+            <parameter cpu="0" address="0x4D97" value="0x3A"/>
+        </option>
+        <option desc="黑桃J">
+            <parameter cpu="0" address="0x4D97" value="0x3B"/>
+        </option>
+        <option desc="黑桃Q">
+            <parameter cpu="0" address="0x4D97" value="0x3C"/>
+        </option>
+        <option desc="黑桃K">
+            <parameter cpu="0" address="0x4D97" value="0x3D"/>
+        </option>
+        <option desc="黑桃A">
+            <parameter cpu="0" address="0x4D97" value="0x3E"/>
+        </option>
+        <option desc="王">
+            <parameter cpu="0" address="0x4D97" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第二张牌花色" default="0">
+        <option desc="关闭"/>
+        <option desc="红心2">
+            <parameter cpu="0" address="0x4D99" value="0x02"/>
+        </option>
+        <option desc="红心3">
+            <parameter cpu="0" address="0x4D99" value="0x03"/>
+        </option>
+        <option desc="红心4">
+            <parameter cpu="0" address="0x4D99" value="0x04"/>
+        </option>
+        <option desc="红心5">
+            <parameter cpu="0" address="0x4D99" value="0x05"/>
+        </option>
+        <option desc="红心6">
+            <parameter cpu="0" address="0x4D99" value="0x06"/>
+        </option>
+        <option desc="红心7">
+            <parameter cpu="0" address="0x4D99" value="0x07"/>
+        </option>
+        <option desc="红心8">
+            <parameter cpu="0" address="0x4D99" value="0x08"/>
+        </option>
+        <option desc="红心9">
+            <parameter cpu="0" address="0x4D99" value="0x09"/>
+        </option>
+        <option desc="红心10">
+            <parameter cpu="0" address="0x4D99" value="0x0A"/>
+        </option>
+        <option desc="红心J">
+            <parameter cpu="0" address="0x4D99" value="0x0B"/>
+        </option>
+        <option desc="红心Q">
+            <parameter cpu="0" address="0x4D99" value="0x0C"/>
+        </option>
+        <option desc="红心K">
+            <parameter cpu="0" address="0x4D99" value="0x0D"/>
+        </option>
+        <option desc="红心A">
+            <parameter cpu="0" address="0x4D99" value="0x0E"/>
+        </option>
+        <option desc="方块2">
+            <parameter cpu="0" address="0x4D99" value="0x12"/>
+        </option>
+        <option desc="方块3">
+            <parameter cpu="0" address="0x4D99" value="0x13"/>
+        </option>
+        <option desc="方块4">
+            <parameter cpu="0" address="0x4D99" value="0x14"/>
+        </option>
+        <option desc="方块5">
+            <parameter cpu="0" address="0x4D99" value="0x15"/>
+        </option>
+        <option desc="方块6">
+            <parameter cpu="0" address="0x4D99" value="0x16"/>
+        </option>
+        <option desc="方块7">
+            <parameter cpu="0" address="0x4D99" value="0x17"/>
+        </option>
+        <option desc="方块8">
+            <parameter cpu="0" address="0x4D99" value="0x18"/>
+        </option>
+        <option desc="方块9">
+            <parameter cpu="0" address="0x4D99" value="0x19"/>
+        </option>
+        <option desc="方块10">
+            <parameter cpu="0" address="0x4D99" value="0x1A"/>
+        </option>
+        <option desc="方块J">
+            <parameter cpu="0" address="0x4D99" value="0x1B"/>
+        </option>
+        <option desc="方块Q">
+            <parameter cpu="0" address="0x4D99" value="0x1C"/>
+        </option>
+        <option desc="方块K">
+            <parameter cpu="0" address="0x4D99" value="0x1D"/>
+        </option>
+        <option desc="方块A">
+            <parameter cpu="0" address="0x4D99" value="0x1E"/>
+        </option>
+        <option desc="梅花2">
+            <parameter cpu="0" address="0x4D99" value="0x22"/>
+        </option>
+        <option desc="梅花3">
+            <parameter cpu="0" address="0x4D99" value="0x23"/>
+        </option>
+        <option desc="梅花4">
+            <parameter cpu="0" address="0x4D99" value="0x24"/>
+        </option>
+        <option desc="梅花5">
+            <parameter cpu="0" address="0x4D99" value="0x25"/>
+        </option>
+        <option desc="梅花6">
+            <parameter cpu="0" address="0x4D99" value="0x26"/>
+        </option>
+        <option desc="梅花7">
+            <parameter cpu="0" address="0x4D99" value="0x27"/>
+        </option>
+        <option desc="梅花8">
+            <parameter cpu="0" address="0x4D99" value="0x28"/>
+        </option>
+        <option desc="梅花9">
+            <parameter cpu="0" address="0x4D99" value="0x29"/>
+        </option>
+        <option desc="梅花10">
+            <parameter cpu="0" address="0x4D99" value="0x2A"/>
+        </option>
+        <option desc="梅花J">
+            <parameter cpu="0" address="0x4D99" value="0x2B"/>
+        </option>
+        <option desc="梅花Q">
+            <parameter cpu="0" address="0x4D99" value="0x2C"/>
+        </option>
+        <option desc="梅花K">
+            <parameter cpu="0" address="0x4D99" value="0x2D"/>
+        </option>
+        <option desc="梅花A">
+            <parameter cpu="0" address="0x4D99" value="0x2E"/>
+        </option>
+        <option desc="黑桃2">
+            <parameter cpu="0" address="0x4D99" value="0x32"/>
+        </option>
+        <option desc="黑桃3">
+            <parameter cpu="0" address="0x4D99" value="0x33"/>
+        </option>
+        <option desc="黑桃4">
+            <parameter cpu="0" address="0x4D99" value="0x34"/>
+        </option>
+        <option desc="黑桃5">
+            <parameter cpu="0" address="0x4D99" value="0x35"/>
+        </option>
+        <option desc="黑桃6">
+            <parameter cpu="0" address="0x4D99" value="0x36"/>
+        </option>
+        <option desc="黑桃7">
+            <parameter cpu="0" address="0x4D99" value="0x37"/>
+        </option>
+        <option desc="黑桃8">
+            <parameter cpu="0" address="0x4D99" value="0x38"/>
+        </option>
+        <option desc="黑桃9">
+            <parameter cpu="0" address="0x4D99" value="0x39"/>
+        </option>
+        <option desc="黑桃10">
+            <parameter cpu="0" address="0x4D99" value="0x3A"/>
+        </option>
+        <option desc="黑桃J">
+            <parameter cpu="0" address="0x4D99" value="0x3B"/>
+        </option>
+        <option desc="黑桃Q">
+            <parameter cpu="0" address="0x4D99" value="0x3C"/>
+        </option>
+        <option desc="黑桃K">
+            <parameter cpu="0" address="0x4D99" value="0x3D"/>
+        </option>
+        <option desc="黑桃A">
+            <parameter cpu="0" address="0x4D99" value="0x3E"/>
+        </option>
+        <option desc="王">
+            <parameter cpu="0" address="0x4D99" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第三张牌花色" default="0">
+        <option desc="关闭"/>
+        <option desc="红心2">
+            <parameter cpu="0" address="0x4D9B" value="0x02"/>
+        </option>
+        <option desc="红心3">
+            <parameter cpu="0" address="0x4D9B" value="0x03"/>
+        </option>
+        <option desc="红心4">
+            <parameter cpu="0" address="0x4D9B" value="0x04"/>
+        </option>
+        <option desc="红心5">
+            <parameter cpu="0" address="0x4D9B" value="0x05"/>
+        </option>
+        <option desc="红心6">
+            <parameter cpu="0" address="0x4D9B" value="0x06"/>
+        </option>
+        <option desc="红心7">
+            <parameter cpu="0" address="0x4D9B" value="0x07"/>
+        </option>
+        <option desc="红心8">
+            <parameter cpu="0" address="0x4D9B" value="0x08"/>
+        </option>
+        <option desc="红心9">
+            <parameter cpu="0" address="0x4D9B" value="0x09"/>
+        </option>
+        <option desc="红心10">
+            <parameter cpu="0" address="0x4D9B" value="0x0A"/>
+        </option>
+        <option desc="红心J">
+            <parameter cpu="0" address="0x4D9B" value="0x0B"/>
+        </option>
+        <option desc="红心Q">
+            <parameter cpu="0" address="0x4D9B" value="0x0C"/>
+        </option>
+        <option desc="红心K">
+            <parameter cpu="0" address="0x4D9B" value="0x0D"/>
+        </option>
+        <option desc="红心A">
+            <parameter cpu="0" address="0x4D9B" value="0x0E"/>
+        </option>
+        <option desc="方块2">
+            <parameter cpu="0" address="0x4D9B" value="0x12"/>
+        </option>
+        <option desc="方块3">
+            <parameter cpu="0" address="0x4D9B" value="0x13"/>
+        </option>
+        <option desc="方块4">
+            <parameter cpu="0" address="0x4D9B" value="0x14"/>
+        </option>
+        <option desc="方块5">
+            <parameter cpu="0" address="0x4D9B" value="0x15"/>
+        </option>
+        <option desc="方块6">
+            <parameter cpu="0" address="0x4D9B" value="0x16"/>
+        </option>
+        <option desc="方块7">
+            <parameter cpu="0" address="0x4D9B" value="0x17"/>
+        </option>
+        <option desc="方块8">
+            <parameter cpu="0" address="0x4D9B" value="0x18"/>
+        </option>
+        <option desc="方块9">
+            <parameter cpu="0" address="0x4D9B" value="0x19"/>
+        </option>
+        <option desc="方块10">
+            <parameter cpu="0" address="0x4D9B" value="0x1A"/>
+        </option>
+        <option desc="方块J">
+            <parameter cpu="0" address="0x4D9B" value="0x1B"/>
+        </option>
+        <option desc="方块Q">
+            <parameter cpu="0" address="0x4D9B" value="0x1C"/>
+        </option>
+        <option desc="方块K">
+            <parameter cpu="0" address="0x4D9B" value="0x1D"/>
+        </option>
+        <option desc="方块A">
+            <parameter cpu="0" address="0x4D9B" value="0x1E"/>
+        </option>
+        <option desc="梅花2">
+            <parameter cpu="0" address="0x4D9B" value="0x22"/>
+        </option>
+        <option desc="梅花3">
+            <parameter cpu="0" address="0x4D9B" value="0x23"/>
+        </option>
+        <option desc="梅花4">
+            <parameter cpu="0" address="0x4D9B" value="0x24"/>
+        </option>
+        <option desc="梅花5">
+            <parameter cpu="0" address="0x4D9B" value="0x25"/>
+        </option>
+        <option desc="梅花6">
+            <parameter cpu="0" address="0x4D9B" value="0x26"/>
+        </option>
+        <option desc="梅花7">
+            <parameter cpu="0" address="0x4D9B" value="0x27"/>
+        </option>
+        <option desc="梅花8">
+            <parameter cpu="0" address="0x4D9B" value="0x28"/>
+        </option>
+        <option desc="梅花9">
+            <parameter cpu="0" address="0x4D9B" value="0x29"/>
+        </option>
+        <option desc="梅花10">
+            <parameter cpu="0" address="0x4D9B" value="0x2A"/>
+        </option>
+        <option desc="梅花J">
+            <parameter cpu="0" address="0x4D9B" value="0x2B"/>
+        </option>
+        <option desc="梅花Q">
+            <parameter cpu="0" address="0x4D9B" value="0x2C"/>
+        </option>
+        <option desc="梅花K">
+            <parameter cpu="0" address="0x4D9B" value="0x2D"/>
+        </option>
+        <option desc="梅花A">
+            <parameter cpu="0" address="0x4D9B" value="0x2E"/>
+        </option>
+        <option desc="黑桃2">
+            <parameter cpu="0" address="0x4D9B" value="0x32"/>
+        </option>
+        <option desc="黑桃3">
+            <parameter cpu="0" address="0x4D9B" value="0x33"/>
+        </option>
+        <option desc="黑桃4">
+            <parameter cpu="0" address="0x4D9B" value="0x34"/>
+        </option>
+        <option desc="黑桃5">
+            <parameter cpu="0" address="0x4D9B" value="0x35"/>
+        </option>
+        <option desc="黑桃6">
+            <parameter cpu="0" address="0x4D9B" value="0x36"/>
+        </option>
+        <option desc="黑桃7">
+            <parameter cpu="0" address="0x4D9B" value="0x37"/>
+        </option>
+        <option desc="黑桃8">
+            <parameter cpu="0" address="0x4D9B" value="0x38"/>
+        </option>
+        <option desc="黑桃9">
+            <parameter cpu="0" address="0x4D9B" value="0x39"/>
+        </option>
+        <option desc="黑桃10">
+            <parameter cpu="0" address="0x4D9B" value="0x3A"/>
+        </option>
+        <option desc="黑桃J">
+            <parameter cpu="0" address="0x4D9B" value="0x3B"/>
+        </option>
+        <option desc="黑桃Q">
+            <parameter cpu="0" address="0x4D9B" value="0x3C"/>
+        </option>
+        <option desc="黑桃K">
+            <parameter cpu="0" address="0x4D9B" value="0x3D"/>
+        </option>
+        <option desc="黑桃A">
+            <parameter cpu="0" address="0x4D9B" value="0x3E"/>
+        </option>
+        <option desc="王">
+            <parameter cpu="0" address="0x4D9B" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第四张牌花色" default="0">
+        <option desc="关闭"/>
+        <option desc="红心2">
+            <parameter cpu="0" address="0x4D9D" value="0x02"/>
+        </option>
+        <option desc="红心3">
+            <parameter cpu="0" address="0x4D9D" value="0x03"/>
+        </option>
+        <option desc="红心4">
+            <parameter cpu="0" address="0x4D9D" value="0x04"/>
+        </option>
+        <option desc="红心5">
+            <parameter cpu="0" address="0x4D9D" value="0x05"/>
+        </option>
+        <option desc="红心6">
+            <parameter cpu="0" address="0x4D9D" value="0x06"/>
+        </option>
+        <option desc="红心7">
+            <parameter cpu="0" address="0x4D9D" value="0x07"/>
+        </option>
+        <option desc="红心8">
+            <parameter cpu="0" address="0x4D9D" value="0x08"/>
+        </option>
+        <option desc="红心9">
+            <parameter cpu="0" address="0x4D9D" value="0x09"/>
+        </option>
+        <option desc="红心10">
+            <parameter cpu="0" address="0x4D9D" value="0x0A"/>
+        </option>
+        <option desc="红心J">
+            <parameter cpu="0" address="0x4D9D" value="0x0B"/>
+        </option>
+        <option desc="红心Q">
+            <parameter cpu="0" address="0x4D9D" value="0x0C"/>
+        </option>
+        <option desc="红心K">
+            <parameter cpu="0" address="0x4D9D" value="0x0D"/>
+        </option>
+        <option desc="红心A">
+            <parameter cpu="0" address="0x4D9D" value="0x0E"/>
+        </option>
+        <option desc="方块2">
+            <parameter cpu="0" address="0x4D9D" value="0x12"/>
+        </option>
+        <option desc="方块3">
+            <parameter cpu="0" address="0x4D9D" value="0x13"/>
+        </option>
+        <option desc="方块4">
+            <parameter cpu="0" address="0x4D9D" value="0x14"/>
+        </option>
+        <option desc="方块5">
+            <parameter cpu="0" address="0x4D9D" value="0x15"/>
+        </option>
+        <option desc="方块6">
+            <parameter cpu="0" address="0x4D9D" value="0x16"/>
+        </option>
+        <option desc="方块7">
+            <parameter cpu="0" address="0x4D9D" value="0x17"/>
+        </option>
+        <option desc="方块8">
+            <parameter cpu="0" address="0x4D9D" value="0x18"/>
+        </option>
+        <option desc="方块9">
+            <parameter cpu="0" address="0x4D9D" value="0x19"/>
+        </option>
+        <option desc="方块10">
+            <parameter cpu="0" address="0x4D9D" value="0x1A"/>
+        </option>
+        <option desc="方块J">
+            <parameter cpu="0" address="0x4D9D" value="0x1B"/>
+        </option>
+        <option desc="方块Q">
+            <parameter cpu="0" address="0x4D9D" value="0x1C"/>
+        </option>
+        <option desc="方块K">
+            <parameter cpu="0" address="0x4D9D" value="0x1D"/>
+        </option>
+        <option desc="方块A">
+            <parameter cpu="0" address="0x4D9D" value="0x1E"/>
+        </option>
+        <option desc="梅花2">
+            <parameter cpu="0" address="0x4D9D" value="0x22"/>
+        </option>
+        <option desc="梅花3">
+            <parameter cpu="0" address="0x4D9D" value="0x23"/>
+        </option>
+        <option desc="梅花4">
+            <parameter cpu="0" address="0x4D9D" value="0x24"/>
+        </option>
+        <option desc="梅花5">
+            <parameter cpu="0" address="0x4D9D" value="0x25"/>
+        </option>
+        <option desc="梅花6">
+            <parameter cpu="0" address="0x4D9D" value="0x26"/>
+        </option>
+        <option desc="梅花7">
+            <parameter cpu="0" address="0x4D9D" value="0x27"/>
+        </option>
+        <option desc="梅花8">
+            <parameter cpu="0" address="0x4D9D" value="0x28"/>
+        </option>
+        <option desc="梅花9">
+            <parameter cpu="0" address="0x4D9D" value="0x29"/>
+        </option>
+        <option desc="梅花10">
+            <parameter cpu="0" address="0x4D9D" value="0x2A"/>
+        </option>
+        <option desc="梅花J">
+            <parameter cpu="0" address="0x4D9D" value="0x2B"/>
+        </option>
+        <option desc="梅花Q">
+            <parameter cpu="0" address="0x4D9D" value="0x2C"/>
+        </option>
+        <option desc="梅花K">
+            <parameter cpu="0" address="0x4D9D" value="0x2D"/>
+        </option>
+        <option desc="梅花A">
+            <parameter cpu="0" address="0x4D9D" value="0x2E"/>
+        </option>
+        <option desc="黑桃2">
+            <parameter cpu="0" address="0x4D9D" value="0x32"/>
+        </option>
+        <option desc="黑桃3">
+            <parameter cpu="0" address="0x4D9D" value="0x33"/>
+        </option>
+        <option desc="黑桃4">
+            <parameter cpu="0" address="0x4D9D" value="0x34"/>
+        </option>
+        <option desc="黑桃5">
+            <parameter cpu="0" address="0x4D9D" value="0x35"/>
+        </option>
+        <option desc="黑桃6">
+            <parameter cpu="0" address="0x4D9D" value="0x36"/>
+        </option>
+        <option desc="黑桃7">
+            <parameter cpu="0" address="0x4D9D" value="0x37"/>
+        </option>
+        <option desc="黑桃8">
+            <parameter cpu="0" address="0x4D9D" value="0x38"/>
+        </option>
+        <option desc="黑桃9">
+            <parameter cpu="0" address="0x4D9D" value="0x39"/>
+        </option>
+        <option desc="黑桃10">
+            <parameter cpu="0" address="0x4D9D" value="0x3A"/>
+        </option>
+        <option desc="黑桃J">
+            <parameter cpu="0" address="0x4D9D" value="0x3B"/>
+        </option>
+        <option desc="黑桃Q">
+            <parameter cpu="0" address="0x4D9D" value="0x3C"/>
+        </option>
+        <option desc="黑桃K">
+            <parameter cpu="0" address="0x4D9D" value="0x3D"/>
+        </option>
+        <option desc="黑桃A">
+            <parameter cpu="0" address="0x4D9D" value="0x3E"/>
+        </option>
+        <option desc="王">
+            <parameter cpu="0" address="0x4D9D" value="0x4F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择第五张牌花色" default="0">
+        <option desc="关闭"/>
+        <option desc="红心2">
+            <parameter cpu="0" address="0x4D9F" value="0x02"/>
+        </option>
+        <option desc="红心3">
+            <parameter cpu="0" address="0x4D9F" value="0x03"/>
+        </option>
+        <option desc="红心4">
+            <parameter cpu="0" address="0x4D9F" value="0x04"/>
+        </option>
+        <option desc="红心5">
+            <parameter cpu="0" address="0x4D9F" value="0x05"/>
+        </option>
+        <option desc="红心6">
+            <parameter cpu="0" address="0x4D9F" value="0x06"/>
+        </option>
+        <option desc="红心7">
+            <parameter cpu="0" address="0x4D9F" value="0x07"/>
+        </option>
+        <option desc="红心8">
+            <parameter cpu="0" address="0x4D9F" value="0x08"/>
+        </option>
+        <option desc="红心9">
+            <parameter cpu="0" address="0x4D9F" value="0x09"/>
+        </option>
+        <option desc="红心10">
+            <parameter cpu="0" address="0x4D9F" value="0x0A"/>
+        </option>
+        <option desc="红心J">
+            <parameter cpu="0" address="0x4D9F" value="0x0B"/>
+        </option>
+        <option desc="红心Q">
+            <parameter cpu="0" address="0x4D9F" value="0x0C"/>
+        </option>
+        <option desc="红心K">
+            <parameter cpu="0" address="0x4D9F" value="0x0D"/>
+        </option>
+        <option desc="红心A">
+            <parameter cpu="0" address="0x4D9F" value="0x0E"/>
+        </option>
+        <option desc="方块2">
+            <parameter cpu="0" address="0x4D9F" value="0x12"/>
+        </option>
+        <option desc="方块3">
+            <parameter cpu="0" address="0x4D9F" value="0x13"/>
+        </option>
+        <option desc="方块4">
+            <parameter cpu="0" address="0x4D9F" value="0x14"/>
+        </option>
+        <option desc="方块5">
+            <parameter cpu="0" address="0x4D9F" value="0x15"/>
+        </option>
+        <option desc="方块6">
+            <parameter cpu="0" address="0x4D9F" value="0x16"/>
+        </option>
+        <option desc="方块7">
+            <parameter cpu="0" address="0x4D9F" value="0x17"/>
+        </option>
+        <option desc="方块8">
+            <parameter cpu="0" address="0x4D9F" value="0x18"/>
+        </option>
+        <option desc="方块9">
+            <parameter cpu="0" address="0x4D9F" value="0x19"/>
+        </option>
+        <option desc="方块10">
+            <parameter cpu="0" address="0x4D9F" value="0x1A"/>
+        </option>
+        <option desc="方块J">
+            <parameter cpu="0" address="0x4D9F" value="0x1B"/>
+        </option>
+        <option desc="方块Q">
+            <parameter cpu="0" address="0x4D9F" value="0x1C"/>
+        </option>
+        <option desc="方块K">
+            <parameter cpu="0" address="0x4D9F" value="0x1D"/>
+        </option>
+        <option desc="方块A">
+            <parameter cpu="0" address="0x4D9F" value="0x1E"/>
+        </option>
+        <option desc="梅花2">
+            <parameter cpu="0" address="0x4D9F" value="0x22"/>
+        </option>
+        <option desc="梅花3">
+            <parameter cpu="0" address="0x4D9F" value="0x23"/>
+        </option>
+        <option desc="梅花4">
+            <parameter cpu="0" address="0x4D9F" value="0x24"/>
+        </option>
+        <option desc="梅花5">
+            <parameter cpu="0" address="0x4D9F" value="0x25"/>
+        </option>
+        <option desc="梅花6">
+            <parameter cpu="0" address="0x4D9F" value="0x26"/>
+        </option>
+        <option desc="梅花7">
+            <parameter cpu="0" address="0x4D9F" value="0x27"/>
+        </option>
+        <option desc="梅花8">
+            <parameter cpu="0" address="0x4D9F" value="0x28"/>
+        </option>
+        <option desc="梅花9">
+            <parameter cpu="0" address="0x4D9F" value="0x29"/>
+        </option>
+        <option desc="梅花10">
+            <parameter cpu="0" address="0x4D9F" value="0x2A"/>
+        </option>
+        <option desc="梅花J">
+            <parameter cpu="0" address="0x4D9F" value="0x2B"/>
+        </option>
+        <option desc="梅花Q">
+            <parameter cpu="0" address="0x4D9F" value="0x2C"/>
+        </option>
+        <option desc="梅花K">
+            <parameter cpu="0" address="0x4D9F" value="0x2D"/>
+        </option>
+        <option desc="梅花A">
+            <parameter cpu="0" address="0x4D9F" value="0x2E"/>
+        </option>
+        <option desc="黑桃2">
+            <parameter cpu="0" address="0x4D9F" value="0x32"/>
+        </option>
+        <option desc="黑桃3">
+            <parameter cpu="0" address="0x4D9F" value="0x33"/>
+        </option>
+        <option desc="黑桃4">
+            <parameter cpu="0" address="0x4D9F" value="0x34"/>
+        </option>
+        <option desc="黑桃5">
+            <parameter cpu="0" address="0x4D9F" value="0x35"/>
+        </option>
+        <option desc="黑桃6">
+            <parameter cpu="0" address="0x4D9F" value="0x36"/>
+        </option>
+        <option desc="黑桃7">
+            <parameter cpu="0" address="0x4D9F" value="0x37"/>
+        </option>
+        <option desc="黑桃8">
+            <parameter cpu="0" address="0x4D9F" value="0x38"/>
+        </option>
+        <option desc="黑桃9">
+            <parameter cpu="0" address="0x4D9F" value="0x39"/>
+        </option>
+        <option desc="黑桃10">
+            <parameter cpu="0" address="0x4D9F" value="0x3A"/>
+        </option>
+        <option desc="黑桃J">
+            <parameter cpu="0" address="0x4D9F" value="0x3B"/>
+        </option>
+        <option desc="黑桃Q">
+            <parameter cpu="0" address="0x4D9F" value="0x3C"/>
+        </option>
+        <option desc="黑桃K">
+            <parameter cpu="0" address="0x4D9F" value="0x3D"/>
+        </option>
+        <option desc="黑桃A">
+            <parameter cpu="0" address="0x4D9F" value="0x3E"/>
+        </option>
+        <option desc="王">
+            <parameter cpu="0" address="0x4D9F" value="0x4F"/>
+        </option>
+    </cheat>
+</shufflecheat>

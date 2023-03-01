@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60876" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60A5F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是步行" default="0">
+        <option desc="关闭"/>
+        <option desc="总是步行">
+            <parameter cpu="0" address="0x60A9F" value="0x01"/>
+        </option>
+        <option desc="总是游泳">
+            <parameter cpu="0" address="0x60A9F" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有默认武器" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有默认武器">
+            <parameter cpu="0" address="0x60AA1" value="0x00"/>
+        </option>
+        <option desc="总是有超大球">
+            <parameter cpu="0" address="0x60AA1" value="0x01"/>
+        </option>
+        <option desc="总是有集束弹">
+            <parameter cpu="0" address="0x60AA1" value="0x02"/>
+        </option>
+        <option desc="总是有火焰武器">
+            <parameter cpu="0" address="0x60AA1" value="0x03"/>
+        </option>
+        <option desc="总是有火焰弹">
+            <parameter cpu="0" address="0x60AA1" value="0x04"/>
+        </option>
+        <option desc="总是有三向">
+            <parameter cpu="0" address="0x60AA1" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60AD2" value="0xFC"/>
+        </option>
+    </cheat>
+    <cheat desc="有头盔" default="0">
+        <option desc="关闭"/>
+        <option desc="有头盔">
+            <parameter cpu="0" address="0x60AA3" value="0x01"/>
+        </option>
+        <option desc="有运动鞋">
+            <parameter cpu="0" address="0x60AA3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="超级跳" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60A90" value="0x32"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60875" value="0x09"/>
+            <parameter cpu="0" address="0x60876" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS! " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x627DD" value="0x00"/>
+            <parameter cpu="0" address="0x62839" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击破坏最终BOSS装甲!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62F0D" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

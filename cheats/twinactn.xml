@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF9019" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF5029" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF502B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF502F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF501D" value="0x00"/>
+            <parameter cpu="0" address="0xF501E" value="0x00"/>
+            <parameter cpu="0" address="0xF501F" value="0x00"/>
+            <parameter cpu="0" address="0xF5020" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF5129" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF512B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF512F" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF511D" value="0x00"/>
+            <parameter cpu="0" address="0xF511E" value="0x00"/>
+            <parameter cpu="0" address="0xF511F" value="0x00"/>
+            <parameter cpu="0" address="0xF5120" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0xF9021" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xF9021" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xF9021" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xF9021" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xF9021" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xF9021" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xF9021" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xF9021" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

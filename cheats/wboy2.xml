@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC302" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启''">
+            <parameter cpu="0" address="0xC46E" value="0x01"/>
+        </option>
+        <option desc="无敌 ''关闭''">
+            <parameter cpu="0" address="0xC46E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有斧头" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有斧头">
+            <parameter cpu="0" address="0xC407" value="0x02"/>
+        </option>
+        <option desc="失去斧头 !">
+            <parameter cpu="0" address="0xC407" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有溜冰板" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有溜冰板">
+            <parameter cpu="0" address="0xC408" value="0x02"/>
+        </option>
+        <option desc="失去溜冰板 !">
+            <parameter cpu="0" address="0xC408" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是隐藏奖励生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0DA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是洋娃娃奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC312" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是大奖励水果" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC476" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="怪物总是= 10000" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC475" value="0x14"/>
+        </option>
+    </cheat>
+    <cheat desc="火球不能伤害玩家" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC932" value="0xD5"/>
+        </option>
+    </cheat>
+    <cheat desc="容易消灭Boss (有错误)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC852" value="0xAB"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀Boss! (Levels 1 to 6)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC918" value="0x2D"/>
+            <parameter cpu="0" address="0xC919" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="去到关卡1-1 Next" default="0">
+        <option desc="关闭"/>
+        <option desc="去到关卡1-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x00"/>
+        </option>
+        <option desc="去到关卡1-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x03"/>
+        </option>
+        <option desc="去到关卡2-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x04"/>
+        </option>
+        <option desc="去到关卡2-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x07"/>
+        </option>
+        <option desc="去到关卡3-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x08"/>
+        </option>
+        <option desc="去到关卡3-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x0B"/>
+        </option>
+        <option desc="去到关卡4-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x0C"/>
+        </option>
+        <option desc="去到关卡4-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x0F"/>
+        </option>
+        <option desc="去到关卡5-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x10"/>
+        </option>
+        <option desc="去到关卡5-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x13"/>
+        </option>
+        <option desc="去到关卡6-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x14"/>
+        </option>
+        <option desc="去到关卡6-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x17"/>
+        </option>
+        <option desc="去到关卡7-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x18"/>
+        </option>
+        <option desc="去到关卡7-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x1B"/>
+        </option>
+        <option desc="去到关卡8-1 Next">
+            <parameter cpu="0" address="0xC301" value="0x1C"/>
+        </option>
+        <option desc="去到关卡8-4 Next">
+            <parameter cpu="0" address="0xC301" value="0x1F"/>
+        </option>
+    </cheat>
+</shufflecheat>

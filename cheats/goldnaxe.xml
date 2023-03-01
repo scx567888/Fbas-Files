@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE018" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC070" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 - 绿色 D PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限魔力 - 绿色 D PL1">
+            <parameter cpu="0" address="0xFFE030" value="0x04"/>
+        </option>
+        <option desc="无限魔力 - 蓝色 W PL1">
+            <parameter cpu="0" address="0xFFE030" value="0x06"/>
+        </option>
+        <option desc="无限魔力 - 红色 V PL1">
+            <parameter cpu="0" address="0xFFE030" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFE098" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC270" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限魔力 - 绿色 D PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限魔力 - 绿色 D PL2">
+            <parameter cpu="0" address="0xFFE0B0" value="0x04"/>
+        </option>
+        <option desc="无限魔力 - 蓝色 W PL2">
+            <parameter cpu="0" address="0xFFE0B0" value="0x06"/>
+        </option>
+        <option desc="无限魔力 - 红色 V PL2">
+            <parameter cpu="0" address="0xFFE0B0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有红龙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC090" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人总是一击杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0470" value="0x00"/>
+            <parameter cpu="0" address="0xFF0570" value="0x00"/>
+            <parameter cpu="0" address="0xFF0670" value="0x00"/>
+            <parameter cpu="0" address="0xFF0770" value="0x00"/>
+            <parameter cpu="0" address="0xFF0870" value="0x00"/>
+            <parameter cpu="0" address="0xFF0970" value="0x00"/>
+            <parameter cpu="0" address="0xFF0A70" value="0x00"/>
+            <parameter cpu="0" address="0xFF0B70" value="0x00"/>
+            <parameter cpu="0" address="0xFF0C70" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限掉落坐骑次数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0065" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x39" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1018" value="0x59"/>
+            <parameter cpu="0" address="0x1019" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量">
+            <parameter cpu="0" address="0x220" value="0x30"/>
+        </option>
+        <option desc="失去生命 !">
+            <parameter cpu="0" address="0x220" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x410" value="0x80"/>
+            <parameter cpu="0" address="0x411" value="0x80"/>
+            <parameter cpu="0" address="0x412" value="0x80"/>
+            <parameter cpu="0" address="0x413" value="0x80"/>
+            <parameter cpu="0" address="0x414" value="0x80"/>
+            <parameter cpu="0" address="0x415" value="0x80"/>
+            <parameter cpu="0" address="0x416" value="0x80"/>
+            <parameter cpu="0" address="0x417" value="0x80"/>
+            <parameter cpu="0" address="0xC3" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="开始于局数 2-1" default="0">
+        <option desc="关闭"/>
+        <option desc="开始于局数 2-1">
+            <parameter cpu="0" address="0x1000" value="0x01"/>
+            <parameter cpu="0" address="0x38" value="0x00"/>
+        </option>
+        <option desc="开始于局数 2-2">
+            <parameter cpu="0" address="0x1000" value="0x01"/>
+            <parameter cpu="0" address="0x38" value="0x01"/>
+        </option>
+        <option desc="开始于局数 4-1">
+            <parameter cpu="0" address="0x1000" value="0x03"/>
+            <parameter cpu="0" address="0x38" value="0x00"/>
+        </option>
+        <option desc="开始于局数 4-2">
+            <parameter cpu="0" address="0x1000" value="0x03"/>
+            <parameter cpu="0" address="0x38" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="过关 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3F8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="可以快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3E9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x221" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="开始于局数 2" default="0">
+        <option desc="关闭"/>
+        <option desc="开始于局数 2">
+            <parameter cpu="0" address="0x1000" value="0x01"/>
+        </option>
+        <option desc="开始于局数 3">
+            <parameter cpu="0" address="0x1000" value="0x02"/>
+        </option>
+        <option desc="开始于局数 4">
+            <parameter cpu="0" address="0x1000" value="0x03"/>
+        </option>
+        <option desc="开始于局数 5">
+            <parameter cpu="0" address="0x1000" value="0x04"/>
+        </option>
+        <option desc="开始于局数 6">
+            <parameter cpu="0" address="0x1000" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x222" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x223" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x224" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x225" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #5" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x226" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #6" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x227" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #7" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x228" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="虚弱的敌人 #8" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x229" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

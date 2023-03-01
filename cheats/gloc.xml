@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCFD00" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="自动开火 - 直射" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE060" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE0C3" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE09E" value="0x99"/>
+            <parameter cpu="0" address="0xCE09F" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限导弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE089" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限燃料" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE121" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是无伤害" default="0">
+        <option desc="关闭"/>
+        <option desc="总是无伤害">
+            <parameter cpu="0" address="0xCEA13" value="0x00"/>
+            <parameter cpu="0" address="0xCEA14" value="0x00"/>
+            <parameter cpu="0" address="0xCEA15" value="0x00"/>
+        </option>
+        <option desc="损害所有部件">
+            <parameter cpu="0" address="0xCEA13" value="0x08"/>
+            <parameter cpu="0" address="0xCEA14" value="0x03"/>
+            <parameter cpu="0" address="0xCEA15" value="0xFE"/>
+        </option>
+    </cheat>
+    <cheat desc="立即完成当前关 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xCE011" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开局任务 (专家级)" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xCE091" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xCE091" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xCE091" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xCE091" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xCE091" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xCE091" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xCE091" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xCE091" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xCE091" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xCE091" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xCE091" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xCE091" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xCE091" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xCE091" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xCE091" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xCE091" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度" default="0">
+        <option desc="关闭"/>
+        <option desc="停止">
+            <parameter cpu="0" address="0xCE07E" value="0x00"/>
+            <parameter cpu="0" address="0xCE07F" value="0x00"/>
+        </option>
+        <option desc="低">
+            <parameter cpu="0" address="0xCE07E" value="0x18"/>
+            <parameter cpu="0" address="0xCE07F" value="0x00"/>
+        </option>
+        <option desc="正常">
+            <parameter cpu="0" address="0xCE07E" value="0x20"/>
+            <parameter cpu="0" address="0xCE07F" value="0xC0"/>
+        </option>
+        <option desc="高">
+            <parameter cpu="0" address="0xCE07E" value="0x4F"/>
+            <parameter cpu="0" address="0xCE07F" value="0xE0"/>
+        </option>
+        <option desc="超级">
+            <parameter cpu="0" address="0xCE07E" value="0x7F"/>
+            <parameter cpu="0" address="0xCE07F" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

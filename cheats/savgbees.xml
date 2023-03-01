@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE040" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF007" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF011" value="0xC9"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是1向火力 PL1">
+            <parameter cpu="0" address="0xF015" value="0x06"/>
+        </option>
+        <option desc="总是2向火力 PL1">
+            <parameter cpu="0" address="0xF015" value="0x07"/>
+        </option>
+        <option desc="总是三向火力 PL1">
+            <parameter cpu="0" address="0xF015" value="0x08"/>
+        </option>
+        <option desc="总是超级武器 PL1">
+            <parameter cpu="0" address="0xF015" value="0x0F"/>
+        </option>
+        <option desc="后武器">
+            <parameter cpu="0" address="0xF015" value="0xFB"/>
+        </option>
+        <option desc="超级后武器">
+            <parameter cpu="0" address="0xF015" value="0xF6"/>
+        </option>
+        <option desc="奶牛武器">
+            <parameter cpu="0" address="0xF015" value="0x9E"/>
+        </option>
+        <option desc="慢射武器">
+            <parameter cpu="0" address="0xF015" value="0x01"/>
+        </option>
+        <option desc="地雷武器">
+            <parameter cpu="0" address="0xF015" value="0x00"/>
+        </option>
+        <option desc="超级地雷武器">
+            <parameter cpu="0" address="0xF015" value="0xAB"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF087" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF091" value="0xC9"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是1向火力 PL2">
+            <parameter cpu="0" address="0xF095" value="0x06"/>
+        </option>
+        <option desc="总是2向火力 PL2">
+            <parameter cpu="0" address="0xF095" value="0x07"/>
+        </option>
+        <option desc="总是三向火力 PL2">
+            <parameter cpu="0" address="0xF095" value="0x08"/>
+        </option>
+        <option desc="总是超级武器 PL2">
+            <parameter cpu="0" address="0xF095" value="0x0F"/>
+        </option>
+        <option desc="后武器">
+            <parameter cpu="0" address="0xF095" value="0xFB"/>
+        </option>
+        <option desc="超级后武器">
+            <parameter cpu="0" address="0xF095" value="0xF6"/>
+        </option>
+        <option desc="奶牛武器">
+            <parameter cpu="0" address="0xF095" value="0x9E"/>
+        </option>
+        <option desc="慢射武器">
+            <parameter cpu="0" address="0xF095" value="0x01"/>
+        </option>
+        <option desc="地雷武器">
+            <parameter cpu="0" address="0xF095" value="0x00"/>
+        </option>
+        <option desc="超级地雷武器">
+            <parameter cpu="0" address="0xF095" value="0xAB"/>
+        </option>
+    </cheat>
+    <cheat desc="超长射击模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF110" value="0x00"/>
+            <parameter cpu="0" address="0xF130" value="0x00"/>
+            <parameter cpu="0" address="0xF150" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="超长射击模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF190" value="0x00"/>
+            <parameter cpu="0" address="0xF1B0" value="0x00"/>
+            <parameter cpu="0" address="0xF1D0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF08E" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

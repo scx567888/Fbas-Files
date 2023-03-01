@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10004A" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限轮击球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101083" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限击球数" default="0">
+        <option desc="关闭"/>
+        <option desc="无限击球数">
+            <parameter cpu="0" address="0x10107E" value="0x00"/>
+        </option>
+        <option desc="设置击打为 2!">
+            <parameter cpu="0" address="0x10107E" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球数" default="0">
+        <option desc="关闭"/>
+        <option desc="无限坏球数">
+            <parameter cpu="0" address="0x10107D" value="0x00"/>
+        </option>
+        <option desc="设置球数为 3!">
+            <parameter cpu="0" address="0x10107D" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限出局数" default="0">
+        <option desc="关闭"/>
+        <option desc="无限出局数">
+            <parameter cpu="0" address="0x10107C" value="0x00"/>
+        </option>
+        <option desc="设置出局为 2!">
+            <parameter cpu="0" address="0x10107C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

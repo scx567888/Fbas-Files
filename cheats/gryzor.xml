@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3B1C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x34D0" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1245" value="0x01"/>
+            <parameter cpu="0" address="0x1246" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="始终是普通武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="始终是普通武器 PL1">
+            <parameter cpu="0" address="0x1215" value="0x01"/>
+        </option>
+        <option desc="总是使用超级普通武器 PL1">
+            <parameter cpu="0" address="0x1215" value="0x21"/>
+        </option>
+        <option desc="总是使用长激光 PL1">
+            <parameter cpu="0" address="0x1215" value="0x02"/>
+        </option>
+        <option desc="总是使用超级长激光 PL1">
+            <parameter cpu="0" address="0x1215" value="0x22"/>
+        </option>
+        <option desc="总是使用短激光 PL1">
+            <parameter cpu="0" address="0x1215" value="0x03"/>
+        </option>
+        <option desc="总是使用超级短激光 PL1">
+            <parameter cpu="0" address="0x1215" value="0x23"/>
+        </option>
+        <option desc="总是使用急速炮 PL1">
+            <parameter cpu="0" address="0x1215" value="0x04"/>
+        </option>
+        <option desc="总是使用超级急速炮 PL1">
+            <parameter cpu="0" address="0x1215" value="0x24"/>
+        </option>
+        <option desc="总是使用扩展炮 PL1">
+            <parameter cpu="0" address="0x1215" value="0x0A"/>
+        </option>
+        <option desc="总是使用超级扩展炮 PL1">
+            <parameter cpu="0" address="0x1215" value="0x2A"/>
+        </option>
+        <option desc="总是使用火球PL1">
+            <parameter cpu="0" address="0x1215" value="0x14"/>
+        </option>
+        <option desc="总是使用超级火球 PL1">
+            <parameter cpu="0" address="0x1215" value="0x34"/>
+        </option>
+        <option desc="立即得到普通武器! PL1">
+            <parameter cpu="0" address="0x1215" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x34DC" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1305" value="0x01"/>
+            <parameter cpu="0" address="0x1306" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="始终是普通武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="始终是普通武器 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x01"/>
+        </option>
+        <option desc="总是使用超级普通武器 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x21"/>
+        </option>
+        <option desc="总是使用长激光 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x02"/>
+        </option>
+        <option desc="总是使用超级长激光 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x22"/>
+        </option>
+        <option desc="总是使用短激光 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x03"/>
+        </option>
+        <option desc="总是使用超级短激光 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x23"/>
+        </option>
+        <option desc="总是使用急速炮 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x04"/>
+        </option>
+        <option desc="总是使用超级急速炮 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x24"/>
+        </option>
+        <option desc="总是使用扩展炮 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x0A"/>
+        </option>
+        <option desc="总是使用超级扩展炮 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x2A"/>
+        </option>
+        <option desc="总是使用火球PL2">
+            <parameter cpu="0" address="0x12D5" value="0x14"/>
+        </option>
+        <option desc="总是使用超级火球 PL2">
+            <parameter cpu="0" address="0x12D5" value="0x34"/>
+        </option>
+        <option desc="立即得到普通武器! PL2">
+            <parameter cpu="0" address="0x12D5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1809" value="0xF0"/>
+        </option>
+    </cheat>
+</shufflecheat>

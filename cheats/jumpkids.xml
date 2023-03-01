@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120022" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12045A" value="0x00"/>
+            <parameter cpu="0" address="0x12045B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="失去所有装备 ! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="失去所有装备 ! PL1">
+            <parameter cpu="0" address="0x120458" value="0x00"/>
+        </option>
+        <option desc="总是有拳头 PL1">
+            <parameter cpu="0" address="0x120458" value="0x01"/>
+        </option>
+        <option desc="总是有铁锤 PL1">
+            <parameter cpu="0" address="0x120458" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120473" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12065A" value="0x00"/>
+            <parameter cpu="0" address="0x12065B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="失去所有装备 ! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="失去所有装备 ! PL2">
+            <parameter cpu="0" address="0x120658" value="0x00"/>
+        </option>
+        <option desc="总是有拳头 PL2">
+            <parameter cpu="0" address="0x120658" value="0x01"/>
+        </option>
+        <option desc="总是有铁锤 PL2">
+            <parameter cpu="0" address="0x120658" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x120673" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1200B9" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="得到全部字母TUMBLEPOP !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1200B4" value="0x01"/>
+            <parameter cpu="0" address="0x1200B5" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 1 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121425" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 2 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121A25" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 3 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1211E5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 4 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121365" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 5 -B.P. !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121DE5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 5 -M.P. !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121E45" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 5 -Head !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121EA5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 6 -R.P. !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121A85" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 7 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121665" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 8 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x121D85" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="去到世界(关卡) 9" default="0">
+        <option desc="关闭"/>
+        <option desc="去到世界(关卡) 9">
+            <parameter cpu="0" address="0x120099" value="0x08"/>
+        </option>
+        <option desc="去到世界(关卡) 10">
+            <parameter cpu="0" address="0x120099" value="0x09"/>
+        </option>
+    </cheat>
+</shufflecheat>

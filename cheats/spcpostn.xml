@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC3E2" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限燃料 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC40D" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC408" value="0x00"/>
+            <parameter cpu="0" address="0xC409" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是高速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC412" value="0x0C"/>
+            <parameter cpu="0" address="0xC413" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限燃料 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC467" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC462" value="0x00"/>
+            <parameter cpu="0" address="0xC463" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是高速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC46C" value="0x0C"/>
+            <parameter cpu="0" address="0xC46D" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="试验关卡">
+            <parameter cpu="0" address="0xCFC3" value="0x00"/>
+        </option>
+        <option desc="大奖赛关卡">
+            <parameter cpu="0" address="0xCFC3" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

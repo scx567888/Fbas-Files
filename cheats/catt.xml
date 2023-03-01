@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101DD3" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101DCF" value="0x0C"/>
+            <parameter cpu="0" address="0x101DD1" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101E65" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有彗星枪" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有彗星枪">
+            <parameter cpu="0" address="0x101DD5" value="0x01"/>
+        </option>
+        <option desc="总是有蓝色枪">
+            <parameter cpu="0" address="0x101DD5" value="0x02"/>
+        </option>
+        <option desc="总是有炸弹">
+            <parameter cpu="0" address="0x101DD5" value="0x03"/>
+        </option>
+        <option desc="总是有双枪">
+            <parameter cpu="0" address="0x101DD5" value="0x04"/>
+        </option>
+        <option desc="总是有猫头枪">
+            <parameter cpu="0" address="0x101DD5" value="0x05"/>
+        </option>
+        <option desc="总是有火龙枪">
+            <parameter cpu="0" address="0x101DD5" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000E3" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10130C" value="0x84"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000FD" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101354" value="0x84"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100117" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013A4" value="0x84"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100131" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1013F4" value="0x84"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变超大(BOSS关除外) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变超大(BOSS关除外) PL1">
+            <parameter cpu="0" address="0x101311" value="0x9F"/>
+        </option>
+        <option desc="总是超大无敌前冲 PL1">
+            <parameter cpu="0" address="0x101311" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变超大(BOSS关除外) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变超大(BOSS关除外) PL2">
+            <parameter cpu="0" address="0x101361" value="0x9F"/>
+        </option>
+        <option desc="总是超大无敌前冲 PL2">
+            <parameter cpu="0" address="0x101361" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变超大(BOSS关除外) PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变超大(BOSS关除外) PL3">
+            <parameter cpu="0" address="0x1013B1" value="0x9F"/>
+        </option>
+        <option desc="总是超大无敌前冲 PL3">
+            <parameter cpu="0" address="0x1013B1" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变超大(BOSS关除外) PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变超大(BOSS关除外) PL4">
+            <parameter cpu="0" address="0x101401" value="0x9F"/>
+        </option>
+        <option desc="总是超大无敌前冲 PL4">
+            <parameter cpu="0" address="0x101401" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有3000超级分数奖励" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有3000超级分数奖励">
+            <parameter cpu="0" address="0x101295" value="0x03"/>
+        </option>
+        <option desc="总是有5000超级分数奖励">
+            <parameter cpu="0" address="0x101295" value="0x02"/>
+        </option>
+        <option desc="总是有10000超级分数奖励">
+            <parameter cpu="0" address="0x101295" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

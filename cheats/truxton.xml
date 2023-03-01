@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81D17" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限头骨" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81847" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启'" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启'">
+            <parameter cpu="0" address="0x81838" value="0x00"/>
+        </option>
+        <option desc="无敌 '关闭'">
+            <parameter cpu="0" address="0x81838" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="得到最大速度 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81855" value="0x22"/>
+        </option>
+    </cheat>
+    <cheat desc="得到4 P !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81D2D" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="得到更好武器 !" default="0">
+        <option desc="关闭"/>
+        <option desc="得到更好武器 !">
+            <parameter cpu="0" address="0x81845" value="0x01"/>
+        </option>
+        <option desc="得到最好武器 !">
+            <parameter cpu="0" address="0x81845" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是红色火力" default="0">
+        <option desc="关闭"/>
+        <option desc="总是红色火力">
+            <parameter cpu="0" address="0x81841" value="0x00"/>
+            <parameter cpu="0" address="0x81843" value="0x00"/>
+        </option>
+        <option desc="总是绿色火力">
+            <parameter cpu="0" address="0x81841" value="0x08"/>
+            <parameter cpu="0" address="0x81843" value="0x08"/>
+        </option>
+        <option desc="总是蓝色火力">
+            <parameter cpu="0" address="0x81841" value="0x10"/>
+            <parameter cpu="0" address="0x81843" value="0x10"/>
+        </option>
+    </cheat>
+</shufflecheat>

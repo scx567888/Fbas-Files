@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x815" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x594C" value="0x09"/>
+            <parameter cpu="0" address="0x594D" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x83C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA70" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x843" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xA47" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1A32" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌(仅仅单数关) ''开启'' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌(仅仅单数关) ''开启'' PL1">
+            <parameter cpu="0" address="0x987" value="0x40"/>
+        </option>
+        <option desc="无敌(仅仅单数关) ''关闭'' PL1">
+            <parameter cpu="0" address="0x987" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌(仅仅双数关) ''开启'' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌(仅仅双数关) ''开启'' PL1">
+            <parameter cpu="0" address="0xA48" value="0x40"/>
+        </option>
+        <option desc="无敌(仅仅双数关) ''关闭''PL1">
+            <parameter cpu="0" address="0xA48" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x83D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xAF0" value="0x12"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x845" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限火球 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xAC7" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限续币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1A33" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌(仅仅单数关) ''开启'' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌(仅仅单数关) ''开启'' PL2">
+            <parameter cpu="0" address="0x988" value="0x40"/>
+        </option>
+        <option desc="无敌(仅仅单数关) ''关闭'' PL2">
+            <parameter cpu="0" address="0x988" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌(仅仅双数关) ''开启'' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌(仅仅双数关) ''开启'' PL2">
+            <parameter cpu="0" address="0xAC8" value="0x40"/>
+        </option>
+        <option desc="无敌(仅仅双数关) ''关闭''PL2">
+            <parameter cpu="0" address="0xAC8" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

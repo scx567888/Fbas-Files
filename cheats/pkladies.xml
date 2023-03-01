@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限得点" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE703" value="0x09"/>
+            <parameter cpu="0" address="0xE704" value="0x09"/>
+            <parameter cpu="0" address="0xE705" value="0x09"/>
+            <parameter cpu="0" address="0xE706" value="0x09"/>
+            <parameter cpu="0" address="0xE707" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE70F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="得到RF - 5000点 !" default="0">
+        <option desc="关闭"/>
+        <option desc="得到RF - 5000点 !">
+            <parameter cpu="0" address="0xE200" value="0x31"/>
+            <parameter cpu="0" address="0xE201" value="0x3D"/>
+            <parameter cpu="0" address="0xE202" value="0x3C"/>
+            <parameter cpu="0" address="0xE203" value="0x3B"/>
+            <parameter cpu="0" address="0xE204" value="0x3A"/>
+            <parameter cpu="0" address="0xE220" value="0x09"/>
+        </option>
+        <option desc="得到SF - 2000点 !">
+            <parameter cpu="0" address="0xE200" value="0x16"/>
+            <parameter cpu="0" address="0xE201" value="0x17"/>
+            <parameter cpu="0" address="0xE202" value="0x18"/>
+            <parameter cpu="0" address="0xE203" value="0x19"/>
+            <parameter cpu="0" address="0xE204" value="0x1A"/>
+            <parameter cpu="0" address="0xE220" value="0x08"/>
+        </option>
+        <option desc="得到FK - 1000点 !">
+            <parameter cpu="0" address="0xE200" value="0x14"/>
+            <parameter cpu="0" address="0xE201" value="0x24"/>
+            <parameter cpu="0" address="0xE202" value="0x34"/>
+            <parameter cpu="0" address="0xE203" value="0x44"/>
+            <parameter cpu="0" address="0xE204" value="0x27"/>
+            <parameter cpu="0" address="0xE220" value="0x07"/>
+        </option>
+        <option desc="得到FH -  700点 !">
+            <parameter cpu="0" address="0xE200" value="0x29"/>
+            <parameter cpu="0" address="0xE201" value="0x49"/>
+            <parameter cpu="0" address="0xE202" value="0x18"/>
+            <parameter cpu="0" address="0xE203" value="0x28"/>
+            <parameter cpu="0" address="0xE204" value="0x38"/>
+            <parameter cpu="0" address="0xE220" value="0x06"/>
+        </option>
+        <option desc="得到FL -  500点 !">
+            <parameter cpu="0" address="0xE200" value="0x2C"/>
+            <parameter cpu="0" address="0xE201" value="0x2B"/>
+            <parameter cpu="0" address="0xE202" value="0x27"/>
+            <parameter cpu="0" address="0xE203" value="0x25"/>
+            <parameter cpu="0" address="0xE204" value="0x22"/>
+            <parameter cpu="0" address="0xE220" value="0x05"/>
+        </option>
+        <option desc="得到ST -  300点 !">
+            <parameter cpu="0" address="0xE200" value="0x37"/>
+            <parameter cpu="0" address="0xE201" value="0x26"/>
+            <parameter cpu="0" address="0xE202" value="0x45"/>
+            <parameter cpu="0" address="0xE203" value="0x44"/>
+            <parameter cpu="0" address="0xE204" value="0x23"/>
+            <parameter cpu="0" address="0xE220" value="0x04"/>
+        </option>
+        <option desc="得到TK -  200点 !">
+            <parameter cpu="0" address="0xE200" value="0x12"/>
+            <parameter cpu="0" address="0xE201" value="0x32"/>
+            <parameter cpu="0" address="0xE202" value="0x42"/>
+            <parameter cpu="0" address="0xE203" value="0x4B"/>
+            <parameter cpu="0" address="0xE204" value="0x1A"/>
+            <parameter cpu="0" address="0xE220" value="0x03"/>
+        </option>
+        <option desc="得到TP -  100点 !">
+            <parameter cpu="0" address="0xE200" value="0x25"/>
+            <parameter cpu="0" address="0xE201" value="0x35"/>
+            <parameter cpu="0" address="0xE202" value="0x13"/>
+            <parameter cpu="0" address="0xE203" value="0x43"/>
+            <parameter cpu="0" address="0xE204" value="0x29"/>
+            <parameter cpu="0" address="0xE220" value="0x02"/>
+        </option>
+        <option desc="得到JB -   50点 !">
+            <parameter cpu="0" address="0xE200" value="0x1D"/>
+            <parameter cpu="0" address="0xE201" value="0x4D"/>
+            <parameter cpu="0" address="0xE202" value="0x1C"/>
+            <parameter cpu="0" address="0xE203" value="0x28"/>
+            <parameter cpu="0" address="0xE204" value="0x36"/>
+            <parameter cpu="0" address="0xE220" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

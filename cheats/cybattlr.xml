@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FD101" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB015" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB013" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓄力-剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB03C" value="0x27"/>
+            <parameter cpu="0" address="0x1FB03D" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力-枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB042" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB095" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB093" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓄力-剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB0BC" value="0x27"/>
+            <parameter cpu="0" address="0x1FB0BD" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="最大火力-枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1FB0C2" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2014F1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201312" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201629" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203142" value="0x02"/>
+            <parameter cpu="0" address="0x203143" value="0xC0"/>
+            <parameter cpu="0" address="0x203144" value="0x02"/>
+            <parameter cpu="0" address="0x203145" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203146" value="0x02"/>
+            <parameter cpu="0" address="0x203147" value="0xC0"/>
+            <parameter cpu="0" address="0x203148" value="0x02"/>
+            <parameter cpu="0" address="0x203149" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有剑 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203009" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量锁定 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2031F3" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20308F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是开启特殊攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20314E" value="0xFF"/>
+            <parameter cpu="0" address="0x20314F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完美(奖励关)PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201269" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大得分 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201623" value="0x98"/>
+            <parameter cpu="0" address="0x201624" value="0x96"/>
+            <parameter cpu="0" address="0x201625" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="正常颜色">
+            <parameter cpu="0" address="0x201634" value="0x0F00"/>
+        </option>
+        <option desc="隐藏颜色">
+            <parameter cpu="0" address="0x201634" value="0x1801"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201829" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203342" value="0x02"/>
+            <parameter cpu="0" address="0x203343" value="0xC0"/>
+            <parameter cpu="0" address="0x203344" value="0x02"/>
+            <parameter cpu="0" address="0x203345" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203346" value="0x02"/>
+            <parameter cpu="0" address="0x203347" value="0xC0"/>
+            <parameter cpu="0" address="0x203348" value="0x02"/>
+            <parameter cpu="0" address="0x203349" value="0xC0"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有剑 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203209" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量锁定 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2033F3" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20328F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是开启特殊攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20334E" value="0xFF"/>
+            <parameter cpu="0" address="0x20334F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是完美(奖励关)PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20126B" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大得分 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2016A3" value="0x98"/>
+            <parameter cpu="0" address="0x2016A4" value="0x96"/>
+            <parameter cpu="0" address="0x2016A5" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="正常颜色">
+            <parameter cpu="0" address="0x2016B4" value="0x0F00"/>
+        </option>
+        <option desc="隐藏颜色">
+            <parameter cpu="0" address="0x2016B4" value="0x1801"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,2617 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80C06E" value="0x5A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812D3B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="秒蓄气及气不减" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1244A4" value="0x00"/>
+            <parameter cpu="0" address="0x129581" value="0x60"/>
+            <parameter cpu="0" address="0x1294B4" value="0x60"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C4A2" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81BE99" value="0x48"/>
+            <parameter cpu="0" address="0x81C6A5" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="怒气值无限(先蓄满气) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81BF73" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL1 (有错误)" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL1 (有错误)">
+            <parameter cpu="0" address="0x81BF60" value="0x80"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL1">
+            <parameter cpu="0" address="0x81BF60" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="孙悟空">
+            <parameter cpu="0" address="0x81C49A" value="0x00"/>
+        </option>
+        <option desc="猪八戒">
+            <parameter cpu="0" address="0x81C49A" value="0x01"/>
+        </option>
+        <option desc="沙僧">
+            <parameter cpu="0" address="0x81C49A" value="0x02"/>
+        </option>
+        <option desc="小龙女">
+            <parameter cpu="0" address="0x81C49A" value="0x03"/>
+        </option>
+        <option desc="龙马">
+            <parameter cpu="0" address="0x81C49A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="动作加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81BE41" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C6EE" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81BFD7" value="0x48"/>
+            <parameter cpu="0" address="0x81C8F1" value="0x68"/>
+        </option>
+    </cheat>
+    <cheat desc="怒气值无限(先蓄满气) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C0B1" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL2 (有错误)" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL2 (有错误)">
+            <parameter cpu="0" address="0x81C09E" value="0x80"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL2">
+            <parameter cpu="0" address="0x81C09E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="孙悟空">
+            <parameter cpu="0" address="0x81C6E6" value="0x00"/>
+        </option>
+        <option desc="猪八戒">
+            <parameter cpu="0" address="0x81C6E6" value="0x01"/>
+        </option>
+        <option desc="沙僧">
+            <parameter cpu="0" address="0x81C6E6" value="0x02"/>
+        </option>
+        <option desc="小龙女">
+            <parameter cpu="0" address="0x81C6E6" value="0x03"/>
+        </option>
+        <option desc="龙马">
+            <parameter cpu="0" address="0x81C6E6" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C93A" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C115" value="0x48"/>
+            <parameter cpu="0" address="0x81CB3D" value="0xA0"/>
+        </option>
+    </cheat>
+    <cheat desc="怒气值无限(先蓄满气) PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C1EF" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL3 (有错误)" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL3 (有错误)">
+            <parameter cpu="0" address="0x81C1DC" value="0x80"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL3">
+            <parameter cpu="0" address="0x81C1DC" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="孙悟空">
+            <parameter cpu="0" address="0x81C932" value="0x00"/>
+        </option>
+        <option desc="猪八戒">
+            <parameter cpu="0" address="0x81C932" value="0x01"/>
+        </option>
+        <option desc="沙僧">
+            <parameter cpu="0" address="0x81C932" value="0x02"/>
+        </option>
+        <option desc="小龙女">
+            <parameter cpu="0" address="0x81C932" value="0x03"/>
+        </option>
+        <option desc="龙马">
+            <parameter cpu="0" address="0x81C932" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81CB86" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C253" value="0x48"/>
+            <parameter cpu="0" address="0x81CD89" value="0xD8"/>
+        </option>
+    </cheat>
+    <cheat desc="怒气值无限(先蓄满气) PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81C32D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL4 (有错误)" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL4 (有错误)">
+            <parameter cpu="0" address="0x81C31A" value="0x80"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL4">
+            <parameter cpu="0" address="0x81C31A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="孙悟空">
+            <parameter cpu="0" address="0x81CB7E" value="0x00"/>
+        </option>
+        <option desc="猪八戒">
+            <parameter cpu="0" address="0x81CB7E" value="0x01"/>
+        </option>
+        <option desc="沙僧">
+            <parameter cpu="0" address="0x81CB7E" value="0x02"/>
+        </option>
+        <option desc="小龙女">
+            <parameter cpu="0" address="0x81CB7E" value="0x03"/>
+        </option>
+        <option desc="龙马">
+            <parameter cpu="0" address="0x81CB7E" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="空手无武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="空手无武器 PL1">
+            <parameter cpu="0" address="0x81BF04" value="0x00"/>
+        </option>
+        <option desc="自身武器永在手 PL1">
+            <parameter cpu="0" address="0x81BF04" value="0x01"/>
+        </option>
+        <option desc="持刀 PL1">
+            <parameter cpu="0" address="0x81BF04" value="0x02"/>
+        </option>
+        <option desc="拿火把 PL1">
+            <parameter cpu="0" address="0x81BF04" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="可拥有8样道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81119C" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81118B" value="0x06"/>
+            <parameter cpu="0" address="0x81118D" value="0x03"/>
+            <parameter cpu="0" address="0x81118F" value="0x03"/>
+            <parameter cpu="0" address="0x811191" value="0x03"/>
+            <parameter cpu="0" address="0x811193" value="0x03"/>
+            <parameter cpu="0" address="0x811195" value="0x03"/>
+            <parameter cpu="0" address="0x811197" value="0x03"/>
+            <parameter cpu="0" address="0x811199" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81118A" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81118A" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81118A" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81118A" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81118A" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81118A" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81118A" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81118A" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81118A" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81118A" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81118A" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81118A" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81118A" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81118A" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81118A" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81118A" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81118A" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81118A" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81118A" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81118A" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81118A" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81118A" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81118C" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81118C" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81118C" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81118C" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81118C" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81118C" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81118C" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81118C" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81118C" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81118C" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81118C" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81118C" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81118C" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81118C" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81118C" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81118C" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81118C" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81118C" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81118C" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81118C" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81118C" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81118C" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81118E" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81118E" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81118E" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81118E" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81118E" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81118E" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81118E" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81118E" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81118E" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81118E" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81118E" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81118E" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81118E" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81118E" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81118E" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81118E" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81118E" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81118E" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81118E" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81118E" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81118E" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81118E" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811190" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811190" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811190" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811190" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811190" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811190" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811190" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811190" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811190" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811190" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811190" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811190" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811190" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811190" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811190" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811190" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811190" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811190" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811190" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811190" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811190" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811190" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具5 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811192" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811192" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811192" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811192" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811192" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811192" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811192" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811192" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811192" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811192" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811192" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811192" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811192" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811192" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811192" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811192" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811192" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811192" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811192" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811192" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811192" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811192" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具6 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811194" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811194" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811194" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811194" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811194" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811194" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811194" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811194" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811194" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811194" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811194" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811194" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811194" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811194" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811194" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811194" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811194" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811194" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811194" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811194" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811194" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811194" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具7 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811196" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811196" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811196" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811196" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811196" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811196" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811196" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811196" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811196" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811196" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811196" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811196" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811196" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811196" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811196" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811196" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811196" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811196" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811196" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811196" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811196" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811196" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具8 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811198" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811198" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811198" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811198" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811198" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811198" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811198" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811198" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811198" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811198" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811198" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811198" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811198" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811198" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811198" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811198" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811198" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811198" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811198" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811198" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811198" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811198" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="空手无武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="空手无武器 PL2">
+            <parameter cpu="0" address="0x81C042" value="0x00"/>
+        </option>
+        <option desc="自身武器永在手 PL2">
+            <parameter cpu="0" address="0x81C042" value="0x01"/>
+        </option>
+        <option desc="持刀 PL2">
+            <parameter cpu="0" address="0x81C042" value="0x02"/>
+        </option>
+        <option desc="拿火把 PL2">
+            <parameter cpu="0" address="0x81C042" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="可拥有8样道具 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81121A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811209" value="0x06"/>
+            <parameter cpu="0" address="0x81120B" value="0x03"/>
+            <parameter cpu="0" address="0x81120D" value="0x03"/>
+            <parameter cpu="0" address="0x81120F" value="0x03"/>
+            <parameter cpu="0" address="0x811211" value="0x03"/>
+            <parameter cpu="0" address="0x811213" value="0x03"/>
+            <parameter cpu="0" address="0x811215" value="0x03"/>
+            <parameter cpu="0" address="0x811217" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811208" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811208" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811208" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811208" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811208" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811208" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811208" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811208" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811208" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811208" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811208" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811208" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811208" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811208" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811208" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811208" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811208" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811208" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811208" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811208" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811208" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811208" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81120A" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81120A" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81120A" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81120A" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81120A" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81120A" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81120A" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81120A" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81120A" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81120A" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81120A" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81120A" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81120A" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81120A" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81120A" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81120A" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81120A" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81120A" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81120A" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81120A" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81120A" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81120A" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81120C" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81120C" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81120C" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81120C" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81120C" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81120C" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81120C" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81120C" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81120C" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81120C" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81120C" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81120C" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81120C" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81120C" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81120C" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81120C" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81120C" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81120C" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81120C" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81120C" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81120C" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81120C" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81120E" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81120E" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81120E" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81120E" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81120E" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81120E" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81120E" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81120E" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81120E" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81120E" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81120E" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81120E" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81120E" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81120E" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81120E" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81120E" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81120E" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81120E" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81120E" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81120E" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81120E" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81120E" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具5 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811210" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811210" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811210" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811210" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811210" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811210" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811210" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811210" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811210" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811210" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811210" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811210" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811210" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811210" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811210" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811210" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811210" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811210" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811210" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811210" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811210" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811210" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具6 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811212" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811212" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811212" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811212" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811212" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811212" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811212" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811212" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811212" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811212" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811212" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811212" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811212" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811212" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811212" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811212" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811212" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811212" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811212" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811212" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811212" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811212" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具7 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811214" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811214" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811214" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811214" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811214" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811214" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811214" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811214" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811214" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811214" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811214" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811214" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811214" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811214" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811214" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811214" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811214" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811214" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811214" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811214" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811214" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811214" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具8 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811216" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811216" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811216" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811216" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811216" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811216" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811216" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811216" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811216" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811216" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811216" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811216" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811216" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811216" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811216" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811216" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811216" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811216" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811216" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811216" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811216" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811216" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="空手无武器 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="空手无武器 PL3">
+            <parameter cpu="0" address="0x81C180" value="0x00"/>
+        </option>
+        <option desc="自身武器永在手 PL3">
+            <parameter cpu="0" address="0x81C180" value="0x01"/>
+        </option>
+        <option desc="持刀 PL3">
+            <parameter cpu="0" address="0x81C180" value="0x02"/>
+        </option>
+        <option desc="拿火把 PL3">
+            <parameter cpu="0" address="0x81C180" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="可拥有8样道具 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811298" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811287" value="0x06"/>
+            <parameter cpu="0" address="0x811289" value="0x03"/>
+            <parameter cpu="0" address="0x81128B" value="0x03"/>
+            <parameter cpu="0" address="0x81128D" value="0x03"/>
+            <parameter cpu="0" address="0x81128F" value="0x03"/>
+            <parameter cpu="0" address="0x811291" value="0x03"/>
+            <parameter cpu="0" address="0x811293" value="0x03"/>
+            <parameter cpu="0" address="0x811295" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具1 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811286" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811286" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811286" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811286" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811286" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811286" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811286" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811286" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811286" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811286" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811286" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811286" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811286" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811286" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811286" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811286" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811286" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811286" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811286" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811286" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811286" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811286" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具2 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811288" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811288" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811288" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811288" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811288" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811288" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811288" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811288" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811288" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811288" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811288" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811288" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811288" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811288" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811288" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811288" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811288" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811288" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811288" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811288" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811288" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811288" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具3 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81128A" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81128A" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81128A" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81128A" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81128A" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81128A" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81128A" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81128A" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81128A" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81128A" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81128A" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81128A" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81128A" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81128A" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81128A" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81128A" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81128A" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81128A" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81128A" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81128A" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81128A" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81128A" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具4 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81128C" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81128C" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81128C" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81128C" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81128C" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81128C" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81128C" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81128C" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81128C" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81128C" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81128C" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81128C" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81128C" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81128C" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81128C" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81128C" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81128C" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81128C" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81128C" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81128C" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81128C" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81128C" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具5 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x81128E" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x81128E" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x81128E" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x81128E" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x81128E" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x81128E" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x81128E" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x81128E" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x81128E" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x81128E" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x81128E" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x81128E" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x81128E" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x81128E" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x81128E" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x81128E" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x81128E" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x81128E" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x81128E" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x81128E" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x81128E" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x81128E" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具6 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811290" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811290" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811290" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811290" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811290" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811290" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811290" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811290" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811290" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811290" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811290" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811290" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811290" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811290" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811290" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811290" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811290" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811290" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811290" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811290" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811290" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811290" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具7 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811292" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811292" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811292" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811292" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811292" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811292" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811292" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811292" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811292" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811292" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811292" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811292" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811292" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811292" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811292" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811292" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811292" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811292" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811292" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811292" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811292" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811292" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具8 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811294" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811294" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811294" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811294" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811294" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811294" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811294" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811294" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811294" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811294" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811294" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811294" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811294" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811294" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811294" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811294" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811294" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811294" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811294" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811294" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811294" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811294" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="空手无武器 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="空手无武器 PL4">
+            <parameter cpu="0" address="0x81C2BE" value="0x00"/>
+        </option>
+        <option desc="自身武器永在手 PL4">
+            <parameter cpu="0" address="0x81C2BE" value="0x01"/>
+        </option>
+        <option desc="持刀 PL4">
+            <parameter cpu="0" address="0x81C2BE" value="0x02"/>
+        </option>
+        <option desc="拿火把 PL4">
+            <parameter cpu="0" address="0x81C2BE" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具7 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="可拥有8样道具 PL4">
+            <parameter cpu="0" address="0x811316" value="0x08"/>
+        </option>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811316" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811316" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811316" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811316" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811316" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811316" value="0x07"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811316" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811316" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811316" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811316" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811316" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811316" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811316" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811316" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811316" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811316" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811316" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811316" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811316" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811316" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811316" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="无限道具 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811305" value="0x06"/>
+            <parameter cpu="0" address="0x811307" value="0x03"/>
+            <parameter cpu="0" address="0x811309" value="0x03"/>
+            <parameter cpu="0" address="0x81130B" value="0x03"/>
+            <parameter cpu="0" address="0x81130D" value="0x03"/>
+            <parameter cpu="0" address="0x81130F" value="0x03"/>
+            <parameter cpu="0" address="0x811311" value="0x03"/>
+            <parameter cpu="0" address="0x811313" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具1 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811304" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811304" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811304" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811304" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811304" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811304" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811304" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811304" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811304" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811304" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811304" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811304" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811304" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811304" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811304" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811304" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811304" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811304" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811304" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811304" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811304" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811304" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具2 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811306" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811306" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811306" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811306" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811306" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811306" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811306" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811306" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811306" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811306" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811306" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811306" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811306" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811306" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811306" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811306" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811306" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811306" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811306" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811306" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811306" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811306" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具3 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811308" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811308" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811308" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811308" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811308" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811308" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811308" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811308" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811308" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811308" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811308" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811308" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811308" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811308" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811308" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811308" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811308" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811308" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811308" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811308" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811308" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811308" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具4 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811310" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811310" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811310" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811310" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811310" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811310" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811310" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811310" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811310" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811310" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811310" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811310" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811310" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811310" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811310" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811310" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811310" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811310" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811310" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811310" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811310" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811310" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具5 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811312" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811312" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811312" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811312" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811312" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811312" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811312" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811312" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811312" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811312" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811312" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811312" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811312" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811312" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811312" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811312" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811312" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811312" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811312" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811312" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811312" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811312" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具6 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811314" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811314" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811314" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811314" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811314" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811314" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811314" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811314" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811314" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811314" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811314" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811314" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811314" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811314" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811314" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811314" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811314" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811314" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811314" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811314" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811314" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811314" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc="选择道具8 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="刀（金）">
+            <parameter cpu="0" address="0x811318" value="0x02"/>
+        </option>
+        <option desc="火把（火）">
+            <parameter cpu="0" address="0x811318" value="0x03"/>
+        </option>
+        <option desc="霹雳弹（火）">
+            <parameter cpu="0" address="0x811318" value="0x04"/>
+        </option>
+        <option desc="火扇（火）">
+            <parameter cpu="0" address="0x811318" value="0x05"/>
+        </option>
+        <option desc="冰扇（水）">
+            <parameter cpu="0" address="0x811318" value="0x06"/>
+        </option>
+        <option desc="照妖镜（火）">
+            <parameter cpu="0" address="0x811318" value="0x07"/>
+        </option>
+        <option desc="天师符（土）">
+            <parameter cpu="0" address="0x811318" value="0x08"/>
+        </option>
+        <option desc="玲珑宝塔（土）">
+            <parameter cpu="0" address="0x811318" value="0x09"/>
+        </option>
+        <option desc="回旋刀（金）">
+            <parameter cpu="0" address="0x811318" value="0x0A"/>
+        </option>
+        <option desc="乾坤葫芦（土）">
+            <parameter cpu="0" address="0x811318" value="0x0B"/>
+        </option>
+        <option desc="无影刀（金）">
+            <parameter cpu="0" address="0x811318" value="0x0C"/>
+        </option>
+        <option desc="突木桩（木）">
+            <parameter cpu="0" address="0x811318" value="0x0D"/>
+        </option>
+        <option desc="寒冰掌（水）">
+            <parameter cpu="0" address="0x811318" value="0x0E"/>
+        </option>
+        <option desc="天罡火（火）">
+            <parameter cpu="0" address="0x811318" value="0x0F"/>
+        </option>
+        <option desc="地煞功（土）">
+            <parameter cpu="0" address="0x811318" value="0x10"/>
+        </option>
+        <option desc="S(无效道具)">
+            <parameter cpu="0" address="0x811318" value="0x11"/>
+        </option>
+        <option desc="定风珠（木）">
+            <parameter cpu="0" address="0x811318" value="0x12"/>
+        </option>
+        <option desc="雷电戟（木）">
+            <parameter cpu="0" address="0x811318" value="0x13"/>
+        </option>
+        <option desc="玄冰斧（水）">
+            <parameter cpu="0" address="0x811318" value="0x14"/>
+        </option>
+        <option desc="火云刀（火）">
+            <parameter cpu="0" address="0x811318" value="0x15"/>
+        </option>
+        <option desc="释厄剑（金）">
+            <parameter cpu="0" address="0x811318" value="0x16"/>
+        </option>
+        <option desc="金刚咒（土）">
+            <parameter cpu="0" address="0x811318" value="0x17"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选关 平顶山莲花洞" default="0">
+        <option desc="关闭"/>
+        <option desc="选关 平顶山莲花洞">
+            <parameter cpu="0" address="0x80C03A" value="0x00"/>
+        </option>
+        <option desc="选关 枯松涧火云洞">
+            <parameter cpu="0" address="0x80C03A" value="0x01"/>
+        </option>
+        <option desc="选关 车迟国智渊寺">
+            <parameter cpu="0" address="0x80C03A" value="0x02"/>
+        </option>
+        <option desc="选关 通天河水鱼之家">
+            <parameter cpu="0" address="0x80C03A" value="0x03"/>
+        </option>
+        <option desc="选关 盘丝岭盘丝洞">
+            <parameter cpu="0" address="0x80C03A" value="0x04"/>
+        </option>
+        <option desc="选关 狮驼岭狮驼洞">
+            <parameter cpu="0" address="0x80C03A" value="0x05"/>
+        </option>
+        <option desc="选关 陷空山无底洞">
+            <parameter cpu="0" address="0x80C03A" value="0x06"/>
+        </option>
+        <option desc="选关 火焰山芭蕉洞">
+            <parameter cpu="0" address="0x80C03A" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="每关第一层" default="0">
+        <option desc="关闭"/>
+        <option desc="每关第一层">
+            <parameter cpu="0" address="0x80C03B" value="0x00"/>
+        </option>
+        <option desc="每关第二层">
+            <parameter cpu="0" address="0x80C03B" value="0x01"/>
+        </option>
+        <option desc="每关第三层">
+            <parameter cpu="0" address="0x80C03B" value="0x02"/>
+        </option>
+        <option desc="每关第四层">
+            <parameter cpu="0" address="0x80C03B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="怒气值一蓄即满" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81BF4C" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="人物总是可动" default="0">
+        <option desc="关闭"/>
+        <option desc="人物总是可动">
+            <parameter cpu="0" address="0x811121" value="0x01"/>
+        </option>
+        <option desc="取消人物总是可动">
+            <parameter cpu="0" address="0x811121" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

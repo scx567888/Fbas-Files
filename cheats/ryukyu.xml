@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203885" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201D0B" value="0x0F"/>
+            <parameter cpu="0" address="0x201D0C" value="0x00"/>
+            <parameter cpu="0" address="0x201D0D" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限悔步" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2022B1" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大清除点数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201CF8" value="0x00"/>
+            <parameter cpu="0" address="0x201CF9" value="0x00"/>
+            <parameter cpu="0" address="0x201CFA" value="0x00"/>
+            <parameter cpu="0" address="0x201CFB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大点数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201D06" value="0x09"/>
+            <parameter cpu="0" address="0x201D07" value="0x99"/>
+            <parameter cpu="0" address="0x201D08" value="0x99"/>
+            <parameter cpu="0" address="0x201D09" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前牌" default="0">
+        <option desc="关闭"/>
+        <option desc="梅花 - Ace">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x01"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 2">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x02"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 3">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x03"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 4">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x04"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 5">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x05"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 6">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x06"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 7">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x07"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 8">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x08"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 9">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x09"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - 10">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0A"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - Jack">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0B"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - Queen">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0C"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="梅花 - King">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0D"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x01"/>
+        </option>
+        <option desc="方片 - Ace">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x01"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 2">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x02"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 3">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x03"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 4">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x04"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 5">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x05"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 6">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x06"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 7">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x07"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 8">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x08"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 9">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x09"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - 10">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0A"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - Jack">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0B"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - Queen">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0C"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="方片 - King">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0D"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x02"/>
+        </option>
+        <option desc="黑桃 - Ace">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x01"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 2">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x02"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 3">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x03"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 4">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x04"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 5">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x05"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 6">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x06"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 7">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x07"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 8">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x08"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 9">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x09"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - 10">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0A"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - Jack">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0B"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - Queen">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0C"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="黑桃 - King">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0D"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x03"/>
+        </option>
+        <option desc="红桃 - Ace">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x01"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 2">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x02"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 3">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x03"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 4">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x04"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 5">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x05"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 6">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x06"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 7">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x07"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 8">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x08"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 9">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x09"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - 10">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0A"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - Jack">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0B"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - Queen">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0C"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="红桃 - King">
+            <parameter cpu="0" address="0x201E4A" value="0x00"/>
+            <parameter cpu="0" address="0x201E4B" value="0x0D"/>
+            <parameter cpu="0" address="0x201E4C" value="0x00"/>
+            <parameter cpu="0" address="0x201E4D" value="0x04"/>
+        </option>
+        <option desc="王">
+            <parameter cpu="0" address="0x201E4A" value="0xFF"/>
+            <parameter cpu="0" address="0x201E4B" value="0xFF"/>
+            <parameter cpu="0" address="0x201E4C" value="0xFF"/>
+            <parameter cpu="0" address="0x201E4D" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x201D01" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x201D01" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x201D01" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x201D01" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x201D01" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x201D01" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0x201D01" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0x201D01" value="0x08"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0x201D01" value="0x09"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0x201D01" value="0x0A"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0x201D01" value="0x0B"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0x201D01" value="0x0C"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0x201D01" value="0x0D"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0x201D01" value="0x0E"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0x201D01" value="0x0F"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0x201D01" value="0x10"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0x201D01" value="0x11"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0x201D01" value="0x12"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0x201D01" value="0x13"/>
+        </option>
+    </cheat>
+</shufflecheat>

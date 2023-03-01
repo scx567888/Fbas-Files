@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x816B27" value="0x33"/>
+            <parameter cpu="0" address="0x816B2D" value="0xE9"/>
+        </option>
+    </cheat>
+    <cheat desc="无限悔步" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x809ACA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限自动消牌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x809ACB" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x809ACC" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8137A9" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

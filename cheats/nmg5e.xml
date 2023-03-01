@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1290C3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12D79F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x123B12" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x123B3A" value="0x7F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122509" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122515" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12250E" value="0x14"/>
+            <parameter cpu="0" address="0x12250F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12251A" value="0x14"/>
+            <parameter cpu="0" address="0x12251B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1276BC" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1276B9" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="落下即可过关! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x124EEE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="落下即可过关! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x124EEF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关(非对战) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12210C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关(非对战) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12210D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122666" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是红球 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是红球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x00"/>
+        </option>
+        <option desc="总是黄球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x01"/>
+        </option>
+        <option desc="总是蓝球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x02"/>
+        </option>
+        <option desc="总是绿球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x03"/>
+        </option>
+        <option desc="总是蓝紫球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x04"/>
+        </option>
+        <option desc="总是紫球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x05"/>
+        </option>
+        <option desc="总是白球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x06"/>
+        </option>
+        <option desc="总是黑球 PL1">
+            <parameter cpu="0" address="0x121076" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="指示线 ''开启'' PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="指示线 ''开启'' PL1 ">
+            <parameter cpu="0" address="0x122660" value="0x01"/>
+        </option>
+        <option desc="指示线 ''关闭'' PL1 ">
+            <parameter cpu="0" address="0x122660" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x122563" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是红球 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是红球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x00"/>
+        </option>
+        <option desc="总是黄球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x01"/>
+        </option>
+        <option desc="总是蓝球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x02"/>
+        </option>
+        <option desc="总是绿球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x03"/>
+        </option>
+        <option desc="总是蓝紫球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x04"/>
+        </option>
+        <option desc="总是紫球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x05"/>
+        </option>
+        <option desc="总是白球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x06"/>
+        </option>
+        <option desc="总是黑球 PL2">
+            <parameter cpu="0" address="0x1250F8" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="指示线 ''开启'' PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="指示线 ''开启'' PL2 ">
+            <parameter cpu="0" address="0x122661" value="0x01"/>
+        </option>
+        <option desc="指示线 ''关闭'' PL2 ">
+            <parameter cpu="0" address="0x122661" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x127519" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x126301" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x127515" value="0x5F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限帮助 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x126303" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

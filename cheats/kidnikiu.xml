@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE122" value="0x5A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE200" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE54A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="没有敌人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE21E" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="一击必杀BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE15C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="再来一局" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE003" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="第1关">
+            <parameter cpu="0" address="0xE202" value="0x00"/>
+        </option>
+        <option desc="第2关">
+            <parameter cpu="0" address="0xE202" value="0x01"/>
+        </option>
+        <option desc="第3关">
+            <parameter cpu="0" address="0xE202" value="0x02"/>
+        </option>
+        <option desc="第4关">
+            <parameter cpu="0" address="0xE202" value="0x03"/>
+        </option>
+        <option desc="第5关">
+            <parameter cpu="0" address="0xE202" value="0x04"/>
+        </option>
+        <option desc="第6关">
+            <parameter cpu="0" address="0xE202" value="0x05"/>
+        </option>
+        <option desc="第7关">
+            <parameter cpu="0" address="0xE202" value="0x06"/>
+        </option>
+        <option desc="第8关">
+            <parameter cpu="0" address="0xE202" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

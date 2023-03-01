@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="回答1总是正确" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB002C0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是100% 正确回答 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB00488" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="总是100% 正确回答 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB00588" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限总时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB003B2" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xB003BB" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

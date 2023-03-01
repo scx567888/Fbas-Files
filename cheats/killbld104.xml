@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x80B3C9"
+                       value="0x63"/>
+        </option>
+        <option desc="过关!">
+            <parameter cpu="0" address="0x80B3C9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="血量选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量">
+            <parameter cpu="0" address="0x811EE1" value="0xFF"/>
+            <parameter cpu="0" address="0x811EE3" value="0xFF"/>
+        </option>
+        <option desc="耗尽血量">
+            <parameter cpu="0" address="0x811EE1" value="0x00"/>
+            <parameter cpu="0" address="0x811EE3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大红色攻击集气 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811EE7" value="0x78"/>
+            <parameter cpu="0" address="0x811EE9" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色防御集气 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x811EED" value="0x78"/>
+            <parameter cpu="0" address="0x811EEF" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="血量选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限血量">
+            <parameter cpu="0" address="0x812065" value="0xFF"/>
+            <parameter cpu="0" address="0x812067" value="0xFF"/>
+        </option>
+        <option desc="耗尽血量">
+            <parameter cpu="0" address="0x812065" value="0x00"/>
+            <parameter cpu="0" address="0x812067" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大红色攻击集气 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x81206B" value="0x78"/>
+            <parameter cpu="0" address="0x81206D" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="最大蓝色防御集气 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x812071" value="0x78"/>
+            <parameter cpu="0" address="0x812073" value="0x78"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFF2A1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限G/B" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCEAE" value="0xD6"/>
+        </option>
+    </cheat>
+    <cheat desc="无限轮胎" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCEB0" value="0xDD"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大速度" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCEC0" value="0x04"/>
+            <parameter cpu="0" address="0xFFCEC1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是第一 P1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCE85" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

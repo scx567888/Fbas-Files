@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104100" value="0x09"/>
+            <parameter cpu="0" address="0x104101" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106008" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104108" value="0x09"/>
+            <parameter cpu="0" address="0x104109" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106068" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104110" value="0x09"/>
+            <parameter cpu="0" address="0x104111" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1060C8" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x104118" value="0x09"/>
+            <parameter cpu="0" address="0x104119" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106128" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="Stop Immobilization PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106005" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="Stop Immobilization PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106065" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="Stop Immobilization PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1060C5" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="Stop Immobilization PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106125" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100CB2" value="0x00"/>
+            <parameter cpu="0" address="0x100CB3" value="0x00"/>
+            <parameter cpu="0" address="0x10FD89" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103A0D" value="0x05"/>
+            <parameter cpu="0" address="0x103A0E" value="0xDB"/>
+            <parameter cpu="0" address="0x103A0F" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C00" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C07" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C04" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C09" value="0x9F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变成忍者 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变成忍者 PL1">
+            <parameter cpu="0" address="0x103C05" value="0x0D"/>
+        </option>
+        <option desc="总是变成海神 PL1">
+            <parameter cpu="0" address="0x103C05" value="0x09"/>
+        </option>
+        <option desc="总是变成日本武士 PL1">
+            <parameter cpu="0" address="0x103C05" value="0x0E"/>
+        </option>
+        <option desc="总是变成龙 PL1">
+            <parameter cpu="0" address="0x103C05" value="0x05"/>
+        </option>
+        <option desc="总是变成希腊战神 PL1">
+            <parameter cpu="0" address="0x103C05" value="0x0A"/>
+        </option>
+        <option desc="总是变成突变异种 PL1">
+            <parameter cpu="0" address="0x103C05" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C80" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C87" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C84" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103C89" value="0x9F"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变成忍者 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变成忍者 PL2">
+            <parameter cpu="0" address="0x103C85" value="0x0D"/>
+        </option>
+        <option desc="总是变成海神 PL2">
+            <parameter cpu="0" address="0x103C85" value="0x09"/>
+        </option>
+        <option desc="总是变成日本武士 PL2">
+            <parameter cpu="0" address="0x103C85" value="0x0E"/>
+        </option>
+        <option desc="总是变成龙 PL2">
+            <parameter cpu="0" address="0x103C85" value="0x05"/>
+        </option>
+        <option desc="总是变成希腊战神 PL2">
+            <parameter cpu="0" address="0x103C85" value="0x0A"/>
+        </option>
+        <option desc="总是变成突变异种 PL2">
+            <parameter cpu="0" address="0x103C85" value="0x0F"/>
+        </option>
+    </cheat>
+</shufflecheat>

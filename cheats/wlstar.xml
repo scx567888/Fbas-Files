@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限击球" default="0">
+        <option desc="关闭"/>
+        <option desc="无限击球">
+            <parameter cpu="0" address="0x121F0F" value="0x00"/>
+        </option>
+        <option desc="击球＝2">
+            <parameter cpu="0" address="0x121F0F" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="无限坏球" default="0">
+        <option desc="关闭"/>
+        <option desc="无限坏球">
+            <parameter cpu="0" address="0x121F11" value="0x00"/>
+        </option>
+        <option desc="坏球＝3">
+            <parameter cpu="0" address="0x121F11" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限出局" default="0">
+        <option desc="关闭"/>
+        <option desc="无限出局">
+            <parameter cpu="0" address="0x121F13" value="0x00"/>
+        </option>
+        <option desc="出局＝2">
+            <parameter cpu="0" address="0x121F13" value="0x02"/>
+        </option>
+    </cheat>
+</shufflecheat>

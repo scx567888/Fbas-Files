@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限续玩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x103E78" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D002" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100230" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100221" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器 - 刀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限武器 - 刀 PL1">
+            <parameter cpu="0" address="0x10022D" value="0x01"/>
+            <parameter cpu="0" address="0x100276" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 瓶子 PL1">
+            <parameter cpu="0" address="0x10022D" value="0x02"/>
+            <parameter cpu="0" address="0x100276" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 碎瓶 PL1">
+            <parameter cpu="0" address="0x10022D" value="0x03"/>
+            <parameter cpu="0" address="0x100276" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 炸弹 PL1">
+            <parameter cpu="0" address="0x10022D" value="0x04"/>
+            <parameter cpu="0" address="0x100276" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 木棍 PL1">
+            <parameter cpu="0" address="0x10022D" value="0x05"/>
+            <parameter cpu="0" address="0x100276" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 手枪 PL1">
+            <parameter cpu="0" address="0x10022D" value="0x06"/>
+            <parameter cpu="0" address="0x100276" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002B0" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1002A1" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL2">
+            <parameter cpu="0" address="0x10028F" value="0x10"/>
+            <parameter cpu="0" address="0x1002E6" value="0x00"/>
+            <parameter cpu="0" address="0x1002E7" value="0xB2"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL2">
+            <parameter cpu="0" address="0x10028F" value="0x00"/>
+            <parameter cpu="0" address="0x1002E6" value="0x00"/>
+            <parameter cpu="0" address="0x1002E7" value="0xB2"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器 - 刀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限武器 - 刀 PL2">
+            <parameter cpu="0" address="0x1002AD" value="0x01"/>
+            <parameter cpu="0" address="0x1002F6" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 瓶子 PL2">
+            <parameter cpu="0" address="0x1002AD" value="0x02"/>
+            <parameter cpu="0" address="0x1002F6" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 碎瓶 PL2">
+            <parameter cpu="0" address="0x1002AD" value="0x03"/>
+            <parameter cpu="0" address="0x1002F6" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 炸弹 PL2">
+            <parameter cpu="0" address="0x1002AD" value="0x04"/>
+            <parameter cpu="0" address="0x1002F6" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 木棍 PL2">
+            <parameter cpu="0" address="0x1002AD" value="0x05"/>
+            <parameter cpu="0" address="0x1002F6" value="0x00"/>
+        </option>
+        <option desc="无限武器 - 手枪 PL2">
+            <parameter cpu="0" address="0x1002AD" value="0x06"/>
+            <parameter cpu="0" address="0x1002F6" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0201B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大消除线数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00624" value="0x99"/>
+            <parameter cpu="0" address="0xF00625" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="最大消除线数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF00626" value="0x99"/>
+            <parameter cpu="0" address="0xF00627" value="0x99"/>
+        </option>
+    </cheat>
+</shufflecheat>

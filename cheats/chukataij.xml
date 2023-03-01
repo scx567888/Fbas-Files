@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限购物时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xEE28" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE218" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE26B" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择火力 !" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大武器火力">
+            <parameter cpu="0" address="0xE214" value="0x08"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xE214" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE214" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE214" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE214" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE214" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE214" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE214" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE214" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择速度 !" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有最大速度">
+            <parameter cpu="0" address="0xE217" value="0x06"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0xE217" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE217" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE217" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE217" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE217" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE217" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊射击 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无限特殊射击 ''开启''">
+            <parameter cpu="0" address="0xE220" value="0x01"/>
+        </option>
+        <option desc="无限特殊射击 ''关闭''">
+            <parameter cpu="0" address="0xE220" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="换成自动开火 ON" default="0">
+        <option desc="关闭"/>
+        <option desc="换成自动开火 ON">
+            <parameter cpu="0" address="0xE223" value="0x01"/>
+        </option>
+        <option desc="换成自动开火 OFF">
+            <parameter cpu="0" address="0xE223" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="对BOSS一击杀 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xEE4C" value="0x00"/>
+            <parameter cpu="0" address="0xEE4D" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有火焰护盾 1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有火焰护盾 1">
+            <parameter cpu="0" address="0xE215" value="0x00"/>
+        </option>
+        <option desc="总是有火焰护盾 2">
+            <parameter cpu="0" address="0xE215" value="0x01"/>
+        </option>
+        <option desc="总是有侧后射击">
+            <parameter cpu="0" address="0xE215" value="0x02"/>
+        </option>
+        <option desc="总是有对角射击">
+            <parameter cpu="0" address="0xE215" value="0x03"/>
+        </option>
+        <option desc="总是有多向射击">
+            <parameter cpu="0" address="0xE215" value="0x04"/>
+        </option>
+        <option desc="总是有弯刃射击">
+            <parameter cpu="0" address="0xE215" value="0x05"/>
+        </option>
+        <option desc="总是有超大弯刃射击">
+            <parameter cpu="0" address="0xE215" value="0x06"/>
+        </option>
+        <option desc="总是有环绕射击">
+            <parameter cpu="0" address="0xE215" value="0x08"/>
+        </option>
+        <option desc="总是有爆裂炸弹">
+            <parameter cpu="0" address="0xE215" value="0x09"/>
+        </option>
+        <option desc="总是有普通炸弹">
+            <parameter cpu="0" address="0xE215" value="0x0A"/>
+        </option>
+        <option desc="总是有自引导炸弹">
+            <parameter cpu="0" address="0xE215" value="0x0B"/>
+        </option>
+        <option desc="总是有跳跃炸弹">
+            <parameter cpu="0" address="0xE215" value="0x0C"/>
+        </option>
+        <option desc="总是有跳跃火焰">
+            <parameter cpu="0" address="0xE215" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE219" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE219" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE219" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE219" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE219" value="0x04"/>
+        </option>
+        <option desc="去到开局 !">
+            <parameter cpu="0" address="0xE219" value="0x09"/>
+        </option>
+        <option desc="去到boss - 关数 1&amp;3  !">
+            <parameter cpu="0" address="0xE219" value="0x70"/>
+        </option>
+        <option desc="去到boss - 关数 2&amp;4 !">
+            <parameter cpu="0" address="0xE219" value="0x80"/>
+        </option>
+        <option desc="去到boss - 关数  5 !">
+            <parameter cpu="0" address="0xE219" value="0xA0"/>
+        </option>
+    </cheat>
+</shufflecheat>

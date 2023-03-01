@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择击杆力量" default="0">
+        <option desc="关闭"/>
+        <option desc="最大力量">
+            <parameter cpu="0" address="0x106FE7" value="0x7F"/>
+        </option>
+        <option desc="10%">
+            <parameter cpu="0" address="0x106FE7" value="0x0A"/>
+        </option>
+        <option desc="20%">
+            <parameter cpu="0" address="0x106FE7" value="0x14"/>
+        </option>
+        <option desc="30%">
+            <parameter cpu="0" address="0x106FE7" value="0x1E"/>
+        </option>
+        <option desc="40%">
+            <parameter cpu="0" address="0x106FE7" value="0x28"/>
+        </option>
+        <option desc="50%">
+            <parameter cpu="0" address="0x106FE7" value="0x32"/>
+        </option>
+        <option desc="60%">
+            <parameter cpu="0" address="0x106FE7" value="0x3C"/>
+        </option>
+        <option desc="70%">
+            <parameter cpu="0" address="0x106FE7" value="0x46"/>
+        </option>
+        <option desc="80%">
+            <parameter cpu="0" address="0x106FE7" value="0x50"/>
+        </option>
+        <option desc="90%">
+            <parameter cpu="0" address="0x106FE7" value="0x5A"/>
+        </option>
+        <option desc="100%">
+            <parameter cpu="0" address="0x106FE7" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="不计算击打数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x107006" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="不计算击打数 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10702C" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择高尔夫球杆" default="0">
+        <option desc="关闭"/>
+        <option desc="1W (260 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x00"/>
+        </option>
+        <option desc="3W (240 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x01"/>
+        </option>
+        <option desc="4W (230 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x02"/>
+        </option>
+        <option desc="1I (220 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x03"/>
+        </option>
+        <option desc="3I (200 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x04"/>
+        </option>
+        <option desc="4I (190 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x05"/>
+        </option>
+        <option desc="5I (180 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x06"/>
+        </option>
+        <option desc="6I (170 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x07"/>
+        </option>
+        <option desc="7I (160 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x08"/>
+        </option>
+        <option desc="8I (150 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x09"/>
+        </option>
+        <option desc="9I (140 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x0A"/>
+        </option>
+        <option desc="PW (120 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x0B"/>
+        </option>
+        <option desc="SW (100 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x0C"/>
+        </option>
+        <option desc="PT (28 Yards)">
+            <parameter cpu="0" address="0x106FDF" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择风速" default="0">
+        <option desc="关闭"/>
+        <option desc="无风">
+            <parameter cpu="0" address="0x106FE1" value="0x00"/>
+        </option>
+        <option desc="大风">
+            <parameter cpu="0" address="0x106FE1" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="选择风向" default="0">
+        <option desc="关闭"/>
+        <option desc="北">
+            <parameter cpu="0" address="0x106FE3" value="0x00"/>
+        </option>
+        <option desc="北东北">
+            <parameter cpu="0" address="0x106FE3" value="0x01"/>
+        </option>
+        <option desc="东北">
+            <parameter cpu="0" address="0x106FE3" value="0x02"/>
+        </option>
+        <option desc="东东北">
+            <parameter cpu="0" address="0x106FE3" value="0x03"/>
+        </option>
+        <option desc="东">
+            <parameter cpu="0" address="0x106FE3" value="0x04"/>
+        </option>
+        <option desc="东东南">
+            <parameter cpu="0" address="0x106FE3" value="0x05"/>
+        </option>
+        <option desc="东南">
+            <parameter cpu="0" address="0x106FE3" value="0x06"/>
+        </option>
+        <option desc="南东南">
+            <parameter cpu="0" address="0x106FE3" value="0x07"/>
+        </option>
+        <option desc="南">
+            <parameter cpu="0" address="0x106FE3" value="0x08"/>
+        </option>
+        <option desc="南西南">
+            <parameter cpu="0" address="0x106FE3" value="0x09"/>
+        </option>
+        <option desc="西南">
+            <parameter cpu="0" address="0x106FE3" value="0x0A"/>
+        </option>
+        <option desc="西南南">
+            <parameter cpu="0" address="0x106FE3" value="0x0B"/>
+        </option>
+        <option desc="西">
+            <parameter cpu="0" address="0x106FE3" value="0x0C"/>
+        </option>
+        <option desc="西西北">
+            <parameter cpu="0" address="0x106FE3" value="0x0D"/>
+        </option>
+        <option desc="西北">
+            <parameter cpu="0" address="0x106FE3" value="0x0E"/>
+        </option>
+        <option desc="北西北">
+            <parameter cpu="0" address="0x106FE3" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Young Hero   (USA) George Spinner   (***..)">
+            <parameter cpu="0" address="0x107005" value="0x00"/>
+        </option>
+        <option desc="Power Golfer (BRA)">
+            <parameter cpu="0" address="0x107005" value="0x01"/>
+        </option>
+        <option desc="Shot Maker   (GER)">
+            <parameter cpu="0" address="0x107005" value="0x02"/>
+        </option>
+        <option desc="Putt Master  (JAP)">
+            <parameter cpu="0" address="0x107005" value="0x03"/>
+        </option>
+        <option desc="Veteran      (AUS)">
+            <parameter cpu="0" address="0x107005" value="0x04"/>
+        </option>
+        <option desc="Technician   (GBR)">
+            <parameter cpu="0" address="0x107005" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限洞 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D5D2" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Young Hero   (USA)">
+            <parameter cpu="0" address="0x10702B" value="0x00"/>
+        </option>
+        <option desc="Power Golfer (BRA)">
+            <parameter cpu="0" address="0x10702B" value="0x01"/>
+        </option>
+        <option desc="Shot Maker   (GER)">
+            <parameter cpu="0" address="0x10702B" value="0x02"/>
+        </option>
+        <option desc="Putt Master  (JAP)">
+            <parameter cpu="0" address="0x10702B" value="0x03"/>
+        </option>
+        <option desc="Veteran      (AUS)">
+            <parameter cpu="0" address="0x10702B" value="0x04"/>
+        </option>
+        <option desc="Technician   (GBR)">
+            <parameter cpu="0" address="0x10702B" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

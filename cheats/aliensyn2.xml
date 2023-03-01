@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC000" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC113" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限地图时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFCBB0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="救一位伙伴即可打开出口" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC131" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC234" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL1">
+            <parameter cpu="0" address="0xC70404" value="0x82"/>
+            <parameter cpu="0" address="0xC70405" value="0x2E"/>
+            <parameter cpu="0" address="0xC70464" value="0x82"/>
+            <parameter cpu="0" address="0xC70465" value="0x2E"/>
+            <parameter cpu="0" address="0xC704C4" value="0x82"/>
+            <parameter cpu="0" address="0xC704C5" value="0x2E"/>
+            <parameter cpu="0" address="0xC70524" value="0x82"/>
+            <parameter cpu="0" address="0xC70525" value="0x2E"/>
+        </option>
+        <option desc="总是有激光 PL1">
+            <parameter cpu="0" address="0xC70404" value="0x86"/>
+            <parameter cpu="0" address="0xC70405" value="0x66"/>
+            <parameter cpu="0" address="0xC70464" value="0x86"/>
+            <parameter cpu="0" address="0xC70465" value="0x66"/>
+            <parameter cpu="0" address="0xC704C4" value="0x86"/>
+            <parameter cpu="0" address="0xC704C5" value="0x66"/>
+            <parameter cpu="0" address="0xC70524" value="0x86"/>
+            <parameter cpu="0" address="0xC70525" value="0x66"/>
+        </option>
+        <option desc="总是有炸弹 PL1">
+            <parameter cpu="0" address="0xC70404" value="0x89"/>
+            <parameter cpu="0" address="0xC70405" value="0xCE"/>
+            <parameter cpu="0" address="0xC70464" value="0x89"/>
+            <parameter cpu="0" address="0xC70465" value="0xCE"/>
+            <parameter cpu="0" address="0xC704C4" value="0x89"/>
+            <parameter cpu="0" address="0xC704C5" value="0xCE"/>
+            <parameter cpu="0" address="0xC70524" value="0x89"/>
+            <parameter cpu="0" address="0xC70525" value="0xCE"/>
+        </option>
+        <option desc="总是有火焰发射器 PL1">
+            <parameter cpu="0" address="0xC70404" value="0x80"/>
+            <parameter cpu="0" address="0xC70405" value="0x44"/>
+            <parameter cpu="0" address="0xC70464" value="0x80"/>
+            <parameter cpu="0" address="0xC70465" value="0x44"/>
+            <parameter cpu="0" address="0xC704C4" value="0x80"/>
+            <parameter cpu="0" address="0xC704C5" value="0x44"/>
+            <parameter cpu="0" address="0xC70524" value="0x80"/>
+            <parameter cpu="0" address="0xC70525" value="0x44"/>
+        </option>
+        <option desc="总是有火球 PL1">
+            <parameter cpu="0" address="0xC70404" value="0x7E"/>
+            <parameter cpu="0" address="0xC70405" value="0xEC"/>
+            <parameter cpu="0" address="0xC70464" value="0x7E"/>
+            <parameter cpu="0" address="0xC70465" value="0xEC"/>
+            <parameter cpu="0" address="0xC704C4" value="0x7E"/>
+            <parameter cpu="0" address="0xC704C5" value="0xEC"/>
+            <parameter cpu="0" address="0xC70524" value="0x7E"/>
+            <parameter cpu="0" address="0xC70525" value="0xEC"/>
+        </option>
+        <option desc="总是有短武器 PL1">
+            <parameter cpu="0" address="0xC70404" value="0x89"/>
+            <parameter cpu="0" address="0xC70405" value="0xCE"/>
+            <parameter cpu="0" address="0xC70464" value="0x82"/>
+            <parameter cpu="0" address="0xC70465" value="0x2E"/>
+            <parameter cpu="0" address="0xC704C4" value="0x80"/>
+            <parameter cpu="0" address="0xC704C5" value="0x44"/>
+            <parameter cpu="0" address="0xC70524" value="0x82"/>
+            <parameter cpu="0" address="0xC70525" value="0x2E"/>
+        </option>
+        <option desc="总是有长武器 PL1">
+            <parameter cpu="0" address="0xC70404" value="0x86"/>
+            <parameter cpu="0" address="0xC70405" value="0x66"/>
+            <parameter cpu="0" address="0xC70464" value="0x86"/>
+            <parameter cpu="0" address="0xC70465" value="0x66"/>
+            <parameter cpu="0" address="0xC704C4" value="0x7E"/>
+            <parameter cpu="0" address="0xC704C5" value="0xEC"/>
+            <parameter cpu="0" address="0xC70524" value="0x7E"/>
+            <parameter cpu="0" address="0xC70525" value="0xEC"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC235" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC243" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC2B4" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通武器 PL2">
+            <parameter cpu="0" address="0xC70584" value="0x82"/>
+            <parameter cpu="0" address="0xC70585" value="0x2E"/>
+            <parameter cpu="0" address="0xC705E4" value="0x82"/>
+            <parameter cpu="0" address="0xC705E5" value="0x2E"/>
+            <parameter cpu="0" address="0xC70644" value="0x82"/>
+            <parameter cpu="0" address="0xC70645" value="0x2E"/>
+        </option>
+        <option desc="总是有激光 PL2">
+            <parameter cpu="0" address="0xC70584" value="0x86"/>
+            <parameter cpu="0" address="0xC70585" value="0x66"/>
+            <parameter cpu="0" address="0xC705E4" value="0x86"/>
+            <parameter cpu="0" address="0xC705E5" value="0x66"/>
+            <parameter cpu="0" address="0xC70644" value="0x86"/>
+            <parameter cpu="0" address="0xC70645" value="0x66"/>
+        </option>
+        <option desc="总是有炸弹 PL2">
+            <parameter cpu="0" address="0xC70584" value="0x89"/>
+            <parameter cpu="0" address="0xC70585" value="0xCE"/>
+            <parameter cpu="0" address="0xC705E4" value="0x89"/>
+            <parameter cpu="0" address="0xC705E5" value="0xCE"/>
+            <parameter cpu="0" address="0xC70644" value="0x89"/>
+            <parameter cpu="0" address="0xC70645" value="0xCE"/>
+        </option>
+        <option desc="总是有火焰发射器 PL2">
+            <parameter cpu="0" address="0xC70584" value="0x80"/>
+            <parameter cpu="0" address="0xC70585" value="0x44"/>
+            <parameter cpu="0" address="0xC705E4" value="0x80"/>
+            <parameter cpu="0" address="0xC705E5" value="0x44"/>
+            <parameter cpu="0" address="0xC70644" value="0x80"/>
+            <parameter cpu="0" address="0xC70645" value="0x44"/>
+        </option>
+        <option desc="总是有火球 PL2">
+            <parameter cpu="0" address="0xC70584" value="0x7E"/>
+            <parameter cpu="0" address="0xC70585" value="0xEC"/>
+            <parameter cpu="0" address="0xC705E4" value="0x7E"/>
+            <parameter cpu="0" address="0xC705E5" value="0xEC"/>
+            <parameter cpu="0" address="0xC70644" value="0x7E"/>
+            <parameter cpu="0" address="0xC70645" value="0xEC"/>
+        </option>
+        <option desc="总是有短武器 PL2">
+            <parameter cpu="0" address="0xC70584" value="0x89"/>
+            <parameter cpu="0" address="0xC70585" value="0xCE"/>
+            <parameter cpu="0" address="0xC705E4" value="0x82"/>
+            <parameter cpu="0" address="0xC705E5" value="0x2E"/>
+            <parameter cpu="0" address="0xC70644" value="0x80"/>
+            <parameter cpu="0" address="0xC70645" value="0x44"/>
+        </option>
+        <option desc="总是有长武器 PL2">
+            <parameter cpu="0" address="0xC70584" value="0x86"/>
+            <parameter cpu="0" address="0xC70585" value="0x66"/>
+            <parameter cpu="0" address="0xC705E4" value="0x86"/>
+            <parameter cpu="0" address="0xC705E5" value="0x66"/>
+            <parameter cpu="0" address="0xC70644" value="0x7E"/>
+            <parameter cpu="0" address="0xC70645" value="0xEC"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC2B5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC2C3" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

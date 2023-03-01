@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC09D" value="0x5A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC096" value="0x6A"/>
+        </option>
+    </cheat>
+    <cheat desc="杀死BOSS !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC0D0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有斧" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有斧">
+            <parameter cpu="0" address="0xFFC0B7" value="0x00"/>
+        </option>
+        <option desc="总是有矛">
+            <parameter cpu="0" address="0xFFC0B7" value="0x08"/>
+        </option>
+        <option desc="总是有铁锤">
+            <parameter cpu="0" address="0xFFC0B7" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启''" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启''">
+            <parameter cpu="0" address="0xFFC0DE" value="0x03"/>
+        </option>
+        <option desc="无敌 ''关闭''">
+            <parameter cpu="0" address="0xFFC0DE" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC0B3" value="0x50"/>
+            <parameter cpu="0" address="0xFFC660" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC0B4" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC660" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="设置可以飞行" default="0">
+        <option desc="关闭"/>
+        <option desc="设置可以飞行">
+            <parameter cpu="0" address="0xFFC61F" value="0x06"/>
+        </option>
+        <option desc="设置正常">
+            <parameter cpu="0" address="0xFFC61F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人总是停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC0DD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="到最终BOSS-ryuken" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFC09A" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

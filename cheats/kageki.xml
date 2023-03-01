@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限玩家能量" default="0">
+        <option desc="关闭"/>
+        <option desc="无限玩家能量">
+            <parameter cpu="0" address="0xE75C" value="0x00"/>
+        </option>
+        <option desc="耗尽所有玩家能量 !">
+            <parameter cpu="0" address="0xE75C" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无限敌人能量" default="0">
+        <option desc="关闭"/>
+        <option desc="无限敌人能量">
+            <parameter cpu="0" address="0xE7FC" value="0x00"/>
+        </option>
+        <option desc="耗尽所有敌人能量 !">
+            <parameter cpu="0" address="0xE7FC" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一局 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE007" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE007" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE007" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE007" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE007" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE007" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE007" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE007" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xE007" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一局 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE00E" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE00E" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE00E" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE00E" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE00E" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE00E" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE00E" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE00E" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xE00E" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

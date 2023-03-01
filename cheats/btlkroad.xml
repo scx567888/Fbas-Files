@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE1A09" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFE0A89" value="0xB2"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFE4BFC" value="0x07"/>
+            <parameter cpu="0" address="0xFE4BFD" value="0xFF"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0xFE4BFC" value="0x00"/>
+            <parameter cpu="0" address="0xFE4BFD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是赢盘数 = 0 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是赢盘数 = 0 PL1">
+            <parameter cpu="0" address="0xFE4BFF" value="0x00"/>
+        </option>
+        <option desc="总是赢盘数 = 2 PL1">
+            <parameter cpu="0" address="0xFE4BFF" value="0x02"/>
+        </option>
+        <option desc="设置赢盘数 = 1! PL1">
+            <parameter cpu="0" address="0xFE4BFF" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Antony PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Antony PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x00"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Cyborg D-9F PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x01"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Rick PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x02"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Shinsaku PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x03"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Mitsuji PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x04"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Wolf PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x05"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Tyssa PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x06"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Masamichi PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x08"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Cyborg T-8P PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x09"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Jeff PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x0A"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色John PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x0B"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Harimaoh PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x0C"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Dan PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x0D"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x0D"/>
+        </option>
+        <option desc="使用游戏角色Yuki PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x0E"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x0E"/>
+        </option>
+        <option desc="使用游戏角色Kumachan PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x07"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Kumasama PL1">
+            <parameter cpu="0" address="0xFE1A35" value="0x0F"/>
+            <parameter cpu="0" address="0xFE4B8F" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFE4F14" value="0x07"/>
+            <parameter cpu="0" address="0xFE4F15" value="0xFF"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0xFE4F14" value="0x00"/>
+            <parameter cpu="0" address="0xFE4F15" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是赢盘数 = 0 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是赢盘数 = 0 PL2">
+            <parameter cpu="0" address="0xFE4F17" value="0x00"/>
+        </option>
+        <option desc="总是赢盘数 = 2 PL2">
+            <parameter cpu="0" address="0xFE4F17" value="0x02"/>
+        </option>
+        <option desc="设置赢盘数 = 1! PL2">
+            <parameter cpu="0" address="0xFE4F17" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Antony PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Antony PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x00"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Cyborg D-9F PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x01"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Rick PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x02"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Shinsaku PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x03"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Mitsuji PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x04"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Wolf PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x05"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x05"/>
+        </option>
+        <option desc="使用游戏角色Tyssa PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x06"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x06"/>
+        </option>
+        <option desc="使用游戏角色Masamichi PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x08"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x08"/>
+        </option>
+        <option desc="使用游戏角色Cyborg T-8P PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x09"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x09"/>
+        </option>
+        <option desc="使用游戏角色Jeff PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x0A"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x0A"/>
+        </option>
+        <option desc="使用游戏角色John PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x0B"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x0B"/>
+        </option>
+        <option desc="使用游戏角色Harimaoh PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x0C"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x0C"/>
+        </option>
+        <option desc="使用游戏角色Dan PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x0D"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x0D"/>
+        </option>
+        <option desc="使用游戏角色Yuki PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x0E"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x0E"/>
+        </option>
+        <option desc="使用游戏角色Kumachan PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x07"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x07"/>
+        </option>
+        <option desc="使用游戏角色Kumasama PL2">
+            <parameter cpu="0" address="0xFE1A75" value="0x0F"/>
+            <parameter cpu="0" address="0xFE4B91" value="0x0F"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择方块 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="长条">
+            <parameter cpu="0" address="0xC51A" value="0x00"/>
+        </option>
+        <option desc="左折">
+            <parameter cpu="0" address="0xC51A" value="0x01"/>
+        </option>
+        <option desc="右折">
+            <parameter cpu="0" address="0xC51A" value="0x02"/>
+        </option>
+        <option desc="左弯曲">
+            <parameter cpu="0" address="0xC51A" value="0x03"/>
+        </option>
+        <option desc="右弯曲">
+            <parameter cpu="0" address="0xC51A" value="0x04"/>
+        </option>
+        <option desc="大方块">
+            <parameter cpu="0" address="0xC51A" value="0x05"/>
+        </option>
+        <option desc="凸">
+            <parameter cpu="0" address="0xC51A" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择方块 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="长条">
+            <parameter cpu="0" address="0xC51C" value="0x00"/>
+        </option>
+        <option desc="左折">
+            <parameter cpu="0" address="0xC51C" value="0x01"/>
+        </option>
+        <option desc="右折">
+            <parameter cpu="0" address="0xC51C" value="0x02"/>
+        </option>
+        <option desc="左弯曲">
+            <parameter cpu="0" address="0xC51C" value="0x03"/>
+        </option>
+        <option desc="右弯曲">
+            <parameter cpu="0" address="0xC51C" value="0x04"/>
+        </option>
+        <option desc="大方块">
+            <parameter cpu="0" address="0xC51C" value="0x05"/>
+        </option>
+        <option desc="凸">
+            <parameter cpu="0" address="0xC51C" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

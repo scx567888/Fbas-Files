@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100002" value="0x63"/>
+            <parameter cpu="0" address="0x100003" value="0x3B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100055" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102C1B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100052" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度升级 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100051" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大火焰射程 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100053" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10028B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1029B7" value="0x03"/>
+            <parameter cpu="0" address="0x102C81" value="0x03"/>
+            <parameter cpu="0" address="0x102CE7" value="0x03"/>
+            <parameter cpu="0" address="0x102EE5" value="0x03"/>
+            <parameter cpu="0" address="0x102F4B" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100288" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有速度升级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100287" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大火焰射程 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100289" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="立即一击杀BOSS!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100011" value="0x00"/>
+            <parameter cpu="0" address="0x1029B7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="每次都是大钻石" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10000B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="奖励比率总是x 64" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100282" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="立即到最后一关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10004A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="去到最终局 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10004B" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

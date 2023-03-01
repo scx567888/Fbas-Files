@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="完成此关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1037AE" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="不会失去靶子 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1034B7" value="0x04"/>
+            <parameter cpu="0" address="0x1034CF" value="0x04"/>
+            <parameter cpu="0" address="0x1034E7" value="0x04"/>
+            <parameter cpu="0" address="0x1034FF" value="0x04"/>
+            <parameter cpu="0" address="0x103517" value="0x04"/>
+            <parameter cpu="0" address="0x10352F" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Chinta Nemoto! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Chinta Nemoto! PL1">
+            <parameter cpu="0" address="0x1033ED" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Siren! PL1">
+            <parameter cpu="0" address="0x1033ED" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Saimon! PL1">
+            <parameter cpu="0" address="0x1033ED" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Mr. Justice! PL1">
+            <parameter cpu="0" address="0x1033ED" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Bloody Wolf! PL1">
+            <parameter cpu="0" address="0x1033ED" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Boss! PL1">
+            <parameter cpu="0" address="0x1033ED" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="不会失去靶子 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="不会失去靶子 PL2">
+            <parameter cpu="0" address="0x103547" value="0x04"/>
+            <parameter cpu="0" address="0x10355F" value="0x04"/>
+            <parameter cpu="0" address="0x103577" value="0x04"/>
+            <parameter cpu="0" address="0x10358F" value="0x04"/>
+            <parameter cpu="0" address="0x1035A7" value="0x04"/>
+            <parameter cpu="0" address="0x1035BF" value="0x04"/>
+        </option>
+        <option desc="失去所有靶子! PL2">
+            <parameter cpu="0" address="0x103547" value="0x04"/>
+            <parameter cpu="0" address="0x10355F" value="0x04"/>
+            <parameter cpu="0" address="0x103577" value="0x04"/>
+            <parameter cpu="0" address="0x10358F" value="0x04"/>
+            <parameter cpu="0" address="0x1035A7" value="0x02"/>
+            <parameter cpu="0" address="0x1035BF" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色Chinta Nemoto! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用游戏角色Chinta Nemoto! PL2">
+            <parameter cpu="0" address="0x1033EF" value="0x00"/>
+        </option>
+        <option desc="使用游戏角色Siren! PL2">
+            <parameter cpu="0" address="0x1033EF" value="0x01"/>
+        </option>
+        <option desc="使用游戏角色Saimon! PL2">
+            <parameter cpu="0" address="0x1033EF" value="0x02"/>
+        </option>
+        <option desc="使用游戏角色Mr. Justice! PL2">
+            <parameter cpu="0" address="0x1033EF" value="0x03"/>
+        </option>
+        <option desc="使用游戏角色Bloody Wolf! PL2">
+            <parameter cpu="0" address="0x1033EF" value="0x04"/>
+        </option>
+        <option desc="使用游戏角色Boss! PL2">
+            <parameter cpu="0" address="0x1033EF" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x411F07" value="0x3C"/>
+            <parameter cpu="0" address="0x411F06" value="0x09"/>
+        </option>
+        <option desc="结束">
+            <parameter cpu="0" address="0x411F07" value="0x00"/>
+            <parameter cpu="0" address="0x411F06" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="开启特殊指令功能" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4114A1" value="0x85"/>
+        </option>
+        <option desc="没有">
+            <parameter cpu="0" address="0x4114A1" value="0x8D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x40F55D" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x40F55D" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x40F55D" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x40F55D" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x40F55D" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x40F55D" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="电脑下次红牌 左队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x411F98" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是0 左队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x410E69" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="电脑下次红牌 右队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x411F99" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="得分总是0 右队" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x410E71" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限投币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40E77B" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限货币 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x410E9D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="没有犯规 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x410E85" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊指令 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x410E99" value="0xFF"/>
+        </option>
+        <option desc="超级短跑">
+            <parameter cpu="0" address="0x410E99" value="0x00"/>
+        </option>
+        <option desc="超级铲球">
+            <parameter cpu="0" address="0x410E99" value="0x01"/>
+        </option>
+        <option desc="防护">
+            <parameter cpu="0" address="0x410E99" value="0x02"/>
+        </option>
+        <option desc="主动攻击附近">
+            <parameter cpu="0" address="0x410E99" value="0x03"/>
+        </option>
+        <option desc="香蕉球">
+            <parameter cpu="0" address="0x410E99" value="0x04"/>
+        </option>
+        <option desc="超级射">
+            <parameter cpu="0" address="0x410E99" value="0x05"/>
+        </option>
+        <option desc="必定进球">
+            <parameter cpu="0" address="0x410E99" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限投币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40E77D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限货币 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x410ED5" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="没有犯规 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x410EBD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊指令 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x410ED1" value="0xFF"/>
+        </option>
+        <option desc="超级短跑">
+            <parameter cpu="0" address="0x410ED1" value="0x00"/>
+        </option>
+        <option desc="超级铲球">
+            <parameter cpu="0" address="0x410ED1" value="0x01"/>
+        </option>
+        <option desc="防护">
+            <parameter cpu="0" address="0x410ED1" value="0x02"/>
+        </option>
+        <option desc="主动攻击附近">
+            <parameter cpu="0" address="0x410ED1" value="0x03"/>
+        </option>
+        <option desc="香蕉球">
+            <parameter cpu="0" address="0x410ED1" value="0x04"/>
+        </option>
+        <option desc="超级射">
+            <parameter cpu="0" address="0x410ED1" value="0x05"/>
+        </option>
+        <option desc="必定进球">
+            <parameter cpu="0" address="0x410ED1" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限投币 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x40E77F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限货币 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x410F0D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="没有犯规 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x410EF5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊指令 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x410F09" value="0xFF"/>
+        </option>
+        <option desc="超级短跑">
+            <parameter cpu="0" address="0x410F09" value="0x00"/>
+        </option>
+        <option desc="超级铲球">
+            <parameter cpu="0" address="0x410F09" value="0x01"/>
+        </option>
+        <option desc="防护">
+            <parameter cpu="0" address="0x410F09" value="0x02"/>
+        </option>
+        <option desc="主动攻击附近">
+            <parameter cpu="0" address="0x410F09" value="0x03"/>
+        </option>
+        <option desc="香蕉球">
+            <parameter cpu="0" address="0x410F09" value="0x04"/>
+        </option>
+        <option desc="超级射">
+            <parameter cpu="0" address="0x410F09" value="0x05"/>
+        </option>
+        <option desc="必定进球">
+            <parameter cpu="0" address="0x410F09" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

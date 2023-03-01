@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9820" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="挑战局完美过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9288" value="0x28"/>
+        </option>
+    </cheat>
+    <cheat desc="所有挑战关" default="0">
+        <option desc="关闭"/>
+        <option desc="所有挑战关">
+            <parameter cpu="0" address="0x9825" value="0x00"/>
+        </option>
+        <option desc="没有挑战关">
+            <parameter cpu="0" address="0x9825" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="开始于局数 5" default="0">
+        <option desc="关闭"/>
+        <option desc="开始于局数 5">
+            <parameter cpu="0" address="0x9821" value="0x04"/>
+        </option>
+        <option desc="开始于局数 10">
+            <parameter cpu="0" address="0x9821" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="双倍连体船" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8B60" value="0x06"/>
+            <parameter cpu="0" address="0x8B61" value="0x09"/>
+            <parameter cpu="0" address="0x9361" value="0x29"/>
+            <parameter cpu="0" address="0x9827" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="敌人不射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x9368" value="0x00"/>
+            <parameter cpu="0" address="0x9369" value="0x00"/>
+            <parameter cpu="0" address="0x936A" value="0x00"/>
+            <parameter cpu="0" address="0x936B" value="0x00"/>
+            <parameter cpu="0" address="0x936C" value="0x00"/>
+            <parameter cpu="0" address="0x936D" value="0x00"/>
+            <parameter cpu="0" address="0x936E" value="0x00"/>
+            <parameter cpu="0" address="0x936F" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

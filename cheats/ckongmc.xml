@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6001" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6228" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="坡道关没有火球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x62B9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="工厂关没有火球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6403" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="工厂关没有馅饼" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x65A0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="升降机关没有火球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6400" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="升降机关没有弹簧" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6500" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="坡道关没有桶" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6392" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是能攀爬" default="0">
+        <option desc="关闭"/>
+        <option desc="总是能攀爬">
+            <parameter cpu="0" address="0x6215" value="0x01"/>
+        </option>
+        <option desc="解除攀爬">
+            <parameter cpu="0" address="0x6215" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="铁锤" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6217" value="0x01"/>
+            <parameter cpu="0" address="0x6691" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即完成第四小关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6290" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

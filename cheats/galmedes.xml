@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100971" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101CAD" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101CB7" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大激光火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100BF9" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大光圈武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100BFB" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大三向武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100BFD" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL1">
+            <parameter cpu="0" address="0x101CB3" value="0x95"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL1">
+            <parameter cpu="0" address="0x101CB3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x101CE1" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大激光火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C07" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大光圈武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C09" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大三向武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100C0B" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ''开启'' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 ''开启'' PL2">
+            <parameter cpu="0" address="0x101CE7" value="0x95"/>
+        </option>
+        <option desc="无敌 ''关闭'' PL2">
+            <parameter cpu="0" address="0x101CE7" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数 (家用) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108342" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币数 (家用) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108343" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108D01" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1001B5" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100127" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DBB" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊弹药 组队角色1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DC3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊弹药 组队角色2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DC7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊弹药 组队角色3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108DCB" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪">
+            <parameter cpu="0" address="0x108DB9" value="0x00"/>
+        </option>
+        <option desc="重机枪">
+            <parameter cpu="0" address="0x108DB9" value="0x04"/>
+        </option>
+        <option desc="巴尔干机枪">
+            <parameter cpu="0" address="0x108DB9" value="0x08"/>
+        </option>
+        <option desc="三向枪">
+            <parameter cpu="0" address="0x108DB9" value="0x0C"/>
+        </option>
+        <option desc="火焰枪">
+            <parameter cpu="0" address="0x108DB9" value="0x10"/>
+        </option>
+        <option desc="喷火器">
+            <parameter cpu="0" address="0x108DB9" value="0x14"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108DB9" value="0x18"/>
+        </option>
+        <option desc="导弹发射器">
+            <parameter cpu="0" address="0x108DB9" value="0x1C"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108DB9" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 组队角色1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x108DC1" value="0x00"/>
+        </option>
+        <option desc="燃烧弹">
+            <parameter cpu="0" address="0x108DC1" value="0x04"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108DC1" value="0x08"/>
+        </option>
+        <option desc="飞去来器">
+            <parameter cpu="0" address="0x108DC1" value="0x0C"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0x108DC1" value="0x10"/>
+        </option>
+        <option desc="爆炸弩">
+            <parameter cpu="0" address="0x108DC1" value="0x14"/>
+        </option>
+        <option desc="毒气弹">
+            <parameter cpu="0" address="0x108DC1" value="0x18"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108DC1" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 组队角色2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x108DC5" value="0x00"/>
+        </option>
+        <option desc="燃烧弹">
+            <parameter cpu="0" address="0x108DC5" value="0x04"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108DC5" value="0x08"/>
+        </option>
+        <option desc="飞去来器">
+            <parameter cpu="0" address="0x108DC5" value="0x0C"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0x108DC5" value="0x10"/>
+        </option>
+        <option desc="爆炸弩">
+            <parameter cpu="0" address="0x108DC5" value="0x14"/>
+        </option>
+        <option desc="毒气弹">
+            <parameter cpu="0" address="0x108DC5" value="0x18"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108DC5" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 组队角色3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x108DC9" value="0x00"/>
+        </option>
+        <option desc="燃烧弹">
+            <parameter cpu="0" address="0x108DC9" value="0x04"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108DC9" value="0x08"/>
+        </option>
+        <option desc="飞去来器">
+            <parameter cpu="0" address="0x108DC9" value="0x0C"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0x108DC9" value="0x10"/>
+        </option>
+        <option desc="爆炸弩">
+            <parameter cpu="0" address="0x108DC9" value="0x14"/>
+        </option>
+        <option desc="毒气弹">
+            <parameter cpu="0" address="0x108DC9" value="0x18"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108DC9" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1021B5" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x102127" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FBB" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊弹药 组队角色1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FC3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊弹药 组队角色2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FC7" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限特殊弹药 组队角色3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108FCB" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪">
+            <parameter cpu="0" address="0x108FB9" value="0x00"/>
+        </option>
+        <option desc="重机枪">
+            <parameter cpu="0" address="0x108FB9" value="0x04"/>
+        </option>
+        <option desc="巴尔干机枪">
+            <parameter cpu="0" address="0x108FB9" value="0x08"/>
+        </option>
+        <option desc="三向枪">
+            <parameter cpu="0" address="0x108FB9" value="0x0C"/>
+        </option>
+        <option desc="火焰枪">
+            <parameter cpu="0" address="0x108FB9" value="0x10"/>
+        </option>
+        <option desc="喷火器">
+            <parameter cpu="0" address="0x108FB9" value="0x14"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108FB9" value="0x18"/>
+        </option>
+        <option desc="导弹发射器">
+            <parameter cpu="0" address="0x108FB9" value="0x1C"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108FB9" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 组队角色1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x108FC1" value="0x00"/>
+        </option>
+        <option desc="燃烧弹">
+            <parameter cpu="0" address="0x108FC1" value="0x04"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108FC1" value="0x08"/>
+        </option>
+        <option desc="飞去来器">
+            <parameter cpu="0" address="0x108FC1" value="0x0C"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0x108FC1" value="0x10"/>
+        </option>
+        <option desc="爆炸弩">
+            <parameter cpu="0" address="0x108FC1" value="0x14"/>
+        </option>
+        <option desc="毒气弹">
+            <parameter cpu="0" address="0x108FC1" value="0x18"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108FC1" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 组队角色2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x108FC5" value="0x00"/>
+        </option>
+        <option desc="燃烧弹">
+            <parameter cpu="0" address="0x108FC5" value="0x04"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108FC5" value="0x08"/>
+        </option>
+        <option desc="飞去来器">
+            <parameter cpu="0" address="0x108FC5" value="0x0C"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0x108FC5" value="0x10"/>
+        </option>
+        <option desc="爆炸弩">
+            <parameter cpu="0" address="0x108FC5" value="0x14"/>
+        </option>
+        <option desc="毒气弹">
+            <parameter cpu="0" address="0x108FC5" value="0x18"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108FC5" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="选择特殊武器 组队角色3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手雷">
+            <parameter cpu="0" address="0x108FC9" value="0x00"/>
+        </option>
+        <option desc="燃烧弹">
+            <parameter cpu="0" address="0x108FC9" value="0x04"/>
+        </option>
+        <option desc="爆炎枪">
+            <parameter cpu="0" address="0x108FC9" value="0x08"/>
+        </option>
+        <option desc="飞去来器">
+            <parameter cpu="0" address="0x108FC9" value="0x0C"/>
+        </option>
+        <option desc="导弹">
+            <parameter cpu="0" address="0x108FC9" value="0x10"/>
+        </option>
+        <option desc="爆炸弩">
+            <parameter cpu="0" address="0x108FC9" value="0x14"/>
+        </option>
+        <option desc="毒气弹">
+            <parameter cpu="0" address="0x108FC9" value="0x18"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x108FC9" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

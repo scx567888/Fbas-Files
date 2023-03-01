@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="去除 ''PLUS''字样" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10FFF0" value="0x19"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x10AC15" value="0x5B"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0x10AC15" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限角色选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CD6D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="直接打关底BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10ABDD" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1">
+            <parameter cpu="0" address="0x10A239" value="0xE0"/>
+        </option>
+        <option desc="无限体力 (红色) PL1">
+            <parameter cpu="0" address="0x10A239" value="0x70"/>
+        </option>
+        <option desc="没有体力 PL1">
+            <parameter cpu="0" address="0x10A239" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A1E8" value="0x63"/>
+            <parameter cpu="0" address="0x10A1E9" value="0xFF"/>
+            <parameter cpu="0" address="0x10A21D" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超杀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000A4" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限防卫 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限防卫 PL1">
+            <parameter cpu="0" address="0x10A247" value="0x70"/>
+        </option>
+        <option desc="防御崩溃 PL1">
+            <parameter cpu="0" address="0x10A247" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A1E8" value="0x00"/>
+            <parameter cpu="0" address="0x10A1E9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="战前偷袭 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A1E2" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="超快移动速度 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A17A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="出招不用储时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CECD" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="没有飞行道具数量限制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A1E1" value="0x00"/>
+            <parameter cpu="0" address="0x10CECD" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="空中出招 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A1E0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕状态 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A23F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="身体状态 红火 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="身体状态 红火 PL1">
+            <parameter cpu="0" address="0x10A13A" value="0xFA"/>
+        </option>
+        <option desc="身体状态 紫火 PL1">
+            <parameter cpu="0" address="0x10A13A" value="0xFB"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL2">
+            <parameter cpu="0" address="0x10A4B9" value="0xE0"/>
+        </option>
+        <option desc="无限体力 (红色) PL2">
+            <parameter cpu="0" address="0x10A4B9" value="0x70"/>
+        </option>
+        <option desc="没有体力 PL2">
+            <parameter cpu="0" address="0x10A4B9" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A468" value="0x63"/>
+            <parameter cpu="0" address="0x10A469" value="0xFF"/>
+            <parameter cpu="0" address="0x10A49D" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超杀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1000A5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限防卫 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限防卫 PL2">
+            <parameter cpu="0" address="0x10A4C7" value="0x70"/>
+        </option>
+        <option desc="防御崩溃 PL2">
+            <parameter cpu="0" address="0x10A4C7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="耗尽力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A468" value="0x00"/>
+            <parameter cpu="0" address="0x10A469" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="战前偷袭 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A462" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="超快移动速度 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A3FA" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="出招不用储时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10D091" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="不知火舞胸部总是弹动" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10AC22" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="没有飞行道具数量限制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A461" value="0x00"/>
+            <parameter cpu="0" address="0x10D091" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="空中出招 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A460" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="眩晕状态 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10A4BF" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="身体状态 红火 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="身体状态 红火 PL2">
+            <parameter cpu="0" address="0x10A3BA" value="0xFA"/>
+        </option>
+        <option desc="身体状态 紫火 PL2">
+            <parameter cpu="0" address="0x10A3BA" value="0xFB"/>
+        </option>
+    </cheat>
+    <cheat desc="背景选择 秃地" default="0">
+        <option desc="关闭"/>
+        <option desc="背景选择 秃地">
+            <parameter cpu="0" address="0x10ABDC" value="0x00"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x00"/>
+        </option>
+        <option desc="背景选择 废火车站">
+            <parameter cpu="0" address="0x10ABDC" value="0x01"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x01"/>
+        </option>
+        <option desc="背景选择 教堂">
+            <parameter cpu="0" address="0x10ABDC" value="0x02"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x02"/>
+        </option>
+        <option desc="背景选择 绿色森林">
+            <parameter cpu="0" address="0x10ABDC" value="0x03"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x03"/>
+        </option>
+        <option desc="背景选择 水晶圣坛">
+            <parameter cpu="0" address="0x10ABDC" value="0x04"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x04"/>
+        </option>
+        <option desc="背景选择 密闭太空站">
+            <parameter cpu="0" address="0x10ABDC" value="0x05"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x05"/>
+        </option>
+        <option desc="背景选择 天狗寺">
+            <parameter cpu="0" address="0x10ABDC" value="0x06"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x06"/>
+        </option>
+        <option desc="背景选择 雅典娜圣殿">
+            <parameter cpu="0" address="0x10ABDC" value="0x07"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x07"/>
+        </option>
+        <option desc="背景选择 废弃工厂">
+            <parameter cpu="0" address="0x10ABDC" value="0x08"/>
+            <parameter cpu="0" address="0x10CDA6" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="DIP = 选择工具" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100001" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="DIP = 血关闭 (Zero和Iori重起错误修复)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10CD41" value="0x81"/>
+        </option>
+    </cheat>
+    <cheat desc="选择隐藏BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="Athena">
+            <parameter cpu="0" address="0x10CDE8" value="0x0F"/>
+        </option>
+        <option desc="Red Arremer">
+            <parameter cpu="0" address="0x10CDE8" value="0x1F"/>
+        </option>
+        <option desc="Nothing (结局错误)">
+            <parameter cpu="0" address="0x10CDE8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

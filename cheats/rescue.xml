@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8669" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="允许开火" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x8273" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="只救一人即出现陆地!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x868F" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE00C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE011" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="到最终关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE008" value="0x42"/>
+        </option>
+    </cheat>
+    <cheat desc="过关!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE393" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE7EE" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有普通棒" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有普通棒">
+            <parameter cpu="0" address="0xE5EF" value="0x00"/>
+        </option>
+        <option desc="总是有加长棒">
+            <parameter cpu="0" address="0xE5EF" value="0x02"/>
+        </option>
+        <option desc="总是有双连棒">
+            <parameter cpu="0" address="0xE5EF" value="0x03"/>
+        </option>
+        <option desc="总是有磁性棒">
+            <parameter cpu="0" address="0xE5EF" value="0x06"/>
+        </option>
+        <option desc="总是有跟踪棒">
+            <parameter cpu="0" address="0xE5EF" value="0x07"/>
+        </option>
+        <option desc="总是有缩小棒">
+            <parameter cpu="0" address="0xE5EF" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光棒" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE5EF" value="0x01"/>
+            <parameter cpu="0" address="0xE5F0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是超多球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE5F6" value="0x00"/>
+            <parameter cpu="0" address="0xE5F7" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="第一个药丸获得的装备 - L" default="0">
+        <option desc="关闭"/>
+        <option desc="第一个药丸获得的装备 - L">
+            <parameter cpu="0" address="0xE5D6" value="0x81"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - E">
+            <parameter cpu="0" address="0xE5D6" value="0x82"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - T">
+            <parameter cpu="0" address="0xE5D6" value="0x83"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - C">
+            <parameter cpu="0" address="0xE5D6" value="0x86"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - I">
+            <parameter cpu="0" address="0xE5D6" value="0x87"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - R">
+            <parameter cpu="0" address="0xE5D6" value="0x88"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - P">
+            <parameter cpu="0" address="0xE5D6" value="0x8A"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - M">
+            <parameter cpu="0" address="0xE5D6" value="0x8D"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - S">
+            <parameter cpu="0" address="0xE5D6" value="0x8E"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - B">
+            <parameter cpu="0" address="0xE5D6" value="0x90"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - D">
+            <parameter cpu="0" address="0xE5D6" value="0x91"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - N">
+            <parameter cpu="0" address="0xE5D6" value="0x92"/>
+        </option>
+        <option desc="第一个药丸获得的装备 - ?">
+            <parameter cpu="0" address="0xE5D6" value="0x93"/>
+        </option>
+    </cheat>
+    <cheat desc="第二个药丸获得的装备 - L" default="0">
+        <option desc="关闭"/>
+        <option desc="第二个药丸获得的装备 - L">
+            <parameter cpu="0" address="0xE5DA" value="0x81"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - E">
+            <parameter cpu="0" address="0xE5DA" value="0x82"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - T">
+            <parameter cpu="0" address="0xE5DA" value="0x83"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - C">
+            <parameter cpu="0" address="0xE5DA" value="0x86"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - I">
+            <parameter cpu="0" address="0xE5DA" value="0x87"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - R">
+            <parameter cpu="0" address="0xE5DA" value="0x88"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - P">
+            <parameter cpu="0" address="0xE5DA" value="0x8A"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - M">
+            <parameter cpu="0" address="0xE5DA" value="0x8D"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - S">
+            <parameter cpu="0" address="0xE5DA" value="0x8E"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - B">
+            <parameter cpu="0" address="0xE5DA" value="0x90"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - D">
+            <parameter cpu="0" address="0xE5DA" value="0x91"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - N">
+            <parameter cpu="0" address="0xE5DA" value="0x92"/>
+        </option>
+        <option desc="第二个药丸获得的装备 - ?">
+            <parameter cpu="0" address="0xE5DA" value="0x93"/>
+        </option>
+    </cheat>
+</shufflecheat>

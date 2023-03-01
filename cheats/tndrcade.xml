@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE00741" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE00743" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE00747" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光枪 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE00773" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最好武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE0074D" value="0x1F"/>
+            <parameter cpu="0" address="0xE0074F" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择左边武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE0074D" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE0074D" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE0074D" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE0074D" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE0074D" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE0074D" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE0074D" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE0074D" value="0x0A"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xE0074D" value="0x0B"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xE0074D" value="0x0C"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xE0074D" value="0x0D"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xE0074D" value="0x0E"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xE0074D" value="0x0F"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xE0074D" value="0x12"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xE0074D" value="0x13"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xE0074D" value="0x14"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0xE0074D" value="0x15"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0xE0074D" value="0x16"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0xE0074D" value="0x17"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xE0074D" value="0x1A"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0xE0074D" value="0x1B"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0xE0074D" value="0x1C"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0xE0074D" value="0x1D"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0xE0074D" value="0x1E"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0xE0074D" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择右边武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE0074F" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE0074F" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE0074F" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE0074F" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE0074F" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE0074F" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE0074F" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE0074F" value="0x0A"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xE0074F" value="0x0B"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xE0074F" value="0x0C"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xE0074F" value="0x0D"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xE0074F" value="0x0E"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xE0074F" value="0x0F"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xE0074F" value="0x12"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xE0074F" value="0x13"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xE0074F" value="0x14"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0xE0074F" value="0x15"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0xE0074F" value="0x16"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0xE0074F" value="0x17"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xE0074F" value="0x1A"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0xE0074F" value="0x1B"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0xE0074F" value="0x1C"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0xE0074F" value="0x1D"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0xE0074F" value="0x1E"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0xE0074F" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择炸弹方式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="直线">
+            <parameter cpu="0" address="0xE00843" value="0x8E"/>
+        </option>
+        <option desc="弯曲">
+            <parameter cpu="0" address="0xE00843" value="0xD6"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE007C1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE007C3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE007C7" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光枪 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE007F3" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最好武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE007CD" value="0x1F"/>
+            <parameter cpu="0" address="0xE007CF" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择左边武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE007CD" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE007CD" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE007CD" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE007CD" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE007CD" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE007CD" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE007CD" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE007CD" value="0x0A"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xE007CD" value="0x0B"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xE007CD" value="0x0C"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xE007CD" value="0x0D"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xE007CD" value="0x0E"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xE007CD" value="0x0F"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xE007CD" value="0x12"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xE007CD" value="0x13"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xE007CD" value="0x14"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0xE007CD" value="0x15"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0xE007CD" value="0x16"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0xE007CD" value="0x17"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xE007CD" value="0x1A"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0xE007CD" value="0x1B"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0xE007CD" value="0x1C"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0xE007CD" value="0x1D"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0xE007CD" value="0x1E"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0xE007CD" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择右边武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xE007CF" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xE007CF" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xE007CF" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xE007CF" value="0x04"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xE007CF" value="0x05"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xE007CF" value="0x06"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xE007CF" value="0x07"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xE007CF" value="0x0A"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xE007CF" value="0x0B"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xE007CF" value="0x0C"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xE007CF" value="0x0D"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xE007CF" value="0x0E"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xE007CF" value="0x0F"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xE007CF" value="0x12"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xE007CF" value="0x13"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xE007CF" value="0x14"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0xE007CF" value="0x15"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0xE007CF" value="0x16"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0xE007CF" value="0x17"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xE007CF" value="0x1A"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0xE007CF" value="0x1B"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0xE007CF" value="0x1C"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0xE007CF" value="0x1D"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0xE007CF" value="0x1E"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0xE007CF" value="0x1F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择炸弹方式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="直线">
+            <parameter cpu="0" address="0xE008C3" value="0x8E"/>
+        </option>
+        <option desc="弯曲">
+            <parameter cpu="0" address="0xE008C3" value="0xD6"/>
+        </option>
+    </cheat>
+</shufflecheat>

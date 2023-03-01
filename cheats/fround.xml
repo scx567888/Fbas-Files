@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间〔介绍〕" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40143" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间〔在游戏〕" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间〔在游戏〕">
+            <parameter cpu="0" address="0x4013E" value="0x09"/>
+            <parameter cpu="0" address="0x4013F" value="0x59"/>
+        </option>
+        <option desc="过关">
+            <parameter cpu="0" address="0x4013E" value="0x00"/>
+            <parameter cpu="0" address="0x4013F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="强力模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x422F0" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="困难模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x422F1" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0x42096" value="0x20"/>
+        </option>
+        <option desc="耗尽所有能量 PL1">
+            <parameter cpu="0" address="0x42096" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0x42196" value="0x20"/>
+        </option>
+        <option desc="耗尽所有能量 PL2">
+            <parameter cpu="0" address="0x42196" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

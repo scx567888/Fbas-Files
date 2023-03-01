@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="比赛在100米短跑" default="0">
+        <option desc="关闭"/>
+        <option desc="比赛在100米短跑">
+            <parameter cpu="0" address="0x20D4" value="0x00"/>
+        </option>
+        <option desc="比赛在跳远">
+            <parameter cpu="0" address="0x20D4" value="0x01"/>
+        </option>
+        <option desc="比赛在400米接力 1">
+            <parameter cpu="0" address="0x20D4" value="0x02"/>
+        </option>
+        <option desc="比赛在双向飞碟射击">
+            <parameter cpu="0" address="0x20D4" value="0x03"/>
+        </option>
+        <option desc="比赛在110米栏">
+            <parameter cpu="0" address="0x20D4" value="0x04"/>
+        </option>
+        <option desc="比赛在箭术">
+            <parameter cpu="0" address="0x20D4" value="0x05"/>
+        </option>
+        <option desc="比赛在掷标枪">
+            <parameter cpu="0" address="0x20D4" value="0x06"/>
+        </option>
+        <option desc="比赛在跳高">
+            <parameter cpu="0" address="0x20D4" value="0x07"/>
+        </option>
+        <option desc="比赛在400米接力 2">
+            <parameter cpu="0" address="0x20D4" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间 '00''00'" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2AB1" value="0x00"/>
+            <parameter cpu="0" address="0x2AB2" value="0x00"/>
+            <parameter cpu="0" address="0x2AB3" value="0x00"/>
+            <parameter cpu="0" address="0x2AB4" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2312" value="0x0A"/>
+            <parameter cpu="0" address="0x232A" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限起跑错误计数 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3322" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2365" value="0xE0"/>
+            <parameter cpu="0" address="0x37EA" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="总是跳在45度角." default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2363" value="0x2D"/>
+            <parameter cpu="0" address="0x2364" value="0x45"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2240" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限精确炸弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x78" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限5重炮" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x972" value="0xC9"/>
+            <parameter cpu="0" address="0x973" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限3向枪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x96A" value="0xA9"/>
+            <parameter cpu="0" address="0x96B" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限7向电波枪" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x976" value="0xE0"/>
+            <parameter cpu="0" address="0x977" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x984" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x99C" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>

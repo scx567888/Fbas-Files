@@ -1,0 +1,769 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2000A10" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2067821" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0x2060700" value="0x09"/>
+            <parameter cpu="0" address="0x2060701" value="0x99"/>
+        </option>
+        <option desc="过关! ">
+            <parameter cpu="0" address="0x2060700" value="0x00"/>
+            <parameter cpu="0" address="0x2060701" value="0x01"/>
+        </option>
+        <option desc="无限奖励关时间">
+            <parameter cpu="0" address="0x2060700" value="0x99"/>
+            <parameter cpu="0" address="0x2060701" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1人游戏时">
+            <parameter cpu="0" address="0x206A840" value="0x01"/>
+            <parameter cpu="0" address="0x206A841" value="0x28"/>
+        </option>
+        <option desc="对战时">
+            <parameter cpu="0" address="0x206A840" value="0x00"/>
+            <parameter cpu="0" address="0x206A841" value="0x7C"/>
+        </option>
+        <option desc="耗尽所有能量! PL1/CPU">
+            <parameter cpu="0" address="0x206A840" value="0x00"/>
+            <parameter cpu="0" address="0x206A841" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A85E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大等级 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8C2" value="0x1F"/>
+            <parameter cpu="0" address="0x206A8C4" value="0x09"/>
+            <parameter cpu="0" address="0x206A8C5" value="0x99"/>
+            <parameter cpu="0" address="0x206A8C6" value="0x99"/>
+            <parameter cpu="0" address="0x206A8C7" value="0x99"/>
+            <parameter cpu="0" address="0x206A8DD" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击力最强 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8E6" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="防御力最强 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8E7" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="火魔法防御力最强 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8E8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="冰魔法防御力最强 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8E9" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="雷魔法防御力最强 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8EA" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="风魔法防御力最强 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8EB" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="毒魔法防御力最强 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A8EC" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀技1类型 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="橙 ">
+            <parameter cpu="0" address="0x206A8CD" value="0x06"/>
+            <parameter cpu="0" address="0x206A8D5" value="0x06"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0x206A8CD" value="0x05"/>
+            <parameter cpu="0" address="0x206A8D5" value="0x05"/>
+        </option>
+        <option desc="红 ">
+            <parameter cpu="0" address="0x206A8CD" value="0x04"/>
+            <parameter cpu="0" address="0x206A8D5" value="0x04"/>
+        </option>
+        <option desc="粉 ">
+            <parameter cpu="0" address="0x206A8CD" value="0x03"/>
+            <parameter cpu="0" address="0x206A8D5" value="0x03"/>
+        </option>
+        <option desc="黑 ">
+            <parameter cpu="0" address="0x206A8CD" value="0x02"/>
+            <parameter cpu="0" address="0x206A8D5" value="0x02"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0x206A8CD" value="0x01"/>
+            <parameter cpu="0" address="0x206A8D5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀技2类型 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="橙 ">
+            <parameter cpu="0" address="0x206A8CE" value="0x06"/>
+            <parameter cpu="0" address="0x206A8D6" value="0x06"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0x206A8CE" value="0x05"/>
+            <parameter cpu="0" address="0x206A8D6" value="0x05"/>
+        </option>
+        <option desc="红 ">
+            <parameter cpu="0" address="0x206A8CE" value="0x04"/>
+            <parameter cpu="0" address="0x206A8D6" value="0x04"/>
+        </option>
+        <option desc="粉 ">
+            <parameter cpu="0" address="0x206A8CE" value="0x03"/>
+            <parameter cpu="0" address="0x206A8D6" value="0x03"/>
+        </option>
+        <option desc="黑 ">
+            <parameter cpu="0" address="0x206A8CE" value="0x02"/>
+            <parameter cpu="0" address="0x206A8D6" value="0x02"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0x206A8CE" value="0x01"/>
+            <parameter cpu="0" address="0x206A8D6" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀技3类型 PL1 " default="0">
+        <option desc="关闭"/>
+        <option desc="橙 ">
+            <parameter cpu="0" address="0x206A8CF" value="0x06"/>
+            <parameter cpu="0" address="0x206A8D7" value="0x06"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0x206A8CF" value="0x05"/>
+            <parameter cpu="0" address="0x206A8D7" value="0x05"/>
+        </option>
+        <option desc="红 ">
+            <parameter cpu="0" address="0x206A8CF" value="0x04"/>
+            <parameter cpu="0" address="0x206A8D7" value="0x04"/>
+        </option>
+        <option desc="粉 ">
+            <parameter cpu="0" address="0x206A8CF" value="0x03"/>
+            <parameter cpu="0" address="0x206A8D7" value="0x03"/>
+        </option>
+        <option desc="黑 ">
+            <parameter cpu="0" address="0x206A8CF" value="0x02"/>
+            <parameter cpu="0" address="0x206A8D7" value="0x02"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0x206A8CF" value="0x01"/>
+            <parameter cpu="0" address="0x206A8D7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择LEO武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1级普通剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x00"/>
+        </option>
+        <option desc="2级普通剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x01"/>
+        </option>
+        <option desc="3级普通剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x02"/>
+        </option>
+        <option desc="炎之剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x03"/>
+        </option>
+        <option desc="冰之剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x04"/>
+        </option>
+        <option desc="雷之剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x05"/>
+        </option>
+        <option desc="4级普通剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x06"/>
+        </option>
+        <option desc="魔人之斧">
+            <parameter cpu="0" address="0x206A8DC" value="0x07"/>
+        </option>
+        <option desc="传说之剑">
+            <parameter cpu="0" address="0x206A8DC" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择LEO盾牌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1级普通盾">
+            <parameter cpu="0" address="0x206A8DE" value="0x00"/>
+        </option>
+        <option desc="2级普通盾">
+            <parameter cpu="0" address="0x206A8DE" value="0x01"/>
+        </option>
+        <option desc="3级普通盾">
+            <parameter cpu="0" address="0x206A8DE" value="0x02"/>
+        </option>
+        <option desc="4级普通盾">
+            <parameter cpu="0" address="0x206A8DE" value="0x03"/>
+        </option>
+        <option desc="传说之盾">
+            <parameter cpu="0" address="0x206A8DE" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="TABASA/TESSA武器选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="太阳之杖">
+            <parameter cpu="0" address="0x206A8DD" value="0x08"/>
+        </option>
+        <option desc="普通杖">
+            <parameter cpu="0" address="0x206A8DD" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择TABASA/TESSA隐藏胜利姿势 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x206A98C" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x206A98C" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x206A98C" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x206A98C" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x206A98C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="MUKURO/KENJI总是使用隐藏胜利姿势 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A98F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AADE" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="攻击力最强 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB66" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="防御力最强 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB67" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="火魔法防御力最强 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB68" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="冰魔法防御力最强 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB69" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="雷魔法防御力最强 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB6A" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="风魔法防御力最强 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB6B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="毒魔法防御力最强 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB6C" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1人游戏时">
+            <parameter cpu="0" address="0x206AAC0" value="0x01"/>
+            <parameter cpu="0" address="0x206AAC1" value="0x28"/>
+        </option>
+        <option desc="对战时">
+            <parameter cpu="0" address="0x206AAC0" value="0x00"/>
+            <parameter cpu="0" address="0x206AAC1" value="0x7C"/>
+        </option>
+        <option desc="耗尽所有能量! PL2/CPU">
+            <parameter cpu="0" address="0x206AAC0" value="0x00"/>
+            <parameter cpu="0" address="0x206AAC1" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="最大等级 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB42" value="0x1F"/>
+            <parameter cpu="0" address="0x206AB44" value="0x09"/>
+            <parameter cpu="0" address="0x206AB45" value="0x99"/>
+            <parameter cpu="0" address="0x206AB46" value="0x99"/>
+            <parameter cpu="0" address="0x206AB47" value="0x99"/>
+            <parameter cpu="0" address="0x206AB5D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀技1类型 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="橙 ">
+            <parameter cpu="0" address="0x206AB4D" value="0x06"/>
+            <parameter cpu="0" address="0x206AB55" value="0x06"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0x206AB4D" value="0x05"/>
+            <parameter cpu="0" address="0x206AB55" value="0x05"/>
+        </option>
+        <option desc="红 ">
+            <parameter cpu="0" address="0x206AB4D" value="0x04"/>
+            <parameter cpu="0" address="0x206AB55" value="0x04"/>
+        </option>
+        <option desc="粉 ">
+            <parameter cpu="0" address="0x206AB4D" value="0x03"/>
+            <parameter cpu="0" address="0x206AB55" value="0x03"/>
+        </option>
+        <option desc="黑 ">
+            <parameter cpu="0" address="0x206AB4D" value="0x02"/>
+            <parameter cpu="0" address="0x206AB55" value="0x02"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0x206AB4D" value="0x01"/>
+            <parameter cpu="0" address="0x206AB55" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀技2类型 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="橙 ">
+            <parameter cpu="0" address="0x206AB4E" value="0x06"/>
+            <parameter cpu="0" address="0x206AB56" value="0x06"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0x206AB4E" value="0x05"/>
+            <parameter cpu="0" address="0x206AB56" value="0x05"/>
+        </option>
+        <option desc="红 ">
+            <parameter cpu="0" address="0x206AB4E" value="0x04"/>
+            <parameter cpu="0" address="0x206AB56" value="0x04"/>
+        </option>
+        <option desc="粉 ">
+            <parameter cpu="0" address="0x206AB4E" value="0x03"/>
+            <parameter cpu="0" address="0x206AB56" value="0x03"/>
+        </option>
+        <option desc="黑 ">
+            <parameter cpu="0" address="0x206AB4E" value="0x02"/>
+            <parameter cpu="0" address="0x206AB56" value="0x02"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0x206AB4E" value="0x01"/>
+            <parameter cpu="0" address="0x206AB56" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择必杀技3类型 PL2 " default="0">
+        <option desc="关闭"/>
+        <option desc="橙 ">
+            <parameter cpu="0" address="0x206AB4F" value="0x06"/>
+            <parameter cpu="0" address="0x206AB57" value="0x06"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0x206AB4F" value="0x05"/>
+            <parameter cpu="0" address="0x206AB57" value="0x05"/>
+        </option>
+        <option desc="红 ">
+            <parameter cpu="0" address="0x206AB4F" value="0x04"/>
+            <parameter cpu="0" address="0x206AB57" value="0x04"/>
+        </option>
+        <option desc="粉 ">
+            <parameter cpu="0" address="0x206AB4F" value="0x03"/>
+            <parameter cpu="0" address="0x206AB57" value="0x03"/>
+        </option>
+        <option desc="黑 ">
+            <parameter cpu="0" address="0x206AB4F" value="0x02"/>
+            <parameter cpu="0" address="0x206AB57" value="0x02"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0x206AB4F" value="0x01"/>
+            <parameter cpu="0" address="0x206AB57" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择LEO武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1级普通剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x00"/>
+        </option>
+        <option desc="2级普通剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x01"/>
+        </option>
+        <option desc="3级普通剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x02"/>
+        </option>
+        <option desc="炎之剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x03"/>
+        </option>
+        <option desc="冰之剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x04"/>
+        </option>
+        <option desc="雷之剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x05"/>
+        </option>
+        <option desc="4级普通剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x06"/>
+        </option>
+        <option desc="魔人之斧">
+            <parameter cpu="0" address="0x206AB5C" value="0x07"/>
+        </option>
+        <option desc="传说之剑">
+            <parameter cpu="0" address="0x206AB5C" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择LEO盾牌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1级普通盾">
+            <parameter cpu="0" address="0x206AB5E" value="0x00"/>
+        </option>
+        <option desc="2级普通盾">
+            <parameter cpu="0" address="0x206AB5E" value="0x01"/>
+        </option>
+        <option desc="3级普通盾">
+            <parameter cpu="0" address="0x206AB5E" value="0x02"/>
+        </option>
+        <option desc="4级普通盾">
+            <parameter cpu="0" address="0x206AB5E" value="0x03"/>
+        </option>
+        <option desc="传说之盾">
+            <parameter cpu="0" address="0x206AB5E" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="TABASA/TESSA武器选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="太阳之杖">
+            <parameter cpu="0" address="0x206AB5D" value="0x08"/>
+        </option>
+        <option desc="普通杖">
+            <parameter cpu="0" address="0x206AB5D" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="选择TABASA/TESSA隐藏胜利姿势 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="0">
+            <parameter cpu="0" address="0x206AC0C" value="0x00"/>
+        </option>
+        <option desc="1">
+            <parameter cpu="0" address="0x206AC0C" value="0x01"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x206AC0C" value="0x02"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x206AC0C" value="0x03"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x206AC0C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="MUKURO/KENJI总是使用隐藏胜利姿势 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AC0F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="Hauzer ">
+            <parameter cpu="0" address="0x20606E7" value="0x00"/>
+        </option>
+        <option desc="Tanuma ">
+            <parameter cpu="0" address="0x20606E7" value="0x01"/>
+        </option>
+        <option desc="Hydron ">
+            <parameter cpu="0" address="0x20606E7" value="0x02"/>
+        </option>
+        <option desc="Lavia ">
+            <parameter cpu="0" address="0x20606E7" value="0x03"/>
+        </option>
+        <option desc="Ravange ">
+            <parameter cpu="0" address="0x20606E7" value="0x04"/>
+        </option>
+        <option desc="Gi Gi ">
+            <parameter cpu="0" address="0x20606E7" value="0x05"/>
+        </option>
+        <option desc="Blade ">
+            <parameter cpu="0" address="0x20606E7" value="0x06"/>
+        </option>
+        <option desc="Scion ">
+            <parameter cpu="0" address="0x20606E7" value="0x07"/>
+        </option>
+        <option desc="奖励关 1 ">
+            <parameter cpu="0" address="0x20606E7" value="0x09"/>
+        </option>
+        <option desc="奖励关 2 ">
+            <parameter cpu="0" address="0x20606E7" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择模式" default="0">
+        <option desc="关闭"/>
+        <option desc="无经验模式">
+            <parameter cpu="0" address="0x2060717" value="0x01"/>
+        </option>
+        <option desc="力量模式">
+            <parameter cpu="0" address="0x2060717" value="0x02"/>
+        </option>
+        <option desc="最强模式">
+            <parameter cpu="0" address="0x2060717" value="0x03"/>
+        </option>
+        <option desc="直接出现职员表">
+            <parameter cpu="0" address="0x2060717" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="冲刺斩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A904" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="阿基里斯冲斩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A906" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="马祖斩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A90A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="空击掌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A90A" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="盖亚打桩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A90C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="阎魔突 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A90C" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="火焰大炮 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A90C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="武仙座冲刺 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A918" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="终极盖亚打桩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A91A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="焰旋风 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A91A" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="超炎龙脚 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A91A" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="旋风 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A908" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="红鹤蹴 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A908" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="空蝉 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A90E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="罗刹刃 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A910" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="天坠牙 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A910" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="蜻蛉 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A912" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="死亡镰刀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206A912" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="冲刺斩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB84" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="阿基里斯冲斩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB86" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="马祖斩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB8A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="空击掌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB8A" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="盖亚打桩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB8C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="阎魔突 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB8C" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="火焰大炮 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB8C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="武仙座冲刺 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB98" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="终极盖亚打桩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB9A" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="焰旋风 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB9A" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="超炎龙脚 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB9A" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="旋风 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB88" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="红鹤蹴 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB88" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="空蝉 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB8E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="罗刹刃 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB90" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="天坠牙 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB90" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="蜻蛉 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB92" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="死亡镰刀 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x206AB92" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

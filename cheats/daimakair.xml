@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF06D3" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 '开启'" default="0">
+        <option desc="关闭"/>
+        <option desc="角色无敌 '开启'">
+            <parameter cpu="0" address="0xFF0931" value="0xFF"/>
+        </option>
+        <option desc="角色无敌 '关闭'">
+            <parameter cpu="0" address="0xFF0931" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有升级火力" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF095E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF07AD" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择盔甲 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0xFF07AA" value="0x00"/>
+            <parameter cpu="0" address="0xFF07AC" value="0x01"/>
+        </option>
+        <option desc="金甲">
+            <parameter cpu="0" address="0xFF07AA" value="0x01"/>
+            <parameter cpu="0" address="0xFF07AC" value="0x03"/>
+        </option>
+        <option desc="银甲">
+            <parameter cpu="0" address="0xFF07AA" value="0x01"/>
+            <parameter cpu="0" address="0xFF07AC" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="长矛">
+            <parameter cpu="0" address="0xFF07C6" value="0x00"/>
+        </option>
+        <option desc="刀">
+            <parameter cpu="0" address="0xFF07C6" value="0x01"/>
+        </option>
+        <option desc="火把">
+            <parameter cpu="0" address="0xFF07C6" value="0x02"/>
+        </option>
+        <option desc="剑">
+            <parameter cpu="0" address="0xFF07C6" value="0x03"/>
+        </option>
+        <option desc="石斧">
+            <parameter cpu="0" address="0xFF07C6" value="0x04"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0xFF07C6" value="0x05"/>
+        </option>
+        <option desc="火球">
+            <parameter cpu="0" address="0xFF07C6" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF080D" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="选择盔甲 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0xFF080A" value="0x00"/>
+            <parameter cpu="0" address="0xFF080C" value="0x01"/>
+        </option>
+        <option desc="金甲">
+            <parameter cpu="0" address="0xFF080A" value="0x01"/>
+            <parameter cpu="0" address="0xFF080C" value="0x03"/>
+        </option>
+        <option desc="银甲">
+            <parameter cpu="0" address="0xFF080A" value="0x01"/>
+            <parameter cpu="0" address="0xFF080C" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="长矛">
+            <parameter cpu="0" address="0xFF0826" value="0x00"/>
+        </option>
+        <option desc="刀">
+            <parameter cpu="0" address="0xFF0826" value="0x01"/>
+        </option>
+        <option desc="火把">
+            <parameter cpu="0" address="0xFF0826" value="0x02"/>
+        </option>
+        <option desc="剑">
+            <parameter cpu="0" address="0xFF0826" value="0x03"/>
+        </option>
+        <option desc="石斧">
+            <parameter cpu="0" address="0xFF0826" value="0x04"/>
+        </option>
+        <option desc="护盾">
+            <parameter cpu="0" address="0xFF0826" value="0x05"/>
+        </option>
+        <option desc="火球">
+            <parameter cpu="0" address="0xFF0826" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变成鸭子（有错误）" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF07AC" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="总是变老人（有错误）" default="0">
+        <option desc="关闭"/>
+        <option desc="总是变老人（有错误）">
+            <parameter cpu="0" address="0xFF07C4" value="0x42"/>
+        </option>
+        <option desc="跳舞 （有错误）">
+            <parameter cpu="0" address="0xFF07C4" value="0x44"/>
+        </option>
+    </cheat>
+    <cheat desc="多形体 = 鸭子 (正常)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFFD0BB" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0954" value="0xC3"/>
+            <parameter cpu="0" address="0xFF0955" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="去到关卡 1" default="0">
+        <option desc="关闭"/>
+        <option desc="去到关卡 1">
+            <parameter cpu="0" address="0xFF07C8" value="0x02"/>
+            <parameter cpu="0" address="0xFF0954" value="0xC3"/>
+            <parameter cpu="0" address="0xFF0955" value="0x1C"/>
+        </option>
+        <option desc="去到关卡 2">
+            <parameter cpu="0" address="0xFF07C8" value="0x00"/>
+            <parameter cpu="0" address="0xFF0954" value="0xC3"/>
+            <parameter cpu="0" address="0xFF0955" value="0x1C"/>
+        </option>
+        <option desc="去到关卡 3">
+            <parameter cpu="0" address="0xFF07C8" value="0x01"/>
+            <parameter cpu="0" address="0xFF0954" value="0xC3"/>
+            <parameter cpu="0" address="0xFF0955" value="0x1C"/>
+        </option>
+        <option desc="去到关卡 4">
+            <parameter cpu="0" address="0xFF07C8" value="0x03"/>
+            <parameter cpu="0" address="0xFF0954" value="0xC3"/>
+            <parameter cpu="0" address="0xFF0955" value="0x1C"/>
+        </option>
+        <option desc="去到关卡 5">
+            <parameter cpu="0" address="0xFF07C8" value="0x05"/>
+            <parameter cpu="0" address="0xFF0954" value="0xC3"/>
+            <parameter cpu="0" address="0xFF0955" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="到最终局" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF07C6" value="0x06"/>
+            <parameter cpu="0" address="0xFF07C8" value="0x07"/>
+            <parameter cpu="0" address="0xFF07D5" value="0x01"/>
+            <parameter cpu="0" address="0xFF0954" value="0xC3"/>
+            <parameter cpu="0" address="0xFF0955" value="0x1C"/>
+        </option>
+    </cheat>
+</shufflecheat>

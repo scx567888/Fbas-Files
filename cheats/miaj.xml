@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60179" value="0x00"/>
+            <parameter cpu="0" address="0x6017A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60006" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60015" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60019" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 1 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x60018" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x60018" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x60018" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x60018" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x60018" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6001B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 2 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x6001A" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x6001A" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x6001A" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x6001A" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x6001A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6001D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 3 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x6001C" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x6001C" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x6001C" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x6001C" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x6001C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6001F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 4 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x6001E" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x6001E" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x6001E" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x6001E" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x6001E" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60086" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="角色无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60095" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x60099" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 1 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x60098" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x60098" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x60098" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x60098" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x60098" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6009B" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 2 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x6009A" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x6009A" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x6009A" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x6009A" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x6009A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6009D" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 3 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x6009C" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x6009C" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x6009C" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x6009C" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x6009C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药额外武器 4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x6009F" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="选择额外武器 4 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="没有">
+            <parameter cpu="0" address="0x6009E" value="0x00"/>
+        </option>
+        <option desc="手雷弹">
+            <parameter cpu="0" address="0x6009E" value="0x01"/>
+        </option>
+        <option desc="步枪">
+            <parameter cpu="0" address="0x6009E" value="0x02"/>
+        </option>
+        <option desc="火箭筒">
+            <parameter cpu="0" address="0x6009E" value="0x03"/>
+        </option>
+        <option desc="火焰喷射器">
+            <parameter cpu="0" address="0x6009E" value="0x04"/>
+        </option>
+    </cheat>
+</shufflecheat>

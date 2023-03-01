@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x400344" value="0x90"/>
+        </option>
+    </cheat>
+    <cheat desc="选择关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="安妮">
+            <parameter cpu="0" address="0x40036B" value="0x00"/>
+        </option>
+        <option desc="豪血寺 梅">
+            <parameter cpu="0" address="0x40036B" value="0x01"/>
+        </option>
+        <option desc="陈念">
+            <parameter cpu="0" address="0x40036B" value="0x02"/>
+        </option>
+        <option desc="凯斯 伟恩">
+            <parameter cpu="0" address="0x40036B" value="0x03"/>
+        </option>
+        <option desc="安洁拉">
+            <parameter cpu="0" address="0x40036B" value="0x04"/>
+        </option>
+        <option desc="白色">
+            <parameter cpu="0" address="0x40036B" value="0x05"/>
+        </option>
+        <option desc="破鸟才藏">
+            <parameter cpu="0" address="0x40036B" value="0x06"/>
+        </option>
+        <option desc="大山礼儿">
+            <parameter cpu="0" address="0x40036B" value="0x07"/>
+        </option>
+        <option desc="撒哈德">
+            <parameter cpu="0" address="0x40036B" value="0x08"/>
+        </option>
+        <option desc="豪血寺志摩">
+            <parameter cpu="0" address="0x40036B" value="0x09"/>
+        </option>
+        <option desc="孤空院干滋">
+            <parameter cpu="0" address="0x40036B" value="0x0A"/>
+        </option>
+        <option desc="孤空院金田朗">
+            <parameter cpu="0" address="0x40036B" value="0x0B"/>
+        </option>
+        <option desc="花小路">
+            <parameter cpu="0" address="0x40036B" value="0x0C"/>
+        </option>
+        <option desc="豪血寺 种">
+            <parameter cpu="0" address="0x40036B" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x40079D" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊攻击选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0x4007A3" value="0x50"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4007A3" value="0x40"/>
+        </option>
+        <option desc="禁止">
+            <parameter cpu="0" address="0x4007A3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色OTANE和GOKETUJI PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x400FE5" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="使用克拉拉 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="使用克拉拉 PL1">
+            <parameter cpu="0" address="0x400721" value="0x11"/>
+        </option>
+        <option desc="使用猪 PL1">
+            <parameter cpu="0" address="0x400721" value="0x14"/>
+        </option>
+        <option desc="使用鹅 PL1">
+            <parameter cpu="0" address="0x400721" value="0x15"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x400B9D" value="0xD0"/>
+        </option>
+    </cheat>
+    <cheat desc="特殊攻击选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0x400BA3" value="0x50"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x400BA3" value="0x40"/>
+        </option>
+        <option desc="禁止">
+            <parameter cpu="0" address="0x400BA3" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="使用角色OTANE和GOKETUJI PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4011E5" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="使用克拉拉 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="使用克拉拉 PL2">
+            <parameter cpu="0" address="0x400B21" value="0x11"/>
+        </option>
+        <option desc="使用猪 PL2">
+            <parameter cpu="0" address="0x400B21" value="0x14"/>
+        </option>
+        <option desc="使用鹅 PL2">
+            <parameter cpu="0" address="0x400B21" value="0x15"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="安妮">
+            <parameter cpu="0" address="0x400327" value="0x02"/>
+        </option>
+        <option desc="豪血寺 梅 (青年)">
+            <parameter cpu="0" address="0x400327" value="0x01"/>
+        </option>
+        <option desc="豪血寺 梅">
+            <parameter cpu="0" address="0x400327" value="0x03"/>
+        </option>
+        <option desc="陈念">
+            <parameter cpu="0" address="0x400327" value="0x04"/>
+        </option>
+        <option desc="凯斯 伟恩">
+            <parameter cpu="0" address="0x400327" value="0x05"/>
+        </option>
+        <option desc="安洁拉">
+            <parameter cpu="0" address="0x400327" value="0x06"/>
+        </option>
+        <option desc="白色">
+            <parameter cpu="0" address="0x400327" value="0x07"/>
+        </option>
+        <option desc="破鸟才藏">
+            <parameter cpu="0" address="0x400327" value="0x08"/>
+        </option>
+        <option desc="大山礼儿">
+            <parameter cpu="0" address="0x400327" value="0x09"/>
+        </option>
+        <option desc="撒哈德">
+            <parameter cpu="0" address="0x400327" value="0x0A"/>
+        </option>
+        <option desc="豪血寺志摩">
+            <parameter cpu="0" address="0x400327" value="0x0B"/>
+        </option>
+        <option desc="孤空院干滋">
+            <parameter cpu="0" address="0x400327" value="0x0C"/>
+        </option>
+        <option desc="孤空院干滋 (衰弱)">
+            <parameter cpu="0" address="0x400327" value="0x0D"/>
+        </option>
+        <option desc="孤空院金田朗">
+            <parameter cpu="0" address="0x400327" value="0x0E"/>
+        </option>
+        <option desc="波子">
+            <parameter cpu="0" address="0x400327" value="0x0F"/>
+        </option>
+        <option desc="花小路">
+            <parameter cpu="0" address="0x400327" value="0x10"/>
+        </option>
+        <option desc="超级花小路">
+            <parameter cpu="0" address="0x400327" value="0x11"/>
+        </option>
+        <option desc="豪血寺 种">
+            <parameter cpu="0" address="0x400327" value="0x12"/>
+        </option>
+        <option desc="豪血寺 种 (青年)">
+            <parameter cpu="0" address="0x400327" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="选择玩家颜色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x400358" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x400358" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x400358" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x400358" value="0x03"/>
+        </option>
+        <option desc="Start">
+            <parameter cpu="0" address="0x400358" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择玩家类型 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="CPU">
+            <parameter cpu="0" address="0x400780" value="0x00"/>
+        </option>
+        <option desc="PL1">
+            <parameter cpu="0" address="0x400780" value="0x01"/>
+        </option>
+        <option desc="PL2">
+            <parameter cpu="0" address="0x400780" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="安妮">
+            <parameter cpu="0" address="0x40032B" value="0x02"/>
+        </option>
+        <option desc="豪血寺 梅 (青年)">
+            <parameter cpu="0" address="0x40032B" value="0x01"/>
+        </option>
+        <option desc="豪血寺 梅">
+            <parameter cpu="0" address="0x40032B" value="0x03"/>
+        </option>
+        <option desc="陈念">
+            <parameter cpu="0" address="0x40032B" value="0x04"/>
+        </option>
+        <option desc="凯斯 伟恩">
+            <parameter cpu="0" address="0x40032B" value="0x05"/>
+        </option>
+        <option desc="安洁拉">
+            <parameter cpu="0" address="0x40032B" value="0x06"/>
+        </option>
+        <option desc="白色">
+            <parameter cpu="0" address="0x40032B" value="0x07"/>
+        </option>
+        <option desc="破鸟才藏">
+            <parameter cpu="0" address="0x40032B" value="0x08"/>
+        </option>
+        <option desc="大山礼儿">
+            <parameter cpu="0" address="0x40032B" value="0x09"/>
+        </option>
+        <option desc="撒哈德">
+            <parameter cpu="0" address="0x40032B" value="0x0A"/>
+        </option>
+        <option desc="豪血寺志摩">
+            <parameter cpu="0" address="0x40032B" value="0x0B"/>
+        </option>
+        <option desc="孤空院干滋">
+            <parameter cpu="0" address="0x40032B" value="0x0C"/>
+        </option>
+        <option desc="孤空院干滋 (衰弱)">
+            <parameter cpu="0" address="0x40032B" value="0x0D"/>
+        </option>
+        <option desc="孤空院金田朗">
+            <parameter cpu="0" address="0x40032B" value="0x0E"/>
+        </option>
+        <option desc="波子">
+            <parameter cpu="0" address="0x40032B" value="0x0F"/>
+        </option>
+        <option desc="花小路">
+            <parameter cpu="0" address="0x40032B" value="0x10"/>
+        </option>
+        <option desc="超级花小路">
+            <parameter cpu="0" address="0x40032B" value="0x11"/>
+        </option>
+        <option desc="豪血寺 种">
+            <parameter cpu="0" address="0x40032B" value="0x12"/>
+        </option>
+        <option desc="豪血寺 种 (青年)">
+            <parameter cpu="0" address="0x40032B" value="0x13"/>
+        </option>
+    </cheat>
+    <cheat desc="选择玩家颜色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x400359" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x400359" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x400359" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x400359" value="0x03"/>
+        </option>
+        <option desc="Start">
+            <parameter cpu="0" address="0x400359" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择玩家类型 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="CPU">
+            <parameter cpu="0" address="0x400B80" value="0x00"/>
+        </option>
+        <option desc="PL1">
+            <parameter cpu="0" address="0x400B80" value="0x01"/>
+        </option>
+        <option desc="PL2">
+            <parameter cpu="0" address="0x400B80" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="Annie">
+            <parameter cpu="0" address="0x40036B" value="0x00"/>
+        </option>
+        <option desc="Oume">
+            <parameter cpu="0" address="0x40036B" value="0x01"/>
+        </option>
+        <option desc="Thin Nen">
+            <parameter cpu="0" address="0x40036B" value="0x02"/>
+        </option>
+        <option desc="Keith">
+            <parameter cpu="0" address="0x40036B" value="0x03"/>
+        </option>
+        <option desc="Angela">
+            <parameter cpu="0" address="0x40036B" value="0x04"/>
+        </option>
+        <option desc="White">
+            <parameter cpu="0" address="0x40036B" value="0x05"/>
+        </option>
+        <option desc="Saizo">
+            <parameter cpu="0" address="0x40036B" value="0x06"/>
+        </option>
+        <option desc="Reiji">
+            <parameter cpu="0" address="0x40036B" value="0x07"/>
+        </option>
+        <option desc="Sahad">
+            <parameter cpu="0" address="0x40036B" value="0x08"/>
+        </option>
+        <option desc="Oshima">
+            <parameter cpu="0" address="0x40036B" value="0x09"/>
+        </option>
+        <option desc="Kanji">
+            <parameter cpu="0" address="0x40036B" value="0x0A"/>
+        </option>
+        <option desc="Kintaro">
+            <parameter cpu="0" address="0x40036B" value="0x0B"/>
+        </option>
+        <option desc="Kurara">
+            <parameter cpu="0" address="0x40036B" value="0x0C"/>
+        </option>
+        <option desc="Otane">
+            <parameter cpu="0" address="0x40036B" value="0x0D"/>
+        </option>
+    </cheat>
+    <cheat desc="选择难度" default="0">
+        <option desc="关闭"/>
+        <option desc="非常容易">
+            <parameter cpu="0" address="0x40FE60" value="0x00"/>
+        </option>
+        <option desc="容易">
+            <parameter cpu="0" address="0x40FE60" value="0x01"/>
+        </option>
+        <option desc="普通0">
+            <parameter cpu="0" address="0x40FE60" value="0x02"/>
+        </option>
+        <option desc="普通1">
+            <parameter cpu="0" address="0x40FE60" value="0x03"/>
+        </option>
+        <option desc="普通2">
+            <parameter cpu="0" address="0x40FE60" value="0x04"/>
+        </option>
+        <option desc="困难">
+            <parameter cpu="0" address="0x40FE60" value="0x05"/>
+        </option>
+        <option desc="非常困难">
+            <parameter cpu="0" address="0x40FE60" value="0x06"/>
+        </option>
+        <option desc="超级困难">
+            <parameter cpu="0" address="0x40FE60" value="0x07"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1F13" value="0x59"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80C" value="0x10"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1012" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限红心(生命)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x819" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="完成当前关 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x80F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="武器总是鞭子" default="0">
+        <option desc="关闭"/>
+        <option desc="武器总是鞭子">
+            <parameter cpu="0" address="0x1010" value="0x00"/>
+        </option>
+        <option desc="武器总是铁锤">
+            <parameter cpu="0" address="0x1010" value="0x01"/>
+        </option>
+        <option desc="武器总是剑">
+            <parameter cpu="0" address="0x1010" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="装备项目为空 !" default="0">
+        <option desc="关闭"/>
+        <option desc="装备项目为空 !">
+            <parameter cpu="0" address="0x1E99" value="0x00"/>
+        </option>
+        <option desc="装备项目 = 炸弹 !">
+            <parameter cpu="0" address="0x1E99" value="0x01"/>
+        </option>
+        <option desc="装备项目 = 火焰 !">
+            <parameter cpu="0" address="0x1E99" value="0x02"/>
+        </option>
+        <option desc="装备项目 = 飞去来器 !">
+            <parameter cpu="0" address="0x1E99" value="0x03"/>
+        </option>
+        <option desc="装备项目 = 十字 !">
+            <parameter cpu="0" address="0x1E99" value="0x04"/>
+        </option>
+        <option desc="装备项目 = 时钟 !">
+            <parameter cpu="0" address="0x1E99" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x806" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x806" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x806" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x806" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x806" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x806" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="声音检测计时停止" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x18CC" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x201BD1" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x20362F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2035DA" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有盔甲 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203604" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203605" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有蓝色火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有蓝色火力 PL1">
+            <parameter cpu="0" address="0x203606" value="0x00"/>
+        </option>
+        <option desc="总是有红色火力 PL1">
+            <parameter cpu="0" address="0x203606" value="0x01"/>
+        </option>
+        <option desc="总是有淡蓝色火力 PL1">
+            <parameter cpu="0" address="0x203606" value="0x02"/>
+        </option>
+        <option desc="总是有绿色火力 PL1">
+            <parameter cpu="0" address="0x203606" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无限顶部行走时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限顶部行走时间 PL1">
+            <parameter cpu="0" address="0x2035F3" value="0x10"/>
+        </option>
+        <option desc="没有顶部行走时间 PL1">
+            <parameter cpu="0" address="0x2035F3" value="0x78"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203753" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x2036FE" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有盔甲 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203728" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x203729" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有蓝色火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有蓝色火力 PL2">
+            <parameter cpu="0" address="0x20372A" value="0x00"/>
+        </option>
+        <option desc="总是有红色火力 PL2">
+            <parameter cpu="0" address="0x20372A" value="0x01"/>
+        </option>
+        <option desc="总是有淡蓝色火力 PL2">
+            <parameter cpu="0" address="0x20372A" value="0x02"/>
+        </option>
+        <option desc="总是有绿色火力 PL2">
+            <parameter cpu="0" address="0x20372A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x204EFB" value="0x00"/>
+            <parameter cpu="0" address="0x204F7B" value="0x00"/>
+            <parameter cpu="0" address="0x204FFB" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

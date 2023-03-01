@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC303" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC016" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC302" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="尾部武器总是=三向 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="尾部武器总是=三向 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x00"/>
+        </option>
+        <option desc="尾部武器总是=火焰束 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x04"/>
+        </option>
+        <option desc="尾部武器总是=火墙 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x08"/>
+        </option>
+        <option desc="尾部武器总是=旋风 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x0C"/>
+        </option>
+        <option desc="尾部武器总是=导弹 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x10"/>
+        </option>
+        <option desc="尾部武器总是=额外生命 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x14"/>
+        </option>
+        <option desc="尾部武器总是=加速 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x18"/>
+        </option>
+        <option desc="尾部武器总是=20000分 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x1C"/>
+        </option>
+        <option desc="尾部武器总是=50000分 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x20"/>
+        </option>
+        <option desc="尾部武器总是=100000分 PL1">
+            <parameter cpu="0" address="0xC8E9" value="0x24"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC343" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC01F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC342" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="尾部武器总是=三向 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="尾部武器总是=三向 PL2">
+            <parameter cpu="0" address="0xC871" value="0x00"/>
+        </option>
+        <option desc="尾部武器总是=火焰束 PL2">
+            <parameter cpu="0" address="0xC871" value="0x04"/>
+        </option>
+        <option desc="尾部武器总是=火墙 PL2">
+            <parameter cpu="0" address="0xC871" value="0x08"/>
+        </option>
+        <option desc="尾部武器总是=旋风 PL2">
+            <parameter cpu="0" address="0xC871" value="0x0C"/>
+        </option>
+        <option desc="尾部武器总是=导弹 PL2">
+            <parameter cpu="0" address="0xC871" value="0x10"/>
+        </option>
+        <option desc="尾部武器总是=额外生命 PL2">
+            <parameter cpu="0" address="0xC871" value="0x14"/>
+        </option>
+        <option desc="尾部武器总是=加速 PL2">
+            <parameter cpu="0" address="0xC871" value="0x18"/>
+        </option>
+        <option desc="尾部武器总是=20000分 PL2">
+            <parameter cpu="0" address="0xC871" value="0x1C"/>
+        </option>
+        <option desc="尾部武器总是=50000分 PL2">
+            <parameter cpu="0" address="0xC871" value="0x20"/>
+        </option>
+        <option desc="尾部武器总是=100000分 PL2">
+            <parameter cpu="0" address="0xC871" value="0x24"/>
+        </option>
+    </cheat>
+</shufflecheat>

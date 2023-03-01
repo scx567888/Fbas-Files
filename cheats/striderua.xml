@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0F6A" value="0x02"/>
+            <parameter cpu="0" address="0xFF0F6B" value="0x58"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0CA8" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 - 无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF10E8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 - No Hit 无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0CF5" value="0x6B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限健康状态(能量)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0CE6" value="0x81"/>
+            <parameter cpu="0" address="0xFF0CE7" value="0x81"/>
+            <parameter cpu="0" address="0xFF0CE8" value="0x81"/>
+            <parameter cpu="0" address="0xFF0CE9" value="0x81"/>
+            <parameter cpu="0" address="0xFF0CEA" value="0x81"/>
+        </option>
+    </cheat>
+    <cheat desc="无限剑之力量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0CE3" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限影子随从" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0CE1" value="0x76"/>
+        </option>
+    </cheat>
+    <cheat desc="无限狼跟随时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0CF8" value="0x00"/>
+            <parameter cpu="0" address="0xFF0CF9" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="附属武器 - 一个" default="0">
+        <option desc="关闭"/>
+        <option desc="附属武器 - 一个">
+            <parameter cpu="0" address="0xFF0CE4" value="0x01"/>
+        </option>
+        <option desc="附属武器 - 两个">
+            <parameter cpu="0" address="0xFF0CE4" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="附属武器 - 狼" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF0CE4" value="0x00"/>
+            <parameter cpu="0" address="0xFF0CF8" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xFF0CB2" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xFF0CB2" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xFF0CB2" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xFF0CB2" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xFF0CB2" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="选择重力" default="0">
+        <option desc="关闭"/>
+        <option desc="正常">
+            <parameter cpu="0" address="0xFF1125" value="0x00"/>
+        </option>
+        <option desc="反转">
+            <parameter cpu="0" address="0xFF1125" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

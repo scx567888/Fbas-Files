@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE800E1" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE80129" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限球" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE80127" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="最少得25500分!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE80135" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限奖励时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE801D3" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="所有球不降速" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE88C15" value="0xFF"/>
+            <parameter cpu="0" address="0xE88C45" value="0xFF"/>
+            <parameter cpu="0" address="0xE88C75" value="0xFF"/>
+            <parameter cpu="0" address="0xE88CA5" value="0xFF"/>
+            <parameter cpu="0" address="0xE88CD5" value="0xFF"/>
+            <parameter cpu="0" address="0xE88D05" value="0xFF"/>
+            <parameter cpu="0" address="0xE88D35" value="0xFF"/>
+            <parameter cpu="0" address="0xE88D65" value="0xFF"/>
+            <parameter cpu="0" address="0xE88D95" value="0xFF"/>
+            <parameter cpu="0" address="0xE88DC5" value="0xFF"/>
+            <parameter cpu="0" address="0xE88DF5" value="0xFF"/>
+        </option>
+    </cheat>
+</shufflecheat>

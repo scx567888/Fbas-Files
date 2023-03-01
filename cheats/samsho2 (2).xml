@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="去到BOSS战斗场景 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100AAE" value="0x0C"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="霸王丸">
+            <parameter cpu="0" address="0x100D0B" value="0x00"/>
+        </option>
+        <option desc="娜可露露">
+            <parameter cpu="0" address="0x100D0B" value="0x01"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x100D0B" value="0x02"/>
+        </option>
+        <option desc="加尔福特">
+            <parameter cpu="0" address="0x100D0B" value="0x03"/>
+        </option>
+        <option desc="王虎">
+            <parameter cpu="0" address="0x100D0B" value="0x04"/>
+        </option>
+        <option desc="橘右京">
+            <parameter cpu="0" address="0x100D0B" value="0x05"/>
+        </option>
+        <option desc="千两狂死郞">
+            <parameter cpu="0" address="0x100D0B" value="0x06"/>
+        </option>
+        <option desc="不知火幻庵">
+            <parameter cpu="0" address="0x100D0B" value="0x07"/>
+        </option>
+        <option desc="地震">
+            <parameter cpu="0" address="0x100D0B" value="0x08"/>
+        </option>
+        <option desc="柳生十兵卫">
+            <parameter cpu="0" address="0x100D0B" value="0x09"/>
+        </option>
+        <option desc="夏洛特">
+            <parameter cpu="0" address="0x100D0B" value="0x0B"/>
+        </option>
+        <option desc="牙神幻十郞">
+            <parameter cpu="0" address="0x100D0B" value="0x0C"/>
+        </option>
+        <option desc="查姆查姆">
+            <parameter cpu="0" address="0x100D0B" value="0x0D"/>
+        </option>
+        <option desc="莱锡路">
+            <parameter cpu="0" address="0x100D0B" value="0x0E"/>
+        </option>
+        <option desc="花讽院和仲">
+            <parameter cpu="0" address="0x100D0B" value="0x0F"/>
+        </option>
+        <option desc="罗将神">
+            <parameter cpu="0" address="0x100D0B" value="0x10"/>
+        </option>
+        <option desc="黑子">
+            <parameter cpu="0" address="0x100D0B" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="使用游戏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="霸王丸">
+            <parameter cpu="0" address="0x100D1B" value="0x00"/>
+        </option>
+        <option desc="娜可露露">
+            <parameter cpu="0" address="0x100D1B" value="0x01"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x100D1B" value="0x02"/>
+        </option>
+        <option desc="加尔福特">
+            <parameter cpu="0" address="0x100D1B" value="0x03"/>
+        </option>
+        <option desc="王虎">
+            <parameter cpu="0" address="0x100D1B" value="0x04"/>
+        </option>
+        <option desc="橘右京">
+            <parameter cpu="0" address="0x100D1B" value="0x05"/>
+        </option>
+        <option desc="千两狂死郞">
+            <parameter cpu="0" address="0x100D1B" value="0x06"/>
+        </option>
+        <option desc="不知火幻庵">
+            <parameter cpu="0" address="0x100D1B" value="0x07"/>
+        </option>
+        <option desc="地震">
+            <parameter cpu="0" address="0x100D1B" value="0x08"/>
+        </option>
+        <option desc="柳生十兵卫">
+            <parameter cpu="0" address="0x100D1B" value="0x09"/>
+        </option>
+        <option desc="夏洛特">
+            <parameter cpu="0" address="0x100D1B" value="0x0B"/>
+        </option>
+        <option desc="牙神幻十郞">
+            <parameter cpu="0" address="0x100D1B" value="0x0C"/>
+        </option>
+        <option desc="查姆查姆">
+            <parameter cpu="0" address="0x100D1B" value="0x0D"/>
+        </option>
+        <option desc="莱锡路">
+            <parameter cpu="0" address="0x100D1B" value="0x0E"/>
+        </option>
+        <option desc="花讽院和仲">
+            <parameter cpu="0" address="0x100D1B" value="0x0F"/>
+        </option>
+        <option desc="罗将神">
+            <parameter cpu="0" address="0x100D1B" value="0x10"/>
+        </option>
+        <option desc="黑子">
+            <parameter cpu="0" address="0x100D1B" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc="总是第1局" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100ADD" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="霸王丸">
+            <parameter cpu="0" address="0x100AD9" value="0x00"/>
+        </option>
+        <option desc="娜可露露">
+            <parameter cpu="0" address="0x100AD9" value="0x01"/>
+        </option>
+        <option desc="服部半藏">
+            <parameter cpu="0" address="0x100AD9" value="0x02"/>
+        </option>
+        <option desc="加尔福特">
+            <parameter cpu="0" address="0x100AD9" value="0x03"/>
+        </option>
+        <option desc="王虎">
+            <parameter cpu="0" address="0x100AD9" value="0x04"/>
+        </option>
+        <option desc="橘右京">
+            <parameter cpu="0" address="0x100AD9" value="0x05"/>
+        </option>
+        <option desc="千两狂死郞">
+            <parameter cpu="0" address="0x100AD9" value="0x06"/>
+        </option>
+        <option desc="不知火幻庵">
+            <parameter cpu="0" address="0x100AD9" value="0x07"/>
+        </option>
+        <option desc="地震">
+            <parameter cpu="0" address="0x100AD9" value="0x08"/>
+        </option>
+        <option desc="柳生十兵卫">
+            <parameter cpu="0" address="0x100AD9" value="0x09"/>
+        </option>
+        <option desc="夏洛特">
+            <parameter cpu="0" address="0x100AD9" value="0x0B"/>
+        </option>
+        <option desc="牙神幻十郞">
+            <parameter cpu="0" address="0x100AD9" value="0x0C"/>
+        </option>
+        <option desc="查姆查姆">
+            <parameter cpu="0" address="0x100AD9" value="0x0D"/>
+        </option>
+        <option desc="莱锡路">
+            <parameter cpu="0" address="0x100AD9" value="0x0E"/>
+        </option>
+        <option desc="花讽院和仲">
+            <parameter cpu="0" address="0x100AD9" value="0x0F"/>
+        </option>
+        <option desc="罗将神">
+            <parameter cpu="0" address="0x100AD9" value="0x10"/>
+        </option>
+        <option desc="黑子">
+            <parameter cpu="0" address="0x100AD9" value="0x11"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="得到武器! PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="得到武器! PL1">
+            <parameter cpu="0" address="0x103E34" value="0x00"/>
+        </option>
+        <option desc="失去武器! PL1">
+            <parameter cpu="0" address="0x103E34" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择Cartridge/NeoGeo系统类型" default="0">
+        <option desc="关闭"/>
+        <option desc="街机 (MVS)">
+            <parameter cpu="0" address="0x10FD82" value="0x80"/>
+        </option>
+        <option desc="家用机 (NEOGEO)">
+            <parameter cpu="0" address="0x10FD82" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出天霸封神斩 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108019" value="0x11"/>
+            <parameter cpu="0" address="0x10801B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出牙神的三连杀(第2段) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10804D" value="0x03"/>
+            <parameter cpu="0" address="0x10804F" value="0x03"/>
+            <parameter cpu="0" address="0x108051" value="0x03"/>
+            <parameter cpu="0" address="0x108053" value="0x03"/>
+            <parameter cpu="0" address="0x108055" value="0x03"/>
+            <parameter cpu="0" address="0x108057" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出牙神的三连杀(第3段) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108065" value="0x03"/>
+            <parameter cpu="0" address="0x108067" value="0x03"/>
+            <parameter cpu="0" address="0x108069" value="0x03"/>
+            <parameter cpu="0" address="0x10806B" value="0x03"/>
+            <parameter cpu="0" address="0x10806D" value="0x03"/>
+            <parameter cpu="0" address="0x10806F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出气流上勾拳(莱锡路) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10802D" value="0x03"/>
+            <parameter cpu="0" address="0x10802F" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出肌肉格杀(莱锡路) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108031" value="0x05"/>
+            <parameter cpu="0" address="0x108033" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="得到武器! PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="得到武器! PL2">
+            <parameter cpu="0" address="0x104074" value="0x00"/>
+        </option>
+        <option desc="失去武器! PL2">
+            <parameter cpu="0" address="0x104074" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出天霸封神斩 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108099" value="0x11"/>
+            <parameter cpu="0" address="0x10809B" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出牙神的三连杀(第2段) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1080CD" value="0x03"/>
+            <parameter cpu="0" address="0x1080CF" value="0x03"/>
+            <parameter cpu="0" address="0x1080D1" value="0x03"/>
+            <parameter cpu="0" address="0x1080D3" value="0x03"/>
+            <parameter cpu="0" address="0x1080D5" value="0x03"/>
+            <parameter cpu="0" address="0x1080D7" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出牙神的三连杀(第3段) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1080E5" value="0x03"/>
+            <parameter cpu="0" address="0x1080E7" value="0x03"/>
+            <parameter cpu="0" address="0x1080E9" value="0x03"/>
+            <parameter cpu="0" address="0x1080EB" value="0x03"/>
+            <parameter cpu="0" address="0x1080ED" value="0x03"/>
+            <parameter cpu="0" address="0x1080EF" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出气流上勾拳(莱锡路) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1080AD" value="0x03"/>
+            <parameter cpu="0" address="0x1080AF" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="容易使出肌肉格杀(莱锡路) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1080B1" value="0x05"/>
+            <parameter cpu="0" address="0x1080B3" value="0x05"/>
+        </option>
+    </cheat>
+</shufflecheat>

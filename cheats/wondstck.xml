@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12C7B1" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A5FF" value="0x01"/>
+            <parameter cpu="0" address="0x12A604" value="0x01"/>
+            <parameter cpu="0" address="0x12A605" value="0x2A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A5F1" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限震 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A5F3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A627" value="0x01"/>
+            <parameter cpu="0" address="0x12A628" value="0x01"/>
+            <parameter cpu="0" address="0x12A629" value="0x52"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A65B" value="0x01"/>
+            <parameter cpu="0" address="0x12A660" value="0x01"/>
+            <parameter cpu="0" address="0x12A661" value="0x2A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A64D" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限震 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A64F" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="总是加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12A683" value="0x01"/>
+            <parameter cpu="0" address="0x12A684" value="0x01"/>
+            <parameter cpu="0" address="0x12A685" value="0x52"/>
+        </option>
+    </cheat>
+    <cheat desc="1P/总是有火护盾 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12C2E3" value="0x01"/>
+            <parameter cpu="0" address="0x12C2E6" value="0x01"/>
+            <parameter cpu="0" address="0x12C2E7" value="0x52"/>
+        </option>
+    </cheat>
+    <cheat desc="冻结所有敌人" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x127771" value="0x3A"/>
+            <parameter cpu="0" address="0x1286F5" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="完成一项即可过关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x12771D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="立即完成当前关卡 !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x126E31" value="0x01"/>
+        </option>
+    </cheat>
+</shufflecheat>

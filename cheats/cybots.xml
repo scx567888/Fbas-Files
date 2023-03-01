@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF80B6" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限时间">
+            <parameter cpu="0" address="0xFFEBA0" value="0x99"/>
+        </option>
+        <option desc="完成此关!">
+            <parameter cpu="0" address="0xFFEBA0" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="选关!" default="0">
+        <option desc="关闭"/>
+        <option desc="最终关!">
+            <parameter cpu="0" address="0xFF852A" value="0x08"/>
+            <parameter cpu="0" address="0xFF8530" value="0x08"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x08"/>
+        </option>
+        <option desc="场景 1">
+            <parameter cpu="0" address="0xFF852A" value="0x01"/>
+            <parameter cpu="0" address="0xFF8530" value="0x01"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x01"/>
+        </option>
+        <option desc="场景 2">
+            <parameter cpu="0" address="0xFF852A" value="0x02"/>
+            <parameter cpu="0" address="0xFF8530" value="0x02"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x02"/>
+        </option>
+        <option desc="场景 3">
+            <parameter cpu="0" address="0xFF852A" value="0x03"/>
+            <parameter cpu="0" address="0xFF8530" value="0x03"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x03"/>
+        </option>
+        <option desc="场景 4">
+            <parameter cpu="0" address="0xFF852A" value="0x04"/>
+            <parameter cpu="0" address="0xFF8530" value="0x04"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x04"/>
+        </option>
+        <option desc="场景 5">
+            <parameter cpu="0" address="0xFF852A" value="0x05"/>
+            <parameter cpu="0" address="0xFF8530" value="0x05"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x05"/>
+        </option>
+        <option desc="场景 6">
+            <parameter cpu="0" address="0xFF852A" value="0x06"/>
+            <parameter cpu="0" address="0xFF8530" value="0x06"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x06"/>
+        </option>
+        <option desc="场景 7">
+            <parameter cpu="0" address="0xFF852A" value="0x07"/>
+            <parameter cpu="0" address="0xFF8530" value="0x07"/>
+            <parameter cpu="0" address="0xFFEB36" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL1">
+            <parameter cpu="0" address="0xFF81E5" value="0x98"/>
+        </option>
+        <option desc="耗尽所有能量! PL1">
+            <parameter cpu="0" address="0xFF81E5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL1">
+            <parameter cpu="0" address="0xFF8534" value="0x3F"/>
+        </option>
+        <option desc="耗尽所有力量! PL1">
+            <parameter cpu="0" address="0xFF8534" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF830E" value="0x30"/>
+            <parameter cpu="0" address="0xFF8310" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限推进 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF830A" value="0x1D"/>
+        </option>
+    </cheat>
+    <cheat desc="华丽外表(无限力量状态) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8363" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="驾驶员选择 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Chiyomaru &amp; Tessan">
+            <parameter cpu="0" address="0xFF8510" value="0x07"/>
+        </option>
+        <option desc="Devilotte">
+            <parameter cpu="0" address="0xFF8510" value="0x06"/>
+        </option>
+        <option desc="G.O.D.">
+            <parameter cpu="0" address="0xFF8510" value="0x09"/>
+        </option>
+        <option desc="Shade">
+            <parameter cpu="0" address="0xFF8510" value="0x08"/>
+        </option>
+        <option desc="Jin">
+            <parameter cpu="0" address="0xFF8510" value="0x00"/>
+        </option>
+        <option desc="Santana">
+            <parameter cpu="0" address="0xFF8510" value="0x01"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0xFF8510" value="0x02"/>
+        </option>
+        <option desc="Arieta">
+            <parameter cpu="0" address="0xFF8510" value="0x03"/>
+        </option>
+        <option desc="Gawaine">
+            <parameter cpu="0" address="0xFF8510" value="0x04"/>
+        </option>
+        <option desc="Bao &amp; Mao">
+            <parameter cpu="0" address="0xFF8510" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="机体类型 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Blodia">
+            <parameter cpu="0" address="0xFF8528" value="0x00"/>
+        </option>
+        <option desc="Fordy">
+            <parameter cpu="0" address="0xFF8528" value="0x02"/>
+        </option>
+        <option desc="Guldin">
+            <parameter cpu="0" address="0xFF8528" value="0x03"/>
+        </option>
+        <option desc="Reptos">
+            <parameter cpu="0" address="0xFF8528" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择机体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="Blodia">
+            <parameter cpu="0" address="0xFF8511" value="0x00"/>
+            <parameter cpu="0" address="0xFF8512" value="0x00"/>
+            <parameter cpu="0" address="0xFF8513" value="0x00"/>
+            <parameter cpu="0" address="0xFF852C" value="0x00"/>
+        </option>
+        <option desc="Reptos">
+            <parameter cpu="0" address="0xFF8511" value="0x01"/>
+            <parameter cpu="0" address="0xFF8512" value="0x01"/>
+            <parameter cpu="0" address="0xFF8513" value="0x01"/>
+            <parameter cpu="0" address="0xFF852C" value="0x01"/>
+        </option>
+        <option desc="Fordy">
+            <parameter cpu="0" address="0xFF8511" value="0x02"/>
+            <parameter cpu="0" address="0xFF8512" value="0x02"/>
+            <parameter cpu="0" address="0xFF8513" value="0x02"/>
+            <parameter cpu="0" address="0xFF852C" value="0x02"/>
+        </option>
+        <option desc="Guldin">
+            <parameter cpu="0" address="0xFF8511" value="0x03"/>
+            <parameter cpu="0" address="0xFF8512" value="0x03"/>
+            <parameter cpu="0" address="0xFF8513" value="0x03"/>
+            <parameter cpu="0" address="0xFF852C" value="0x03"/>
+        </option>
+        <option desc="Swordsman">
+            <parameter cpu="0" address="0xFF8511" value="0x04"/>
+            <parameter cpu="0" address="0xFF8512" value="0x04"/>
+            <parameter cpu="0" address="0xFF8513" value="0x04"/>
+            <parameter cpu="0" address="0xFF852C" value="0x04"/>
+        </option>
+        <option desc="Lightning">
+            <parameter cpu="0" address="0xFF8511" value="0x05"/>
+            <parameter cpu="0" address="0xFF8512" value="0x05"/>
+            <parameter cpu="0" address="0xFF8513" value="0x05"/>
+            <parameter cpu="0" address="0xFF852C" value="0x05"/>
+        </option>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0xFF8511" value="0x06"/>
+            <parameter cpu="0" address="0xFF8512" value="0x06"/>
+            <parameter cpu="0" address="0xFF8513" value="0x06"/>
+            <parameter cpu="0" address="0xFF852C" value="0x06"/>
+        </option>
+        <option desc="Vise">
+            <parameter cpu="0" address="0xFF8511" value="0x07"/>
+            <parameter cpu="0" address="0xFF8512" value="0x07"/>
+            <parameter cpu="0" address="0xFF8513" value="0x07"/>
+            <parameter cpu="0" address="0xFF852C" value="0x07"/>
+        </option>
+        <option desc="Cyclone">
+            <parameter cpu="0" address="0xFF8511" value="0x08"/>
+            <parameter cpu="0" address="0xFF8512" value="0x08"/>
+            <parameter cpu="0" address="0xFF8513" value="0x08"/>
+            <parameter cpu="0" address="0xFF852C" value="0x08"/>
+        </option>
+        <option desc="Riot">
+            <parameter cpu="0" address="0xFF8511" value="0x09"/>
+            <parameter cpu="0" address="0xFF8512" value="0x09"/>
+            <parameter cpu="0" address="0xFF8513" value="0x09"/>
+            <parameter cpu="0" address="0xFF852C" value="0x09"/>
+        </option>
+        <option desc="Tarantula">
+            <parameter cpu="0" address="0xFF8511" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8512" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8513" value="0x0A"/>
+            <parameter cpu="0" address="0xFF852C" value="0x0A"/>
+        </option>
+        <option desc="Helion">
+            <parameter cpu="0" address="0xFF8511" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8512" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8513" value="0x0B"/>
+            <parameter cpu="0" address="0xFF852C" value="0x0B"/>
+        </option>
+        <option desc="Super-8">
+            <parameter cpu="0" address="0xFF8511" value="0x0C"/>
+            <parameter cpu="0" address="0xFF8512" value="0x0C"/>
+            <parameter cpu="0" address="0xFF8513" value="0x0C"/>
+            <parameter cpu="0" address="0xFF852C" value="0x0C"/>
+        </option>
+        <option desc="Gaits">
+            <parameter cpu="0" address="0xFF8511" value="0x0D"/>
+            <parameter cpu="0" address="0xFF8512" value="0x0D"/>
+            <parameter cpu="0" address="0xFF8513" value="0x0D"/>
+            <parameter cpu="0" address="0xFF852C" value="0x0D"/>
+        </option>
+        <option desc="Warlock">
+            <parameter cpu="0" address="0xFF8511" value="0x0E"/>
+            <parameter cpu="0" address="0xFF8512" value="0x0E"/>
+            <parameter cpu="0" address="0xFF8513" value="0x0E"/>
+            <parameter cpu="0" address="0xFF852C" value="0x0E"/>
+        </option>
+        <option desc="Killer Bee">
+            <parameter cpu="0" address="0xFF8511" value="0x0F"/>
+            <parameter cpu="0" address="0xFF8512" value="0x0F"/>
+            <parameter cpu="0" address="0xFF8513" value="0x0F"/>
+            <parameter cpu="0" address="0xFF852C" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限能量 PL2">
+            <parameter cpu="0" address="0xFF85E5" value="0x98"/>
+        </option>
+        <option desc="耗尽所有能量! PL2">
+            <parameter cpu="0" address="0xFF85E5" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限力量 PL2">
+            <parameter cpu="0" address="0xFF8934" value="0x3F"/>
+        </option>
+        <option desc="耗尽所有力量! PL2">
+            <parameter cpu="0" address="0xFF8934" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF870E" value="0x30"/>
+            <parameter cpu="0" address="0xFF8710" value="0x30"/>
+        </option>
+    </cheat>
+    <cheat desc="无限推进 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF870A" value="0x1D"/>
+        </option>
+    </cheat>
+    <cheat desc="华丽外表(无限力量状态) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF8763" value="0x50"/>
+        </option>
+    </cheat>
+    <cheat desc="驾驶员选择 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Chiyomaru &amp; Tessan">
+            <parameter cpu="0" address="0xFF8910" value="0x07"/>
+        </option>
+        <option desc="Devilotte">
+            <parameter cpu="0" address="0xFF8910" value="0x06"/>
+        </option>
+        <option desc="G.O.D.">
+            <parameter cpu="0" address="0xFF8910" value="0x09"/>
+        </option>
+        <option desc="Shade">
+            <parameter cpu="0" address="0xFF8910" value="0x08"/>
+        </option>
+        <option desc="Jin">
+            <parameter cpu="0" address="0xFF8910" value="0x00"/>
+        </option>
+        <option desc="Santana">
+            <parameter cpu="0" address="0xFF8910" value="0x01"/>
+        </option>
+        <option desc="Mary">
+            <parameter cpu="0" address="0xFF8910" value="0x02"/>
+        </option>
+        <option desc="Arieta">
+            <parameter cpu="0" address="0xFF8910" value="0x03"/>
+        </option>
+        <option desc="Gawaine">
+            <parameter cpu="0" address="0xFF8910" value="0x04"/>
+        </option>
+        <option desc="Bao &amp; Mao">
+            <parameter cpu="0" address="0xFF8910" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="机体类型 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Blodia">
+            <parameter cpu="0" address="0xFF8928" value="0x00"/>
+        </option>
+        <option desc="Fordy">
+            <parameter cpu="0" address="0xFF8928" value="0x02"/>
+        </option>
+        <option desc="Guldin">
+            <parameter cpu="0" address="0xFF8928" value="0x03"/>
+        </option>
+        <option desc="Reptos">
+            <parameter cpu="0" address="0xFF8928" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择机体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="Blodia">
+            <parameter cpu="0" address="0xFF8911" value="0x00"/>
+            <parameter cpu="0" address="0xFF8912" value="0x00"/>
+            <parameter cpu="0" address="0xFF8913" value="0x00"/>
+            <parameter cpu="0" address="0xFF892C" value="0x00"/>
+        </option>
+        <option desc="Reptos">
+            <parameter cpu="0" address="0xFF8911" value="0x01"/>
+            <parameter cpu="0" address="0xFF8912" value="0x01"/>
+            <parameter cpu="0" address="0xFF8913" value="0x01"/>
+            <parameter cpu="0" address="0xFF892C" value="0x01"/>
+        </option>
+        <option desc="Fordy">
+            <parameter cpu="0" address="0xFF8911" value="0x02"/>
+            <parameter cpu="0" address="0xFF8912" value="0x02"/>
+            <parameter cpu="0" address="0xFF8913" value="0x02"/>
+            <parameter cpu="0" address="0xFF892C" value="0x02"/>
+        </option>
+        <option desc="Guldin">
+            <parameter cpu="0" address="0xFF8911" value="0x03"/>
+            <parameter cpu="0" address="0xFF8912" value="0x03"/>
+            <parameter cpu="0" address="0xFF8913" value="0x03"/>
+            <parameter cpu="0" address="0xFF892C" value="0x03"/>
+        </option>
+        <option desc="Swordsman">
+            <parameter cpu="0" address="0xFF8911" value="0x04"/>
+            <parameter cpu="0" address="0xFF8912" value="0x04"/>
+            <parameter cpu="0" address="0xFF8913" value="0x04"/>
+            <parameter cpu="0" address="0xFF892C" value="0x04"/>
+        </option>
+        <option desc="Lightning">
+            <parameter cpu="0" address="0xFF8911" value="0x05"/>
+            <parameter cpu="0" address="0xFF8912" value="0x05"/>
+            <parameter cpu="0" address="0xFF8913" value="0x05"/>
+            <parameter cpu="0" address="0xFF892C" value="0x05"/>
+        </option>
+        <option desc="Jackal">
+            <parameter cpu="0" address="0xFF8911" value="0x06"/>
+            <parameter cpu="0" address="0xFF8912" value="0x06"/>
+            <parameter cpu="0" address="0xFF8913" value="0x06"/>
+            <parameter cpu="0" address="0xFF892C" value="0x06"/>
+        </option>
+        <option desc="Vise">
+            <parameter cpu="0" address="0xFF8911" value="0x07"/>
+            <parameter cpu="0" address="0xFF8912" value="0x07"/>
+            <parameter cpu="0" address="0xFF8913" value="0x07"/>
+            <parameter cpu="0" address="0xFF892C" value="0x07"/>
+        </option>
+        <option desc="Cyclone">
+            <parameter cpu="0" address="0xFF8911" value="0x08"/>
+            <parameter cpu="0" address="0xFF8912" value="0x08"/>
+            <parameter cpu="0" address="0xFF8913" value="0x08"/>
+            <parameter cpu="0" address="0xFF892C" value="0x08"/>
+        </option>
+        <option desc="Riot">
+            <parameter cpu="0" address="0xFF8911" value="0x09"/>
+            <parameter cpu="0" address="0xFF8912" value="0x09"/>
+            <parameter cpu="0" address="0xFF8913" value="0x09"/>
+            <parameter cpu="0" address="0xFF892C" value="0x09"/>
+        </option>
+        <option desc="Tarantula">
+            <parameter cpu="0" address="0xFF8911" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8912" value="0x0A"/>
+            <parameter cpu="0" address="0xFF8913" value="0x0A"/>
+            <parameter cpu="0" address="0xFF892C" value="0x0A"/>
+        </option>
+        <option desc="Helion">
+            <parameter cpu="0" address="0xFF8911" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8912" value="0x0B"/>
+            <parameter cpu="0" address="0xFF8913" value="0x0B"/>
+            <parameter cpu="0" address="0xFF892C" value="0x0B"/>
+        </option>
+        <option desc="Super-8">
+            <parameter cpu="0" address="0xFF8911" value="0x0C"/>
+            <parameter cpu="0" address="0xFF8912" value="0x0C"/>
+            <parameter cpu="0" address="0xFF8913" value="0x0C"/>
+            <parameter cpu="0" address="0xFF892C" value="0x0C"/>
+        </option>
+        <option desc="Gaits">
+            <parameter cpu="0" address="0xFF8911" value="0x0D"/>
+            <parameter cpu="0" address="0xFF8912" value="0x0D"/>
+            <parameter cpu="0" address="0xFF8913" value="0x0D"/>
+            <parameter cpu="0" address="0xFF892C" value="0x0D"/>
+        </option>
+        <option desc="Warlock">
+            <parameter cpu="0" address="0xFF8911" value="0x0E"/>
+            <parameter cpu="0" address="0xFF8912" value="0x0E"/>
+            <parameter cpu="0" address="0xFF8913" value="0x0E"/>
+            <parameter cpu="0" address="0xFF892C" value="0x0E"/>
+        </option>
+        <option desc="Killer Bee">
+            <parameter cpu="0" address="0xFF8911" value="0x0F"/>
+            <parameter cpu="0" address="0xFF8912" value="0x0F"/>
+            <parameter cpu="0" address="0xFF8913" value="0x0F"/>
+            <parameter cpu="0" address="0xFF892C" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="背景 1">
+            <parameter cpu="0" address="0xFFEA2D" value="0x00"/>
+        </option>
+        <option desc="背景 2">
+            <parameter cpu="0" address="0xFFEA2D" value="0x01"/>
+        </option>
+        <option desc="背景 3">
+            <parameter cpu="0" address="0xFFEA2D" value="0x02"/>
+        </option>
+        <option desc="背景 4">
+            <parameter cpu="0" address="0xFFEA2D" value="0x03"/>
+        </option>
+        <option desc="背景 5">
+            <parameter cpu="0" address="0xFFEA2D" value="0x04"/>
+        </option>
+        <option desc="背景 6">
+            <parameter cpu="0" address="0xFFEA2D" value="0x05"/>
+        </option>
+        <option desc="背景 7">
+            <parameter cpu="0" address="0xFFEA2D" value="0x06"/>
+        </option>
+        <option desc="背景 8">
+            <parameter cpu="0" address="0xFFEA2D" value="0x07"/>
+        </option>
+        <option desc="背景 9">
+            <parameter cpu="0" address="0xFFEA2D" value="0x08"/>
+        </option>
+        <option desc="背景 10">
+            <parameter cpu="0" address="0xFFEA2D" value="0x09"/>
+        </option>
+        <option desc="背景 11">
+            <parameter cpu="0" address="0xFFEA2D" value="0x0A"/>
+        </option>
+        <option desc="背景 12">
+            <parameter cpu="0" address="0xFFEA2D" value="0x0B"/>
+        </option>
+        <option desc="背景 13">
+            <parameter cpu="0" address="0xFFEA2D" value="0x0C"/>
+        </option>
+        <option desc="背景 14">
+            <parameter cpu="0" address="0xFFEA2D" value="0x0D"/>
+        </option>
+        <option desc="背景 15">
+            <parameter cpu="0" address="0xFFEA2D" value="0x0E"/>
+        </option>
+        <option desc="背景 16">
+            <parameter cpu="0" address="0xFFEA2D" value="0x0F"/>
+        </option>
+    </cheat>
+    <cheat desc="选择区域" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0xFF80A0" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0xFF80A0" value="0x02"/>
+        </option>
+        <option desc="亚洲">
+            <parameter cpu="0" address="0xFF80A0" value="0x04"/>
+        </option>
+        <option desc="西班牙">
+            <parameter cpu="0" address="0xFF80A0" value="0x06"/>
+        </option>
+        <option desc="欧洲">
+            <parameter cpu="0" address="0xFF80A0" value="0x08"/>
+        </option>
+        <option desc="巴西">
+            <parameter cpu="0" address="0xFF80A0" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

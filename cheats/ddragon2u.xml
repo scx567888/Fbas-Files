@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF49" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3EA" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x3C1" value="0x35"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL1">
+            <parameter cpu="0" address="0x3CE" value="0x40"/>
+        </option>
+        <option desc="无敌 '关闭' PL1">
+            <parameter cpu="0" address="0x3CE" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x449" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x420" value="0x35"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 '开启' PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无敌 '开启' PL2">
+            <parameter cpu="0" address="0x42D" value="0x40"/>
+        </option>
+        <option desc="无敌 '关闭' PL2">
+            <parameter cpu="0" address="0x42D" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="所有敌人不堪一击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x47F" value="0x00"/>
+            <parameter cpu="0" address="0x4E2" value="0x00"/>
+            <parameter cpu="0" address="0x545" value="0x00"/>
+            <parameter cpu="0" address="0x5A8" value="0x00"/>
+            <parameter cpu="0" address="0x60B" value="0x00"/>
+            <parameter cpu="0" address="0x66E" value="0x00"/>
+            <parameter cpu="0" address="0x6D1" value="0x00"/>
+            <parameter cpu="0" address="0x797" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="拯救玛丽 (完美结局!)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF1B" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="PL1 标记闪烁开启" default="0">
+        <option desc="关闭"/>
+        <option desc="PL1 标记闪烁开启">
+            <parameter cpu="0" address="0xA63" value="0x80"/>
+        </option>
+        <option desc="PL1 标记闪烁关闭">
+            <parameter cpu="0" address="0xA63" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

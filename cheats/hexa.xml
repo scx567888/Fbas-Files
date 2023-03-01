@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限P(消同一颜色的所有方块)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC746" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前方块(顶部)= " default="0">
+        <option desc="关闭"/>
+        <option desc="红 ">
+            <parameter cpu="0" address="0xC710" value="0x00"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0xC710" value="0x01"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0xC710" value="0x02"/>
+        </option>
+        <option desc="黄 ">
+            <parameter cpu="0" address="0xC710" value="0x03"/>
+        </option>
+        <option desc="紫 ">
+            <parameter cpu="0" address="0xC710" value="0x04"/>
+        </option>
+        <option desc="青 ">
+            <parameter cpu="0" address="0xC710" value="0x05"/>
+        </option>
+        <option desc="万能 ">
+            <parameter cpu="0" address="0xC710" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前方块(中部)= " default="0">
+        <option desc="关闭"/>
+        <option desc="红 ">
+            <parameter cpu="0" address="0xC711" value="0x00"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0xC711" value="0x01"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0xC711" value="0x02"/>
+        </option>
+        <option desc="黄 ">
+            <parameter cpu="0" address="0xC711" value="0x03"/>
+        </option>
+        <option desc="紫 ">
+            <parameter cpu="0" address="0xC711" value="0x04"/>
+        </option>
+        <option desc="青 ">
+            <parameter cpu="0" address="0xC711" value="0x05"/>
+        </option>
+        <option desc="万能 ">
+            <parameter cpu="0" address="0xC711" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择当前方块(底部)= " default="0">
+        <option desc="关闭"/>
+        <option desc="红 ">
+            <parameter cpu="0" address="0xC712" value="0x00"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0xC712" value="0x01"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0xC712" value="0x02"/>
+        </option>
+        <option desc="黄 ">
+            <parameter cpu="0" address="0xC712" value="0x03"/>
+        </option>
+        <option desc="紫 ">
+            <parameter cpu="0" address="0xC712" value="0x04"/>
+        </option>
+        <option desc="青 ">
+            <parameter cpu="0" address="0xC712" value="0x05"/>
+        </option>
+        <option desc="万能 ">
+            <parameter cpu="0" address="0xC712" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一方块(顶部) " default="0">
+        <option desc="关闭"/>
+        <option desc="红 ">
+            <parameter cpu="0" address="0xC713" value="0x00"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0xC713" value="0x01"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0xC713" value="0x02"/>
+        </option>
+        <option desc="黄 ">
+            <parameter cpu="0" address="0xC713" value="0x03"/>
+        </option>
+        <option desc="紫 ">
+            <parameter cpu="0" address="0xC713" value="0x04"/>
+        </option>
+        <option desc="青 ">
+            <parameter cpu="0" address="0xC713" value="0x05"/>
+        </option>
+        <option desc="万能 ">
+            <parameter cpu="0" address="0xC713" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一方块(中部) " default="0">
+        <option desc="关闭"/>
+        <option desc="红 ">
+            <parameter cpu="0" address="0xC714" value="0x00"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0xC714" value="0x01"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0xC714" value="0x02"/>
+        </option>
+        <option desc="黄 ">
+            <parameter cpu="0" address="0xC714" value="0x03"/>
+        </option>
+        <option desc="紫 ">
+            <parameter cpu="0" address="0xC714" value="0x04"/>
+        </option>
+        <option desc="青 ">
+            <parameter cpu="0" address="0xC714" value="0x05"/>
+        </option>
+        <option desc="万能 ">
+            <parameter cpu="0" address="0xC714" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="选择下一方块(底部) " default="0">
+        <option desc="关闭"/>
+        <option desc="红 ">
+            <parameter cpu="0" address="0xC715" value="0x00"/>
+        </option>
+        <option desc="绿 ">
+            <parameter cpu="0" address="0xC715" value="0x01"/>
+        </option>
+        <option desc="蓝 ">
+            <parameter cpu="0" address="0xC715" value="0x02"/>
+        </option>
+        <option desc="黄 ">
+            <parameter cpu="0" address="0xC715" value="0x03"/>
+        </option>
+        <option desc="紫 ">
+            <parameter cpu="0" address="0xC715" value="0x04"/>
+        </option>
+        <option desc="青 ">
+            <parameter cpu="0" address="0xC715" value="0x05"/>
+        </option>
+        <option desc="万能">
+            <parameter cpu="0" address="0xC715" value="0x06"/>
+        </option>
+    </cheat>
+</shufflecheat>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF49A3" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="无限选择时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF48F4" value="0x00"/>
+            <parameter cpu="0" address="0xFF48F5" value="0x6A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 (仅仅游戏时开启!) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF49A9" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF49B5" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 (仅仅游戏时开启!) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF49CF" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="最大武器火力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF49DB" value="0x07"/>
+        </option>
+    </cheat>
+    <cheat desc="船体选择 - Mosquito 01 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="船体选择 - Mosquito 01 PL1">
+            <parameter cpu="0" address="0xFF49B7" value="0x00"/>
+        </option>
+        <option desc="船体选择 - Mosquito 02 PL1">
+            <parameter cpu="0" address="0xFF49B7" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大经验值 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF49B0" value="0x99"/>
+            <parameter cpu="0" address="0xFF49B1" value="0x99"/>
+            <parameter cpu="0" address="0xFF49B2" value="0x99"/>
+            <parameter cpu="0" address="0xFF49B3" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="船体选择 - Mosquito 01 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="船体选择 - Mosquito 01 PL2">
+            <parameter cpu="0" address="0xFF49DD" value="0x00"/>
+        </option>
+        <option desc="船体选择 - Mosquito 02 PL2">
+            <parameter cpu="0" address="0xFF49DD" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="最大经验值 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xFF49D6" value="0x99"/>
+            <parameter cpu="0" address="0xFF49D7" value="0x99"/>
+            <parameter cpu="0" address="0xFF49D8" value="0x99"/>
+            <parameter cpu="0" address="0xFF49D9" value="0x99"/>
+        </option>
+    </cheat>
+</shufflecheat>

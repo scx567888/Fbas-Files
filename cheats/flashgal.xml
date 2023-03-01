@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF001" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="失去所有武器!" default="0">
+        <option desc="关闭"/>
+        <option desc="失去所有武器!">
+            <parameter cpu="0" address="0xF0B9" value="0x00"/>
+        </option>
+        <option desc="得到剑!">
+            <parameter cpu="0" address="0xF0B9" value="0x01"/>
+        </option>
+        <option desc="得到枪!">
+            <parameter cpu="0" address="0xF0B9" value="0x02"/>
+        </option>
+        <option desc="得到摩托!">
+            <parameter cpu="0" address="0xF0B9" value="0x03"/>
+        </option>
+        <option desc="得到直升飞机!">
+            <parameter cpu="0" address="0xF0B9" value="0x04"/>
+        </option>
+        <option desc="得到喷射滑雪板!">
+            <parameter cpu="0" address="0xF0B9" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0C5" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF0DF" value="0x0B"/>
+        </option>
+    </cheat>
+</shufflecheat>

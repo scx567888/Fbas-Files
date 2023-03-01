@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE0FCA3" value="0x63"/>
+        </option>
+    </cheat>
+</shufflecheat>

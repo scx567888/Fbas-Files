@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE040" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 (正常)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF208" value="0x80"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 (闪烁)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE033" value="0x64"/>
+        </option>
+    </cheat>
+    <cheat desc="马 (无敌)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE037" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限靴子 (速度)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE041" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限子弹 (射击速度)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE042" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="无限来复枪 (射程)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE043" value="0x06"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀BOSS !" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF790" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="几乎没有敌人射击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE470" value="0x18"/>
+        </option>
+    </cheat>
+    <cheat desc="打BOSS时小兵不出现" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE420" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="快速攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xF207" value="0x00"/>
+        </option>
+    </cheat>
+</shufflecheat>

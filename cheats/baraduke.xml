@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC0" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无限护盾" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xD5" value="0x08"/>
+            <parameter cpu="0" address="0xD6" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="立即完成当前关" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x7E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="选择开始关卡" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0xC1" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0xC1" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0xC1" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0xC1" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0xC1" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0xC1" value="0x05"/>
+        </option>
+        <option desc="7">
+            <parameter cpu="0" address="0xC1" value="0x06"/>
+        </option>
+        <option desc="8">
+            <parameter cpu="0" address="0xC1" value="0x07"/>
+        </option>
+        <option desc="9">
+            <parameter cpu="0" address="0xC1" value="0x08"/>
+        </option>
+        <option desc="10">
+            <parameter cpu="0" address="0xC1" value="0x09"/>
+        </option>
+        <option desc="11">
+            <parameter cpu="0" address="0xC1" value="0x0A"/>
+        </option>
+        <option desc="12">
+            <parameter cpu="0" address="0xC1" value="0x0B"/>
+        </option>
+        <option desc="13">
+            <parameter cpu="0" address="0xC1" value="0x0C"/>
+        </option>
+        <option desc="14">
+            <parameter cpu="0" address="0xC1" value="0x0D"/>
+        </option>
+        <option desc="15">
+            <parameter cpu="0" address="0xC1" value="0x0E"/>
+        </option>
+        <option desc="16">
+            <parameter cpu="0" address="0xC1" value="0x0F"/>
+        </option>
+        <option desc="17">
+            <parameter cpu="0" address="0xC1" value="0x10"/>
+        </option>
+        <option desc="18">
+            <parameter cpu="0" address="0xC1" value="0x11"/>
+        </option>
+        <option desc="19">
+            <parameter cpu="0" address="0xC1" value="0x12"/>
+        </option>
+        <option desc="20">
+            <parameter cpu="0" address="0xC1" value="0x13"/>
+        </option>
+        <option desc="21">
+            <parameter cpu="0" address="0xC1" value="0x14"/>
+        </option>
+        <option desc="22">
+            <parameter cpu="0" address="0xC1" value="0x15"/>
+        </option>
+        <option desc="23">
+            <parameter cpu="0" address="0xC1" value="0x16"/>
+        </option>
+        <option desc="24">
+            <parameter cpu="0" address="0xC1" value="0x17"/>
+        </option>
+        <option desc="25">
+            <parameter cpu="0" address="0xC1" value="0x18"/>
+        </option>
+        <option desc="26">
+            <parameter cpu="0" address="0xC1" value="0x19"/>
+        </option>
+        <option desc="27">
+            <parameter cpu="0" address="0xC1" value="0x1A"/>
+        </option>
+        <option desc="28">
+            <parameter cpu="0" address="0xC1" value="0x1B"/>
+        </option>
+        <option desc="29">
+            <parameter cpu="0" address="0xC1" value="0x1C"/>
+        </option>
+        <option desc="30">
+            <parameter cpu="0" address="0xC1" value="0x1D"/>
+        </option>
+        <option desc="31">
+            <parameter cpu="0" address="0xC1" value="0x1E"/>
+        </option>
+        <option desc="32">
+            <parameter cpu="0" address="0xC1" value="0x1F"/>
+        </option>
+        <option desc="33">
+            <parameter cpu="0" address="0xC1" value="0x20"/>
+        </option>
+        <option desc="34">
+            <parameter cpu="0" address="0xC1" value="0x21"/>
+        </option>
+        <option desc="35">
+            <parameter cpu="0" address="0xC1" value="0x22"/>
+        </option>
+        <option desc="36">
+            <parameter cpu="0" address="0xC1" value="0x23"/>
+        </option>
+        <option desc="37">
+            <parameter cpu="0" address="0xC1" value="0x24"/>
+        </option>
+        <option desc="38">
+            <parameter cpu="0" address="0xC1" value="0x25"/>
+        </option>
+        <option desc="39">
+            <parameter cpu="0" address="0xC1" value="0x26"/>
+        </option>
+        <option desc="40">
+            <parameter cpu="0" address="0xC1" value="0x27"/>
+        </option>
+        <option desc="41">
+            <parameter cpu="0" address="0xC1" value="0x28"/>
+        </option>
+        <option desc="42">
+            <parameter cpu="0" address="0xC1" value="0x29"/>
+        </option>
+        <option desc="43">
+            <parameter cpu="0" address="0xC1" value="0x2A"/>
+        </option>
+        <option desc="44">
+            <parameter cpu="0" address="0xC1" value="0x2B"/>
+        </option>
+        <option desc="45">
+            <parameter cpu="0" address="0xC1" value="0x2C"/>
+        </option>
+        <option desc="46">
+            <parameter cpu="0" address="0xC1" value="0x2D"/>
+        </option>
+        <option desc="47">
+            <parameter cpu="0" address="0xC1" value="0x2E"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大火力武器" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xDE" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="最大解救数（朋友）" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC9" value="0x08"/>
+        </option>
+    </cheat>
+</shufflecheat>

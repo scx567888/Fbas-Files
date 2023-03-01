@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限投币数" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC803" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC21D" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC239" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="无限弹药/时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC23B" value="0x20"/>
+        </option>
+    </cheat>
+    <cheat desc="一击杀boss!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC23A" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有激光" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xC252" value="0x02"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有正常状态" default="0">
+        <option desc="关闭"/>
+        <option desc="总是有正常状态">
+            <parameter cpu="0" address="0xC23C" value="0x00"/>
+            <parameter cpu="0" address="0xC247" value="0x80"/>
+        </option>
+        <option desc="总是有速度">
+            <parameter cpu="0" address="0xC23C" value="0x02"/>
+            <parameter cpu="0" address="0xC247" value="0x88"/>
+        </option>
+        <option desc="总是有火焰手">
+            <parameter cpu="0" address="0xC23C" value="0x06"/>
+            <parameter cpu="0" address="0xC247" value="0x8A"/>
+        </option>
+        <option desc="总是有超级冲击">
+            <parameter cpu="0" address="0xC23C" value="0x0E"/>
+            <parameter cpu="0" address="0xC247" value="0x8C"/>
+        </option>
+    </cheat>
+</shufflecheat>

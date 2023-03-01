@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="选关" default="0">
+        <option desc="关闭"/>
+        <option desc="关卡1">
+            <parameter cpu="0" address="0xE704A" value="0x00"/>
+        </option>
+        <option desc="关卡2">
+            <parameter cpu="0" address="0xE704A" value="0x01"/>
+        </option>
+        <option desc="关卡3A">
+            <parameter cpu="0" address="0xE704A" value="0x02"/>
+        </option>
+        <option desc="关卡3B">
+            <parameter cpu="0" address="0xE704A" value="0x03"/>
+        </option>
+        <option desc="关卡4">
+            <parameter cpu="0" address="0xE704A" value="0x04"/>
+        </option>
+        <option desc="关卡5">
+            <parameter cpu="0" address="0xE704A" value="0x05"/>
+        </option>
+        <option desc="关卡6">
+            <parameter cpu="0" address="0xE704A" value="0x06"/>
+        </option>
+        <option desc="关卡7A">
+            <parameter cpu="0" address="0xE704A" value="0x07"/>
+        </option>
+        <option desc="关卡7B">
+            <parameter cpu="0" address="0xE704A" value="0x08"/>
+        </option>
+        <option desc="关卡7C">
+            <parameter cpu="0" address="0xE704A" value="0x09"/>
+        </option>
+        <option desc="关卡7D">
+            <parameter cpu="0" address="0xE704A" value="0x0A"/>
+        </option>
+        <option desc="关卡7E(最终BOSS)">
+            <parameter cpu="0" address="0xE704A" value="0x0B"/>
+        </option>
+    </cheat>
+    <cheat desc="无限投币" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE74D8" value="0x99"/>
+        </option>
+    </cheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE7070" value="0x9A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限体力 ROY" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE6C31" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ROY" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE6C98" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限能量 ARNOLD" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE6DF1" value="0x08"/>
+        </option>
+    </cheat>
+    <cheat desc="无敌 ARNOLD" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE6E58" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE74F2" value="0x0A"/>
+        </option>
+    </cheat>
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0xE74F3" value="0x0A"/>
+        </option>
+    </cheat>
+</shufflecheat>

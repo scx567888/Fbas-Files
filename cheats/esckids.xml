@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限金钱 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x44" value="0xFF"/>
+            <parameter cpu="0" address="0x45" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大刹制 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x411" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大加速 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x412" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大强壮身体 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x413" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x46" value="0xFF"/>
+            <parameter cpu="0" address="0x47" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级跳 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x430" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大刹制 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x431" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大加速 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x432" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大强壮身体 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x433" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x48" value="0xFF"/>
+            <parameter cpu="0" address="0x49" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级跳 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x450" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大刹制 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x451" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大加速 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x452" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大强壮身体 PL3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x453" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="无限金钱 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x4A" value="0xFF"/>
+            <parameter cpu="0" address="0x4B" value="0xFF"/>
+        </option>
+    </cheat>
+    <cheat desc="无限超级跳 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x470" value="0x63"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大刹制 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x471" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大加速 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x472" value="0x1C"/>
+        </option>
+    </cheat>
+    <cheat desc="总是有最大强壮身体 PL4" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x473" value="0x1C"/>
+        </option>
+    </cheat>
+</shufflecheat>
