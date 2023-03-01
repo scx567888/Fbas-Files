@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1003C6" value="0x31"/>
+            <parameter cpu="0" address="0x10836B" value="0x3C"/>
+        </option>
+    </cheat>
+    <cheat desc="去到最终局!!" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10836C" value="0x09"/>
+        </option>
+    </cheat>
+    <cheat desc="[ 以下2个功能不能同时开启 ]"/>
+    <cheat desc="[ 若同时开启，则只有最后一个开启的生效 ]"/>
+    <cheat desc="特殊模式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E001" value="0x04"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E001" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="随机死亡方式" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E001" value="0x80"/>
+        </option>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10E001" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL1">
+            <parameter cpu="0" address="0x108445" value="0x7D"/>
+        </option>
+        <option desc="没有体力 PL1">
+            <parameter cpu="0" address="0x108445" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="总是最大力量 PL1">
+            <parameter cpu="0" address="0x10844E" value="0x40"/>
+        </option>
+        <option desc="耗尽力量 PL1">
+            <parameter cpu="0" address="0x10844E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限剑之力量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限剑之力量 PL1">
+            <parameter cpu="0" address="0x1085F8" value="0x68"/>
+        </option>
+        <option desc="没有剑之力量 PL1">
+            <parameter cpu="0" address="0x1085F8" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="瞑想值最大 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1085FE" value="0x7C"/>
+        </option>
+    </cheat>
+    <cheat desc="使用隐藏角色 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="黑河内梦路">
+            <parameter cpu="0" address="0x108322" value="0x0B"/>
+        </option>
+        <option desc="万三九六">
+            <parameter cpu="0" address="0x108322" value="0x0D"/>
+        </option>
+        <option desc="凶国日轮守我旺">
+            <parameter cpu="0" address="0x108322" value="0x1A"/>
+        </option>
+        <option desc="帕比">
+            <parameter cpu="0" address="0x108322" value="0x1B"/>
+        </option>
+    </cheat>
+    <cheat desc="最长剑气槽 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108554" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限体力 PL2">
+            <parameter cpu="0" address="0x108655" value="0x7D"/>
+        </option>
+        <option desc="没有体力 PL2">
+            <parameter cpu="0" address="0x108655" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="总是最大力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="总是最大力量 PL2">
+            <parameter cpu="0" address="0x10865E" value="0x40"/>
+        </option>
+        <option desc="耗尽力量 PL2">
+            <parameter cpu="0" address="0x10865E" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限剑之力量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限剑之力量 PL2">
+            <parameter cpu="0" address="0x108808" value="0x68"/>
+        </option>
+        <option desc="没有剑之力量 PL2">
+            <parameter cpu="0" address="0x108808" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="瞑想值最大 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10880E" value="0x7C"/>
+        </option>
+    </cheat>
+    <cheat desc="使用隐藏角色 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="黑河内梦路">
+            <parameter cpu="0" address="0x108323" value="0x0B"/>
+        </option>
+        <option desc="万三九六">
+            <parameter cpu="0" address="0x108323" value="0x0D"/>
+        </option>
+        <option desc="凶国日轮守我旺">
+            <parameter cpu="0" address="0x108323" value="0x1A"/>
+        </option>
+        <option desc="帕比">
+            <parameter cpu="0" address="0x108323" value="0x1B"/>
+        </option>
+    </cheat>
+    <cheat desc="最长剑气槽 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108764" value="0x82"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="完全防御(会不能出招) PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="完全防御(会不能出招) PL1">
+            <parameter cpu="0" address="0x10841F" value="0x01"/>
+        </option>
+        <option desc="关闭完全防御 PL1">
+            <parameter cpu="0" address="0x10841F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="完全防御(会不能出招) PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="完全防御(会不能出招) PL2">
+            <parameter cpu="0" address="0x10862F" value="0x01"/>
+        </option>
+        <option desc="关闭完全防御 PL2">
+            <parameter cpu="0" address="0x10862F" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="无限无境时间 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108600" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限无境时间 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108810" value="0x40"/>
+        </option>
+    </cheat>
+    <cheat desc="无限一闪/发动无之境地 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108601" value="0xEC"/>
+            <parameter cpu="0" address="0x108804" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="无限怒气爆发 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108553" value="0x02"/>
+            <parameter cpu="0" address="0x108554" value="0x00"/>
+            <parameter cpu="0" address="0x108555" value="0x00"/>
+            <parameter cpu="0" address="0x108556" value="0xFF"/>
+            <parameter cpu="0" address="0x10855C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc="无限怒气爆发 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x108763" value="0x02"/>
+            <parameter cpu="0" address="0x108764" value="0x00"/>
+            <parameter cpu="0" address="0x108765" value="0x00"/>
+            <parameter cpu="0" address="0x108766" value="0xFF"/>
+            <parameter cpu="0" address="0x10876C" value="0x00"/>
+        </option>
+    </cheat>
+    <cheat desc=" "/>
+    <cheat desc="奥义 弧月斩1" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 弧月斩1">
+            <parameter cpu="0" address="0x10934A" value="0x03"/>
+        </option>
+        <option desc="秘剑 燕返">
+            <parameter cpu="0" address="0x10934A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 弧月斩2" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 弧月斩2">
+            <parameter cpu="0" address="0x10934C" value="0x03"/>
+        </option>
+        <option desc="秘剑 燕返">
+            <parameter cpu="0" address="0x10934C" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 弧月斩3" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 弧月斩3">
+            <parameter cpu="0" address="0x10934E" value="0x03"/>
+        </option>
+        <option desc="秘剑 燕返">
+            <parameter cpu="0" address="0x10934E" value="0x04"/>
+        </option>
+        <option desc="忍法 空蝉天舞">
+            <parameter cpu="0" address="0x10934E" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 旋风裂斩1" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 旋风裂斩1">
+            <parameter cpu="0" address="0x109350" value="0x03"/>
+        </option>
+        <option desc="忍法 空蝉地斩">
+            <parameter cpu="0" address="0x109350" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 旋风裂斩2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109352" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 旋风裂斩3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109354" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 烈震斩1" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 烈震斩1">
+            <parameter cpu="0" address="0x109356" value="0x03"/>
+        </option>
+        <option desc="翔月">
+            <parameter cpu="0" address="0x109356" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 烈震斩2" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 烈震斩2">
+            <parameter cpu="0" address="0x109358" value="0x03"/>
+        </option>
+        <option desc="翔月">
+            <parameter cpu="0" address="0x109358" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 烈震斩3" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 烈震斩3">
+            <parameter cpu="0" address="0x10935A" value="0x03"/>
+        </option>
+        <option desc="翔月">
+            <parameter cpu="0" address="0x10935A" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥伪 旋风裂斩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10935E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="酒攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109360" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="斩钢闪" default="0">
+        <option desc="关闭"/>
+        <option desc="斩钢闪">
+            <parameter cpu="0" address="0x10935C" value="0x06"/>
+        </option>
+        <option desc="五之太刀 朝颜2">
+            <parameter cpu="0" address="0x10935C" value="0x03"/>
+        </option>
+        <option desc="分身攻击">
+            <parameter cpu="0" address="0x10935C" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="秘奥义 天霸封神斩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109342" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 弧月斩1" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 弧月斩1">
+            <parameter cpu="0" address="0x1093CA" value="0x03"/>
+        </option>
+        <option desc="秘剑 燕返">
+            <parameter cpu="0" address="0x1093CA" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 弧月斩2" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 弧月斩2">
+            <parameter cpu="0" address="0x1093CC" value="0x03"/>
+        </option>
+        <option desc="秘剑 燕返">
+            <parameter cpu="0" address="0x1093CC" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 弧月斩3" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 弧月斩3">
+            <parameter cpu="0" address="0x1093CE" value="0x03"/>
+        </option>
+        <option desc="秘剑 燕返">
+            <parameter cpu="0" address="0x1093CE" value="0x04"/>
+        </option>
+        <option desc="忍法 空蝉天舞">
+            <parameter cpu="0" address="0x1093CE" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 旋风裂斩1" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 旋风裂斩1">
+            <parameter cpu="0" address="0x1093D0" value="0x03"/>
+        </option>
+        <option desc="忍法 空蝉地斩">
+            <parameter cpu="0" address="0x1093D0" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 旋风裂斩2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093D2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 旋风裂斩3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093D4" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 烈震斩1" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 烈震斩1">
+            <parameter cpu="0" address="0x1093D6" value="0x03"/>
+        </option>
+        <option desc="翔月">
+            <parameter cpu="0" address="0x1093D6" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 烈震斩2" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 烈震斩2">
+            <parameter cpu="0" address="0x1093D8" value="0x03"/>
+        </option>
+        <option desc="翔月">
+            <parameter cpu="0" address="0x1093D8" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥义 烈震斩3" default="0">
+        <option desc="关闭"/>
+        <option desc="奥义 烈震斩3">
+            <parameter cpu="0" address="0x1093DA" value="0x03"/>
+        </option>
+        <option desc="翔月">
+            <parameter cpu="0" address="0x1093DA" value="0x04"/>
+        </option>
+    </cheat>
+    <cheat desc="奥伪 旋风裂斩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093DE" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="酒攻击" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093E0" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="斩钢闪" default="0">
+        <option desc="关闭"/>
+        <option desc="斩钢闪">
+            <parameter cpu="0" address="0x1093DC" value="0x06"/>
+        </option>
+        <option desc="五之太刀 朝颜2">
+            <parameter cpu="0" address="0x1093DC" value="0x03"/>
+        </option>
+        <option desc="分身攻击">
+            <parameter cpu="0" address="0x1093DC" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="秘奥义 天霸封神斩" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093C2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="二之太刀 白百合1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109348" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="四之太刀 椿2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109362" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="四之太刀 椿3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109364" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="六之太刀 夕颜" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109366" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="七之太刀 游蝶华" default="0">
+        <option desc="关闭"/>
+        <option desc="七之太刀 游蝶华">
+            <parameter cpu="0" address="0x109344" value="0x06"/>
+        </option>
+        <option desc="绯刀流 冰雨返">
+            <parameter cpu="0" address="0x109344" value="0x03"/>
+        </option>
+        <option desc="外道之烙印压">
+            <parameter cpu="0" address="0x109344" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="二之太刀 白百合1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093C8" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="四之太刀 椿2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093E2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="四之太刀 椿3" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093E4" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="六之太刀 夕颜" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093E6" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="七之太刀 游蝶华" default="0">
+        <option desc="关闭"/>
+        <option desc="七之太刀 游蝶华">
+            <parameter cpu="0" address="0x1093C4" value="0x06"/>
+        </option>
+        <option desc="绯刀流 冰雨返">
+            <parameter cpu="0" address="0x1093C4" value="0x03"/>
+        </option>
+        <option desc="外道之烙印压">
+            <parameter cpu="0" address="0x1093C4" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="绯刀流 五月雨斩" default="0">
+        <option desc="关闭"/>
+        <option desc="绯刀流 五月雨斩">
+            <parameter cpu="0" address="0x109346" value="0x03"/>
+        </option>
+        <option desc="影子模仿">
+            <parameter cpu="0" address="0x109346" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="绯刀流 五月雨斩" default="0">
+        <option desc="关闭"/>
+        <option desc="绯刀流 五月雨斩">
+            <parameter cpu="0" address="0x1093C6" value="0x03"/>
+        </option>
+        <option desc="影子模仿">
+            <parameter cpu="0" address="0x1093C6" value="0x05"/>
+        </option>
+    </cheat>
+    <cheat desc="百鬼杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109368" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="百鬼杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10936A" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="百鬼杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10936C" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="里樱华·菖蒲" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10936E" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="里樱华·菖蒲" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109370" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="里樱华·菖蒲" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109372" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="霞刃" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109374" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="百鬼杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093E8" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="百鬼杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093EA" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="百鬼杀" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093EC" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="里樱华·菖蒲" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093EE" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="里樱华·菖蒲" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093F0" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="里樱华·菖蒲" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093F2" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="霞刃" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093F4" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="天地弓心(方向、攻击键一起按下)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10949E" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="天地弓心(方向、攻击键一起按下)" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10949F" value="0x01"/>
+        </option>
+    </cheat>
+    <cheat desc="影骗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109376" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="影骗" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093F6" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="黄泉社" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x109340" value="0x03"/>
+        </option>
+    </cheat>
+    <cheat desc="黄泉社" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1093C0" value="0x03"/>
+        </option>
+    </cheat>
+</shufflecheat>
