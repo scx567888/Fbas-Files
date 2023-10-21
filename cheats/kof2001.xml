@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+
+    <cheat desc="体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108239" value="0x66"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108239" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108439" value="0x66"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108439" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="May Lee总是英雄模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="May Lee总是英雄模式 PL1">
+            <parameter cpu="0" address="0x108182" value="0x04"/>
+            <parameter cpu="0" address="0x1081E7" value="0x05"/>
+        </option>
+        <option desc="May Lee总是正常模式 PL1">
+            <parameter cpu="0" address="0x108182" value="0x00"/>
+            <parameter cpu="0" address="0x1081E7" value="0x04"/>
+        </option>
+    </cheat>
+
+    <cheat desc="Chin不用饮酒可以超必杀 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E7" value="0x0C"/>
+        </option>
+    </cheat>
+
+</shufflecheat>

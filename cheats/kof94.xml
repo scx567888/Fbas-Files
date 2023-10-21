@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+
+    <cheat desc="回合时间" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x10882E" value="0x60"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x10882E" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108221" value="0xCF"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108221" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108421" value="0xCF"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108421" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="最大">
+            <parameter cpu="0" address="0x108219" value="0x7F"/>
+        </option>
+    </cheat>
+
+    <cheat desc="能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="最大">
+            <parameter cpu="0" address="0x108419" value="0x7F"/>
+        </option>
+    </cheat>
+
+</shufflecheat>

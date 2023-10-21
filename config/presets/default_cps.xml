@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--FBA shuffle game config file-->
+<gameconfig version="2.4.0">
+	<game>
+		<input>
+			<port type="p1 coin" switch="2" />
+			<port type="p1 start" switch="3" />
+			<port type="p1 up" switch="17" />
+			<port type="p1 down" switch="31" />
+			<port type="p1 left" switch="30" />
+			<port type="p1 right" switch="32" />
+			<port type="p1 fire 1" switch="22" />
+			<port type="p1 fire 2" switch="23" />
+			<port type="p1 fire 3" switch="24" />
+			<port type="p1 fire 4" switch="36" />
+			<port type="p1 fire 5" switch="37" />
+			<port type="p1 fire 6" switch="38" />
+			<port type="p2 coin" switch="5" />
+			<port type="p2 start" switch="6" />
+			<port type="p2 up" switch="16386" />
+			<port type="p2 down" switch="16387" />
+			<port type="p2 left" switch="16384" />
+			<port type="p2 right" switch="16385" />
+			<port type="p2 fire 1" switch="16512" />
+			<port type="p2 fire 2" switch="16513" />
+			<port type="p2 fire 3" switch="16514" />
+			<port type="p2 fire 4" switch="16515" />
+			<port type="p2 fire 5" switch="16516" />
+			<port type="p2 fire 6" switch="16517" />
+			<port type="reset" switch="61" />
+			<port type="diag" switch="60" />
+			<port type="service" switch="10" />
+			<port type="service4" switch="13" />
+			<port type="service3" switch="12" />
+			<macro type="P1 3x Punch" />
+			<macro type="P1 3x Kick" />
+			<macro type="P2 3x Punch" />
+			<macro type="P2 3x Kick" />
+			<macro type="P1 Custom 1" />
+			<macro type="P1 Custom 2" />
+			<macro type="P1 Custom 3" />
+			<macro type="P1 Custom 4" />
+			<macro type="P2 Custom 1" />
+			<macro type="P2 Custom 2" />
+			<macro type="P2 Custom 3" />
+			<macro type="P2 Custom 4" />
+		</input>
+	</game>
+</gameconfig>

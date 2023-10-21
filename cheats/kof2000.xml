@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+
+    <cheat desc="体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108239" value="0x66"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108239" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108439" value="0x66"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108439" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="不会昏晕 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不会昏晕 PL1">
+            <parameter cpu="0" address="0x10823F" value="0x66"/>
+        </option>
+        <option desc="每次击打都会昏晕 PL1">
+            <parameter cpu="0" address="0x10823F" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="不会昏晕 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="不会昏晕 PL2">
+            <parameter cpu="0" address="0x10843F" value="0x66"/>
+        </option>
+        <option desc="每次击打都会昏晕 PL2">
+            <parameter cpu="0" address="0x10843F" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="不会破坏防御 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="不会破坏防御 PL1">
+            <parameter cpu="0" address="0x108247" value="0x66"/>
+        </option>
+        <option desc="防御不能 PL1">
+            <parameter cpu="0" address="0x108247" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="不会破坏防御 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="不会破坏防御 PL2">
+            <parameter cpu="0" address="0x108447" value="0x66"/>
+        </option>
+        <option desc="防御不能 PL2">
+            <parameter cpu="0" address="0x108447" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="总是 COUNTER PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E6" value="0x10"/>
+        </option>
+    </cheat>
+
+    <cheat desc="总是 COUNTER PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E6" value="0x10"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择控制方式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="手动控制">
+            <parameter cpu="0" address="0x108270" value="0x00"/>
+        </option>
+        <option desc="电脑控制">
+            <parameter cpu="0" address="0x108270" value="0x80"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择控制方式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="手动控制">
+            <parameter cpu="0" address="0x108470" value="0x01"/>
+        </option>
+        <option desc="电脑控制">
+            <parameter cpu="0" address="0x108470" value="0x81"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="工厂">
+            <parameter cpu="0" address="0x10A7AE" value="0x00"/>
+        </option>
+        <option desc="废船垃圾场">
+            <parameter cpu="0" address="0x10A7AE" value="0x01"/>
+        </option>
+        <option desc="垃圾场">
+            <parameter cpu="0" address="0x10A7AE" value="0x02"/>
+        </option>
+        <option desc="沙漠">
+            <parameter cpu="0" address="0x10A7AE" value="0x03"/>
+        </option>
+        <option desc="韩国">
+            <parameter cpu="0" address="0x10A7AE" value="0x04"/>
+        </option>
+        <option desc="水族馆">
+            <parameter cpu="0" address="0x10A7AE" value="0x05"/>
+        </option>
+        <option desc="寺庙">
+            <parameter cpu="0" address="0x10A7AE" value="0x06"/>
+        </option>
+        <option desc="冬天的工厂">
+            <parameter cpu="0" address="0x10A7AE" value="0x07"/>
+        </option>
+        <option desc="冬天的废船垃圾场">
+            <parameter cpu="0" address="0x10A7AE" value="0x08"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择背景音乐 (仅VS模式有效)" default="0">
+        <option desc="关闭"/>
+        <option desc="KD-0084">
+            <parameter cpu="0" address="0x10ED15" value="0x00"/>
+        </option>
+        <option desc="Inner Shade">
+            <parameter cpu="0" address="0x10ED15" value="0x01"/>
+        </option>
+        <option desc="Terry115">
+            <parameter cpu="0" address="0x10ED15" value="0x02"/>
+        </option>
+        <option desc="Beauty &amp; the Beast">
+            <parameter cpu="0" address="0x10ED15" value="0x03"/>
+        </option>
+        <option desc="The Trooper">
+            <parameter cpu="0" address="0x10ED15" value="0x04"/>
+        </option>
+        <option desc="Will">
+            <parameter cpu="0" address="0x10ED15" value="0x05"/>
+        </option>
+        <option desc="Come Up Smiling">
+            <parameter cpu="0" address="0x10ED15" value="0x06"/>
+        </option>
+        <option desc="Wild Party">
+            <parameter cpu="0" address="0x10ED15" value="0x07"/>
+        </option>
+        <option desc="Ice Place">
+            <parameter cpu="0" address="0x10ED15" value="0x08"/>
+        </option>
+        <option desc="Slasher Zero">
+            <parameter cpu="0" address="0x10ED15" value="0x09"/>
+        </option>
+        <option desc="Good Bye Esaka">
+            <parameter cpu="0" address="0x10ED15" value="0x0A"/>
+        </option>
+        <option desc="Stormy Scream - Arashi no Saxophone 4">
+            <parameter cpu="0" address="0x10ED15" value="0x0B"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择援护 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A805" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A805" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A805" value="0x02"/>
+        </option>
+        <option desc="角色 D">
+            <parameter cpu="0" address="0x10A805" value="0x03"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择援护 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="角色 A">
+            <parameter cpu="0" address="0x10A81A" value="0x00"/>
+        </option>
+        <option desc="角色 B">
+            <parameter cpu="0" address="0x10A81A" value="0x01"/>
+        </option>
+        <option desc="角色 C">
+            <parameter cpu="0" address="0x10A81A" value="0x02"/>
+        </option>
+        <option desc="角色 D">
+            <parameter cpu="0" address="0x10A81A" value="0x03"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择当前局" default="0">
+        <option desc="关闭"/>
+        <option desc="1">
+            <parameter cpu="0" address="0x10A7B6" value="0x00"/>
+        </option>
+        <option desc="2">
+            <parameter cpu="0" address="0x10A7B6" value="0x01"/>
+        </option>
+        <option desc="3">
+            <parameter cpu="0" address="0x10A7B6" value="0x02"/>
+        </option>
+        <option desc="4">
+            <parameter cpu="0" address="0x10A7B6" value="0x03"/>
+        </option>
+        <option desc="5">
+            <parameter cpu="0" address="0x10A7B6" value="0x04"/>
+        </option>
+        <option desc="6">
+            <parameter cpu="0" address="0x10A7B6" value="0x05"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择援护者类型 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="正规的">
+            <parameter cpu="0" address="0x10A80A" value="0x00"/>
+        </option>
+        <option desc="轮流预备">
+            <parameter cpu="0" address="0x10A80A" value="0x01"/>
+        </option>
+        <option desc="疯狂的">
+            <parameter cpu="0" address="0x10A80A" value="0x02"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择援护者类型 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="正规的">
+            <parameter cpu="0" address="0x10A81F" value="0x00"/>
+        </option>
+        <option desc="轮流预备">
+            <parameter cpu="0" address="0x10A81F" value="0x01"/>
+        </option>
+        <option desc="疯狂的">
+            <parameter cpu="0" address="0x10A81F" value="0x02"/>
+        </option>
+    </cheat>
+
+    <cheat desc="All Moves Combo PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10817D" value="0x0C"/>
+        </option>
+    </cheat>
+
+    <cheat desc="All Moves Combo PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10837D" value="0x0C"/>
+        </option>
+    </cheat>
+
+</shufflecheat>

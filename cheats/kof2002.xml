@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+
+    <cheat desc="体力 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108239" value="0x66"/>
+        </option>
+        <option desc="(1/4)">
+            <parameter cpu="0" address="0x108239" value="0x19"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108239" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="体力 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="无限">
+            <parameter cpu="0" address="0x108439" value="0x66"/>
+        </option>
+        <option desc="(1/4)">
+            <parameter cpu="0" address="0x108439" value="0x19"/>
+        </option>
+        <option desc="耗尽">
+            <parameter cpu="0" address="0x108439" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="能量 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="最大">
+            <parameter cpu="0" address="0x1082E3" value="0x05"/>
+        </option>
+    </cheat>
+
+    <cheat desc="能量 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="最大">
+            <parameter cpu="0" address="0x1084E3" value="0x05"/>
+        </option>
+    </cheat>
+
+    <cheat desc="总是Max超杀模式 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081EA" value="0x2F"/>
+            <parameter cpu="0" address="0x1081EB" value="0x10"/>
+            <parameter cpu="0" address="0x10821D" value="0x20"/>
+        </option>
+    </cheat>
+
+    <cheat desc="总是Max超杀模式 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083EA" value="0x2F"/>
+            <parameter cpu="0" address="0x1083EB" value="0x10"/>
+            <parameter cpu="0" address="0x10841D" value="0x20"/>
+        </option>
+    </cheat>
+
+    <cheat desc="快速动作 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10817A" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="快速动作 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10837A" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="永远不会防御破坏 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="永远不会防御破坏 PL1">
+            <parameter cpu="0" address="0x108246" value="0x66"/>
+        </option>
+        <option desc="被击会防御破坏 PL1">
+            <parameter cpu="0" address="0x108246" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="永远不会防御破坏 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="永远不会防御破坏 PL2">
+            <parameter cpu="0" address="0x108446" value="0x66"/>
+        </option>
+        <option desc="被击会防御破坏 PL2">
+            <parameter cpu="0" address="0x108446" value="0x00"/>
+        </option>
+    </cheat>
+	
+    <cheat desc="总是 COUNTER PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1083E6" value="0x10"/>
+        </option>
+    </cheat>
+
+    <cheat desc="总是 COUNTER PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1081E6" value="0x10"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择背景" default="0">
+        <option desc="关闭"/>
+        <option desc="日本">
+            <parameter cpu="0" address="0x10A79A" value="0x00"/>
+        </option>
+        <option desc="美国">
+            <parameter cpu="0" address="0x10A79A" value="0x01"/>
+        </option>
+        <option desc="中国">
+            <parameter cpu="0" address="0x10A79A" value="0x02"/>
+        </option>
+        <option desc="荷兰">
+            <parameter cpu="0" address="0x10A79A" value="0x03"/>
+        </option>
+        <option desc="韩国">
+            <parameter cpu="0" address="0x10A79A" value="0x04"/>
+        </option>
+        <option desc="墨西哥">
+            <parameter cpu="0" address="0x10A79A" value="0x05"/>
+        </option>
+        <option desc="意大利">
+            <parameter cpu="0" address="0x10A79A" value="0x06"/>
+        </option>
+        <option desc="Boss屋(Rugal)">
+            <parameter cpu="0" address="0x10A79A" value="0x07"/>
+        </option>
+        <option desc="Boss屋(Middle)">
+            <parameter cpu="0" address="0x10A79A" value="0x08"/>
+        </option>
+        <option desc="日本">
+            <parameter cpu="0" address="0x10A79A" value="0x09"/>
+        </option>
+    </cheat>
+
+</shufflecheat>

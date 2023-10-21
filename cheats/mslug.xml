@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shufflecheat>
+
+    <cheat desc="无限时间" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106E93" value="0x3C"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限生命 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100377" value="0x03"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限生命 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100417" value="0x03"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限弹药 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C2" value="0xFF"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限弹药 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100562" value="0xFF"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限炸弹 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C0" value="0x0A"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限炸弹 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100560" value="0x0A"/>
+        </option>
+    </cheat>
+
+    <cheat desc="速射 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C4" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="速射 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100564" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="关闭炸弹投掷延迟 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1004C1" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="关闭炸弹投掷延迟 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100564" value="0x00"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无敌 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100485" value="0x40"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无敌 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100525" value="0x40"/>
+        </option>
+    </cheat>
+
+    <cheat desc="救99人质 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106F4D" value="0x63"/>
+        </option>
+    </cheat>
+
+    <cheat desc="救99人质 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x106F4F" value="0x63"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择武器 PL1" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪 PL1">
+            <parameter cpu="0" address="0x1004B1" value="0x00"/>
+        </option>
+        <option desc="散弹猎枪 PL1">
+            <parameter cpu="0" address="0x1004B1" value="0x01"/>
+        </option>
+        <option desc="火焰武器 PL1">
+            <parameter cpu="0" address="0x1004B1" value="0x02"/>
+        </option>
+        <option desc="火箭发射器 PL1">
+            <parameter cpu="0" address="0x1004B1" value="0x03"/>
+        </option>
+        <option desc="机关枪 PL1">
+            <parameter cpu="0" address="0x1004B1" value="0x04"/>
+        </option>
+    </cheat>
+
+    <cheat desc="选择武器 PL2" default="0">
+        <option desc="关闭"/>
+        <option desc="普通枪 PL2">
+            <parameter cpu="0" address="0x100551" value="0x00"/>
+        </option>
+        <option desc="散弹猎枪 PL2">
+            <parameter cpu="0" address="0x100551" value="0x01"/>
+        </option>
+        <option desc="火焰武器 PL2">
+            <parameter cpu="0" address="0x100551" value="0x02"/>
+        </option>
+        <option desc="火箭发射器 PL2">
+            <parameter cpu="0" address="0x100551" value="0x03"/>
+        </option>
+        <option desc="机关枪 PL2">
+            <parameter cpu="0" address="0x100551" value="0x04"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限坐骑生命" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1005E7" value="0x30"/>
+        </option>
+    </cheat>
+
+    <cheat desc="无限坦克炮弹" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x100610" value="0x63"/>
+        </option>
+    </cheat>
+
+    <cheat desc="坦克无敌" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x1005C5" value="0x09"/>
+        </option>
+    </cheat>
+
+    <cheat desc="坦克发炮弹无间隔限制" default="0">
+        <option desc="关闭"/>
+        <option desc="开启">
+            <parameter cpu="0" address="0x10060E" value="0x00"/>
+            <parameter cpu="0" address="0x10060F" value="0x01"/>
+        </option>
+    </cheat>
+
+</shufflecheat>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Don't edit this file manually unless you know what you're doing
+The emulator will restore default settings when this file is deleted-->
+<configuration cfg-version="0.1">
+	<version>2.4.0</version>
+	<burnlib>libburn-x64.dll</burnlib>
+	<emulation asm-68k="false" all-ram="0" cheat-enable="true" />
+	<video>
+		<fullscreen width="1920" height="1080" depth="32" refresh="0" />
+		<adjust full-stretch="0" correct-aspect="1" rotate="0" />
+		<color enable="0" contrast="0" brightness="0" gamma="0" grayscale="0" invert="0" sepia="0" />
+		<monitor auto-aspect="true" aspect-x="4" aspect-y="3" />
+		<frame force-60hz="true" vsync="1" triple-buffer="1" />
+		<render>
+			<mode>Direct3D</mode>
+			<driver adapter="0" />
+		</render>
+		<filter linear="1" use-pixelfilter="false" pixel-filter="0" scanline-intensity="99">
+			<bsnes-shader></bsnes-shader>
+			<cg-shader></cg-shader>
+		</filter>
+	</video>
+	<audio>
+		<sound>DirectSound</sound>
+		<device ds="0" xa2="0" oal="0" />
+		<dsp>None</dsp>
+		<setting sync="true" rate="48000" latency="64" pcm-interp="1" fm-interp="0" reverse-stereo="0" stereo-upmix="0" />
+	</audio>
+	<gui>
+		<language>.\lang\zh_CN.dll</language>
+		<gamelist>.\lang\gamelist_cn.xml</gamelist>
+		<window size="3" posx="524" posy="122" on-top="false" auto-fullscreen="false" nosplash="true" splash-time="1500" />
+		<gamelist-dlg options="17" sys-sel="0" tab-sel="1">
+			<user-filter></user-filter>
+		</gamelist-dlg>
+		<ips language="1" dependancy="0" />
+		<skin render="true" random="false">
+			<path>skins\skin1.bmp</path>
+		</skin>
+	</gui>
+	<preference>
+		<setting always-processkey="true" auto-pause="0" avi-audio="1" fastforward="2" thread-priority="0" effect="0" log="false" />
+		<autofire enable="true" default-delay="3" />
+		<rewind enable="true" granularity="1" buffer-size="20" />
+	</preference>
+	<paths>
+		<rom>
+			<path>roms\</path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+			<path></path>
+		</rom>
+		<misc>
+			<path>previews\</path>
+			<path>cheats\</path>
+			<path>screenshots\</path>
+			<path>savestates\</path>
+			<path>recordings\</path>
+			<path>skins\</path>
+			<path>ips\</path>
+			<path>titles\</path>
+			<path>flyers\</path>
+			<path>scores\</path>
+			<path>selects\</path>
+			<path>gameovers\</path>
+			<path>bosses\</path>
+			<path>icons\</path>
+		</misc>
+	</paths>
+	<neomvs>
+		<game></game>
+		<game></game>
+		<game></game>
+		<game></game>
+		<game></game>
+		<game></game>
+	</neomvs>
+	<hotkeys>
+		<pause key="19" mod="0" />
+		<fast-foward key="32" mod="0" />
+		<frame-advance key="220" mod="0" />
+		<readonly key="57" mod="4" />
+		<dec-speed key="189" mod="4" />
+		<inc-speed key="187" mod="4" />
+		<frame-counter key="190" mod="0" />
+		<screenshot key="123" mod="0" />
+		<loadstate1 key="0" mod="0" />
+		<loadstate2 key="0" mod="0" />
+		<loadstate3 key="0" mod="0" />
+		<loadstate4 key="0" mod="0" />
+		<loadstate5 key="0" mod="0" />
+		<loadstate6 key="0" mod="0" />
+		<loadstate7 key="0" mod="0" />
+		<loadstate8 key="0" mod="0" />
+		<loadstate9 key="0" mod="0" />
+		<savestate1 key="0" mod="0" />
+		<savestate2 key="0" mod="0" />
+		<savestate3 key="0" mod="0" />
+		<savestate4 key="0" mod="0" />
+		<savestate5 key="0" mod="0" />
+		<savestate6 key="0" mod="0" />
+		<savestate7 key="0" mod="0" />
+		<savestate8 key="0" mod="0" />
+		<savestate9 key="0" mod="0" />
+		<sel-prevstate key="119" mod="0" />
+		<sel-nextstate key="122" mod="0" />
+		<load-curstate key="120" mod="0" />
+		<save-curstate key="121" mod="0" />
+		<load-dialog key="120" mod="1" />
+		<save-dialog key="121" mod="1" />
+		<start-rec key="82" mod="2" />
+		<play-rec key="80" mod="2" />
+		<end-rec key="84" mod="2" />
+		<start-avi key="86" mod="2" />
+		<end-avi key="69" mod="2" />
+		<cheat key="112" mod="1" />
+		<volume-down key="189" mod="0" />
+		<volume-up key="187" mod="0" />
+		<show-fps key="0" mod="0" />
+		<open-game key="117" mod="0" />
+		<quick-open key="117" mod="4" />
+		<exit-game key="115" mod="1" />
+		<config-pad key="116" mod="0" />
+		<dips key="116" mod="1" />
+		<shot-factory key="123" mod="1" />
+		<win-size1 key="49" mod="2" />
+		<win-size2 key="50" mod="2" />
+		<win-size3 key="51" mod="2" />
+		<win-size4 key="52" mod="2" />
+		<win-size5 key="53" mod="2" />
+		<fullscreen key="13" mod="2" />
+		<fake-full key="70" mod="1" />
+		<start-mvs key="0" mod="0" />
+		<rewind key="8" mod="0" />
+		<lua-open key="76" mod="1" />
+		<lua-close-all key="0" mod="0" />
+		<lua-reload key="0" mod="0" />
+		<lua-stop key="0" mod="0" />
+		<lua-hotkey1 key="0" mod="0" />
+		<lua-hotkey2 key="0" mod="0" />
+		<lua-hotkey3 key="0" mod="0" />
+		<lua-hotkey4 key="0" mod="0" />
+		<lua-hotkey5 key="0" mod="0" />
+	</hotkeys>
+</configuration>

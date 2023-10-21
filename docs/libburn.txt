@@ -1,0 +1,194 @@
+﻿libburn library
+===============
+
+
+Overview
+========
+libburn is a dynamic link library which used by fba shuffle.
+
+
+Usage
+=====
+In fbas v2.0, select libburn dll from "Help==>Select burn library" menu.
+Dll path will be saved into fbas.xml.
+
+
+API
+===
+...
+
+
+Changelog
+=========
+
+2.16 (2013-12-13)
+----------------
+- merged FB Alpha v0.2.97.29 driver updates.
+- updated romsets to match MAME 0.151.
+
+2.15 (2012-12-31)
+----------------
+- merged FB Alpha v0.2.97.28 driver updates.
+- updated romsets to match MAME 0.147u4.
+
+2.14 (2012-08-28)
+----------------
+- merged FB Alpha v0.2.97.27 driver updates.
+- added neogeo uni-bios v3.0.
+- updated romsets to match MAME 0.146u5.
+
+2.13 (2012-07-17)
+----------------
+- added ssf2d.
+- made dw2001 and dwpc working.
+- updated raiden driver.
+- updated romsets to match MAME 0.146u3.
+
+2.12 (2012-05-17)
+----------------
+- merged FB Alpha v0.2.97.26 driver updates.
+- fixed 3 players for knightsb.
+- updated romsets to match MAME 0.145u8.
+
+2.11 (2012-05-03)
+----------------
+- merged FB Alpha v0.2.97.25 driver updates.
+- changed default bios for ironclad.
+- updated romsets to match MAME 0.145u7.
+
+2.10 (2012-04-12)
+----------------
+- added sf2m12, sf2m13, sf2m14, sf2tlonc. [katana]
+- added Neo Thunder. (http://sebastianmihai.com/)
+- added kovassga.
+- made kovshp working.
+- updated romsets to match MAME 0.145u6.
+
+2.9 (2012-03-27)
+----------------
+- merged FB Alpha v0.2.97.24 driver updates.
+- removed kaillera hack romsets.
+- updated romsets to match MAME 0.145u5.
+
+2.8 (2012-03-11)
+----------------
+- merged FB Alpha v0.2.97.23 driver updates.
+- removed some bad dump romsets.
+- updated romsets to match MAME 0.145u3.
+
+2.7 (2012-02-07)
+----------------
+- fixed crash for some drivers. (Thanks to jjsnake for reporting bug)
+- fixed neogeo multi-slot list.
+- updated romsets to match MAME 0.145.
+
+2.6 (2012-02-02)
+----------------
+- merged FB Alpha v0.2.97.21 driver updates.
+- integrated kovplus patch.
+- removed genesis driver.
+- updated romsets to match MAME 0.144u7.
+
+2.5 (2012-01-20)
+----------------
+* this version is not compatibale with fbas v2.1.*, please update to fbas v2.2.
+- fixed crash when exit neogeo driver.
+- adjusted cheat interface.
+- updated romsets to match MAME 0.144u6.
+
+2.4 (2012-01-03)
+----------------
+- merged FB Alpha v0.2.97.18 driver updates.
+
+2.3 (2011-12-31)
+----------------
+- fixed pgm gfx.
+- increased max cheat option number to 256.
+- updated romsets to match MAME 0.144u4.
+
+2.2 (2011-12-21)
+----------------
+- merged FB Alpha v0.2.97.17 driver updates.
+- removed useless pgm homebrew romsets.
+- updated romsets to match MAME 0.144u3.
+
+2.1 (2011-12-11)
+----------------
+- fixed kf2k3bl kf2k3bla kf2k3pl kf2k3upl.
+- changed some default DIPS for neogeo driver.
+- updated romsets to match MAME 0.144u2.
+
+2.0 (2011-12-04)
+----------------
+* libburn 2.x is not compatibale with fbas v2.0, please update to fbas v2.1.
+- merged FB Alpha v0.2.97.14 driver updates.
+- added neogeo multi-slot support.
+- updated romsets to match MAME 0.144u1.
+
+1.5 (2011-11-18)
+----------------
+- rearranged neogeo driver.
+- updated romsets to match MAME 0.144.
+
+1.4 (2011-10-31)
+----------------
+- merged FB Alpha v0.2.97.13 driver updates.
+- fix gfx problem for olds.
+- some 64-bit fixes. [Themaister]
+- updated romsets to match MAME 0.143u9.
+
+1.3 (2011-10-11)
+----------------
+- fixed psikyosh driver.
+- fixed sound for m90 and m92 drivers. [iq_132]
+- updated romsets to match MAME 0.143u7.
+
+1.2 (2011-10-10)
+----------------
+- merged FB Alpha v0.2.97.10 driver updates.
+
+1.1 (2011-10-07)
+----------------
+- merged FB Alpha v0.2.97.09 driver updates.
+- fixed jockeygpd gfx problem.
+- updated romsets to match MAME 0.143u6.
+
+1.0 (2011-06-14)
+----------------
+- fixed demo of olds.
+- corrected fps for some pgm games.
+- added interface to get version number.
+
+
+0.6 (2011-06-09)
+----------------
+- made oldsplus working.
+- updated romsets to match MAME 0.142u5.
+
+0.5 (2011-04-08)
+----------------
+- removed jukebox interface.
+- updated romsets to match MAME 0.141u4.
+
+0.4 (2011-03-17)
+----------------
+- adjusted interfaces.
+
+0.3 (2011-03-01)
+----------------
+- some optimizations.
+- updated romsets to match MAME 0.141u3.
+
+0.2 (2011-02-25)
+----------------
+- cleanup interfaces.
+
+0.1 (2011-02-17)
+----------------
+- separated burn module to dll.
+
+
+Other
+=====
+The maintainers of FBA shuffle: KOF2112, Leaf, Creamymami.
+FBA shuffle homepage: http://code.google.com/p/fbashuffle/

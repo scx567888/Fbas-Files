@@ -1,0 +1,10 @@
+242-pn1.p1	Fix_10	CRC(61ac868a)
+
+[zh_CN]
+Bug修复/Daimon里投 & Clark弗兰肯必杀投 & Mary动感闪光 轻重混乱修正
+
+DAIMON里投&CLARK弗兰肯必杀投&MARY动感闪光轻重混乱修正:所谓混乱,
+是按B键可能出本来D键才会出的效果,反之亦然.原因是ACT目录区和ACT区的出招方式不统一(感谢danpaji&chl的提醒)
+.[后发现,DAIMON里投竟然也把判断A/C键的程序用来判断B/D键.-_-]
+
+修改者: ivex
